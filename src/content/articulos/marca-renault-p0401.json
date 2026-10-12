@@ -13,7 +13,7 @@
     "slug": "p0401"
   },
   "content_html": "<h1>Código P0401 Renault: causas, síntomas y solución</h1>\n<p class=\"intro\">En los Renault dCi, el P0401 suele relacionarse con la carbonilla acumulada en la válvula EGR y en sus conductos, favorecida por el uso urbano con motor frío. El sistema recircula gases para reducir NOx; cuando se obstruye, el flujo cae por debajo de lo previsto. Diagnostica antes de sustituir, porque muchas veces basta con una limpieza.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>EGR, admisión, enfriador de gases</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>60–250 € (limpieza o válvula) · 300–900 € (enfriador EGR)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con test de actuadores (Clip o equivalente), multímetro, limpiador de EGR</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Ralentí inestable o tirones a bajo régimen.</li><li>Pérdida de potencia.</li><li>Detonaciones («picado») en motores de gasolina.</li><li>Humo en diésel y aumento de emisiones.</li></ul>\n<h2>Causas principales</h2><ul><li>Válvula EGR obstruida por carbonilla o atascada.</li><li>Conductos o colector de admisión con depósitos.</li><li>Sensor de posición o de presión de la EGR defectuoso.</li><li>En válvulas neumáticas, fugas o fallo en el circuito de vacío o en la electroválvula.</li><li>Enfriador de EGR obstruido (diésel).</li></ul>\n<h2>Particularidades de Renault</h2><ul><li>Los motores 1.5 dCi son conocidos por acumular carbonilla en la válvula EGR y en el colector de admisión, sobre todo en uso urbano con trayectos cortos.</li><li>Además de la válvula, revisa el enfriador de EGR (en las versiones que lo montan): puede obstruirse por hollín y condensación.</li><li>Tras limpiar o sustituir la válvula, algunos modelos requieren aprendizaje de posiciones con un escáner específico.</li><li>Comprueba también el estado del filtro de partículas, porque un exceso de hollín del sistema de escape afecta a los parámetros de EGR.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Con el escáner, ejecuta el test de actuadores de la EGR y compara la posición real con la ordenada.</li><li>Desmonta la válvula e inspecciona la carbonilla; límpiala con un producto específico sin mojar los componentes eléctricos.</li><li>Limpia los conductos accesibles y comprueba el enfriador de EGR.</li><li>Si el motor eléctrico o el sensor de posición fallan, sustituye la válvula y realiza el aprendizaje de posiciones.</li><li>Borra los códigos y haz una prueba de carretera.</li></ol>\n<!--ad-slot-2-->",
-  "featured_image_prompt": "Renault dCi engine EGR valve and cooler pipework, technical photo, dark background",
+  "featured_image_prompt": "Diesel engine EGR valve and cooler pipework, technical photo, dark background, wide 16:9 composition, no text, no logos, no watermark",
   "schema_faq": [
     {
       "question": "¿Es normal el P0401 en un 1.5 dCi?",
@@ -36,5 +36,6 @@
   "related": [
     "p0401"
   ],
-  "brand_specific_points": 4
+  "brand_specific_points": 4,
+  "featured_image": "/img/articulos/marca-renault-p0401.webp"
 }
