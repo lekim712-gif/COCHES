@@ -19,7 +19,7 @@ const site = Astro.site!;
   </section>
   <div class="wrap home">
     <section>
-      <h2>Códigos de avería más consultados</h2>
+      <h2>Códigos de avería</h2>
       <ul class="cards">{codes.map((a) => <li><a href={urlOf(a)}><span class="code">{a.data.code}</span><span>{a.data.name}</span></a></li>)}</ul>
       <p><a href="/codigos/">Ver todos los códigos →</a></p>
     </section>
