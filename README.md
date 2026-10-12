@@ -1,4 +1,4 @@
-# CodigoAveria: web de diagnóstico OBD2
+# OBDCodigos: web de diagnóstico OBD2
 
 Sitio estático (Astro) de fichas técnicas de códigos de avería, testigos y mantenimiento, para España y Latinoamérica.
 

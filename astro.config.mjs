@@ -3,7 +3,7 @@ import sitemap from '@astrojs/sitemap';
 import { readFileSync, readdirSync } from 'node:fs';
 
 // Dominio canónico (sin www y sin barra final). Se define al comprar el dominio: SITE_URL=https://midominio.com
-const site = process.env.SITE_URL || 'https://codigoaveria.com';
+const site = process.env.SITE_URL || 'https://obdcodigos.com';
 
 // lastmod real = dateModified del JSON de cada artículo (nunca la fecha del build).
 const DIR = new URL('./src/content/articulos/', import.meta.url);

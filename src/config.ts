@@ -2,11 +2,11 @@
 export const PENDIENTE = '[PENDIENTE]';
 
 export const SITE = {
-  name: 'CodigoAveria',
+  name: 'OBDCodigos',
   tagline: 'Códigos de avería OBD2, testigos del tablero y mantenimiento',
   locale: 'es_ES',
   lang: 'es',
-  email: import.meta.env.PUBLIC_CONTACT_EMAIL || 'contacto@codigoaveria.com',
+  email: import.meta.env.PUBLIC_CONTACT_EMAIL || 'contacto@obdcodigos.com',
   // Titular legal (obligatorio por LSSI-CE). Rellenar antes de publicar.
   owner: {
     name: import.meta.env.PUBLIC_OWNER_NAME || PENDIENTE,

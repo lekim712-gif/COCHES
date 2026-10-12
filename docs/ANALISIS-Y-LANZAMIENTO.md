@@ -37,20 +37,7 @@ Un dominio nuevo suele tardar **varios meses** en recibir tráfico orgánico sig
 
 ## 2. Dominio
 
-No puedo registrar dominios desde este entorno; hay que comprarlo. Criterios: `.com` o `.es`, corto, fácil de dictar, sin guiones ni números, y que no contenga marcas de fabricantes.
-
-Candidatos comprobados con una consulta DNS desde este entorno (**solo una pista, no confirma disponibilidad**; verifícalos en el registrador):
-
-| Dominio | Consulta DNS |
-|---|---|
-| codigoaveria.com | sin registro DNS (posiblemente libre) |
-| codigosaveria.com | sin registro DNS (posiblemente libre) |
-| averiaobd.com | sin registro DNS (posiblemente libre) |
-| obdcodigos.es | sin registro DNS (posiblemente libre) |
-| testigoscoche.com | resuelve (probablemente ocupado) |
-| diagnosticoobd.com | resuelve (probablemente ocupado) |
-
-Compra recomendada: Cloudflare Registrar o similar, con renovación a precio de coste. Comprueba que el nombre no infringe marcas registradas. **Dominio canónico: apex sin `www`**, con redirección 301 de `www`.
+**Elegido: `obdcodigos.com`** (marca «OBDCodigos»). Neutro para España y Latinoamérica ("avería" es palabra de España; "OBD" y "códigos" funcionan en todos los países), `.com`, corto y sin marcas de fabricantes. Dominio canónico: apex sin `www`, con redirección 301 de `www`. Pendiente: confirmar en el registrador que está comprado a nombre del titular y que no infringe marcas registradas.
 
 ## 3. Lo que se ha construido
 
