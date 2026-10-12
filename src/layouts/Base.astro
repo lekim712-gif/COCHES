@@ -23,7 +23,7 @@ const nav = [['/codigos/', CATEGORIES.codigo.label], ['/testigos-tablero/', CATE
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title}</title>
   <meta name="description" content={description} />
-  <link rel="canonical" href={canonical} />
+  {!noindex && <link rel="canonical" href={canonical} />}
   <meta name="robots" content={robots} />
   <meta name="theme-color" content="#14181f" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />

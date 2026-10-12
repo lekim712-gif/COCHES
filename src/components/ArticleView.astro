@@ -23,7 +23,7 @@ const jsonLd = [
   { '@type': 'FAQPage', mainEntity: d.schema_faq.map((q) => ({ '@type': 'Question', name: q.question, acceptedAnswer: { '@type': 'Answer', text: q.answer } })) },
 ];
 ---
-<Base title={d.seo.meta_title} description={d.seo.meta_description} type="article" modified={d.dateModified} published={d.datePublished} image={ogImg} jsonLd={jsonLd}>
+<Base title={d.seo.meta_title} description={d.seo.meta_description} type="article" noindex={!reviewed && !SITE.indexUnreviewed} modified={d.dateModified} published={d.datePublished} image={ogImg} jsonLd={jsonLd}>
   <div class="wrap article-wrap">
     <nav class="crumbs" aria-label="Migas de pan"><ol>{crumbs.map(([n, h], i) => <li>{i < crumbs.length - 1 ? <a href={h}>{n}</a> : <span aria-current="page">{n}</span>}</li>)}</ol></nav>
     <article class="article">

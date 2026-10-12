@@ -25,6 +25,14 @@ _Actualizado: 12 de octubre de 2026._
 7. **AdSense:** solicitarlo con 20-30 fichas revisadas e indexadas. Después, rellenar `PUBLIC_ADSENSE_CLIENT` y los slots, y configurar el mensaje de consentimiento (Privacidad y mensajes).
 8. **Amazon Afiliados (amazon.es):** solicitarlo con la web en línea; rellenar `PUBLIC_AMAZON_TAG`.
 
+## Estrategia de indexación (decidida)
+- **Una ficha solo es indexable cuando está revisada.** Sin revisar se publica con `noindex, follow`, sin canonical y fuera del sitemap. Al marcarla con `npm run reviewed -- <ficha>` pasa a indexable y entra en el sitemap.
+- **Lanzamiento:** revisar las 21 y añadir 10-15 más hasta unas 30-35 indexables; publicar ese bloque junto. Después, 5-10 fichas por semana durante 6-8 semanas.
+- **Punto de control semanal en Search Console:** si la mayoría de las fichas sale como «Rastreada, sin indexar» o «Descubierta, sin indexar», pausar y mejorar la plantilla antes de añadir más.
+- **Escalar solo las familias que reciben impresiones.** Fichas por marca solo con particularidades reales.
+- Interruptor de emergencia: `PUBLIC_INDEX_UNREVIEWED=1` indexa todo sin esperar revisión (no recomendado).
+- `npm run build:prod` avisa de cuántas fichas son indexables.
+
 ## Decisiones tomadas
 - Nicho OBD2 en español, España primero; electrodomésticos queda como posible segundo sitio si este funciona.
 - Fichas por marca solo con particularidades reales de la plataforma (el validador lo exige).

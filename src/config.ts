@@ -18,6 +18,8 @@ export const SITE = {
     name: import.meta.env.PUBLIC_REVIEWER_NAME || '',
     years: Number(import.meta.env.PUBLIC_REVIEWER_EXPERIENCE || 0),
   },
+  // false = las fichas sin revisar se publican con noindex y fuera del sitemap. Poner PUBLIC_INDEX_UNREVIEWED=1 para indexarlas igualmente.
+  indexUnreviewed: import.meta.env.PUBLIC_INDEX_UNREVIEWED === '1',
   adsenseClient: import.meta.env.PUBLIC_ADSENSE_CLIENT || '', // ca-pub-XXXXXXXXXXXXXXXX
   adSlots: { 1: import.meta.env.PUBLIC_ADSLOT_1 || '', 2: import.meta.env.PUBLIC_ADSLOT_2 || '' },
   amazonTag: import.meta.env.PUBLIC_AMAZON_TAG || '', // p. ej. micuenta-21
