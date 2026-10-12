@@ -1,0 +1,39 @@
+{
+  "type": "codigo",
+  "code": "U0100",
+  "name": "Pérdida de comunicación con el módulo de control del motor (ECM/PCM)",
+  "datePublished": "2026-10-12",
+  "dateModified": "2026-10-12",
+  "review_status": "draft-ia",
+  "seo": {
+    "meta_title": "Código U0100: causas, síntomas y solución",
+    "meta_description": "U0100: pérdida de comunicación con la centralita del motor. Causas (bus CAN, alimentación, masas), síntomas y cómo medir el bus CAN con multímetro.",
+    "slug": "u0100"
+  },
+  "content_html": "<h1>Código U0100: Pérdida de comunicación con el módulo de control del motor (ECM/PCM)</h1>\n<p class=\"intro\">El código U0100 indica que otro módulo del vehículo ha dejado de recibir mensajes de la centralita del motor (ECM/PCM) a través de la red CAN. Es un código de red, no de un sensor. Las causas habituales son alimentación o masas deficientes, un fallo del cableado del bus CAN o una centralita averiada. Puede impedir el arranque.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta: puede inmovilizar el vehículo</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Red CAN, alimentación y masas, módulos de control</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–150 € (fusible, masas, cableado) · 400–1.500 € (centralita)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 multimarca, multímetro, esquema eléctrico, osciloscopio (recomendado)</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>El motor no arranca o se para.</li><li>Varios testigos encendidos a la vez en el cuadro.</li><li>Cuadro de instrumentos con lecturas erróneas o apagado.</li><li>Imposible comunicar con la centralita con el escáner.</li><li>Fallos intermitentes que dependen de la humedad o la vibración.</li></ul>\n<h2>Causas principales</h2><ul><li>Batería baja o alimentación inestable.</li><li>Fusibles o relés de la centralita defectuosos.</li><li>Masas oxidadas o flojas.</li><li>Cableado del bus CAN cortado, rozado o con humedad.</li><li>Resistencia terminadora del bus alterada.</li><li>Centralita del motor averiada.</li><li>Otro módulo que bloquea la red.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Comprueba la tensión de la batería con el multímetro: debería estar por encima de unos 12,4 V en reposo. Una batería débil provoca múltiples códigos U.</li><li>Revisa los fusibles y relés que alimentan la centralita del motor consultando el esquema eléctrico.</li><li>Inspecciona las masas del motor y de la carrocería: limpia y aprieta las conexiones oxidadas.</li><li>Intenta comunicar con la centralita con el escáner. Anota con qué módulos sí se comunica.</li><li>Con la batería desconectada, mide la resistencia entre CAN-H y CAN-L en el conector OBD2 (pines 6 y 14): un bus sano suele dar aproximadamente 60 Ω (dos terminadores de 120 Ω en paralelo).</li><li>Si la resistencia es de unos 120 Ω o infinita, hay una rotura o un terminador desconectado; si es muy baja, hay un cortocircuito en el bus.</li><li>Repara el cableado afectado o sustituye la centralita solo cuando alimentación, masas y bus estén confirmados.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "OBD2 diagnostic connector under a car dashboard with CAN bus wires, technical photo, dark background",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con el U0100?",
+      "answer": "Depende de si el coche arranca y mantiene la comunicación, pero es un fallo serio: puede inmovilizar el vehículo de forma repentina."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar el U0100?",
+      "answer": "Entre 30 y 150 € si es un fusible, una masa o un cableado. Si hay que sustituir o reprogramar la centralita, entre 400 y 1.500 €."
+    },
+    {
+      "question": "¿Qué significa la letra U en un código OBD2?",
+      "answer": "U corresponde a la red de comunicaciones (Network). Las otras letras son P (motor y transmisión), B (carrocería) y C (chasis)."
+    }
+  ],
+  "products": [
+    "escáner obd2 profesional multimarca",
+    "multímetro digital automotriz",
+    "cargador mantenedor de batería",
+    "tester de batería"
+  ],
+  "related": [
+    "p0335",
+    "testigo-bateria"
+  ]
+}

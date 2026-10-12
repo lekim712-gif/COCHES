@@ -1,0 +1,40 @@
+{
+  "type": "codigo",
+  "code": "P0171",
+  "name": "Mezcla demasiado pobre (banco 1)",
+  "datePublished": "2026-10-12",
+  "dateModified": "2026-10-12",
+  "review_status": "draft-ia",
+  "seo": {
+    "meta_title": "Código P0171: causas, síntomas y solución",
+    "meta_description": "P0171: mezcla pobre en el banco 1. Descubre las causas (fugas de aire, MAF, presión de combustible), síntomas y cómo diagnosticarlo con los ajustes de combustible.",
+    "slug": "p0171"
+  },
+  "content_html": "<h1>Código P0171: Mezcla demasiado pobre (banco 1)</h1>\n<p class=\"intro\">El código P0171 aparece cuando la centralita añade combustible al máximo permitido y aun así la sonda lambda del banco 1 detecta exceso de oxígeno. Es decir, entra más aire del que el sistema calcula o llega menos combustible del necesario. Se diagnostica leyendo los ajustes de combustible a corto y largo plazo (STFT y LTFT) con datos en vivo.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: afecta al consumo y puede dañar el catalizador</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Admisión, medición de aire, alimentación de combustible, escape</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–120 € (manguitos, MAF) · 150–400 € (inyectores, bomba)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, limpiador de MAF, detector de fugas por humo, manómetro de presión de combustible</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Ralentí inestable o motor que se cala.</li><li>Tirones y falta de potencia, sobre todo en aceleración.</li><li>Silbidos en la admisión por una fuga de aire.</li><li>Consumo algo mayor de lo habitual.</li></ul>\n<h2>Causas principales</h2><ul><li>Fugas de aire en manguitos, colector de admisión o juntas.</li><li>Caudalímetro (MAF) sucio o defectuoso que mide menos aire del real.</li><li>Presión de combustible baja por filtro obstruido o bomba debilitada.</li><li>Inyectores parcialmente obstruidos.</li><li>Fugas en el escape antes de la sonda lambda.</li><li>Válvula de ventilación del cárter (PCV) rota o con fuga.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los ajustes de combustible con datos en vivo. Valores positivos altos (por ejemplo, por encima de +10 %) confirman que la ECU está enriqueciendo para compensar.</li><li>Observa cómo cambian al subir a unas 2.500 rpm. Si el ajuste mejora al subir, la causa es una fuga de aire: el efecto de la fuga pesa menos con más caudal.</li><li>Si el ajuste empeora con la carga, sospecha de falta de combustible (presión o inyectores) o de un MAF que mide de menos.</li><li>Inspecciona todos los manguitos de admisión, la PCV y las abrazaderas. Busca grietas y juntas aplastadas.</li><li>Realiza una prueba de fugas con humo o, con precaución, pulveriza limpiador de contactos en las uniones con el motor al ralentí buscando cambios de régimen.</li><li>Limpia el MAF solo con limpiador específico, sin tocar el elemento sensor, y comprueba de nuevo.</li><li>Mide la presión de combustible y compárala con la especificación. Borra los códigos y valida con una prueba de carretera.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Mass air flow sensor and intake hose on a petrol engine, technical close-up, dark background, studio lighting",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con el P0171?",
+      "answer": "Sí, durante un tiempo limitado, pero una mezcla pobre sostenida calienta más la cámara de combustión y puede dañar bujías, válvulas y catalizador. Repáralo cuanto antes."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar el P0171?",
+      "answer": "Una fuga en un manguito o un MAF sucio se resuelve por 30–120 €. Cambiar inyectores o la bomba de combustible puede llegar a 150–400 €, más mano de obra."
+    },
+    {
+      "question": "¿Qué significa banco 1?",
+      "answer": "Es el lado del motor donde está el cilindro número 1. En motores de cuatro cilindros en línea solo existe el banco 1."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "limpiador de caudalímetro MAF",
+    "comprobador de presión de combustible",
+    "detector de fugas de humo automoción"
+  ],
+  "related": [
+    "p0172",
+    "p0420",
+    "p0300"
+  ]
+}

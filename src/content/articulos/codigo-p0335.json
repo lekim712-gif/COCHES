@@ -1,0 +1,38 @@
+{
+  "type": "codigo",
+  "code": "P0335",
+  "name": "Circuito del sensor de posición del cigüeñal «A»",
+  "datePublished": "2026-10-12",
+  "dateModified": "2026-10-12",
+  "review_status": "draft-ia",
+  "seo": {
+    "meta_title": "Código P0335: causas, síntomas y solución",
+    "meta_description": "P0335: fallo en el circuito del sensor del cigüeñal. Síntomas (no arranca, se cala), causas y cómo comprobar el sensor y la rueda fónica con multímetro.",
+    "slug": "p0335"
+  },
+  "content_html": "<h1>Código P0335: Circuito del sensor de posición del cigüeñal «A»</h1>\n<p class=\"intro\">El código P0335 indica que la centralita no recibe una señal válida del sensor de posición del cigüeñal. Este sensor informa del régimen y de la posición exacta del motor, imprescindible para sincronizar encendido e inyección. Sin esa señal, el motor puede negarse a arrancar o calarse en marcha, y el cuentarrevoluciones puede quedarse a cero.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta: puede dejar el vehículo parado</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sensores, cableado, sincronización de encendido e inyección</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>40–200 € (sensor) · más si hay que reparar el cableado</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, multímetro, osciloscopio (recomendado), manual de taller</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>El motor gira pero no arranca.</li><li>Calados repentinos, a veces en caliente.</li><li>Cuentarrevoluciones que cae a cero o se mueve de forma errática.</li><li>Testigo de motor encendido.</li><li>Arranques intermitentes.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor del cigüeñal defectuoso o recalentado.</li><li>Cableado dañado, conector sulfatado o masa deficiente.</li><li>Rueda fónica deteriorada, con dientes dañados o sucia de limaduras.</li><li>Entrehierro (distancia sensor-rueda) incorrecto tras un montaje.</li><li>Interferencias eléctricas o fallo de la propia centralita (poco frecuente).</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Con el escáner, comprueba si el régimen del motor aparece en datos en vivo mientras arrancas. Si es 0 rpm con el motor girando, la señal no llega.</li><li>Inspecciona el sensor, su conector y el cableado: busca cortes, roces, humedad o terminales sulfatados.</li><li>Identifica el tipo de sensor. Un sensor inductivo se mide por resistencia (valor según el manual); uno de efecto Hall necesita alimentación y masa y entrega una señal cuadrada.</li><li>En un sensor Hall, comprueba alimentación (5 o 12 V según modelo) y masa con el multímetro.</li><li>Si dispones de osciloscopio, observa la señal mientras arranca: debe ser regular y mostrar el hueco de sincronismo de la rueda fónica.</li><li>Retira el sensor e inspecciona la rueda fónica y el sensor: limaduras, daños o holgura excesiva.</li><li>Sustituye el sensor por uno equivalente, respeta el entrehierro especificado, borra los códigos y confirma el arranque.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Crankshaft position sensor next to a toothed trigger wheel, technical macro photo, dark background",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con el P0335?",
+      "answer": "No es recomendable: el motor puede calarse en cualquier momento, incluso en plena circulación, con la consiguiente pérdida de asistencia de dirección y frenos."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar el P0335?",
+      "answer": "Un sensor nuevo cuesta entre 40 y 200 € más mano de obra. Si el problema es de cableado o de la rueda fónica, el coste sube."
+    },
+    {
+      "question": "¿Es lo mismo el sensor de cigüeñal que el de árbol de levas?",
+      "answer": "No. El de cigüeñal mide régimen y posición del motor; el de levas identifica la fase de cada cilindro. Sus códigos son distintos (P0335 frente a P0340)."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "osciloscopio automotriz portátil"
+  ],
+  "related": [
+    "p0300",
+    "u0100"
+  ]
+}

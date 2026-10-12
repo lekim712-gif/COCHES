@@ -1,0 +1,13 @@
+---
+import ArticleView from '../../../components/ArticleView.astro';
+import { allArticles, byType, urlOf } from '../../../lib/articles';
+export async function getStaticPaths() {
+  const all = await allArticles();
+  return byType(all, 'marca').map((a) => ({ params: { marca: a.data.brand, slug: a.data.seo.slug }, props: { a } }));
+}
+const { a } = Astro.props;
+const all = await allArticles();
+const base = all.find((x) => x.data.type === 'codigo' && x.data.code === a.data.code);
+---
+<ArticleView article={a} all={all} extraLinks={base ? [base] : []}
+  crumbs={[['Inicio', '/'], ['Por marca', '/marcas/'], [a.data.brand_name?.split(' (')[0] ?? '', `/marcas/${a.data.brand}/`], [a.data.code ?? '', urlOf(a)]]} />

@@ -1,0 +1,88 @@
+---
+import '../styles/global.css';
+import { SITE, CATEGORIES } from '../config';
+interface Props { title: string; description: string; noindex?: boolean; type?: 'website' | 'article'; jsonLd?: object[]; modified?: string; published?: string; }
+const { title, description, noindex = false, type = 'website', jsonLd = [], modified, published } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const og = new URL('/og-default.png', Astro.site).href;
+const robots = noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large';
+const orgId = new URL('/#organization', Astro.site).href;
+const graph = [
+  { '@type': 'Organization', '@id': orgId, name: SITE.name, url: new URL('/', Astro.site).href, logo: new URL('/favicon.svg', Astro.site).href },
+  { '@type': 'WebSite', '@id': new URL('/#website', Astro.site).href, url: new URL('/', Astro.site).href, name: SITE.name, inLanguage: SITE.lang, publisher: { '@id': orgId } },
+  ...jsonLd,
+];
+const ads = SITE.adsenseClient;
+const fc = ads ? `https://fundingchoicesmessages.google.com/i/${ads.replace(/^ca-/, '')}?ers=1` : '';
+const nav = [['/codigos/', CATEGORIES.codigo.label], ['/testigos-tablero/', CATEGORIES.testigo.label], ['/mantenimiento-guias/', CATEGORIES.guia.label], ['/marcas/', 'Por marca']];
+---
+<!doctype html>
+<html lang={SITE.lang}>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  <meta name="robots" content={robots} />
+  <meta name="theme-color" content="#14181f" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <meta property="og:type" content={type} />
+  <meta property="og:site_name" content={SITE.name} />
+  <meta property="og:locale" content={SITE.locale} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:image" content={og} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  {published && <meta property="article:published_time" content={published} />}
+  {modified && <meta property="article:modified_time" content={modified} />}
+  <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@graph': graph })} />
+  <!-- Consent Mode v2: denegado por defecto, ANTES de cargar cualquier etiqueta de Google -->
+  <script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent','default',{ad_storage:'denied',analytics_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});
+  </script>
+  {fc && <script async src={fc} is:inline></script>}
+  {ads && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ads}`} crossorigin="anonymous" is:inline></script>}
+  {SITE.gaId && <script async src={`https://www.googletagmanager.com/gtag/js?id=${SITE.gaId}`} is:inline></script>}
+  {SITE.gaId && <script is:inline define:vars={{ id: SITE.gaId }}>gtag('js', new Date()); gtag('config', id);</script>}
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="/" aria-label={`${SITE.name}, inicio`}><span class="brand-mark" aria-hidden="true">P0</span>{SITE.name}</a>
+      <nav aria-label="Principal"><ul>{nav.map(([h, l]) => <li><a href={h} aria-current={Astro.url.pathname.startsWith(h) ? 'page' : undefined}>{l}</a></li>)}</ul></nav>
+    </div>
+  </header>
+  <main id="contenido"><slot /></main>
+  <footer class="site-footer">
+    <div class="wrap foot">
+      <div>
+        <strong>{SITE.name}</strong>
+        <p>Fichas técnicas de diagnóstico OBD2 para España y Latinoamérica. La información es orientativa: consulta siempre el manual de taller de tu vehículo.</p>
+      </div>
+      <nav aria-label="Información"><ul>
+        <li><a href="/metodologia/">Metodología editorial</a></li>
+        <li><a href="/sobre-nosotros/">Sobre nosotros</a></li>
+        <li><a href="/contacto/">Contacto</a></li>
+        <li><a href="/aviso-legal/">Aviso legal</a></li>
+        <li><a href="/privacidad/">Privacidad</a></li>
+        <li><a href="/cookies/">Cookies</a></li>
+        <li><button type="button" id="privacy-settings">Gestionar privacidad</button></li>
+      </ul></nav>
+    </div>
+    <p class="wrap copy">© {new Date().getFullYear()} {SITE.name}</p>
+  </footer>
+  <script is:inline>
+    document.getElementById('privacy-settings')?.addEventListener('click', function () {
+      if (window.googlefc && googlefc.showRevocationMessage) googlefc.showRevocationMessage();
+      else window.location.href = '/cookies/';
+    });
+  </script>
+</body>
+</html>

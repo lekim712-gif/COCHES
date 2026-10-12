@@ -1,0 +1,40 @@
+{
+  "type": "codigo",
+  "code": "P0300",
+  "name": "Fallo de encendido aleatorio o múltiple",
+  "datePublished": "2026-10-12",
+  "dateModified": "2026-10-12",
+  "review_status": "draft-ia",
+  "seo": {
+    "meta_title": "Código P0300: causas, síntomas y solución",
+    "meta_description": "P0300: fallos de encendido en varios cilindros. Síntomas, causas (bujías, bobinas, inyectores, fugas de vacío) y diagnóstico paso a paso para repararlo.",
+    "slug": "p0300"
+  },
+  "content_html": "<h1>Código P0300: Fallo de encendido aleatorio o múltiple</h1>\n<p class=\"intro\">El código P0300 indica que la centralita detecta fallos de encendido en uno o varios cilindros sin poder asignarlos a uno concreto. Lo calcula a partir de las irregularidades en la velocidad del cigüeñal. Si el testigo de motor parpadea, el combustible sin quemar está llegando al catalizador y conviene detener el vehículo cuanto antes para evitar daños.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta si el testigo parpadea; media si está fijo</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Encendido, alimentación de combustible, admisión, compresión</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>40–150 € (bujías/bobinas) · hasta 1.500 € (causa mecánica)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, llave de bujías, multímetro, manómetro de compresión, detector de fugas de vacío</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Motor que tiembla o funciona irregular, sobre todo al ralentí.</li><li>Tirones y pérdida de potencia en aceleración.</li><li>Testigo de motor fijo o parpadeante.</li><li>Olor a gasolina sin quemar y arranque difícil.</li><li>Aumento del consumo de combustible.</li></ul>\n<h2>Causas principales</h2><ul><li>Bujías desgastadas o con holgura de electrodos incorrecta.</li><li>Bobinas de encendido o cables de alta tensión defectuosos.</li><li>Inyectores obstruidos o con fugas.</li><li>Mezcla pobre por fugas de aire no medido o filtro de combustible obstruido.</li><li>Compresión baja por válvulas, segmentos o junta de culata.</li><li>Fallo del sensor de posición del cigüeñal o del árbol de levas.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos adicionales: si aparecen P0301 a P0312, el cilindro afectado orienta el diagnóstico. Anota los datos congelados (carga, temperatura y régimen).</li><li>Si el testigo parpadea, evita circular. El combustible sin quemar puede destruir el catalizador en poco tiempo.</li><li>Inspecciona las bujías: su estado indica la mezcla (hollín = rica, blancas = pobre) y si hay aceite. Cámbialas si superan el intervalo del fabricante.</li><li>Si fallan varios cilindros, busca una causa común: fugas de vacío, presión de combustible baja o un sensor de cigüeñal defectuoso.</li><li>Si el fallo es de un único cilindro, intercambia la bobina con la de otro y comprueba si el fallo se desplaza con ella.</li><li>Mide la presión de combustible y compárala con la especificación del fabricante (en bar o psi).</li><li>Si todo es correcto, realiza una prueba de compresión o de fugas por cilindro para descartar daños mecánicos.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Spark plug and ignition coil removed from a petrol engine on a workbench, macro photo, technical style, dark background",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con el P0300?",
+      "answer": "Con el testigo fijo, solo trayectos cortos hasta el taller. Si parpadea, no: el combustible sin quemar sobrecalienta el catalizador y puede destruirlo."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar un P0300?",
+      "answer": "Un cambio de bujías o bobinas ronda los 40–150 €. Si la causa es mecánica (compresión, junta de culata) puede superar los 1.500 €."
+    },
+    {
+      "question": "¿Qué diferencia hay entre P0300 y P0301?",
+      "answer": "P0300 indica fallos aleatorios o en varios cilindros. P0301 señala el fallo en el cilindro 1, P0302 en el 2, y así sucesivamente."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "juego de llaves de bujías",
+    "multímetro digital automotriz",
+    "comprobador de compresión de motor"
+  ],
+  "related": [
+    "p0171",
+    "p0335",
+    "p0420"
+  ]
+}

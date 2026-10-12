@@ -1,0 +1,40 @@
+{
+  "type": "marca",
+  "brand": "grupo-psa",
+  "brand_name": "Grupo PSA (Peugeot, Citroën, DS, Opel)",
+  "code": "P2002",
+  "name": "P2002 en Grupo PSA (Peugeot, Citroën, DS, Opel)",
+  "datePublished": "2026-10-12",
+  "dateModified": "2026-10-12",
+  "review_status": "draft-ia",
+  "seo": {
+    "meta_title": "Código P2002 Grupo PSA: causas y solución",
+    "meta_description": "P2002 en Peugeot y Citroën con FAP: sistema con aditivo Eolys, sensor de presión diferencial y regeneración. Causas, diagnóstico y costes aproximados.",
+    "slug": "p2002"
+  },
+  "content_html": "<h1>Código P2002 Grupo PSA: causas, síntomas y solución</h1>\n<p class=\"intro\">En los diésel HDi de Peugeot y Citroën con filtro de partículas y aditivo (sistema DPX/Eolys), el P2002 suele tener causas propias del sistema: nivel de aditivo, bomba del aditivo y sensor de presión diferencial. Las generaciones más recientes (BlueHDi) funcionan de otra forma, así que identifica antes qué sistema monta tu coche.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media-alta</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>FAP con aditivo, inyección diésel, sensores</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>150–400 € (limpieza) · 800–2.500 € (sustitución)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con regeneración y reinicio del aditivo (Diagbox o equivalente), multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo del filtro de partículas y del motor encendidos.</li><li>Pérdida de potencia y modo de emergencia.</li><li>Regeneraciones muy frecuentes y consumo mayor.</li><li>Humo negro o blanco anómalo.</li><li>Aumento del nivel de aceite por dilución con combustible.</li></ul>\n<h2>Causas principales</h2><ul><li>Filtro saturado de hollín o con exceso de ceniza.</li><li>Filtro fisurado, fundido o retirado.</li><li>Sensor de presión diferencial o sus tubos obstruidos o dañados.</li><li>Regeneraciones incompletas por trayectos urbanos cortos.</li><li>Sensores de temperatura del escape defectuosos.</li><li>Inyectores o EGR con fallos que generan exceso de hollín.</li></ul>\n<h2>Particularidades de Grupo PSA (Peugeot, Citroën, DS, Opel)</h2><ul><li>Los HDi con FAP de la generación anterior a BlueHDi utilizan un aditivo (Eolys) en un depósito independiente; si el nivel es bajo o la bomba del aditivo falla, el filtro no se regenera bien.</li><li>El kilometraje del aditivo y del FAP se gestiona en la centralita: tras recargar el aditivo o sustituir el filtro, hay que reiniciar los contadores con un escáner específico.</li><li>Los tubos del sensor de presión diferencial se obstruyen o agrietan con el tiempo y dan lecturas falsas que activan el código.</li><li>Los trayectos urbanos cortos son la causa más frecuente de regeneraciones incompletas en estos motores.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Identifica si el coche monta FAP con aditivo (depósito de Eolys) o un sistema sin aditivo.</li><li>Lee con el escáner específico el nivel de aditivo, los kilómetros desde la última regeneración y la presión diferencial.</li><li>Revisa los tubos y el conector del sensor de presión diferencial.</li><li>Realiza una regeneración forzada y recarga el aditivo si procede, reiniciando los contadores.</li><li>Si el filtro está saturado o dañado, limpia o sustituye y reinicia los valores de aprendizaje.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Peugeot Citroen diesel engine with particulate filter and additive tank, technical photo, dark background",
+  "schema_faq": [
+    {
+      "question": "¿Qué es el Eolys?",
+      "answer": "Es el aditivo que usan algunos sistemas FAP de PSA para bajar la temperatura de combustión del hollín y facilitar la regeneración."
+    },
+    {
+      "question": "¿Puedo rellenar el aditivo yo mismo?",
+      "answer": "Es posible en algunos modelos, pero hay que reiniciar los contadores con un escáner específico. Si no, la centralita seguirá con el valor antiguo."
+    },
+    {
+      "question": "¿Cuánto cuesta repararlo en un Peugeot o Citroën?",
+      "answer": "Una limpieza del filtro cuesta entre 150 y 400 €; una sustitución, entre 800 y 2.500 €."
+    }
+  ],
+  "products": [
+    "escáner OBD2 para Peugeot Citroën Diagbox",
+    "limpiador de filtro de partículas DPF",
+    "multímetro digital automotriz"
+  ],
+  "related": [
+    "p2002"
+  ],
+  "brand_specific_points": 4
+}

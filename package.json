@@ -1,0 +1,16 @@
+{
+  "name": "coches-obd2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "seed": "node scripts/seed-content.mjs",
+    "validate": "node scripts/validate-content.mjs",
+    "build": "node scripts/validate-content.mjs && astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^5.18.2"
+  }
+}

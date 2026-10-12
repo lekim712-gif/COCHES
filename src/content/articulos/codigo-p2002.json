@@ -1,0 +1,39 @@
+{
+  "type": "codigo",
+  "code": "P2002",
+  "name": "Eficiencia del filtro de partículas por debajo del umbral (banco 1)",
+  "datePublished": "2026-10-12",
+  "dateModified": "2026-10-12",
+  "review_status": "draft-ia",
+  "seo": {
+    "meta_title": "Código P2002: causas, síntomas y solución",
+    "meta_description": "P2002: eficiencia del filtro de partículas (DPF/FAP) por debajo del umbral. Causas, síntomas, regeneración forzada y diagnóstico paso a paso del sistema.",
+    "slug": "p2002"
+  },
+  "content_html": "<h1>Código P2002: Eficiencia del filtro de partículas por debajo del umbral (banco 1)</h1>\n<p class=\"intro\">El código P2002 indica que la centralita considera que el filtro de partículas diésel (DPF o FAP) no está reteniendo el hollín con la eficiencia exigida. Puede deberse a un filtro saturado, dañado o retirado, a un sensor de presión diferencial defectuoso o a regeneraciones incompletas causadas por trayectos cortos. Suele acompañarse del testigo del filtro.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media-alta: riesgo de saturación y modo de emergencia</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Filtro de partículas, sensores de presión y temperatura, escape</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>150–400 € (limpieza) · 800–2.500 € (sustitución)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con regeneración forzada, multímetro, herramienta para limpieza de DPF</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo del filtro de partículas y del motor encendidos.</li><li>Pérdida de potencia y modo de emergencia.</li><li>Regeneraciones muy frecuentes y consumo mayor.</li><li>Humo negro o blanco anómalo.</li><li>Aumento del nivel de aceite por dilución con combustible.</li></ul>\n<h2>Causas principales</h2><ul><li>Filtro saturado de hollín o con exceso de ceniza.</li><li>Filtro fisurado, fundido o retirado.</li><li>Sensor de presión diferencial o sus tubos obstruidos o dañados.</li><li>Regeneraciones incompletas por trayectos urbanos cortos.</li><li>Sensores de temperatura del escape defectuosos.</li><li>Inyectores o EGR con fallos que generan exceso de hollín.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee el estado del filtro con el escáner: carga de hollín, presión diferencial al ralentí y kilómetros desde la última regeneración. Compara con las especificaciones del fabricante.</li><li>Revisa los tubos y el conector del sensor de presión diferencial: grietas, obstrucciones o humedad pueden dar lecturas falsas.</li><li>Comprueba los sensores de temperatura del escape y que sus lecturas sean coherentes antes y después del filtro.</li><li>Si la carga de hollín es alta, intenta una regeneración forzada con el escáner siguiendo el procedimiento del fabricante (normalmente con el vehículo parado y con nivel de combustible suficiente).</li><li>Inspecciona el filtro por si hay fisuras o fusión del sustrato y verifica que no haya sido vaciado o manipulado.</li><li>Si el filtro está saturado de ceniza, es posible limpiarlo en un taller especializado; si está dañado, hay que sustituirlo.</li><li>Corrige las causas de origen (EGR, inyectores, aceite) y borra los códigos. Vuelve a regenerar y comprueba que el valor de presión se normaliza.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Diesel particulate filter cut open showing clogged soot channels, technical photo, dark background",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con el P2002?",
+      "answer": "Un tiempo limitado y evitando trayectos urbanos cortos. Un filtro saturado puede dañarse al regenerar de forma incontrolada y dejar el coche en modo de emergencia."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar el P2002?",
+      "answer": "Una limpieza profesional cuesta entre 150 y 400 €. Sustituir el filtro por uno nuevo cuesta entre 800 y 2.500 € según el modelo."
+    },
+    {
+      "question": "¿Se puede quitar el filtro de partículas?",
+      "answer": "Retirar o vaciar el filtro es ilegal para circular en España y la UE, y no superará la ITV. Repáralo o sustitúyelo por uno homologado."
+    }
+  ],
+  "products": [
+    "escáner obd2 profesional con regeneración DPF",
+    "limpiador de filtro de partículas DPF",
+    "multímetro digital automotriz"
+  ],
+  "related": [
+    "p0401",
+    "p0299",
+    "testigo-filtro-particulas"
+  ]
+}

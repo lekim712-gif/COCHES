@@ -1,0 +1,14 @@
+---
+import ArticleView from '../../components/ArticleView.astro';
+import { allArticles, byType, urlOf } from '../../lib/articles';
+export async function getStaticPaths() {
+  const all = await allArticles();
+  return byType(all, 'codigo').map((a) => ({ params: { slug: a.data.seo.slug }, props: { a } }));
+}
+const { a } = Astro.props;
+const all = await allArticles();
+// El silo base enlaza a sus variantes por marca (y las variantes enlazan de vuelta a la base).
+const variants = byType(all, 'marca').filter((m) => m.data.code === a.data.code);
+---
+<ArticleView article={a} all={all} extraLinks={variants}
+  crumbs={[['Inicio', '/'], ['Códigos OBD2', '/codigos/'], [a.data.code ?? a.data.name, urlOf(a)]]} />

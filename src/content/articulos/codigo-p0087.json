@@ -1,0 +1,39 @@
+{
+  "type": "codigo",
+  "code": "P0087",
+  "name": "Presión del raíl de combustible demasiado baja",
+  "datePublished": "2026-10-12",
+  "dateModified": "2026-10-12",
+  "review_status": "draft-ia",
+  "seo": {
+    "meta_title": "Código P0087: causas, síntomas y solución",
+    "meta_description": "P0087: presión del raíl demasiado baja en diésel common rail. Causas (filtro, bomba, regulador, inyectores), síntomas y diagnóstico con medidas de seguridad.",
+    "slug": "p0087"
+  },
+  "content_html": "<h1>Código P0087: Presión del raíl de combustible demasiado baja</h1>\n<p class=\"intro\">El código P0087 aparece cuando la presión real del raíl de un motor common rail es inferior a la presión ordenada por la centralita. Puede deberse a falta de alimentación de baja presión, una bomba de alta presión desgastada, un regulador defectuoso o retornos excesivos en los inyectores. En muchos casos el motor entra en modo de emergencia.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta: puede dejar el vehículo parado o dañar la bomba</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Alimentación de combustible diésel, bomba de alta presión, inyectores</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>60–150 € (filtro, sensor) · 600–2.500 € (bomba, inyectores)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con lectura de presión de raíl, manómetro de baja presión, multímetro, recipientes para retornos</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Pérdida de potencia y modo de emergencia.</li><li>Arranque difícil o motor que gira y no arranca.</li><li>Calados, sobre todo bajo carga.</li><li>Testigo de motor encendido.</li><li>Tirones en aceleración.</li></ul>\n<h2>Causas principales</h2><ul><li>Filtro de combustible obstruido o con agua.</li><li>Bomba de baja presión (de alimentación) debilitada.</li><li>Bomba de alta presión desgastada.</li><li>Regulador o válvula dosificadora de presión defectuosa.</li><li>Inyectores con retorno excesivo (pierden presión).</li><li>Sensor de presión del raíl con lectura errónea.</li><li>Entrada de aire en el circuito de baja presión.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Seguridad: el circuito de alta presión trabaja a más de 1.000 bar. No aflojes tuberías ni conectores con el motor en marcha ni recién parado; respeta las indicaciones del fabricante y usa protección ocular.</li><li>Lee la presión real y la ordenada del raíl con el escáner durante el arranque y a distintos regímenes. Anota la diferencia.</li><li>Comprueba el filtro de combustible: sustitúyelo si está en su límite de vida útil y purga posibles entradas de aire.</li><li>Mide la presión de baja con un manómetro y compárala con el manual.</li><li>Revisa el sensor de presión del raíl y su cableado; verifica alimentación y masa con el multímetro.</li><li>Realiza el test de retornos de los inyectores recogiendo el combustible en recipientes graduados durante un tiempo fijo: diferencias grandes indican un inyector defectuoso.</li><li>Si todo lo anterior es correcto, la bomba de alta presión es la sospechosa. Antes de cambiarla, comprueba posibles contaminaciones por limaduras en todo el circuito.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Diesel common rail fuel rail with high pressure lines on an engine, technical close-up, dark background",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con el P0087?",
+      "answer": "No es recomendable. Puedes quedarte sin potencia o parado, y una presión baja sostenida puede dañar la bomba de alta presión y los inyectores."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar el P0087?",
+      "answer": "Cambiar el filtro y el sensor cuesta entre 60 y 150 €. Si falla la bomba de alta presión o los inyectores, el coste puede ir de 600 a 2.500 €."
+    },
+    {
+      "question": "¿Qué significa common rail?",
+      "answer": "Es un sistema de inyección diésel donde una bomba mantiene combustible a alta presión en un raíl común, del que se alimentan todos los inyectores."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "filtro de combustible diésel",
+    "comprobador de presión de combustible diésel",
+    "kit de recipientes para test de retorno de inyectores"
+  ],
+  "related": [
+    "p0299",
+    "p2002"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "type": "testigo",
+  "name": "Testigo de batería: significado, causas y qué hacer",
+  "datePublished": "2026-10-12",
+  "dateModified": "2026-10-12",
+  "review_status": "draft-ia",
+  "seo": {
+    "meta_title": "Testigo de batería: significado, causas y qué hacer",
+    "meta_description": "Testigo de batería rojo encendido con el motor en marcha: causas (alternador, correa, bornes), cómo medir la carga con un multímetro y qué hacer.",
+    "slug": "testigo-bateria"
+  },
+  "content_html": "<h1>Testigo de batería: significado, causas y qué hacer</h1>\n<p class=\"intro\">El testigo de batería, con forma de batería y de color rojo, indica un problema en el sistema de carga: la batería no recibe corriente suficiente del alternador. Aunque se llame «de batería», la causa más frecuente es el alternador, su regulador o la correa. Si te quedas sin carga, el vehículo funcionará solo con la batería, y se parará al agotarse.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media-alta: autonomía limitada</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sistema de carga, batería, alternador, correa de accesorios</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–150 € (bornes, correa) · 200–600 € (alternador)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Multímetro, cargador de batería, comprobador de batería</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Luz roja con forma de batería, encendida con el motor en marcha.</li><li>Luces tenues, elevalunas lentos o reloj que se descontrola.</li><li>Dificultad para arrancar tras apagar el motor.</li><li>Chirrido de la correa o batería descargada.</li></ul>\n<h2>Causas principales</h2><ul><li>Alternador averiado o con el regulador de tensión defectuoso.</li><li>Correa de accesorios floja, rota o resbalando.</li><li>Bornes de batería sulfatados o flojos.</li><li>Cableado o masas deterioradas.</li><li>Batería al final de su vida útil.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Apaga consumos no esenciales (climatización, luneta, radio) para alargar la autonomía y dirígete a un lugar seguro.</li><li>Inspecciona la correa de accesorios: debe estar tensa y sin grietas.</li><li>Con el multímetro en continua y el motor parado, la batería debería marcar aproximadamente 12,4 V o más.</li><li>Con el motor en marcha, mide en los bornes: el alternador debería dar aproximadamente entre 13,8 y 14,7 V según el vehículo.</li><li>Si la tensión no sube de la batería, sospecha del alternador o de su regulador. Revisa también bornes y masas.</li><li>Sustituye lo defectuoso y comprueba que el testigo se apaga y la tensión de carga es correcta.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Red battery warning light on a car dashboard, close-up, dark background",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con el testigo de batería encendido?",
+      "answer": "Solo lo imprescindible para llegar a un taller. La batería se descargará y el motor se parará, con pérdida de asistencias."
+    },
+    {
+      "question": "¿Cuánto cuesta repararlo?",
+      "answer": "Cambiar la correa o limpiar bornes cuesta poco (30–150 €). Un alternador nuevo o reconstruido cuesta entre 200 y 600 €."
+    },
+    {
+      "question": "¿Cuánto dura una batería de coche?",
+      "answer": "Habitualmente entre 4 y 6 años, según el uso, el clima y el tipo de batería."
+    }
+  ],
+  "products": [
+    "multímetro digital automotriz",
+    "tester de batería",
+    "cargador mantenedor de batería"
+  ],
+  "related": [
+    "u0100",
+    "guia-cambio-fusibles"
+  ]
+}

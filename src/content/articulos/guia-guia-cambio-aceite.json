@@ -1,0 +1,38 @@
+{
+  "type": "guia",
+  "name": "Cambio de aceite del motor paso a paso",
+  "datePublished": "2026-10-12",
+  "dateModified": "2026-10-12",
+  "review_status": "draft-ia",
+  "seo": {
+    "meta_title": "Cambio de aceite del motor paso a paso",
+    "meta_description": "Guía para cambiar el aceite y el filtro del motor tú mismo: herramientas, pasos con seguridad y errores comunes. Respeta siempre las especificaciones del fabricante.",
+    "slug": "guia-cambio-aceite"
+  },
+  "content_html": "<h1>Cambio de aceite del motor paso a paso</h1>\n<p class=\"intro\">Cambiar el aceite y el filtro es una tarea de mantenimiento básica que alarga la vida del motor. Necesitas el aceite con la viscosidad y la norma que indica el fabricante, un filtro nuevo, una junta del tapón y herramientas básicas. Hazlo con el motor templado, no caliente, sobre una superficie plana y con el vehículo bien sujeto sobre caballetes.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja si se hace con seguridad</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Lubricación del motor</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>40–80 € en piezas · 60–120 € en taller</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Llave de vaso, llave de filtro, bandeja de recogida, embudo, caballetes o elevador</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Consulta el manual: cantidad, viscosidad (por ejemplo, 5W-30) y norma de aceite exigidas, y el par de apriete del tapón y del filtro.</li><li>Calienta ligeramente el motor unos minutos, apágalo y espera a que el aceite se asiente. Evita trabajar con aceite muy caliente.</li><li>Sube el coche con caballetes o un elevador. Nunca te metas bajo un coche sostenido solo por el gato.</li><li>Coloca la bandeja y retira el tapón del cárter. Deja drenar por completo.</li><li>Retira el filtro viejo con la llave de filtro. Engrasa la junta del nuevo con aceite limpio y apriétalo según la indicación del filtro o del fabricante.</li><li>Limpia y vuelve a colocar el tapón con una junta nueva y aprieta al par especificado.</li><li>Rellena por la boca de llenado con la cantidad indicada, espera unos minutos y comprueba el nivel con la varilla.</li><li>Arranca unos segundos, comprueba que no hay fugas y que el testigo de presión se apaga. Revisa el nivel de nuevo y registra el cambio.</li><li>Entrega el aceite usado en un punto limpio autorizado; nunca lo viertas al desagüe.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Hands pouring fresh motor oil into an engine through a funnel, technical photo, dark background",
+  "schema_faq": [
+    {
+      "question": "¿Cada cuánto se cambia el aceite del motor?",
+      "answer": "Según el fabricante, normalmente cada 10.000–30.000 km o una vez al año. Respeta siempre el plan de mantenimiento de tu vehículo, especialmente en usos severos."
+    },
+    {
+      "question": "¿Cuánto cuesta cambiar el aceite en un taller?",
+      "answer": "Entre 60 y 120 € con aceite y filtro incluidos, según la cantidad y el tipo de aceite."
+    },
+    {
+      "question": "¿Qué pasa si uso un aceite de otra viscosidad?",
+      "answer": "Puede reducir la protección, aumentar el consumo y, en motores con filtro de partículas, dañar el sistema. Usa siempre la norma indicada por el fabricante."
+    }
+  ],
+  "products": [
+    "aceite de motor 5W30",
+    "llave de filtro de aceite",
+    "bandeja recogida aceite",
+    "caballetes de coche"
+  ],
+  "related": [
+    "testigo-presion-aceite",
+    "guia-cambio-fusibles"
+  ]
+}

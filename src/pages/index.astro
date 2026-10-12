@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+import { allArticles, byType, urlOf } from '../lib/articles';
+import { SITE } from '../config';
+const all = await allArticles();
+const codes = byType(all, 'codigo'), testigos = byType(all, 'testigo'), guias = byType(all, 'guia');
+const site = Astro.site!;
+---
+<Base title="Códigos de avería OBD2: significado, causas y solución" description="Diagnóstico de códigos OBD2, testigos del tablero y mantenimiento preventivo: fichas técnicas claras con síntomas, causas y pasos de reparación.">
+  <section class="hero">
+    <div class="wrap">
+      <h1>Códigos de avería OBD2: significado, causas y solución</h1>
+      <p class="lead">Fichas técnicas de diagnóstico claras: qué significa el código, qué lo causa, cuánto cuesta repararlo y cómo comprobarlo paso a paso.</p>
+      <form class="search" role="search" action="/codigos/" method="get">
+        <label for="q">Busca tu código de avería</label>
+        <div class="row"><input id="q" name="q" type="search" placeholder="Ej. P0420" autocomplete="off" /><button type="submit">Buscar</button></div>
+      </form>
+    </div>
+  </section>
+  <div class="wrap home">
+    <section>
+      <h2>Códigos de avería más consultados</h2>
+      <ul class="cards">{codes.map((a) => <li><a href={urlOf(a)}><span class="code">{a.data.code}</span><span>{a.data.name}</span></a></li>)}</ul>
+      <p><a href="/codigos/">Ver todos los códigos →</a></p>
+    </section>
+    <section>
+      <h2>Testigos del tablero</h2>
+      <ul class="cards">{testigos.map((a) => <li><a href={urlOf(a)}><span class="code">{a.data.name.split(':')[0]}</span><span>{a.data.seo.meta_description}</span></a></li>)}</ul>
+    </section>
+    <section>
+      <h2>Mantenimiento paso a paso</h2>
+      <ul class="cards">{guias.map((a) => <li><a href={urlOf(a)}><span class="code">{a.data.name}</span><span>{a.data.seo.meta_description}</span></a></li>)}</ul>
+    </section>
+    <section class="how">
+      <h2>Qué es un código OBD2 y cómo leerlo</h2>
+      <p>OBD2 es el estándar de diagnóstico que llevan los coches de gasolina desde 2001 y los diésel desde 2004 en la UE. La centralita guarda un código de cinco caracteres cuando detecta un fallo: la primera letra indica el sistema (<strong>P</strong> motor y transmisión, <strong>B</strong> carrocería, <strong>C</strong> chasis, <strong>U</strong> red de comunicaciones), el primer dígito indica si el código es genérico (0) o del fabricante (1), y el resto identifica el fallo concreto.</p>
+      <p>Para leerlo necesitas un escáner OBD2 conectado al puerto de diagnóstico, normalmente bajo el volante. Un código señala <em>dónde</em> mira el problema, no <em>qué pieza</em> hay que cambiar: por eso cada ficha incluye una guía de diagnóstico antes de sustituir nada. <a href="/metodologia/">Cómo elaboramos las fichas</a>.</p>
+    </section>
+  </div>
+</Base>

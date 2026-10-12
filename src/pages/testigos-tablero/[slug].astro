@@ -1,0 +1,11 @@
+---
+import ArticleView from '../../components/ArticleView.astro';
+import { allArticles, byType, urlOf } from '../../lib/articles';
+export async function getStaticPaths() {
+  const all = await allArticles();
+  return byType(all, 'testigo').map((a) => ({ params: { slug: a.data.seo.slug }, props: { a } }));
+}
+const { a } = Astro.props;
+const all = await allArticles();
+---
+<ArticleView article={a} all={all} crumbs={[['Inicio', '/'], ['Testigos del tablero', '/testigos-tablero/'], [a.data.name, urlOf(a)]]} />

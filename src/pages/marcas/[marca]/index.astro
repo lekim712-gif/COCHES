@@ -1,0 +1,20 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { allArticles, brands, urlOf } from '../../../lib/articles';
+export async function getStaticPaths() {
+  const all = await allArticles();
+  return brands(all).map((b) => ({ params: { marca: b.slug }, props: { b } }));
+}
+const { b } = Astro.props;
+const short = b.name.split(' (')[0];
+const site = Astro.site!;
+const jsonLd = [{ '@type': 'BreadcrumbList', itemListElement: [['Inicio', '/'], ['Por marca', '/marcas/'], [short, `/marcas/${b.slug}/`]].map(([n, h], i) => ({ '@type': 'ListItem', position: i + 1, name: n, item: new URL(h, site).href })) }];
+---
+<Base title={`Códigos de avería ${short}: fichas de diagnóstico`} description={`Fichas de diagnóstico OBD2 específicas de ${b.name}: causas propias de la plataforma, síntomas y reparación paso a paso.`} jsonLd={jsonLd}>
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Migas de pan"><ol><li><a href="/">Inicio</a></li><li><a href="/marcas/">Por marca</a></li><li><span aria-current="page">{short}</span></li></ol></nav>
+    <h1>Códigos de avería {short}</h1>
+    <p class="lead">Fichas con las particularidades de {b.name}. Cada una complementa la ficha genérica del código con las causas más habituales de esa plataforma.</p>
+    <ul class="cards">{b.items.map((a) => <li><a href={urlOf(a)}><span class="code">{a.data.code}</span><span>{a.data.seo.meta_description}</span></a></li>)}</ul>
+  </div>
+</Base>

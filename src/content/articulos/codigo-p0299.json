@@ -1,0 +1,39 @@
+{
+  "type": "codigo",
+  "code": "P0299",
+  "name": "Turbocompresor: presión de sobrealimentación insuficiente",
+  "datePublished": "2026-10-12",
+  "dateModified": "2026-10-12",
+  "review_status": "draft-ia",
+  "seo": {
+    "meta_title": "Código P0299: causas, síntomas y solución",
+    "meta_description": "P0299: infrapresión de turbo (underboost). Causas (fugas del intercooler, actuador, geometría variable, turbo), síntomas y pruebas de diagnóstico paso a paso.",
+    "slug": "p0299"
+  },
+  "content_html": "<h1>Código P0299: Turbocompresor: presión de sobrealimentación insuficiente</h1>\n<p class=\"intro\">El código P0299 indica que la presión de sobrealimentación medida es inferior a la ordenada por la centralita. Puede deberse a fugas en el circuito de aire, a un actuador o válvula de control que no gobierna bien el turbo, a una geometría variable atascada o a un turbocompresor desgastado. El motor suele pasar a modo de emergencia.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media-alta: pérdida de potencia y riesgo de dañar el turbo</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sobrealimentación, admisión, escape, actuadores</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–200 € (manguitos, válvula) · 800–2.200 € (turbo)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con test de actuadores, bomba de presión para el circuito de aire, bomba de vacío, multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Pérdida acusada de potencia y modo de emergencia.</li><li>Humo negro o azulado en aceleración.</li><li>Silbidos o pitidos del turbo.</li><li>Respuesta lenta del acelerador.</li><li>Testigo de motor encendido.</li></ul>\n<h2>Causas principales</h2><ul><li>Fugas en manguitos, abrazaderas o intercooler.</li><li>Electroválvula de control (o actuador eléctrico) averiada.</li><li>Geometría variable o wastegate atascada por hollín.</li><li>Turbocompresor con holgura excesiva en el eje o álabes dañados.</li><li>Filtro de aire o filtro de partículas obstruido.</li><li>Sensor de presión de sobrealimentación (MAP) defectuoso.</li><li>Fugas de escape antes del turbo.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee la presión real frente a la ordenada con datos en vivo, en una prueba de aceleración a fondo en carretera con seguridad. Anota la diferencia.</li><li>Inspecciona el circuito de aire: manguitos agrietados, abrazaderas flojas, aceite en el intercooler (indicio de fuga o desgaste del turbo).</li><li>Presuriza el circuito de aire con una bomba de baja presión o usa humo para localizar fugas.</li><li>Ejecuta el test de actuadores para mover la geometría variable o la wastegate y comprueba que responde.</li><li>Si el control es neumático, comprueba las mangueras de vacío y aplica vacío con la bomba a la cápsula: la varilla debe moverse y mantenerse.</li><li>Mide la holgura radial y axial del eje del turbo y comprueba álabes dañados con el turbo desmontado o visible.</li><li>Comprueba filtro de aire, filtro de partículas y fugas de escape antes de condenar el turbo.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Turbocharger with variable geometry actuator removed from a diesel engine, technical photo, dark background",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con el P0299?",
+      "answer": "Con el motor en modo de emergencia, solo trayectos cortos. Si el turbo tiene holgura o falta aceite, seguir circulando puede destrozarlo."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar el P0299?",
+      "answer": "Un manguito o una electroválvula cuesta 30–200 €. Cambiar o reconstruir el turbo sube a 800–2.200 € según el modelo."
+    },
+    {
+      "question": "¿Qué diferencia hay entre P0299 y P0234?",
+      "answer": "P0299 indica presión de sobrealimentación insuficiente; P0234 indica sobrepresión (overboost)."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "comprobador de fugas de turbo e intercooler",
+    "bomba de vacío manual para automoción",
+    "abrazaderas de manguito de silicona"
+  ],
+  "related": [
+    "p0087",
+    "p2002"
+  ]
+}

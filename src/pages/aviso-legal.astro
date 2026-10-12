@@ -1,0 +1,16 @@
+---
+import Legal from '../layouts/Legal.astro';
+import { SITE } from '../config';
+const o = SITE.owner;
+---
+<Legal title="Aviso legal" description="Aviso legal e información del titular del sitio conforme a la LSSI-CE." noindex>
+  <h2>Titular</h2>
+  <ul><li>Titular: {o.name}</li><li>NIF/CIF: {o.taxId}</li><li>Domicilio: {o.address}</li><li>Correo electrónico: <a href={`mailto:${SITE.email}`}>{SITE.email}</a></li></ul>
+  <h2>Condiciones de uso</h2>
+  <p>El acceso al sitio es gratuito. El contenido es informativo y orientativo; no constituye asesoramiento profesional ni sustituye el manual de taller del fabricante. El titular no se responsabiliza de los daños derivados del uso de la información.</p>
+  <h2>Propiedad intelectual</h2>
+  <p>Los contenidos del sitio están protegidos. Se permite citar fragmentos breves indicando la fuente y enlazando a la página original.</p>
+  <h2>Afiliación</h2>
+  <p>Este sitio participa en el Programa de Afiliados de Amazon EU. Como afiliado, obtenemos ingresos por las compras adscritas que cumplen los requisitos aplicables.</p>
+  <p><em>Nota para el responsable: revisa este texto con un asesor legal antes de publicar.</em></p>
+</Legal>

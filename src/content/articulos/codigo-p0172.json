@@ -1,0 +1,40 @@
+{
+  "type": "codigo",
+  "code": "P0172",
+  "name": "Mezcla demasiado rica (banco 1)",
+  "datePublished": "2026-10-12",
+  "dateModified": "2026-10-12",
+  "review_status": "draft-ia",
+  "seo": {
+    "meta_title": "Código P0172: causas, síntomas y solución",
+    "meta_description": "P0172: mezcla rica en el banco 1. Causas (inyectores, MAF, regulador de presión, purga EVAP), síntomas y diagnóstico paso a paso con ajustes de combustible.",
+    "slug": "p0172"
+  },
+  "content_html": "<h1>Código P0172: Mezcla demasiado rica (banco 1)</h1>\n<p class=\"intro\">El código P0172 se registra cuando la centralita reduce la inyección al mínimo y la sonda lambda del banco 1 sigue detectando falta de oxígeno. El motor está quemando más combustible del necesario. Se diagnostica con los ajustes de combustible: valores negativos altos indican que la ECU está recortando la inyección para compensar.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: eleva consumo y emisiones, puede dañar el catalizador</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Alimentación de combustible, admisión, EVAP, escape</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–150 € (sensores, filtro) · 200–600 € (inyectores, regulador)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, manómetro de combustible, multímetro, limpiador de MAF</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Humo negro por el escape y olor a gasolina.</li><li>Consumo notablemente elevado.</li><li>Ralentí irregular o arranque difícil en caliente.</li><li>Bujías con hollín negro.</li></ul>\n<h2>Causas principales</h2><ul><li>Inyectores que gotean o quedan abiertos.</li><li>Regulador de presión de combustible defectuoso (presión demasiado alta).</li><li>Caudalímetro (MAF) que mide de más.</li><li>Filtro de aire muy obstruido.</li><li>Válvula de purga del EVAP atascada en posición abierta.</li><li>Sensor de temperatura del refrigerante con lectura errónea (la ECU cree que el motor está frío).</li><li>Aceite diluido con gasolina.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los ajustes de combustible. Valores negativos altos (por ejemplo, por debajo de −10 %) confirman una mezcla rica.</li><li>Comprueba el filtro de aire y el aceite: si huele a gasolina o el nivel sube, hay combustible que se filtra al cárter.</li><li>Verifica la temperatura del refrigerante en datos en vivo con el motor frío: debe coincidir con la temperatura ambiente.</li><li>Mide la presión de combustible con el manómetro y compárala con el manual. Si es excesiva, revisa el regulador y la línea de retorno.</li><li>Comprueba la válvula de purga del EVAP: no debe pasar aire con el motor parado y sin alimentación.</li><li>Revisa el MAF con datos en vivo (g/s al ralentí según especificación) y límpialo si procede.</li><li>Si lo anterior es correcto, prueba los inyectores (estanqueidad y caudal) en banco o con un equipo de limpieza.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Fuel injector rail with injectors on a petrol engine, macro technical photo, dark background",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con el P0172?",
+      "answer": "Con precaución y trayectos cortos. La mezcla rica diluye el aceite, ensucia las bujías y puede sobrecalentar el catalizador, así que no lo alargues."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar el P0172?",
+      "answer": "Entre 30 y 150 € si es un sensor o el filtro de aire, y entre 200 y 600 € si hay que cambiar inyectores o el regulador de presión."
+    },
+    {
+      "question": "¿Puede un MAF sucio causar mezcla rica?",
+      "answer": "Sí. Un MAF contaminado puede medir de más y la ECU inyecta combustible en exceso, aunque lo más habitual en un MAF sucio es una lectura baja (mezcla pobre)."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "comprobador de presión de combustible",
+    "limpiador de caudalímetro MAF",
+    "limpiador de inyectores gasolina"
+  ],
+  "related": [
+    "p0171",
+    "p0420",
+    "p0300"
+  ]
+}

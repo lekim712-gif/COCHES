@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import AdSlot from './AdSlot.astro';
+import Affiliate from './Affiliate.astro';
+import { SITE, CATEGORIES } from '../config';
+import { urlOf, resolveRelated, type Article } from '../lib/articles';
+const { article, all, crumbs, extraLinks = [] } = Astro.props as { article: Article; all: Article[]; crumbs: [string, string][]; extraLinks?: Article[] };
+const d = article.data;
+const parts = d.content_html.split(/<!--ad-slot-[12]-->/);
+const related = [...resolveRelated(all, d.related), ...extraLinks].filter((a) => a.id !== article.id);
+const site = Astro.site!;
+const url = new URL(urlOf(article), site).href;
+const orgId = new URL('/#organization', site).href;
+const fmt = (s: string) => new Date(s).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+const jsonLd = [
+  { '@type': 'Article', '@id': `${url}#article`, headline: d.name.slice(0, 110), description: d.seo.meta_description, datePublished: d.datePublished, dateModified: d.dateModified, inLanguage: SITE.lang, mainEntityOfPage: url, author: { '@id': orgId }, publisher: { '@id': orgId } },
+  { '@type': 'BreadcrumbList', itemListElement: crumbs.map(([n, h], i) => ({ '@type': 'ListItem', position: i + 1, name: n, item: new URL(h, site).href })) },
+  { '@type': 'FAQPage', mainEntity: d.schema_faq.map((q) => ({ '@type': 'Question', name: q.question, acceptedAnswer: { '@type': 'Answer', text: q.answer } })) },
+];
+---
+<Base title={d.seo.meta_title} description={d.seo.meta_description} type="article" modified={d.dateModified} published={d.datePublished} jsonLd={jsonLd}>
+  <div class="wrap article-wrap">
+    <nav class="crumbs" aria-label="Migas de pan"><ol>{crumbs.map(([n, h], i) => <li>{i < crumbs.length - 1 ? <a href={h}>{n}</a> : <span aria-current="page">{n}</span>}</li>)}</ol></nav>
+    <article class="article">
+      <Fragment set:html={parts[0]} />
+      <AdSlot n={1} />
+      <Fragment set:html={parts[1] ?? ''} />
+      <AdSlot n={2} />
+      <section class="faq" aria-labelledby="faq-h">
+        <h2 id="faq-h">Preguntas frecuentes</h2>
+        {d.schema_faq.map((q) => <div class="qa"><h3>{q.question}</h3><p>{q.answer}</p></div>)}
+      </section>
+      <Affiliate products={d.products} />
+      {related.length > 0 && (
+        <section class="related" aria-labelledby="rel-h">
+          <h2 id="rel-h">También te puede interesar</h2>
+          <ul>{related.map((a) => <li><a href={urlOf(a)}>{a.data.name}</a></li>)}</ul>
+        </section>
+      )}
+      <p class="meta">Última actualización: <time datetime={d.dateModified}>{fmt(d.dateModified)}</time> · <a href="/metodologia/">Cómo elaboramos las fichas</a></p>
+    </article>
+  </div>
+</Base>

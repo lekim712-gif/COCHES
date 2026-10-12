@@ -1,0 +1,25 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allArticles, byType, urlOf } from '../../lib/articles';
+const list = byType(await allArticles(), 'codigo');
+---
+<Base title="Códigos de avería OBD2: lista, significado y solución" description="Lista de códigos de error OBD2 con su significado, causas, síntomas y pasos de diagnóstico. Busca tu código P, B, C o U.">
+  <div class="wrap">
+    <h1>Códigos de avería OBD2</h1>
+    <p class="lead">Escribe tu código (por ejemplo, P0420) para filtrar la lista.</p>
+    <form class="search" role="search" onsubmit="return false">
+      <label for="q">Buscar código</label>
+      <input id="q" name="q" type="search" placeholder="P0420" autocomplete="off" inputmode="text" />
+    </form>
+    <ul class="cards" id="lista">{list.map((a) => <li data-k={`${a.data.code} ${a.data.name}`.toLowerCase()}><a href={urlOf(a)}><span class="code">{a.data.code}</span><span>{a.data.name}</span></a></li>)}</ul>
+    <p id="vacio" hidden>No tenemos todavía ese código. Estamos ampliando la base de fichas.</p>
+  </div>
+  <script is:inline>
+    (function () {
+      var q = document.getElementById('q'), items = document.querySelectorAll('#lista li'), v = document.getElementById('vacio');
+      function f() { var t = q.value.trim().toLowerCase(), n = 0; items.forEach(function (li) { var s = li.dataset.k.indexOf(t) > -1; li.hidden = !s; if (s) n++; }); v.hidden = n > 0; }
+      var p = new URLSearchParams(location.search).get('q'); if (p) q.value = p;
+      q.addEventListener('input', f); f();
+    })();
+  </script>
+</Base>

@@ -1,0 +1,37 @@
+{
+  "type": "guia",
+  "name": "Cómo comprobar y cambiar un fusible del coche",
+  "datePublished": "2026-10-12",
+  "dateModified": "2026-10-12",
+  "review_status": "draft-ia",
+  "seo": {
+    "meta_title": "Cómo comprobar y cambiar un fusible del coche",
+    "meta_description": "Guía para localizar la caja de fusibles, identificar un fusible fundido y sustituirlo con el amperaje correcto. Colores estándar y precauciones de seguridad.",
+    "slug": "guia-cambio-fusibles"
+  },
+  "content_html": "<h1>Cómo comprobar y cambiar un fusible del coche</h1>\n<p class=\"intro\">Un fusible fundido es una de las causas más sencillas de que algo deje de funcionar en el coche: luces, elevalunas, radio o la propia centralita. Se localiza en la caja de fusibles, se retira con la pinza y se sustituye por otro del mismo amperaje. Nunca montes un fusible de más amperios: el cableado podría sobrecalentarse.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Instalación eléctrica</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>1–5 € en fusibles · 20–50 € en taller</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Pinza extractora de fusibles, juego de fusibles, multímetro o lámpara de pruebas</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Apaga el contacto y retira la llave. Consulta el manual para localizar las cajas de fusibles (habitáculo y bajo el capó).</li><li>Identifica con el diagrama de la tapa qué fusible protege el componente averiado.</li><li>Retira el fusible con la pinza. Obsérvalo a contraluz: si el filamento está cortado, está fundido.</li><li>Si dudas, comprueba la continuidad con el multímetro o con una lámpara de pruebas en los dos contactos del fusible.</li><li>Sustitúyelo por otro del mismo amperaje. Los colores estándar de los fusibles de cuchilla son: 5 A beige, 7,5 A marrón, 10 A rojo, 15 A azul, 20 A amarillo, 25 A transparente y 30 A verde.</li><li>Si el nuevo fusible vuelve a fundirse, hay un cortocircuito o un consumo excesivo: no insistas con fusibles de mayor amperaje y busca la causa.</li><li>Guarda fusibles de repuesto de cada amperaje en la caja.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Open car fuse box with automotive blade fuses of various colours, close-up, dark background",
+  "schema_faq": [
+    {
+      "question": "¿Puedo poner un fusible de más amperios?",
+      "answer": "No. El fusible protege el cableado; uno de mayor amperaje permite que pase demasiada corriente y puede provocar un incendio."
+    },
+    {
+      "question": "¿Cuánto cuesta cambiar un fusible?",
+      "answer": "El fusible cuesta poco (1–5 € el juego). En taller, entre 20 y 50 € si hay que diagnosticar la causa."
+    },
+    {
+      "question": "¿Por qué se funde un fusible repetidamente?",
+      "answer": "Suele haber un cortocircuito, un consumo excesivo o un componente defectuoso en ese circuito. Hay que diagnosticar el origen."
+    }
+  ],
+  "products": [
+    "juego de fusibles de coche surtido",
+    "pinza extractora de fusibles",
+    "multímetro digital automotriz"
+  ],
+  "related": [
+    "testigo-bateria",
+    "u0100"
+  ]
+}

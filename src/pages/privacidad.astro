@@ -1,0 +1,18 @@
+---
+import Legal from '../layouts/Legal.astro';
+import { SITE } from '../config';
+const o = SITE.owner;
+---
+<Legal title="Política de privacidad" description="Cómo tratamos los datos personales en CodigoAveria conforme al RGPD y la LOPDGDD." noindex>
+  <h2>Responsable</h2>
+  <p>{o.name} · NIF/CIF {o.taxId} · {o.address} · <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+  <h2>Datos que tratamos</h2>
+  <ul><li><strong>Navegación:</strong> datos técnicos y de uso mediante cookies y tecnologías similares, solo con tu consentimiento cuando no son necesarias (ver <a href="/cookies/">política de cookies</a>).</li><li><strong>Correo electrónico:</strong> si nos escribes, usamos tus datos únicamente para responderte.</li></ul>
+  <h2>Base legal y conservación</h2>
+  <p>Consentimiento para analítica y publicidad; interés legítimo y aplicación de medidas precontractuales para atender tus consultas. Conservamos los datos el tiempo necesario para esa finalidad y las obligaciones legales.</p>
+  <h2>Destinatarios</h2>
+  <p>Google (AdSense y, si se activa, Analytics) y Amazon (enlaces de afiliación), que pueden tratar datos como responsables o encargados según sus propias condiciones. Algunos proveedores pueden estar fuera del EEE, con las garantías previstas por el RGPD.</p>
+  <h2>Tus derechos</h2>
+  <p>Puedes ejercer los derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad escribiendo a <a href={`mailto:${SITE.email}`}>{SITE.email}</a>. También puedes reclamar ante la Agencia Española de Protección de Datos (aepd.es).</p>
+  <p><em>Nota para el responsable: revisa este texto con un asesor legal antes de publicar.</em></p>
+</Legal>

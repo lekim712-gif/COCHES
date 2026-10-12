@@ -1,0 +1,13 @@
+---
+import Legal from '../layouts/Legal.astro';
+import { SITE } from '../config';
+---
+<Legal title="Sobre nosotros" description="Quiénes somos y por qué existe CodigoAveria: fichas de diagnóstico OBD2 claras para propietarios y aficionados a la mecánica.">
+  <p>{SITE.name} es una publicación independiente sobre diagnóstico de averías, códigos OBD2, testigos del tablero y mantenimiento preventivo, escrita en español para lectores de España y Latinoamérica.</p>
+  <p>Nuestro objetivo es que cualquier persona pueda entender qué le dice su coche y qué comprobar antes de ir al taller, sin jerga innecesaria y sin vender piezas que no hacen falta.</p>
+  <h2>Qué encontrarás</h2>
+  <ul><li>Fichas por código de avería con síntomas, causas y diagnóstico paso a paso.</li><li>Explicación de los testigos del tablero.</li><li>Guías de mantenimiento con precauciones de seguridad.</li></ul>
+  <h2>Quién está detrás</h2>
+  <p>[PENDIENTE: presentación real del responsable y, si lo hay, del revisor técnico (nombre, experiencia o formación en mecánica del automóvil). Esta sección es clave para la confianza del lector y para la calidad percibida por Google.]</p>
+  <p>Contacto: <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+</Legal>

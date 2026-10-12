@@ -1,0 +1,8 @@
+---
+import Legal from '../layouts/Legal.astro';
+import { SITE } from '../config';
+---
+<Legal title="Contacto" description="Contacta con CodigoAveria para correcciones, sugerencias de códigos o consultas sobre el sitio.">
+  <p>Escríbenos a <a href={`mailto:${SITE.email}`}>{SITE.email}</a> para corregir una ficha, sugerir un código o resolver cualquier duda sobre el sitio.</p>
+  <p>No ofrecemos diagnóstico personalizado de vehículos concretos. Para eso, acude a un taller de confianza.</p>
+</Legal>

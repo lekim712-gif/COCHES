@@ -1,0 +1,14 @@
+---
+import { SITE } from '../config';
+import { amazonUrl } from '../lib/articles';
+const { products = [] } = Astro.props as { products?: string[] };
+---
+{SITE.amazonTag && products.length > 0 && (
+  <section class="aff" aria-labelledby="aff-h">
+    <h2 id="aff-h">Herramientas recomendadas para este diagnóstico</h2>
+    <ul>
+      {products.map((p) => <li><a href={amazonUrl(SITE.amazonDomain, SITE.amazonTag, p)} rel="sponsored nofollow noopener" target="_blank">{p[0].toUpperCase() + p.slice(1)}<span aria-hidden="true"> ↗</span></a></li>)}
+    </ul>
+    <p class="aff-note">Como afiliado de Amazon, obtengo ingresos por las compras adscritas que cumplen los requisitos aplicables. El precio para ti no cambia.</p>
+  </section>
+)}

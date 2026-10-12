@@ -1,0 +1,38 @@
+{
+  "type": "codigo",
+  "code": "P0401",
+  "name": "Flujo insuficiente de recirculación de gases de escape (EGR)",
+  "datePublished": "2026-10-12",
+  "dateModified": "2026-10-12",
+  "review_status": "draft-ia",
+  "seo": {
+    "meta_title": "Código P0401: causas, síntomas y solución",
+    "meta_description": "P0401: flujo insuficiente en el sistema EGR. Síntomas, causas (válvula carbonizada, conductos, sensor) y pasos para limpiar o sustituir la válvula EGR.",
+    "slug": "p0401"
+  },
+  "content_html": "<h1>Código P0401: Flujo insuficiente de recirculación de gases de escape (EGR)</h1>\n<p class=\"intro\">El código P0401 indica que la centralita ha detectado un flujo de gases EGR menor del esperado cuando abre la válvula. La recirculación reduce las emisiones de óxidos de nitrógeno (NOx) devolviendo parte de los gases de escape a la admisión. La causa más frecuente es la acumulación de carbonilla en la válvula o en los conductos.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: afecta a emisiones y funcionamiento</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>EGR, admisión, escape, gestión del motor</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>60–250 € (limpieza o válvula) · 300–900 € (enfriador EGR)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con test de actuadores, multímetro, limpiador específico de EGR, bomba de vacío (válvulas neumáticas)</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Ralentí inestable o tirones a bajo régimen.</li><li>Pérdida de potencia.</li><li>Detonaciones («picado») en motores de gasolina.</li><li>Humo en diésel y aumento de emisiones.</li></ul>\n<h2>Causas principales</h2><ul><li>Válvula EGR obstruida por carbonilla o atascada.</li><li>Conductos o colector de admisión con depósitos.</li><li>Sensor de posición o de presión de la EGR defectuoso.</li><li>En válvulas neumáticas, fugas o fallo en el circuito de vacío o en la electroválvula.</li><li>Enfriador de EGR obstruido (diésel).</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Con el escáner, comprueba el estado de la válvula en datos en vivo y ejecuta el test de actuadores: la posición real debe seguir a la ordenada.</li><li>Inspecciona visualmente conectores, cableado y mangueras de vacío si la válvula es neumática.</li><li>En una válvula neumática, aplica vacío con la bomba y comprueba que mantiene y que el motor reacciona al ralentí.</li><li>Desmonta la válvula e inspecciona la carbonilla. Límpiala con un producto específico sin dañar los elementos eléctricos.</li><li>Limpia también los conductos de EGR y la zona de la admisión accesible.</li><li>Si el sensor de posición o el motor eléctrico no responden, sustituye la válvula completa. Reinicia los valores de adaptación si la marca lo requiere.</li><li>Borra los códigos y realiza una prueba de carretera con aceleraciones suaves para comprobar que el flujo se normaliza.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "EGR valve covered in carbon deposits beside a cleaned one, technical comparison photo, dark background",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con el P0401?",
+      "answer": "Sí, a corto plazo, pero la carbonilla seguirá acumulándose y puede acabar bloqueando la válvula, además de aumentar las emisiones y dañar otros componentes."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar el P0401?",
+      "answer": "Una limpieza o una válvula nueva ronda los 60–250 €. Si el problema es el enfriador de EGR, puede llegar a 300–900 €."
+    },
+    {
+      "question": "¿Se puede anular la EGR?",
+      "answer": "Anular la EGR modifica el sistema de emisiones homologado y es ilegal para circular por la vía pública en España; además puede provocar fallo en la ITV."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "limpiador de válvula EGR",
+    "bomba de vacío manual para automoción"
+  ],
+  "related": [
+    "p2002",
+    "p0300"
+  ]
+}

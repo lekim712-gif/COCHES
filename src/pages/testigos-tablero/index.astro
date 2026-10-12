@@ -1,0 +1,12 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allArticles, byType, urlOf } from '../../lib/articles';
+const list = byType(await allArticles(), 'testigo');
+---
+<Base title="Testigos del tablero del coche" description=" significado y qué hacer">
+  <div class="wrap">
+    <h1>Qué significa cada testigo del cuadro de mandos y cómo actuar cuando se enciende. Colores, gravedad y pasos a seguir.:Testigos del tablero</h1>
+    <p class="lead"> significado y qué hacer</p>
+    <ul class="cards">{list.map((a) => <li><a href={urlOf(a)}><span class="code">{a.data.name}</span><span>{a.data.seo.meta_description}</span></a></li>)}</ul>
+  </div>
+</Base>
