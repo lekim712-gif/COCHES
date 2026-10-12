@@ -55,7 +55,7 @@ Un dominio nuevo suele tardar **varios meses** en recibir tráfico orgánico sig
 
 1. Comprar el dominio y definir `SITE_URL`.
 2. Rellenar titular legal (`PUBLIC_OWNER_*`), y los `[PENDIENTE]` de *Sobre nosotros* y *Metodología* **con información veraz**. Revisar los textos legales con un asesor.
-3. **Revisión técnica humana de las 21 fichas.** Están marcadas `review_status: draft-ia`. No he podido verificar los datos con fuentes externas ni con un mecánico: los rangos de coste y los procedimientos son orientativos.
+3. **Revisión técnica de las 21 fichas por Carlos Peláez** (revisor técnico indicado en el sitio). Hoy figuran «pendiente de revisión técnica»; al revisar cada una se marca con `npm run reviewed`. Están marcadas `review_status: draft-ia`. No he podido verificar los datos con fuentes externas ni con un mecánico: los rangos de coste y los procedimientos son orientativos.
 4. Sustituir las imágenes (hoy solo hay `featured_image_prompt`; el siguiente paso es generarlas con Flux/DALL-E y mostrarlas).
 
 ## 5. Hoja de ruta de lanzamiento

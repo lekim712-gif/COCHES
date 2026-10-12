@@ -15,9 +15,10 @@ const introEnd = parts[0].indexOf('</p>') + 4;
 const head = parts[0].slice(0, introEnd), rest = parts[0].slice(introEnd);
 const url = new URL(urlOf(article), site).href;
 const orgId = new URL('/#organization', site).href;
+const reviewed = d.reviewed_by ? { name: d.reviewed_by, at: d.reviewed_at } : null;
 const fmt = (s: string) => new Date(s).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
 const jsonLd = [
-  { '@type': 'Article', '@id': `${url}#article`, headline: d.name.slice(0, 110), description: d.seo.meta_description, datePublished: d.datePublished, dateModified: d.dateModified, ...(ogImg ? { image: new URL(ogImg, site).href } : {}), inLanguage: SITE.lang, mainEntityOfPage: url, author: { '@id': orgId }, publisher: { '@id': orgId } },
+  { '@type': 'Article', '@id': `${url}#article`, headline: d.name.slice(0, 110), description: d.seo.meta_description, datePublished: d.datePublished, dateModified: d.dateModified, ...(ogImg ? { image: new URL(ogImg, site).href } : {}), ...(reviewed ? { reviewedBy: { '@type': 'Person', name: reviewed.name } } : {}), inLanguage: SITE.lang, mainEntityOfPage: url, author: { '@id': orgId }, publisher: { '@id': orgId } },
   { '@type': 'BreadcrumbList', itemListElement: crumbs.map(([n, h], i) => ({ '@type': 'ListItem', position: i + 1, name: n, item: new URL(h, site).href })) },
   { '@type': 'FAQPage', mainEntity: d.schema_faq.map((q) => ({ '@type': 'Question', name: q.question, acceptedAnswer: { '@type': 'Answer', text: q.answer } })) },
 ];
@@ -44,6 +45,9 @@ const jsonLd = [
         </section>
       )}
       <p class="meta">Última actualización: <time datetime={d.dateModified}>{fmt(d.dateModified)}</time> · <a href="/metodologia/">Cómo elaboramos las fichas</a></p>
+      {reviewed
+        ? <p class="meta disclaimer"><strong>Revisada por {reviewed.name}</strong>{reviewed.at && <> el <time datetime={reviewed.at}>{fmt(reviewed.at)}</time></>}, mecánico. Ficha elaborada con ayuda de inteligencia artificial. Información orientativa: no sustituye al manual de taller ni a un profesional.</p>
+        : <p class="meta disclaimer">Ficha elaborada con ayuda de inteligencia artificial y controles automáticos de estructura; <strong>pendiente de revisión técnica</strong>. Es información orientativa: no sustituye al manual de taller ni a un profesional.</p>}
     </article>
   </div>
 </Base>

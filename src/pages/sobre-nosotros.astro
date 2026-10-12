@@ -8,6 +8,10 @@ import { SITE } from '../config';
   <h2>Qué encontrarás</h2>
   <ul><li>Fichas por código de avería con síntomas, causas y diagnóstico paso a paso.</li><li>Explicación de los testigos del tablero.</li><li>Guías de mantenimiento con precauciones de seguridad.</li></ul>
   <h2>Quién está detrás</h2>
-  <p>[PENDIENTE: presentación real del responsable y, si lo hay, del revisor técnico (nombre, experiencia o formación en mecánica del automóvil). Esta sección es clave para la confianza del lector y para la calidad percibida por Google.]</p>
+  <p><strong>Responsable del sitio:</strong> {SITE.owner.name}, de Madrid. Edita y mantiene {SITE.name}.</p>
+  {SITE.reviewer.name && <p><strong>Revisión técnica:</strong> {SITE.reviewer.name}, mecánico{SITE.reviewer.years > 0 && <> con {SITE.reviewer.years} años de experiencia</>}, es el revisor técnico del proyecto. Cada ficha indica si ya ha sido revisada y cuándo; las que muestran «pendiente de revisión técnica» todavía no han pasado por esa revisión.</p>}
+  <h2>Cómo trabajamos</h2>
+  <p>Las fichas se elaboran con ayuda de inteligencia artificial siguiendo una estructura fija y pasan por controles automáticos de calidad antes de publicarse. El proceso completo está en la <a href="/metodologia/">metodología editorial</a>.</p>
+  <p>La información es orientativa y no sustituye al manual de taller de tu vehículo ni a un profesional. Si encuentras un error, nos ayudas mucho avisándonos.</p>
   <p>Contacto: <a href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
 </Legal>

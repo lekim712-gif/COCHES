@@ -13,6 +13,11 @@ export const SITE = {
     taxId: import.meta.env.PUBLIC_OWNER_TAXID || PENDIENTE,
     address: import.meta.env.PUBLIC_OWNER_ADDRESS || PENDIENTE,
   },
+  // Revisor técnico del proyecto. La mención «Revisada por» solo aparece en las fichas que lo indican (reviewed_by).
+  reviewer: {
+    name: import.meta.env.PUBLIC_REVIEWER_NAME || '',
+    years: Number(import.meta.env.PUBLIC_REVIEWER_EXPERIENCE || 0),
+  },
   adsenseClient: import.meta.env.PUBLIC_ADSENSE_CLIENT || '', // ca-pub-XXXXXXXXXXXXXXXX
   adSlots: { 1: import.meta.env.PUBLIC_ADSLOT_1 || '', 2: import.meta.env.PUBLIC_ADSLOT_2 || '' },
   amazonTag: import.meta.env.PUBLIC_AMAZON_TAG || '', // p. ej. micuenta-21

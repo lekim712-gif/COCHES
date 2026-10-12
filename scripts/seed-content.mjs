@@ -2,6 +2,13 @@
 // { seo{meta_title,meta_description,slug}, content_html, featured_image_prompt, schema_faq[] }
 // + metadatos de enrutado (type, category, brand, code, dates, products, related).
 // El pipeline automático futuro debe producir ficheros con esta misma forma.
+// Protección: este script REGENERA todos los JSON y borraría imágenes enlazadas y marcas de revisión.
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
+const _dir = new URL('../src/content/articulos/', import.meta.url);
+if (existsSync(_dir) && process.env.FORCE !== '1' && readdirSync(_dir).some((f) => f.endsWith('.json') && /"(featured_image|reviewed_by)"/.test(readFileSync(new URL(f, _dir), 'utf8')))) {
+  console.error('✗ Hay fichas con imagen o con revisión humana. Este script las sobrescribiría. Si es lo que quieres, ejecuta con FORCE=1.');
+  process.exit(1);
+}
 import { writeFileSync, mkdirSync, rmSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';

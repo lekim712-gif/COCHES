@@ -71,3 +71,4 @@ table.ficha tbody th{width:34%;background:color-mix(in srgb,var(--amber) 14%,var
 .copy{margin-top:1.5rem;font-size:.85rem;color:#8c94a3}
 .hero-img{margin:1.2rem 0}
 .hero-img img{display:block;width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover;border-radius:var(--radius);border:1px solid var(--line);background:var(--dark)}
+.meta.disclaimer{border-top:0;padding-top:0;margin-top:.4rem}

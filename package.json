@@ -7,7 +7,10 @@
     "seed": "node scripts/seed-content.mjs",
     "validate": "node scripts/validate-content.mjs",
     "build": "node scripts/validate-content.mjs && astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "build:prod": "node scripts/validate-content.mjs && astro build && node scripts/check-launch.mjs",
+    "image": "node scripts/make-article-image.mjs",
+    "reviewed": "node scripts/mark-reviewed.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
