@@ -79,3 +79,12 @@ Compra recomendada: Cloudflare Registrar o similar, con renovación a precio de 
 4. **Al aprobar AdSense**: configurar el mensaje de consentimiento (AdSense → Privacidad y mensajes), definir `PUBLIC_ADSENSE_CLIENT` y los slots; `ads.txt` se genera solo.
 5. **Amazon Associates** (amazon.es): solicitar con el sitio en línea, definir `PUBLIC_AMAZON_TAG`.
 6. **Después**: automatización de publicación (siguiente fase), con el validador como puerta de entrada y publicación escalonada.
+
+## 6. Decisión de nicho (octubre 2026)
+
+**Se mantiene OBD2 en español (España primero, LatAm después como sección propia).**
+
+- Los códigos genéricos están estandarizados (SAE J2012): permiten el criterio "cero alucinaciones" y su validación.
+- Los resultados del buscador en español para P0420 son débiles (blogs con páginas casi repetidas por marca), y el competidor directo (`leetucoche.com`) se apoya en miles de fichas por marca, un patrón de riesgo.
+- Alternativa estudiada: códigos de error de electrodomésticos (audiencia mayor, SERP con foros e iFixit). Se descarta como primer sitio porque los códigos son propios de cada fabricante y la IA los inventaría con facilidad. Se reconsidera como segundo sitio si el OBD2 consigue indexación e impresiones en 4-6 meses.
+- Las métricas de volumen no están medidas (sin acceso a Semrush de pago). `content-plan/backlog.json` ordena por criterio editorial: sustituir por datos reales de Search Console cuando existan.
