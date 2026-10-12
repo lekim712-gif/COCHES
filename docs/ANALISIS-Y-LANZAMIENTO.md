@@ -60,7 +60,7 @@ Un dominio nuevo suele tardar **varios meses** en recibir tráfico orgánico sig
 
 ## 5. Hoja de ruta de lanzamiento
 
-1. **Hosting**: Cloudflare Pages conectado al repo. Build `npm run build`, salida `dist`. Variables de entorno de `.env.example`. Regla de zona de `www` → apex (301).
+1. **Hosting: Hostinger** (dominio y hosting). Subir el contenido de `dist/` a la carpeta del dominio; el `.htaccess` ya gestiona https, `www` → dominio sin `www` (301) y la página 404. Ver `docs/DESPLIEGUE-HOSTINGER.md`.
 2. **Search Console + Bing Webmaster Tools**: verificar, enviar `sitemap-index.xml`, activar IndexNow.
 3. **Esperar a tener 20-30 fichas buenas y algo de indexación**, y entonces solicitar AdSense. Antes: sitio accesible sin errores, legales completas, tráfico mínimo.
 4. **Al aprobar AdSense**: configurar el mensaje de consentimiento (AdSense → Privacidad y mensajes), definir `PUBLIC_ADSENSE_CLIENT` y los slots; `ads.txt` se genera solo.
