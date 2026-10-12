@@ -19,6 +19,7 @@ const articulos = defineCollection({
     products: z.array(z.string()).default([]),
     related: z.array(z.string()).default([]),
     brand_specific_points: z.number().optional(),
+    featured_image: z.string().optional(),
   }),
 });
 

@@ -69,3 +69,5 @@ table.ficha tbody th{width:34%;background:color-mix(in srgb,var(--amber) 14%,var
 .site-footer li{margin:0}
 .site-footer li a,.site-footer li button{display:inline-block;padding:.5rem 0;min-height:44px;background:none;border:0;font:inherit;text-decoration:underline;cursor:pointer}
 .copy{margin-top:1.5rem;font-size:.85rem;color:#8c94a3}
+.hero-img{margin:1.2rem 0}
+.hero-img img{display:block;width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover;border-radius:var(--radius);border:1px solid var(--line);background:var(--dark)}

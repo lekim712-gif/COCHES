@@ -9,20 +9,25 @@ const d = article.data;
 const parts = d.content_html.split(/<!--ad-slot-[12]-->/);
 const related = [...resolveRelated(all, d.related), ...extraLinks].filter((a) => a.id !== article.id);
 const site = Astro.site!;
+const img = d.featured_image;
+const introEnd = parts[0].indexOf('</p>') + 4;
+const head = parts[0].slice(0, introEnd), rest = parts[0].slice(introEnd);
 const url = new URL(urlOf(article), site).href;
 const orgId = new URL('/#organization', site).href;
 const fmt = (s: string) => new Date(s).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
 const jsonLd = [
-  { '@type': 'Article', '@id': `${url}#article`, headline: d.name.slice(0, 110), description: d.seo.meta_description, datePublished: d.datePublished, dateModified: d.dateModified, inLanguage: SITE.lang, mainEntityOfPage: url, author: { '@id': orgId }, publisher: { '@id': orgId } },
+  { '@type': 'Article', '@id': `${url}#article`, headline: d.name.slice(0, 110), description: d.seo.meta_description, datePublished: d.datePublished, dateModified: d.dateModified, ...(img ? { image: new URL(img, site).href } : {}), inLanguage: SITE.lang, mainEntityOfPage: url, author: { '@id': orgId }, publisher: { '@id': orgId } },
   { '@type': 'BreadcrumbList', itemListElement: crumbs.map(([n, h], i) => ({ '@type': 'ListItem', position: i + 1, name: n, item: new URL(h, site).href })) },
   { '@type': 'FAQPage', mainEntity: d.schema_faq.map((q) => ({ '@type': 'Question', name: q.question, acceptedAnswer: { '@type': 'Answer', text: q.answer } })) },
 ];
 ---
-<Base title={d.seo.meta_title} description={d.seo.meta_description} type="article" modified={d.dateModified} published={d.datePublished} jsonLd={jsonLd}>
+<Base title={d.seo.meta_title} description={d.seo.meta_description} type="article" modified={d.dateModified} published={d.datePublished} image={img} jsonLd={jsonLd}>
   <div class="wrap article-wrap">
     <nav class="crumbs" aria-label="Migas de pan"><ol>{crumbs.map(([n, h], i) => <li>{i < crumbs.length - 1 ? <a href={h}>{n}</a> : <span aria-current="page">{n}</span>}</li>)}</ol></nav>
     <article class="article">
-      <Fragment set:html={parts[0]} />
+      <Fragment set:html={head} />
+      {img && <figure class="hero-img"><img src={img} width="1200" height="630" alt={`Imagen ilustrativa: ${d.name}`} fetchpriority="high" decoding="async" /></figure>}
+      <Fragment set:html={rest} />
       <AdSlot n={1} />
       <Fragment set:html={parts[1] ?? ''} />
       <AdSlot n={2} />

@@ -1,10 +1,10 @@
 ---
 import '../styles/global.css';
 import { SITE, CATEGORIES } from '../config';
-interface Props { title: string; description: string; noindex?: boolean; type?: 'website' | 'article'; jsonLd?: object[]; modified?: string; published?: string; }
-const { title, description, noindex = false, type = 'website', jsonLd = [], modified, published } = Astro.props;
+interface Props { title: string; description: string; noindex?: boolean; type?: 'website' | 'article'; jsonLd?: object[]; modified?: string; published?: string; image?: string; }
+const { title, description, noindex = false, type = 'website', jsonLd = [], modified, published, image } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
-const og = new URL('/og-default.png', Astro.site).href;
+const og = new URL(image ?? '/og-default.png', Astro.site).href;
 const robots = noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large';
 const orgId = new URL('/#organization', Astro.site).href;
 const graph = [
