@@ -1,0 +1,37 @@
+# OBDCodigos · Hostinger (Apache/LiteSpeed). Se copia a la raíz del sitio al construir.
+# Si cambias de dominio, actualiza obdcodigos.com en la regla de redirección.
+
+Options -Indexes
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+
+# 1) Una sola versión: https + sin www (301)
+RewriteEngine On
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://obdcodigos.com%{REQUEST_URI} [L,R=301]
+
+# 2) Seguridad (HSTS: activar solo cuando el SSL ya funcione en el dominio)
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# 3) Compresión
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml text/plain application/xml
+</IfModule>
+
+# 4) Caché: HTML siempre fresco; recursos estáticos 30 días (los de /_astro/ llevan hash en el nombre)
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 0 seconds"
+  ExpiresByType image/webp "access plus 30 days"
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+  ExpiresByType text/css "access plus 30 days"
+  ExpiresByType application/javascript "access plus 30 days"
+  ExpiresByType font/woff2 "access plus 30 days"
+</IfModule>

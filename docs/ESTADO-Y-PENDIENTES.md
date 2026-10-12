@@ -19,8 +19,8 @@ _Actualizado: 12 de octubre de 2026._
    - Publicación escalonada (5-10 fichas/semana) con despliegue automático e IndexNow.
    - Marcado de revisión con `npm run reviewed` cuando Carlos Peláez revise.
 3. **Revisión técnica de las 21 fichas** por Carlos Peláez (hoy figuran «pendiente de revisión técnica»).
-4. **Hosting:** Cloudflare Pages conectado al repositorio. Build `npm run build:prod`, salida `dist`. Variables de entorno: las de `.env.example`, con los datos reales del titular.
-5. **Redirección** de `www` al dominio sin `www` (301) y correo `contacto@obdcodigos.com` (Email Routing).
+4. **Hosting: Hostinger** (dominio y hosting). Guía paso a paso en `docs/DESPLIEGUE-HOSTINGER.md`: añadir el dominio, SSL, cuenta FTP limitada a su carpeta y primera subida manual de `dist/` (con `.htaccess`).
+5. **Correo `contacto@obdcodigos.com`:** crearlo en Hostinger si el plan lo incluye, o reenviarlo a tu correo.
 6. **Search Console y Bing Webmaster:** verificar el dominio y enviar `sitemap-index.xml`.
 7. **AdSense:** solicitarlo con 20-30 fichas revisadas e indexadas. Después, rellenar `PUBLIC_ADSENSE_CLIENT` y los slots, y configurar el mensaje de consentimiento (Privacidad y mensajes).
 8. **Amazon Afiliados (amazon.es):** solicitarlo con la web en línea; rellenar `PUBLIC_AMAZON_TAG`.
