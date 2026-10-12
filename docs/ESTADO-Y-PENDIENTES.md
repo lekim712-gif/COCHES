@@ -1,0 +1,32 @@
+# Estado del proyecto y pendientes
+
+_Actualizado: 12 de octubre de 2026._
+
+## Hecho
+- **Web completa en local** (Astro estático): portada, índices, 10 fichas de códigos, 4 testigos, 2 guías, 5 fichas por marca, páginas legales, metodología, 404, robots.txt, sitemap y `ads.txt`.
+- **Contenido** en JSON con el esquema `seo / content_html / featured_image_prompt / schema_faq`, validado en cada build (`npm run validate`).
+- **Imágenes:** 21 ilustraciones generadas con IA enlazadas, y generador propio gratuito para las fichas nuevas (`npm run image`).
+- **SEO técnico:** canonical, Open Graph, datos estructurados (Organization, WebSite, Article, BreadcrumbList, FAQPage), sitemap con `lastmod` real, 0 enlaces internos rotos.
+- **Cumplimiento:** Consent Mode v2 por defecto denegado, aviso legal, privacidad y cookies con datos del titular, transparencia sobre el uso de IA.
+- **Monetización preparada y apagada:** bloques AdSense y enlaces Amazon se activan con variables de entorno.
+- **Control de lanzamiento:** `npm run build:prod` falla si falta algo obligatorio.
+
+## Pendiente (en este orden)
+1. **Comprar `obdcodigos.com`** (confirmar disponibilidad en el registrador).
+2. **Automatizaciones** (siguiente fase):
+   - Generación de fichas desde `content-plan/backlog.json` con la API de Claude y el esquema JSON; cada ficha pasa por `validate-content.mjs`.
+   - Imagen con el generador propio y guardado como borrador.
+   - Publicación escalonada (5-10 fichas/semana) con despliegue automático e IndexNow.
+   - Marcado de revisión con `npm run reviewed` cuando Carlos Peláez revise.
+3. **Revisión técnica de las 21 fichas** por Carlos Peláez (hoy figuran «pendiente de revisión técnica»).
+4. **Hosting:** Cloudflare Pages conectado al repositorio. Build `npm run build:prod`, salida `dist`. Variables de entorno: las de `.env.example`, con los datos reales del titular.
+5. **Redirección** de `www` al dominio sin `www` (301) y correo `contacto@obdcodigos.com` (Email Routing).
+6. **Search Console y Bing Webmaster:** verificar el dominio y enviar `sitemap-index.xml`.
+7. **AdSense:** solicitarlo con 20-30 fichas revisadas e indexadas. Después, rellenar `PUBLIC_ADSENSE_CLIENT` y los slots, y configurar el mensaje de consentimiento (Privacidad y mensajes).
+8. **Amazon Afiliados (amazon.es):** solicitarlo con la web en línea; rellenar `PUBLIC_AMAZON_TAG`.
+
+## Decisiones tomadas
+- Nicho OBD2 en español, España primero; electrodomésticos queda como posible segundo sitio si este funciona.
+- Fichas por marca solo con particularidades reales de la plataforma (el validador lo exige).
+- Imágenes: generador propio para lo nuevo; sin gastar créditos de servicios externos.
+- El contenido es portable (JSON); cambiar de stack costaría solo maquetación.
