@@ -1,0 +1,55 @@
+# Publica la web en Hostinger por FTP cada vez que se sube un cambio a la rama de producción (o a mano desde Actions).
+# Si todavía no están los secretos, NO falla: avisa y se salta el despliegue. Ver docs/DESPLIEGUE-HOSTINGER.md.
+name: Desplegar en Hostinger
+
+on:
+  push:
+    branches: [claude/happy-lovelace-3ojo5t, main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-hostinger
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      DOTENV: ${{ secrets.DOTENV }}
+      FTP_SERVER: ${{ secrets.FTP_SERVER }}
+    steps:
+      - name: Comprobar secretos
+        id: gate
+        run: |
+          if [ -n "$DOTENV" ] && [ -n "$FTP_SERVER" ]; then echo "ready=true" >> "$GITHUB_OUTPUT"
+          else echo "ready=false" >> "$GITHUB_OUTPUT"; echo "::notice::Faltan los secretos DOTENV y/o FTP_*. Despliegue omitido."; fi
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.ready == 'true'
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.ready == 'true'
+        with:
+          node-version: 22
+          cache: npm
+      - name: Instalar
+        if: steps.gate.outputs.ready == 'true'
+        run: npm ci
+      - name: Construir (falla si falta algún dato obligatorio)
+        if: steps.gate.outputs.ready == 'true'
+        run: |
+          printf '%s\n' "$DOTENV" > .env
+          npm run build:prod
+          rm -f .env
+      - name: Subir dist/ por FTP
+        if: steps.gate.outputs.ready == 'true'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ${{ secrets.FTP_PROTOCOL || 'ftps' }}
+          port: ${{ secrets.FTP_PORT || 21 }}
+          local-dir: ./dist/
+          # Carpeta de ESTE dominio únicamente. Con una cuenta FTP limitada a public_html suele ser ./
+          server-dir: ${{ secrets.FTP_SERVER_DIR || './' }}
+          # No borra nada que este despliegue no haya subido antes (no toca otras webs).
+          dangerous-clean-slate: false

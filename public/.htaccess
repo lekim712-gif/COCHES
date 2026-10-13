@@ -5,6 +5,11 @@ Options -Indexes
 DirectoryIndex index.html
 ErrorDocument 404 /404.html
 
+# 0) Nunca servir archivos ocultos (p. ej. el de estado del despliegue)
+<FilesMatch "^\.">
+  Require all denied
+</FilesMatch>
+
 # 1) Una sola versión: https + sin www (301)
 RewriteEngine On
 RewriteCond %{HTTPS} !=on [OR]

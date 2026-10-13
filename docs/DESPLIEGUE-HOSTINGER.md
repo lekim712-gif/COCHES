@@ -16,27 +16,29 @@ La web es **estática** (HTML, CSS e imágenes). Se puede desplegar de dos forma
 ## 3. Carpeta del dominio
 Si usas la opción B (subida manual), sube **solo** a la carpeta de este dominio y, si usas FTP, crea una cuenta limitada a ella. Así un fallo nunca puede tocar tus otras webs. Con la opción A no hace falta FTP.
 
-## 4. Opción A (recomendada): importar desde GitHub
-Hostinger construye la web él mismo a partir del repositorio. Cada cambio que se suba a la rama elegida **se despliega solo**, que es lo que necesitan las automatizaciones.
+## 4. Opción A (recomendada): despliegue automático por FTP desde GitHub
+Cada vez que se sube un cambio a la rama de producción, GitHub construye la web (`npm run build:prod`) y la sube a Hostinger por FTP. **Nadie más que GitHub ve la contraseña.** El flujo es `.github/workflows/deploy-hostinger.yml`.
 
-En la pantalla de importación:
-| Campo | Valor |
+**Una sola vez, en hPanel:** Archivos → Cuentas FTP → crea una cuenta **limitada a la carpeta `public_html` de este dominio** con una contraseña larga y única. Anota el servidor (p. ej. `ftp.obdcodigos.com`), el usuario y la contraseña.
+
+**Una sola vez, en GitHub:** repositorio → Settings → Secrets and variables → Actions → New repository secret. Crea estos 5:
+| Secreto | Valor |
 |---|---|
-| Preajuste del marco | Astro |
-| Rama | La que vayas a usar para producción (idealmente `main`; ver nota) |
-| Versión de Node | 22.x |
-| Directorio raíz | `./` |
-| Comando de compilación (Ajustes de compilación → Cambiar) | `npm run build:prod` |
-| Directorio de salida | `dist` |
+| `DOTENV` | El contenido completo de tu `.env` local (las 7 variables obligatorias, una por línea) |
+| `FTP_SERVER` | El servidor FTP, p. ej. `ftp.obdcodigos.com` |
+| `FTP_USERNAME` | El usuario de la cuenta FTP |
+| `FTP_PASSWORD` | La contraseña de la cuenta FTP |
+| `FTP_SERVER_DIR` | `./` si la cuenta ya está limitada a `public_html` |
 
-**Variables de entorno** (solo estas 7; las opcionales no se definen):
-`SITE_URL`, `PUBLIC_CONTACT_EMAIL`, `PUBLIC_OWNER_NAME`, `PUBLIC_OWNER_TAXID`, `PUBLIC_OWNER_ADDRESS`, `PUBLIC_REVIEWER_NAME`, `PUBLIC_REVIEWER_EXPERIENCE`. Los valores son los de tu `.env` local.
+Opcionales si falla la conexión: `FTP_PROTOCOL` (`ftps` por defecto; prueba `ftp`) y `FTP_PORT` (21 por defecto).
 
-- `npm run build:prod` **hace fallar el despliegue** si falta algún dato obligatorio. Es una protección: es mejor un despliegue fallido que una web con `[PENDIENTE]`.
+- Hasta que existan `DOTENV` y `FTP_SERVER`, el flujo **se salta** el despliegue con un aviso, sin fallar.
+- `build:prod` hace fallar el despliegue si falta algún dato obligatorio (mejor un fallo que una web con `[PENDIENTE]`).
+- El flujo **no borra** archivos que él no haya subido antes, así que no toca otras webs.
 - Las fichas sin revisar se publican con `noindex`, así que desplegar a menudo es seguro.
-- **Nota sobre la rama:** si despliegas desde una rama temporal, cada cambio en ella publica. Para producción conviene una rama estable (`main`).
+- **Nunca pegues la contraseña FTP en un chat ni en un archivo del repositorio.** Si se filtra, cámbiala en hPanel.
 
-## 5. Opción B: subida manual del `dist/`
+## 5. Opción B: subida manual del `dist/` (alternativa)
 1. En tu ordenador: `npm run build:prod` (necesita tu `.env`).
 2. En el Administrador de archivos de hPanel, sube el zip del contenido de `dist/` a la carpeta del dominio y **extráelo allí** (así se conserva `.htaccess`).
 3. Los archivos ocultos deben verse y subirse; sin `.htaccess` no hay redirecciones ni página 404.
