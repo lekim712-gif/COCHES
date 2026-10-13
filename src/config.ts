@@ -23,7 +23,7 @@ export const SITE = {
   // true (por defecto) = las fichas sin revisar se indexan mostrando «pendiente de revisión técnica». Poner PUBLIC_INDEX_UNREVIEWED=0 para exigir revisión antes de indexar.
   // Las fichas con needs_review (temas de seguridad) siempre exigen revisión humana.
   indexUnreviewed: import.meta.env.PUBLIC_INDEX_UNREVIEWED !== '0',
-  adsenseClient: opt(import.meta.env.PUBLIC_ADSENSE_CLIENT), // ca-pub-XXXXXXXXXXXXXXXX
+  adsenseClient: opt(import.meta.env.PUBLIC_ADSENSE_CLIENT) || 'ca-pub-3471604320419676', // ID público del editor; la variable de entorno tiene prioridad
   adSlots: { 1: opt(import.meta.env.PUBLIC_ADSLOT_1), 2: opt(import.meta.env.PUBLIC_ADSLOT_2) },
   amazonTag: opt(import.meta.env.PUBLIC_AMAZON_TAG), // p. ej. micuenta-21
   amazonDomain: 'www.amazon.es',
