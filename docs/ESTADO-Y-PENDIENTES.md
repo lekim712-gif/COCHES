@@ -2,6 +2,10 @@
 
 _Actualizado: 13 de octubre de 2026._
 
+## Publicada
+**https://obdcodigos.com publicada el 13/10/2026** en Hostinger (subida manual del `dist/`). Auditoría del mismo día: 35 URLs rastreadas, 32 indexables, sitemap con 32 URLs, redirecciones, 404, cabeceras de seguridad, compresión (brotli), caché y `og:image` correctos. Único hallazgo, menor: `http://www…` tarda 2 saltos en llegar al dominio final (lo fuerza Hostinger antes que nuestro `.htaccess`).
+Pendiente de medir: velocidad (PageSpeed Insights; los datos de campo tardan semanas en existir).
+
 ## Hecho
 - **Web completa en local** (Astro estático): portada, índices, 10 fichas de códigos, 4 testigos, 2 guías, 5 fichas por marca, páginas legales, metodología, 404, robots.txt, sitemap y `ads.txt`.
 - **Contenido** en JSON con el esquema `seo / content_html / featured_image_prompt / schema_faq`, validado en cada build (`npm run validate`).
@@ -12,18 +16,13 @@ _Actualizado: 13 de octubre de 2026._
 - **Control de lanzamiento:** `npm run build:prod` falla si falta algo obligatorio.
 
 ## Pendiente (en este orden)
-1. **Comprar `obdcodigos.com`** (confirmar disponibilidad en el registrador).
-2. **Automatizaciones** (siguiente fase):
-   - Generación de fichas desde `content-plan/backlog.json` con la API de Claude y el esquema JSON; cada ficha pasa por `validate-content.mjs`.
-   - Imagen con el generador propio y guardado como borrador.
-   - Publicación escalonada (5-10 fichas/semana) con despliegue automático e IndexNow.
-   - Marcado de revisión con `npm run reviewed` cuando Carlos Peláez revise.
-3. ~~Revisión técnica de las 21 fichas por Carlos Peláez~~ **Hecha el 13/10/2026** (sin cambios): las 21 fichas son indexables y muestran «Revisada por». Las fichas nuevas que se generen volverán a empezar «pendiente de revisión» con `noindex`.
-4. **Hosting: Hostinger** (dominio y hosting). Guía paso a paso en `docs/DESPLIEGUE-HOSTINGER.md`: añadir el dominio, SSL, cuenta FTP limitada a su carpeta y primera subida manual de `dist/` (con `.htaccess`).
-5. **Correo `contacto@obdcodigos.com`:** crearlo en Hostinger si el plan lo incluye, o reenviarlo a tu correo.
-6. **Search Console y Bing Webmaster:** verificar el dominio y enviar `sitemap-index.xml`.
-7. **AdSense:** solicitarlo con 20-30 fichas revisadas e indexadas. Después, rellenar `PUBLIC_ADSENSE_CLIENT` y los slots, y configurar el mensaje de consentimiento (Privacidad y mensajes).
-8. **Amazon Afiliados (amazon.es):** solicitarlo con la web en línea; rellenar `PUBLIC_AMAZON_TAG`.
+1. **Search Console:** añadir `obdcodigos.com` como propiedad de dominio (verificación con registro TXT en la zona DNS de Hostinger) y enviar `sitemap-index.xml`. Solicitar indexación de la portada y de 3-5 fichas.
+2. **Bing Webmaster Tools:** importar el sitio desde Search Console. Activar IndexNow cuando estén las automatizaciones.
+3. **Correo `contacto@obdcodigos.com`:** reclamar el email gratuito de Hostinger y crear exactamente esa cuenta.
+4. **Automatizaciones:** generar fichas desde `content-plan/backlog.json` con la API de Claude y el esquema JSON (cada una pasa por `validate-content.mjs`), imagen con el generador propio, publicación escalonada (5-10 por semana), revisión de Carlos con `npm run reviewed`.
+5. **Medir velocidad** en PageSpeed Insights (móvil) y revisar Search Console a la semana.
+6. **AdSense:** solicitarlo con 20-30 fichas indexadas y algo de tráfico. Después rellenar `PUBLIC_ADSENSE_CLIENT` y los slots, y configurar el mensaje de consentimiento (Privacidad y mensajes).
+7. **Amazon Afiliados (amazon.es):** solicitarlo con la web en línea; rellenar `PUBLIC_AMAZON_TAG`.
 
 ## Estrategia de indexación (decidida)
 - **Una ficha solo es indexable cuando está revisada.** Sin revisar se publica con `noindex, follow`, sin canonical y fuera del sitemap. Al marcarla con `npm run reviewed -- <ficha>` pasa a indexable y entra en el sitemap.
