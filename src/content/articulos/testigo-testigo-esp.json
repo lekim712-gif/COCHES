@@ -1,0 +1,39 @@
+{
+  "type": "testigo",
+  "name": "Testigo del ESP: significado y qué hacer",
+  "datePublished": "2026-10-13",
+  "dateModified": "2026-10-13",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo del ESP: significado y qué hacer",
+    "meta_description": "Testigo del ESP encendido o parpadeando: qué significa, si puedes seguir circulando y qué revisar (sensor del volante, ABS, botón de desconexión).",
+    "slug": "testigo-esp"
+  },
+  "content_html": "<h1>Testigo del ESP: significado y qué hacer</h1>\n<p class=\"intro\">El testigo del ESP, un coche con dos líneas curvas, avisa del control de estabilidad. Si parpadea mientras conduces, el sistema está actuando porque el coche pierde adherencia, y debes reducir la velocidad. Si se queda fijo, hay un fallo o el ESP está desconectado con el botón. El coche sigue circulando, pero sin esa ayuda en situaciones límite.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: se puede circular, pero sin el apoyo del control de estabilidad</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>ESP, ABS, sensores de rueda, sensor del ángulo de volante</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0 € (botón desconectado) · 60–400 € (sensor) · más si es la centralita, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con acceso a ABS/ESP, multímetro, manual del vehículo</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo parpadeando al acelerar o tomar curvas con poca adherencia.</li><li>Testigo fijo, a menudo junto al del ABS.</li><li>Testigo con la palabra OFF, por haber desconectado el ESP.</li><li>Pérdida de ayuda en frenadas y curvas sobre piso mojado o nevado.</li><li>Posible bloqueo del control de tracción.</li></ul>\n<h2>Causas principales</h2><ul><li>El sistema está interviniendo por una pérdida de adherencia real: piso mojado, nieve o gravilla.</li><li>Botón de desconexión del ESP pulsado por error.</li><li>Sensor de velocidad de rueda sucio o averiado, que afecta también al ABS.</li><li>Sensor del ángulo de volante descalibrado, sobre todo tras una alineación.</li><li>Baja tensión de batería o cableado en mal estado.</li><li>Presiones de neumáticos muy desiguales o neumáticos de distinto tamaño o marca.</li><li>Fallo de la unidad hidráulica o de la centralita del ESP.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Si el testigo parpadea mientras conduces, es una acción normal del sistema: reduce la velocidad, evita acelerar a fondo y conduce con suavidad.</li><li>Si se queda fijo, detén el coche en un lugar seguro, comprueba que el botón del ESP no esté desconectado (suele mostrar OFF) y pulsa de nuevo.</li><li>Apaga el motor, espera unos segundos y arranca otra vez: algunos fallos puntuales se borran solos.</li><li>Comprueba la presión de los cuatro neumáticos y que tengan un desgaste y tamaño similares.</li><li>Revisa el estado de la batería: una tensión baja provoca avisos del ESP y del ABS.</li><li>Lee con un escáner con acceso a ABS/ESP los códigos del sistema; un OBD2 básico muchas veces no los muestra.</li><li>Si el código apunta a un sensor de rueda, límpialo y revisa su cableado y el anillo del cubo; si apunta al ángulo del volante, hace falta una calibración en taller.</li><li>Si el testigo sigue encendido, acude al taller: puedes circular con cuidado, pero sin ESP el coche reacciona peor en una maniobra brusca.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con el testigo del ESP encendido?",
+      "answer": "Sí, el coche circula con normalidad, pero sin el apoyo del control de estabilidad. Reduce la velocidad, sobre todo con piso mojado, y revisa el sistema pronto."
+    },
+    {
+      "question": "¿Por qué parpadea el testigo del ESP?",
+      "answer": "Parpadea cuando el sistema está actuando porque una rueda pierde adherencia. Es normal en piso mojado o con nieve, y no indica una avería."
+    },
+    {
+      "question": "¿Qué relación tiene el ESP con el ABS?",
+      "answer": "Comparten sensores de rueda y unidad hidráulica, por eso un fallo en uno suele encender ambos testigos. Revisa los dos a la vez."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "manómetro de presión de neumáticos",
+    "tester de batería de coche"
+  ],
+  "related": [
+    "testigo-motor",
+    "testigo-bateria"
+  ],
+  "featured_image": "/img/articulos/testigo-testigo-esp.webp"
+}

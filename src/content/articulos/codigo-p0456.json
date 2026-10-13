@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0456",
+  "name": "Fuga muy pequeña en el sistema EVAP",
+  "datePublished": "2026-10-13",
+  "dateModified": "2026-10-13",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0456: causas, síntomas y solución",
+    "meta_description": "P0456: fuga muy pequeña en el sistema EVAP, casi imperceptible. Por qué es la más difícil de localizar y cómo encontrarla con prueba de humo.",
+    "slug": "p0456"
+  },
+  "content_html": "<h1>Código P0456: Fuga muy pequeña en el sistema EVAP</h1>\n<p class=\"intro\">El código P0456 indica que el sistema EVAP detecta una fuga muy pequeña, de menos de un milímetro, en el circuito de vapores de combustible. Es la variante más fina de la familia EVAP y también la más difícil de encontrar, porque a simple vista no se ve nada roto. Casi nunca afecta a la conducción, pero mantiene el testigo encendido y complica la ITV.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: no afecta a la conducción, pero el testigo queda encendido</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>EVAP, juntas, racores, válvulas y cánister</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–20 € (tapón o junta) · 80–450 € (válvula o cánister), más la prueba de humo si se hace en taller</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, detector de fugas por humo, linterna, líquido jabonoso</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido como único síntoma.</li><li>Código que aparece y desaparece según la temperatura ambiente o el nivel del depósito.</li><li>Ningún olor ni síntoma claro: la fuga es demasiado pequeña.</li><li>Motor y consumo sin cambios apreciables.</li><li>El testigo reaparece tras borrarlo, a veces días después.</li></ul>\n<h2>Causas principales</h2><ul><li>Junta del tapón de combustible endurecida o con microgrietas.</li><li>Racores o abrazaderas de las mangueras EVAP con holgura mínima.</li><li>Junta de la bomba de combustible o de su tapa de acceso, que no sella bien.</li><li>Válvula de purga o de ventilación con una fuga interna muy pequeña.</li><li>Cánister de carbón activo con una microfisura o con un tapón de conexión que no ajusta.</li><li>Sensor de presión del depósito con una deriva en su medición.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y anota si hay otros del EVAP. Si solo está P0456, la fuga es mínima y toca localizarla con un método fiable, no cambiar piezas al azar.</li><li>Cambia la junta del tapón o el tapón completo: es barato y resuelve muchos casos. Borra el código y conduce unos días.</li><li>Si reaparece, revisa todos los racores y abrazaderas del EVAP, desde el depósito hasta la válvula de purga, comprobando que encajan hasta el fondo.</li><li>Haz una prueba de humo con el equipo a baja presión, sin chispas ni llamas cerca. Con una fuga tan pequeña, observa con una linterna durante varios minutos para ver el hilo de humo.</li><li>Si el humo no aparece a la vista, rocía líquido jabonoso en racores y juntas sospechosas y busca burbujas.</li><li>Revisa la junta de la bomba de combustible: en muchos coches se accede por debajo del asiento trasero o desde el maletero, y desmontarla exige cuidado con los vapores de gasolina.</li><li>Comprueba con el escáner las válvulas de purga y de ventilación, y los datos del sensor de presión del depósito con el sistema en reposo.</li><li>Cambia la pieza que pierda, borra los códigos y completa un ciclo de conducción para confirmar que el sistema supera la prueba.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0456 y P0442?",
+      "answer": "Ambos son fugas pequeñas del EVAP, pero P0456 corresponde a la más fina, cercana a 0,5 mm, y P0442 a una algo mayor, cercana a 1 mm. Por eso P0456 cuesta más localizar."
+    },
+    {
+      "question": "¿Se puede circular con el código P0456?",
+      "answer": "Sí, no afecta al motor. Aun así emite vapores de combustible, el testigo seguirá encendido y puede impedirte pasar la ITV, así que conviene repararlo."
+    },
+    {
+      "question": "¿Por qué se me apaga y vuelve a encender el testigo?",
+      "answer": "Porque la prueba EVAP solo se completa en ciertas condiciones de temperatura y de nivel de depósito, y una fuga mínima a veces se detecta y a veces no. Si reaparece, hay que buscarla igualmente."
+    }
+  ],
+  "products": [
+    "detector de fugas de humo automoción",
+    "tapón de depósito de combustible",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0442",
+    "p0455",
+    "p0171"
+  ],
+  "featured_image": "/img/articulos/codigo-p0456.webp"
+}

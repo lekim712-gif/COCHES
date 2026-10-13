@@ -1,0 +1,42 @@
+{
+  "type": "codigo",
+  "code": "P0130",
+  "name": "Circuito de la sonda lambda anterior (banco 1)",
+  "datePublished": "2026-10-13",
+  "dateModified": "2026-10-13",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0130: causas, síntomas y solución",
+    "meta_description": "P0130: fallo en el circuito de la sonda lambda anterior del banco 1. Síntomas, causas (sonda, cableado, fugas de escape) y cómo diagnosticarlo.",
+    "slug": "p0130"
+  },
+  "content_html": "<h1>Código P0130: Circuito de la sonda lambda anterior (banco 1)</h1>\n<p class=\"intro\">El código P0130 indica que la señal de la sonda lambda anterior del banco 1, la situada antes del catalizador, queda fuera de rango o no cambia como debería. Esa sonda mide el oxígeno de los gases de escape para ajustar la mezcla. Si falla, la centralita pierde precisión, el consumo sube y las emisiones empeoran. Suele deberse a la propia sonda, a su cableado o a una fuga de escape.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: se puede circular, pero sube el consumo y el riesgo para el catalizador</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sonda lambda, mezcla de combustible, escape</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>80–300 € (sonda y mano de obra) · menos si es cableado o fuga de escape, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro, llave de sonda lambda</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Consumo de combustible mayor de lo normal.</li><li>Ralentí irregular y respuesta menos fina al acelerar.</li><li>Olor a gasolina o humo negro, si la mezcla va rica.</li><li>Resultado de emisiones peor en la ITV.</li></ul>\n<h2>Causas principales</h2><ul><li>Sonda lambda anterior envejecida, contaminada o con el calentador averiado.</li><li>Cableado o conector de la sonda dañado, con roces o corrosión.</li><li>Fuga en el escape antes de la sonda, que falsea la lectura de oxígeno.</li><li>Contaminación por aceite, refrigerante o aditivos inadecuados.</li><li>Fusible o relé del calentador de la sonda defectuoso.</li><li>Mezcla muy rica o muy pobre por otra avería, que no es culpa de la sonda.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y los datos congelados. Si hay también P0171, P0172 o fallos de encendido, resuelve primero esos: una mezcla errónea puede hacer que la sonda parezca averiada.</li><li>Inspecciona el conector y el cableado de la sonda anterior del banco 1: busca roces, cables fundidos por el escape, humedad o terminales sulfatados.</li><li>Busca fugas en el escape antes de la sonda, como juntas del colector, con el motor frío o con cuidado de no tocar piezas calientes.</li><li>Con el escáner, observa en datos en vivo la tensión de la sonda con el motor caliente: debe oscilar con rapidez entre valores bajos y altos. Una tensión fija indica una sonda o un circuito defectuosos.</li><li>Con el multímetro, mide la resistencia del calentador de la sonda y compárala con el valor del manual; comprueba también el fusible y la alimentación.</li><li>Comprueba que no hay aceite, refrigerante o restos de silicona en la sonda, porque contaminan su sensor.</li><li>Si el cableado y el escape están bien, sustituye la sonda por una equivalente, aplicando el par de apriete indicado y sin dañar su cable.</li><li>Borra los códigos, conduce un ciclo completo y confirma con datos en vivo que la sonda oscila con normalidad.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con el código P0130?",
+      "answer": "Sí, durante un tiempo limitado: el coche funciona, pero consume más y puede dañar el catalizador si se mantiene la mezcla incorrecta. Conviene repararlo pronto."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar un P0130?",
+      "answer": "Una sonda lambda con montaje cuesta entre 80 y 300 €, según modelo. Si el problema es el cableado o una fuga de escape, suele ser más barato."
+    },
+    {
+      "question": "¿Qué significa \"banco 1, sonda 1\"?",
+      "answer": "El banco 1 es el lado del motor donde está el cilindro 1, y la sonda 1 es la anterior al catalizador. En motores en línea solo hay un banco."
+    }
+  ],
+  "products": [
+    "sonda lambda universal",
+    "llave para sonda lambda",
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz"
+  ],
+  "related": [
+    "p0171",
+    "p0172",
+    "p0420"
+  ],
+  "featured_image": "/img/articulos/codigo-p0130.webp"
+}
