@@ -1,71 +1,342 @@
 {
-  "_nota": "Prioridad = criterio editorial (códigos frecuentes y de intención clara), NO volumen medido: sustituir por datos de Search Console cuando existan. Decisiones SEO: (1) una sola ficha por familia casi idéntica (fallos de encendido por cilindro, banco 2 de mezcla) para evitar contenido fino; (2) las fichas por marca NO se automatizan: exigen particularidades reales verificadas y se hacen a mano; (3) sin guías de seguridad crítica (frenos, airbag); los testigos de seguridad listados en requieren_revision_humana no se indexan hasta que los revise una persona; el resto de fichas se indexa como «pendiente de revisión técnica». Formato: [código|slug, título, nota opcional].",
-  "requieren_revision_humana": ["testigo-abs","testigo-freno","testigo-airbag","testigo-direccion-asistida"],
-  "hecho": ["P0420","P0300","P0171","P0172","P0335","P0401","P0087","P0299","P2002","U0100"],
-  "codigos": [
-    ["P0301","Fallo de encendido en el cilindro 1","Esta ficha es la referencia de TODA la familia por cilindro: menciona en la introducción y en las FAQ que P0302, P0303, P0304, P0305 y P0306 son el mismo fallo en el cilindro 2 a 6 y se diagnostican igual cambiando el cilindro afectado. No habrá fichas separadas para esos códigos."],
-    ["P0442","Fuga pequeña en el sistema EVAP"],
-    ["P0455","Fuga grande en el sistema EVAP","Diferénciala de P0442 y P0456: aquí lo habitual es un tapón de combustible mal cerrado o una manguera desconectada."],
-    ["P0456","Fuga muy pequeña en el sistema EVAP","Diferénciala de P0442 y P0455: son fugas casi imperceptibles que exigen prueba de humo."],
-    ["P0130","Circuito de la sonda lambda anterior (banco 1)"],
-    ["P0133","Respuesta lenta de la sonda lambda anterior (banco 1)"],
-    ["P0141","Calentador de la sonda lambda posterior (banco 1)"],
-    ["P0340","Circuito del sensor de posición del árbol de levas"],
-    ["P0101","Caudalímetro MAF: rango o rendimiento"],
-    ["P0234","Turbo: sobrepresión de sobrealimentación"],
-    ["P0402","Flujo excesivo de recirculación de gases EGR"],
-    ["P0507","Régimen de ralentí superior al esperado"],
-    ["P0562","Tensión del sistema baja"],
-    ["P0102","Caudalímetro MAF: señal baja"],
-    ["P0103","Caudalímetro MAF: señal alta"],
-    ["P0105","Circuito del sensor de presión del colector (MAP)"],
-    ["P0110","Circuito del sensor de temperatura del aire de admisión"],
-    ["P0115","Circuito del sensor de temperatura del refrigerante"],
-    ["P0116","Sensor de temperatura del refrigerante: rango o rendimiento"],
-    ["P0120","Circuito del sensor de posición de la mariposa"],
-    ["P0131","Sonda lambda anterior: tensión baja (banco 1)"],
-    ["P0134","Sonda lambda anterior: sin actividad (banco 1)"],
-    ["P0135","Calentador de la sonda lambda anterior (banco 1)"],
-    ["P0201","Circuito del inyector del cilindro 1"],
-    ["P0230","Circuito primario de la bomba de combustible"],
-    ["P0325","Circuito del sensor de detonación"],
-    ["P0403","Circuito de la válvula EGR"],
-    ["P0443","Circuito de la válvula de purga del EVAP"],
-    ["P0446","Circuito de ventilación del EVAP"],
-    ["P0500","Sensor de velocidad del vehículo"],
-    ["P0505","Sistema de control del ralentí"],
-    ["P0506","Régimen de ralentí inferior al esperado"],
-    ["P0600","Fallo de comunicación serie"],
-    ["P0606","Fallo del procesador de la centralita"],
-    ["P0700","Fallo del sistema de control de la transmisión"],
-    ["P0715","Circuito del sensor de velocidad de entrada de la transmisión"],
-    ["P0730","Relación de marcha incorrecta"],
-    ["P2263","Turbo: rendimiento del sistema de sobrealimentación"],
-    ["P2279","Fuga de aire en la admisión"],
-    ["P20EE","Eficiencia del catalizador SCR (NOx)"],
-    ["U0121","Pérdida de comunicación con el módulo ABS"],
-    ["U0155","Pérdida de comunicación con el cuadro de instrumentos"],
-    ["C0035","Circuito del sensor de velocidad de rueda delantera izquierda"]
+ "_nota": "Prioridad = criterio editorial (códigos frecuentes y de intención clara), NO volumen medido: sustituir por datos de Search Console cuando existan. Decisiones SEO: (1) una sola ficha por familia casi idéntica (fallos de encendido por cilindro, banco 2 de mezcla) para evitar contenido fino; (2) las fichas por marca NO se automatizan: exigen particularidades reales verificadas y se hacen a mano; (3) sin guías de seguridad crítica (frenos, airbag); los testigos de seguridad listados en requieren_revision_humana no se indexan hasta que los revise una persona; el resto de fichas se indexa como «pendiente de revisión técnica». Formato: [código|slug, título, nota opcional].",
+ "requieren_revision_humana": [
+  "testigo-abs",
+  "testigo-freno",
+  "testigo-airbag",
+  "testigo-direccion-asistida"
+ ],
+ "hecho": [
+  "P0087",
+  "P0130",
+  "P0171",
+  "P0172",
+  "P0299",
+  "P0300",
+  "P0301",
+  "P0335",
+  "P0340",
+  "P0401",
+  "P0420",
+  "P0442",
+  "P0455",
+  "P0456",
+  "P2002",
+  "U0100"
+ ],
+ "codigos": [
+  [
+   "P0234",
+   "Turbo: sobrepresión de sobrealimentación"
   ],
-  "testigos": [
-    ["testigo-abs","Testigo del ABS: significado y qué hacer"],
-    ["testigo-esp","Testigo del ESP (control de estabilidad): significado y qué hacer"],
-    ["testigo-temperatura-refrigerante","Testigo de temperatura del refrigerante: significado y qué hacer"],
-    ["testigo-presion-neumaticos","Testigo de presión de neumáticos (TPMS): significado y qué hacer"],
-    ["testigo-precalentamiento","Testigo de precalentamiento diésel: significado y qué hacer"],
-    ["testigo-adblue","Testigo de AdBlue: significado y qué hacer"],
-    ["testigo-direccion-asistida","Testigo de la dirección asistida: significado y qué hacer"],
-    ["testigo-freno","Testigo del sistema de frenos: significado y qué hacer"],
-    ["testigo-airbag","Testigo del airbag: significado y qué hacer"]
+  [
+   "P0101",
+   "Caudalímetro MAF: rango o rendimiento"
   ],
-  "guias": [
-    ["guia-como-usar-escaner-obd2","Cómo usar un escáner OBD2 paso a paso"],
-    ["guia-borrar-codigos-obd2","Cómo borrar códigos de avería OBD2 y cuándo hacerlo"],
-    ["guia-cambio-filtro-aire","Cambio del filtro de aire del motor paso a paso"],
-    ["guia-cambio-filtro-habitaculo","Cambio del filtro de habitáculo paso a paso"],
-    ["guia-comprobar-nivel-refrigerante","Cómo comprobar el nivel del refrigerante del motor"],
-    ["guia-cambio-bujias","Cambio de bujías paso a paso"],
-    ["guia-limpiar-caudalimetro-maf","Cómo limpiar el caudalímetro MAF"],
-    ["guia-limpiar-valvula-egr","Cómo limpiar la válvula EGR"]
+  [
+   "P0238",
+   "Sensor de presión del turbo B: señal alta"
+  ],
+  [
+   "P0113",
+   "Sensor de temperatura del aire de admisión: señal alta"
+  ],
+  [
+   "P0341",
+   "Sensor del árbol de levas: rango o rendimiento"
+  ],
+  [
+   "P0089",
+   "Regulador de presión de combustible: rendimiento"
+  ],
+  [
+   "P0402",
+   "Flujo excesivo de recirculación de gases EGR"
+  ],
+  [
+   "P0100",
+   "Circuito del sensor de masa de aire (MAF)"
+  ],
+  [
+   "P0016",
+   "Correlación cigüeñal y árbol de levas (banco 1)"
+  ],
+  [
+   "P0400",
+   "Flujo de recirculación de gases de escape (EGR)"
+  ],
+  [
+   "P0235",
+   "Circuito del sensor de presión del turbo A"
+  ],
+  [
+   "P2279",
+   "Fuga de aire en la admisión"
+  ],
+  [
+   "P0106",
+   "Sensor MAP: rango o rendimiento"
+  ],
+  [
+   "P0135",
+   "Calentador de la sonda lambda anterior (banco 1)"
+  ],
+  [
+   "P0606",
+   "Fallo del procesador de la centralita"
+  ],
+  [
+   "P0243",
+   "Válvula de descarga (wastegate) del turbo A"
+  ],
+  [
+   "P0236",
+   "Sensor de presión del turbo A: rango o rendimiento"
+  ],
+  [
+   "P0571",
+   "Circuito del interruptor de freno"
+  ],
+  [
+   "P0638",
+   "Actuador de la mariposa: fuera de rango"
+  ],
+  [
+   "P0193",
+   "Sensor de presión del raíl de combustible: señal alta"
+  ],
+  [
+   "P0104",
+   "Circuito intermitente del sensor MAF"
+  ],
+  [
+   "P0500",
+   "Sensor de velocidad del vehículo"
+  ],
+  [
+   "P0183",
+   "Sensor de temperatura del combustible: señal alta"
+  ],
+  [
+   "P0110",
+   "Circuito del sensor de temperatura del aire de admisión"
+  ],
+  [
+   "P0441",
+   "Flujo de purga del EVAP incorrecto"
+  ],
+  [
+   "P0562",
+   "Tensión del sistema baja"
+  ],
+  [
+   "P0421",
+   "Eficiencia del catalizador en calentamiento (banco 1)"
+  ],
+  [
+   "P0322",
+   "Sensor de régimen del motor: sin señal"
+  ],
+  [
+   "P0237",
+   "Sensor de presión del turbo A: señal baja"
+  ],
+  [
+   "P0405",
+   "Sensor de recirculación EGR: señal baja"
+  ],
+  [
+   "P0141",
+   "Calentador de la sonda lambda posterior (banco 1)"
+  ],
+  [
+   "P0170",
+   "Ajuste de combustible (banco 1)"
+  ],
+  [
+   "P0190",
+   "Circuito del sensor de presión del raíl"
+  ],
+  [
+   "P0105",
+   "Circuito del sensor de presión del colector (MAP)"
+  ],
+  [
+   "P0230",
+   "Circuito primario de la bomba de combustible"
+  ],
+  [
+   "P0134",
+   "Sonda lambda anterior: sin actividad (banco 1)"
+  ],
+  [
+   "P0131",
+   "Sonda lambda anterior: tensión baja (banco 1)"
+  ],
+  [
+   "P0133",
+   "Respuesta lenta de la sonda lambda anterior (banco 1)"
+  ],
+  [
+   "P0102",
+   "Caudalímetro MAF: señal baja"
+  ],
+  [
+   "P0325",
+   "Circuito del sensor de detonación"
+  ],
+  [
+   "P0600",
+   "Fallo de comunicación serie"
+  ],
+  [
+   "P0443",
+   "Circuito de la válvula de purga del EVAP"
+  ],
+  [
+   "P0103",
+   "Caudalímetro MAF: señal alta"
+  ],
+  [
+   "P0446",
+   "Circuito de ventilación del EVAP"
+  ],
+  [
+   "P0507",
+   "Régimen de ralentí superior al esperado"
+  ],
+  [
+   "P0403",
+   "Circuito de la válvula EGR"
+  ],
+  [
+   "P0120",
+   "Circuito del sensor de posición de la mariposa"
+  ],
+  [
+   "P0201",
+   "Circuito del inyector del cilindro 1"
+  ],
+  [
+   "P2263",
+   "Turbo: rendimiento del sistema de sobrealimentación"
+  ],
+  [
+   "U0121",
+   "Pérdida de comunicación con el módulo ABS"
+  ],
+  [
+   "P0730",
+   "Relación de marcha incorrecta"
+  ],
+  [
+   "P0506",
+   "Régimen de ralentí inferior al esperado"
+  ],
+  [
+   "P0715",
+   "Circuito del sensor de velocidad de entrada de la transmisión"
+  ],
+  [
+   "P20EE",
+   "Eficiencia del catalizador SCR (NOx)"
+  ],
+  [
+   "P0115",
+   "Circuito del sensor de temperatura del refrigerante"
+  ],
+  [
+   "P0116",
+   "Sensor de temperatura del refrigerante: rango o rendimiento"
+  ],
+  [
+   "P0505",
+   "Sistema de control del ralentí"
+  ],
+  [
+   "P0700",
+   "Fallo del sistema de control de la transmisión"
+  ],
+  [
+   "U0155",
+   "Pérdida de comunicación con el cuadro de instrumentos"
+  ],
+  [
+   "C0035",
+   "Circuito del sensor de velocidad de rueda delantera izquierda"
   ]
+ ],
+ "testigos": [
+  [
+   "testigo-abs",
+   "Testigo del ABS: significado y qué hacer"
+  ],
+  [
+   "testigo-esp",
+   "Testigo del ESP (control de estabilidad): significado y qué hacer"
+  ],
+  [
+   "testigo-temperatura-refrigerante",
+   "Testigo de temperatura del refrigerante: significado y qué hacer"
+  ],
+  [
+   "testigo-presion-neumaticos",
+   "Testigo de presión de neumáticos (TPMS): significado y qué hacer"
+  ],
+  [
+   "testigo-precalentamiento",
+   "Testigo de precalentamiento diésel: significado y qué hacer"
+  ],
+  [
+   "testigo-adblue",
+   "Testigo de AdBlue: significado y qué hacer"
+  ],
+  [
+   "testigo-direccion-asistida",
+   "Testigo de la dirección asistida: significado y qué hacer"
+  ],
+  [
+   "testigo-freno",
+   "Testigo del sistema de frenos: significado y qué hacer"
+  ],
+  [
+   "testigo-airbag",
+   "Testigo del airbag: significado y qué hacer"
+  ]
+ ],
+ "guias": [
+  [
+   "guia-como-usar-escaner-obd2",
+   "Cómo usar un escáner OBD2 paso a paso"
+  ],
+  [
+   "guia-borrar-codigos-obd2",
+   "Cómo borrar códigos de avería OBD2 y cuándo hacerlo"
+  ],
+  [
+   "guia-cambio-filtro-aire",
+   "Cambio del filtro de aire del motor paso a paso"
+  ],
+  [
+   "guia-cambio-filtro-habitaculo",
+   "Cambio del filtro de habitáculo paso a paso"
+  ],
+  [
+   "guia-comprobar-nivel-refrigerante",
+   "Cómo comprobar el nivel del refrigerante del motor"
+  ],
+  [
+   "guia-cambio-bujias",
+   "Cambio de bujías paso a paso"
+  ],
+  [
+   "guia-limpiar-caudalimetro-maf",
+   "Cómo limpiar el caudalímetro MAF"
+  ],
+  [
+   "guia-limpiar-valvula-egr",
+   "Cómo limpiar la válvula EGR"
+  ]
+ ],
+ "_semrush": "Reordenado el 13/10/2026 con Semrush (ES): volúmenes en content-plan/semrush/volumenes-codigos.json. Orden = volumen exacto del código, luego volumen de familia. Códigos P0302–P0306 siguen cubiertos por la ficha P0301. Competidor c3carecarcenter.com: tráfico ES casi nulo (175), no es referencia."
 }

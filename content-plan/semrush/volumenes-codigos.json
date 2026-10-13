@@ -1,0 +1,1506 @@
+{
+ "fuente": "Semrush Keyword Magic ES, 2026-10-13 (p0420, obd2, testigo)",
+ "nota": "exacto = volumen mensual de la keyword que es solo el código; familia = suma de variantes. Orientativo.",
+ "codigos": [
+  {
+   "code": "P0420",
+   "exacto": 590,
+   "familia": 9960
+  },
+  {
+   "code": "P0299",
+   "exacto": 30,
+   "familia": 7760
+  },
+  {
+   "code": "P0087",
+   "exacto": 590,
+   "familia": 6210
+  },
+  {
+   "code": "P0171",
+   "exacto": 320,
+   "familia": 4960
+  },
+  {
+   "code": "P0401",
+   "exacto": 590,
+   "familia": 4890
+  },
+  {
+   "code": "P0300",
+   "exacto": 260,
+   "familia": 4880
+  },
+  {
+   "code": "P0335",
+   "exacto": 260,
+   "familia": 4300
+  },
+  {
+   "code": "P0101",
+   "exacto": 390,
+   "familia": 4260
+  },
+  {
+   "code": "P0340",
+   "exacto": 20,
+   "familia": 4010
+  },
+  {
+   "code": "P0234",
+   "exacto": 480,
+   "familia": 3020
+  },
+  {
+   "code": "P0301",
+   "exacto": 170,
+   "familia": 2950
+  },
+  {
+   "code": "P0400",
+   "exacto": 140,
+   "familia": 2920
+  },
+  {
+   "code": "P0238",
+   "exacto": 260,
+   "familia": 2750
+  },
+  {
+   "code": "P0089",
+   "exacto": 170,
+   "familia": 2530
+  },
+  {
+   "code": "P0303",
+   "exacto": 140,
+   "familia": 2490
+  },
+  {
+   "code": "P0302",
+   "exacto": 110,
+   "familia": 2470
+  },
+  {
+   "code": "P0304",
+   "exacto": 140,
+   "familia": 2270
+  },
+  {
+   "code": "P0402",
+   "exacto": 170,
+   "familia": 2170
+  },
+  {
+   "code": "P0130",
+   "exacto": 140,
+   "familia": 1920
+  },
+  {
+   "code": "P0172",
+   "exacto": 110,
+   "familia": 1890
+  },
+  {
+   "code": "P0106",
+   "exacto": 110,
+   "familia": 1800
+  },
+  {
+   "code": "P0135",
+   "exacto": 110,
+   "familia": 1630
+  },
+  {
+   "code": "P0441",
+   "exacto": 90,
+   "familia": 1430
+  },
+  {
+   "code": "P0562",
+   "exacto": 90,
+   "familia": 1410
+  },
+  {
+   "code": "P0088",
+   "exacto": 70,
+   "familia": 1410
+  },
+  {
+   "code": "P0606",
+   "exacto": 110,
+   "familia": 1400
+  },
+  {
+   "code": "P0421",
+   "exacto": 90,
+   "familia": 1350
+  },
+  {
+   "code": "P0243",
+   "exacto": 110,
+   "familia": 1350
+  },
+  {
+   "code": "P0322",
+   "exacto": 90,
+   "familia": 1340
+  },
+  {
+   "code": "P0236",
+   "exacto": 110,
+   "familia": 1310
+  },
+  {
+   "code": "P0237",
+   "exacto": 90,
+   "familia": 1150
+  },
+  {
+   "code": "P0134",
+   "exacto": 40,
+   "familia": 1100
+  },
+  {
+   "code": "P0571",
+   "exacto": 110,
+   "familia": 1020
+  },
+  {
+   "code": "P0405",
+   "exacto": 90,
+   "familia": 970
+  },
+  {
+   "code": "P0341",
+   "exacto": 210,
+   "familia": 950
+  },
+  {
+   "code": "P0100",
+   "exacto": 170,
+   "familia": 940
+  },
+  {
+   "code": "P0098",
+   "exacto": 40,
+   "familia": 870
+  },
+  {
+   "code": "P0191",
+   "exacto": 20,
+   "familia": 810
+  },
+  {
+   "code": "P0121",
+   "exacto": 20,
+   "familia": 770
+  },
+  {
+   "code": "P0133",
+   "exacto": 20,
+   "familia": 680
+  },
+  {
+   "code": "P0321",
+   "exacto": 20,
+   "familia": 680
+  },
+  {
+   "code": "P0141",
+   "exacto": 90,
+   "familia": 660
+  },
+  {
+   "code": "P0138",
+   "exacto": 20,
+   "familia": 630
+  },
+  {
+   "code": "P0404",
+   "exacto": 10,
+   "familia": 610
+  },
+  {
+   "code": "P0113",
+   "exacto": 260,
+   "familia": 570
+  },
+  {
+   "code": "P0342",
+   "exacto": 20,
+   "familia": 560
+  },
+  {
+   "code": "P0132",
+   "exacto": 20,
+   "familia": 550
+  },
+  {
+   "code": "P0170",
+   "exacto": 90,
+   "familia": 540
+  },
+  {
+   "code": "P0235",
+   "exacto": 140,
+   "familia": 460
+  },
+  {
+   "code": "P0102",
+   "exacto": 20,
+   "familia": 450
+  },
+  {
+   "code": "P0222",
+   "exacto": 20,
+   "familia": 440
+  },
+  {
+   "code": "P0344",
+   "exacto": 20,
+   "familia": 440
+  },
+  {
+   "code": "P0325",
+   "exacto": 20,
+   "familia": 430
+  },
+  {
+   "code": "P0108",
+   "exacto": 20,
+   "familia": 410
+  },
+  {
+   "code": "P0600",
+   "exacto": 20,
+   "familia": 410
+  },
+  {
+   "code": "P0430",
+   "exacto": 20,
+   "familia": 400
+  },
+  {
+   "code": "P0444",
+   "exacto": 20,
+   "familia": 400
+  },
+  {
+   "code": "P0343",
+   "exacto": 20,
+   "familia": 390
+  },
+  {
+   "code": "P2138",
+   "exacto": 20,
+   "familia": 390
+  },
+  {
+   "code": "P0443",
+   "exacto": 20,
+   "familia": 380
+  },
+  {
+   "code": "P0069",
+   "exacto": 40,
+   "familia": 380
+  },
+  {
+   "code": "P0131",
+   "exacto": 30,
+   "familia": 360
+  },
+  {
+   "code": "P0103",
+   "exacto": 20,
+   "familia": 360
+  },
+  {
+   "code": "P0174",
+   "exacto": 20,
+   "familia": 350
+  },
+  {
+   "code": "P0328",
+   "exacto": 20,
+   "familia": 350
+  },
+  {
+   "code": "P0407",
+   "exacto": 20,
+   "familia": 340
+  },
+  {
+   "code": "P0128",
+   "exacto": 20,
+   "familia": 330
+  },
+  {
+   "code": "P0605",
+   "exacto": 20,
+   "familia": 320
+  },
+  {
+   "code": "P0607",
+   "exacto": 20,
+   "familia": 320
+  },
+  {
+   "code": "P0192",
+   "exacto": 20,
+   "familia": 320
+  },
+  {
+   "code": "P0638",
+   "exacto": 110,
+   "familia": 310
+  },
+  {
+   "code": "P0107",
+   "exacto": 20,
+   "familia": 310
+  },
+  {
+   "code": "P0230",
+   "exacto": 50,
+   "familia": 300
+  },
+  {
+   "code": "P0193",
+   "exacto": 110,
+   "familia": 290
+  },
+  {
+   "code": "P0601",
+   "exacto": 20,
+   "familia": 290
+  },
+  {
+   "code": "P0406",
+   "exacto": 20,
+   "familia": 280
+  },
+  {
+   "code": "P0652",
+   "exacto": 0,
+   "familia": 270
+  },
+  {
+   "code": "P0137",
+   "exacto": 20,
+   "familia": 270
+  },
+  {
+   "code": "P0603",
+   "exacto": 20,
+   "familia": 270
+  },
+  {
+   "code": "P0422",
+   "exacto": 20,
+   "familia": 260
+  },
+  {
+   "code": "P0220",
+   "exacto": 20,
+   "familia": 260
+  },
+  {
+   "code": "P0471",
+   "exacto": 0,
+   "familia": 260
+  },
+  {
+   "code": "P0190",
+   "exacto": 90,
+   "familia": 260
+  },
+  {
+   "code": "P0221",
+   "exacto": 30,
+   "familia": 250
+  },
+  {
+   "code": "P2279",
+   "exacto": 140,
+   "familia": 250
+  },
+  {
+   "code": "P0104",
+   "exacto": 110,
+   "familia": 240
+  },
+  {
+   "code": "P0090",
+   "exacto": 0,
+   "familia": 240
+  },
+  {
+   "code": "P0352",
+   "exacto": 20,
+   "familia": 240
+  },
+  {
+   "code": "P0068",
+   "exacto": 20,
+   "familia": 230
+  },
+  {
+   "code": "P0091",
+   "exacto": 20,
+   "familia": 230
+  },
+  {
+   "code": "P0093",
+   "exacto": 0,
+   "familia": 230
+  },
+  {
+   "code": "P0327",
+   "exacto": 20,
+   "familia": 230
+  },
+  {
+   "code": "P0306",
+   "exacto": 20,
+   "familia": 220
+  },
+  {
+   "code": "P0305",
+   "exacto": 10,
+   "familia": 220
+  },
+  {
+   "code": "P0411",
+   "exacto": 20,
+   "familia": 220
+  },
+  {
+   "code": "P0105",
+   "exacto": 90,
+   "familia": 220
+  },
+  {
+   "code": "P0016",
+   "exacto": 170,
+   "familia": 220
+  },
+  {
+   "code": "P0073",
+   "exacto": 30,
+   "familia": 210
+  },
+  {
+   "code": "P010F",
+   "exacto": 30,
+   "familia": 210
+  },
+  {
+   "code": "P0473",
+   "exacto": 40,
+   "familia": 210
+  },
+  {
+   "code": "P0245",
+   "exacto": 20,
+   "familia": 210
+  },
+  {
+   "code": "P0410",
+   "exacto": 30,
+   "familia": 200
+  },
+  {
+   "code": "P0428",
+   "exacto": 20,
+   "familia": 200
+  },
+  {
+   "code": "P0380",
+   "exacto": 0,
+   "familia": 200
+  },
+  {
+   "code": "P0123",
+   "exacto": 0,
+   "familia": 200
+  },
+  {
+   "code": "P0507",
+   "exacto": 0,
+   "familia": 190
+  },
+  {
+   "code": "P042E",
+   "exacto": 20,
+   "familia": 180
+  },
+  {
+   "code": "P0500",
+   "exacto": 110,
+   "familia": 180
+  },
+  {
+   "code": "P0272",
+   "exacto": 30,
+   "familia": 180
+  },
+  {
+   "code": "P0726",
+   "exacto": 20,
+   "familia": 180
+  },
+  {
+   "code": "P0671",
+   "exacto": 0,
+   "familia": 180
+  },
+  {
+   "code": "P0140",
+   "exacto": 20,
+   "familia": 170
+  },
+  {
+   "code": "P0139",
+   "exacto": 20,
+   "familia": 170
+  },
+  {
+   "code": "P0408",
+   "exacto": 20,
+   "familia": 170
+  },
+  {
+   "code": "P0602",
+   "exacto": 20,
+   "familia": 170
+  },
+  {
+   "code": "P0320",
+   "exacto": 20,
+   "familia": 170
+  },
+  {
+   "code": "P1604",
+   "exacto": 0,
+   "familia": 170
+  },
+  {
+   "code": "P042F",
+   "exacto": 20,
+   "familia": 160
+  },
+  {
+   "code": "P0431",
+   "exacto": 20,
+   "familia": 160
+  },
+  {
+   "code": "P0183",
+   "exacto": 110,
+   "familia": 160
+  },
+  {
+   "code": "P2598",
+   "exacto": 0,
+   "familia": 160
+  },
+  {
+   "code": "P1405",
+   "exacto": 20,
+   "familia": 160
+  },
+  {
+   "code": "P0094",
+   "exacto": 20,
+   "familia": 160
+  },
+  {
+   "code": "P0841",
+   "exacto": 20,
+   "familia": 160
+  },
+  {
+   "code": "P0672",
+   "exacto": 0,
+   "familia": 160
+  },
+  {
+   "code": "P0246",
+   "exacto": 20,
+   "familia": 160
+  },
+  {
+   "code": "P0501",
+   "exacto": 0,
+   "familia": 160
+  },
+  {
+   "code": "P2177",
+   "exacto": 10,
+   "familia": 150
+  },
+  {
+   "code": "P0641",
+   "exacto": 0,
+   "familia": 150
+  },
+  {
+   "code": "P018C",
+   "exacto": 0,
+   "familia": 150
+  },
+  {
+   "code": "P0269",
+   "exacto": 0,
+   "familia": 150
+  },
+  {
+   "code": "P0403",
+   "exacto": 0,
+   "familia": 150
+  },
+  {
+   "code": "P0203",
+   "exacto": 0,
+   "familia": 150
+  },
+  {
+   "code": "P0354",
+   "exacto": 20,
+   "familia": 150
+  },
+  {
+   "code": "P2108",
+   "exacto": 20,
+   "familia": 150
+  },
+  {
+   "code": "P0642",
+   "exacto": 20,
+   "familia": 150
+  },
+  {
+   "code": "P0110",
+   "exacto": 110,
+   "familia": 150
+  },
+  {
+   "code": "P0651",
+   "exacto": 0,
+   "familia": 150
+  },
+  {
+   "code": "P1672",
+   "exacto": 20,
+   "familia": 150
+  },
+  {
+   "code": "P0560",
+   "exacto": 0,
+   "familia": 150
+  },
+  {
+   "code": "P0423",
+   "exacto": 20,
+   "familia": 140
+  },
+  {
+   "code": "P0003",
+   "exacto": 20,
+   "familia": 140
+  },
+  {
+   "code": "P046C",
+   "exacto": 20,
+   "familia": 140
+  },
+  {
+   "code": "P0263",
+   "exacto": 0,
+   "familia": 140
+  },
+  {
+   "code": "P0727",
+   "exacto": 20,
+   "familia": 140
+  },
+  {
+   "code": "P0722",
+   "exacto": 20,
+   "familia": 130
+  },
+  {
+   "code": "P0175",
+   "exacto": 20,
+   "familia": 130
+  },
+  {
+   "code": "P1719",
+   "exacto": 20,
+   "familia": 130
+  },
+  {
+   "code": "P1135",
+   "exacto": 20,
+   "familia": 130
+  },
+  {
+   "code": "P0008",
+   "exacto": 20,
+   "familia": 130
+  },
+  {
+   "code": "P0244",
+   "exacto": 0,
+   "familia": 130
+  },
+  {
+   "code": "P0683",
+   "exacto": 0,
+   "familia": 130
+  },
+  {
+   "code": "P2127",
+   "exacto": 10,
+   "familia": 130
+  },
+  {
+   "code": "P0226",
+   "exacto": 20,
+   "familia": 120
+  },
+  {
+   "code": "P0030",
+   "exacto": 0,
+   "familia": 120
+  },
+  {
+   "code": "P0180",
+   "exacto": 0,
+   "familia": 120
+  },
+  {
+   "code": "P0266",
+   "exacto": 20,
+   "familia": 120
+  },
+  {
+   "code": "P0353",
+   "exacto": 20,
+   "familia": 120
+  },
+  {
+   "code": "P0546",
+   "exacto": 0,
+   "familia": 120
+  },
+  {
+   "code": "P0691",
+   "exacto": 0,
+   "familia": 120
+  },
+  {
+   "code": "P06B8",
+   "exacto": 0,
+   "familia": 120
+  },
+  {
+   "code": "P0053",
+   "exacto": 0,
+   "familia": 120
+  },
+  {
+   "code": "P0472",
+   "exacto": 0,
+   "familia": 120
+  },
+  {
+   "code": "P0036",
+   "exacto": 0,
+   "familia": 120
+  },
+  {
+   "code": "P0202",
+   "exacto": 0,
+   "familia": 120
+  },
+  {
+   "code": "P0026",
+   "exacto": 20,
+   "familia": 120
+  },
+  {
+   "code": "P0365",
+   "exacto": 20,
+   "familia": 120
+  },
+  {
+   "code": "P0332",
+   "exacto": 20,
+   "familia": 120
+  },
+  {
+   "code": "P0198",
+   "exacto": 10,
+   "familia": 110
+  },
+  {
+   "code": "P0070",
+   "exacto": 0,
+   "familia": 110
+  },
+  {
+   "code": "P02E9",
+   "exacto": 0,
+   "familia": 110
+  },
+  {
+   "code": "P0136",
+   "exacto": 0,
+   "familia": 110
+  },
+  {
+   "code": "P0120",
+   "exacto": 0,
+   "familia": 110
+  },
+  {
+   "code": "P2263",
+   "exacto": 0,
+   "familia": 110
+  },
+  {
+   "code": "P0463",
+   "exacto": 0,
+   "familia": 110
+  },
+  {
+   "code": "P0201",
+   "exacto": 0,
+   "familia": 110
+  },
+  {
+   "code": "P2006",
+   "exacto": 50,
+   "familia": 110
+  },
+  {
+   "code": "P0487",
+   "exacto": 0,
+   "familia": 110
+  },
+  {
+   "code": "P023B",
+   "exacto": 20,
+   "familia": 110
+  },
+  {
+   "code": "P0339",
+   "exacto": 20,
+   "familia": 110
+  },
+  {
+   "code": "P0154",
+   "exacto": 20,
+   "familia": 110
+  },
+  {
+   "code": "P0071",
+   "exacto": 20,
+   "familia": 100
+  },
+  {
+   "code": "P0149",
+   "exacto": 0,
+   "familia": 100
+  },
+  {
+   "code": "P06E9",
+   "exacto": 20,
+   "familia": 100
+  },
+  {
+   "code": "P0033",
+   "exacto": 0,
+   "familia": 100
+  },
+  {
+   "code": "P00C8",
+   "exacto": 20,
+   "familia": 100
+  },
+  {
+   "code": "P0330",
+   "exacto": 20,
+   "familia": 100
+  },
+  {
+   "code": "P0491",
+   "exacto": 0,
+   "familia": 100
+  },
+  {
+   "code": "P0685",
+   "exacto": 0,
+   "familia": 100
+  },
+  {
+   "code": "P1141",
+   "exacto": 0,
+   "familia": 100
+  },
+  {
+   "code": "P1403",
+   "exacto": 0,
+   "familia": 100
+  },
+  {
+   "code": "P0219",
+   "exacto": 0,
+   "familia": 100
+  },
+  {
+   "code": "P0350",
+   "exacto": 20,
+   "familia": 100
+  },
+  {
+   "code": "P0182",
+   "exacto": 20,
+   "familia": 100
+  },
+  {
+   "code": "P0686",
+   "exacto": 0,
+   "familia": 100
+  },
+  {
+   "code": "P0217",
+   "exacto": 20,
+   "familia": 100
+  },
+  {
+   "code": "P0225",
+   "exacto": 20,
+   "familia": 90
+  },
+  {
+   "code": "P2187",
+   "exacto": 20,
+   "familia": 90
+  },
+  {
+   "code": "P0698",
+   "exacto": 20,
+   "familia": 90
+  },
+  {
+   "code": "P0095",
+   "exacto": 20,
+   "familia": 90
+  },
+  {
+   "code": "P00BD",
+   "exacto": 0,
+   "familia": 90
+  },
+  {
+   "code": "P2178",
+   "exacto": 20,
+   "familia": 90
+  },
+  {
+   "code": "P0442",
+   "exacto": 20,
+   "familia": 90
+  },
+  {
+   "code": "P0808",
+   "exacto": 20,
+   "familia": 90
+  },
+  {
+   "code": "P0868",
+   "exacto": 20,
+   "familia": 90
+  },
+  {
+   "code": "P2088",
+   "exacto": 20,
+   "familia": 90
+  },
+  {
+   "code": "P0409",
+   "exacto": 0,
+   "familia": 90
+  },
+  {
+   "code": "P0670",
+   "exacto": 0,
+   "familia": 90
+  },
+  {
+   "code": "P2463",
+   "exacto": 0,
+   "familia": 90
+  },
+  {
+   "code": "P023A",
+   "exacto": 0,
+   "familia": 90
+  },
+  {
+   "code": "P0721",
+   "exacto": 0,
+   "familia": 90
+  },
+  {
+   "code": "P177C",
+   "exacto": 20,
+   "familia": 90
+  },
+  {
+   "code": "P0014",
+   "exacto": 90,
+   "familia": 90
+  },
+  {
+   "code": "P0345",
+   "exacto": 20,
+   "familia": 90
+  },
+  {
+   "code": "P0000",
+   "exacto": 20,
+   "familia": 90
+  },
+  {
+   "code": "P0426",
+   "exacto": 20,
+   "familia": 80
+  },
+  {
+   "code": "P042A",
+   "exacto": 20,
+   "familia": 80
+  },
+  {
+   "code": "P0173",
+   "exacto": 20,
+   "familia": 80
+  },
+  {
+   "code": "P1441",
+   "exacto": 0,
+   "familia": 80
+  },
+  {
+   "code": "P00BC",
+   "exacto": 0,
+   "familia": 80
+  },
+  {
+   "code": "P0460",
+   "exacto": 0,
+   "familia": 80
+  },
+  {
+   "code": "P0037",
+   "exacto": 0,
+   "familia": 80
+  },
+  {
+   "code": "P008B",
+   "exacto": 20,
+   "familia": 80
+  },
+  {
+   "code": "P0313",
+   "exacto": 20,
+   "familia": 80
+  },
+  {
+   "code": "P1031",
+   "exacto": 0,
+   "familia": 80
+  },
+  {
+   "code": "P1142",
+   "exacto": 0,
+   "familia": 80
+  },
+  {
+   "code": "P1641",
+   "exacto": 0,
+   "familia": 80
+  },
+  {
+   "code": "P2293",
+   "exacto": 0,
+   "familia": 80
+  },
+  {
+   "code": "U0103",
+   "exacto": 0,
+   "familia": 80
+  },
+  {
+   "code": "P0470",
+   "exacto": 0,
+   "familia": 80
+  },
+  {
+   "code": "P0608",
+   "exacto": 20,
+   "familia": 80
+  },
+  {
+   "code": "P012D",
+   "exacto": 0,
+   "familia": 80
+  },
+  {
+   "code": "P0604",
+   "exacto": 20,
+   "familia": 80
+  },
+  {
+   "code": "P0627",
+   "exacto": 20,
+   "familia": 80
+  },
+  {
+   "code": "P177B",
+   "exacto": 0,
+   "familia": 80
+  },
+  {
+   "code": "P2172",
+   "exacto": 20,
+   "familia": 80
+  },
+  {
+   "code": "P0351",
+   "exacto": 0,
+   "familia": 80
+  },
+  {
+   "code": "P1401",
+   "exacto": 20,
+   "familia": 80
+  },
+  {
+   "code": "P1138",
+   "exacto": 0,
+   "familia": 80
+  },
+  {
+   "code": "P0480",
+   "exacto": 40,
+   "familia": 70
+  },
+  {
+   "code": "P0047",
+   "exacto": 0,
+   "familia": 70
+  },
+  {
+   "code": "P0148",
+   "exacto": 20,
+   "familia": 70
+  },
+  {
+   "code": "P2096",
+   "exacto": 20,
+   "familia": 70
+  },
+  {
+   "code": "P0805",
+   "exacto": 0,
+   "familia": 70
+  },
+  {
+   "code": "P2188",
+   "exacto": 20,
+   "familia": 70
+  },
+  {
+   "code": "P0041",
+   "exacto": 20,
+   "familia": 70
+  },
+  {
+   "code": "P0308",
+   "exacto": 20,
+   "familia": 70
+  },
+  {
+   "code": "P037E",
+   "exacto": 20,
+   "familia": 70
+  },
+  {
+   "code": "P1144",
+   "exacto": 0,
+   "familia": 70
+  },
+  {
+   "code": "P1503",
+   "exacto": 0,
+   "familia": 70
+  },
+  {
+   "code": "P1693",
+   "exacto": 0,
+   "familia": 70
+  },
+  {
+   "code": "P2227",
+   "exacto": 0,
+   "familia": 70
+  },
+  {
+   "code": "P2238",
+   "exacto": 20,
+   "familia": 70
+  },
+  {
+   "code": "P0117",
+   "exacto": 0,
+   "familia": 70
+  },
+  {
+   "code": "P02D3",
+   "exacto": 0,
+   "familia": 70
+  },
+  {
+   "code": "P060C",
+   "exacto": 20,
+   "familia": 70
+  },
+  {
+   "code": "P1127",
+   "exacto": 0,
+   "familia": 70
+  },
+  {
+   "code": "P1172",
+   "exacto": 20,
+   "familia": 70
+  },
+  {
+   "code": "P00B7",
+   "exacto": 20,
+   "familia": 70
+  },
+  {
+   "code": "P1300",
+   "exacto": 20,
+   "familia": 70
+  },
+  {
+   "code": "P042D",
+   "exacto": 20,
+   "familia": 60
+  },
+  {
+   "code": "P0432",
+   "exacto": 20,
+   "familia": 60
+  },
+  {
+   "code": "P0425",
+   "exacto": 20,
+   "familia": 60
+  },
+  {
+   "code": "P2002",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P2097",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P2262",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P0223",
+   "exacto": 20,
+   "familia": 60
+  },
+  {
+   "code": "P0227",
+   "exacto": 20,
+   "familia": 60
+  },
+  {
+   "code": "P0228",
+   "exacto": 20,
+   "familia": 60
+  },
+  {
+   "code": "P0271",
+   "exacto": 20,
+   "familia": 60
+  },
+  {
+   "code": "P2585",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P0056",
+   "exacto": 20,
+   "familia": 60
+  },
+  {
+   "code": "P2041",
+   "exacto": 20,
+   "familia": 60
+  },
+  {
+   "code": "P0733",
+   "exacto": 20,
+   "familia": 60
+  },
+  {
+   "code": "P0448",
+   "exacto": 20,
+   "familia": 60
+  },
+  {
+   "code": "P0050",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P0080",
+   "exacto": 20,
+   "familia": 60
+  },
+  {
+   "code": "P0532",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P000B",
+   "exacto": 10,
+   "familia": 60
+  },
+  {
+   "code": "P0040",
+   "exacto": 20,
+   "familia": 60
+  },
+  {
+   "code": "P007D",
+   "exacto": 20,
+   "familia": 60
+  },
+  {
+   "code": "P040D",
+   "exacto": 20,
+   "familia": 60
+  },
+  {
+   "code": "P0414",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P0446",
+   "exacto": 20,
+   "familia": 60
+  },
+  {
+   "code": "P073B",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P1181",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P1436",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P145D",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P1603",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P203B",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P2203",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P253F",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P3338",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "U0121",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P1741",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P000A",
+   "exacto": 20,
+   "familia": 60
+  },
+  {
+   "code": "P0778",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P0851",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P2453",
+   "exacto": 0,
+   "familia": 60
+  },
+  {
+   "code": "P2610",
+   "exacto": 0,
+   "familia": 60
+  }
+ ]
+}
