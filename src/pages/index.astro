@@ -3,7 +3,8 @@ import Base from '../layouts/Base.astro';
 import { allArticles, byType, urlOf } from '../lib/articles';
 import { SITE } from '../config';
 const all = await allArticles();
-const codes = byType(all, 'codigo'), testigos = byType(all, 'testigo'), guias = byType(all, 'guia');
+const recientes = (l) => [...l].sort((a, b) => b.data.datePublished.localeCompare(a.data.datePublished) || a.data.seo.slug.localeCompare(b.data.seo.slug));
+const codes = recientes(byType(all, 'codigo')).slice(0, 12), testigos = byType(all, 'testigo'), guias = byType(all, 'guia').slice(0, 6);
 const site = Astro.site!;
 ---
 <Base title="Códigos de avería OBD2: significado, causas y solución" description="Diagnóstico de códigos OBD2, testigos del tablero y mantenimiento preventivo: fichas técnicas claras con síntomas, causas y pasos de reparación.">

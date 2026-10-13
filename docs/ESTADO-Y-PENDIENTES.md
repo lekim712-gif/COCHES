@@ -6,6 +6,9 @@ _Actualizado: 13 de octubre de 2026._
 **https://obdcodigos.com publicada el 13/10/2026** en Hostinger (subida manual inicial; después, despliegue automático). Auditoría del mismo día: 35 URLs rastreadas, 32 indexables, sitemap con 32 URLs, redirecciones, 404, cabeceras de seguridad, compresión (brotli), caché y `og:image` correctos. Único hallazgo, menor: `http://www…` tarda 2 saltos en llegar al dominio final (lo fuerza Hostinger antes que nuestro `.htaccess`).
 Pendiente de medir: velocidad (PageSpeed Insights; los datos de campo tardan semanas en existir).
 
+## Automatización de contenido (preparada, pendiente de la clave de la API)
+Ver `docs/AUTOMATIZACION.md`. Falta el secreto `ANTHROPIC_API_KEY` en GitHub y una primera ejecución manual de una sola ficha para verificar el flujo con la API real (todo lo demás está probado en modo simulado, no la llamada real).
+
 ## Despliegue automático (activo desde el 13/10/2026)
 Cada cambio subido a la rama `claude/happy-lovelace-3ojo5t` ejecuta `.github/workflows/deploy-hostinger.yml`: construye con `npm run build:prod` (usando el secreto `DOTENV`) y sube `dist/` por FTP a `public_html`. Primer despliegue real verificado: 55 s de subida y `.htaccess` nuevo activo (comprobación: `/.ftp-deploy-sync-state.json` devuelve 403). Secretos en GitHub: `DOTENV`, `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD`, `FTP_SERVER_DIR`.
 Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.

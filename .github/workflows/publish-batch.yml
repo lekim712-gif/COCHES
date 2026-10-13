@@ -1,0 +1,98 @@
+# Genera fichas nuevas con la API de Claude, las valida y las publica como BORRADORES sin revisar (noindex).
+# Se ejecuta lunes y jueves, o a mano desde Actions. Necesita el secreto ANTHROPIC_API_KEY.
+# Si no hay clave, se salta sin fallar. Ver docs/AUTOMATIZACION.md.
+name: Generar fichas y publicar
+
+on:
+  schedule:
+    - cron: '0 6 * * 1,4'   # lunes y jueves, 06:00 UTC
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 'Número de fichas a generar'
+        default: '3'
+        required: false
+      only:
+        description: 'Clave concreta (p. ej. codigo-p0301). Vacío = las siguientes del backlog'
+        required: false
+      dry_run:
+        description: 'Simular sin guardar nada'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-write
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      IN_COUNT: ${{ inputs.count }}
+      IN_ONLY: ${{ inputs.only }}
+      IN_DRY: ${{ inputs.dry_run }}
+    steps:
+      - name: Comprobar clave de la API
+        id: gate
+        run: |
+          if [ -n "$ANTHROPIC_API_KEY" ]; then echo "ready=true" >> "$GITHUB_OUTPUT"
+          else echo "ready=false" >> "$GITHUB_OUTPUT"; echo "::notice::Falta el secreto ANTHROPIC_API_KEY. Generación omitida."; fi
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.ready == 'true'
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.ready == 'true'
+        with:
+          node-version: 22
+          cache: npm
+      - name: Instalar
+        if: steps.gate.outputs.ready == 'true'
+        run: |
+          npm ci
+          sudo apt-get install -y fonts-dejavu-core || true
+      - name: Generar fichas
+        if: steps.gate.outputs.ready == 'true'
+        run: |
+          ARGS="--count ${IN_COUNT:-3}"
+          [ -n "$IN_ONLY" ] && ARGS="$ARGS --only $IN_ONLY"
+          [ "$IN_DRY" = "true" ] && ARGS="$ARGS --dry-run"
+          node scripts/generate-articles.mjs $ARGS
+      - name: Validar y construir (comprobación previa a guardar)
+        if: steps.gate.outputs.ready == 'true'
+        run: |
+          npm run validate
+          npm run build
+      - name: Paquete de revisión para el revisor técnico
+        if: steps.gate.outputs.ready == 'true'
+        run: node scripts/make-review-pack.mjs
+      - uses: actions/upload-artifact@v4
+        if: steps.gate.outputs.ready == 'true'
+        with:
+          name: fichas-pendientes-de-revision
+          path: review/pendientes-revision.html
+          retention-days: 30
+      - name: Guardar cambios
+        id: commit
+        if: steps.gate.outputs.ready == 'true'
+        run: |
+          echo "changed=false" >> "$GITHUB_OUTPUT"
+          if [ "$IN_DRY" = "true" ]; then echo "Simulación: no se guarda nada."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/content/articulos public/img/articulos content-plan
+          if git diff --cached --quiet; then echo "Sin cambios que guardar."; exit 0; fi
+          git commit -m "Genera fichas automáticas (borradores sin revisar)"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: generate
+    if: needs.generate.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy-hostinger.yml
+    secrets: inherit

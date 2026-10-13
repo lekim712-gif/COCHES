@@ -6,6 +6,7 @@ on:
   push:
     branches: [claude/happy-lovelace-3ojo5t, main]
   workflow_dispatch:
+  workflow_call:   # lo invocan los flujos de generación y de revisión tras guardar cambios
 
 concurrency:
   group: deploy-hostinger
@@ -25,6 +26,8 @@ jobs:
           else echo "ready=false" >> "$GITHUB_OUTPUT"; echo "::notice::Faltan los secretos DOTENV y/o FTP_*. Despliegue omitido."; fi
       - uses: actions/checkout@v4
         if: steps.gate.outputs.ready == 'true'
+        with:
+          ref: ${{ github.ref }}   # la punta actual de la rama, también tras un commit de otro flujo
       - uses: actions/setup-node@v4
         if: steps.gate.outputs.ready == 'true'
         with:

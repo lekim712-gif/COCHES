@@ -61,6 +61,10 @@ const ICONS = {
   temperatura: `<path d="M84 22 H116 V108 a34 34 0 1 1 -32 0 Z" ${A}/><circle cx="100" cy="146" r="14" fill="${AMBER}"/><path d="M100 132 V64" stroke="${AMBER}" stroke-width="8" stroke-linecap="round"/><path d="M130 52 h24 M130 76 h24 M130 100 h24" ${L}/>`,
   // neumáticos
   neumatico: `<path d="M44 148 A66 66 0 1 1 156 148" ${A}/><path d="M44 148 H156" ${A}/><path d="M60 136 H140" ${L}/><path d="M100 70 V112" stroke="${AMBER}" stroke-width="10" stroke-linecap="round"/><circle cx="100" cy="128" r="6" fill="${AMBER}"/>`,
+  // depósito / EVAP (vapores de combustible)
+  deposito: `<rect x="26" y="84" width="132" height="78" rx="26" ${A}/><path d="M128 84 V54 H172" ${A}/><path d="M56 66 c12 -12 -12 -24 0 -38 M92 66 c12 -12 -12 -24 0 -38" ${L}/>`,
+  // volante (dirección asistida, airbag)
+  volante: `<circle cx="100" cy="100" r="72" ${A}/><circle cx="100" cy="100" r="17" ${A}/><path d="M28 100 H83 M117 100 H172 M100 117 V172" ${A}/>`,
   // centralita / genérico
   centralita: `<rect x="52" y="52" width="96" height="96" rx="12" ${A}/><rect x="78" y="78" width="44" height="44" rx="6" ${L}/><path d="M72 52 V30 M100 52 V30 M128 52 V30 M72 148 V170 M100 148 V170 M128 148 V170 M52 72 H30 M52 100 H30 M52 128 H30 M148 72 H170 M148 100 H170 M148 128 H170" ${A}/>`,
   // motor genérico / testigo motor
@@ -70,13 +74,15 @@ const ICONS = {
 /* ───────── Selección del pictograma por palabras clave ───────── */
 const RULES = [
   [/partículas|dpf|fap/i, 'dpf'], [/egr|recirculaci/i, 'egr'], [/turbo|sobrealimentaci/i, 'turbo'],
-  [/mezcla demasiado pobre|fuga de aire|admisi|caudalímetro|maf\b|map\b|mariposa/i, 'admision'],
+  [/evap|vapores/i, 'deposito'], [/precalentamiento/i, 'bujia'], [/adblue|urea/i, 'combustible'],
+  [/mezcla demasiado pobre|fuga de aire|admisi|caudalímetro|maf\b|map\b|mariposa|filtro de aire|filtro de habitáculo/i, 'admision'],
   [/mezcla demasiado rica|combustible|inyecci|inyector|raíl|bomba|common rail|diésel/i, 'combustible'],
-  [/catalizador|escape|lambda/i, 'escape'], [/bujía|encendido|bobina|detonaci/i, 'bujia'],
-  [/\bcan\b|\bred\b|comunicaci|módulo|abs\b/i, 'red'], [/batería|alternador|tensión del sistema/i, 'bateria'],
+  [/catalizador|escape|lambda/i, 'escape'], [/bujía|encendido|bobina/i, 'bujia'],
+  [/\bcan\b|\bred\b|comunicaci|módulo|cuadro de instrumentos/i, 'red'], [/batería|alternador|tensión del sistema/i, 'bateria'],
   [/aceite|lubricaci/i, 'aceite'], [/fusible|eléctric/i, 'fusible'], [/transmisi|marcha|caja de cambios/i, 'transmision'],
-  [/freno|frenado/i, 'frenos'], [/refrigerante|temperatura/i, 'temperatura'], [/neumátic/i, 'neumatico'],
-  [/sensor|cigüeñal|árbol de levas|velocidad/i, 'sensor'], [/procesador|ecu|ecm|pcm|centralita/i, 'centralita'], [/motor/i, 'motor'],
+  [/\babs\b|\besp\b|freno|frenado/i, 'frenos'], [/refrigerante|temperatura/i, 'temperatura'], [/neumátic|tpms/i, 'neumatico'],
+  [/dirección asistida|airbag|volante/i, 'volante'], [/ralentí/i, 'motor'],
+  [/sensor|detonaci|cigüeñal|árbol de levas|velocidad/i, 'sensor'], [/procesador|ecu|ecm|pcm|centralita|escáner|códigos/i, 'centralita'], [/motor/i, 'motor'],
 ];
 const firstMatch = (text) => (RULES.find(([re]) => re.test(text)) || [0, null])[1];
 // Decide por el nombre del problema; solo si no basta, mira los sistemas afectados.

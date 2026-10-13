@@ -1,0 +1,55 @@
+# Marca fichas como revisadas por una persona y publica el cambio (pasan a ser indexables).
+# SOLO usar cuando la revisión se ha hecho de verdad. Actions → Marcar fichas como revisadas → Run workflow.
+name: Marcar fichas como revisadas
+
+on:
+  workflow_dispatch:
+    inputs:
+      fichas:
+        description: 'Claves separadas por espacios (p. ej. codigo-p0301 testigo-testigo-abs) o la palabra «todas» para todas las pendientes'
+        required: true
+      revisor:
+        description: 'Nombre del revisor'
+        default: 'Carlos Peláez'
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: content-write
+  cancel-in-progress: false
+
+jobs:
+  mark:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    env:
+      IN_FICHAS: ${{ inputs.fichas }}
+      IN_REVISOR: ${{ inputs.revisor }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Marcar
+        run: node scripts/mark-reviewed.mjs $IN_FICHAS --by "$IN_REVISOR"
+      - name: Guardar cambios
+        id: commit
+        run: |
+          echo "changed=false" >> "$GITHUB_OUTPUT"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/content/articulos
+          if git diff --cached --quiet; then echo "Sin cambios."; exit 0; fi
+          git commit -m "Marca fichas como revisadas por $IN_REVISOR"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: mark
+    if: needs.mark.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy-hostinger.yml
+    secrets: inherit
