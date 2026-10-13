@@ -1,0 +1,27 @@
+name: Datos de Search Console
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 5 * * 1,4'   # antes de la rutina de publicación
+permissions:
+  contents: write
+jobs:
+  gsc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/happy-lovelace-3ojo5t
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Descargar datos
+        env:
+          GSC_SERVICE_ACCOUNT: ${{ secrets.GSC_SERVICE_ACCOUNT }}
+          GSC_SITE: ${{ vars.GSC_SITE || secrets.GSC_SITE }}
+        run: node scripts/fetch-gsc.mjs
+      - name: Guardar en el repo
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add content-plan/gsc/latest.json
+          git diff --cached --quiet || (git commit -m "Datos de Search Console $(date +%F)" && git push)
