@@ -1,0 +1,40 @@
+{
+  "type": "codigo",
+  "code": "P0340",
+  "name": "Circuito del sensor de posición del árbol de levas",
+  "datePublished": "2026-10-13",
+  "dateModified": "2026-10-13",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0340: causas, síntomas y solución",
+    "meta_description": "P0340: fallo en el circuito del sensor del árbol de levas. Síntomas (arranque difícil, modo de emergencia), causas y cómo comprobar sensor y cableado.",
+    "slug": "p0340"
+  },
+  "content_html": "<h1>Código P0340: Circuito del sensor de posición del árbol de levas</h1>\n<p class=\"intro\">El código P0340 indica que la centralita no recibe una señal correcta del sensor de posición del árbol de levas. Este sensor informa de la fase de cada cilindro para sincronizar la inyección y el encendido. Si falta, el motor puede arrancar peor, funcionar en modo de emergencia o negarse a arrancar. Suele deberse al propio sensor, a su cableado o a una distribución desajustada.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: puede dificultar el arranque o dejar el coche parado</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sensores, sincronización de inyección y encendido, distribución</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>40–200 € (sensor) · más si hay que revisar la distribución, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, multímetro, osciloscopio (recomendado), manual de taller</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Arranque largo o intermitente; a veces el motor no arranca.</li><li>Tirones, funcionamiento irregular o modo de emergencia con menos potencia.</li><li>Ralentí inestable y consumo algo mayor.</li><li>A veces aparecen también códigos del sensor de cigüeñal, como P0335.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor del árbol de levas defectuoso o recalentado.</li><li>Cableado dañado, con roces, o conector sulfatado.</li><li>Rueda fónica o diente de referencia del árbol de levas dañados o con residuos.</li><li>Distribución desajustada: correa o cadena saltada o con holgura.</li><li>Distancia incorrecta entre el sensor y su referencia tras una reparación.</li><li>Aceite o suciedad en el sensor o en su conector.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee todos los códigos y los datos congelados. Si también hay P0335 (cigüeñal) o fallos de sincronización, sospecha de la distribución antes que del sensor.</li><li>Inspecciona el sensor, su conector y el cableado: busca roces, humedad, aceite, terminales sulfatados o clips rotos.</li><li>Identifica según el manual si el sensor es inductivo o de efecto Hall. Con el multímetro, comprueba alimentación y masa en el conector si es Hall, o la resistencia del sensor si es inductivo, y compara con el valor del fabricante.</li><li>Con el motor girando durante el arranque, observa la señal con un osciloscopio: debe ser regular y mostrar las marcas de la referencia. Sin osciloscopio, comprueba en datos en vivo que el escáner detecta actividad del sensor.</li><li>Retira el sensor e inspecciona su referencia en el árbol de levas: daños, limaduras o suciedad.</li><li>Si el sensor y el cableado están bien, comprueba el calado de la distribución siguiendo el procedimiento del fabricante: una distribución desajustada también provoca P0340.</li><li>Sustituye el sensor por uno equivalente respetando su montaje y su distancia, borra el código y confirma que el motor arranca con normalidad.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con el código P0340?",
+      "answer": "No es recomendable. Puede haber arranques fallidos y pérdida de potencia, y en algunos casos el motor se para. Úsalo solo para llegar al taller."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar un P0340?",
+      "answer": "Un sensor nuevo cuesta entre 40 y 200 € con mano de obra. Si el problema es de cableado o de la distribución, el coste puede subir bastante, según modelo."
+    },
+    {
+      "question": "¿Es lo mismo P0340 que P0335?",
+      "answer": "No. P0340 corresponde al sensor del árbol de levas y P0335 al del cigüeñal. Si aparecen juntos, conviene revisar la distribución y la alimentación eléctrica común."
+    }
+  ],
+  "products": [
+    "multímetro digital automotriz",
+    "escáner obd2 bluetooth elm327",
+    "osciloscopio automotriz portátil"
+  ],
+  "related": [
+    "p0335",
+    "p0300"
+  ],
+  "featured_image": "/img/articulos/codigo-p0340.webp"
+}

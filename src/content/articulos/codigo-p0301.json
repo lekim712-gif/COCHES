@@ -1,0 +1,42 @@
+{
+  "type": "codigo",
+  "code": "P0301",
+  "name": "Fallo de encendido en el cilindro 1",
+  "datePublished": "2026-10-13",
+  "dateModified": "2026-10-13",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0301: causas, síntomas y solución",
+    "meta_description": "P0301 indica fallo de encendido en el cilindro 1; P0302 a P0306 se diagnostican igual. Causas, síntomas y diagnóstico paso a paso para repararlo.",
+    "slug": "p0301"
+  },
+  "content_html": "<h1>Código P0301: Fallo de encendido en el cilindro 1</h1>\n<p class=\"intro\">El código P0301 indica que la centralita detecta fallos de encendido en el cilindro 1: ese cilindro no quema bien la mezcla y el cigüeñal acelera de forma irregular. Los códigos P0302 a P0306 significan lo mismo para los cilindros 2 a 6 y se diagnostican igual. Si el testigo de motor parpadea, el combustible sin quemar daña el catalizador y conviene detener el coche.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta si el testigo parpadea; media si está fijo</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Encendido, inyección, compresión, admisión</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>40–150 € (bujía o bobina) · hasta 1.500 € (causa mecánica), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, llave de bujías, multímetro, manómetro de compresión</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Tirones y funcionamiento irregular, sobre todo al ralentí y al acelerar.</li><li>Testigo de motor fijo o parpadeante.</li><li>Pérdida de potencia y vibraciones que se notan en el volante o en el pedal.</li><li>Olor a gasolina sin quemar o humo oscuro por el escape.</li><li>Consumo mayor y arranques más lentos de lo normal.</li></ul>\n<h2>Causas principales</h2><ul><li>Bujía del cilindro 1 desgastada, con holgura incorrecta o con depósitos.</li><li>Bobina de encendido (o cable y capuchón) del cilindro 1 defectuosa.</li><li>Inyector del cilindro 1 obstruido, que gotea o que no llega a abrir.</li><li>Pérdida de compresión en ese cilindro: válvula, segmentos o junta de culata.</li><li>Fuga de aire en la admisión junto a ese cilindro: colector, junta o manguito.</li><li>Cableado o conector del inyector o de la bobina en mal estado.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y los datos congelados con el escáner. Si solo aparece P0301, el fallo es del cilindro 1; si hay varios (P0302 a P0306) o P0300, busca una causa común a todos.</li><li>Si el testigo de motor parpadea, no sigas circulando: el combustible sin quemar sobrecalienta el catalizador. Lleva el coche al taller.</li><li>Con el motor frío y apagado, inspecciona la bujía del cilindro 1: estado de los electrodos, hollín, aceite o humedad. Cámbiala si supera el intervalo del fabricante.</li><li>Intercambia la bobina del cilindro 1 con la de otro cilindro, borra el código y arranca. Si el fallo se traslada (por ejemplo a P0302), la bobina es la causa.</li><li>Si la bobina no era, intercambia del mismo modo la bujía. Si el fallo sigue en el cilindro 1, sospecha del inyector.</li><li>Comprueba el inyector: escucha su chasquido con un estetoscopio o mide su resistencia y compárala con el valor del manual. Revisa también su conector y su cableado.</li><li>Busca fugas de aire en la admisión de ese cilindro con un detector de humo, manteniendo las manos alejadas de las piezas en movimiento.</li><li>Si todo es correcto, mide la compresión del cilindro 1 y compárala con la de los demás. Una diferencia grande indica un problema mecánico.</li><li>Tras reparar, borra los códigos y haz una prueba de carretera para confirmar que el fallo no reaparece.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0301, P0302 y P0300?",
+      "answer": "P0301 señala un fallo de encendido en el cilindro 1, P0302 en el 2, y así hasta P0306. P0300 indica fallos aleatorios o en varios cilindros. El diagnóstico es el mismo, cambiando el cilindro afectado."
+    },
+    {
+      "question": "¿Se puede circular con el código P0301?",
+      "answer": "Con el testigo fijo, solo trayectos cortos hasta el taller. Si parpadea, no: el combustible sin quemar puede destruir el catalizador en poco tiempo."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar un P0301?",
+      "answer": "Una bujía o una bobina cuesta entre 40 y 150 € con mano de obra. Si la causa es un inyector o un problema de compresión, puede subir a varios cientos de euros o superar los 1.500 €, según modelo."
+    }
+  ],
+  "products": [
+    "juego de llaves de bujías",
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "comprobador de compresión de motor"
+  ],
+  "related": [
+    "p0300",
+    "p0171",
+    "p0335"
+  ],
+  "featured_image": "/img/articulos/codigo-p0301.webp"
+}

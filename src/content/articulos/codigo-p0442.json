@@ -1,0 +1,42 @@
+{
+  "type": "codigo",
+  "code": "P0442",
+  "name": "Fuga pequeña en el sistema EVAP",
+  "datePublished": "2026-10-13",
+  "dateModified": "2026-10-13",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0442: causas, síntomas y solución",
+    "meta_description": "P0442: fuga pequeña en el sistema EVAP de vapores de combustible. Causas (tapón, mangueras, válvulas), síntomas y cómo localizarla con prueba de humo.",
+    "slug": "p0442"
+  },
+  "content_html": "<h1>Código P0442: Fuga pequeña en el sistema EVAP</h1>\n<p class=\"intro\">El código P0442 indica que el sistema de control de emisiones evaporativas (EVAP) detecta una fuga pequeña de vapores de combustible. La centralita pone el circuito en presión o depresión y mide si la mantiene: si cae demasiado despacio, registra una fuga del orden de un milímetro. Rara vez afecta a la conducción, pero enciende el testigo de motor y puede impedir pasar la ITV.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: no afecta a la conducción, pero con el testigo encendido puede fallar la ITV</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>EVAP, depósito de combustible, cánister de carbón activo, válvulas</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–20 € (tapón) · 80–400 € (válvula, manguera o cánister), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, detector de fugas por humo, bomba de vacío, multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido, que suele ser el único síntoma.</li><li>Olor leve a gasolina cerca del vehículo o del depósito.</li><li>En algunos casos, el surtidor se corta antes de tiempo al repostar, si hay una válvula de ventilación defectuosa.</li><li>Consumo y rendimiento del motor prácticamente sin cambios.</li><li>Fallo en la ITV si el testigo sigue encendido.</li></ul>\n<h2>Causas principales</h2><ul><li>Tapón de combustible mal cerrado, con la junta deteriorada o inadecuado.</li><li>Mangueras del EVAP agrietadas, endurecidas o con una conexión floja.</li><li>Válvula de purga o de ventilación con fuga interna o que no cierra bien.</li><li>Cánister de carbón activo con grietas o con los tapones de conexión dañados.</li><li>Cuello de llenado o depósito con corrosión o una pequeña porosidad.</li><li>Sensor de presión del depósito con una lectura incorrecta.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y comprueba si aparecen otros del EVAP, como P0455, P0456 o P0446: ayudan a acotar dónde está el fallo.</li><li>Revisa el tapón de combustible: ciérralo hasta oír los clics, mira la junta y cámbialo si está agrietada o deformada.</li><li>Borra el código y conduce unos días con el depósito ni casi vacío ni lleno: muchos sistemas solo hacen la prueba en esas condiciones. Si no reaparece, la causa era el tapón.</li><li>Inspecciona las mangueras del EVAP desde el cánister hasta la válvula de purga: busca grietas, conexiones sueltas o mangueras aplastadas.</li><li>Comprueba la válvula de purga con el test de actuadores del escáner: debe abrir y cerrar, y con el motor parado y sin corriente no debe dejar pasar aire.</li><li>Comprueba del mismo modo la válvula de ventilación del cánister: debe cerrarse al activarla durante la prueba.</li><li>Haz una prueba de humo en el circuito a baja presión, siguiendo las indicaciones del equipo y sin chispas ni llamas cerca, y observa por dónde sale: es el método más fiable para localizar fugas pequeñas.</li><li>Sustituye la pieza que pierda, borra los códigos y completa un ciclo de conducción para confirmar que el sistema vuelve a superar la prueba.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con el código P0442?",
+      "answer": "Sí. No afecta al funcionamiento del motor ni es peligroso a corto plazo, pero conviene repararlo: emite vapores de combustible, mantiene el testigo encendido y puede hacerte fallar la ITV."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar un P0442?",
+      "answer": "Si es el tapón, entre 0 y 20 €. Una válvula, una manguera o el cánister cuestan entre 80 y 400 € con mano de obra, según el modelo."
+    },
+    {
+      "question": "¿Cuál es la diferencia entre P0442, P0455 y P0456?",
+      "answer": "Indican el tamaño de la fuga: P0455 es grande (tapón suelto o manguera desconectada), P0442 es pequeña y P0456 es muy pequeña, la más difícil de localizar."
+    }
+  ],
+  "products": [
+    "detector de fugas de humo automoción",
+    "tapón de depósito de combustible",
+    "bomba de vacío manual para automoción",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0171",
+    "p0172",
+    "p0420"
+  ],
+  "featured_image": "/img/articulos/codigo-p0442.webp"
+}

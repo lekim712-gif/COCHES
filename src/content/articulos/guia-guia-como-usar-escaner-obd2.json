@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Cómo usar un escáner OBD2 paso a paso",
+  "datePublished": "2026-10-13",
+  "dateModified": "2026-10-13",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Cómo usar un escáner OBD2 paso a paso",
+    "meta_description": "Aprende a usar un escáner OBD2: dónde está el puerto, cómo leer los códigos de avería, qué son los datos congelados y por qué no conviene borrarlos sin más.",
+    "slug": "guia-como-usar-escaner-obd2"
+  },
+  "content_html": "<h1>Cómo usar un escáner OBD2 paso a paso</h1>\n<p class=\"intro\">Un escáner OBD2 se conecta al puerto de diagnóstico del coche y lee los códigos de avería que guarda la centralita. Sirve para saber por qué se ha encendido el testigo de motor antes de ir al taller. Con el contacto puesto y unos minutos basta para obtener el código y los datos en vivo del motor. Esta guía explica el proceso y cómo interpretar el resultado.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: no requiere desmontar nada</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Puerto de diagnóstico OBD2 y centralita</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>Desde unos 15–40 € un lector Bluetooth básico, según marca y funciones</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 (con cable o Bluetooth) y, si es Bluetooth, un teléfono con la aplicación</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Localiza el puerto de diagnóstico OBD2, un conector trapezoidal de 16 pines que suele estar bajo el volante, cerca de la rodilla del conductor. En algunos coches está tras una tapa.</li><li>Con el coche parado y el contacto quitado, conecta el escáner al puerto con firmeza. Si es Bluetooth, empareja el lector con tu teléfono desde los ajustes y abre la aplicación.</li><li>Da el contacto sin arrancar el motor. Si el lector te pide arrancar, hazlo con el coche parado y en un lugar ventilado.</li><li>Pide al escáner que lea los códigos de avería. Anota todos, con su letra y número (por ejemplo P0420), y si figuran como pendientes, almacenados o permanentes.</li><li>Consulta los datos congelados: régimen, temperatura, carga y velocidad en el momento del fallo. Ayudan a saber en qué condiciones se produjo.</li><li>Busca el significado de cada código en una ficha de diagnóstico y sigue su procedimiento. Un código indica dónde mirar, no qué pieza cambiar.</li><li>No borres los códigos antes de anotarlos ni de diagnosticar: al borrarlos se pierden los datos congelados y la avería volverá si no se repara.</li><li>Si el testigo parpadea o hay síntomas graves, no dependas del escáner: detén el coche y acude al taller.</li><li>Al terminar, apaga el contacto antes de desconectar el lector y guarda un registro de lo leído con la fecha.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué escáner OBD2 necesito?",
+      "answer": "Para leer y borrar códigos basta un lector genérico compatible con el protocolo OBD2 del coche (los de gasolina desde 2001 y los diésel desde 2004 en la UE). Los más avanzados añaden datos en vivo y funciones propias de cada marca."
+    },
+    {
+      "question": "¿Se puede estropear el coche por conectar un escáner?",
+      "answer": "No, si el lector es de calidad y se conecta con el contacto quitado. Los lectores muy baratos o de dudosa procedencia pueden dar lecturas erróneas, así que conviene elegir uno fiable."
+    },
+    {
+      "question": "¿Borrar el código arregla la avería?",
+      "answer": "No. Borrar el código apaga el testigo, pero si la causa no se repara, el fallo volverá a detectarse. Además, se pierden los datos congelados, que son útiles para diagnosticar."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "escáner obd2 profesional multimarca",
+    "alargador de cable obd2"
+  ],
+  "related": [
+    "testigo-motor",
+    "p0420",
+    "p0300"
+  ],
+  "featured_image": "/img/articulos/guia-guia-como-usar-escaner-obd2.webp"
+}

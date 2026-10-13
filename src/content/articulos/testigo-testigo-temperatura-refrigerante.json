@@ -1,0 +1,39 @@
+{
+  "type": "testigo",
+  "name": "Testigo de temperatura del refrigerante: significado y qué hacer",
+  "datePublished": "2026-10-13",
+  "dateModified": "2026-10-13",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo de temperatura del refrigerante: qué hacer",
+    "meta_description": "Testigo de temperatura del refrigerante encendido: qué significa el color rojo o azul, si puedes seguir circulando y cómo actuar para no averiar el motor.",
+    "slug": "testigo-temperatura-refrigerante"
+  },
+  "content_html": "<h1>Testigo de temperatura del refrigerante: significado y qué hacer</h1>\n<p class=\"intro\">El testigo de temperatura del refrigerante, un termómetro sobre líneas onduladas, avisa de que la temperatura del motor no es la adecuada. En rojo indica sobrecalentamiento: hay riesgo de dañar la junta de culata y el motor, y debes detenerte. En azul indica que el motor aún está frío y solo pide conducir con suavidad hasta que se apague. Reaccionar rápido evita averías muy caras.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta en rojo; informativa en azul</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Refrigeración: termostato, bomba de agua, radiador, ventilador y sensor</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–20 € (rellenar) · 80–1.500 € o más según la causa: termostato, bomba o junta de culata</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Linterna, refrigerante adecuado, guantes, escáner OBD2</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo rojo con un termómetro sobre líneas onduladas.</li><li>Testigo azul al arrancar en frío, que se apaga al calentar el motor.</li><li>Aguja de temperatura en la zona roja o aviso sonoro.</li><li>Vapor blanco bajo el capó u olor dulce a refrigerante.</li><li>Pérdida de potencia, calefacción que sale fría o ventilador funcionando sin parar.</li></ul>\n<h2>Causas principales</h2><ul><li>Nivel de refrigerante bajo por una fuga o por evaporación.</li><li>Termostato atascado, cerrado o abierto.</li><li>Ventilador del radiador que no se activa: motor, relé, fusible o sensor.</li><li>Bomba de agua desgastada o con la correa en mal estado.</li><li>Radiador obstruido por dentro o por fuera, o manguitos colapsados.</li><li>Tapón del vaso de expansión que no mantiene la presión.</li><li>Junta de culata dañada, con mezcla de aceite y refrigerante o humo blanco.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Si el testigo es rojo, detén el coche en cuanto sea seguro, apaga el motor y activa las luces de emergencia. Seguir circulando puede dañar la junta de culata y el motor.</li><li>No abras el tapón del vaso de expansión ni del radiador con el motor caliente: el refrigerante sale a presión y a alta temperatura y puede quemarte. Espera al menos 30 minutos a que se enfríe.</li><li>Con el motor frío, comprueba el nivel de refrigerante en el vaso de expansión, entre las marcas de mínimo y máximo, y busca fugas visibles bajo el coche.</li><li>Si falta refrigerante, rellena con el tipo que indique el manual del vehículo; solo en una emergencia para llegar al taller sirve agua, y después hay que revisar el circuito.</li><li>Arranca y observa la temperatura: comprueba que el ventilador se activa al calentarse y que los manguitos superior e inferior del radiador se calientan.</li><li>Si el testigo vuelve a encenderse o el nivel baja otra vez, no sigas circulando: hay una fuga o una avería que requiere diagnóstico en taller.</li><li>Si el testigo es azul, conduce con suavidad sin acelerar a fondo hasta que se apague. Si no se apaga tras unos kilómetros, revisa el termostato y el sensor de temperatura.</li><li>Si ves mezcla de aceite y refrigerante, con aspecto lechoso, o humo blanco constante, no arranques el motor y acude al taller: puede ser la junta de culata.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con el testigo de temperatura en rojo?",
+      "answer": "No. Detén el motor en cuanto puedas hacerlo con seguridad. Seguir circulando con el motor sobrecalentado puede deformar la culata y averiarlo por completo."
+    },
+    {
+      "question": "¿Qué significa el testigo de temperatura en azul?",
+      "answer": "Indica que el motor aún no ha alcanzado su temperatura de trabajo. Conduce con suavidad hasta que se apague. Si no se apaga, puede haber un termostato abierto o un sensor defectuoso."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar un sobrecalentamiento?",
+      "answer": "Depende de la causa: rellenar refrigerante cuesta poco, un termostato o una bomba de agua entre 80 y 500 €, y una junta de culata puede superar los 1.500 €, según modelo."
+    }
+  ],
+  "products": [
+    "refrigerante anticongelante para coche",
+    "comprobador de presión del sistema de refrigeración",
+    "guantes de taller"
+  ],
+  "related": [
+    "testigo-motor",
+    "testigo-bateria"
+  ],
+  "featured_image": "/img/articulos/testigo-testigo-temperatura-refrigerante.webp"
+}

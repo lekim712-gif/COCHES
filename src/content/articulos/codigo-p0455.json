@@ -1,0 +1,40 @@
+{
+  "type": "codigo",
+  "code": "P0455",
+  "name": "Fuga grande en el sistema EVAP",
+  "datePublished": "2026-10-13",
+  "dateModified": "2026-10-13",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0455: causas, síntomas y solución",
+    "meta_description": "P0455: fuga grande en el sistema EVAP. La causa más común es un tapón de combustible flojo; te explicamos qué revisar, cuánto cuesta y cómo repararlo.",
+    "slug": "p0455"
+  },
+  "content_html": "<h1>Código P0455: Fuga grande en el sistema EVAP</h1>\n<p class=\"intro\">El código P0455 indica que el sistema EVAP no consigue mantener la presión o la depresión que la centralita le aplica, señal de una fuga grande en el circuito de vapores de combustible. La causa más habitual es también la más simple: un tapón del depósito sin cerrar, ausente o con la junta rota. Si tras revisarlo el código vuelve, hay que buscar una manguera suelta o una válvula atascada.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: se puede circular, pero emite vapores y mantiene el testigo encendido</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>EVAP, tapón y cuello del depósito, mangueras, válvulas</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–20 € (tapón) · 60–350 € (manguera, válvula o cánister), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, detector de fugas por humo, linterna, bomba de vacío</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido poco después de repostar.</li><li>Olor a gasolina más intenso alrededor del coche, sobre todo parado.</li><li>El tapón de combustible aparece flojo, sin cierre o ausente.</li><li>Sonido de aire al abrir el tapón, mayor de lo normal, por presión o depresión en el depósito.</li><li>El resto del coche funciona con normalidad.</li></ul>\n<h2>Causas principales</h2><ul><li>Tapón de combustible sin cerrar, perdido o con la junta rota.</li><li>Manguera del EVAP desconectada, partida o sin su abrazadera.</li><li>Válvula de purga atascada en posición abierta.</li><li>Válvula de ventilación del cánister rota o con el conector suelto.</li><li>Cánister de carbón activo agrietado por un golpe o por corrosión.</li><li>Cuello de llenado perforado por óxido o por un golpe.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Comprueba primero el tapón: ciérralo hasta oír los clics, mira su junta y verifica que sea el adecuado para tu vehículo. Es la causa más probable y la más barata.</li><li>Borra el código, conduce con el depósito a una altura media y comprueba si reaparece. Si no vuelve en unos días, el problema estaba resuelto.</li><li>Si vuelve, inspecciona con una linterna las mangueras visibles del EVAP en el compartimento del motor y bajo el vehículo: busca una desconectada, partida o sin abrazadera. Con el vehículo bien asegurado, nunca apoyado solo en el gato.</li><li>Ejecuta con el escáner el test de la válvula de purga y el de la de ventilación: la de purga no debe quedarse abierta con el motor parado.</li><li>Con una fuga grande, la prueba de humo suele mostrar la salida casi al instante. Aplícala con el equipo a baja presión y sin chispas ni llamas cerca.</li><li>Revisa el cuello de llenado y la zona del cánister por golpes o corrosión, sobre todo si el coche ha pasado por una reparación o por una carretera en mal estado.</li><li>Sustituye la pieza dañada, borra los códigos y haz un ciclo de conducción completo para confirmar que no vuelve.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Puede un tapón de gasolina flojo encender el testigo de motor?",
+      "answer": "Sí, y es la causa más común de P0455. Si el tapón no sella, el sistema detecta que no mantiene la presión y registra el código. Ciérralo bien, borra el código y comprueba si reaparece en los días siguientes."
+    },
+    {
+      "question": "¿Se puede circular con el código P0455?",
+      "answer": "Sí, no impide conducir, pero hay fuga de vapores de combustible y el testigo seguirá encendido. Es mejor repararlo pronto y, hasta entonces, revisar el tapón."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar un P0455?",
+      "answer": "Un tapón nuevo cuesta entre 0 y 20 €. Si la causa es una manguera, una válvula o el cánister, entre 60 y 350 € con mano de obra, según modelo."
+    }
+  ],
+  "products": [
+    "tapón de depósito de combustible",
+    "detector de fugas de humo automoción",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0442",
+    "p0171"
+  ],
+  "featured_image": "/img/articulos/codigo-p0455.webp"
+}
