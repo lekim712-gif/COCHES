@@ -3,7 +3,7 @@
   "code": "P2002",
   "name": "Eficiencia del filtro de partículas por debajo del umbral (banco 1)",
   "datePublished": "2026-10-12",
-  "dateModified": "2026-10-12",
+  "dateModified": "2026-10-13",
   "review_status": "draft-ia",
   "seo": {
     "meta_title": "Código P2002: causas, síntomas y solución",
@@ -36,5 +36,7 @@
     "p0299",
     "testigo-filtro-particulas"
   ],
-  "featured_image": "/img/articulos/codigo-p2002.webp"
+  "featured_image": "/img/articulos/codigo-p2002.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-13"
 }

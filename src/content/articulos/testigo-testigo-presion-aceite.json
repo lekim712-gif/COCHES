@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Testigo de presión de aceite: significado y qué hacer",
   "datePublished": "2026-10-12",
-  "dateModified": "2026-10-12",
+  "dateModified": "2026-10-13",
   "review_status": "draft-ia",
   "seo": {
     "meta_title": "Testigo de presión de aceite: significado y qué hacer",
@@ -33,5 +33,7 @@
   "related": [
     "guia-cambio-aceite"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-presion-aceite.webp"
+  "featured_image": "/img/articulos/testigo-testigo-presion-aceite.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-13"
 }

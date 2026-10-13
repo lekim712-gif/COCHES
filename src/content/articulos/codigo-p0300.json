@@ -3,7 +3,7 @@
   "code": "P0300",
   "name": "Fallo de encendido aleatorio o múltiple",
   "datePublished": "2026-10-12",
-  "dateModified": "2026-10-12",
+  "dateModified": "2026-10-13",
   "review_status": "draft-ia",
   "seo": {
     "meta_title": "Código P0300: causas, síntomas y solución",
@@ -37,5 +37,7 @@
     "p0335",
     "p0420"
   ],
-  "featured_image": "/img/articulos/codigo-p0300.webp"
+  "featured_image": "/img/articulos/codigo-p0300.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-13"
 }

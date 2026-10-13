@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Cambio de aceite del motor paso a paso",
   "datePublished": "2026-10-12",
-  "dateModified": "2026-10-12",
+  "dateModified": "2026-10-13",
   "review_status": "draft-ia",
   "seo": {
     "meta_title": "Cambio de aceite del motor paso a paso",
@@ -35,5 +35,7 @@
     "testigo-presion-aceite",
     "guia-cambio-fusibles"
   ],
-  "featured_image": "/img/articulos/guia-guia-cambio-aceite.webp"
+  "featured_image": "/img/articulos/guia-guia-cambio-aceite.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-13"
 }

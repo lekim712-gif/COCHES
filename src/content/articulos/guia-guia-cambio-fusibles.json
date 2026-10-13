@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Cómo comprobar y cambiar un fusible del coche",
   "datePublished": "2026-10-12",
-  "dateModified": "2026-10-12",
+  "dateModified": "2026-10-13",
   "review_status": "draft-ia",
   "seo": {
     "meta_title": "Cómo comprobar y cambiar un fusible del coche",
@@ -34,5 +34,7 @@
     "testigo-bateria",
     "u0100"
   ],
-  "featured_image": "/img/articulos/guia-guia-cambio-fusibles.webp"
+  "featured_image": "/img/articulos/guia-guia-cambio-fusibles.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-13"
 }

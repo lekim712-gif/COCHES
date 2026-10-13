@@ -3,7 +3,7 @@
   "code": "P0171",
   "name": "Mezcla demasiado pobre (banco 1)",
   "datePublished": "2026-10-12",
-  "dateModified": "2026-10-12",
+  "dateModified": "2026-10-13",
   "review_status": "draft-ia",
   "seo": {
     "meta_title": "Código P0171: causas, síntomas y solución",
@@ -37,5 +37,7 @@
     "p0420",
     "p0300"
   ],
-  "featured_image": "/img/articulos/codigo-p0171.webp"
+  "featured_image": "/img/articulos/codigo-p0171.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-13"
 }

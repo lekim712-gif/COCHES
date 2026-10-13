@@ -5,7 +5,7 @@
   "code": "P0401",
   "name": "P0401 en Renault",
   "datePublished": "2026-10-12",
-  "dateModified": "2026-10-12",
+  "dateModified": "2026-10-13",
   "review_status": "draft-ia",
   "seo": {
     "meta_title": "Código P0401 Renault: causas y solución",
@@ -37,5 +37,7 @@
     "p0401"
   ],
   "brand_specific_points": 4,
-  "featured_image": "/img/articulos/marca-renault-p0401.webp"
+  "featured_image": "/img/articulos/marca-renault-p0401.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-13"
 }

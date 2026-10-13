@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Testigo del filtro de partículas (DPF/FAP): significado y qué hacer",
   "datePublished": "2026-10-12",
-  "dateModified": "2026-10-12",
+  "dateModified": "2026-10-13",
   "review_status": "draft-ia",
   "seo": {
     "meta_title": "Testigo del filtro de partículas (DPF/FAP)",
@@ -33,5 +33,7 @@
     "p2002",
     "p0401"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-filtro-particulas.webp"
+  "featured_image": "/img/articulos/testigo-testigo-filtro-particulas.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-13"
 }

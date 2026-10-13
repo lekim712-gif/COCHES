@@ -5,7 +5,7 @@
   "code": "P0087",
   "name": "P0087 en Grupo VAG (Volkswagen, Audi, SEAT, Škoda)",
   "datePublished": "2026-10-12",
-  "dateModified": "2026-10-12",
+  "dateModified": "2026-10-13",
   "review_status": "draft-ia",
   "seo": {
     "meta_title": "Código P0087 Grupo VAG: causas y solución",
@@ -37,5 +37,7 @@
     "p0087"
   ],
   "brand_specific_points": 4,
-  "featured_image": "/img/articulos/marca-grupo-vag-p0087.webp"
+  "featured_image": "/img/articulos/marca-grupo-vag-p0087.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-13"
 }

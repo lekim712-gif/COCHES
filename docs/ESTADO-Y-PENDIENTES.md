@@ -1,6 +1,6 @@
 # Estado del proyecto y pendientes
 
-_Actualizado: 12 de octubre de 2026._
+_Actualizado: 13 de octubre de 2026._
 
 ## Hecho
 - **Web completa en local** (Astro estático): portada, índices, 10 fichas de códigos, 4 testigos, 2 guías, 5 fichas por marca, páginas legales, metodología, 404, robots.txt, sitemap y `ads.txt`.
@@ -18,7 +18,7 @@ _Actualizado: 12 de octubre de 2026._
    - Imagen con el generador propio y guardado como borrador.
    - Publicación escalonada (5-10 fichas/semana) con despliegue automático e IndexNow.
    - Marcado de revisión con `npm run reviewed` cuando Carlos Peláez revise.
-3. **Revisión técnica de las 21 fichas** por Carlos Peláez (hoy figuran «pendiente de revisión técnica»).
+3. ~~Revisión técnica de las 21 fichas por Carlos Peláez~~ **Hecha el 13/10/2026** (sin cambios): las 21 fichas son indexables y muestran «Revisada por». Las fichas nuevas que se generen volverán a empezar «pendiente de revisión» con `noindex`.
 4. **Hosting: Hostinger** (dominio y hosting). Guía paso a paso en `docs/DESPLIEGUE-HOSTINGER.md`: añadir el dominio, SSL, cuenta FTP limitada a su carpeta y primera subida manual de `dist/` (con `.htaccess`).
 5. **Correo `contacto@obdcodigos.com`:** crearlo en Hostinger si el plan lo incluye, o reenviarlo a tu correo.
 6. **Search Console y Bing Webmaster:** verificar el dominio y enviar `sitemap-index.xml`.

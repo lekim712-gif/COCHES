@@ -3,7 +3,7 @@
   "code": "P0087",
   "name": "Presión del raíl de combustible demasiado baja",
   "datePublished": "2026-10-12",
-  "dateModified": "2026-10-12",
+  "dateModified": "2026-10-13",
   "review_status": "draft-ia",
   "seo": {
     "meta_title": "Código P0087: causas, síntomas y solución",
@@ -36,5 +36,7 @@
     "p0299",
     "p2002"
   ],
-  "featured_image": "/img/articulos/codigo-p0087.webp"
+  "featured_image": "/img/articulos/codigo-p0087.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-13"
 }

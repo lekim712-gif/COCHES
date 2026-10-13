@@ -3,7 +3,7 @@
   "code": "P0420",
   "name": "Eficiencia del catalizador por debajo del umbral (banco 1)",
   "datePublished": "2026-10-12",
-  "dateModified": "2026-10-12",
+  "dateModified": "2026-10-13",
   "review_status": "draft-ia",
   "seo": {
     "meta_title": "Código P0420: causas, síntomas y solución",
@@ -37,5 +37,7 @@
     "p0300",
     "p0172"
   ],
-  "featured_image": "/img/articulos/codigo-p0420.webp"
+  "featured_image": "/img/articulos/codigo-p0420.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-13"
 }

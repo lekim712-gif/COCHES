@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Testigo de motor (check engine): significado y qué hacer",
   "datePublished": "2026-10-12",
-  "dateModified": "2026-10-12",
+  "dateModified": "2026-10-13",
   "review_status": "draft-ia",
   "seo": {
     "meta_title": "Testigo de motor (check engine): significado y qué hacer",
@@ -34,5 +34,7 @@
     "p0300",
     "p0171"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-motor.webp"
+  "featured_image": "/img/articulos/testigo-testigo-motor.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-13"
 }
