@@ -3,8 +3,12 @@
 _Actualizado: 13 de octubre de 2026._
 
 ## Publicada
-**https://obdcodigos.com publicada el 13/10/2026** en Hostinger (subida manual del `dist/`). Auditoría del mismo día: 35 URLs rastreadas, 32 indexables, sitemap con 32 URLs, redirecciones, 404, cabeceras de seguridad, compresión (brotli), caché y `og:image` correctos. Único hallazgo, menor: `http://www…` tarda 2 saltos en llegar al dominio final (lo fuerza Hostinger antes que nuestro `.htaccess`).
+**https://obdcodigos.com publicada el 13/10/2026** en Hostinger (subida manual inicial; después, despliegue automático). Auditoría del mismo día: 35 URLs rastreadas, 32 indexables, sitemap con 32 URLs, redirecciones, 404, cabeceras de seguridad, compresión (brotli), caché y `og:image` correctos. Único hallazgo, menor: `http://www…` tarda 2 saltos en llegar al dominio final (lo fuerza Hostinger antes que nuestro `.htaccess`).
 Pendiente de medir: velocidad (PageSpeed Insights; los datos de campo tardan semanas en existir).
+
+## Despliegue automático (activo desde el 13/10/2026)
+Cada cambio subido a la rama `claude/happy-lovelace-3ojo5t` ejecuta `.github/workflows/deploy-hostinger.yml`: construye con `npm run build:prod` (usando el secreto `DOTENV`) y sube `dist/` por FTP a `public_html`. Primer despliegue real verificado: 55 s de subida y `.htaccess` nuevo activo (comprobación: `/.ftp-deploy-sync-state.json` devuelve 403). Secretos en GitHub: `DOTENV`, `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD`, `FTP_SERVER_DIR`.
+Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 
 ## Hecho
 - **Web completa en local** (Astro estático): portada, índices, 10 fichas de códigos, 4 testigos, 2 guías, 5 fichas por marca, páginas legales, metodología, 404, robots.txt, sitemap y `ads.txt`.
