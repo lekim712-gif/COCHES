@@ -1,5 +1,7 @@
 // Configuración editable del sitio. Los valores sensibles/variables se pasan por variables de entorno PUBLIC_*.
 export const PENDIENTE = '[PENDIENTE]';
+// Valor opcional: vacío o un marcador como «-» / «none» cuenta como NO definido (algunos paneles obligan a escribir algo).
+const opt = (v?: string) => (v && !['-', '--', 'none', 'no', 'n/a', 'na', 'null'].includes(v.trim().toLowerCase()) ? v.trim() : '');
 
 export const SITE = {
   name: 'OBDCodigos',
@@ -20,11 +22,11 @@ export const SITE = {
   },
   // false = las fichas sin revisar se publican con noindex y fuera del sitemap. Poner PUBLIC_INDEX_UNREVIEWED=1 para indexarlas igualmente.
   indexUnreviewed: import.meta.env.PUBLIC_INDEX_UNREVIEWED === '1',
-  adsenseClient: import.meta.env.PUBLIC_ADSENSE_CLIENT || '', // ca-pub-XXXXXXXXXXXXXXXX
-  adSlots: { 1: import.meta.env.PUBLIC_ADSLOT_1 || '', 2: import.meta.env.PUBLIC_ADSLOT_2 || '' },
-  amazonTag: import.meta.env.PUBLIC_AMAZON_TAG || '', // p. ej. micuenta-21
+  adsenseClient: opt(import.meta.env.PUBLIC_ADSENSE_CLIENT), // ca-pub-XXXXXXXXXXXXXXXX
+  adSlots: { 1: opt(import.meta.env.PUBLIC_ADSLOT_1), 2: opt(import.meta.env.PUBLIC_ADSLOT_2) },
+  amazonTag: opt(import.meta.env.PUBLIC_AMAZON_TAG), // p. ej. micuenta-21
   amazonDomain: 'www.amazon.es',
-  gaId: import.meta.env.PUBLIC_GA_ID || '', // G-XXXXXXXXXX
+  gaId: opt(import.meta.env.PUBLIC_GA_ID), // G-XXXXXXXXXX
 };
 
 export const CATEGORIES = {
