@@ -35,5 +35,7 @@
     "testigo-motor",
     "testigo-bateria"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-esp.webp"
+  "featured_image": "/img/articulos/testigo-testigo-esp.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-13"
 }
