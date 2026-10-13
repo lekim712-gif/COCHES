@@ -1,6 +1,6 @@
 # Despliegue en Hostinger
 
-La web es **estática** (HTML, CSS e imágenes): solo hay que subir el contenido de `dist/` a la carpeta del dominio. No necesita Node ni base de datos en el servidor.
+La web es **estática** (HTML, CSS e imágenes). Se puede desplegar de dos formas: importando el repositorio desde GitHub (Hostinger la construye) o subiendo el contenido de `dist/` a mano. No necesita base de datos.
 
 > Nada de esto está probado contra tu Hostinger real. Verifica cada punto al terminar (sección «Comprobaciones»).
 
@@ -13,22 +13,33 @@ La web es **estática** (HTML, CSS e imágenes): solo hay que subir el contenido
 2. Anota **la carpeta** del dominio, normalmente `domains/obdcodigos.com/public_html`. Es la única carpeta donde se subirá algo.
 3. **SSL:** activa el SSL gratuito del dominio y espera a que esté activo antes de abrir la web. Mientras no funcione, la redirección a https dará error.
 
-## 3. Cuenta FTP limitada a esa carpeta
-**hPanel → Archivos → Cuentas FTP**: crea una cuenta cuyo directorio sea **solo** la carpeta de este dominio. Así un fallo nunca puede tocar tus otras webs. Anota servidor, usuario y contraseña.
+## 3. Carpeta del dominio
+Si usas la opción B (subida manual), sube **solo** a la carpeta de este dominio y, si usas FTP, crea una cuenta limitada a ella. Así un fallo nunca puede tocar tus otras webs. Con la opción A no hace falta FTP.
 
-## 4. Subida manual (la primera vez, recomendada)
+## 4. Opción A (recomendada): importar desde GitHub
+Hostinger construye la web él mismo a partir del repositorio. Cada cambio que se suba a la rama elegida **se despliega solo**, que es lo que necesitan las automatizaciones.
+
+En la pantalla de importación:
+| Campo | Valor |
+|---|---|
+| Preajuste del marco | Astro |
+| Rama | La que vayas a usar para producción (idealmente `main`; ver nota) |
+| Versión de Node | 22.x |
+| Directorio raíz | `./` |
+| Comando de compilación (Ajustes de compilación → Cambiar) | `npm run build:prod` |
+| Directorio de salida | `dist` |
+
+**Variables de entorno** (solo estas 7; las opcionales no se definen):
+`SITE_URL`, `PUBLIC_CONTACT_EMAIL`, `PUBLIC_OWNER_NAME`, `PUBLIC_OWNER_TAXID`, `PUBLIC_OWNER_ADDRESS`, `PUBLIC_REVIEWER_NAME`, `PUBLIC_REVIEWER_EXPERIENCE`. Los valores son los de tu `.env` local.
+
+- `npm run build:prod` **hace fallar el despliegue** si falta algún dato obligatorio. Es una protección: es mejor un despliegue fallido que una web con `[PENDIENTE]`.
+- Las fichas sin revisar se publican con `noindex`, así que desplegar a menudo es seguro.
+- **Nota sobre la rama:** si despliegas desde una rama temporal, cada cambio en ella publica. Para producción conviene una rama estable (`main`).
+
+## 5. Opción B: subida manual del `dist/`
 1. En tu ordenador: `npm run build:prod` (necesita tu `.env`).
-2. Con el Administrador de archivos de hPanel o FileZilla, sube **el contenido** de `dist/` (no la carpeta `dist`) a la carpeta del dominio.
-3. **Muestra los archivos ocultos** para que suba `.htaccess`. Sin él no hay redirección a https/sin www, ni cabeceras de seguridad, ni página 404.
-
-## 5. Subida automática desde GitHub (para las automatizaciones)
-El flujo `.github/workflows/deploy-hostinger.yml` construye la web y la sube por FTP. **Solo se ejecuta cuando tú lo lanzas** (Actions → Desplegar en Hostinger → Run workflow).
-
-1. Debe estar en la **rama principal** del repositorio para que aparezca en Actions.
-2. En GitHub: **Settings → Secrets and variables → Actions → New repository secret**. Crea estos secretos con los valores de tu `.env`:
-   `SITE_URL`, `PUBLIC_CONTACT_EMAIL`, `PUBLIC_OWNER_NAME`, `PUBLIC_OWNER_TAXID`, `PUBLIC_OWNER_ADDRESS`, `PUBLIC_REVIEWER_NAME`, `PUBLIC_REVIEWER_EXPERIENCE`, y los de AdSense, Amazon y Analytics cuando existan (`PUBLIC_ADSENSE_CLIENT`, `PUBLIC_ADSLOT_1`, `PUBLIC_ADSLOT_2`, `PUBLIC_AMAZON_TAG`, `PUBLIC_GA_ID`).
-3. Y los de FTP: `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD` y `FTP_SERVER_DIR` (la carpeta del dominio, **con barra final**, p. ej. `domains/obdcodigos.com/public_html/`; si tu cuenta FTP ya está limitada a esa carpeta, suele ser `/`).
-4. El flujo **no borra** archivos que él no haya subido antes, así que no toca otras webs. Aun así, revisa dos veces `FTP_SERVER_DIR`.
+2. En el Administrador de archivos de hPanel, sube el zip del contenido de `dist/` a la carpeta del dominio y **extráelo allí** (así se conserva `.htaccess`).
+3. Los archivos ocultos deben verse y subirse; sin `.htaccess` no hay redirecciones ni página 404.
 
 ## 6. Comprobaciones tras publicar
 - `http://obdcodigos.com` y `https://www.obdcodigos.com` redirigen (301) a `https://obdcodigos.com/`.

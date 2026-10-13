@@ -26,5 +26,5 @@ npm run build      # validate + build a dist/
 - Para marcarla: `npm run reviewed -- codigo-p0420 --by "Carlos Peláez" --date 2026-10-20` (`--unmark` la quita).
 
 ## Lanzamiento
-- `.env` (no se sube a Git) guarda el dominio y los datos del titular; para publicar, ver `docs/DESPLIEGUE-HOSTINGER.md` (los datos van como secretos de GitHub o en tu `.env` local al construir).
+- `.env` (no se sube a Git) guarda el dominio y los datos del titular; para publicar, ver `docs/DESPLIEGUE-HOSTINGER.md` (las variables se introducen en Hostinger o en tu `.env` local).
 - `npm run build:prod` hace el build y **falla si queda algún `[PENDIENTE]`**, si faltan los datos del titular o si `SITE_URL` no es el dominio real.
