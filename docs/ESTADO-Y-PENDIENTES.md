@@ -31,12 +31,13 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 6. **AdSense:** solicitarlo con 20-30 fichas indexadas y algo de tráfico. Después rellenar `PUBLIC_ADSENSE_CLIENT` y los slots, y configurar el mensaje de consentimiento (Privacidad y mensajes).
 7. **Amazon Afiliados (amazon.es):** solicitarlo con la web en línea; rellenar `PUBLIC_AMAZON_TAG`.
 
-## Estrategia de indexación (decidida)
-- **Una ficha solo es indexable cuando está revisada.** Sin revisar se publica con `noindex, follow`, sin canonical y fuera del sitemap. Al marcarla con `npm run reviewed -- <ficha>` pasa a indexable y entra en el sitemap.
-- **Lanzamiento:** revisar las 21 y añadir 10-15 más hasta unas 30-35 indexables; publicar ese bloque junto. Después, 5-10 fichas por semana durante 6-8 semanas.
-- **Punto de control semanal en Search Console:** si la mayoría de las fichas sale como «Rastreada, sin indexar» o «Descubierta, sin indexar», pausar y mejorar la plantilla antes de añadir más.
-- **Escalar solo las familias que reciben impresiones.** Fichas por marca solo con particularidades reales.
-- Interruptor de emergencia: `PUBLIC_INDEX_UNREVIEWED=1` indexa todo sin esperar revisión (no recomendado).
+## Estrategia de indexación (decidida el 13/10/2026: «opción B»)
+- **Las fichas sin revisar SÍ se indexan**, mostrando «elaborada con IA, pendiente de revisión técnica» y sin nombre de revisor. «Revisada por Carlos Peláez» solo aparece en las que él ha revisado de verdad.
+- **Excepción:** los testigos de seguridad (ABS, frenos, airbag, dirección asistida; `requieren_revision_humana` en el backlog) llevan `noindex` y quedan fuera del sitemap hasta que los revise una persona.
+- **Ritmo:** 3 fichas lunes y jueves (6 por semana). Punto de control: con 40 fichas sin revisar la generación se pausa.
+- **Control semanal en Search Console:** si la mayoría de las fichas sale como «Rastreada, sin indexar» o «Descubierta, sin indexar», pausar y mejorar la plantilla antes de añadir más.
+- **Escalar solo las familias que reciben impresiones.** Fichas por marca solo con particularidades reales y a mano.
+- Para volver al modo estricto: `PUBLIC_INDEX_UNREVIEWED=0` en el secreto `DOTENV` de GitHub.
 - `npm run build:prod` avisa de cuántas fichas son indexables.
 
 ## Decisiones tomadas

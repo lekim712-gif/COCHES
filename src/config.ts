@@ -20,8 +20,9 @@ export const SITE = {
     name: import.meta.env.PUBLIC_REVIEWER_NAME || '',
     years: Number(import.meta.env.PUBLIC_REVIEWER_EXPERIENCE || 0),
   },
-  // false = las fichas sin revisar se publican con noindex y fuera del sitemap. Poner PUBLIC_INDEX_UNREVIEWED=1 para indexarlas igualmente.
-  indexUnreviewed: import.meta.env.PUBLIC_INDEX_UNREVIEWED === '1',
+  // true (por defecto) = las fichas sin revisar se indexan mostrando «pendiente de revisión técnica». Poner PUBLIC_INDEX_UNREVIEWED=0 para exigir revisión antes de indexar.
+  // Las fichas con needs_review (temas de seguridad) siempre exigen revisión humana.
+  indexUnreviewed: import.meta.env.PUBLIC_INDEX_UNREVIEWED !== '0',
   adsenseClient: opt(import.meta.env.PUBLIC_ADSENSE_CLIENT), // ca-pub-XXXXXXXXXXXXXXXX
   adSlots: { 1: opt(import.meta.env.PUBLIC_ADSLOT_1), 2: opt(import.meta.env.PUBLIC_ADSLOT_2) },
   amazonTag: opt(import.meta.env.PUBLIC_AMAZON_TAG), // p. ej. micuenta-21

@@ -20,7 +20,7 @@ import { pickIcon } from './make-article-image.mjs';
 const DIR = 'src/content/articulos';
 const MODEL = process.env.GEN_MODEL || 'claude-opus-5-5';
 const PRICE = { in: Number(process.env.GEN_PRICE_IN || 4), out: Number(process.env.GEN_PRICE_OUT || 20) }; // USD por millón de tokens (Claude Opus 5.5)
-const MAX_PENDING = Number(process.env.MAX_PENDING_REVIEW || 12);
+const MAX_PENDING = Number(process.env.MAX_PENDING_REVIEW || 40); // punto de control: con tantas fichas sin revisar se pausa
 const MAX_ATTEMPTS = 2;
 
 const args = process.argv.slice(2);
@@ -63,7 +63,8 @@ for (let i = 0; lists.c.length + lists.t.length + lists.g.length > 0 && i < 1000
   const l = lists[pattern[i % pattern.length]];
   if (l.length) queue.push(l.shift());
 }
-queue.forEach((q) => { q.key = keyOf(q.type, q.slug); });
+const gated = new Set(backlog.requieren_revision_humana || []);
+queue.forEach((q) => { q.key = keyOf(q.type, q.slug); q.needsReview = gated.has(q.slug); });
 const done = new Set(existing.map((a) => a.key));
 const skipRejected = new Set(rejected.map((r) => r.key));
 let todo = ONLY ? queue.filter((q) => q.key === ONLY) : queue.filter((q) => !done.has(q.key) && !skipRejected.has(q.key));
@@ -193,6 +194,7 @@ function compose(item, f, existingSlugs) {
     name: item.type === 'codigo' ? item.name : h1,
     datePublished: today, dateModified: today, review_status: 'draft-ia',
     generated_by: MOCK ? 'mock' : MODEL,
+    ...(item.needsReview ? { needs_review: true } : {}),
     seo: { meta_title: metaTitle, meta_description: f.meta_description, slug: item.slug },
     content_html: html,
     featured_image_prompt: `Ilustración vectorial propia del sitio (pictograma «${icon}») generada por el sitio; sin servicios externos.`,

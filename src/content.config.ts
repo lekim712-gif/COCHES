@@ -20,6 +20,7 @@ const articulos = defineCollection({
     related: z.array(z.string()).default([]),
     brand_specific_points: z.number().optional(),
     featured_image: z.string().optional(),
+    needs_review: z.boolean().optional(), // tema de seguridad: no se indexa hasta que lo revise una persona
     reviewed_by: z.string().optional(),   // solo si una persona ha revisado de verdad la ficha
     reviewed_at: z.string().optional(),
   }),

@@ -11,7 +11,7 @@ const site = process.env.SITE_URL || env.SITE_URL || 'https://obdcodigos.com';
 // lastmod real = dateModified del JSON de cada artículo (nunca la fecha del build).
 const DIR = new URL('./src/content/articulos/', import.meta.url);
 const lastmod = new Map();
-const indexUnreviewed = (process.env.PUBLIC_INDEX_UNREVIEWED || env.PUBLIC_INDEX_UNREVIEWED) === '1';
+const indexUnreviewed = (process.env.PUBLIC_INDEX_UNREVIEWED || env.PUBLIC_INDEX_UNREVIEWED) !== '0';
 const unreviewed = new Set();
 for (const f of readdirSync(DIR).filter((f) => f.endsWith('.json'))) {
   const a = JSON.parse(readFileSync(new URL(f, DIR), 'utf8'));
@@ -20,7 +20,7 @@ for (const f of readdirSync(DIR).filter((f) => f.endsWith('.json'))) {
     : a.type === 'guia' ? `/mantenimiento-guias/${a.seo.slug}/`
     : `/marcas/${a.brand}/${a.seo.slug}/`;
   lastmod.set(path, a.dateModified);
-  if (!a.reviewed_by && !indexUnreviewed) unreviewed.add(path);
+  if (!a.reviewed_by && (a.needs_review || !indexUnreviewed)) unreviewed.add(path);
 }
 
 export default defineConfig({
