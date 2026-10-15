@@ -3,10 +3,10 @@ import Base from '../../layouts/Base.astro';
 import { allArticles, byType, urlOf } from '../../lib/articles';
 const list = byType(await allArticles(), 'guia');
 ---
-<Base title="Guías de mantenimiento del coche paso a paso" description="Guías de mantenimiento preventivo paso a paso">
+<Base title="Guías de mantenimiento del coche paso a paso" description="Guías de mantenimiento del coche paso a paso: cambio de aceite, fusibles y más, con herramientas necesarias y precauciones de seguridad.">
   <div class="wrap">
-    <h1> cambio de aceite, fusibles y más, con herramientas y precauciones de seguridad.:Guías de mantenimiento</h1>
-    <p class="lead">Guías de mantenimiento preventivo paso a paso</p>
-    <ul class="cards">{list.map((a) => <li><a href={urlOf(a)}><span class="code">{a.data.name}</span><span>{a.data.seo.meta_description}</span></a></li>)}</ul>
+    <h1>Guías de mantenimiento</h1>
+    <p class="lead">Mantenimiento paso a paso: aceite, fusibles y más, con las herramientas necesarias y las precauciones de seguridad.</p>
+    <ul class="cards">{list.map((a) => <li><a href={urlOf(a)}><span class="code ttl">{a.data.name}</span><span>{a.data.seo.meta_description}</span></a></li>)}</ul>
   </div>
 </Base>

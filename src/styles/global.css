@@ -34,6 +34,7 @@ h3{font-size:1.1rem}
 .cards a{display:flex;flex-direction:column;gap:.3rem;height:100%;padding:1rem;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);text-decoration:none;color:var(--ink)}
 .cards a:hover{border-color:var(--accent)}
 .cards .code{font-family:var(--mono);font-weight:700;color:var(--accent);font-size:1.05rem}
+.cards .ttl{font-family:inherit;font-size:1.05rem;line-height:1.35;color:var(--ink)}
 .cards span:last-child{font-size:.95rem;color:var(--muted)}
 .crumbs ol{list-style:none;display:flex;flex-wrap:wrap;gap:.25rem;margin:1rem 0 0;padding:0;font-size:.9rem;color:var(--muted)}
 .crumbs li+li::before{content:"›";margin-right:.35rem}
