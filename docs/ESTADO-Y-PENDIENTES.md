@@ -45,3 +45,9 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - Fichas por marca solo con particularidades reales de la plataforma (el validador lo exige).
 - Imágenes: generador propio para lo nuevo; sin gastar créditos de servicios externos.
 - El contenido es portable (JSON); cambiar de stack costaría solo maquetación.
+
+## Actualización 15/10/2026
+- 35 fichas publicadas. Lote 3 (15/10): P0234, P0101, P0238, P0113, P0341 — pendientes de revisión técnica por Carlos.
+- Search Console conectado (workflow `fetch-gsc`, lunes y jueves); aún sin impresiones.
+- AdSense: script en el head, `ads.txt` activo, revisión solicitada.
+- Backlog reordenado con Semrush (ES y MX). Las 4 fichas de seguridad (ABS, freno, airbag, dirección asistida) siguen sin escribir: esperan decisión del usuario.
