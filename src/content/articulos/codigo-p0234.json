@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0234",
+  "name": "Sobrepresión del turbo (overboost)",
+  "datePublished": "2026-10-15",
+  "dateModified": "2026-10-15",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0234: causas, síntomas y solución",
+    "meta_description": "P0234: el turbo ha superado la presión de sobrealimentación permitida. Causas (válvula de descarga, sensor, mangueras), síntomas y diagnóstico.",
+    "slug": "p0234"
+  },
+  "content_html": "<h1>Código P0234: Sobrepresión del turbo (overboost)</h1>\n<p class=\"intro\">El código P0234 indica que la presión de sobrealimentación del turbo supera el valor máximo que la centralita permite. Es el caso contrario de P0299, donde el turbo da poca presión. Cuando salta, el motor entra en modo de emergencia para protegerse y pierde potencia. Suele deberse a la válvula de descarga o al actuador de geometría variable, al sensor de presión o a una manguera de mando.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: el modo de emergencia limita el motor y la sobrepresión puede dañar el turbo</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Turbo, válvula de descarga o geometría variable, sensor de presión, mangueras de vacío</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–150 € (manguera o sensor) · 200–1.200 € (actuador o turbo), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, bomba de vacío manual, multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido y modo de emergencia con menos potencia.</li><li>Silbidos o ruido metálico del turbo al acelerar.</li><li>Respuesta brusca o a golpes al pisar el acelerador.</li><li>Humo negro por el escape si la mezcla va rica.</li><li>Consumo mayor y, en algunos casos, ralentí irregular.</li></ul>\n<h2>Causas principales</h2><ul><li>Válvula de descarga (wastegate) atascada en posición cerrada.</li><li>Actuador de geometría variable bloqueado por carbonilla, o electroválvula de mando defectuosa.</li><li>Sensor de presión de sobrealimentación con una lectura errónea.</li><li>Manguera de vacío o de mando del turbo rota, suelta o cambiada de sitio.</li><li>Turbo con álabes pegados por depósitos de hollín.</li><li>Software de la centralita modificado (reprogramación) que sube la presión.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y los datos congelados. Si hay también P0299, P0087 o fallos de caudal de aire, el problema puede estar en el control de presión y no en el sensor.</li><li>Con el escáner, observa en datos en vivo la presión pedida frente a la real en una prueba de carretera segura. Si la real supera claramente la pedida, el turbo no está regulando bien.</li><li>Inspecciona visualmente las mangueras de vacío y de mando del turbo: grietas, conexiones sueltas o mangueras intercambiadas.</li><li>Comprueba con la bomba de vacío manual que el actuador del turbo se mueve y mantiene el vacío. Si queda atascado o pierde vacío, hay que cambiarlo o limpiarlo.</li><li>Prueba la electroválvula de mando con el test de actuadores del escáner y mide su resistencia con el multímetro.</li><li>Compara la lectura del sensor de presión con la del sensor MAP de admisión: si difieren mucho con el motor parado, el sensor está mal.</li><li>Si todo está bien, desmonta y revisa el turbo para ver si los álabes se mueven libremente. Es una tarea de taller.</li><li>Borra los códigos y repite la prueba para confirmar que la presión se mantiene en rango.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0234 y P0299?",
+      "answer": "P0234 es exceso de presión del turbo y P0299 es presión insuficiente. Las causas se parecen en las mangueras y los actuadores, pero se manifiestan de forma distinta."
+    },
+    {
+      "question": "¿Se puede circular con el código P0234?",
+      "answer": "Con el modo de emergencia puedes llegar al taller conduciendo con suavidad. No conviene forzar el motor, porque la sobrepresión puede dañar el turbo."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar un P0234?",
+      "answer": "Una manguera o un sensor cuestan entre 30 y 150 €. Si el fallo está en el actuador o en el turbo, entre 200 y 1.200 €, según modelo."
+    }
+  ],
+  "products": [
+    "bomba de vacío manual para automoción",
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz"
+  ],
+  "related": [
+    "p0299",
+    "p0087",
+    "p0101"
+  ],
+  "featured_image": "/img/articulos/codigo-p0234.webp"
+}

@@ -8,14 +8,19 @@
  ],
  "hecho": [
   "P0087",
+  "P0101",
+  "P0113",
   "P0130",
   "P0171",
   "P0172",
+  "P0234",
+  "P0238",
   "P0299",
   "P0300",
   "P0301",
   "P0335",
   "P0340",
+  "P0341",
   "P0401",
   "P0420",
   "P0442",
@@ -25,26 +30,6 @@
   "U0100"
  ],
  "codigos": [
-  [
-   "P0234",
-   "Turbo: sobrepresión de sobrealimentación"
-  ],
-  [
-   "P0101",
-   "Caudalímetro MAF: rango o rendimiento"
-  ],
-  [
-   "P0238",
-   "Sensor de presión del turbo B: señal alta"
-  ],
-  [
-   "P0113",
-   "Sensor de temperatura del aire de admisión: señal alta"
-  ],
-  [
-   "P0341",
-   "Sensor del árbol de levas: rango o rendimiento"
-  ],
   [
    "P0089",
    "Regulador de presión de combustible: rendimiento"
@@ -67,7 +52,7 @@
   ],
   [
    "P0235",
-   "Circuito del sensor de presión del turbo A"
+   "Circuito del sensor de presión de sobrealimentación A"
   ],
   [
    "P2279",
@@ -91,7 +76,7 @@
   ],
   [
    "P0236",
-   "Sensor de presión del turbo A: rango o rendimiento"
+   "Sensor de presión de sobrealimentación A: rango o rendimiento"
   ],
   [
    "P0571",
@@ -139,7 +124,7 @@
   ],
   [
    "P0237",
-   "Sensor de presión del turbo A: señal baja"
+   "Sensor de presión de sobrealimentación A: señal baja"
   ],
   [
    "P0405",

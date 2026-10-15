@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0238",
+  "name": "Sensor de presión de sobrealimentación: señal alta",
+  "datePublished": "2026-10-15",
+  "dateModified": "2026-10-15",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0238: causas, síntomas y solución",
+    "meta_description": "P0238: el sensor de presión del turbo envía una señal demasiado alta. Causas (sensor, cableado, mangueras), síntomas y cómo comprobarlo con el multímetro.",
+    "slug": "p0238"
+  },
+  "content_html": "<h1>Código P0238: Sensor de presión de sobrealimentación: señal alta</h1>\n<p class=\"intro\">El código P0238 indica que el circuito del sensor de presión de sobrealimentación del turbo envía una tensión demasiado alta. La centralita interpreta que la presión es mayor de la real, o que el circuito tiene un fallo eléctrico. Suele deberse a un cortocircuito a positivo, a un sensor defectuoso o a un conector en mal estado, y puede activar el modo de emergencia.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: el modo de emergencia limita la potencia</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Turbo, sensor de presión de sobrealimentación, cableado</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>60–200 € (sensor) · menos si es un conector, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Modo de emergencia con pérdida de potencia.</li><li>Respuesta irregular del turbo al acelerar.</li><li>Humo negro en algunas condiciones.</li><li>Consumo algo mayor.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor de presión de sobrealimentación defectuoso.</li><li>Cortocircuito a positivo en el cable de señal.</li><li>Conector del sensor sulfatado, mojado o mal encajado.</li><li>Cable de masa del sensor roto o con mala conexión.</li><li>Manguera del sensor obstruida o con restos de aceite.</li><li>Centralita con un fallo interno (poco habitual).</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y comprueba si hay otros del turbo, como P0235, P0236, P0237 o P0234.</li><li>Con el motor parado y el contacto puesto, mira en datos en vivo la presión que marca el sensor: debería rondar la presión atmosférica, no un valor alto fijo.</li><li>Inspecciona el conector y el cableado del sensor: humedad, terminales sulfatados, roces o cables pelados.</li><li>Desconecta el sensor con el contacto puesto. Si la lectura baja a un valor de fallo bajo, el cableado hasta la centralita está bien y el sensor es sospechoso.</li><li>Con el multímetro, mide alimentación de 5 V y masa en el conector según el manual. Si falta la masa o hay tensión de más, repara el cable.</li><li>Comprueba que la toma de presión del sensor y su manguera no estén obstruidas por aceite.</li><li>Sustituye el sensor si el cableado está bien, borra los códigos y haz una prueba de carretera.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0238 y P0237?",
+      "answer": "P0238 es señal alta del sensor de presión del turbo y P0237 es señal baja. Ambos apuntan al circuito eléctrico del mismo sensor, no a la presión real."
+    },
+    {
+      "question": "¿Se puede circular con el código P0238?",
+      "answer": "Sí, con el modo de emergencia puedes llegar al taller. Conviene repararlo pronto, porque sin lectura fiable la centralita no regula bien el turbo."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar un P0238?",
+      "answer": "Un sensor nuevo cuesta entre 60 y 200 € con mano de obra. Si es el conector o el cableado, suele ser más barato."
+    }
+  ],
+  "products": [
+    "multímetro digital automotriz",
+    "escáner obd2 bluetooth elm327",
+    "spray limpiador de contactos eléctricos"
+  ],
+  "related": [
+    "p0234",
+    "p0299",
+    "p0087"
+  ],
+  "featured_image": "/img/articulos/codigo-p0238.webp"
+}

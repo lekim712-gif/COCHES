@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0113",
+  "name": "Sensor de temperatura del aire de admisión: señal alta",
+  "datePublished": "2026-10-15",
+  "dateModified": "2026-10-15",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0113: causas, síntomas y solución",
+    "meta_description": "P0113: el sensor de temperatura del aire de admisión (IAT) envía una señal demasiado alta. Causas, síntomas y cómo comprobar el sensor y el cableado.",
+    "slug": "p0113"
+  },
+  "content_html": "<h1>Código P0113: Sensor de temperatura del aire de admisión: señal alta</h1>\n<p class=\"intro\">El código P0113 indica que el sensor de temperatura del aire de admisión (IAT) envía una tensión demasiado alta, que equivale a una temperatura extremadamente baja. La centralita usa este dato para ajustar la mezcla, y con una lectura falsa puede enriquecerla o empobrecerla. Casi siempre es el sensor, un cable cortado o un conector suelto. Si el sensor está integrado en el MAF, se cambia con él.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: se puede circular, pero con más consumo y arranque en frío más difícil</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Admisión, sensor IAT (a veces dentro del MAF), cableado</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>15–60 € (sensor independiente) · 60–250 € (si va integrado en el MAF), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Arranque en frío más difícil o más lento.</li><li>Consumo algo mayor.</li><li>Ralentí inestable en frío.</li><li>En algunos coches, humo negro ligero al acelerar.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor IAT averiado o con el elemento dañado.</li><li>Cable de señal interrumpido, que da una señal alta.</li><li>Conector suelto, sulfatado o con terminales doblados.</li><li>Cable de masa del sensor roto.</li><li>Sensor MAF con IAT integrado defectuoso.</li><li>Un fallo en la centralita (poco habitual).</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y los datos congelados. Mira si hay también P0101 u otros del MAF.</li><li>Con el motor frío y el contacto puesto, mira la temperatura del aire de admisión en datos en vivo. Debe parecerse a la temperatura ambiente. Un valor muy bajo fijo, como -40 °C, indica circuito abierto.</li><li>Revisa el conector del sensor y su cableado: terminales sulfatados, cables pelados o conexión floja.</li><li>Desconecta el sensor y, con un puente entre sus dos terminales del conector, comprueba que la lectura cambia a un valor muy alto. Si cambia, el cable hasta la centralita está bien.</li><li>Con el multímetro, mide la resistencia del sensor y compárala con la tabla del manual a la temperatura ambiente.</li><li>Si la resistencia es infinita o muy distinta de la esperada, sustituye el sensor. Si va integrado en el MAF, se cambia el conjunto.</li><li>Borra los códigos y comprueba en datos en vivo que la lectura sube con el calor del motor.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0113 y P0112?",
+      "answer": "P0113 es señal alta del sensor IAT, que equivale a temperatura muy baja. P0112 es señal baja, que equivale a temperatura muy alta. Se diagnostican de forma parecida."
+    },
+    {
+      "question": "¿Se puede circular con el código P0113?",
+      "answer": "Sí. El coche arranca y funciona, aunque con algo más de consumo y peor arranque en frío. Conviene repararlo pronto."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar un P0113?",
+      "answer": "Un sensor IAT independiente cuesta entre 15 y 60 €. Si va dentro del MAF, entre 60 y 250 €, según modelo."
+    }
+  ],
+  "products": [
+    "sensor de temperatura del aire de admisión",
+    "multímetro digital automotriz",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0101",
+    "p0171",
+    "p0172"
+  ],
+  "featured_image": "/img/articulos/codigo-p0113.webp"
+}
