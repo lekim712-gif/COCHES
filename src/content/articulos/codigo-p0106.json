@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0106",
+  "name": "Sensor MAP: rango o rendimiento",
+  "datePublished": "2026-10-19",
+  "dateModified": "2026-10-19",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0106: causas, síntomas y solución",
+    "meta_description": "P0106: el sensor de presión absoluta del colector (MAP) da una lectura incoherente. Causas, síntomas y cómo comprobarlo con el escáner y el multímetro.",
+    "slug": "p0106"
+  },
+  "content_html": "<h1>Código P0106: Sensor MAP: rango o rendimiento</h1>\n<p class=\"intro\">El código P0106 indica que la lectura del sensor MAP, que mide la presión absoluta del colector de admisión, no cuadra con la que debería haber según el régimen y la posición del acelerador. A diferencia de un fallo eléctrico, la señal llega pero es incoherente. Puede deberse al sensor, a una fuga de vacío, a un tubo obstruido o a un problema mecánico del motor.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: el motor tiene peor respuesta y consume más</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sensor MAP, admisión, tomas de vacío, mariposa</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–120 € (sensor) · 5–25 € si es una manguera, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro, bomba de vacío manual</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Ralentí inestable y respuesta tardía al acelerar.</li><li>Consumo algo mayor.</li><li>Tirones al soltar el acelerador.</li><li>Arranque en caliente más difícil.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor MAP sucio o desviado.</li><li>Manguera de vacío del sensor rota, suelta u obstruida.</li><li>Fuga de vacío en el colector.</li><li>Mariposa con suciedad que altera la relación aire-régimen.</li><li>Escape parcialmente obstruido que modifica la presión.</li><li>Problema mecánico: distribución o compresión desiguales.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y los datos congelados. Si aparece también P0101 o P2279, hay que buscar una fuga o un problema de aire.</li><li>Con el contacto puesto y el motor parado, mira en datos en vivo que el sensor MAP marca la presión atmosférica local.</li><li>Arranca: al ralentí la presión absoluta suele quedar muy por debajo de la atmosférica. Compara con el valor del manual.</li><li>Pisa el acelerador y comprueba que la lectura sube de forma proporcional. Una respuesta lenta o plana indica sensor o toma obstruidos.</li><li>Revisa la manguera de vacío del sensor y su racor: grietas, obstrucciones o aceite.</li><li>Con la bomba de vacío, aplica vacío al sensor y comprueba que la lectura cambia de forma coherente.</li><li>Limpia la mariposa si está sucia y vuelve a medir.</li><li>Si todo está bien, sustituye el sensor, borra los códigos y haz una prueba de carretera.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué hace el sensor MAP?",
+      "answer": "Mide la presión absoluta en el colector de admisión. La centralita la usa, junto con el régimen y la temperatura del aire, para calcular cuánto aire entra y cuánto combustible inyectar."
+    },
+    {
+      "question": "¿Se puede circular con P0106?",
+      "answer": "Sí. El motor funciona con una mezcla menos precisa y notarás peor respuesta y más consumo. Repáralo para no estresar el catalizador."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar P0106?",
+      "answer": "Un sensor MAP cuesta entre 30 y 120 € con montaje. Si era una manguera de vacío, de 5 a 25 €, según modelo."
+    }
+  ],
+  "products": [
+    "sensor MAP de presión del colector",
+    "bomba de vacío manual para automoción",
+    "multímetro digital automotriz"
+  ],
+  "related": [
+    "p0101",
+    "p0171",
+    "p2279"
+  ],
+  "featured_image": "/img/articulos/codigo-p0106.webp"
+}

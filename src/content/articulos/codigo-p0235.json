@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0235",
+  "name": "Circuito del sensor de presión de sobrealimentación A",
+  "datePublished": "2026-10-19",
+  "dateModified": "2026-10-19",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0235: causas, síntomas y solución",
+    "meta_description": "P0235: avería general del circuito del sensor de presión del turbo. Qué lo provoca, cómo notarlo y cómo localizar el fallo sin cambiar piezas a ciegas.",
+    "slug": "p0235"
+  },
+  "content_html": "<h1>Código P0235: Circuito del sensor de presión de sobrealimentación A</h1>\n<p class=\"intro\">El código P0235 es el aviso general de que el circuito del sensor de presión de sobrealimentación A, el que mide cuánto aire empuja el turbo, funciona mal. No indica si la señal es alta o baja: para eso existen P0237 y P0238. Es útil como pista inicial, porque obliga a repasar el sensor, su cableado y la manguera de toma antes de sospechar del turbo.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: la centralita limita el turbo y el coche pierde empuje</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Turbo, sensor de presión de admisión, cableado</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>60–200 € (sensor) · 20–60 € si es manguera o conector, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro, linterna</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>El turbo parece «dormido»: el coche no empuja como antes al adelantar.</li><li>Modo de emergencia que limita el régimen.</li><li>Humo oscuro al acelerar con fuerza.</li><li>El código reaparece tras borrarlo, sobre todo con el motor caliente.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor de presión de sobrealimentación envejecido o con el elemento sucio.</li><li>Manguera de toma del sensor agrietada o saturada de aceite.</li><li>Conector con humedad o terminales flojos.</li><li>Cable de señal, de masa o de 5 V dañado.</li><li>Fuga en el circuito de aire después del turbo que engaña al sensor.</li><li>Centralita con una entrada averiada, muy poco frecuente.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee todos los códigos del turbo y guarda los datos congelados. Si junto a P0235 aparece P0237 o P0238, sigue la ficha del código específico.</li><li>Con el contacto puesto y el motor parado, comprueba en datos en vivo que el sensor marca la presión atmosférica, cerca de 1 bar absoluto.</li><li>Arranca y acelera en vacío: la presión debe subir de forma suave. Una lectura que salta o se queda clavada apunta al sensor o a su cableado.</li><li>Revisa la manguera de toma: debe estar flexible, sin grietas y sin aceite acumulado.</li><li>Desconecta el conector, mira los terminales y limpia con spray de contactos si hay sulfato.</li><li>Mide con el multímetro alimentación de 5 V, masa y continuidad del cable de señal.</li><li>Haz una prueba de fugas de aire en los manguitos del intercooler antes de cambiar nada.</li><li>Si todo es correcto, sustituye el sensor, borra los códigos y haz una prueba de carretera.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿P0235, P0236, P0237 y P0238 son lo mismo?",
+      "answer": "No. P0235 es un fallo general del circuito, P0236 es una señal incoherente, P0237 señal baja y P0238 señal alta. Cuando salen varios a la vez, empieza por el más específico."
+    },
+    {
+      "question": "¿Puedo seguir conduciendo con P0235?",
+      "answer": "Sí, con el modo de emergencia y a baja carga hasta el taller. Evita adelantamientos exigentes porque la regulación del turbo no es fiable."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0235?",
+      "answer": "Si es la manguera o el conector, de 20 a 60 €. Un sensor nuevo con montaje ronda los 60–200 €, según modelo."
+    }
+  ],
+  "products": [
+    "spray limpiador de contactos eléctricos",
+    "multímetro digital automotriz",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0238",
+    "p0234",
+    "p0299"
+  ],
+  "featured_image": "/img/articulos/codigo-p0235.webp"
+}

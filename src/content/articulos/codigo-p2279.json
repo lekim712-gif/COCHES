@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P2279",
+  "name": "Fuga de aire en el sistema de admisión",
+  "datePublished": "2026-10-19",
+  "dateModified": "2026-10-19",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P2279: causas, síntomas y solución",
+    "meta_description": "P2279: la centralita detecta una fuga de aire en la admisión. Dónde buscarla (manguitos, juntas, tomas de vacío) y cómo encontrarla con humo o aerosol.",
+    "slug": "p2279"
+  },
+  "content_html": "<h1>Código P2279: Fuga de aire en el sistema de admisión</h1>\n<p class=\"intro\">El código P2279 indica que entra aire no medido en la admisión o que se escapa antes de llegar al cilindro. Esa diferencia hace que la mezcla no sea la que calcula la centralita. Se ve sobre todo en motores con turbo o con sensor MAF. La fuga suele estar en un manguito partido, una abrazadera floja o una toma de vacío suelta, y se localiza con una inspección ordenada.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: el motor funciona mal y consume más, pero se puede llegar al taller</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Admisión, manguitos, juntas, tomas de vacío, sensores MAF y MAP</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>5–40 € (abrazadera o manguera) · 100–350 € (colector o junta), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, linterna, detector de fugas por humo o aerosol de arranque</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Silbido o soplido bajo el capó al acelerar.</li><li>Ralentí irregular o más alto de lo habitual.</li><li>Pérdida de potencia, sobre todo en cargas medias.</li><li>Códigos de mezcla pobre como P0171 acompañando al P2279.</li></ul>\n<h2>Causas principales</h2><ul><li>Manguito de admisión o de intercooler agrietado.</li><li>Abrazadera de un tubo de aire floja o ausente.</li><li>Toma de vacío desconectada o con el tapón perdido.</li><li>Junta del colector de admisión deteriorada.</li><li>Tapón del aceite o varilla mal colocados, que meten aire por el cárter.</li><li>Válvula de ventilación del cárter averiada.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y mira si hay también P0171, P0101 o P0299: orientan sobre dónde se pierde el aire.</li><li>Con el motor frío y apagado, inspecciona visualmente todos los manguitos entre el filtro de aire y la mariposa, y entre el turbo y el colector.</li><li>Aprieta las abrazaderas y comprueba que cada tubo asienta en su boca hasta el fondo.</li><li>Arranca y escucha: un silbido o soplido señala la zona. Utiliza un tubo de goma como estetoscopio improvisado, sin acercar las manos a correas ni ventiladores.</li><li>Haz una prueba de humo en la admisión a baja presión: el humo saldrá por la fuga.</li><li>Como alternativa, rocía con cuidado un aerosol de arranque cerca de las uniones con el motor al ralentí. Si el régimen cambia, ahí está la fuga. Vigila que no haya chispas ni fuentes de calor.</li><li>Revisa el tapón del aceite, la varilla y la válvula de ventilación del cárter.</li><li>Sustituye la pieza dañada, borra los códigos y haz una prueba de carretera.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cómo se encuentra una fuga de aire en la admisión?",
+      "answer": "La forma más fiable es la prueba de humo. En casa puedes inspeccionar los manguitos, apretar abrazaderas y escuchar con el motor al ralentí. El aerosol de arranque funciona, pero hay que usarlo con precaución por el riesgo de incendio."
+    },
+    {
+      "question": "¿Se puede circular con P2279?",
+      "answer": "Sí, durante un tiempo y con cuidado. La mezcla es incorrecta y puede dañar el catalizador, así que conviene repararlo pronto."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar un P2279?",
+      "answer": "Una abrazadera o un manguito suelen costar entre 5 y 40 €. Una junta de colector sube a unos 100–350 €, según modelo."
+    }
+  ],
+  "products": [
+    "detector de fugas de humo automoción",
+    "abrazaderas de manguera para coche",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0171",
+    "p0101",
+    "p0299"
+  ],
+  "featured_image": "/img/articulos/codigo-p2279.webp"
+}

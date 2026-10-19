@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0606",
+  "name": "Fallo del procesador de la centralita",
+  "datePublished": "2026-10-19",
+  "dateModified": "2026-10-19",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0606: causas, síntomas y solución",
+    "meta_description": "P0606: la centralita detecta un error interno de su procesador. Qué revisar antes de cambiarla (batería, masas, alimentación) y cuándo hay que reprogramar.",
+    "slug": "p0606"
+  },
+  "content_html": "<h1>Código P0606: Fallo del procesador de la centralita</h1>\n<p class=\"intro\">El código P0606 indica que la centralita ha detectado un error en su propio procesador durante una autocomprobación interna. Puede ser una avería real del módulo, pero a menudo la causa está fuera: tensión de batería inestable, masas deficientes o un software desactualizado. Por eso, antes de pensar en cambiar la centralita, conviene descartar los problemas eléctricos y consultar si hay una actualización del fabricante.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta: puede provocar paradas, modo de emergencia o falta de arranque</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Centralita del motor (ECM/PCM), alimentación eléctrica, masas, software</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–50 € (masa o batería) · 300–1.200 € (reparación o sustitución con codificación), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con acceso a la centralita, multímetro, tester de batería</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido o parpadeante.</li><li>Modo de emergencia con potencia limitada.</li><li>Motor que se para de forma intermitente.</li><li>Arranque difícil o imposible a veces.</li><li>Otros testigos que se encienden a la vez, como ABS o cuadro de mandos.</li></ul>\n<h2>Causas principales</h2><ul><li>Batería débil o tensión inestable durante el arranque.</li><li>Masa del motor o de la carrocería sulfatada o floja.</li><li>Alimentación de la centralita con un fusible o un relé defectuosos.</li><li>Software de la centralita desactualizado, con corrección del fabricante.</li><li>Humedad o corrosión en el conector de la centralita.</li><li>Fallo interno del procesador de la centralita.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y guarda los datos congelados. Si hay muchos códigos de comunicación o de tensión, la causa probable es eléctrica.</li><li>Mide la tensión de la batería en reposo, con el motor al ralentí y durante el arranque, y comprueba el alternador. Una batería baja da muchos fallos engañosos.</li><li>Revisa las masas principales del motor y de la carrocería: limpia y aprieta los terminales.</li><li>Comprueba los fusibles y relés que alimentan la centralita, siguiendo el manual.</li><li>Inspecciona el conector de la centralita por humedad, óxido o clavijas dobladas. Con la batería desconectada.</li><li>Consulta si hay una actualización de software para tu modelo en el servicio oficial. Muchos P0606 se corrigen reprogramando.</li><li>Borra el código y haz una prueba de carretera. Si vuelve de inmediato y la parte eléctrica está sana, la centralita puede estar averiada.</li><li>Antes de sustituirla, pide un diagnóstico profesional: una centralita nueva suele necesitar codificación y llave inmovilizador.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa P0606?",
+      "answer": "Que la centralita ha detectado un error en su procesador interno durante una autocomprobación. Puede ser un fallo real, pero también lo provocan una tensión de batería inestable, masas deficientes o un software anticuado."
+    },
+    {
+      "question": "¿Se puede circular con P0606?",
+      "answer": "No es recomendable. Puede haber paradas o modo de emergencia en cualquier momento. Si no hay más remedio, un trayecto corto hasta el taller."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar P0606?",
+      "answer": "Si es una masa o una batería, de 0 a 50 €. Reparar o sustituir la centralita, con codificación, suele costar entre 300 y 1.200 €, según modelo."
+    }
+  ],
+  "products": [
+    "tester de batería de coche",
+    "multímetro digital automotriz",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "u0100",
+    "p0335",
+    "p0300"
+  ],
+  "featured_image": "/img/articulos/codigo-p0606.webp"
+}

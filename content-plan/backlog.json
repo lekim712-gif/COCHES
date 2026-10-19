@@ -12,11 +12,14 @@
   "P0089",
   "P0100",
   "P0101",
+  "P0106",
   "P0113",
   "P0130",
+  "P0135",
   "P0171",
   "P0172",
   "P0234",
+  "P0235",
   "P0238",
   "P0299",
   "P0300",
@@ -31,30 +34,12 @@
   "P0442",
   "P0455",
   "P0456",
+  "P0606",
   "P2002",
+  "P2279",
   "U0100"
  ],
  "codigos": [
-  [
-   "P0235",
-   "Circuito del sensor de presión de sobrealimentación A"
-  ],
-  [
-   "P2279",
-   "Fuga de aire en la admisión"
-  ],
-  [
-   "P0106",
-   "Sensor MAP: rango o rendimiento"
-  ],
-  [
-   "P0135",
-   "Calentador de la sonda lambda anterior (banco 1)"
-  ],
-  [
-   "P0606",
-   "Fallo del procesador de la centralita"
-  ],
   [
    "P0243",
    "Válvula de descarga (wastegate) del turbo A"

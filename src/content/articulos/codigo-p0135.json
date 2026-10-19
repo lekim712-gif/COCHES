@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0135",
+  "name": "Calentador de la sonda lambda anterior (banco 1)",
+  "datePublished": "2026-10-19",
+  "dateModified": "2026-10-19",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0135: causas, síntomas y solución",
+    "meta_description": "P0135: fallo del calentador de la sonda lambda anterior. Síntomas, causas (calentador, fusible, cableado) y cómo medirlo con el multímetro.",
+    "slug": "p0135"
+  },
+  "content_html": "<h1>Código P0135: Calentador de la sonda lambda anterior (banco 1)</h1>\n<p class=\"intro\">El código P0135 indica que el circuito del calentador de la sonda lambda anterior del banco 1 no funciona como debe. Ese calentador lleva la sonda a su temperatura de trabajo en pocos segundos; si falla, la centralita tarda en pasar a la regulación fina de la mezcla. El resultado es más consumo y más emisiones. Es de los códigos lambda más fáciles de comprobar con un multímetro.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: se puede circular, con más consumo en frío</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sonda lambda, calentador, fusible y relé, cableado</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>80–300 € (sonda) · 1–10 € si es el fusible, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro, llave de sonda lambda</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Consumo mayor, sobre todo en trayectos cortos.</li><li>Ralentí algo inestable en frío.</li><li>Emisiones superiores en la ITV.</li><li>La sonda tarda mucho en empezar a oscilar tras arrancar.</li></ul>\n<h2>Causas principales</h2><ul><li>Resistencia del calentador de la sonda cortada o fuera de valor.</li><li>Fusible del calentador fundido.</li><li>Relé o salida de la centralita defectuosa.</li><li>Cable de alimentación del calentador pelado o cortado.</li><li>Conector de la sonda con humedad o terminales sulfatados.</li><li>Sonda envejecida con el calentador agotado.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y los datos congelados. Si aparece P0141 o P0155, también hay un calentador de otra sonda con fallo.</li><li>Localiza el fusible del calentador en el manual y comprueba que no esté fundido.</li><li>Inspecciona el conector de la sonda anterior y sus cables: roces, calor excesivo cerca del escape o humedad.</li><li>Desconecta la sonda y mide la resistencia del calentador entre sus dos cables. Compárala con el valor del manual: suele ser de pocos ohmios.</li><li>Una resistencia infinita indica calentador cortado: hay que sustituir la sonda.</li><li>Con el conector puesto y el contacto dado, comprueba que llega alimentación al calentador, con un multímetro o una luz de pruebas.</li><li>Si hay alimentación pero no hay masa conmutada, sospecha del cable de masa o de la centralita.</li><li>Sustituye la sonda con la llave adecuada y aplica el par de apriete, borra los códigos y haz una prueba de carretera.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0130 y P0135?",
+      "answer": "P0130 es un fallo del circuito de señal de la sonda. P0135 es un fallo del circuito del calentador. En el primero falla la medición, en el segundo el calentamiento."
+    },
+    {
+      "question": "¿Se puede circular con P0135?",
+      "answer": "Sí. El coche funciona, aunque consumirá más hasta que la sonda caliente por el escape. Repáralo antes de la ITV."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0135?",
+      "answer": "Si es el fusible, de 1 a 10 €. Una sonda nueva con montaje cuesta entre 80 y 300 €, según modelo."
+    }
+  ],
+  "products": [
+    "sonda lambda universal",
+    "llave para sonda lambda",
+    "multímetro digital automotriz"
+  ],
+  "related": [
+    "p0130",
+    "p0171",
+    "p0420"
+  ],
+  "featured_image": "/img/articulos/codigo-p0135.webp"
+}
