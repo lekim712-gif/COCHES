@@ -7,7 +7,10 @@
   "testigo-direccion-asistida"
  ],
  "hecho": [
+  "P0016",
   "P0087",
+  "P0089",
+  "P0100",
   "P0101",
   "P0113",
   "P0130",
@@ -21,7 +24,9 @@
   "P0335",
   "P0340",
   "P0341",
+  "P0400",
   "P0401",
+  "P0402",
   "P0420",
   "P0442",
   "P0455",
@@ -30,26 +35,6 @@
   "U0100"
  ],
  "codigos": [
-  [
-   "P0089",
-   "Regulador de presión de combustible: rendimiento"
-  ],
-  [
-   "P0402",
-   "Flujo excesivo de recirculación de gases EGR"
-  ],
-  [
-   "P0100",
-   "Circuito del sensor de masa de aire (MAF)"
-  ],
-  [
-   "P0016",
-   "Correlación cigüeñal y árbol de levas (banco 1)"
-  ],
-  [
-   "P0400",
-   "Flujo de recirculación de gases de escape (EGR)"
-  ],
   [
    "P0235",
    "Circuito del sensor de presión de sobrealimentación A"

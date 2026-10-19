@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0100",
+  "name": "Circuito del sensor de masa de aire (MAF)",
+  "datePublished": "2026-10-19",
+  "dateModified": "2026-10-19",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0100: causas, síntomas y solución",
+    "meta_description": "P0100: fallo eléctrico en el circuito del sensor de masa de aire (MAF). Síntomas, causas (sensor, cableado, alimentación) y cómo comprobarlo.",
+    "slug": "p0100"
+  },
+  "content_html": "<h1>Código P0100: Circuito del sensor de masa de aire (MAF)</h1>\n<p class=\"intro\">El código P0100 indica un fallo eléctrico en el circuito del sensor de masa de aire (MAF): la centralita recibe una señal fuera de rango, inexistente o errática. Se diferencia de P0101, donde la señal llega pero no cuadra con lo esperado. Lo habitual es un sensor averiado, un conector flojo o un fallo de alimentación o masa del sensor.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: el coche funciona en modo de emergencia con menos potencia</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sensor MAF, cableado, alimentación del sensor</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>60–250 € (sensor) · menos si es el conector, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Modo de emergencia con pérdida de potencia.</li><li>Motor que arranca y se cala, o que no arranca.</li><li>Tirones y ralentí inestable.</li><li>Consumo mayor o humo negro.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor MAF averiado.</li><li>Conector suelto, sulfatado o con terminales doblados.</li><li>Cable de alimentación o de masa del sensor cortado.</li><li>Fusible o relé de alimentación del sensor defectuoso.</li><li>Cortocircuito en el cable de señal.</li><li>Fallo de la centralita (poco habitual).</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y los datos congelados. Comprueba si hay otros códigos del sensor, como P0101, P0102 o P0103.</li><li>Con el contacto puesto, mira en datos en vivo el caudal de aire con el motor parado: debería ser casi nulo. Un valor muy alto o fijo indica fallo.</li><li>Inspecciona el conector del MAF y su cableado: humedad, terminales sulfatados o clips rotos.</li><li>Con el multímetro, comprueba la alimentación (12 V o 5 V según el sensor) y la masa en el conector, según el manual.</li><li>Revisa fusibles y relés que alimentan el sensor.</li><li>Si la alimentación es correcta, comprueba la continuidad del cable de señal hasta la centralita.</li><li>Sustituye el sensor si el cableado está bien, borra los códigos y haz una prueba de carretera.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0100 y P0101?",
+      "answer": "P0100 indica un fallo eléctrico del circuito del MAF. P0101 indica que la señal llega pero no coincide con lo esperado. P0100 apunta más a cableado y alimentación."
+    },
+    {
+      "question": "¿Se puede circular con el código P0100?",
+      "answer": "Con el modo de emergencia puedes llegar al taller. Sin lectura de aire fiable, el consumo sube y puede dañarse el catalizador."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar un P0100?",
+      "answer": "Un sensor MAF nuevo cuesta entre 60 y 250 € con mano de obra. Si es un conector o un cable, suele ser más barato."
+    }
+  ],
+  "products": [
+    "sensor de masa de aire MAF",
+    "multímetro digital automotriz",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0101",
+    "p0171",
+    "p0113"
+  ],
+  "featured_image": "/img/articulos/codigo-p0100.webp"
+}

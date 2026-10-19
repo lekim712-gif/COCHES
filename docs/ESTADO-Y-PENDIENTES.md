@@ -51,3 +51,7 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - Search Console conectado (workflow `fetch-gsc`, lunes y jueves); aún sin impresiones.
 - AdSense: script en el head, `ads.txt` activo, revisión solicitada.
 - Backlog reordenado con Semrush (ES y MX). Las 4 fichas de seguridad (ABS, freno, airbag, dirección asistida) siguen sin escribir: esperan decisión del usuario.
+
+## Actualización 19/10/2026
+- 40 fichas publicadas. Lote 4 (19/10): P0089, P0402, P0100, P0016, P0400 — pendientes de revisión técnica por Carlos.
+- Search Console: primeras impresiones (22 consultas, 24 páginas; P0420 en posición ~4). Aún casi sin clics.

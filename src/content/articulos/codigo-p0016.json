@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0016",
+  "name": "Correlación entre cigüeñal y árbol de levas (banco 1)",
+  "datePublished": "2026-10-19",
+  "dateModified": "2026-10-19",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0016: causas, síntomas y solución",
+    "meta_description": "P0016: la posición del cigüeñal y del árbol de levas no coincide. Causas (distribución, variador VVT, sensores), síntomas y diagnóstico.",
+    "slug": "p0016"
+  },
+  "content_html": "<h1>Código P0016: Correlación entre cigüeñal y árbol de levas (banco 1)</h1>\n<p class=\"intro\">El código P0016 indica que la señal del cigüeñal y la del árbol de levas del banco 1 no coinciden: la centralita detecta que la distribución está desfasada. Las causas más frecuentes son una cadena o correa estirada o saltada, un variador de fase (VVT) que falla o un sensor defectuoso. Puede afectar mucho al motor, así que conviene tratarlo con rapidez.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta: una distribución desajustada puede dañar válvulas y pistones</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Distribución, variador de fase, sensores de cigüeñal y árbol de levas</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>40–200 € (sensor) · 300–1.500 € o más (distribución o variador), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro, manual de taller</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Arranque largo o motor que no arranca.</li><li>Tirones, vibraciones y pérdida de potencia.</li><li>Ruido de cadena o de distribución.</li><li>Modo de emergencia y ralentí inestable.</li></ul>\n<h2>Causas principales</h2><ul><li>Cadena de distribución estirada o correa saltada.</li><li>Variador de fase (VVT) con fallo o con poca presión de aceite.</li><li>Electroválvula del variador defectuosa.</li><li>Sensor del árbol de levas o del cigüeñal con señal errónea.</li><li>Nivel o calidad de aceite incorrectos.</li><li>Rueda fónica o referencia dañada.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y los datos congelados. Si hay también P0340, P0341 o P0335, el problema puede estar en los sensores o en la distribución.</li><li>Comprueba el nivel y la calidad del aceite: un nivel bajo o un aceite sucio dañan el variador de fase.</li><li>Escucha el motor al arrancar en frío: un ruido de cadena o traqueteo apunta a un estiramiento.</li><li>Con el escáner, mira en datos en vivo el ángulo de adelanto del árbol de levas. Una desviación grande indica un problema de calado o del variador.</li><li>Prueba la electroválvula del variador con el test de actuadores y mide su resistencia con el multímetro.</li><li>Revisa el conector y el cableado de los sensores: aceite, humedad o terminales sulfatados.</li><li>Verifica el calado de la distribución según el manual de taller. Es el paso decisivo.</li><li>Repara lo que corresponda, borra los códigos y haz una prueba de carretera.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa que el cigüeñal y el árbol de levas no están correlacionados?",
+      "answer": "Significa que la centralita detecta que la posición del árbol de levas no coincide con la del cigüeñal, es decir, que la distribución está desfasada. Puede deberse a una cadena estirada, a un variador de fase defectuoso o a un sensor erróneo."
+    },
+    {
+      "question": "¿Se puede circular con el código P0016?",
+      "answer": "No es recomendable. Una distribución desfasada puede dañar válvulas y pistones en muchos motores, y la reparación sube mucho de precio."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar un P0016?",
+      "answer": "Un sensor cuesta entre 40 y 200 €. Si el problema es la cadena de distribución o el variador, entre 300 y 1.500 € o más, según modelo."
+    }
+  ],
+  "products": [
+    "kit de distribución con bomba de agua",
+    "aceite de motor 5W30",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0341",
+    "p0340",
+    "p0335"
+  ],
+  "featured_image": "/img/articulos/codigo-p0016.webp"
+}

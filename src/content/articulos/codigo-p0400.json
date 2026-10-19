@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0400",
+  "name": "Fallo en el flujo de recirculación de gases (EGR)",
+  "datePublished": "2026-10-19",
+  "dateModified": "2026-10-19",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0400: causas, síntomas y solución",
+    "meta_description": "P0400: fallo general del flujo del sistema EGR de recirculación de gases de escape. Causas, síntomas y cómo diagnosticar la válvula y el circuito.",
+    "slug": "p0400"
+  },
+  "content_html": "<h1>Código P0400: Fallo en el flujo de recirculación de gases (EGR)</h1>\n<p class=\"intro\">El código P0400 indica un fallo general en el flujo de recirculación de gases de escape (EGR), sin precisar si es poco o demasiado. Es el código genérico que la centralita registra cuando la válvula o el circuito no responden como se espera. Para afinar el diagnóstico conviene comprobar la válvula EGR, su sensor y los conductos, y mirar si hay también P0401 o P0402.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: se puede circular, pero sube la emisión de NOx y el motor puede ir irregular</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>EGR, válvula, sensor, conductos de recirculación</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–40 € (limpieza) · 150–450 € (válvula), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, limpiador específico, multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Ralentí inestable o tirones a bajo régimen.</li><li>Pérdida de potencia.</li><li>Mayor consumo.</li><li>Fallo en la medición de emisiones en la ITV.</li></ul>\n<h2>Causas principales</h2><ul><li>Válvula EGR sucia, atascada o con fallo del actuador.</li><li>Sensor de posición de la válvula defectuoso.</li><li>Conductos de EGR obstruidos por carbonilla.</li><li>Electroválvula de vacío o mando eléctrico averiado.</li><li>Cableado o conector dañado.</li><li>Radiador del EGR obstruido o con fugas, si lo lleva.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y comprueba si aparecen P0401 (flujo insuficiente) o P0402 (flujo excesivo): te dicen en qué sentido está el fallo.</li><li>Inspecciona visualmente la válvula EGR, sus conductos y su conector con el motor frío y apagado.</li><li>Activa la válvula con el test de actuadores del escáner y observa si se mueve y si el ralentí cambia.</li><li>Retira la válvula y mira si tiene carbonilla. Límpiala con limpiador específico y comprueba que abre y cierra con libertad.</li><li>Mide la resistencia o la tensión del sensor de posición y compárala con el manual.</li><li>Limpia los conductos de EGR y revisa que no estén obstruidos.</li><li>Si es neumática, comprueba el vacío con la bomba manual y el funcionamiento de la electroválvula.</li><li>Sustituye la pieza defectuosa, borra los códigos y haz una prueba de carretera.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0400, P0401 y P0402?",
+      "answer": "P0400 es un fallo general del flujo de EGR. P0401 indica flujo insuficiente y P0402 flujo excesivo. Si aparecen juntos, empieza por el más específico."
+    },
+    {
+      "question": "¿Se puede circular con el código P0400?",
+      "answer": "Sí, aunque el motor pueda ir algo irregular y aumenten las emisiones. Conviene repararlo antes de la ITV."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar un P0400?",
+      "answer": "La limpieza cuesta entre 10 y 40 € en productos. Una válvula nueva cuesta entre 150 y 450 € con mano de obra, según modelo."
+    }
+  ],
+  "products": [
+    "limpiador de válvula EGR y admisión",
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz"
+  ],
+  "related": [
+    "p0401",
+    "p0402",
+    "p0300"
+  ],
+  "featured_image": "/img/articulos/codigo-p0400.webp"
+}
