@@ -3,7 +3,7 @@
   "code": "P0106",
   "name": "Sensor MAP: rango o rendimiento",
   "datePublished": "2026-10-19",
-  "dateModified": "2026-10-19",
+  "dateModified": "2026-10-20",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -37,5 +37,7 @@
     "p0171",
     "p2279"
   ],
-  "featured_image": "/img/articulos/codigo-p0106.webp"
+  "featured_image": "/img/articulos/codigo-p0106.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-20"
 }

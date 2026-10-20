@@ -3,7 +3,7 @@
   "code": "P0235",
   "name": "Circuito del sensor de presión de sobrealimentación A",
   "datePublished": "2026-10-19",
-  "dateModified": "2026-10-19",
+  "dateModified": "2026-10-20",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -37,5 +37,7 @@
     "p0234",
     "p0299"
   ],
-  "featured_image": "/img/articulos/codigo-p0235.webp"
+  "featured_image": "/img/articulos/codigo-p0235.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-20"
 }
