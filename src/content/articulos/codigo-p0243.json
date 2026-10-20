@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0243",
+  "name": "Válvula de descarga (wastegate) del turbo A",
+  "datePublished": "2026-10-20",
+  "dateModified": "2026-10-20",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0243: causas, síntomas y solución",
+    "meta_description": "P0243: fallo en el circuito de la electroválvula de la wastegate del turbo. Síntomas, causas (electroválvula, vacío, cableado) y cómo diagnosticarlo.",
+    "slug": "p0243"
+  },
+  "content_html": "<h1>Código P0243: Válvula de descarga (wastegate) del turbo A</h1>\n<p class=\"intro\">El código P0243 indica un fallo eléctrico en el circuito de la electroválvula que gobierna la válvula de descarga, o wastegate, del turbo A. Esa válvula deriva parte de los gases para limitar la presión de sobrealimentación. Si el mando falla, el turbo puede quedarse sin regulación: poco empuje o presión excesiva. La causa más habitual es la electroválvula, su cableado o una manguera de vacío.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: el turbo no se regula bien y el coche entra en modo de emergencia</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Turbo, electroválvula de la wastegate, circuito de vacío, cableado</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>40–150 € (electroválvula) · 20–60 € si es una manguera, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con test de actuadores, multímetro, bomba de vacío manual</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Falta de empuje del turbo o, al contrario, tirones por exceso de presión.</li><li>Modo de emergencia que limita la potencia.</li><li>Silbidos del turbo distintos de lo normal.</li><li>Consumo algo mayor.</li></ul>\n<h2>Causas principales</h2><ul><li>Electroválvula de la wastegate con bobina cortada o en cortocircuito.</li><li>Conector sulfatado o con terminales sueltos.</li><li>Cable de mando de la electroválvula pelado o roto.</li><li>Mangueras de vacío entre bomba, electroválvula y actuador agrietadas.</li><li>Actuador de la wastegate bloqueado o con la membrana rota.</li><li>Salida de la centralita dañada, poco habitual.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y comprueba si hay P0234 o P0299: indican hacia qué lado se descontrola el turbo.</li><li>Localiza la electroválvula en el manual y revisa su conector y cableado: humedad, roces y terminales.</li><li>Mide la resistencia de la bobina de la electroválvula y compárala con el valor del manual.</li><li>Activa la electroválvula desde el escáner y comprueba que se oye el chasquido.</li><li>Con la bomba de vacío, aplica vacío al actuador de la wastegate: debe moverse y mantener el vacío. Si lo pierde, está rota la membrana.</li><li>Revisa las mangueras de vacío: grietas, conexiones sueltas o mangueras cambiadas de sitio.</li><li>Sustituye la pieza defectuosa, borra los códigos y haz una prueba de carretera para confirmar la presión.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué hace la wastegate?",
+      "answer": "Es una válvula que desvía parte de los gases de escape fuera de la turbina para limitar la presión del turbo. Sin ella, la presión subiría sin control."
+    },
+    {
+      "question": "¿Se puede circular con P0243?",
+      "answer": "Sí, en modo de emergencia y con suavidad hasta el taller. La regulación del turbo no es fiable y puede darse sobrepresión."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar P0243?",
+      "answer": "Una electroválvula cuesta entre 40 y 150 € con montaje. Si es solo una manguera de vacío, de 20 a 60 €, según modelo."
+    }
+  ],
+  "products": [
+    "bomba de vacío manual para automoción",
+    "multímetro digital automotriz",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0234",
+    "p0299",
+    "p0238"
+  ],
+  "featured_image": "/img/articulos/codigo-p0243.webp"
+}

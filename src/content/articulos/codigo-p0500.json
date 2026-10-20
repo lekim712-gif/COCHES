@@ -1,0 +1,40 @@
+{
+  "type": "codigo",
+  "code": "P0500",
+  "name": "Sensor de velocidad del vehículo",
+  "datePublished": "2026-10-20",
+  "dateModified": "2026-10-20",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0500: causas, síntomas y solución",
+    "meta_description": "P0500: fallo en el sensor de velocidad del vehículo (VSS). Síntomas (velocímetro, cambio automático), causas y cómo comprobar el sensor y el cableado.",
+    "slug": "p0500"
+  },
+  "content_html": "<h1>Código P0500: Sensor de velocidad del vehículo</h1>\n<p class=\"intro\">El código P0500 indica que la centralita no recibe una señal correcta de velocidad del vehículo. Esa señal sale del sensor de velocidad (VSS), del sensor del cambio o de los sensores de rueda del ABS, según el coche. Sin ella, el velocímetro puede fallar, el cambio automático cambia de marcha de forma extraña y el control de crucero deja de funcionar. Suele ser el sensor, su cableado o un anillo dentado sucio.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: afecta al velocímetro, al cambio automático y al crucero</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sensor de velocidad, cambio de marchas, ABS, cuadro de instrumentos</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–120 € (sensor) · menos si es cableado o suciedad, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro, linterna</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Velocímetro que marca cero o va a saltos.</li><li>Cambio automático que cambia de forma brusca o se queda en una marcha.</li><li>Control de crucero que no se activa.</li><li>A veces se enciende también el testigo del ABS.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor de velocidad del cambio averiado o sucio.</li><li>Sensor de rueda del ABS con fallo, si el coche usa esa señal.</li><li>Cableado o conector del sensor dañado.</li><li>Anillo dentado o rueda fónica sucia, golpeada o con dientes rotos.</li><li>Cuadro de instrumentos o centralita con fallo de lectura.</li><li>Fusible de alimentación del sensor fundido.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y comprueba si hay también del ABS, como los de sensores de rueda: indican si la señal viene de ahí.</li><li>En datos en vivo, mira la velocidad que lee la centralita con las ruedas girando: debe seguir el velocímetro.</li><li>Localiza el sensor según el manual: en el cambio o en cada rueda. Revisa su conector y cableado.</li><li>Retira el sensor e inspecciona su punta: limaduras metálicas, suciedad o daños.</li><li>Mide la resistencia del sensor inductivo o la alimentación del de efecto Hall, según el manual.</li><li>Revisa el anillo dentado o rueda fónica: dientes rotos o sucios.</li><li>Sustituye el sensor defectuoso, borra los códigos y comprueba el velocímetro en una prueba de carretera.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué falla el velocímetro con P0500?",
+      "answer": "Porque comparte señal con el sensor de velocidad. Si la señal no llega o es errática, el velocímetro y otras funciones, como el crucero o el cambio automático, se ven afectados."
+    },
+    {
+      "question": "¿Se puede circular con P0500?",
+      "answer": "Sí, pero sin velocímetro fiable. Ten cuidado con los límites y ve al taller pronto, sobre todo si el cambio es automático."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar P0500?",
+      "answer": "Un sensor de velocidad cuesta entre 30 y 120 € con montaje, según modelo. Si es suciedad o un conector, suele ser más barato."
+    }
+  ],
+  "products": [
+    "sensor de velocidad del vehículo VSS",
+    "multímetro digital automotriz",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0606",
+    "u0100"
+  ],
+  "featured_image": "/img/articulos/codigo-p0500.webp"
+}

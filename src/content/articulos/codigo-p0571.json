@@ -1,0 +1,40 @@
+{
+  "type": "codigo",
+  "code": "P0571",
+  "name": "Circuito del interruptor de luces de freno",
+  "datePublished": "2026-10-20",
+  "dateModified": "2026-10-20",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0571: causas, síntomas y solución",
+    "meta_description": "P0571: fallo en el circuito del interruptor del pedal de freno (luces de stop). Síntomas, causas y cómo comprobarlo antes de la ITV.",
+    "slug": "p0571"
+  },
+  "content_html": "<h1>Código P0571: Circuito del interruptor de luces de freno</h1>\n<p class=\"intro\">El código P0571 indica un fallo en el circuito del interruptor del pedal de freno, el contacto que enciende las luces de stop y avisa a la centralita de que estás frenando. Sin esa señal, el control de crucero puede dejar de funcionar y las luces de freno pueden fallar. Es una avería habitual, barata de reparar y que conviene arreglar rápido por seguridad.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: afecta a las luces de freno, al crucero y a otras funciones</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Interruptor del pedal de freno, luces de stop, control de crucero</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–40 € (interruptor) · 0–20 € si es un fusible o una bombilla, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Multímetro, lámpara de pruebas, escáner OBD2</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Luces de freno que no se encienden, o que se quedan encendidas.</li><li>Control de crucero que no se activa.</li><li>En automáticos, la palanca no sale de «P» con facilidad.</li><li>Dificultad para arrancar si el interruptor impide el arranque.</li></ul>\n<h2>Causas principales</h2><ul><li>Interruptor del pedal desgastado o desajustado.</li><li>Pedal con el tope o el soporte del interruptor roto.</li><li>Fusible de las luces de stop fundido.</li><li>Conector del interruptor sulfatado o suelto.</li><li>Cable de señal cortado o con masa a chasis.</li><li>Bombillas de freno quemadas, que despistan el diagnóstico.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Pide a alguien que te mire desde atrás las luces de stop mientras pisas el freno. Anota si alguna no se enciende o si queda siempre encendida.</li><li>Revisa el fusible de las luces de stop en el manual y cámbialo si está fundido.</li><li>Localiza el interruptor encima del pedal, normalmente de rosca o de bayoneta, y comprueba que el tope presiona su émbolo al soltar el pedal.</li><li>Mira el conector del interruptor: humedad, óxido o terminales flojos.</li><li>Con el multímetro, mide continuidad entre los contactos al pisar y soltar el pedal, según el manual.</li><li>Si el interruptor no conmuta bien, sustitúyelo y ajústalo según el procedimiento del fabricante.</li><li>Borra los códigos y comprueba las luces de freno con ayuda de otra persona. Si hay duda, no circules hasta repararlo.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con P0571?",
+      "answer": "Conviene no hacerlo si las luces de stop no se encienden: es un riesgo de alcance por detrás y una infracción. Si las luces funcionan, puedes ir al taller con precaución."
+    },
+    {
+      "question": "¿Por qué no funciona el control de crucero?",
+      "answer": "El crucero se desactiva al pisar el freno y necesita leer el interruptor. Con ese circuito en fallo, la centralita lo desactiva por seguridad."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar P0571?",
+      "answer": "Un interruptor cuesta entre 10 y 40 €, más montaje. Si es un fusible o una bombilla, de 0 a 20 €."
+    }
+  ],
+  "products": [
+    "interruptor de luz de freno",
+    "multímetro digital automotriz",
+    "juego de fusibles para coche"
+  ],
+  "related": [
+    "p0500",
+    "p0606"
+  ],
+  "featured_image": "/img/articulos/codigo-p0571.webp"
+}

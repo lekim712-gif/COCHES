@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0638",
+  "name": "Actuador de la mariposa: fuera de rango",
+  "datePublished": "2026-10-20",
+  "dateModified": "2026-10-20",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0638: causas, síntomas y solución",
+    "meta_description": "P0638: el actuador de la mariposa electrónica no alcanza la posición pedida. Causas (suciedad, motor, cableado), síntomas y cómo limpiarla o calibrarla.",
+    "slug": "p0638"
+  },
+  "content_html": "<h1>Código P0638: Actuador de la mariposa: fuera de rango</h1>\n<p class=\"intro\">El código P0638 indica que el actuador de la mariposa electrónica no consigue colocarla en la posición que ordena la centralita: la apertura real no coincide con la pedida. El motor entra en modo de emergencia con el acelerador limitado. La causa más frecuente es la suciedad acumulada en la mariposa, y después un fallo del motor del actuador, del cableado o del sensor de posición del pedal.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: el acelerador queda limitado y el coche puede quedarse sin potencia</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Mariposa electrónica, sensores de posición, pedal del acelerador</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–20 € (limpieza) · 150–450 € (mariposa nueva con adaptación), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con adaptaciones, limpiador específico de mariposa, multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido y, a veces, testigo del acelerador.</li><li>Modo de emergencia con régimen limitado.</li><li>Respuesta lenta al acelerar o aceleración a saltos.</li><li>Ralentí inestable o motor que se cala.</li><li>El coche no pasa de cierta velocidad.</li></ul>\n<h2>Causas principales</h2><ul><li>Mariposa sucia por hollín o aceite, con roce al cerrar.</li><li>Motor del actuador de la mariposa averiado.</li><li>Cableado o conector de la mariposa dañado.</li><li>Sensor de posición de la mariposa o del pedal desajustado.</li><li>Aprendizaje de la mariposa perdido tras limpiar o cambiar la batería.</li><li>Fallo de alimentación de la mariposa por masa deficiente.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y comprueba si hay otros de la mariposa o del pedal, como P2135 o P2138.</li><li>Con el contacto puesto, observa en datos en vivo la apertura pedida y la real al pisar el pedal. Anota cuándo se separan.</li><li>Con el motor parado y la batería desconectada, desmonta la mariposa y límpiala con un limpiador específico, sin forzar la compuerta.</li><li>Inspecciona el conector y el cableado: terminales sulfatados, roces o cables pelados.</li><li>Mide la alimentación y las masas en el conector, según el manual.</li><li>Tras limpiar o cambiar, realiza el aprendizaje de la mariposa con el escáner o con el procedimiento de contacto del fabricante.</li><li>Si el actuador no responde tras limpiar y adaptar, sustituye la mariposa y repite la adaptación.</li><li>Borra los códigos y haz una prueba de carretera para comprobar que la respuesta es normal.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Se puede limpiar la mariposa yo mismo?",
+      "answer": "Sí, con limpiador específico, con el motor parado y la batería desconectada, sin forzar la compuerta. Después hay que realizar el aprendizaje, o el ralentí puede quedar mal."
+    },
+    {
+      "question": "¿Se puede circular con P0638?",
+      "answer": "Solo con el modo de emergencia hasta el taller. La respuesta del acelerador es limitada y es peligrosa en adelantamientos."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar P0638?",
+      "answer": "La limpieza cuesta unos 10–20 €. Una mariposa nueva con adaptación, de 150 a 450 €, según modelo."
+    }
+  ],
+  "products": [
+    "limpiador de mariposa de gases",
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz"
+  ],
+  "related": [
+    "p0101",
+    "p0106",
+    "p2279"
+  ],
+  "featured_image": "/img/articulos/codigo-p0638.webp"
+}

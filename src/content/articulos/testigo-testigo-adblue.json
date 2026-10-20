@@ -1,0 +1,39 @@
+{
+  "type": "testigo",
+  "name": "Testigo de AdBlue: significado y qué hacer",
+  "datePublished": "2026-10-20",
+  "dateModified": "2026-10-20",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo de AdBlue encendido: qué significa y qué hacer",
+    "meta_description": "Testigo de AdBlue encendido: qué significa, cuánto se puede circular, cómo rellenar el depósito y qué hacer si no se apaga o el coche no arranca.",
+    "slug": "testigo-adblue"
+  },
+  "content_html": "<h1>Testigo de AdBlue: significado y qué hacer</h1>\n<p class=\"intro\">El testigo de AdBlue, una gota con las letras «NOx» o un depósito con una gota, avisa de que el líquido del sistema SCR se está acabando o de que hay un fallo. Si se enciende por nivel bajo, hay un margen de kilómetros antes de que el coche limite la potencia o impida el arranque. Rellena el depósito con AdBlue homologado cuanto antes.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: si se agota, el coche puede no arrancar</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sistema SCR, depósito de AdBlue, bomba, inyector, sensores de NOx</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–25 € (rellenar) · 150–1.500 € (bomba, sensor o calentador), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>AdBlue homologado ISO 22241, embudo, guantes, escáner OBD2</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de AdBlue encendido, con aviso de kilómetros restantes.</li><li>Mensaje de que el motor no volverá a arrancar tras una parada.</li><li>Testigo de motor encendido junto al de AdBlue.</li><li>Pérdida de potencia en caso de fallo del SCR.</li><li>Humo o aumento de emisiones, si el SCR no funciona.</li></ul>\n<h2>Causas principales</h2><ul><li>Nivel de AdBlue bajo.</li><li>Líquido de mala calidad o contaminado, o AdBlue congelado con frío extremo.</li><li>Bomba de AdBlue averiada.</li><li>Inyector de AdBlue obstruido por cristalización.</li><li>Sensor de NOx o de nivel defectuoso.</li><li>Calentador del depósito o de las líneas averiado.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Mira cuántos kilómetros te indica el cuadro: cuando llega a cero, el coche puede impedir el arranque. Ve a repostar.</li><li>Localiza el tapón azul del AdBlue, normalmente junto al combustible o en el maletero, y rellena con AdBlue homologado. No uses agua ni aditivos.</li><li>Rellena con el contacto quitado, sigue las cantidades del manual y limpia cualquier derrame, porque cristaliza.</li><li>Da el contacto y espera unos minutos. En algunos coches el aviso tarda en apagarse; en otros, tras conducir un rato.</li><li>Si el testigo no se apaga con el depósito lleno, lee los códigos con un escáner con acceso al SCR.</li><li>Si el código apunta a la bomba, al inyector o a un sensor de NOx, llévalo al taller: son reparaciones caras.</li><li>En invierno, un depósito congelado puede dar aviso. Un calentador averiado también.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cuánto se puede circular con el testigo de AdBlue?",
+      "answer": "Depende del coche. Normalmente el aviso empieza con unos 2.000 km restantes. Cuando llegan a cero, muchos coches no vuelven a arrancar tras la parada."
+    },
+    {
+      "question": "¿Puedo usar cualquier AdBlue?",
+      "answer": "Debe cumplir la norma ISO 22241. Un líquido de mala calidad daña el sistema SCR."
+    },
+    {
+      "question": "¿Cuánto cuesta rellenar el AdBlue?",
+      "answer": "Un bidón de 10 litros cuesta unos 10–25 €. Si hay una avería, la reparación puede costar entre 150 y 1.500 €, según modelo."
+    }
+  ],
+  "products": [
+    "AdBlue 10 litros ISO 22241",
+    "embudo para AdBlue",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "testigo-filtro-particulas",
+    "testigo-motor"
+  ],
+  "featured_image": "/img/articulos/testigo-testigo-adblue.webp"
+}

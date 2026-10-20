@@ -1,0 +1,39 @@
+{
+  "type": "guia",
+  "name": "Cambio del filtro de aire del motor paso a paso",
+  "datePublished": "2026-10-20",
+  "dateModified": "2026-10-20",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Cambio del filtro de aire del motor: guía paso a paso",
+    "meta_description": "Cómo cambiar el filtro de aire del motor tú mismo: cuándo hacerlo, herramientas necesarias, pasos con seguridad y errores frecuentes que dan fallos de MAF.",
+    "slug": "guia-cambio-filtro-aire"
+  },
+  "content_html": "<h1>Cambio del filtro de aire del motor paso a paso</h1>\n<p class=\"intro\">El filtro de aire retiene el polvo antes de que llegue al motor y al sensor de masa de aire. Un filtro obstruido reduce la potencia y aumenta el consumo, y uno mal montado puede dejar entrar suciedad. Cambiarlo es una de las tareas más sencillas y baratas del mantenimiento: se hace en unos 15 minutos con pocas herramientas.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: es un mantenimiento sencillo y sin riesgos si el motor está parado</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Admisión, caja del filtro de aire, sensor MAF</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–30 € el filtro; unos 15 minutos de trabajo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Filtro nuevo, destornillador o llave Torx, paño limpio</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Comprueba en el manual de mantenimiento cada cuántos kilómetros toca cambiar el filtro, normalmente entre 15.000 y 30.000 km, o antes si circulas por zonas con polvo.</li><li>Compra un filtro con la referencia exacta de tu coche, mirando el número de bastidor o el manual.</li><li>Con el motor parado y frío, abre el capó y localiza la caja del filtro de aire, una caja de plástico negro conectada al tubo de admisión.</li><li>Suelta los clips o los tornillos de la tapa. Si hay un conector del sensor MAF en la tapa, no lo fuerces.</li><li>Saca el filtro viejo y fíjate en cómo está colocado. Mira si está muy sucio o con restos de aceite.</li><li>Limpia el interior de la caja con un paño, sin que caiga suciedad en el conducto de admisión.</li><li>Coloca el filtro nuevo en la misma posición, con la junta bien asentada en todo el borde.</li><li>Cierra la tapa, comprueba que los clips encajan y que ningún tubo queda suelto.</li><li>Arranca el motor y escucha: no debe haber silbidos ni soplidos, que indicarían una entrada de aire mal sellada.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cada cuánto hay que cambiar el filtro de aire?",
+      "answer": "Suele indicarse entre 15.000 y 30.000 km, o una vez al año. Si circulas por carreteras polvorientas, con más frecuencia. El manual de tu coche es la referencia."
+    },
+    {
+      "question": "¿Se puede limpiar el filtro de aire en lugar de cambiarlo?",
+      "answer": "Los filtros de papel no se lavan: se cambian. Soplarlos puede dañarlos. Solo algunos filtros de espuma o de algodón admiten limpieza."
+    },
+    {
+      "question": "¿Qué pasa si no cambio el filtro de aire?",
+      "answer": "Baja la potencia y sube el consumo, y se puede ensuciar el sensor MAF. Un filtro roto o mal montado deja entrar polvo al motor."
+    }
+  ],
+  "products": [
+    "filtro de aire de motor",
+    "destornillador Torx para coche",
+    "limpiador de sensor MAF"
+  ],
+  "related": [
+    "p0101",
+    "guia-guia-como-usar-escaner-obd2"
+  ],
+  "featured_image": "/img/articulos/guia-guia-cambio-filtro-aire.webp"
+}

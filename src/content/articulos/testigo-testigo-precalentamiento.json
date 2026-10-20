@@ -1,0 +1,40 @@
+{
+  "type": "testigo",
+  "name": "Testigo de precalentamiento diésel: significado y qué hacer",
+  "datePublished": "2026-10-20",
+  "dateModified": "2026-10-20",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo de precalentamiento diésel: qué hacer",
+    "meta_description": "Testigo de precalentamiento diésel (el muelle naranja): qué significa si se enciende al arrancar o queda encendido y cómo revisar las bujías de precalentamiento.",
+    "slug": "testigo-precalentamiento"
+  },
+  "content_html": "<h1>Testigo de precalentamiento diésel: significado y qué hacer</h1>\n<p class=\"intro\">El testigo de precalentamiento diésel, una espiral o muelle naranja, se enciende unos segundos al dar el contacto mientras las bujías de precalentamiento calientan la cámara. Es normal que se apague antes de arrancar. Si parpadea o se queda encendido con el motor en marcha, indica un fallo del sistema: bujías, relé o sensor. Con frío, el motor tardará más en arrancar.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: el coche funciona, pero arranca peor en frío</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Bujías de precalentamiento, relé, centralita de precalentamiento, sensor de temperatura</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–40 € por bujía · 40–120 € relé o centralita, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Multímetro, escáner OBD2, llave de bujías de precalentamiento</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo en forma de muelle encendido unos segundos al dar el contacto, que es normal.</li><li>Testigo que parpadea o se queda encendido con el motor en marcha.</li><li>Arranque largo en frío, con humo blanco.</li><li>Ralentí irregular los primeros minutos.</li><li>Testigo de motor encendido a la vez.</li></ul>\n<h2>Causas principales</h2><ul><li>Una o varias bujías de precalentamiento quemadas.</li><li>Relé o centralita de precalentamiento defectuosos.</li><li>Sensor de temperatura del refrigerante que informa mal.</li><li>Cableado o conector de las bujías en mal estado.</li><li>Batería con poca carga, que limita el precalentamiento.</li><li>Fallo de otro sistema que activa el aviso, como el filtro de partículas.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Observa el comportamiento del testigo: si se enciende unos segundos y se apaga, es normal. Si parpadea o queda fijo, hay fallo.</li><li>Lee los códigos con un escáner OBD2: suelen indicar la bujía o el circuito afectado.</li><li>Comprueba la tensión de la batería: debe estar por encima de unos 12,4 V en reposo.</li><li>Mide la resistencia de cada bujía de precalentamiento con el multímetro y compárala con el valor del manual.</li><li>Una bujía con resistencia infinita está quemada; cámbiala por una equivalente.</li><li>Revisa el relé, fusible y cableado de las bujías.</li><li>Si todo está bien, comprueba el sensor de temperatura del refrigerante.</li><li>Borra los códigos y arranca en frío para comprobar que el testigo se comporta con normalidad.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cuánto debe durar el testigo de precalentamiento?",
+      "answer": "Unos pocos segundos al dar el contacto, más tiempo cuanto más frío haga. Se apaga antes de arrancar. Si no se apaga, o parpadea con el motor en marcha, hay un problema."
+    },
+    {
+      "question": "¿Se puede circular con el testigo de precalentamiento encendido?",
+      "answer": "Sí, si el motor arranca bien. Pero el arranque en frío será peor y conviene revisarlo antes del invierno."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar el precalentamiento?",
+      "answer": "Una bujía de precalentamiento cuesta entre 10 y 40 €. El relé o la centralita, entre 40 y 120 €, según modelo."
+    }
+  ],
+  "products": [
+    "bujías de precalentamiento diésel",
+    "llave para bujías de precalentamiento",
+    "multímetro digital automotriz"
+  ],
+  "related": [
+    "testigo-motor",
+    "testigo-filtro-particulas",
+    "testigo-bateria"
+  ],
+  "featured_image": "/img/articulos/testigo-testigo-precalentamiento.webp"
+}

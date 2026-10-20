@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0236",
+  "name": "Sensor de presión de sobrealimentación A: rango o rendimiento",
+  "datePublished": "2026-10-20",
+  "dateModified": "2026-10-20",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0236: causas, síntomas y solución",
+    "meta_description": "P0236: la lectura del sensor de presión del turbo no es coherente con el resto de sensores. Cómo contrastarla con el MAP y localizar la causa real.",
+    "slug": "p0236"
+  },
+  "content_html": "<h1>Código P0236: Sensor de presión de sobrealimentación A: rango o rendimiento</h1>\n<p class=\"intro\">El código P0236 indica que la presión de sobrealimentación medida por el sensor del turbo A no es coherente con lo esperado o con otros sensores, como el MAP o el MAF. La señal eléctrica existe, pero no es creíble. Por eso el diagnóstico pasa por contrastar valores: a veces el sensor está bien y lo que falla es una fuga de aire, un turbo que no sopla o un sensor MAP que se ha desviado.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: la centralita desconfía de la presión y limita el turbo</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Turbo, intercooler, sensores de presión de admisión</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>60–200 € (sensor) · 20–150 € si es una fuga en manguitos, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, detector de fugas, multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Respuesta irregular del turbo: unas veces empuja, otras no.</li><li>Modo de emergencia puntual en aceleraciones fuertes.</li><li>Presión pedida y real que no coinciden en datos en vivo.</li><li>Humo oscuro o consumo mayor en carga.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor de presión del turbo desviado o sucio.</li><li>Fuga en manguitos del intercooler que baja la presión real.</li><li>Turbo con holgura o con geometría variable pegada.</li><li>Sensor MAP o MAF con una lectura que contradice al del turbo.</li><li>Filtro de aire muy obstruido que limita el caudal.</li><li>Escape parcialmente obstruido, con contrapresión alta.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y los datos congelados. Compara con los de P0234, P0299 y P0101 para saber si el problema es de medida o de caudal real.</li><li>En datos en vivo, mira la presión del sensor del turbo con el motor parado: debe ser la atmosférica. Si no, el sensor está desviado.</li><li>Haz una aceleración a fondo en carretera segura y registra presión pedida, presión real y caudal de aire. Busca dónde se separan.</li><li>Revisa visualmente los manguitos del intercooler y sus abrazaderas; haz una prueba de fugas con humo.</li><li>Comprueba el filtro de aire y cámbialo si está saturado.</li><li>Contrasta la lectura del turbo con la del sensor MAP en el colector: con el turbo soplando deben ser parecidas.</li><li>Si las lecturas son coherentes entre sí pero la presión real es baja, revisa el turbo y su actuador en taller.</li><li>Sustituye el sensor solo si está desviado. Borra los códigos y haz una prueba de carretera.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0236 y P0235?",
+      "answer": "P0235 es un fallo del circuito eléctrico del sensor. P0236 indica que la lectura es incoherente con lo esperado, aunque el circuito funcione. Para P0236 conviene comparar con otros sensores antes de cambiar nada."
+    },
+    {
+      "question": "¿Se puede circular con P0236?",
+      "answer": "Sí, con precaución y sin exigir el motor. La regulación del turbo puede ser imprecisa."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0236?",
+      "answer": "Si es un sensor, 60–200 €. Si es una fuga en un manguito, de 20 a 150 €. Si es el turbo, el precio sube bastante, según modelo."
+    }
+  ],
+  "products": [
+    "detector de fugas de humo automoción",
+    "sensor MAP de presión del colector",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0235",
+    "p0234",
+    "p0106"
+  ],
+  "featured_image": "/img/articulos/codigo-p0236.webp"
+}

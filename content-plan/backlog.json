@@ -20,7 +20,9 @@
   "P0172",
   "P0234",
   "P0235",
+  "P0236",
   "P0238",
+  "P0243",
   "P0299",
   "P0300",
   "P0301",
@@ -34,28 +36,15 @@
   "P0442",
   "P0455",
   "P0456",
+  "P0500",
+  "P0571",
   "P0606",
+  "P0638",
   "P2002",
   "P2279",
   "U0100"
  ],
  "codigos": [
-  [
-   "P0243",
-   "Válvula de descarga (wastegate) del turbo A"
-  ],
-  [
-   "P0236",
-   "Sensor de presión de sobrealimentación A: rango o rendimiento"
-  ],
-  [
-   "P0571",
-   "Circuito del interruptor de freno"
-  ],
-  [
-   "P0638",
-   "Actuador de la mariposa: fuera de rango"
-  ],
   [
    "P0193",
    "Sensor de presión del raíl de combustible: señal alta"
@@ -63,10 +52,6 @@
   [
    "P0104",
    "Circuito intermitente del sensor MAF"
-  ],
-  [
-   "P0500",
-   "Sensor de velocidad del vehículo"
   ],
   [
    "P0183",
@@ -227,26 +212,6 @@
    "Testigo del ABS: significado y qué hacer"
   ],
   [
-   "testigo-esp",
-   "Testigo del ESP (control de estabilidad): significado y qué hacer"
-  ],
-  [
-   "testigo-temperatura-refrigerante",
-   "Testigo de temperatura del refrigerante: significado y qué hacer"
-  ],
-  [
-   "testigo-presion-neumaticos",
-   "Testigo de presión de neumáticos (TPMS): significado y qué hacer"
-  ],
-  [
-   "testigo-precalentamiento",
-   "Testigo de precalentamiento diésel: significado y qué hacer"
-  ],
-  [
-   "testigo-adblue",
-   "Testigo de AdBlue: significado y qué hacer"
-  ],
-  [
    "testigo-direccion-asistida",
    "Testigo de la dirección asistida: significado y qué hacer"
   ],
@@ -260,18 +225,6 @@
   ]
  ],
  "guias": [
-  [
-   "guia-como-usar-escaner-obd2",
-   "Cómo usar un escáner OBD2 paso a paso"
-  ],
-  [
-   "guia-borrar-codigos-obd2",
-   "Cómo borrar códigos de avería OBD2 y cuándo hacerlo"
-  ],
-  [
-   "guia-cambio-filtro-aire",
-   "Cambio del filtro de aire del motor paso a paso"
-  ],
   [
    "guia-cambio-filtro-habitaculo",
    "Cambio del filtro de habitáculo paso a paso"

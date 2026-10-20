@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Cómo borrar códigos de avería OBD2 y cuándo hacerlo",
+  "datePublished": "2026-10-20",
+  "dateModified": "2026-10-20",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Cómo borrar códigos de avería OBD2: guía paso a paso",
+    "meta_description": "Cómo borrar códigos de avería con un escáner OBD2, cuándo conviene hacerlo y qué pasa con el testigo de motor, la ITV y los monitores de emisiones.",
+    "slug": "guia-borrar-codigos-obd2"
+  },
+  "content_html": "<h1>Cómo borrar códigos de avería OBD2 y cuándo hacerlo</h1>\n<p class=\"intro\">Borrar un código de avería con un escáner OBD2 apaga el testigo de motor, pero no repara la avería. Solo conviene hacerlo después de reparar la causa, o para comprobar si el fallo reaparece. Al borrar se pierden también los datos congelados y los monitores de emisiones se reinician, lo que puede impedirte pasar la ITV durante unos días.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: es una operación sencilla, pero con consecuencias</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Centralita del motor, monitores de emisiones, testigo de motor</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>Gratis con tu escáner · desde 15–40 € un lector básico</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 (con cable o Bluetooth)</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Antes de borrar, anota todos los códigos y los datos congelados: velocidad, temperatura, carga y régimen en el momento del fallo. Se pierden al borrar.</li><li>Repara la causa de la avería, o al menos tenla identificada. Si la dejas sin reparar, el testigo volverá.</li><li>Conecta el escáner al puerto OBD2 con el contacto quitado y da el contacto sin arrancar.</li><li>Entra en el menú de borrar códigos o «Erase DTCs» y confirma la operación.</li><li>Espera a que el escáner indique que se han borrado, quita el contacto unos segundos y vuelve a darlo.</li><li>Comprueba que el testigo de motor se ha apagado y que no hay códigos almacenados.</li><li>Arranca y conduce unos kilómetros en varias condiciones: la centralita necesita completar sus ciclos de prueba para volver a validar los monitores de emisiones.</li><li>Si el código reaparece, la avería no está resuelta: vuelve a diagnosticar en lugar de borrarlo otra vez.</li><li>Antes de la ITV, circula lo suficiente para que los monitores estén «listos»; si el coche ha tenido la batería desconectada o se han borrado códigos hace poco, puede rechazarte.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Se puede borrar el testigo de motor sin escáner?",
+      "answer": "Desconectar la batería suele borrar los códigos en muchos coches, pero también borra otros ajustes y los datos de diagnóstico. Es mejor hacerlo con un escáner, anotando antes lo que había."
+    },
+    {
+      "question": "¿Por qué vuelve el testigo después de borrar el código?",
+      "answer": "Porque la avería no se ha reparado. La centralita vuelve a detectar el fallo y enciende el testigo de nuevo, a veces al instante y otras tras varios ciclos de conducción."
+    },
+    {
+      "question": "¿Borrar los códigos afecta a la ITV?",
+      "answer": "Sí. Al borrar se reinician los monitores de emisiones, y en la ITV pueden aparecer como «no listos». Conviene conducir unos días antes de pasar la inspección."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "escáner obd2 profesional multimarca",
+    "alargador de cable obd2"
+  ],
+  "related": [
+    "guia-como-usar-escaner-obd2",
+    "testigo-motor",
+    "p0420"
+  ],
+  "featured_image": "/img/articulos/guia-guia-borrar-codigos-obd2.webp"
+}

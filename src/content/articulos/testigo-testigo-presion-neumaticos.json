@@ -1,0 +1,39 @@
+{
+  "type": "testigo",
+  "name": "Testigo de presión de neumáticos (TPMS): significado y qué hacer",
+  "datePublished": "2026-10-20",
+  "dateModified": "2026-10-20",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo de presión de neumáticos TPMS: qué hacer",
+    "meta_description": "Testigo de presión de neumáticos encendido: qué significa fijo o parpadeante, cómo comprobar la presión y cuándo reiniciar el sistema TPMS.",
+    "slug": "testigo-presion-neumaticos"
+  },
+  "content_html": "<h1>Testigo de presión de neumáticos (TPMS): significado y qué hacer</h1>\n<p class=\"intro\">El testigo de presión de neumáticos, un neumático en sección con un signo de exclamación, avisa de que uno o más neumáticos tienen una presión demasiado baja. Si se queda fijo, hay que revisar la presión cuanto antes. Si parpadea un minuto y luego se queda fijo, el fallo es del sistema TPMS. Circular con poca presión desgasta el neumático, aumenta el consumo y puede provocar un reventón.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: un neumático bajo puede reventar o dar mal comportamiento</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Neumáticos, sensores TPMS, válvulas</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–5 € (inflar) · 30–100 € por sensor TPMS, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Manómetro de neumáticos, compresor, escáner TPMS si hay que reiniciar</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo con un neumático y un signo de exclamación, fijo.</li><li>Testigo parpadeando al arrancar y luego fijo, que indica fallo del TPMS.</li><li>Dirección más pesada o el coche tira hacia un lado.</li><li>Neumático con aspecto más aplastado.</li><li>Aviso en la pantalla indicando la rueda afectada, si el coche lo muestra.</li></ul>\n<h2>Causas principales</h2><ul><li>Presión baja por una pérdida lenta natural o por un pinchazo.</li><li>Cambio brusco de temperatura, que baja la presión.</li><li>Válvula del neumático con fuga.</li><li>Sensor TPMS con batería agotada.</li><li>Sensor TPMS dañado al montar o cambiar el neumático.</li><li>Sistema sin reiniciar tras inflar o rotar ruedas.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Si el testigo se enciende en marcha, reduce la velocidad y busca un lugar seguro. No frenes de golpe ni hagas giros bruscos.</li><li>Comprueba con un manómetro la presión de los cuatro neumáticos y de la rueda de repuesto, en frío.</li><li>Infla cada neumático a la presión que indica la etiqueta de la puerta del conductor o el manual, no la del flanco.</li><li>Inspecciona los neumáticos: clavos, cortes, deformaciones o la válvula con fugas, con agua jabonosa si hace falta.</li><li>Reinicia el sistema TPMS según el manual: en algunos coches es un botón o un menú, y en otros se hace conduciendo unos minutos.</li><li>Si el testigo parpadea y luego queda fijo, el sistema tiene un fallo: revisa los sensores en un taller con escáner TPMS.</li><li>Si el neumático pierde presión de forma repetida, llévalo a reparar o cambiar antes de seguir circulando.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cuál es la presión correcta de mis neumáticos?",
+      "answer": "La indica la etiqueta de la puerta del conductor, el marco de la puerta o el manual, según carga y rueda. Se mide en frío, antes de circular."
+    },
+    {
+      "question": "¿Se puede circular con el testigo de presión encendido?",
+      "answer": "Solo hasta el siguiente lugar seguro para inflar. Una presión muy baja aumenta el riesgo de reventón y de pérdida de control."
+    },
+    {
+      "question": "¿Por qué sigue encendido después de inflar?",
+      "answer": "Porque el sistema necesita reiniciarse o conducir unos minutos para recalibrar. Si no se apaga, puede haber un sensor TPMS averiado."
+    }
+  ],
+  "products": [
+    "manómetro de presión de neumáticos",
+    "compresor de aire portátil para coche",
+    "kit reparación de pinchazos"
+  ],
+  "related": [
+    "testigo-esp",
+    "testigo-motor"
+  ],
+  "featured_image": "/img/articulos/testigo-testigo-presion-neumaticos.webp"
+}
