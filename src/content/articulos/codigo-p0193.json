@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0193",
+  "name": "Sensor de presión del raíl de combustible: señal alta",
+  "datePublished": "2026-10-21",
+  "dateModified": "2026-10-21",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0193: causas, síntomas y solución",
+    "meta_description": "P0193: el sensor de presión del raíl envía una señal demasiado alta. Causas (sensor, cableado, regulador), síntomas y cómo comprobarlo en diésel common-rail.",
+    "slug": "p0193"
+  },
+  "content_html": "<h1>Código P0193: Sensor de presión del raíl de combustible: señal alta</h1>\n<p class=\"intro\">El código P0193 indica que el circuito del sensor de presión del raíl de combustible envía a la centralita una tensión demasiado alta, es decir, un valor de presión que no es creíble. Se da sobre todo en diésel common-rail y en gasolina de inyección directa. Antes de culpar a la bomba, hay que comprobar el sensor y su cableado, porque un cortocircuito a positivo da la misma señal que una presión excesiva.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: puede activar el modo de emergencia o impedir el arranque</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sensor de presión del raíl, cableado, regulador de presión, centralita</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>60–250 € (sensor) · 20–80 € si es el conector o el cableado, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido y modo de emergencia.</li><li>Arranque difícil o motor que no arranca.</li><li>Pérdida de potencia y tirones.</li><li>Ralentí inestable o motor que se cala.</li><li>Presión del raíl en datos en vivo con valores absurdos o fijos.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor de presión del raíl defectuoso.</li><li>Cortocircuito a positivo en el cable de señal.</li><li>Conector con humedad o terminales sulfatados.</li><li>Cable de masa del sensor cortado, que sube la señal.</li><li>Presión real excesiva por fallo del regulador o de la válvula dosificadora.</li><li>Fallo de alimentación de 5 V de la centralita.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y los datos congelados. Si aparecen también P0087 o P0089, la presión real puede estar fuera de rango y no solo la señal.</li><li>Con el contacto puesto y el motor parado, mira en datos en vivo la presión del raíl: debe ser casi cero. Un valor alto fijo apunta al sensor o al circuito.</li><li>Desconecta el sensor con el contacto puesto. Si la lectura baja a un valor de fallo bajo, el cableado hasta la centralita está bien.</li><li>Revisa el conector y el cableado: humedad, roces, cables pelados o terminales sulfatados.</li><li>Mide con el multímetro la alimentación de 5 V y la masa en el conector, según el manual.</li><li>Comprueba que no haya una presión real excesiva: observa la presión en marcha y la actuación del regulador con el escáner.</li><li>Sustituye el sensor solo si el cableado y la presión real son correctos. En alta presión, trabaja siempre con el sistema despresurizado.</li><li>Borra los códigos y haz una prueba de carretera.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿P0193 significa que la presión del raíl es demasiado alta?",
+      "answer": "No necesariamente. Significa que la señal del sensor es demasiado alta, lo que puede deberse a un cortocircuito o a un sensor defectuoso, no a una presión real alta. Hay que comprobarlo con datos en vivo con el motor parado."
+    },
+    {
+      "question": "¿Se puede circular con P0193?",
+      "answer": "Con el modo de emergencia puedes llegar al taller. Sin lectura fiable de presión, la centralita limita la inyección y puede calarse el motor."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0193?",
+      "answer": "Un sensor cuesta entre 60 y 250 € con montaje. Si es un conector o un cable, de 20 a 80 €, según modelo."
+    }
+  ],
+  "products": [
+    "multímetro digital automotriz",
+    "escáner obd2 bluetooth elm327",
+    "spray limpiador de contactos eléctricos"
+  ],
+  "related": [
+    "p0087",
+    "p0089",
+    "p0101"
+  ],
+  "featured_image": "/img/articulos/codigo-p0193.webp"
+}

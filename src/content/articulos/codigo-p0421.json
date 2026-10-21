@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0421",
+  "name": "Eficiencia del catalizador en calentamiento (banco 1)",
+  "datePublished": "2026-10-21",
+  "dateModified": "2026-10-21",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0421: causas, síntomas y solución",
+    "meta_description": "P0421: el catalizador no alcanza la eficiencia esperada durante el calentamiento. En qué se diferencia de P0420 y qué comprobar antes de cambiarlo.",
+    "slug": "p0421"
+  },
+  "content_html": "<h1>Código P0421: Eficiencia del catalizador en calentamiento (banco 1)</h1>\n<p class=\"intro\">El código P0421 indica que la eficiencia del catalizador del banco 1 es insuficiente durante la fase de calentamiento, tras un arranque en frío. Se parece a P0420, pero la centralita evalúa el catalizador en otro momento, justo cuando debería estar subiendo de temperatura. Por eso conviene revisar sondas, fugas de escape y mezcla antes de pensar que el catalizador está agotado.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: no afecta a la conducción, pero sube las emisiones y puede impedir la ITV</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Catalizador, sondas lambda, escape, mezcla de combustible</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>80–300 € (sonda) · 300–1.200 € (catalizador), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro, detector de fugas de escape</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Consumo algo mayor en trayectos cortos.</li><li>Emisiones superiores en la ITV.</li><li>Olor a huevo podrido en los primeros minutos.</li><li>A veces sin otros síntomas apreciables.</li></ul>\n<h2>Causas principales</h2><ul><li>Catalizador envejecido o con el recubrimiento deteriorado.</li><li>Sonda lambda posterior que lee de forma lenta.</li><li>Sonda lambda anterior con respuesta degradada.</li><li>Fuga en el escape antes o junto al catalizador.</li><li>Mezcla incorrecta o fallos de encendido que contaminan el catalizador.</li><li>Uso casi exclusivo en trayectos cortos, que impide que se caliente.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y los datos congelados. Si hay fallos de encendido, mezcla pobre o rica, resuélvelos primero: pueden dañar el catalizador.</li><li>Revisa el escape entre el colector y el catalizador buscando fugas, juntas rotas o tornillos flojos.</li><li>Con el motor caliente, mira en datos en vivo las dos sondas lambda. La anterior debe oscilar con rapidez; la posterior, mantenerse estable y alta.</li><li>Si la posterior oscila casi como la anterior, el catalizador ha perdido eficiencia. Si no, sospecha de una sonda lenta.</li><li>Mide la temperatura del catalizador a la entrada y a la salida con un termómetro infrarrojo: la salida debe ser más caliente que la entrada.</li><li>Haz un trayecto largo a velocidad estable, de unos 20 minutos, para que el catalizador alcance temperatura y quemar depósitos antes de sustituirlo.</li><li>Si se confirma que está agotado, cámbialo por uno homologado y, si hace falta, sustituye también las sondas.</li><li>Borra los códigos y completa varios ciclos de conducción para que la centralita valide los monitores.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0420 y P0421?",
+      "answer": "Ambos indican baja eficiencia del catalizador del banco 1, pero P0421 se evalúa durante la fase de calentamiento y P0420 con el catalizador ya caliente. La causa de fondo suele ser similar: catalizador, sondas o fugas."
+    },
+    {
+      "question": "¿Se puede circular con P0421?",
+      "answer": "Sí, no afecta a la marcha. Aumenta las emisiones y puede impedir pasar la ITV, y un fallo de fondo sin corregir puede acabar dañando el catalizador."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0421?",
+      "answer": "Una sonda cuesta entre 80 y 300 € con montaje. Un catalizador nuevo, entre 300 y 1.200 €, según modelo."
+    }
+  ],
+  "products": [
+    "sonda lambda universal",
+    "termómetro infrarrojo para automoción",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0420",
+    "p0130",
+    "p0135"
+  ],
+  "featured_image": "/img/articulos/codigo-p0421.webp"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0441",
+  "name": "Flujo de purga del EVAP incorrecto",
+  "datePublished": "2026-10-21",
+  "dateModified": "2026-10-21",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0441: causas, síntomas y solución",
+    "meta_description": "P0441: el flujo de purga del sistema EVAP no es el esperado. Causas (válvula de purga, cánister, mangueras), síntomas y cómo comprobar la válvula.",
+    "slug": "p0441"
+  },
+  "content_html": "<h1>Código P0441: Flujo de purga del EVAP incorrecto</h1>\n<p class=\"intro\">El código P0441 indica que el flujo de purga del sistema EVAP, es decir, la cantidad de vapores de combustible que el cánister envía al motor para quemarlos, no es la que la centralita espera. A diferencia de los códigos de fuga P0442, P0455 y P0456, aquí no se detecta una fuga, sino un caudal incorrecto: la válvula de purga puede estar atascada abierta o cerrada, o un conducto obstruido.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: puede afectar al ralentí y al arranque tras repostar</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>EVAP, válvula de purga, cánister, conductos</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–120 € (válvula de purga) · 100–400 € (cánister), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con test de actuadores, bomba de vacío manual, multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Ralentí inestable o motor que se cala justo después de repostar.</li><li>Arranque difícil tras llenar el depósito.</li><li>Olor a gasolina en el compartimento del motor.</li><li>Mezcla algo enriquecida en datos en vivo a ciertas horas.</li></ul>\n<h2>Causas principales</h2><ul><li>Válvula de purga atascada abierta, que deja pasar vapores de forma continua.</li><li>Válvula de purga atascada cerrada o con poca apertura.</li><li>Manguera de purga obstruida, aplastada o desconectada.</li><li>Cánister de carbón activo saturado de combustible.</li><li>Cableado o conector de la válvula de purga con falsos contactos.</li><li>Filtro del cánister obstruido.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos del EVAP y comprueba si aparecen también P0442, P0455 o P0456: indican si hay además una fuga.</li><li>Localiza la válvula de purga cerca del colector de admisión o del cánister y revisa su conector y las mangueras.</li><li>Activa la válvula con el test de actuadores del escáner: debe sentirse un chasquido y verse un cambio en el régimen de ralentí.</li><li>Desconecta la manguera de la válvula hacia el motor y aplica vacío con la bomba manual. Con la válvula sin corriente, debe mantener el vacío.</li><li>Si mantiene el vacío sin corriente y, con corriente, deja pasar aire, la válvula funciona. Si pierde vacío sin corriente, está atascada abierta.</li><li>Comprueba con el multímetro la resistencia de la bobina de la válvula, según el manual.</li><li>Revisa las mangueras del cánister por aplastamientos o restos de combustible líquido, señal de cánister saturado.</li><li>Sustituye la válvula o el cánister afectado, borra los códigos y haz un ciclo de conducción completo.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0441 y P0442?",
+      "answer": "P0442 indica una fuga pequeña en el EVAP. P0441 indica que el flujo de purga es incorrecto, aunque no haya fuga. Suelen necesitar una comprobación de la válvula de purga, no una prueba de humo."
+    },
+    {
+      "question": "¿Se puede circular con P0441?",
+      "answer": "Sí. Puede notarse un ralentí algo irregular tras repostar, pero no suele afectar a la seguridad. Conviene arreglarlo antes de la ITV."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0441?",
+      "answer": "Una válvula de purga cuesta entre 30 y 120 € con montaje. Si hay que cambiar el cánister, entre 100 y 400 €, según modelo."
+    }
+  ],
+  "products": [
+    "válvula de purga EVAP",
+    "bomba de vacío manual para automoción",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0442",
+    "p0455",
+    "p0456"
+  ],
+  "featured_image": "/img/articulos/codigo-p0441.webp"
+}

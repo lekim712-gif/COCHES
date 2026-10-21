@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0562",
+  "name": "Tensión del sistema eléctrico baja",
+  "datePublished": "2026-10-21",
+  "dateModified": "2026-10-21",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0562: causas, síntomas y solución",
+    "meta_description": "P0562: la tensión del sistema eléctrico es demasiado baja. Causas (alternador, batería, correa, masas), síntomas y cómo medir la carga con un multímetro.",
+    "slug": "p0562"
+  },
+  "content_html": "<h1>Código P0562: Tensión del sistema eléctrico baja</h1>\n<p class=\"intro\">El código P0562 indica que la centralita mide una tensión del sistema eléctrico inferior a la normal con el motor en marcha, normalmente por debajo de unos 11 voltios. Casi siempre es un problema de carga: alternador, correa, batería o conexiones. La tensión baja provoca fallos en cadena en sensores y módulos, por eso este código aparece a menudo junto a otros avisos aparentemente sin relación.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: puede dejarte sin batería y generar fallos eléctricos en cadena</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Batería, alternador, correa de accesorios, masas y cableado</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–30 € (terminales o masa) · 80–400 € (alternador), 60–180 € (batería), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Multímetro, tester de batería, linterna</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido y, a menudo, testigo de la batería.</li><li>Luces que parpadean o pierden intensidad, sobre todo al ralentí.</li><li>Arranque lento o imposible con la batería descargada.</li><li>Fallos eléctricos aleatorios: radio, elevalunas, cuadro de mandos.</li><li>Códigos de comunicación entre módulos.</li></ul>\n<h2>Causas principales</h2><ul><li>Alternador que no carga lo suficiente.</li><li>Correa de accesorios destensada o desgastada, que patina.</li><li>Batería envejecida o con una celda muerta.</li><li>Terminales de batería flojos o sulfatados.</li><li>Masa del motor o de la carrocería corroída.</li><li>Consumo parásito o accesorios que sobrecargan el sistema.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y comprueba si aparecen más códigos de tensión o de comunicación: ayudan a confirmar el problema eléctrico.</li><li>Mide la tensión de la batería en reposo: debe rondar los 12,4–12,7 V. Por debajo de 12 V está muy descargada.</li><li>Arranca y mide con el motor al ralentí: el alternador debe dar entre 13,5 y 14,7 V. Si sigue en torno a 12 V, no carga.</li><li>Enciende luces, ventilador y luneta térmica y mide de nuevo: la tensión no debe caer por debajo de unos 13 V.</li><li>Inspecciona la correa de accesorios: grietas, desgaste, brillo, y comprueba su tensión.</li><li>Revisa y aprieta los terminales de la batería y las masas del motor; limpia el óxido.</li><li>Haz una prueba de la batería con un tester: si la capacidad es baja, cámbiala.</li><li>Si todo es correcto y no carga, revisa el regulador y el alternador en un taller, borra los códigos y vuelve a medir.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué tensión debe dar el alternador?",
+      "answer": "Con el motor en marcha, entre unos 13,5 y 14,7 voltios. Si mides alrededor de 12 V o menos, el alternador no está cargando bien."
+    },
+    {
+      "question": "¿Se puede circular con P0562?",
+      "answer": "Con poca batería el coche puede dejarte parado en cualquier momento. Si hay luz de batería encendida, ve directamente al taller."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0562?",
+      "answer": "Una masa o un terminal, de 0 a 30 €. Una batería, entre 60 y 180 €. Un alternador, entre 80 y 400 €, según modelo."
+    }
+  ],
+  "products": [
+    "tester de batería de coche",
+    "multímetro digital automotriz",
+    "correa de accesorios para coche"
+  ],
+  "related": [
+    "testigo-bateria",
+    "p0606",
+    "p0500"
+  ],
+  "featured_image": "/img/articulos/codigo-p0562.webp"
+}

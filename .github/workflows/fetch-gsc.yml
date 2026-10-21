@@ -2,7 +2,7 @@ name: Datos de Search Console
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 5 * * 1,4'   # antes de la rutina de publicación
+    - cron: '30 5 * * *'   # a diario, antes de la rutina de publicación
 permissions:
   contents: write
 jobs:

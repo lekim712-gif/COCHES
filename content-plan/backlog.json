@@ -12,12 +12,14 @@
   "P0089",
   "P0100",
   "P0101",
+  "P0104",
   "P0106",
   "P0113",
   "P0130",
   "P0135",
   "P0171",
   "P0172",
+  "P0193",
   "P0234",
   "P0235",
   "P0236",
@@ -33,10 +35,13 @@
   "P0401",
   "P0402",
   "P0420",
+  "P0421",
+  "P0441",
   "P0442",
   "P0455",
   "P0456",
   "P0500",
+  "P0562",
   "P0571",
   "P0606",
   "P0638",
@@ -46,32 +51,12 @@
  ],
  "codigos": [
   [
-   "P0193",
-   "Sensor de presión del raíl de combustible: señal alta"
-  ],
-  [
-   "P0104",
-   "Circuito intermitente del sensor MAF"
-  ],
-  [
    "P0183",
    "Sensor de temperatura del combustible: señal alta"
   ],
   [
    "P0110",
    "Circuito del sensor de temperatura del aire de admisión"
-  ],
-  [
-   "P0441",
-   "Flujo de purga del EVAP incorrecto"
-  ],
-  [
-   "P0562",
-   "Tensión del sistema baja"
-  ],
-  [
-   "P0421",
-   "Eficiencia del catalizador en calentamiento (banco 1)"
   ],
   [
    "P0322",
@@ -228,14 +213,6 @@
   [
    "guia-cambio-filtro-habitaculo",
    "Cambio del filtro de habitáculo paso a paso"
-  ],
-  [
-   "guia-comprobar-nivel-refrigerante",
-   "Cómo comprobar el nivel del refrigerante del motor"
-  ],
-  [
-   "guia-cambio-bujias",
-   "Cambio de bujías paso a paso"
   ],
   [
    "guia-limpiar-caudalimetro-maf",

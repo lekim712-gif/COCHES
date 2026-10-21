@@ -60,3 +60,7 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - 50 fichas publicadas. Lote del día: P0243, P0236, P0571, P0638, P0500; testigos presión de neumáticos, precalentamiento diésel y AdBlue; guías borrar códigos OBD2 y cambio del filtro de aire — pendientes de revisión técnica por Carlos.
 - Search Console: el testigo del filtro de partículas es la página con más impresiones (23); los testigos tienen demanda.
 - Rutina diaria: 10 fichas con mezcla de tipos (códigos, testigos, guías, marca).
+
+## Actualización 21/10/2026
+- 60 fichas publicadas. Lote del día: P0193, P0104, P0441, P0562, P0421; testigos EPC, nivel de aceite y mantenimiento (llave inglesa); guías comprobar refrigerante y cambio de bujías — pendientes de revisión técnica por Carlos.
+- Descarga de datos de Search Console ahora diaria. Backlog: 35 códigos, 3 guías y los 4 testigos de seguridad (sin escribir).

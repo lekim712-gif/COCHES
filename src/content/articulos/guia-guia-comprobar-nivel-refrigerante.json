@@ -1,0 +1,39 @@
+{
+  "type": "guia",
+  "name": "Cómo comprobar el nivel del refrigerante del motor",
+  "datePublished": "2026-10-21",
+  "dateModified": "2026-10-21",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Cómo comprobar el nivel del refrigerante del motor",
+    "meta_description": "Cómo comprobar y rellenar el nivel del refrigerante del motor con seguridad: cuándo hacerlo, qué líquido usar y las precauciones con el motor caliente.",
+    "slug": "guia-comprobar-nivel-refrigerante"
+  },
+  "content_html": "<h1>Cómo comprobar el nivel del refrigerante del motor</h1>\n<p class=\"intro\">El refrigerante evita que el motor se sobrecaliente y se congele el circuito en invierno. Comprobar su nivel lleva unos minutos y evita averías caras, como una junta de culata dañada. La regla de seguridad principal es no abrir nunca el tapón con el motor caliente, porque el líquido sale a presión y puede causar quemaduras graves.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja si se hace con el motor frío; alta si se abre el tapón en caliente</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Circuito de refrigeración, vaso de expansión</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–25 € el bidón de refrigerante</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Linterna, refrigerante del tipo indicado por el fabricante, embudo, guantes</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Aparca el coche en un lugar llano y deja que el motor se enfríe por completo, al menos 30 minutos tras haber circulado.</li><li>Abre el capó y localiza el vaso de expansión, un depósito de plástico translúcido con marcas de mínimo y máximo.</li><li>Mira el nivel a través del plástico, con una linterna si hace falta. Debe quedar entre las marcas de mínimo y máximo, con el motor frío.</li><li>No abras nunca el tapón con el motor caliente: el circuito está presurizado y el líquido puede salir a más de 100 °C.</li><li>Si el nivel está por debajo del mínimo, abre el tapón con el motor frío, girándolo despacio para liberar la presión.</li><li>Rellena con el refrigerante del tipo que indica el manual, sin mezclar tipos de colores distintos, hasta la marca de máximo.</li><li>Cierra el tapón con firmeza y arranca el motor unos minutos. Comprueba que no hay fugas y que el nivel se mantiene.</li><li>Si tienes que rellenar con frecuencia, busca la fuga: manchas bajo el coche, manguitos húmedos o el radiador. Puede haber una junta de culata dañada si hay humo blanco o aceite lechoso.</li><li>Con el sistema abierto, en climas fríos, comprueba también la protección anticongelante con un densímetro.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué refrigerante debo usar?",
+      "answer": "El que indique el manual de tu coche, por tipo y especificación. No mezcles refrigerantes de distinto tipo, porque pueden gelificar y obstruir el circuito."
+    },
+    {
+      "question": "¿Se puede usar agua en lugar de refrigerante?",
+      "answer": "Solo en una emergencia para llegar al taller. El agua sola no protege contra la congelación ni contra la corrosión, y hay que sustituirla pronto por refrigerante."
+    },
+    {
+      "question": "¿Cada cuánto hay que comprobar el nivel?",
+      "answer": "Una vez al mes y antes de los viajes largos. Si baja con frecuencia, hay una fuga que conviene localizar."
+    }
+  ],
+  "products": [
+    "refrigerante anticongelante para coche",
+    "embudo para refrigerante",
+    "comprobador de presión del sistema de refrigeración"
+  ],
+  "related": [
+    "testigo-temperatura-refrigerante",
+    "testigo-motor"
+  ],
+  "featured_image": "/img/articulos/guia-guia-comprobar-nivel-refrigerante.webp"
+}

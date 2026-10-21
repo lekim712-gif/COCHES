@@ -1,0 +1,39 @@
+{
+  "type": "testigo",
+  "name": "Testigo de mantenimiento (llave inglesa): significado y qué hacer",
+  "datePublished": "2026-10-21",
+  "dateModified": "2026-10-21",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo de mantenimiento, llave inglesa: qué hacer",
+    "meta_description": "Testigo de mantenimiento con una llave inglesa: qué significa, en qué se diferencia de un fallo y cómo resetear el aviso de revisión tras el servicio.",
+    "slug": "testigo-mantenimiento"
+  },
+  "content_html": "<h1>Testigo de mantenimiento (llave inglesa): significado y qué hacer</h1>\n<p class=\"intro\">El testigo de mantenimiento, normalmente una llave inglesa o la palabra SERVICE, no indica una avería: avisa de que toca la revisión programada por kilómetros o por tiempo. Se enciende al dar el contacto, a veces con los kilómetros que faltan. Si la llave aparece en rojo o junto al testigo de motor, puede haber un fallo, no solo un aviso de revisión.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: es un aviso de revisión programada, no una avería</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Aviso de mantenimiento periódico del cuadro de instrumentos</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0 € (resetear el aviso) · 100–300 € (servicio de mantenimiento), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Manual del vehículo, escáner OBD2 o botón de reset del cuadro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Llave inglesa o mensaje SERVICE en el cuadro de mandos.</li><li>Aviso con los kilómetros o los días restantes hasta la revisión.</li><li>Aviso que reaparece cada vez que arrancas.</li><li>Testigo en ámbar, sin otros testigos de avería.</li><li>Mensaje en la pantalla del cuadro: «Revisión pendiente».</li></ul>\n<h2>Causas principales</h2><ul><li>Se ha alcanzado el intervalo de kilómetros programado.</li><li>Ha pasado el tiempo máximo entre revisiones, normalmente un año.</li><li>El aviso no se reseteó tras la última revisión.</li><li>Cambio de aceite o de filtros pendiente según el plan del fabricante.</li><li>Un fallo real detectado que se indica con la llave inglesa en rojo.</li><li>Batería desconectada que ha alterado el contador.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Mira el color y el mensaje: ámbar o con kilómetros restantes suele ser un simple aviso de revisión. Rojo, o con otros testigos, merece más atención.</li><li>Consulta el plan de mantenimiento de tu manual: normalmente cambio de aceite y filtros y comprobaciones cada 15.000–30.000 km o un año.</li><li>Revisa el libro de mantenimiento y comprueba qué se hizo en la última revisión.</li><li>Realiza el servicio en un taller o por tu cuenta si tienes los conocimientos, siguiendo siempre el manual.</li><li>Tras el servicio, resetea el aviso con el procedimiento de tu modelo: normalmente con el contacto puesto, manteniendo pulsado un botón del cuadro o a través del menú del ordenador de a bordo.</li><li>Si no sabes cómo resetear, un escáner OBD2 con función de reset de servicio puede hacerlo.</li><li>Comprueba que el aviso se apaga y que los kilómetros hasta la próxima revisión se han reiniciado.</li><li>Si la llave aparece en rojo o junto a otros testigos, lee los códigos de avería para descartar un fallo real.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa la llave inglesa en el cuadro de mandos?",
+      "answer": "Normalmente es el aviso de mantenimiento: indica que toca la revisión programada. No es una avería. En algunos coches, una llave en rojo sí indica un fallo del motor o de la transmisión."
+    },
+    {
+      "question": "¿Cómo se apaga el aviso de revisión?",
+      "answer": "Depende del modelo: con el contacto puesto y un botón del cuadro, desde el menú del ordenador de a bordo o con un escáner que haga el reset de servicio. El manual de tu coche indica el procedimiento."
+    },
+    {
+      "question": "¿Qué pasa si ignoro el aviso de mantenimiento?",
+      "answer": "El coche seguirá funcionando, pero retrasar el cambio de aceite y los filtros acelera el desgaste y puede anular la garantía."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "filtro de aceite para coche",
+    "aceite de motor 5W30"
+  ],
+  "related": [
+    "testigo-motor",
+    "testigo-nivel-aceite"
+  ],
+  "featured_image": "/img/articulos/testigo-testigo-mantenimiento.webp"
+}

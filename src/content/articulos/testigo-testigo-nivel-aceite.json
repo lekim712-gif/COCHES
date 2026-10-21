@@ -1,0 +1,39 @@
+{
+  "type": "testigo",
+  "name": "Testigo de nivel de aceite: significado y qué hacer",
+  "datePublished": "2026-10-21",
+  "dateModified": "2026-10-21",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo de nivel de aceite: qué significa y qué hacer",
+    "meta_description": "Testigo de nivel de aceite encendido: en qué se diferencia del de presión de aceite, cómo comprobar la varilla y cuánto aceite añadir.",
+    "slug": "testigo-nivel-aceite"
+  },
+  "content_html": "<h1>Testigo de nivel de aceite: significado y qué hacer</h1>\n<p class=\"intro\">El testigo de nivel de aceite, una aceitera con una línea ondulada, avisa de que el aceite del motor está por debajo del mínimo. No es lo mismo que el testigo de presión de aceite, que es rojo y indica un problema urgente. Si el de nivel se enciende en ámbar, el motor sigue funcionando, pero hay que rellenar pronto y comprobar si el coche consume o pierde aceite.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: se puede circular, pero un nivel muy bajo daña el motor</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Lubricación del motor, sensor de nivel, cárter</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–30 € (aceite) · más si hay una fuga o un sensor averiado, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Paño limpio, aceite de la especificación del fabricante, embudo</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo ámbar con aceitera y línea ondulada, o mensaje de nivel de aceite bajo.</li><li>Varilla con el nivel por debajo del mínimo.</li><li>Consumo de aceite mayor de lo normal entre cambios.</li><li>Humo azulado por el escape en algunos casos.</li><li>Manchas de aceite bajo el coche si hay una fuga.</li></ul>\n<h2>Causas principales</h2><ul><li>Consumo normal de aceite acumulado entre cambios.</li><li>Fuga por retenes, junta de tapa de balancines o cárter.</li><li>Consumo anormal por segmentos o guías de válvula desgastados.</li><li>Sensor de nivel defectuoso, que da falsos avisos.</li><li>Último cambio de aceite con poca cantidad.</li><li>Turbo con fuga interna de aceite.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Para el coche en un lugar llano, apaga el motor y espera unos 5 minutos a que el aceite baje al cárter.</li><li>Saca la varilla, límpiala con un paño, vuelve a introducirla hasta el fondo y sácala de nuevo para leer el nivel.</li><li>Si el nivel está en el mínimo o por debajo, añade aceite de la especificación indicada en el manual, en pequeñas cantidades, de 0,25 a 0,5 litros cada vez.</li><li>Espera unos minutos y comprueba otra vez la varilla; no superes la marca de máximo.</li><li>Mira bajo el coche por manchas de aceite y revisa el motor por fugas visibles.</li><li>Anota cuántos kilómetros pasan hasta el siguiente aviso: un consumo de más de un litro cada 1.000 km merece revisión.</li><li>Si el testigo sigue encendido con el nivel correcto, puede haber un sensor de nivel defectuoso.</li><li>Si el nivel baja de forma rápida o aparece el testigo rojo de presión, no circules: llama a una grúa.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre el testigo de nivel y el de presión de aceite?",
+      "answer": "El de nivel suele ser ámbar y avisa de poco aceite. El de presión es rojo y avisa de que la presión de lubricación es insuficiente, una emergencia que obliga a parar el motor."
+    },
+    {
+      "question": "¿Cuánto aceite puedo añadir?",
+      "answer": "Hasta la marca de máximo de la varilla, sin pasarte. Añade poco a poco: un exceso también perjudica al motor."
+    },
+    {
+      "question": "¿Se puede circular con el testigo de nivel de aceite?",
+      "answer": "Sí, para llegar a un sitio donde rellenar. No conviene seguir circulando mucho tiempo con el nivel bajo."
+    }
+  ],
+  "products": [
+    "aceite de motor 5W30",
+    "embudo para aceite de motor",
+    "paños de taller"
+  ],
+  "related": [
+    "testigo-presion-aceite",
+    "testigo-motor"
+  ],
+  "featured_image": "/img/articulos/testigo-testigo-nivel-aceite.webp"
+}

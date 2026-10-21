@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Cambio de bujías paso a paso",
+  "datePublished": "2026-10-21",
+  "dateModified": "2026-10-21",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Cambio de bujías paso a paso: guía y precauciones",
+    "meta_description": "Cómo cambiar las bujías de un motor de gasolina: cuándo toca, herramientas necesarias, el par de apriete y cómo evitar roscas dañadas.",
+    "slug": "guia-cambio-bujias"
+  },
+  "content_html": "<h1>Cambio de bujías paso a paso</h1>\n<p class=\"intro\">Las bujías encienden la mezcla en cada cilindro de los motores de gasolina, y con el tiempo se desgastan: el motor pierde potencia, consume más y falla al arrancar. Cambiarlas es un trabajo asumible en casa si se hace con orden, con el motor frío y con el par de apriete correcto. Un apriete excesivo puede dañar la rosca de la culata.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: un error de apriete puede dañar la culata</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Encendido, bujías, culata, bobinas</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>15–60 € el juego de bujías; 1–2 horas de trabajo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Llave de bujías, llave dinamométrica, extensión, calibre de galgas, grasa de cobre antiagarrotamiento</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Consulta en el manual el intervalo de cambio, que suele estar entre 30.000 y 100.000 km según el tipo de bujía, y la referencia exacta.</li><li>Trabaja siempre con el motor completamente frío para no dañar la rosca de aluminio de la culata.</li><li>Desconecta la batería, retira la cubierta del motor y localiza las bobinas o los cables de las bujías.</li><li>Saca las bobinas o cables de uno en uno, para no mezclar el orden de los cilindros.</li><li>Sopla o aspira el pozo de la bujía para que no caiga suciedad en el cilindro al retirarla.</li><li>Desmonta la bujía con la llave y la extensión, girando con suavidad. Si se resiste, aplica un poco de lubricante penetrante y espera.</li><li>Revisa la bujía vieja: el color y el estado de los electrodos aportan datos de cómo funciona el motor.</li><li>Comprueba la separación de los electrodos de la bujía nueva con un calibre de galgas y ajústala solo si el manual lo indica.</li><li>Enrosca la bujía nueva a mano al principio para no dañar la rosca y aprieta con la llave dinamométrica al par que indica el fabricante.</li><li>Coloca de nuevo la bobina o el cable, conecta la batería y arranca el motor: debe funcionar suave y sin fallos de encendido.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cada cuánto hay que cambiar las bujías?",
+      "answer": "Depende del tipo: las de níquel, unos 30.000 km; las de platino o iridio, entre 60.000 y 100.000 km. El manual de tu coche indica el intervalo exacto."
+    },
+    {
+      "question": "¿Qué pasa si no cambio las bujías?",
+      "answer": "El motor pierde potencia, aumenta el consumo y pueden aparecer fallos de encendido, como P0301. Una bujía en mal estado también estropea las bobinas y el catalizador."
+    },
+    {
+      "question": "¿Necesito llave dinamométrica?",
+      "answer": "Es muy recomendable. Un apriete insuficiente deja la bujía floja y uno excesivo puede dañar la rosca de la culata, una reparación cara."
+    }
+  ],
+  "products": [
+    "juego de bujías",
+    "juego de llaves de bujías",
+    "llave dinamométrica para coche",
+    "grasa de cobre antiagarrotamiento"
+  ],
+  "related": [
+    "p0301",
+    "p0300"
+  ],
+  "featured_image": "/img/articulos/guia-guia-cambio-bujias.webp"
+}
