@@ -35,5 +35,7 @@
     "testigo-motor",
     "testigo-nivel-aceite"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-mantenimiento.webp"
+  "featured_image": "/img/articulos/testigo-testigo-mantenimiento.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-21"
 }
