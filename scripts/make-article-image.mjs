@@ -45,6 +45,8 @@ const ICONS = {
   egr: `<path d="M150 62 A58 58 0 1 0 158 112" ${A}/><path d="M156 36 L150 66 L120 62" ${A}/><circle cx="100" cy="100" r="18" ${A}/><path d="M100 82 V118 M82 100 H118" ${L}/>`,
   // sensor
   sensor: `<rect x="70" y="100" width="60" height="58" rx="8" ${A}/><path d="M85 100 V74 H115 V100" ${A}/><path d="M100 158 V188" ${A}/><path d="M74 54 a38 38 0 0 1 52 0 M60 38 a58 58 0 0 1 80 0" ${L}/>`,
+  // llave inglesa / mantenimiento
+  llave: `<path d="M150 30 a38 38 0 0 0 -46 52 L36 150 a18 18 0 0 0 26 26 L130 108 a38 38 0 0 0 52 -46 L152 92 L128 68 Z" ${A}/><circle cx="50" cy="162" r="6" fill="${AMBER}"/>`,
   // red CAN / comunicaciones
   red: `<path d="M20 100 H180" ${A}/><circle cx="46" cy="52" r="16" ${A}/><circle cx="100" cy="52" r="16" ${A}/><circle cx="154" cy="52" r="16" ${A}/><circle cx="46" cy="148" r="16" ${A}/><circle cx="154" cy="148" r="16" ${A}/><path d="M46 68 V100 M100 68 V100 M154 68 V100 M46 132 V100 M154 132 V100" ${L}/>`,
   // batería / carga
@@ -73,6 +75,7 @@ const ICONS = {
 
 /* ───────── Selección del pictograma por palabras clave ───────── */
 const RULES = [
+  [/mantenimiento|llave inglesa|revisión programada/i, 'llave'],
   [/partículas|dpf|fap/i, 'dpf'], [/egr|recirculaci/i, 'egr'], [/turbo|sobrealimentaci/i, 'turbo'],
   [/evap|vapores/i, 'deposito'], [/precalentamiento/i, 'bujia'], [/adblue|urea/i, 'combustible'],
   [/mezcla demasiado pobre|fuga de aire|admisi|caudalímetro|maf\b|map\b|mariposa|filtro de aire|filtro de habitáculo/i, 'admision'],
