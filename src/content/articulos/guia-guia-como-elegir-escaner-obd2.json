@@ -1,0 +1,39 @@
+{
+  "type": "guia",
+  "name": "Cómo elegir un escáner OBD2: qué mirar antes de comprar",
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-22",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Cómo elegir un escáner OBD2: guía de compra",
+    "meta_description": "Cómo elegir un escáner OBD2: diferencias entre lectores básicos, Bluetooth y profesionales, funciones que importan, compatibilidad y precios orientativos.",
+    "slug": "guia-como-elegir-escaner-obd2"
+  },
+  "content_html": "<h1>Cómo elegir un escáner OBD2: qué mirar antes de comprar</h1>\n<p class=\"intro\">Un escáner OBD2 sirve para leer los códigos de avería y ver datos del motor en vivo, pero hay desde lectores de 15 euros hasta equipos profesionales de cientos. La elección depende de qué marcas vas a diagnosticar y de si te basta con leer y borrar códigos o necesitas funciones avanzadas. Esta guía explica las diferencias y los criterios que importan antes de comprar.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: una mala compra solo cuesta dinero</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Diagnóstico OBD2, lectura de códigos y datos en vivo</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>Desde 15–40 € un lector Bluetooth básico · 100–500 € o más un equipo multimarca, según funciones</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Teléfono con la aplicación, o el propio equipo si es autónomo</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Define qué necesitas: si solo quieres leer y borrar códigos del motor, un lector básico basta. Si quieres ver ABS, airbag o cambio, necesitas uno con acceso a otros sistemas.</li><li>Comprueba la compatibilidad: todos los coches de gasolina desde 2001 y diésel desde 2004 en la UE tienen OBD2, pero las funciones extra dependen de la marca.</li><li>Decide el formato: los lectores Bluetooth o Wi-Fi funcionan con una aplicación en el teléfono; los autónomos tienen pantalla propia y no dependen del móvil.</li><li>Mira qué sistemas lee: motor, ABS, airbag, cambio, climatización. Cuantos más sistemas, más caro suele ser.</li><li>Revisa las funciones: datos en vivo, datos congelados, test de actuadores, reseteos de servicio, lectura de monitores de emisiones.</li><li>Comprueba qué aplicación usa y si cobra suscripción: algunas aplicaciones gratuitas limitan funciones.</li><li>Desconfía de los clones muy baratos de chips antiguos: pueden dar lecturas erróneas o desconectarse.</li><li>Lee opiniones de usuarios con tu marca de coche, y comprueba que el vendedor ofrece devolución.</li><li>Si vas a diagnosticar varias marcas con frecuencia, valora un equipo multimarca. Si solo usas tu coche, un lector Bluetooth fiable es suficiente.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre un escáner básico y uno profesional?",
+      "answer": "Los básicos leen y borran códigos del motor y muestran datos en vivo. Los profesionales acceden a más sistemas, hacen reseteos y adaptaciones, y permiten pruebas de actuadores. Cuestan bastante más."
+    },
+    {
+      "question": "¿Es seguro un lector Bluetooth barato?",
+      "answer": "En general sí, si es de calidad. Los clones muy baratos pueden fallar o dar lecturas incorrectas. Conviene elegir uno con buenas valoraciones."
+    },
+    {
+      "question": "¿Me sirve el mismo escáner para todos los coches?",
+      "answer": "Para leer códigos genéricos del motor, sí. Para funciones específicas de cada marca, puede hacer falta un equipo o una aplicación compatibles con ella."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "escáner obd2 profesional multimarca",
+    "alargador de cable obd2"
+  ],
+  "related": [
+    "guia-como-usar-escaner-obd2",
+    "guia-borrar-codigos-obd2"
+  ],
+  "featured_image": "/img/articulos/guia-guia-como-elegir-escaner-obd2.webp"
+}

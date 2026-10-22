@@ -64,3 +64,8 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 ## Actualización 21/10/2026
 - 60 fichas publicadas. Lote del día: P0193, P0104, P0441, P0562, P0421; testigos EPC, nivel de aceite y mantenimiento (llave inglesa); guías comprobar refrigerante y cambio de bujías — pendientes de revisión técnica por Carlos.
 - Descarga de datos de Search Console ahora diaria. Backlog: 35 códigos, 3 guías y los 4 testigos de seguridad (sin escribir).
+
+## Actualización 22/10/2026
+- 70 fichas publicadas. Lote del día: P0141, P0170, P0322, P0134, P0105; guías filtro de habitáculo, limpiar MAF, limpiar EGR, cómo elegir un escáner OBD2 y «el coche pierde potencia».
+- Ampliados con secciones nuevas (prevención y cuándo acudir al taller) los testigos de motor, batería, presión de aceite y filtro de partículas (eran los de menos texto y los de más impresiones). Al cambiar el contenido, pasan otra vez a «pendiente de revisión técnica» hasta nueva revisión de Carlos.
+- Search Console: 252 impresiones y 1 clic en el periodo; el testigo del filtro de partículas es la página con más impresiones (47, posición ~43).

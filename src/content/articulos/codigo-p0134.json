@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0134",
+  "name": "Sonda lambda anterior: sin actividad (banco 1)",
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-22",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0134: causas, síntomas y solución",
+    "meta_description": "P0134: la sonda lambda anterior no da señal de actividad. Cómo distinguir sonda muerta, cable abierto o fuga de escape, y qué medir en el conector.",
+    "slug": "p0134"
+  },
+  "content_html": "<h1>Código P0134: Sonda lambda anterior: sin actividad (banco 1)</h1>\n<p class=\"intro\">El código P0134 indica que la sonda lambda anterior del banco 1 no muestra actividad: su señal se queda fija en un valor medio y no oscila como lo haría una sonda sana. Suele significar un circuito abierto, una sonda agotada o una contaminación del elemento sensor. La centralita pasa entonces a gestionar la mezcla en bucle abierto y el consumo aumenta.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: se puede circular, con consumo y emisiones mayores</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sonda lambda anterior, cableado, escape</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>80–300 € (sonda) · 0–40 € si es el conector o el cableado, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Consumo de combustible mayor.</li><li>Marcha algo irregular en carga.</li><li>La sonda marca una tensión fija en datos en vivo, cerca de 0,45 V.</li><li>Mal resultado de emisiones en la ITV.</li></ul>\n<h2>Causas principales</h2><ul><li>Sonda lambda anterior agotada.</li><li>Circuito abierto: cable cortado o conector desconectado.</li><li>Contaminación del sensor por silicona, aceite o combustible con plomo.</li><li>Fuga de escape cerca de la sonda.</li><li>Calentador averiado que impide la lectura.</li><li>Fallo de la centralita en la entrada de la sonda.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y comprueba si hay también códigos del calentador, como P0135, que apuntan a un problema de la propia sonda.</li><li>Con el motor caliente y el escáner en datos en vivo, observa la tensión de la sonda anterior: debe oscilar con rapidez entre 0,1 y 0,9 V.</li><li>Si la tensión queda fija en torno a 0,45 V, la señal no llega: sospecha del circuito.</li><li>Revisa el conector y el cableado de la sonda: cables cortados, aislante fundido o terminales sulfatados.</li><li>Con el multímetro, mide continuidad del cable de señal hasta la centralita.</li><li>Busca fugas de escape antes de la sonda con el motor frío o con cuidado de no tocar piezas calientes.</li><li>Mira la punta de la sonda: si está blanquecina o con depósitos, está contaminada.</li><li>Sustituye la sonda y borra los códigos; confirma en datos en vivo que oscila con normalidad.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0130 y P0134?",
+      "answer": "P0130 indica un fallo del circuito de la sonda anterior. P0134 indica que la sonda no muestra actividad. En la práctica se diagnostican de forma parecida."
+    },
+    {
+      "question": "¿Se puede circular con P0134?",
+      "answer": "Sí, aunque el coche consuma más. Conviene repararlo pronto para no dañar el catalizador."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0134?",
+      "answer": "Una sonda nueva cuesta entre 80 y 300 € con montaje. Si es un cable o un conector, de 0 a 40 €, según modelo."
+    }
+  ],
+  "products": [
+    "sonda lambda universal",
+    "llave para sonda lambda",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0130",
+    "p0135",
+    "p0170"
+  ],
+  "featured_image": "/img/articulos/codigo-p0134.webp"
+}

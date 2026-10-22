@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0170",
+  "name": "Fallo del ajuste de combustible (banco 1)",
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-22",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0170: causas, síntomas y solución",
+    "meta_description": "P0170: la centralita no consigue corregir la mezcla del banco 1. Cómo distinguir mezcla pobre de rica con los ajustes de combustible y buscar la causa real.",
+    "slug": "p0170"
+  },
+  "content_html": "<h1>Código P0170: Fallo del ajuste de combustible (banco 1)</h1>\n<p class=\"intro\">El código P0170 indica que los ajustes de combustible del banco 1 han llegado a su límite: la centralita añade o quita combustible para mantener la mezcla correcta y ya no puede compensar más. Es un aviso genérico que no dice si la mezcla va pobre o rica. Para encontrar la causa hay que mirar los ajustes a corto y largo plazo en datos en vivo y comparar con P0171 o P0172.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: consumo mayor y riesgo para el catalizador si se mantiene</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Mezcla, admisión, inyección, sondas lambda</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–60 € (fuga o limpieza) · 80–400 € (inyectores, sonda o MAF), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, detector de fugas de humo, multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Consumo de combustible superior al habitual.</li><li>Ralentí inestable y tirones.</li><li>Olor a gasolina o, al contrario, falta de potencia.</li><li>Otros códigos de mezcla acompañando, como P0171 o P0172.</li></ul>\n<h2>Causas principales</h2><ul><li>Fuga de aire en la admisión que empobrece la mezcla.</li><li>Sensor MAF sucio o con lectura errónea.</li><li>Inyectores sucios o con goteo.</li><li>Presión de combustible baja o excesiva.</li><li>Sonda lambda anterior lenta o desviada.</li><li>Fuga en el escape que falsea la lectura de oxígeno.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee todos los códigos y los datos congelados. Si hay P0171 o P0172, ya sabes hacia qué lado se desvía la mezcla.</li><li>En datos en vivo, mira los ajustes de combustible a corto y largo plazo con el motor caliente al ralentí y a 2.500 rpm. Valores muy positivos indican mezcla pobre; muy negativos, rica.</li><li>Si el ajuste mejora al subir de régimen, sospecha de una fuga de aire. Si empeora con la carga, sospecha de falta de combustible.</li><li>Revisa los manguitos de admisión y haz una prueba de humo para localizar fugas.</li><li>Comprueba el estado del sensor MAF y límpialo con producto específico si está sucio.</li><li>Mide la presión de combustible con un manómetro y compárala con el valor del manual.</li><li>Revisa los inyectores: escúchalos con un estetoscopio y comprueba su resistencia.</li><li>Verifica la sonda lambda anterior y que no haya fugas de escape antes de ella.</li><li>Repara la causa, borra los códigos y comprueba que los ajustes vuelven a valores cercanos a cero.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué son los ajustes de combustible?",
+      "answer": "Son las correcciones que la centralita aplica a la inyección para mantener la mezcla ideal. A corto plazo reaccionan al instante; a largo plazo se «aprenden». Si llegan a su límite, aparece el código."
+    },
+    {
+      "question": "¿Se puede circular con P0170?",
+      "answer": "Sí, con más consumo y cuidando el motor. Una mezcla mal ajustada durante mucho tiempo puede dañar el catalizador."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0170?",
+      "answer": "Una fuga o un MAF sucio cuestan de 10 a 60 €. Sustituir inyectores o una sonda cuesta entre 80 y 400 €, según modelo."
+    }
+  ],
+  "products": [
+    "detector de fugas de humo automoción",
+    "limpiador de sensor MAF",
+    "manómetro de presión de combustible"
+  ],
+  "related": [
+    "p0171",
+    "p0172",
+    "p0101"
+  ],
+  "featured_image": "/img/articulos/codigo-p0170.webp"
+}

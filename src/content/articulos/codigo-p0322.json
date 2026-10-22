@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0322",
+  "name": "Sensor de régimen del motor: sin señal",
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-22",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0322: causas, síntomas y solución",
+    "meta_description": "P0322: la centralita no recibe señal del sensor de régimen del motor. Causas (sensor, cableado, volante), síntomas y cómo comprobar el sensor.",
+    "slug": "p0322"
+  },
+  "content_html": "<h1>Código P0322: Sensor de régimen del motor: sin señal</h1>\n<p class=\"intro\">El código P0322 indica que la centralita no recibe señal del sensor de régimen del motor, el que informa de las revoluciones. Sin esa señal, la inyección y el encendido no se pueden sincronizar y el motor puede no arrancar o pararse. En muchos coches ese sensor es el mismo del cigüeñal, y entonces el código se parece a P0335. Conviene comprobar el sensor, el cableado y la rueda fónica.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta: el motor puede no arrancar o pararse en marcha</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sensor de régimen o de cigüeñal, cableado, rueda fónica</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>40–180 € (sensor) · menos si es un conector, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, multímetro, osciloscopio (recomendado)</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>El motor da arranque pero no arranca, con el cuentarrevoluciones a cero.</li><li>Motor que se para de repente en marcha.</li><li>Arranque intermitente, sobre todo en caliente.</li><li>Testigo de motor encendido.</li><li>Cuentarrevoluciones que no se mueve o va a saltos.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor de régimen o de cigüeñal averiado.</li><li>Cable de señal cortado o con masa a chasis.</li><li>Conector sulfatado, con aceite o desajustado.</li><li>Rueda fónica dañada o con dientes faltantes.</li><li>Entrehierro entre sensor y rueda incorrecto.</li><li>Sensor recalentado que falla solo en caliente.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos: si también aparece P0335 o P0340, la causa puede estar en el cableado común o en la distribución.</li><li>Intenta arrancar y mira en datos en vivo si el escáner marca régimen durante el arranque. Si marca cero, no llega señal.</li><li>Inspecciona el sensor, su conector y su cableado: aceite, humedad, terminales sulfatados o roces con el motor.</li><li>Si falla solo en caliente, deja enfriar el motor y prueba de nuevo: un sensor que arranca en frío y falla en caliente es el candidato clásico.</li><li>Mide la resistencia del sensor, si es inductivo, y compárala con el valor del manual.</li><li>Con el multímetro, comprueba alimentación y masa si es de efecto Hall.</li><li>Retira el sensor y revisa su cabeza y la rueda fónica: dientes dañados o limaduras.</li><li>Sustituye el sensor, borra los códigos y comprueba que el motor arranca y el cuentarrevoluciones funciona.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cuál es la diferencia entre P0322 y P0335?",
+      "answer": "P0335 es el circuito del sensor del cigüeñal y P0322 el del régimen del motor. En muchos coches son el mismo sensor, y cada fabricante usa uno u otro código."
+    },
+    {
+      "question": "¿Se puede circular con P0322?",
+      "answer": "No es recomendable. El motor puede pararse en cualquier momento, también en marcha, con el riesgo que eso supone."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar P0322?",
+      "answer": "Un sensor nuevo cuesta entre 40 y 180 € con montaje. Si es un conector o un cable, suele ser más barato, según modelo."
+    }
+  ],
+  "products": [
+    "multímetro digital automotriz",
+    "escáner obd2 bluetooth elm327",
+    "spray limpiador de contactos eléctricos"
+  ],
+  "related": [
+    "p0335",
+    "p0340",
+    "p0341"
+  ],
+  "featured_image": "/img/articulos/codigo-p0322.webp"
+}

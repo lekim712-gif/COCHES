@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "El coche pierde potencia: causas y qué revisar",
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-22",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "El coche pierde potencia: causas y qué revisar",
+    "meta_description": "Tu coche pierde potencia o no acelera como antes: causas más habituales (turbo, filtros, sensores, inyección) y cómo diagnosticarlo paso a paso con un escáner.",
+    "slug": "guia-coche-pierde-potencia"
+  },
+  "content_html": "<h1>El coche pierde potencia: causas y qué revisar</h1>\n<p class=\"intro\">Cuando un coche pierde potencia, la causa casi siempre está en uno de tres sistemas: el aire que entra, el combustible que llega o el encendido. Un escáner OBD2 y una revisión ordenada permiten acotar el origen antes de gastar en piezas. Esta guía repasa las causas más habituales, de las más baratas a las más caras, y cuándo conviene acudir al taller.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: si hay modo de emergencia o fallos de motor, conviene no seguir circulando</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Aire, combustible, encendido, turbo, escape</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–60 € (filtros, limpieza) · 100–1.500 € (turbo, inyectores, catalizador), según la causa</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, manómetro de presión, detector de fugas, linterna</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Comprueba si hay testigo de motor encendido y lee los códigos con un escáner OBD2: son la mejor pista para empezar.</li><li>Mira el filtro de aire y su caja: un filtro muy obstruido limita el caudal y la potencia.</li><li>Revisa los manguitos de admisión y del intercooler en busca de grietas o abrazaderas sueltas; en turbo, una fuga de presión es una causa frecuente.</li><li>Con el escáner, comprueba el caudal de aire del MAF y la presión del turbo en una aceleración a fondo en carretera segura.</li><li>Revisa el combustible: filtro, presión y estado de los inyectores; un filtro saturado limita el caudal en carga.</li><li>En gasolina, revisa bujías y bobinas: los fallos de encendido restan potencia sin que siempre haya testigo.</li><li>Comprueba el escape: un catalizador o un filtro de partículas obstruidos ahogan al motor y pueden dar contrapresión.</li><li>Revisa la válvula EGR y la mariposa: si están atascadas o sucias, el motor responde mal.</li><li>Si el coche entra en modo de emergencia, no fuerces el motor: lleva el coche al taller con los códigos anotados.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué mi coche pierde potencia de repente?",
+      "answer": "Lo más habitual es el modo de emergencia, activado por un fallo detectado en turbo, sensores, mariposa o inyección. Un escáner OBD2 suele mostrar el código que lo ha provocado."
+    },
+    {
+      "question": "¿Puede ser el filtro de aire?",
+      "answer": "Sí, aunque normalmente su efecto es gradual. Un filtro muy obstruido reduce la entrada de aire y, con ella, la potencia y el consumo."
+    },
+    {
+      "question": "¿Se puede circular con el coche sin potencia?",
+      "answer": "Depende de la causa. Con modo de emergencia puedes llegar al taller conduciendo con suavidad. Si hay fallos de encendido graves o ruidos anómalos, es mejor no seguir."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "filtro de aire de motor",
+    "detector de fugas de humo automoción"
+  ],
+  "related": [
+    "p0299",
+    "p0101",
+    "guia-como-usar-escaner-obd2"
+  ],
+  "featured_image": "/img/articulos/guia-guia-coche-pierde-potencia.webp"
+}

@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Cómo limpiar el caudalímetro MAF",
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-22",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Cómo limpiar el caudalímetro MAF: guía paso a paso",
+    "meta_description": "Cómo limpiar el caudalímetro o sensor MAF sin dañarlo: cuándo hacerlo, qué producto usar y por qué no hay que tocar el elemento sensible.",
+    "slug": "guia-limpiar-caudalimetro-maf"
+  },
+  "content_html": "<h1>Cómo limpiar el caudalímetro MAF</h1>\n<p class=\"intro\">El sensor MAF o caudalímetro mide el aire que entra al motor y lo acumula con polvo y aceite con el tiempo. Un MAF sucio da lecturas bajas y provoca tirones, ralentí inestable y más consumo. Limpiarlo con un producto específico suele resolver estos síntomas, a condición de hacerlo con cuidado: el elemento sensible es delicado y no se debe tocar.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: un mal manejo puede dañar el sensor</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Admisión, sensor MAF</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>8–15 € el limpiador; unos 15 minutos de trabajo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Limpiador específico de MAF, destornillador Torx, guantes</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Apaga el motor, espera unos minutos y desconecta la batería si el fabricante lo recomienda.</li><li>Localiza el MAF en el tubo de admisión, entre la caja del filtro de aire y la mariposa, y desconecta su conector con cuidado.</li><li>Suelta los tornillos, normalmente Torx, y saca el sensor del conducto.</li><li>Examina el elemento sensible, los hilos o la película metálica: si está sucio de aceite o polvo, necesita limpieza.</li><li>Rocía el limpiador específico de MAF sobre el elemento desde unos 10 cm, con varias aplicaciones cortas.</li><li>No toques el elemento ni lo frotes con cepillos, paños ni algodón: se rompe con facilidad.</li><li>Deja secar el sensor al aire durante unos 10–15 minutos, hasta que no quede producto.</li><li>Vuelve a montar el sensor con su junta, conecta y comprueba que no hay fugas de aire.</li><li>Arranca el motor y comprueba en datos en vivo que el caudal es coherente. Si el fallo continúa, cambia el sensor.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Se puede usar limpiador de frenos o de carburador para limpiar el MAF?",
+      "answer": "No. Usa solo un limpiador específico de MAF. Otros productos pueden dejar residuos o dañar el elemento sensible."
+    },
+    {
+      "question": "¿Cada cuánto hay que limpiar el MAF?",
+      "answer": "No hay un intervalo fijo: se limpia cuando aparecen síntomas o junto al cambio del filtro de aire. Un filtro en buen estado alarga la vida del sensor."
+    },
+    {
+      "question": "¿Qué pasa si limpiar el MAF no arregla el problema?",
+      "answer": "Entonces el sensor puede estar averiado o hay otra causa, como una fuga de aire. Hay que diagnosticar con el escáner antes de cambiarlo."
+    }
+  ],
+  "products": [
+    "limpiador de sensor MAF",
+    "destornillador Torx para coche",
+    "guantes de taller"
+  ],
+  "related": [
+    "p0101",
+    "p0100",
+    "guia-cambio-filtro-aire"
+  ],
+  "featured_image": "/img/articulos/guia-guia-limpiar-caudalimetro-maf.webp"
+}

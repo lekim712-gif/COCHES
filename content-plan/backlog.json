@@ -13,10 +13,14 @@
   "P0100",
   "P0101",
   "P0104",
+  "P0105",
   "P0106",
   "P0113",
   "P0130",
+  "P0134",
   "P0135",
+  "P0141",
+  "P0170",
   "P0171",
   "P0172",
   "P0193",
@@ -28,6 +32,7 @@
   "P0299",
   "P0300",
   "P0301",
+  "P0322",
   "P0335",
   "P0340",
   "P0341",
@@ -59,10 +64,6 @@
    "Circuito del sensor de temperatura del aire de admisión"
   ],
   [
-   "P0322",
-   "Sensor de régimen del motor: sin señal"
-  ],
-  [
    "P0237",
    "Sensor de presión de sobrealimentación A: señal baja"
   ],
@@ -71,28 +72,12 @@
    "Sensor de recirculación EGR: señal baja"
   ],
   [
-   "P0141",
-   "Calentador de la sonda lambda posterior (banco 1)"
-  ],
-  [
-   "P0170",
-   "Ajuste de combustible (banco 1)"
-  ],
-  [
    "P0190",
    "Circuito del sensor de presión del raíl"
   ],
   [
-   "P0105",
-   "Circuito del sensor de presión del colector (MAP)"
-  ],
-  [
    "P0230",
    "Circuito primario de la bomba de combustible"
-  ],
-  [
-   "P0134",
-   "Sonda lambda anterior: sin actividad (banco 1)"
   ],
   [
    "P0131",
@@ -209,20 +194,8 @@
    "Testigo del airbag: significado y qué hacer"
   ]
  ],
- "guias": [
-  [
-   "guia-cambio-filtro-habitaculo",
-   "Cambio del filtro de habitáculo paso a paso"
-  ],
-  [
-   "guia-limpiar-caudalimetro-maf",
-   "Cómo limpiar el caudalímetro MAF"
-  ],
-  [
-   "guia-limpiar-valvula-egr",
-   "Cómo limpiar la válvula EGR"
-  ]
- ],
+ "guias": [],
  "_semrush": "Reordenado el 13/10/2026 con Semrush (ES): volúmenes en content-plan/semrush/volumenes-codigos.json. Orden = volumen exacto del código, luego volumen de familia. Códigos P0302–P0306 siguen cubiertos por la ficha P0301. Competidor c3carecarcenter.com: tráfico ES casi nulo (175), no es referencia.",
- "_mexico": "Semrush MX: p0420=6.600/mes (ES: 590); p0420 nissan 3.600, p0420 chevrolet 1.300, p0420 ford 720. Oportunidad LatAm mayor que ES: fichas de código+marca (P0420 Nissan, Chevrolet, Ford...) con vocabulario neutro (coche/auto/carro). Decidir con datos de Search Console. Semrush MX obd2: \"scanner/escaner automotriz\" 8.100, \"escaner obd2\" 2.900, \"conector/puerto obd2\" 1.000/720, \"escaner para carros\" 1.600: demanda comercial alta -> guías de escáner (mejor escáner OBD2, ubicación del puerto OBD2 por marca, pinout). Afiliación Amazon MX requiere programa propio (amazon.com.mx)."
+ "_mexico": "Semrush MX: p0420=6.600/mes (ES: 590); p0420 nissan 3.600, p0420 chevrolet 1.300, p0420 ford 720. Oportunidad LatAm mayor que ES: fichas de código+marca (P0420 Nissan, Chevrolet, Ford...) con vocabulario neutro (coche/auto/carro). Decidir con datos de Search Console. Semrush MX obd2: \"scanner/escaner automotriz\" 8.100, \"escaner obd2\" 2.900, \"conector/puerto obd2\" 1.000/720, \"escaner para carros\" 1.600: demanda comercial alta -> guías de escáner (mejor escáner OBD2, ubicación del puerto OBD2 por marca, pinout). Afiliación Amazon MX requiere programa propio (amazon.com.mx).",
+ "_ideas_guias": "Pendiente de escribir con datos: comparativa/criterios de compra de escáner (hecha), guías de problema (coche pierde potencia: hecha). Siguientes ideas: el coche tironea al acelerar, humo blanco/negro/azul del escape, el coche no arranca, consumo excesivo de combustible, ruido de la correa de accesorios."
 }

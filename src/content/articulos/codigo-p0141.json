@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0141",
+  "name": "Calentador de la sonda lambda posterior (banco 1)",
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-22",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0141: causas, síntomas y solución",
+    "meta_description": "P0141: fallo del calentador de la sonda lambda posterior, la que vigila el catalizador. Causas, cómo medir el calentador y por qué importa para la ITV.",
+    "slug": "p0141"
+  },
+  "content_html": "<h1>Código P0141: Calentador de la sonda lambda posterior (banco 1)</h1>\n<p class=\"intro\">El código P0141 indica un fallo en el circuito del calentador de la sonda lambda posterior del banco 1, la que está después del catalizador y comprueba que funciona bien. Esa sonda necesita calor para medir con precisión. Si el calentador falla, la sonda tarda en ser útil y la centralita no puede evaluar el catalizador con fiabilidad. El motor sigue funcionando, pero pueden aparecer otros códigos, como P0420.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: el motor funciona, pero la vigilancia del catalizador falla</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sonda lambda posterior, calentador, fusible, cableado</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>80–300 € (sonda) · 1–10 € si es el fusible, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Multímetro, escáner OBD2 con datos en vivo, llave de sonda lambda</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido sin cambios notables en la marcha.</li><li>La sonda posterior tarda mucho en dar una señal estable.</li><li>Posible aparición posterior de P0420 por lectura incorrecta.</li><li>Consumo prácticamente igual.</li><li>Fallo en la ITV por el testigo encendido.</li></ul>\n<h2>Causas principales</h2><ul><li>Resistencia del calentador cortada por envejecimiento.</li><li>Fusible compartido del calentador fundido.</li><li>Cable del calentador cercano al escape con el aislante fundido.</li><li>Conector de la sonda posterior con humedad.</li><li>Relé o salida de control de la centralita defectuosos.</li><li>Sonda posterior sustituida por una que no es la adecuada.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y anota si aparece solo P0141 o también P0135 u otros calentadores: si hay varios, el fusible común es sospechoso.</li><li>Localiza la sonda posterior, la que queda tras el catalizador, y revisa su cable: busca tramos pegados al escape o con el aislante dañado.</li><li>Con el motor frío, desconecta el conector y mide la resistencia del calentador entre sus dos cables, según el manual.</li><li>Si la lectura es infinita o muy distinta a la del manual, el calentador está cortado y hay que cambiar la sonda.</li><li>Si la resistencia es correcta, mide con el contacto puesto que llegan 12 V al calentador.</li><li>Revisa el fusible y el relé del circuito de calentadores.</li><li>Cambia la sonda posterior con la llave adecuada y respeta el par de apriete.</li><li>Borra el código y haz un ciclo de conducción completo para validar los monitores antes de la ITV.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0141 y P0135?",
+      "answer": "P0135 corresponde al calentador de la sonda anterior, la que está antes del catalizador y regula la mezcla. P0141 corresponde al de la posterior, que vigila el catalizador. Las dos se diagnostican de forma parecida."
+    },
+    {
+      "question": "¿Se puede circular con P0141?",
+      "answer": "Sí. El motor funciona con normalidad, pero conviene repararlo antes de la ITV, porque el testigo encendido es motivo de rechazo."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0141?",
+      "answer": "Una sonda posterior nueva cuesta entre 80 y 300 € con montaje. Si es el fusible, de 1 a 10 €, según modelo."
+    }
+  ],
+  "products": [
+    "sonda lambda universal",
+    "llave para sonda lambda",
+    "multímetro digital automotriz"
+  ],
+  "related": [
+    "p0135",
+    "p0420",
+    "p0421"
+  ],
+  "featured_image": "/img/articulos/codigo-p0141.webp"
+}
