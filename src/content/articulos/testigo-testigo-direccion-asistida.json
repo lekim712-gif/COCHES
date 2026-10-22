@@ -1,0 +1,40 @@
+{
+  "type": "testigo",
+  "name": "Testigo de la dirección asistida: significado y qué hacer",
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-22",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo de dirección asistida: significado y qué hacer",
+    "meta_description": "Testigo de la dirección asistida encendido: qué significa, por qué el volante se vuelve duro, causas habituales (batería, sensor, bomba) y cómo actuar.",
+    "slug": "testigo-direccion-asistida"
+  },
+  "content_html": "<h1>Testigo de la dirección asistida: significado y qué hacer</h1>\n<p class=\"intro\">El testigo de la dirección asistida, un volante con un signo de exclamación, avisa de un fallo del sistema de asistencia. Si se enciende, el volante puede volverse mucho más duro, sobre todo a baja velocidad y al maniobrar. El coche sigue siendo conducible, pero exige más fuerza. Conviene reducir la velocidad, detenerte en un lugar seguro y revisar el sistema, ya que puede perderse asistencia de golpe.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta: la dirección se endurece y puede perderse la asistencia de golpe</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Dirección asistida eléctrica o hidráulica, sensor de par, batería, bomba</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–30 € (reinicio, fusible) · 150–600 € (sensor de par o columna) · 300–1.200 € (cremallera o bomba), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con acceso a dirección, multímetro, tester de batería</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de la dirección asistida encendido en ámbar o en rojo.</li><li>Volante mucho más duro de girar, sobre todo al aparcar.</li><li>Asistencia intermitente: unas veces ayuda y otras no.</li><li>Ruidos al girar en sistemas hidráulicos.</li><li>Testigos de batería o de ESP encendidos a la vez.</li></ul>\n<h2>Causas principales</h2><ul><li>Tensión de batería baja o fallo del alternador.</li><li>Fusible o relé de la dirección asistida fundido.</li><li>Sensor de par o de ángulo del volante con fallo.</li><li>Motor eléctrico de la columna o de la cremallera dañado.</li><li>Nivel bajo de líquido o fuga, en dirección hidráulica.</li><li>Correa de accesorios destensada, que no mueve la bomba.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Si el testigo se enciende en marcha, agarra firmemente el volante: puede hacerse mucho más duro. Reduce la velocidad con suavidad y detén el coche en un lugar seguro.</li><li>Apaga el motor, espera un minuto y vuelve a arrancar: algunos fallos puntuales desaparecen, aunque pueden volver.</li><li>Comprueba la batería y el alternador: una tensión baja es una causa frecuente de aviso en dirección eléctrica.</li><li>En dirección hidráulica, mira el nivel de líquido en el depósito y busca fugas bajo el coche; revisa la correa de accesorios.</li><li>Revisa el fusible y el relé de la dirección asistida en el manual.</li><li>Lee los códigos con un escáner con acceso al sistema de dirección: te dirán si el fallo es del sensor, del motor o de la alimentación.</li><li>Si el volante se mantiene muy duro o el testigo sigue encendido, no circules más de lo imprescindible: acude a un taller.</li><li>Evita maniobras bruscas y velocidades altas hasta que se repare.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con el testigo de la dirección asistida encendido?",
+      "answer": "Se puede llegar con cuidado al taller si el volante responde, pero con más esfuerzo y menos precisión. Evita maniobrar a velocidad y ten en cuenta que la asistencia puede perderse de golpe."
+    },
+    {
+      "question": "¿Por qué se pone dura la dirección?",
+      "answer": "Porque el sistema ha dejado de asistir: por falta de tensión eléctrica, un fallo del sensor o del motor eléctrico, o por falta de líquido o correa floja en dirección hidráulica."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar la dirección asistida?",
+      "answer": "Un fusible o un reinicio cuestan poco. Un sensor o la columna, entre 150 y 600 €. Una cremallera o una bomba, entre 300 y 1.200 €, según modelo."
+    }
+  ],
+  "products": [
+    "tester de batería de coche",
+    "líquido de dirección asistida",
+    "escáner obd2 profesional multimarca"
+  ],
+  "related": [
+    "testigo-bateria",
+    "testigo-esp"
+  ],
+  "needs_review": true,
+  "featured_image": "/img/articulos/testigo-testigo-direccion-asistida.webp"
+}

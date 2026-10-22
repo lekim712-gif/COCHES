@@ -1,0 +1,38 @@
+{
+  "type": "testigo",
+  "name": "Testigo del airbag: significado y qué hacer",
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-22",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo del airbag encendido: qué significa y qué hacer",
+    "meta_description": "Testigo del airbag encendido: qué significa, por qué puede no activarse el airbag en un accidente y qué NO hacer. Causas habituales y cuándo acudir al taller.",
+    "slug": "testigo-airbag"
+  },
+  "content_html": "<h1>Testigo del airbag: significado y qué hacer</h1>\n<p class=\"intro\">El testigo del airbag, una persona con un círculo delante, se enciende unos segundos al arrancar y se apaga. Si se queda encendido o parpadea, el sistema ha detectado un fallo y los airbags podrían no activarse en un accidente. El coche circula con normalidad, pero la protección está comprometida. Conviene revisarlo en un taller cuanto antes, sin manipular el sistema por tu cuenta.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta: sin airbags operativos hay riesgo de lesiones graves en un choque</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sistema de airbags y pretensores, sensores de impacto, centralita SRS, cableado</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–150 € (diagnóstico o contacto del asiento) · 150–600 € (sensor o muelle espiral) · más si hay centralita, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con acceso a airbag; la reparación debe hacerla un taller</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo del airbag encendido de forma fija o parpadeando.</li><li>Testigo que se enciende solo en algunos trayectos.</li><li>Mensaje de «Fallo del airbag» en el cuadro.</li><li>Testigo del airbag del pasajero desactivado, si el coche lo muestra.</li><li>Otros fallos del volante, como botones que no funcionan.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor de ocupación del asiento del pasajero con fallo.</li><li>Conector bajo el asiento suelto o sulfatado tras mover el asiento.</li><li>Muelle espiral del volante dañado o desgastado.</li><li>Sensor de impacto o centralita del airbag defectuosos.</li><li>Batería con tensión baja o desconectada hace poco.</li><li>Airbag o pretensor dañado tras un golpe o un accidente anterior.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Si el testigo se enciende, no desmontes ni toques los componentes del airbag: se activan con pirotecnia y pueden causar lesiones graves.</li><li>Comprueba que no se haya apagado el airbag del pasajero con la llave o el interruptor, si tu coche lo tiene, y que no hay un objeto o un niño en el asiento que active el sensor.</li><li>Revisa la batería: un nivel bajo o una desconexión reciente puede encender el testigo.</li><li>Apaga el coche, espera un minuto y vuelve a arrancar. Si el testigo se apaga, anótalo, pero revisa el sistema igualmente.</li><li>Lleva el coche a un taller con escáner con acceso al sistema SRS para leer los códigos de avería.</li><li>No uses un escáner básico para borrar códigos del airbag sin saber de qué se trata: la causa real persiste.</li><li>Pide que revisen el conector del asiento, el muelle espiral y los sensores, y que sustituyan solo lo defectuoso.</li><li>Hasta la reparación, extrema la precaución al conducir y recuerda que los airbags pueden no activarse en un choque.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con el testigo del airbag encendido?",
+      "answer": "El coche funciona con normalidad, pero en caso de accidente los airbags podrían no activarse. Conviene repararlo cuanto antes y extremar la precaución mientras tanto."
+    },
+    {
+      "question": "¿Por qué se enciende el testigo del airbag?",
+      "answer": "Suele deberse al sensor de ocupación del asiento, a un conector suelto bajo el asiento, al muelle espiral del volante o a un fallo de la centralita. Un taller con escáner puede identificarlo."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar el airbag?",
+      "answer": "Depende de la causa: un diagnóstico o un conector, entre 30 y 150 €; un muelle espiral o un sensor, entre 150 y 600 €. Una centralita puede costar más, según modelo."
+    }
+  ],
+  "products": [
+    "escáner obd2 profesional multimarca"
+  ],
+  "related": [
+    "testigo-abs",
+    "testigo-bateria"
+  ],
+  "needs_review": true,
+  "featured_image": "/img/articulos/testigo-testigo-airbag.webp"
+}

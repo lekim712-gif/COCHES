@@ -1,11 +1,5 @@
 {
  "_nota": "Prioridad = criterio editorial (códigos frecuentes y de intención clara), NO volumen medido: sustituir por datos de Search Console cuando existan. Decisiones SEO: (1) una sola ficha por familia casi idéntica (fallos de encendido por cilindro, banco 2 de mezcla) para evitar contenido fino; (2) las fichas por marca NO se automatizan: exigen particularidades reales verificadas y se hacen a mano; (3) sin guías de seguridad crítica (frenos, airbag); los testigos de seguridad listados en requieren_revision_humana no se indexan hasta que los revise una persona; el resto de fichas se indexa como «pendiente de revisión técnica». Formato: [código|slug, título, nota opcional].",
- "requieren_revision_humana": [
-  "testigo-abs",
-  "testigo-freno",
-  "testigo-airbag",
-  "testigo-direccion-asistida"
- ],
  "hecho": [
   "P0016",
   "P0087",
@@ -176,26 +170,15 @@
    "Circuito del sensor de velocidad de rueda delantera izquierda"
   ]
  ],
- "testigos": [
-  [
-   "testigo-abs",
-   "Testigo del ABS: significado y qué hacer"
-  ],
-  [
-   "testigo-direccion-asistida",
-   "Testigo de la dirección asistida: significado y qué hacer"
-  ],
-  [
-   "testigo-freno",
-   "Testigo del sistema de frenos: significado y qué hacer"
-  ],
-  [
-   "testigo-airbag",
-   "Testigo del airbag: significado y qué hacer"
-  ]
- ],
+ "testigos": [],
  "guias": [],
  "_semrush": "Reordenado el 13/10/2026 con Semrush (ES): volúmenes en content-plan/semrush/volumenes-codigos.json. Orden = volumen exacto del código, luego volumen de familia. Códigos P0302–P0306 siguen cubiertos por la ficha P0301. Competidor c3carecarcenter.com: tráfico ES casi nulo (175), no es referencia.",
  "_mexico": "Semrush MX: p0420=6.600/mes (ES: 590); p0420 nissan 3.600, p0420 chevrolet 1.300, p0420 ford 720. Oportunidad LatAm mayor que ES: fichas de código+marca (P0420 Nissan, Chevrolet, Ford...) con vocabulario neutro (coche/auto/carro). Decidir con datos de Search Console. Semrush MX obd2: \"scanner/escaner automotriz\" 8.100, \"escaner obd2\" 2.900, \"conector/puerto obd2\" 1.000/720, \"escaner para carros\" 1.600: demanda comercial alta -> guías de escáner (mejor escáner OBD2, ubicación del puerto OBD2 por marca, pinout). Afiliación Amazon MX requiere programa propio (amazon.com.mx).",
- "_ideas_guias": "Pendiente de escribir con datos: comparativa/criterios de compra de escáner (hecha), guías de problema (coche pierde potencia: hecha). Siguientes ideas: el coche tironea al acelerar, humo blanco/negro/azul del escape, el coche no arranca, consumo excesivo de combustible, ruido de la correa de accesorios."
+ "_ideas_guias": "Pendiente de escribir con datos: comparativa/criterios de compra de escáner (hecha), guías de problema (coche pierde potencia: hecha). Siguientes ideas: el coche tironea al acelerar, humo blanco/negro/azul del escape, el coche no arranca, consumo excesivo de combustible, ruido de la correa de accesorios.",
+ "hecho_testigos_seguridad": [
+  "testigo-abs",
+  "testigo-freno",
+  "testigo-airbag",
+  "testigo-direccion-asistida"
+ ]
 }

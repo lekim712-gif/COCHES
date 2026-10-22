@@ -1,0 +1,40 @@
+{
+  "type": "testigo",
+  "name": "Testigo del ABS: significado y qué hacer",
+  "datePublished": "2026-10-22",
+  "dateModified": "2026-10-22",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo del ABS encendido: significado y qué hacer",
+    "meta_description": "Testigo del ABS encendido: qué significa, si puedes seguir circulando, causas habituales (sensor de rueda, anillo, fusible) y cómo actuar con seguridad.",
+    "slug": "testigo-abs"
+  },
+  "content_html": "<h1>Testigo del ABS: significado y qué hacer</h1>\n<p class=\"intro\">El testigo del ABS, las letras ABS dentro de un círculo, se enciende unos segundos al arrancar y se apaga. Si se queda encendido o aparece en marcha, el sistema antibloqueo está desactivado: los frenos siguen funcionando, pero las ruedas pueden bloquearse en una frenada fuerte, sobre todo con piso mojado. Conduce con más distancia y revisa el sistema cuanto antes.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: el freno normal funciona, pero se pierde el antibloqueo</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sistema ABS, sensores de rueda, unidad hidráulica, fusibles</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>20–60 € (limpieza o fusible) · 60–200 € (sensor de rueda) · 300–900 € (unidad ABS), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con acceso a ABS, multímetro, linterna</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo ABS encendido de forma fija en el cuadro.</li><li>A menudo, también el testigo del ESP o del control de tracción.</li><li>Frenada normal, pero las ruedas pueden bloquearse al frenar a fondo.</li><li>Velocímetro que falla en algunos modelos, porque comparten sensor.</li><li>Pedal de freno con tacto normal, sin pulsaciones del ABS.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor de velocidad de rueda sucio, dañado o con el cable roto.</li><li>Anillo dentado o rueda fónica con óxido o dientes rotos.</li><li>Fusible o relé del ABS fundido.</li><li>Cableado o conector de un sensor en mal estado.</li><li>Batería con poca tensión.</li><li>Fallo de la unidad hidráulica o de la centralita del ABS.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Comprueba que el freno responde con normalidad a baja velocidad en un lugar seguro. Si el pedal está blando, bajo o el coche tarda en frenar, no circules: llama a una grúa.</li><li>Si el pedal es normal, puedes ir despacio al taller o a tu casa, aumentando la distancia de seguridad y evitando frenadas bruscas.</li><li>Apaga el coche, espera un minuto y vuelve a arrancar. Si el testigo se apaga, anótalo, pero revisa el sistema igualmente.</li><li>Comprueba el nivel de líquido de frenos en el depósito: un nivel bajo puede encender el testigo del ABS y el de freno.</li><li>Mira el fusible del ABS en el manual y cámbialo si está fundido.</li><li>Lee los códigos del ABS con un escáner con acceso a ese sistema; un OBD2 básico muchas veces no los muestra.</li><li>Si el código apunta a un sensor de rueda, inspecciona su cable y su conector, límpialo de suciedad y revisa el anillo dentado.</li><li>Sustituye lo averiado y borra los códigos. Si el testigo vuelve, acude a un taller para revisar la unidad hidráulica.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con el testigo del ABS encendido?",
+      "answer": "Sí, si el pedal de freno funciona con normalidad. Pero no tendrás antibloqueo, así que frena con antelación y con suavidad, sobre todo con piso mojado. Si el pedal está blando o el freno falla, no circules."
+    },
+    {
+      "question": "¿Qué diferencia hay entre el testigo del ABS y el de freno?",
+      "answer": "El del ABS indica fallo del antibloqueo. El de freno, normalmente rojo, indica un problema del sistema de frenos: nivel bajo de líquido, freno de mano puesto o fallo grave. Si se enciende el de freno, no circules."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar el ABS?",
+      "answer": "Un sensor de rueda cuesta entre 60 y 200 € con montaje. La unidad hidráulica del ABS puede costar entre 300 y 900 €, según modelo."
+    }
+  ],
+  "products": [
+    "sensor de velocidad de rueda ABS",
+    "líquido de frenos DOT4",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "testigo-esp",
+    "testigo-motor"
+  ],
+  "needs_review": true,
+  "featured_image": "/img/articulos/testigo-testigo-abs.webp"
+}

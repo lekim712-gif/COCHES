@@ -69,3 +69,6 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - 70 fichas publicadas. Lote del día: P0141, P0170, P0322, P0134, P0105; guías filtro de habitáculo, limpiar MAF, limpiar EGR, cómo elegir un escáner OBD2 y «el coche pierde potencia».
 - Ampliados con secciones nuevas (prevención y cuándo acudir al taller) los testigos de motor, batería, presión de aceite y filtro de partículas (eran los de menos texto y los de más impresiones). Al cambiar el contenido, pasan otra vez a «pendiente de revisión técnica» hasta nueva revisión de Carlos.
 - Search Console: 252 impresiones y 1 clic en el periodo; el testigo del filtro de partículas es la página con más impresiones (47, posición ~43).
+
+## Actualización 22/10/2026 (tarde)
+- Escritos los 4 testigos de seguridad (ABS, frenos, airbag, dirección asistida) con la confirmación del usuario. Llevan `needs_review: true`: salen con `noindex` y fuera del sitemap hasta que Carlos los revise y se marquen como revisados.
