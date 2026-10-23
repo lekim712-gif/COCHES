@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0325",
+  "name": "Circuito del sensor de detonación (banco 1)",
+  "datePublished": "2026-10-23",
+  "dateModified": "2026-10-23",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0325: causas, síntomas y solución",
+    "meta_description": "P0325: fallo en el circuito del sensor de detonación o picado. Síntomas, causas (sensor, cableado, apriete) y cómo comprobarlo con el multímetro.",
+    "slug": "p0325"
+  },
+  "content_html": "<h1>Código P0325: Circuito del sensor de detonación (banco 1)</h1>\n<p class=\"intro\">El código P0325 indica un fallo en el circuito del sensor de detonación del banco 1, el que detecta el picado del motor. Sin esa señal, la centralita retrasa el encendido por precaución y el motor pierde potencia y consume más. Las causas habituales son el propio sensor, un cable dañado o un apriete incorrecto del sensor en el bloque.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: menos potencia y más consumo; riesgo de picado si falla de verdad</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sensor de detonación, cableado, encendido</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–120 € (sensor), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, multímetro, llave dinamométrica</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Pérdida de potencia, sobre todo a media y alta carga.</li><li>Consumo algo mayor.</li><li>Motor que responde con pereza al acelerar.</li><li>Posible ruido de picado con combustible de baja calidad.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor de detonación defectuoso.</li><li>Cable del sensor roto, pelado o con el conector flojo.</li><li>Sensor mal apretado o con el par incorrecto.</li><li>Ruido eléctrico por cables de alta tensión cercanos.</li><li>Sensor contaminado por aceite o refrigerante.</li><li>Fallo de la entrada de la centralita.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y comprueba si hay también fallos de encendido, que pueden confundir el diagnóstico.</li><li>Localiza el sensor de detonación, normalmente atornillado al bloque motor, y revisa su conector y cableado.</li><li>Busca cables pelados por roce con el colector o el bloque, y terminales sulfatados.</li><li>Comprueba que el sensor está apretado al par indicado por el fabricante: un apriete incorrecto cambia su señal.</li><li>Con el multímetro, mide la resistencia del sensor o su señal con un golpecito en el bloque, según el manual.</li><li>Si no genera señal al golpear cerca, el sensor está averiado.</li><li>Sustituye el sensor, apretándolo con llave dinamométrica.</li><li>Borra los códigos y haz una prueba de carretera.</li></ol>\n<h2>Cómo prevenir el picado del motor</h2><p>Usa el combustible con el octanaje que indica el fabricante y evita repostar en estaciones de dudosa calidad. Mantén el sistema de refrigeración en buen estado: un motor demasiado caliente tiene más tendencia al picado. Revisa el estado de las bujías y no acumules depósitos de carbonilla en cámara, porque ambos favorecen la detonación.</p><h2>Cuándo acudir al taller</h2><p>Si tras cambiar el sensor y comprobar el cableado el código vuelve, o si oyes un ruido metálico seco al acelerar a bajo régimen, acude al taller. Un picado real y sostenido puede dañar pistones y segmentos, y no se corrige con un sensor nuevo.</p>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Para qué sirve el sensor de detonación?",
+      "answer": "Detecta las vibraciones del picado del motor. La centralita usa esa señal para retrasar el encendido y evitar daños. Sin él, protege el motor limitando la potencia."
+    },
+    {
+      "question": "¿Se puede circular con P0325?",
+      "answer": "Sí, con menos potencia. Usa combustible de buena calidad y evita exigir el motor. Repáralo pronto."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0325?",
+      "answer": "Un sensor de detonación cuesta entre 30 y 120 € con montaje, según modelo. Si es un cable, suele ser más barato."
+    }
+  ],
+  "products": [
+    "sensor de detonación",
+    "llave dinamométrica para coche",
+    "multímetro digital automotriz"
+  ],
+  "related": [
+    "p0300",
+    "p0301",
+    "p0335"
+  ],
+  "featured_image": "/img/articulos/codigo-p0325.webp"
+}

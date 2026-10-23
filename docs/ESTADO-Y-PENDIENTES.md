@@ -72,3 +72,7 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 
 ## Actualización 22/10/2026 (tarde)
 - Escritos los 4 testigos de seguridad (ABS, frenos, airbag, dirección asistida) con la confirmación del usuario. Llevan `needs_review: true`: salen con `noindex` y fuera del sitemap hasta que Carlos los revise y se marquen como revisados.
+
+## Actualización 23/10/2026
+- 85 fichas publicadas (+4 testigos de seguridad en noindex). Lote del día: P0190, P0230, P0131, P0133, P0325; guías «tironea al acelerar», humo del escape, no arranca, consumo excesivo y chirrido de correa — pendientes de revisión de Carlos.
+- Search Console: 289 impresiones y 1 clic; sin problemas de indexación.

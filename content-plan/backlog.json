@@ -11,13 +11,17 @@
   "P0106",
   "P0113",
   "P0130",
+  "P0131",
+  "P0133",
   "P0134",
   "P0135",
   "P0141",
   "P0170",
   "P0171",
   "P0172",
+  "P0190",
   "P0193",
+  "P0230",
   "P0234",
   "P0235",
   "P0236",
@@ -27,6 +31,7 @@
   "P0300",
   "P0301",
   "P0322",
+  "P0325",
   "P0335",
   "P0340",
   "P0341",
@@ -66,28 +71,8 @@
    "Sensor de recirculación EGR: señal baja"
   ],
   [
-   "P0190",
-   "Circuito del sensor de presión del raíl"
-  ],
-  [
-   "P0230",
-   "Circuito primario de la bomba de combustible"
-  ],
-  [
-   "P0131",
-   "Sonda lambda anterior: tensión baja (banco 1)"
-  ],
-  [
-   "P0133",
-   "Respuesta lenta de la sonda lambda anterior (banco 1)"
-  ],
-  [
    "P0102",
    "Caudalímetro MAF: señal baja"
-  ],
-  [
-   "P0325",
-   "Circuito del sensor de detonación"
   ],
   [
    "P0600",
@@ -174,7 +159,7 @@
  "guias": [],
  "_semrush": "Reordenado el 13/10/2026 con Semrush (ES): volúmenes en content-plan/semrush/volumenes-codigos.json. Orden = volumen exacto del código, luego volumen de familia. Códigos P0302–P0306 siguen cubiertos por la ficha P0301. Competidor c3carecarcenter.com: tráfico ES casi nulo (175), no es referencia.",
  "_mexico": "Semrush MX: p0420=6.600/mes (ES: 590); p0420 nissan 3.600, p0420 chevrolet 1.300, p0420 ford 720. Oportunidad LatAm mayor que ES: fichas de código+marca (P0420 Nissan, Chevrolet, Ford...) con vocabulario neutro (coche/auto/carro). Decidir con datos de Search Console. Semrush MX obd2: \"scanner/escaner automotriz\" 8.100, \"escaner obd2\" 2.900, \"conector/puerto obd2\" 1.000/720, \"escaner para carros\" 1.600: demanda comercial alta -> guías de escáner (mejor escáner OBD2, ubicación del puerto OBD2 por marca, pinout). Afiliación Amazon MX requiere programa propio (amazon.com.mx).",
- "_ideas_guias": "Pendiente de escribir con datos: comparativa/criterios de compra de escáner (hecha), guías de problema (coche pierde potencia: hecha). Siguientes ideas: el coche tironea al acelerar, humo blanco/negro/azul del escape, el coche no arranca, consumo excesivo de combustible, ruido de la correa de accesorios.",
+ "_ideas_guias": "Hechas: tironea al acelerar, humo del escape, no arranca, consumo excesivo, chirrido de correa. Siguientes ideas: ruidos al frenar, vibraciones del volante, calefacción que no calienta, aire acondicionado que no enfría, el coche se cala, batería que se descarga sola.",
  "hecho_testigos_seguridad": [
   "testigo-abs",
   "testigo-freno",

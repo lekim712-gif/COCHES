@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0190",
+  "name": "Circuito del sensor de presión del raíl de combustible",
+  "datePublished": "2026-10-23",
+  "dateModified": "2026-10-23",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0190: causas, síntomas y solución",
+    "meta_description": "P0190: fallo general del circuito del sensor de presión del raíl. Cómo distinguirlo de P0191 y P0193 y qué medir para localizar el fallo eléctrico.",
+    "slug": "p0190"
+  },
+  "content_html": "<h1>Código P0190: Circuito del sensor de presión del raíl de combustible</h1>\n<p class=\"intro\">El código P0190 indica un fallo general en el circuito del sensor de presión del raíl de combustible, sin precisar si la señal es alta o baja. Aparece en diésel common-rail y en gasolina de inyección directa. Es el aviso más amplio de la familia: para afinarlo hay que mirar la señal en datos en vivo con el motor parado y buscar si hay también P0192 o P0193.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: puede limitar la potencia o impedir el arranque</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sensor de presión del raíl, cableado, alimentación de 5 V</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>60–250 € (sensor) · 20–80 € si es el conector, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Modo de emergencia con menos potencia.</li><li>Arranque largo o imposible en algunas ocasiones.</li><li>Presión del raíl irreal o inestable en datos en vivo.</li><li>Tirones y cortes de inyección a determinados regímenes.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor de presión del raíl defectuoso.</li><li>Cable de señal, de masa o de 5 V interrumpido.</li><li>Conector con humedad, aceite o terminales flojos.</li><li>Cortocircuito del cable contra masa o contra positivo.</li><li>Problema de alimentación de la centralita.</li><li>Fallo de la centralita en la entrada del sensor.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y comprueba si aparecen P0192 (señal baja) o P0193 (señal alta): te dicen hacia qué lado falla la señal.</li><li>Con el contacto puesto y el motor parado, mira la presión del raíl en datos en vivo: debe ser casi cero.</li><li>Inspecciona el conector y el cableado del sensor: roces, humedad, aceite o terminales sulfatados.</li><li>Con el multímetro, comprueba los 5 V de alimentación y la masa en el conector, según el manual.</li><li>Verifica la continuidad del cable de señal hasta la centralita, con la batería desconectada.</li><li>Si el circuito es correcto, sustituye el sensor, con el sistema sin presión.</li><li>Borra los códigos y haz una prueba de carretera.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0190, P0192 y P0193?",
+      "answer": "P0190 es un fallo general del circuito. P0192 indica señal baja y P0193 señal alta. Si salen varios, empieza por el específico."
+    },
+    {
+      "question": "¿Se puede circular con P0190?",
+      "answer": "Con el modo de emergencia puedes ir al taller. Sin lectura fiable de presión, la inyección se limita y el motor puede calarse."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0190?",
+      "answer": "Un sensor cuesta entre 60 y 250 € con montaje. Si es un conector o un cable, entre 20 y 80 €, según modelo."
+    }
+  ],
+  "products": [
+    "multímetro digital automotriz",
+    "escáner obd2 bluetooth elm327",
+    "spray limpiador de contactos eléctricos"
+  ],
+  "related": [
+    "p0193",
+    "p0087",
+    "p0089"
+  ],
+  "featured_image": "/img/articulos/codigo-p0190.webp"
+}

@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Consumo excesivo de combustible: causas y cómo reducirlo",
+  "datePublished": "2026-10-23",
+  "dateModified": "2026-10-23",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Consumo excesivo de combustible: causas y soluciones",
+    "meta_description": "Tu coche gasta más combustible de lo normal: causas mecánicas y de conducción (neumáticos, filtros, sondas, inyectores, MAF) y cómo medir el consumo real.",
+    "slug": "guia-consumo-excesivo-combustible"
+  },
+  "content_html": "<h1>Consumo excesivo de combustible: causas y cómo reducirlo</h1>\n<p class=\"intro\">Un aumento de consumo suele deberse a causas sencillas, como la presión de los neumáticos, y a veces a fallos de sensores que enriquecen la mezcla sin encender el testigo. Antes de gastar en piezas conviene medir el consumo real y revisar lo más barato. Esta guía recorre las causas por orden de frecuencia y qué hacer con cada una.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: el gasto extra es continuo y puede ocultar un fallo</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Neumáticos, admisión, mezcla, sondas lambda, encendido</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–20 € (presión, filtros) · 80–400 € (sonda, sensor, inyectores), según la causa</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Manómetro de neumáticos, escáner OBD2, libreta o app de consumo</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Mide tu consumo real: llena el depósito, anota los kilómetros y repite en el siguiente repostaje. Compara con el consumo habitual de tu coche.</li><li>Comprueba la presión de los neumáticos: una presión baja aumenta el consumo de forma apreciable.</li><li>Revisa el peso innecesario y accesorios como barras de techo, que penalizan el consumo.</li><li>Cambia el filtro de aire si está sucio y revisa el nivel y el estado del aceite.</li><li>Lee los códigos con el escáner: P0171, P0172 o códigos de sondas lambda indican mezcla incorrecta.</li><li>Mira en datos en vivo la temperatura del refrigerante: si el motor no llega a 85–90 °C, el termostato puede estar abierto y enriquece la mezcla.</li><li>Comprueba bujías y bobinas en gasolina, y el filtro de combustible; un fallo de encendido aumenta el gasto.</li><li>Revisa los frenos por arrastre y la alineación: ruedas que rozan frenan el coche y gastan más.</li><li>Adapta la conducción: anticipa frenadas, mantén marchas largas y evita acelerones, que suponen un ahorro significativo.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cuánto es un consumo excesivo?",
+      "answer": "Más de un 10–15 % por encima del consumo habitual de tu coche, en condiciones similares, merece revisión. Compara siempre con tu propio historial."
+    },
+    {
+      "question": "¿Qué sensores aumentan el consumo?",
+      "answer": "Las sondas lambda, el sensor de temperatura del refrigerante y el MAF. Si dan una lectura errónea, la centralita enriquece la mezcla sin avisar con un testigo."
+    },
+    {
+      "question": "¿Ayuda cambiar el filtro de aire?",
+      "answer": "Un filtro muy obstruido puede subir algo el consumo, aunque el efecto suele ser pequeño. Es barato y conviene mantenerlo al día."
+    }
+  ],
+  "products": [
+    "manómetro de presión de neumáticos",
+    "escáner obd2 bluetooth elm327",
+    "filtro de aire de motor"
+  ],
+  "related": [
+    "p0171",
+    "p0172",
+    "p0133"
+  ],
+  "featured_image": "/img/articulos/guia-guia-consumo-excesivo-combustible.webp"
+}

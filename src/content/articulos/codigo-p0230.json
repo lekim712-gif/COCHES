@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0230",
+  "name": "Circuito primario de la bomba de combustible",
+  "datePublished": "2026-10-23",
+  "dateModified": "2026-10-23",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0230: causas, síntomas y solución",
+    "meta_description": "P0230: fallo en el circuito de mando de la bomba de combustible. Qué revisar (relé, fusible, bomba, interruptor de inercia) cuando el coche no arranca.",
+    "slug": "p0230"
+  },
+  "content_html": "<h1>Código P0230: Circuito primario de la bomba de combustible</h1>\n<p class=\"intro\">El código P0230 indica un fallo en el circuito primario de la bomba de combustible: el mando eléctrico que activa la bomba, o su relé, no funciona como debe. Cuando falla, el coche puede no arrancar o pararse al acelerar, porque no llega gasolina. Es un problema típico de un relé, un fusible o un conector, y conviene comprobarlos antes de pensar en cambiar la bomba.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta: el motor puede no arrancar o pararse en marcha</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Bomba de combustible, relé, fusible, interruptor de inercia, cableado</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>5–30 € (relé o fusible) · 150–500 € (bomba), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Multímetro, escáner OBD2, lámpara de pruebas</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>El motor da arranque pero no arranca.</li><li>No se oye el zumbido de la bomba al dar el contacto.</li><li>Motor que se para de repente en marcha.</li><li>Testigo de motor encendido.</li><li>Fallo intermitente, sobre todo en caliente.</li></ul>\n<h2>Causas principales</h2><ul><li>Relé de la bomba de combustible averiado.</li><li>Fusible de la bomba fundido.</li><li>Interruptor de inercia disparado tras un golpe.</li><li>Conector o cableado de la bomba con mal contacto.</li><li>Bomba de combustible agotada, que consume demasiada corriente.</li><li>Fallo de la centralita que controla la bomba.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Da el contacto sin arrancar y escucha cerca del depósito: debe oírse el zumbido de la bomba durante un par de segundos. Si no se oye, no llega mando o la bomba está muerta.</li><li>Comprueba el fusible de la bomba en el manual y cámbialo si está fundido.</li><li>Localiza el relé de la bomba y cámbialo por otro igual, de otro circuito, para probar.</li><li>Si tu coche tiene interruptor de inercia, mira si se ha disparado y rearmalo según el manual.</li><li>Con el multímetro, comprueba que llegan 12 V al conector de la bomba cuando das el contacto.</li><li>Si llegan 12 V y la bomba no suena, la bomba está averiada. Si no llegan, revisa el cableado y el relé.</li><li>Mide la presión de combustible con un manómetro, si dispones de él.</li><li>Sustituye lo averiado, borra los códigos y comprueba que el coche arranca con normalidad.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cómo sé si la bomba de combustible está averiada?",
+      "answer": "Si al dar el contacto no se oye su zumbido y llegan 12 V a su conector, la bomba está averiada. Si no llegan 12 V, el fallo está en el relé, el fusible o el cableado."
+    },
+    {
+      "question": "¿Se puede circular con P0230?",
+      "answer": "No es recomendable: el coche puede pararse en cualquier momento. Si arranca, ve al taller sin demora."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0230?",
+      "answer": "Un relé o un fusible cuestan entre 5 y 30 €. Una bomba de combustible nueva, entre 150 y 500 € con montaje, según modelo."
+    }
+  ],
+  "products": [
+    "relé para bomba de combustible",
+    "multímetro digital automotriz",
+    "juego de fusibles para coche"
+  ],
+  "related": [
+    "p0087",
+    "p0562",
+    "p0606"
+  ],
+  "featured_image": "/img/articulos/codigo-p0230.webp"
+}

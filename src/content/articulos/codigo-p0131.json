@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0131",
+  "name": "Sonda lambda anterior: tensión baja (banco 1)",
+  "datePublished": "2026-10-23",
+  "dateModified": "2026-10-23",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0131: causas, síntomas y solución",
+    "meta_description": "P0131: la sonda lambda anterior marca una tensión demasiado baja. Qué significa (mezcla pobre o corto a masa) y cómo diferenciarlo con datos en vivo.",
+    "slug": "p0131"
+  },
+  "content_html": "<h1>Código P0131: Sonda lambda anterior: tensión baja (banco 1)</h1>\n<p class=\"intro\">El código P0131 indica que la señal de la sonda lambda anterior del banco 1 se queda en una tensión demasiado baja, lo que la centralita interpreta como mezcla muy pobre. Puede ser real, por una fuga de aire o falta de combustible, o un fallo eléctrico: un cortocircuito del cable a masa o una sonda agotada. Hay que averiguar cuál de las dos antes de cambiar la sonda.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: consumo y emisiones mayores, y riesgo para el catalizador</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sonda lambda anterior, mezcla, admisión, cableado</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>80–300 € (sonda) · 0–40 € (cableado), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro, detector de fugas</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Ralentí inestable y tirones a bajo régimen.</li><li>Pérdida de potencia.</li><li>Consumo mayor de lo normal.</li><li>Posibles P0171 u otros códigos de mezcla pobre.</li></ul>\n<h2>Causas principales</h2><ul><li>Mezcla realmente pobre por fuga de aire en la admisión.</li><li>Presión de combustible baja o inyectores sucios.</li><li>Sonda lambda anterior agotada.</li><li>Cable de señal en cortocircuito contra masa.</li><li>Fuga en el escape antes de la sonda.</li><li>Sensor MAF con una lectura baja.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y los datos congelados. Si aparece P0171, la mezcla pobre es real y la causa suele ser aire o combustible.</li><li>Con el motor caliente, mira en datos en vivo la tensión de la sonda anterior: si queda fija por debajo de 0,2 V, la lectura es de mezcla muy pobre.</li><li>Provoca una mezcla rica dando un poco de aerosol de arranque cerca de la admisión con cuidado: si la sonda sube, la sonda funciona y el problema es mezcla pobre.</li><li>Revisa fugas de aire en la admisión y haz una prueba de humo.</li><li>Comprueba la presión de combustible y el estado de los inyectores.</li><li>Si la sonda no reacciona, revisa el cableado por cortocircuito a masa y su conector.</li><li>Sustituye la sonda si el cableado es correcto y la mezcla es normal.</li><li>Borra los códigos y haz una prueba de carretera.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0131 y P0132?",
+      "answer": "P0131 indica tensión baja de la sonda anterior y P0132 tensión alta. Una señala mezcla pobre y la otra, mezcla rica."
+    },
+    {
+      "question": "¿Se puede circular con P0131?",
+      "answer": "Sí, con precaución. Una mezcla pobre mantenida puede dañar el catalizador y el motor, así que conviene repararlo pronto."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0131?",
+      "answer": "Si es una fuga o un cable, de 0 a 40 €. Una sonda nueva cuesta entre 80 y 300 € con montaje, según modelo."
+    }
+  ],
+  "products": [
+    "sonda lambda universal",
+    "detector de fugas de humo automoción",
+    "multímetro digital automotriz"
+  ],
+  "related": [
+    "p0130",
+    "p0171",
+    "p0134"
+  ],
+  "featured_image": "/img/articulos/codigo-p0131.webp"
+}

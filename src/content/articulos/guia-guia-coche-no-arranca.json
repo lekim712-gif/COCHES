@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "El coche no arranca: qué revisar paso a paso",
+  "datePublished": "2026-10-23",
+  "dateModified": "2026-10-23",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "El coche no arranca: qué revisar paso a paso",
+    "meta_description": "Tu coche no arranca: cómo distinguir si falla la batería, el motor de arranque, el combustible o el encendido, y qué comprobar antes de llamar a la grúa.",
+    "slug": "guia-coche-no-arranca"
+  },
+  "content_html": "<h1>El coche no arranca: qué revisar paso a paso</h1>\n<p class=\"intro\">Cuando un coche no arranca, lo primero es escuchar qué hace al girar la llave: silencio, clic, giro lento o giro normal sin arrancar. Cada comportamiento apunta a una causa distinta, de la batería al combustible. Con unas pocas comprobaciones sencillas se descarta lo más habitual antes de llamar a la grúa o ir al taller.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Variable: depende de la causa</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Batería, arranque, combustible, encendido, inmovilizador</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–20 € (bornes, fusible) · 60–180 € (batería) · 150–500 € (arranque o bomba), según la causa</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Multímetro, cables de arranque, linterna, escáner OBD2</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Gira la llave y fíjate: si no pasa nada y el cuadro apenas se enciende, la batería está descargada o los bornes están flojos.</li><li>Mide la batería con un multímetro: por debajo de 12 V en reposo está muy baja. Prueba con cables de arranque o una batería externa.</li><li>Si hay un clic seco al girar la llave, suele ser batería baja, solenoide o bornes en mal estado. Limpia y aprieta los bornes.</li><li>Si el motor gira lento, la batería está floja, hace mucho frío o el motor de arranque está desgastado.</li><li>Si gira con normalidad pero no arranca, falta combustible, chispa o la señal del cigüeñal. Escucha la bomba de combustible al dar el contacto: debe zumbar un par de segundos.</li><li>Comprueba que hay combustible y que los fusibles y relés de la bomba están bien.</li><li>Lee los códigos con un escáner OBD2: códigos del sensor de cigüeñal, de la bomba o del inmovilizador orientan la causa.</li><li>Si el testigo del inmovilizador (llave o coche con candado) parpadea, la llave no se reconoce: prueba con la llave de repuesto.</li><li>Si tras comprobar lo básico no arranca, llama a la grúa en lugar de insistir y descargar la batería.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué mi coche hace clic y no arranca?",
+      "answer": "Casi siempre es batería baja, bornes flojos o un solenoide del motor de arranque defectuoso. Mide la batería y revisa los bornes antes de nada."
+    },
+    {
+      "question": "¿Qué hago si gira pero no arranca?",
+      "answer": "Falta combustible, chispa o la señal del sensor de cigüeñal. Escucha la bomba al dar el contacto, revisa fusibles y lee los códigos con un escáner."
+    },
+    {
+      "question": "¿Puedo arrancar con cables de otro coche?",
+      "answer": "Sí, con cuidado y siguiendo el orden de conexión: positivo con positivo y negativo a una masa del motor, no al borne negativo de la batería descargada."
+    }
+  ],
+  "products": [
+    "cables de arranque para batería",
+    "tester de batería de coche",
+    "multímetro digital automotriz"
+  ],
+  "related": [
+    "testigo-bateria",
+    "p0230",
+    "p0322"
+  ],
+  "featured_image": "/img/articulos/guia-guia-coche-no-arranca.webp"
+}

@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "El coche tironea al acelerar: causas y qué revisar",
+  "datePublished": "2026-10-23",
+  "dateModified": "2026-10-23",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "El coche tironea al acelerar: causas y qué revisar",
+    "meta_description": "Tu coche da tirones o falla al acelerar: causas más habituales (bujías, bobinas, inyectores, MAF, combustible) y cómo localizar el fallo paso a paso.",
+    "slug": "guia-coche-tironea-al-acelerar"
+  },
+  "content_html": "<h1>El coche tironea al acelerar: causas y qué revisar</h1>\n<p class=\"intro\">Los tirones al acelerar casi siempre indican que la mezcla o el encendido no llegan bien a uno o varios cilindros. Distinguir si ocurre en frío o en caliente, a bajo o alto régimen y con testigo o sin él acota mucho la causa. Esta guía propone una revisión ordenada, de lo más barato a lo más caro, antes de cambiar piezas a ciegas.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: los fallos de encendido repetidos dañan el catalizador</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Encendido, inyección, admisión, combustible</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>15–80 € (bujías, filtros) · 100–600 € (bobinas, inyectores, bomba), según la causa</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, llave de bujías, linterna</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos con un escáner OBD2: códigos P0300 a P0306 apuntan a fallos de encendido y P0171 o P0172 a mezcla.</li><li>Fíjate en cuándo ocurre: si es solo en frío, sospecha de sondas o sensores de temperatura; si es en caliente, de bobinas o del sensor de cigüeñal.</li><li>En gasolina, revisa las bujías: electrodos desgastados, hollín o separación incorrecta. Cámbialas si superan su intervalo.</li><li>Revisa las bobinas de encendido: intercámbialas entre cilindros y mira si el fallo se traslada.</li><li>Comprueba el filtro de aire y el estado del sensor MAF; límpialo si está sucio.</li><li>Revisa el filtro de combustible y la presión: un filtro saturado provoca tirones en carga.</li><li>En diésel, mira los inyectores, el filtro de combustible y el turbo o el EGR si hay modo de emergencia.</li><li>Revisa fugas de aire en la admisión y el estado de los manguitos.</li><li>Si los tirones persisten tras estas comprobaciones, acude al taller con los datos anotados.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué mi coche tironea solo en frío?",
+      "answer": "Suele deberse a sensores de temperatura, a sondas lambda aún frías o a una mezcla mal ajustada al arrancar. Un escáner suele mostrar el sensor implicado."
+    },
+    {
+      "question": "¿Tironea por la gasolina?",
+      "answer": "Puede ser, si has repostado combustible de mala calidad o con agua. Si el fallo aparece justo después de repostar, es una pista clara."
+    },
+    {
+      "question": "¿Se puede circular con tirones?",
+      "answer": "Con tirones repetidos y testigo parpadeante, no: dañas el catalizador. Con tirones leves y testigo fijo puedes llegar al taller con cuidado."
+    }
+  ],
+  "products": [
+    "juego de bujías",
+    "escáner obd2 bluetooth elm327",
+    "limpiador de sensor MAF"
+  ],
+  "related": [
+    "p0300",
+    "p0301",
+    "guia-coche-pierde-potencia"
+  ],
+  "featured_image": "/img/articulos/guia-guia-coche-tironea-al-acelerar.webp"
+}

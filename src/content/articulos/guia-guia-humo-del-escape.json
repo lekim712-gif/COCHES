@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Humo del escape: blanco, negro o azul, qué significa",
+  "datePublished": "2026-10-23",
+  "dateModified": "2026-10-23",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Humo del escape blanco, negro o azul: qué significa",
+    "meta_description": "Humo blanco, negro o azul por el escape: qué indica cada color (agua, mezcla rica, aceite), cuándo es normal y qué revisar antes de acudir al taller.",
+    "slug": "guia-humo-del-escape"
+  },
+  "content_html": "<h1>Humo del escape: blanco, negro o azul, qué significa</h1>\n<p class=\"intro\">El color del humo del escape ayuda a saber qué falla en el motor. El humo blanco ligero y sin olor suele ser vapor de agua y es normal en frío. El negro indica mezcla rica o exceso de combustible, y el azul, aceite quemado. Esta guía explica qué significa cada uno, cuándo es normal y qué revisar antes de acudir al taller, porque algunos casos, como la junta de culata, requieren atención rápida.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta, según el color y la persistencia del humo</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Combustión, lubricación, refrigeración, admisión</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–60 € (filtro, sensor) · 300–2.000 € o más (junta de culata, segmentos), según la causa</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Linterna, escáner OBD2, papel blanco para ver el humo</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Observa el humo con el motor en frío y en caliente: el vapor de agua blanco en frío desaparece en pocos minutos, y es normal.</li><li>Si el humo blanco es denso, persistente y huele dulce, sospecha de refrigerante en la combustión: junta de culata o culata agrietada. Comprueba el nivel del refrigerante y si hay burbujas o aceite lechoso.</li><li>Si el humo es negro, hay exceso de combustible o falta de aire: revisa filtro de aire, sensor MAF, inyectores y, en diésel, turbo y EGR.</li><li>Si el humo es azulado, el motor quema aceite: comprueba si baja el nivel de aceite entre cambios, y revisa retenes de válvula, segmentos, turbo y la ventilación del cárter.</li><li>Pon un trozo de papel blanco cerca del escape con el motor en marcha y mira si queda aceite, hollín o humedad.</li><li>Lee los códigos con el escáner: pueden indicar fallos de mezcla, de inyección o de temperatura.</li><li>Si el humo blanco es denso, el nivel de refrigerante baja o hay humo azul abundante, no sigas circulando: acude al taller.</li><li>Anota cuándo aparece el humo, con qué carga y qué color tiene, para facilitar el diagnóstico.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa el humo blanco del escape?",
+      "answer": "Si es ligero y desaparece al calentar, es vapor de agua y es normal. Si es denso, persistente y huele dulce, puede ser refrigerante en la combustión, por ejemplo por la junta de culata."
+    },
+    {
+      "question": "¿Por qué sale humo negro?",
+      "answer": "Por exceso de combustible o falta de aire: filtro de aire obstruido, MAF o inyectores. En diésel, también turbo o EGR en mal estado."
+    },
+    {
+      "question": "¿Qué significa el humo azul?",
+      "answer": "Que el motor quema aceite. Puede deberse a retenes de válvula, segmentos desgastados o a un turbo con fuga interna. Si el nivel de aceite baja, conviene revisarlo."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "comprobador de presión del sistema de refrigeración",
+    "filtro de aire de motor"
+  ],
+  "related": [
+    "p0300",
+    "testigo-motor",
+    "testigo-temperatura-refrigerante"
+  ],
+  "featured_image": "/img/articulos/guia-guia-humo-del-escape.webp"
+}

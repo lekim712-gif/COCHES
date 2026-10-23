@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0133",
+  "name": "Respuesta lenta de la sonda lambda anterior (banco 1)",
+  "datePublished": "2026-10-23",
+  "dateModified": "2026-10-23",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0133: causas, síntomas y solución",
+    "meta_description": "P0133: la sonda lambda anterior responde con lentitud. Por qué se degrada, cómo medir su tiempo de respuesta y cuándo conviene cambiarla.",
+    "slug": "p0133"
+  },
+  "content_html": "<h1>Código P0133: Respuesta lenta de la sonda lambda anterior (banco 1)</h1>\n<p class=\"intro\">El código P0133 indica que la sonda lambda anterior del banco 1 responde con lentitud: cambia de mezcla rica a pobre más despacio de lo normal. Es un desgaste típico de las sondas con muchos kilómetros, aunque también lo provocan fugas de escape o contaminación. La centralita pierde precisión al corregir la mezcla y sube el consumo.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: más consumo y emisiones, sin efecto grave en la conducción</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sonda lambda anterior, escape, mezcla</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>80–300 € (sonda), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, llave de sonda lambda, detector de fugas</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Consumo algo mayor.</li><li>Ralentí ligeramente inestable.</li><li>Emisiones peores en la ITV.</li><li>En datos en vivo, la sonda cambia de nivel con retraso.</li></ul>\n<h2>Causas principales</h2><ul><li>Sonda lambda envejecida, con más de 100.000 km.</li><li>Contaminación del sensor por aceite, silicona o aditivos.</li><li>Fuga de escape antes de la sonda.</li><li>Calentador de la sonda con rendimiento bajo.</li><li>Mezcla muy irregular por otro fallo, como fallos de encendido.</li><li>Cableado con resistencia elevada por corrosión.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y comprueba si hay también códigos de mezcla o de encendido que puedan falsear la lectura.</li><li>Con el motor caliente, observa en datos en vivo la tensión de la sonda: debe oscilar rápido, con unos 8–10 ciclos en 10 segundos a 2.500 rpm.</li><li>Si la oscilación es lenta, la sonda está degradada. Si no oscila, mira P0134.</li><li>Busca fugas de escape antes de la sonda: juntas del colector y tornillos.</li><li>Revisa el cableado y el conector de la sonda: corrosión o calor excesivo.</li><li>Comprueba la resistencia del calentador y su alimentación.</li><li>Sustituye la sonda por una equivalente con la llave adecuada.</li><li>Borra los códigos y haz un ciclo de conducción completo para confirmar la mejora.</li></ol>\n<h2>Cuándo conviene cambiar la sonda aunque no haya código</h2><p>Una sonda lambda anterior con más de 100.000 km suele responder más despacio aunque aún no active ningún aviso. Si el consumo ha subido de forma gradual o has fallado alguna ITV por emisiones, cambiarla de forma preventiva puede devolver el consumo original. Elige una sonda de la referencia exacta de tu motor y evita las universales cuando el conector no coincida: un empalme mal hecho provoca nuevos fallos.</p><h2>Cuándo acudir al taller</h2><p>Acude al taller si, tras cambiar la sonda, el código vuelve a aparecer, si hay además fallos de encendido o si el catalizador huele a azufre. Puede haber una fuga de escape, un problema de mezcla o un catalizador dañado que la sonda nueva no resuelve por sí sola.</p>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cuántos kilómetros dura una sonda lambda?",
+      "answer": "Las modernas de banda ancha suelen durar entre 100.000 y 160.000 km. Las más antiguas, menos. Con el tiempo se vuelven lentas aunque no estén averiadas."
+    },
+    {
+      "question": "¿Se puede circular con P0133?",
+      "answer": "Sí. El coche funciona, pero consume algo más y sube la contaminación. Repáralo antes de la ITV."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0133?",
+      "answer": "Una sonda nueva cuesta entre 80 y 300 € con montaje, según modelo."
+    }
+  ],
+  "products": [
+    "sonda lambda universal",
+    "llave para sonda lambda",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0130",
+    "p0134",
+    "p0420"
+  ],
+  "featured_image": "/img/articulos/codigo-p0133.webp"
+}

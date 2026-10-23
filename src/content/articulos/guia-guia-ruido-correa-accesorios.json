@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Chirrido de la correa de accesorios: causas y solución",
+  "datePublished": "2026-10-23",
+  "dateModified": "2026-10-23",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Chirrido de la correa de accesorios: causas y solución",
+    "meta_description": "Tu coche chirría al arrancar o girar el volante: causas del ruido de la correa de accesorios (tensión, desgaste, poleas) y cómo revisarla paso a paso.",
+    "slug": "guia-ruido-correa-accesorios"
+  },
+  "content_html": "<h1>Chirrido de la correa de accesorios: causas y solución</h1>\n<p class=\"intro\">La correa de accesorios mueve el alternador, la bomba de dirección y el compresor del aire acondicionado, y cuando se desgasta o pierde tensión, chirría. El ruido suele notarse al arrancar en frío, con humedad o al girar el volante a tope. Revisarla es sencillo y evita quedarse sin carga eléctrica o sin dirección asistida a mitad de un trayecto.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: una correa rota deja sin alternador y, a veces, sin dirección asistida</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Correa de accesorios, tensor, poleas, alternador</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>15–40 € (correa) · 60–200 € (tensor o polea), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Linterna, llave del tensor, correa nueva</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Con el motor parado y frío, observa la correa con una linterna: grietas, brillo vidrioso, deshilachados o trozos que faltan indican desgaste.</li><li>Comprueba la tensión: debe ceder unos pocos milímetros al presionarla con el dedo entre dos poleas. Si cede mucho, está floja.</li><li>Gira con la mano las poleas de los accesorios, con el motor parado y la llave quitada: no deben rascar ni hacer ruido.</li><li>Arranca el motor y escucha: si el chirrido desaparece al rociar unas gotas de agua sobre la correa, la causa es la correa; si empeora, puede ser el tensor.</li><li>Revisa el tensor automático: debe moverse con suavidad y no quedarse flojo.</li><li>Si hay contaminación de aceite o refrigerante en la correa, repara la fuga antes de cambiarla.</li><li>Cambia la correa por una de la referencia exacta, respetando el recorrido que muestra el esquema del capó o del manual.</li><li>Si el ruido persiste con la correa nueva, cambia también el tensor y las poleas, y revisa el alternador.</li><li>No aceites ni uses «spray» antichirrido de forma habitual: tapan el síntoma sin resolver la causa.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué chirría la correa al arrancar en frío?",
+      "answer": "Porque la goma está dura por el frío o la humedad, o la correa está floja o desgastada. Si desaparece al calentar, suele ser desgaste incipiente y conviene cambiarla pronto."
+    },
+    {
+      "question": "¿Cada cuánto se cambia la correa de accesorios?",
+      "answer": "Suele indicarse entre 60.000 y 120.000 km, según el fabricante. Revísala cada año y cámbiala si ves grietas o brillo."
+    },
+    {
+      "question": "¿Qué pasa si se rompe?",
+      "answer": "Dejas de cargar la batería, y en muchos coches pierdes la dirección asistida y la refrigeración. Conviene detenerse en cuanto se rompa."
+    }
+  ],
+  "products": [
+    "correa de accesorios para coche",
+    "tensor de correa de accesorios",
+    "linterna led de taller"
+  ],
+  "related": [
+    "p0562",
+    "testigo-bateria",
+    "testigo-direccion-asistida"
+  ],
+  "featured_image": "/img/articulos/guia-guia-ruido-correa-accesorios.webp"
+}
