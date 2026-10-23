@@ -36,5 +36,7 @@
     "testigo-motor",
     "testigo-temperatura-refrigerante"
   ],
-  "featured_image": "/img/articulos/guia-guia-humo-del-escape.webp"
+  "featured_image": "/img/articulos/guia-guia-humo-del-escape.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-23"
 }
