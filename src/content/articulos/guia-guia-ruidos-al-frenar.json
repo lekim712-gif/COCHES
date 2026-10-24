@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Ruidos al frenar: chirridos, golpes y vibraciones",
+  "datePublished": "2026-10-24",
+  "dateModified": "2026-10-24",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Ruidos al frenar: chirridos, golpes y qué revisar",
+    "meta_description": "Tu coche hace ruido al frenar: qué significan el chirrido, el roce metálico y las vibraciones, qué revisar y cuándo no debes seguir circulando.",
+    "slug": "guia-ruidos-al-frenar"
+  },
+  "content_html": "<h1>Ruidos al frenar: chirridos, golpes y vibraciones</h1>\n<p class=\"intro\">Los ruidos al frenar suelen avisar de pastillas gastadas, discos deformados o suciedad en el conjunto. El tipo de ruido da pistas: un chirrido agudo suele ser el indicador de desgaste, un roce metálico indica pastillas agotadas y una vibración en el pedal apunta a discos deformados. Como el freno es seguridad, ante dudas conviene acudir al taller cuanto antes.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta si hay roce metálico o el pedal cambia; media si es un chirrido leve</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Frenos: pastillas, discos, pinzas, líquido</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>40–150 € (pastillas) · 100–400 € (discos y pastillas), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Linterna, gato y caballetes, calibre o regla, llave de ruedas</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Identifica el ruido: chirrido agudo al frenar suave, roce metálico continuo, golpeteo al pasar baches o vibración en el pedal o el volante.</li><li>Si hay un roce metálico fuerte o el pedal está blando, no sigas circulando: llama a una grúa o conduce lo mínimo hasta un taller.</li><li>Mira el grosor de las pastillas a través de la llanta con una linterna: por debajo de unos 3 mm hay que cambiarlas.</li><li>Si hay un chirrido agudo solo en las primeras frenadas de la mañana, puede ser humedad o polvo y desaparecer solo.</li><li>Revisa los discos: surcos profundos, borde marcado o color azulado por el calor indican desgaste o sobrecalentamiento.</li><li>Una vibración en el pedal o el volante al frenar suele indicar discos deformados: hay que rectificar o cambiar.</li><li>Comprueba el nivel de líquido de frenos: si ha bajado, las pastillas están muy gastadas o hay una fuga.</li><li>Cambia pastillas y, si hace falta, discos por ejes completos, y rueda las pastillas nuevas con frenadas suaves.</li><li>Si el ruido persiste con piezas nuevas, revisa las pinzas y los soportes en un taller.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué chirrían los frenos?",
+      "answer": "Lo más habitual es el indicador de desgaste de las pastillas, que chirría para avisar del cambio. También puede ser polvo, humedad o pastillas de baja calidad."
+    },
+    {
+      "question": "¿Se puede circular con un roce metálico al frenar?",
+      "answer": "No. Significa que las pastillas están agotadas y el metal roza el disco. Se pierde eficacia de frenado y el disco se destruye. Llama a una grúa."
+    },
+    {
+      "question": "¿Cuánto cuesta cambiar las pastillas de freno?",
+      "answer": "Un eje de pastillas cuesta entre 40 y 150 € con montaje. Si hay que cambiar también los discos, entre 100 y 400 €, según modelo."
+    }
+  ],
+  "products": [
+    "pastillas de freno delanteras",
+    "discos de freno",
+    "líquido de frenos DOT4"
+  ],
+  "related": [
+    "testigo-freno",
+    "testigo-abs"
+  ],
+  "needs_review": true,
+  "featured_image": "/img/articulos/guia-guia-ruidos-al-frenar.webp"
+}

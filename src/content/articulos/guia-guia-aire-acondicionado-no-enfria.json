@@ -1,0 +1,39 @@
+{
+  "type": "guia",
+  "name": "El aire acondicionado no enfría: causas y qué revisar",
+  "datePublished": "2026-10-24",
+  "dateModified": "2026-10-24",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "El aire acondicionado del coche no enfría: causas",
+    "meta_description": "Tu aire acondicionado no enfría o enfría poco: causas habituales (gas, compresor, filtro, condensador, ventilador) y qué revisar antes de ir al taller.",
+    "slug": "guia-aire-acondicionado-no-enfria"
+  },
+  "content_html": "<h1>El aire acondicionado no enfría: causas y qué revisar</h1>\n<p class=\"intro\">Cuando el aire acondicionado no enfría, lo más frecuente es una pérdida de gas refrigerante, un compresor que no engancha o un condensador sucio. El filtro de habitáculo obstruido y los ventiladores averiados también reducen el rendimiento. Con unas comprobaciones sencillas se descarta lo básico antes de acudir a un taller con equipo de carga de gas, necesario para cualquier reparación del circuito.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: incomoda, pero la reparación del circuito exige taller</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Climatización: compresor, gas, condensador, ventiladores, filtro de habitáculo</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–25 € (filtro) · 60–150 € (recarga) · 300–900 € (compresor), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Linterna, escáner OBD2, equipo de carga (taller)</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Pon el aire acondicionado al máximo con el motor en marcha y escucha: el compresor debe enganchar con un pequeño chasquido y subir ligeramente el régimen.</li><li>Si no engancha, revisa los fusibles y relés del aire acondicionado en el manual.</li><li>Comprueba el filtro de habitáculo: si está muy sucio, sale poco aire y se nota menos frío.</li><li>Mira el condensador, delante del radiador: si está lleno de hojas o insectos, limpia con agua a poca presión, sin doblar sus aletas.</li><li>Comprueba que los ventiladores del radiador se activan al encender el aire acondicionado.</li><li>Si todo es correcto y el aire sale poco frío, es probable que falte gas por una fuga pequeña.</li><li>La recarga de gas y la búsqueda de fugas requieren un equipo específico: acude a un taller, que detectará la fuga con tinte o con un detector.</li><li>Evita las recargas con latas sin diagnosticar: si hay una fuga, el gas se pierde de nuevo y puede dañar el compresor.</li><li>Haz funcionar el aire acondicionado unos minutos cada semana, incluso en invierno, para mantener lubricadas las juntas.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué el aire acondicionado no enfría?",
+      "answer": "Lo más habitual es falta de gas por una pequeña fuga. También puede ser el compresor, el condensador sucio, un fusible o el filtro de habitáculo."
+    },
+    {
+      "question": "¿Cada cuánto hay que recargar el gas?",
+      "answer": "No debería hacer falta si no hay fugas. Si pierde gas cada pocos meses, hay una fuga que localizar, y recargar sin repararla solo es una solución temporal."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar el aire acondicionado?",
+      "answer": "Una recarga con revisión suele costar entre 60 y 150 €. Un compresor nuevo, entre 300 y 900 €, según modelo."
+    }
+  ],
+  "products": [
+    "filtro de habitáculo de carbón activo",
+    "limpiador de aire acondicionado de coche",
+    "cepillo para aletas de condensador"
+  ],
+  "related": [
+    "guia-cambio-filtro-habitaculo",
+    "guia-calefaccion-no-calienta"
+  ],
+  "featured_image": "/img/articulos/guia-guia-aire-acondicionado-no-enfria.webp"
+}

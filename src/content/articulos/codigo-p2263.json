@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P2263",
+  "name": "Rendimiento del sistema de sobrealimentación del turbo",
+  "datePublished": "2026-10-24",
+  "dateModified": "2026-10-24",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P2263: causas, síntomas y solución",
+    "meta_description": "P2263: el sistema del turbo no consigue la presión esperada. Cómo medir presión pedida y real y localizar la causa (fugas, actuador, intercooler, filtro).",
+    "slug": "p2263"
+  },
+  "content_html": "<h1>Código P2263: Rendimiento del sistema de sobrealimentación del turbo</h1>\n<p class=\"intro\">El código P2263 indica que el rendimiento del sistema de sobrealimentación no es el esperado: la presión que consigue el turbo no coincide con la que pide la centralita. Es un aviso global que engloba fugas de aire, actuadores atascados, intercooler obstruido o un turbo desgastado. Para encontrar la causa hay que medir la presión pedida y la real en una aceleración y buscar dónde se pierde el aire.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: pérdida de potencia y modo de emergencia</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Turbo, actuador, intercooler, manguitos, sensores de presión</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–80 € (manguitos, filtro) · 200–1.500 € (actuador o turbo), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, detector de fugas, manómetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Falta de potencia, sobre todo a medio y alto régimen.</li><li>Modo de emergencia.</li><li>Humo negro o azulado según la causa.</li><li>Silbido del turbo distinto al habitual.</li></ul>\n<h2>Causas principales</h2><ul><li>Fugas en los manguitos del turbo o del intercooler.</li><li>Actuador de geometría variable o wastegate atascados.</li><li>Filtro de aire obstruido o conducto colapsado.</li><li>Intercooler obstruido por aceite o suciedad.</li><li>Turbo con álabes desgastados o con holgura.</li><li>Escape con contrapresión por catalizador o filtro de partículas obstruidos.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y comprueba si aparecen P0299, P0234, P0243 o fallos del sensor de presión: orientan hacia dónde buscar.</li><li>Haz una aceleración a fondo en carretera segura y registra con el escáner la presión pedida y la real, y el caudal de aire.</li><li>Si la presión real queda siempre por debajo, busca fugas con una prueba de humo en los manguitos y el intercooler.</li><li>Revisa el filtro de aire y los conductos de admisión.</li><li>Comprueba que el actuador del turbo se mueve con la bomba de vacío o con el test de actuadores.</li><li>Mira si el intercooler tiene aceite en su interior: un exceso indica fuga del turbo.</li><li>Revisa el escape y el filtro de partículas por contrapresión.</li><li>Si todo está bien, el turbo puede estar desgastado y necesitar revisión en taller.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P2263 y P0299?",
+      "answer": "P0299 indica presión insuficiente del turbo. P2263 es un código más general de rendimiento del sistema, que puede deberse a exceso o falta de presión, y exige comparar la presión pedida con la real."
+    },
+    {
+      "question": "¿Se puede circular con P2263?",
+      "answer": "Con modo de emergencia, solo hasta el taller y con suavidad. Un turbo en mal estado puede empeorar rápido."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P2263?",
+      "answer": "Manguitos y filtro, de 10 a 80 €. Un actuador o un turbo nuevo, entre 200 y 1.500 €, según modelo."
+    }
+  ],
+  "products": [
+    "detector de fugas de humo automoción",
+    "filtro de aire de motor",
+    "bomba de vacío manual para automoción"
+  ],
+  "related": [
+    "p0299",
+    "p0234",
+    "p0243"
+  ],
+  "featured_image": "/img/articulos/codigo-p2263.webp"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0116",
+  "name": "Sensor de temperatura del refrigerante: rango o rendimiento",
+  "datePublished": "2026-10-24",
+  "dateModified": "2026-10-24",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0116: causas, síntomas y solución",
+    "meta_description": "P0116: la temperatura del refrigerante no coincide con lo esperado. Causas (termostato abierto, sensor desviado), síntomas y cómo contrastar la lectura.",
+    "slug": "p0116"
+  },
+  "content_html": "<h1>Código P0116: Sensor de temperatura del refrigerante: rango o rendimiento</h1>\n<p class=\"intro\">El código P0116 indica que la temperatura del refrigerante que mide el sensor no evoluciona como debería o no es coherente con otros datos, como la temperatura del aire o el tiempo de funcionamiento. A menudo el sensor funciona y el problema real es un termostato atascado abierto, que impide que el motor alcance su temperatura. La clave es contrastar la lectura con un termómetro.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: el motor tarda en calentar y consume más</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Refrigeración, sensor de temperatura, termostato</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>15–40 € (termostato) · 20–60 € (sensor), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, termómetro infrarrojo, multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Calefacción que tarda en calentar o sale tibia.</li><li>Consumo mayor y ralentí algo alto en frío.</li><li>La temperatura del cuadro no llega a la zona normal.</li><li>Ventilador que funciona con más frecuencia.</li></ul>\n<h2>Causas principales</h2><ul><li>Termostato atascado abierto.</li><li>Sensor de temperatura con una desviación.</li><li>Nivel bajo de refrigerante o aire en el circuito.</li><li>Conector del sensor con falsos contactos.</li><li>Cableado con resistencia elevada.</li><li>Sensor equivocado tras una sustitución.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y los datos congelados. Compara con P0115 y P0128 si aparecen.</li><li>Con el motor frío, comprueba en datos en vivo que la temperatura del refrigerante es parecida a la del aire.</li><li>Arranca y mide la temperatura con un termómetro infrarrojo en el manguito superior y compárala con la del escáner.</li><li>Si el motor tarda mucho en llegar a unos 85–90 °C, sospecha del termostato.</li><li>Comprueba el nivel de refrigerante en frío y purga el aire si hace falta.</li><li>Revisa el conector y el cableado del sensor: humedad, terminales sulfatados.</li><li>Mide la resistencia del sensor a temperatura ambiente y compárala con la tabla del manual.</li><li>Cambia el termostato o el sensor según el resultado, borra los códigos y comprueba que la temperatura sube con normalidad.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué no calienta el coche?",
+      "answer": "Lo más habitual es un termostato atascado abierto, que mantiene el motor frío. Un sensor desviado puede dar la misma sensación sin que haya avería real."
+    },
+    {
+      "question": "¿Se puede circular con P0116?",
+      "answer": "Sí, aunque con más consumo y desgaste. Conviene arreglarlo antes del invierno, porque afecta a la calefacción."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0116?",
+      "answer": "Un termostato cuesta entre 15 y 40 €, más montaje. Un sensor, entre 20 y 60 €, según modelo."
+    }
+  ],
+  "products": [
+    "termostato para coche",
+    "termómetro infrarrojo para automoción",
+    "refrigerante anticongelante para coche"
+  ],
+  "related": [
+    "testigo-temperatura-refrigerante",
+    "p0170",
+    "p0133"
+  ],
+  "featured_image": "/img/articulos/codigo-p0116.webp"
+}

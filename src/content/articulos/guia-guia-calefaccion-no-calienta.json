@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "La calefacción no calienta: causas y qué revisar",
+  "datePublished": "2026-10-24",
+  "dateModified": "2026-10-24",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "La calefacción del coche no calienta: causas y soluciones",
+    "meta_description": "Tu calefacción sopla frío o tibio: causas habituales (refrigerante bajo, termostato, radiador de calefacción, mezcla de aire) y cómo diagnosticarlas.",
+    "slug": "guia-calefaccion-no-calienta"
+  },
+  "content_html": "<h1>La calefacción no calienta: causas y qué revisar</h1>\n<p class=\"intro\">La calefacción del coche aprovecha el calor del refrigerante del motor, así que casi siempre que no calienta el problema está en el circuito de refrigeración. Un nivel bajo, un termostato atascado abierto o un radiador de calefacción obstruido son las causas más frecuentes. Esta guía propone una revisión de lo más simple a lo más complejo para encontrar el origen.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: incomoda, pero puede avisar de un problema del motor</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Refrigeración, termostato, radiador de calefacción, compuerta de mezcla</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–25 € (refrigerante) · 15–40 € (termostato) · 100–400 € (radiador de calefacción), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Linterna, refrigerante, termómetro infrarrojo, escáner OBD2</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Comprueba con el motor frío el nivel de refrigerante en el vaso de expansión: un nivel bajo es la causa más habitual.</li><li>Calienta el motor y mira la temperatura en el cuadro: si no llega a la zona normal, el termostato puede estar atascado abierto.</li><li>Con el motor caliente, toca con cuidado los dos manguitos que van a la calefacción: ambos deben estar calientes. Si uno está frío, el radiador de calefacción está obstruido.</li><li>Mira si hay aire en el circuito: ruido de agua en el salpicadero o calefacción intermitente indican burbujas.</li><li>Purga el aire según el procedimiento de tu modelo, con el depósito a nivel y el motor caliente y con cuidado.</li><li>Comprueba que el mando de temperatura mueve la compuerta de mezcla: si el aire siempre sale frío, puede haber un fallo de la compuerta o de su motor.</li><li>Revisa el filtro de habitáculo: si está muy sucio, sale poco aire.</li><li>Si no encuentras la causa, un taller puede limpiar el radiador de calefacción o cambiarlo.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué la calefacción sopla frío?",
+      "answer": "Lo más habitual es el nivel bajo de refrigerante o un termostato atascado abierto. Si sale tibio, puede haber aire en el circuito o un radiador de calefacción parcialmente obstruido."
+    },
+    {
+      "question": "¿Puede ser una avería grave?",
+      "answer": "Si pierde refrigerante, sí: puede haber una fuga o una junta de culata dañada. Vigila el nivel y la temperatura del motor."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar la calefacción?",
+      "answer": "Rellenar refrigerante, 10–25 €. Un termostato, 15–40 € más montaje. Un radiador de calefacción, entre 100 y 400 €, según modelo."
+    }
+  ],
+  "products": [
+    "refrigerante anticongelante para coche",
+    "termostato para coche",
+    "filtro de habitáculo de carbón activo"
+  ],
+  "related": [
+    "p0116",
+    "guia-comprobar-nivel-refrigerante",
+    "guia-cambio-filtro-habitaculo"
+  ],
+  "featured_image": "/img/articulos/guia-guia-calefaccion-no-calienta.webp"
+}

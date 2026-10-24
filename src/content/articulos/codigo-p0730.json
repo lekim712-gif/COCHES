@@ -1,0 +1,40 @@
+{
+  "type": "codigo",
+  "code": "P0730",
+  "name": "Relación de marcha incorrecta (cambio automático)",
+  "datePublished": "2026-10-24",
+  "dateModified": "2026-10-24",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0730: causas, síntomas y solución",
+    "meta_description": "P0730: el cambio automático detecta una relación de marcha incorrecta. Causas (aceite, electroválvulas, embragues), síntomas y qué comprobar primero.",
+    "slug": "p0730"
+  },
+  "content_html": "<h1>Código P0730: Relación de marcha incorrecta (cambio automático)</h1>\n<p class=\"intro\">El código P0730 indica que la relación entre el régimen del motor y la velocidad de salida del cambio no coincide con la marcha que debería estar engranada: el cambio automático patina o no engrana bien. Es una avería que puede ir de un simple nivel bajo de aceite a un desgaste interno del cambio, así que conviene empezar por lo más barato y no forzar el cambio.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta: puede acabar en daño interno del cambio si se sigue circulando</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Cambio automático, aceite ATF, electroválvulas, embragues, sensores</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–100 € (aceite y filtro) · 150–500 € (electroválvulas) · 1.500 € o más (reparación interna), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con acceso al cambio, varilla o procedimiento de nivel de ATF</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor o de cambio encendido.</li><li>El motor sube de vueltas sin que el coche acelere, como si patinara.</li><li>Cambios bruscos o que tardan en engranar.</li><li>El cambio se queda en una marcha, en modo de emergencia.</li><li>Olor a quemado procedente del aceite del cambio.</li></ul>\n<h2>Causas principales</h2><ul><li>Nivel bajo o aceite del cambio degradado.</li><li>Electroválvulas de presión o de cambio con fallo.</li><li>Embragues o discos internos desgastados.</li><li>Convertidor de par con deslizamiento.</li><li>Sensores de velocidad de entrada o salida defectuosos.</li><li>Fallo de la centralita del cambio.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos del cambio con un escáner que acceda a la transmisión: pueden dar más detalle que el código genérico.</li><li>Comprueba el nivel y el estado del aceite del cambio siguiendo el procedimiento del fabricante, con el motor a temperatura y en llano.</li><li>Si el aceite está oscuro, huele a quemado o tiene partículas metálicas, el cambio sufre desgaste interno.</li><li>Revisa los sensores de velocidad del cambio, su cableado y sus conectores.</li><li>Observa en datos en vivo el régimen del motor, la velocidad y la marcha engranada para ver cuándo se produce el deslizamiento.</li><li>Si el aceite es correcto, sospecha de electroválvulas o del módulo hidráulico: es trabajo de taller especializado.</li><li>No sigas circulando con el cambio patinando: el desgaste crece muy rápido.</li><li>Repara según el diagnóstico, borra los códigos y haz una prueba con todas las marchas.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Se puede circular con P0730?",
+      "answer": "No es recomendable. Si el cambio patina, cada kilómetro aumenta el daño. Puede servir para llegar al taller, a baja velocidad y sin forzar."
+    },
+    {
+      "question": "¿Se arregla cambiando el aceite del cambio?",
+      "answer": "A veces, si el problema es nivel bajo o aceite degradado. Si hay desgaste interno, el cambio de aceite no basta."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0730?",
+      "answer": "El aceite y el filtro, unos 30–100 €. Las electroválvulas, entre 150 y 500 €. Una reparación interna del cambio puede costar 1.500 € o más, según modelo."
+    }
+  ],
+  "products": [
+    "aceite ATF para cambio automático",
+    "escáner obd2 profesional multimarca"
+  ],
+  "related": [
+    "p0500",
+    "p0606",
+    "u0100"
+  ],
+  "featured_image": "/img/articulos/codigo-p0730.webp"
+}

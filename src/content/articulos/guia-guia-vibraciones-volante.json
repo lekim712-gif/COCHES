@@ -1,0 +1,39 @@
+{
+  "type": "guia",
+  "name": "Vibraciones en el volante: causas y qué revisar",
+  "datePublished": "2026-10-24",
+  "dateModified": "2026-10-24",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Vibraciones en el volante: causas y qué revisar",
+    "meta_description": "Tu volante vibra al circular o al frenar: causas habituales (equilibrado, discos, rótulas, neumáticos) y cómo localizarlas según la velocidad.",
+    "slug": "guia-vibraciones-volante"
+  },
+  "content_html": "<h1>Vibraciones en el volante: causas y qué revisar</h1>\n<p class=\"intro\">Las vibraciones del volante tienen causas distintas según cuándo aparecen. Si vibra a ciertas velocidades suele ser el equilibrado de las ruedas, si lo hace al frenar son los discos y si aparece al girar o al pasar baches, la suspensión o la dirección. Identificar en qué condiciones ocurre permite acotar el origen sin desmontar nada.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: algunas causas, como una rueda mal sujeta, son peligrosas</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Ruedas, neumáticos, frenos, suspensión, dirección</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–30 € (equilibrado) · 100–400 € (discos, rótulas, amortiguadores), según la causa</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Llave de ruedas, manómetro, gato y caballetes, linterna</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Anota cuándo vibra: a una velocidad concreta (por ejemplo 90–110 km/h), al frenar, al acelerar o al girar.</li><li>Comprueba la presión de los neumáticos y su estado: bultos, desgaste irregular o cortes en los flancos.</li><li>Mira que los tornillos de las ruedas estén bien apretados al par indicado. Una rueda floja es peligrosa.</li><li>Si la vibración aparece a ciertas velocidades, las ruedas probablemente necesitan equilibrado.</li><li>Si vibra al frenar y el pedal pulsa, los discos están deformados.</li><li>Si vibra al acelerar o en curvas, revisa palieres, rótulas, silentblocks y la alineación.</li><li>Levanta el coche con seguridad y comprueba el juego de las ruedas moviéndolas con la mano arriba y abajo y de lado a lado.</li><li>Haz que equilibren las ruedas y revisen la alineación en un taller si no ves la causa.</li><li>No ignores un volante que vibra de golpe tras un golpe o un pinchazo: puede haber una rueda o una pieza dañada.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué vibra el volante a cierta velocidad?",
+      "answer": "Casi siempre por ruedas mal equilibradas. Equilibrar las cuatro ruedas suele resolverlo por unos 10–30 €."
+    },
+    {
+      "question": "¿Por qué vibra el volante al frenar?",
+      "answer": "Suele deberse a discos de freno deformados. Se rectifican o se cambian, y se sustituyen las pastillas si hace falta."
+    },
+    {
+      "question": "¿Es peligroso circular con el volante vibrando?",
+      "answer": "Depende de la causa. Una vibración leve por equilibrado no lo es, pero una rueda floja o una rótula dañada sí. Si es nueva o intensa, revísala pronto."
+    }
+  ],
+  "products": [
+    "manómetro de presión de neumáticos",
+    "llave dinamométrica para coche",
+    "discos de freno"
+  ],
+  "related": [
+    "guia-ruidos-al-frenar",
+    "testigo-presion-neumaticos"
+  ],
+  "featured_image": "/img/articulos/guia-guia-vibraciones-volante.webp"
+}

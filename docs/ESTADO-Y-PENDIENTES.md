@@ -76,3 +76,7 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 ## Actualización 23/10/2026
 - 85 fichas publicadas (+4 testigos de seguridad en noindex). Lote del día: P0190, P0230, P0131, P0133, P0325; guías «tironea al acelerar», humo del escape, no arranca, consumo excesivo y chirrido de correa — pendientes de revisión de Carlos.
 - Search Console: 289 impresiones y 1 clic; sin problemas de indexación.
+
+## Actualización 24/10/2026
+- 95 fichas indexables. Lote del día: P0507, P0730, P0116, P0120, P2263; guías ruidos al frenar (noindex hasta revisión humana, tema de seguridad), vibraciones del volante, calefacción, aire acondicionado y «el coche se cala».
+- Search Console: 334 impresiones y 1 clic; sin problemas de indexación.

@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0120",
+  "name": "Circuito del sensor de posición de la mariposa",
+  "datePublished": "2026-10-24",
+  "dateModified": "2026-10-24",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0120: causas, síntomas y solución",
+    "meta_description": "P0120: fallo en el circuito del sensor de posición de la mariposa o del pedal. Síntomas (modo de emergencia, acelerador), causas y cómo comprobarlo.",
+    "slug": "p0120"
+  },
+  "content_html": "<h1>Código P0120: Circuito del sensor de posición de la mariposa</h1>\n<p class=\"intro\">El código P0120 indica un fallo en el circuito del sensor de posición de la mariposa, que informa a la centralita de cuánto está abierta. Con una señal errónea, el motor puede entrar en modo de emergencia, acelerar mal o calarse. La causa puede estar en el sensor integrado en la mariposa, en su cableado o en el pedal del acelerador, según el coche.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: puede limitar el acelerador y provocar paradas</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Mariposa electrónica, sensor de posición, pedal, cableado</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–20 € (limpieza) · 150–450 € (mariposa), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro, limpiador de mariposa</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Modo de emergencia con el acelerador limitado.</li><li>Respuesta al pedal irregular o con retraso.</li><li>Ralentí inestable o motor que se cala.</li><li>A veces, el testigo EPC encendido en grupo VAG.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor de posición de la mariposa desgastado.</li><li>Mariposa sucia que roza y falsea la lectura.</li><li>Cableado o conector con mala conexión.</li><li>Sensor de posición del pedal con desviación.</li><li>Alimentación de 5 V o masa del sensor defectuosas.</li><li>Aprendizaje de la mariposa perdido.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y comprueba si hay otros de la mariposa o del pedal.</li><li>En datos en vivo, mira el porcentaje de apertura de la mariposa mientras mueves el pedal lentamente: debe subir de forma suave y sin saltos.</li><li>Si hay saltos o valores bloqueados, el sensor está desgastado o el cableado falla.</li><li>Revisa el conector y el cableado de la mariposa y del pedal.</li><li>Con el multímetro, comprueba la alimentación de 5 V y la masa en el conector, según el manual.</li><li>Limpia la mariposa con producto específico y repite el aprendizaje con el escáner.</li><li>Si el fallo continúa, sustituye la mariposa o el pedal según el diagnóstico.</li><li>Borra los códigos y haz una prueba de carretera.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0120 y P0638?",
+      "answer": "P0120 es un fallo eléctrico del sensor de posición. P0638 indica que el actuador de la mariposa no alcanza la posición pedida. Aparecen a menudo juntos en la misma mariposa."
+    },
+    {
+      "question": "¿Se puede circular con P0120?",
+      "answer": "Con el modo de emergencia puedes llegar al taller. El acelerador queda limitado y no es seguro adelantar."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0120?",
+      "answer": "La limpieza cuesta entre 10 y 20 €. Una mariposa nueva con adaptación, entre 150 y 450 €, según modelo."
+    }
+  ],
+  "products": [
+    "limpiador de mariposa de gases",
+    "multímetro digital automotriz",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0638",
+    "testigo-epc",
+    "p0507"
+  ],
+  "featured_image": "/img/articulos/codigo-p0120.webp"
+}
