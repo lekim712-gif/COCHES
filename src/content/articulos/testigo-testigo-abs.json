@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Testigo del ABS: significado y qué hacer",
   "datePublished": "2026-10-22",
-  "dateModified": "2026-10-22",
+  "dateModified": "2026-10-24",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -36,5 +36,7 @@
     "testigo-motor"
   ],
   "needs_review": true,
-  "featured_image": "/img/articulos/testigo-testigo-abs.webp"
+  "featured_image": "/img/articulos/testigo-testigo-abs.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-24"
 }

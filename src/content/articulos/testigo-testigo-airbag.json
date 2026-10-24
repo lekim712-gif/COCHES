@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Testigo del airbag: significado y qué hacer",
   "datePublished": "2026-10-22",
-  "dateModified": "2026-10-22",
+  "dateModified": "2026-10-24",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -34,5 +34,7 @@
     "testigo-bateria"
   ],
   "needs_review": true,
-  "featured_image": "/img/articulos/testigo-testigo-airbag.webp"
+  "featured_image": "/img/articulos/testigo-testigo-airbag.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-24"
 }
