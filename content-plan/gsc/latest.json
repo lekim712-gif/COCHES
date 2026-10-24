@@ -1,9 +1,9 @@
 {
  "site": "sc-domain:obdcodigos.com",
- "generated": "2026-10-23",
+ "generated": "2026-10-24",
  "range": [
-  "2026-07-25",
-  "2026-10-21"
+  "2026-07-26",
+  "2026-10-22"
  ],
  "queries": [
   {
@@ -41,6 +41,15 @@
    "impressions": 1,
    "ctr": 0,
    "position": 58
+  },
+  {
+   "keys": [
+    "circuito a del sensor de posición del cigüeñal"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
   },
   {
    "keys": [
@@ -86,6 +95,15 @@
    "impressions": 1,
    "ctr": 0,
    "position": 51
+  },
+  {
+   "keys": [
+    "código del catalizador"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
   },
   {
    "keys": [
@@ -197,6 +215,15 @@
   },
   {
    "keys": [
+    "p0089-64 range rover"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 91
+  },
+  {
+   "keys": [
     "p0113"
    ],
    "clicks": 0,
@@ -212,6 +239,15 @@
    "impressions": 1,
    "ctr": 0,
    "position": 65
+  },
+  {
+   "keys": [
+    "p0113 proton"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 35
   },
   {
    "keys": [
@@ -254,9 +290,9 @@
     "p0300"
    ],
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 67
+   "position": 65.5
   },
   {
    "keys": [
@@ -320,6 +356,15 @@
    "impressions": 2,
    "ctr": 0,
    "position": 5.5
+  },
+  {
+   "keys": [
+    "p0420 citroen"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 71
   },
   {
    "keys": [
@@ -407,9 +452,9 @@
     "símbolo filtro de partículas ,otros,revisar,285,1.0,1,3"
    ],
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 9,
    "ctr": 0,
-   "position": 49.4
+   "position": 48.9
   },
   {
    "keys": [
@@ -440,12 +485,30 @@
   },
   {
    "keys": [
+    "testigo batería se enciende y se apaga"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 42
+  },
+  {
+   "keys": [
+    "testigo de aceite"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 51
+  },
+  {
+   "keys": [
     "testigo de bateria"
    ],
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 7,
    "ctr": 0,
-   "position": 50
+   "position": 49.1
   },
   {
    "keys": [
@@ -479,9 +542,9 @@
     "testigo filtro de partículas ,otros,revisar,195,5.2,0,3"
    ],
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 8,
    "ctr": 0,
-   "position": 64
+   "position": 66.5
   },
   {
    "keys": [
@@ -497,9 +560,9 @@
     "testigo filtro partículas diésel ,otros,revisar,399,6.0,0,2"
    ],
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 6,
    "ctr": 0,
-   "position": 46.4
+   "position": 47.2
   },
   {
    "keys": [
@@ -524,9 +587,18 @@
     "testigo presión de aceite"
    ],
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 8
+   "position": 8.5
+  },
+  {
+   "keys": [
+    "vw p0238"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 40.5
   }
  ],
  "pages": [
@@ -535,18 +607,18 @@
     "https://obdcodigos.com/codigos/p0420/"
    ],
    "clicks": 1,
-   "impressions": 24,
-   "ctr": 0.0417,
-   "position": 10.8
+   "impressions": 30,
+   "ctr": 0.0333,
+   "position": 11.2
   },
   {
    "keys": [
     "https://obdcodigos.com/"
    ],
    "clicks": 0,
-   "impressions": 20,
+   "impressions": 21,
    "ctr": 0,
-   "position": 7.8
+   "position": 7.9
   },
   {
    "keys": [
@@ -562,27 +634,54 @@
     "https://obdcodigos.com/codigos/p0087/"
    ],
    "clicks": 0,
-   "impressions": 14,
+   "impressions": 17,
    "ctr": 0,
-   "position": 20.5
+   "position": 18.1
+  },
+  {
+   "keys": [
+    "https://obdcodigos.com/codigos/p0089/"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 47
+  },
+  {
+   "keys": [
+    "https://obdcodigos.com/codigos/p0100/"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 40.5
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0101/"
    ],
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 4,
    "ctr": 0,
-   "position": 66
+   "position": 23
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0113/"
    ],
    "clicks": 0,
-   "impressions": 14,
+   "impressions": 16,
    "ctr": 0,
-   "position": 53.3
+   "position": 54.6
+  },
+  {
+   "keys": [
+    "https://obdcodigos.com/codigos/p0135/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
   },
   {
    "keys": [
@@ -598,9 +697,9 @@
     "https://obdcodigos.com/codigos/p0238/"
    ],
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 4,
    "ctr": 0,
-   "position": 8
+   "position": 24.3
   },
   {
    "keys": [
@@ -616,27 +715,27 @@
     "https://obdcodigos.com/codigos/p0300/"
    ],
    "clicks": 0,
-   "impressions": 32,
+   "impressions": 33,
    "ctr": 0,
-   "position": 26.6
+   "position": 27.7
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0335/"
    ],
    "clicks": 0,
-   "impressions": 29,
+   "impressions": 34,
    "ctr": 0,
-   "position": 21.6
+   "position": 22.2
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0341/"
    ],
    "clicks": 0,
-   "impressions": 6,
+   "impressions": 7,
    "ctr": 0,
-   "position": 9
+   "position": 9.1
   },
   {
    "keys": [
@@ -661,9 +760,18 @@
     "https://obdcodigos.com/codigos/p2002/"
    ],
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 7,
    "ctr": 0,
-   "position": 65.8
+   "position": 48.6
+  },
+  {
+   "keys": [
+    "https://obdcodigos.com/codigos/p2279/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
   },
   {
    "keys": [
@@ -724,27 +832,27 @@
     "https://obdcodigos.com/testigos-tablero/testigo-bateria/"
    ],
    "clicks": 0,
-   "impressions": 20,
+   "impressions": 24,
    "ctr": 0,
-   "position": 29.2
+   "position": 32.1
   },
   {
    "keys": [
     "https://obdcodigos.com/testigos-tablero/testigo-filtro-particulas/"
    ],
    "clicks": 0,
-   "impressions": 53,
+   "impressions": 60,
    "ctr": 0,
-   "position": 44.1
+   "position": 43.5
   },
   {
    "keys": [
     "https://obdcodigos.com/testigos-tablero/testigo-presion-aceite/"
    ],
    "clicks": 0,
-   "impressions": 24,
+   "impressions": 26,
    "ctr": 0,
-   "position": 19.5
+   "position": 20.3
   },
   {
    "keys": [
@@ -799,6 +907,16 @@
   },
   {
    "keys": [
+    "circuito a del sensor de posición del cigüeñal",
+    "https://obdcodigos.com/codigos/p0335/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
     "citroen dtc p0335",
     "https://obdcodigos.com/codigos/p0335/"
    ],
@@ -846,6 +964,16 @@
    "impressions": 1,
    "ctr": 0,
    "position": 51
+  },
+  {
+   "keys": [
+    "código del catalizador",
+    "https://obdcodigos.com/codigos/p0420/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
   },
   {
    "keys": [
@@ -969,6 +1097,16 @@
   },
   {
    "keys": [
+    "p0089-64 range rover",
+    "https://obdcodigos.com/codigos/p0089/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 91
+  },
+  {
+   "keys": [
     "p0113",
     "https://obdcodigos.com/codigos/p0113/"
    ],
@@ -986,6 +1124,16 @@
    "impressions": 1,
    "ctr": 0,
    "position": 65
+  },
+  {
+   "keys": [
+    "p0113 proton",
+    "https://obdcodigos.com/codigos/p0113/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 35
   },
   {
    "keys": [
@@ -1033,9 +1181,9 @@
     "https://obdcodigos.com/codigos/p0300/"
    ],
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 67
+   "position": 65.5
   },
   {
    "keys": [
@@ -1106,6 +1254,16 @@
    "impressions": 2,
    "ctr": 0,
    "position": 5.5
+  },
+  {
+   "keys": [
+    "p0420 citroen",
+    "https://obdcodigos.com/codigos/p0420/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 71
   },
   {
    "keys": [
@@ -1203,9 +1361,9 @@
     "https://obdcodigos.com/testigos-tablero/testigo-filtro-particulas/"
    ],
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 9,
    "ctr": 0,
-   "position": 49.4
+   "position": 48.9
   },
   {
    "keys": [
@@ -1239,13 +1397,33 @@
   },
   {
    "keys": [
+    "testigo batería se enciende y se apaga",
+    "https://obdcodigos.com/testigos-tablero/testigo-bateria/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 42
+  },
+  {
+   "keys": [
+    "testigo de aceite",
+    "https://obdcodigos.com/testigos-tablero/testigo-presion-aceite/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 51
+  },
+  {
+   "keys": [
     "testigo de bateria",
     "https://obdcodigos.com/testigos-tablero/testigo-bateria/"
    ],
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 7,
    "ctr": 0,
-   "position": 50
+   "position": 49.1
   },
   {
    "keys": [
@@ -1283,9 +1461,9 @@
     "https://obdcodigos.com/testigos-tablero/testigo-filtro-particulas/"
    ],
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 8,
    "ctr": 0,
-   "position": 64
+   "position": 66.5
   },
   {
    "keys": [
@@ -1303,9 +1481,9 @@
     "https://obdcodigos.com/testigos-tablero/testigo-filtro-particulas/"
    ],
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 6,
    "ctr": 0,
-   "position": 46.4
+   "position": 47.2
   },
   {
    "keys": [
@@ -1333,9 +1511,19 @@
     "https://obdcodigos.com/testigos-tablero/testigo-presion-aceite/"
    ],
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 8
+   "position": 8.5
+  },
+  {
+   "keys": [
+    "vw p0238",
+    "https://obdcodigos.com/codigos/p0238/"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 40.5
   }
  ]
 }
