@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0115",
+  "name": "Circuito del sensor de temperatura del refrigerante",
+  "datePublished": "2026-10-25",
+  "dateModified": "2026-10-25",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0115: causas, síntomas y solución",
+    "meta_description": "P0115: fallo eléctrico del sensor de temperatura del refrigerante. Síntomas (ventilador, arranque en frío), causas y cómo medir el sensor.",
+    "slug": "p0115"
+  },
+  "content_html": "<h1>Código P0115: Circuito del sensor de temperatura del refrigerante</h1>\n<p class=\"intro\">El código P0115 indica un fallo eléctrico en el circuito del sensor de temperatura del refrigerante: la señal es inexistente o está fuera de rango. La centralita usa ese dato para el arranque en frío, la mezcla y el ventilador. Sin señal fiable, el ventilador puede funcionar siempre, el arranque en frío empeora y el consumo sube. Se diferencia de P0116, donde la señal existe pero no es coherente.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: afecta al arranque, al ventilador y al consumo</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sensor de temperatura, cableado, refrigeración</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>20–60 € (sensor), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Ventilador del radiador funcionando continuamente.</li><li>Arranque en frío difícil o largo.</li><li>Aguja de temperatura sin movimiento o errática.</li><li>Consumo mayor.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor de temperatura averiado.</li><li>Cable de señal cortado o en cortocircuito.</li><li>Conector con humedad o terminales sulfatados.</li><li>Masa del sensor deficiente.</li><li>Fallo en la entrada de la centralita.</li><li>Sensor equivocado tras una sustitución.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y los datos congelados. Comprueba si hay también P0116 u otros del refrigerante.</li><li>Con el contacto puesto, mira en datos en vivo la temperatura del refrigerante. Un valor extremo y fijo, como -40 °C o 140 °C, indica circuito abierto o en corto.</li><li>Inspecciona el conector y el cableado del sensor: humedad, roces o terminales sulfatados.</li><li>Desconecta el sensor y mide su resistencia a temperatura ambiente. Compárala con la tabla del manual.</li><li>Con el conector desconectado, comprueba la alimentación de 5 V y la masa en el conector.</li><li>Si el cableado está bien y el sensor no da la resistencia esperada, sustitúyelo.</li><li>Borra los códigos y comprueba que la temperatura sube con normalidad al calentar.</li></ol>\n<h2>Cuándo acudir al taller</h2><p>Si tras cambiar el sensor el código vuelve, o si el aviso de temperatura del cuadro no coincide con lo que notas (calefacción fría, ventilador siempre en marcha o humo blanco), acude al taller. Puede haber un fallo de cableado o un problema real del circuito de refrigeración que el sensor solo refleja.</p>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué el ventilador funciona siempre con P0115?",
+      "answer": "Porque la centralita no recibe la temperatura real y activa el ventilador por seguridad. Es habitual con este código."
+    },
+    {
+      "question": "¿Se puede circular con P0115?",
+      "answer": "Sí, con precaución. Controla la temperatura en el cuadro, porque el aviso del sensor puede no mostrar un sobrecalentamiento real."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0115?",
+      "answer": "Un sensor de temperatura cuesta entre 20 y 60 € con montaje, según modelo."
+    }
+  ],
+  "products": [
+    "sensor de temperatura del refrigerante",
+    "multímetro digital automotriz",
+    "refrigerante anticongelante para coche"
+  ],
+  "related": [
+    "p0116",
+    "testigo-temperatura-refrigerante",
+    "p0113"
+  ],
+  "featured_image": "/img/articulos/codigo-p0115.webp"
+}

@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "La ITV por emisiones: por qué se suspende y cómo prepararla",
+  "datePublished": "2026-10-25",
+  "dateModified": "2026-10-25",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "ITV y emisiones: por qué se suspende y cómo prepararla",
+    "meta_description": "Cómo preparar la ITV para pasar las emisiones: causas habituales de suspenso (testigo de motor, catalizador, sondas, EGR) y qué revisar antes de ir.",
+    "slug": "guia-itv-emisiones"
+  },
+  "content_html": "<h1>La ITV por emisiones: por qué se suspende y cómo prepararla</h1>\n<p class=\"intro\">Las emisiones son una de las causas más habituales de rechazo en la ITV. En gasolina se mide el CO y el lambda; en diésel, la opacidad del humo. Además, un testigo de motor encendido o los monitores de emisiones sin completar suelen ser motivo de rechazo. Prepararla con antelación, con un escáner OBD2 y un trayecto previo, reduce mucho el riesgo de suspender.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: suspender cuesta una segunda tasa y tiempo</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Emisiones, catalizador, sondas lambda, EGR, filtro de partículas</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–20 € (preparación) · 100–1.200 € (catalizador, sondas), según la causa</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, trayecto previo a velocidad estable</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Comprueba con un escáner OBD2 que no hay códigos de avería almacenados ni testigo de motor encendido: con testigo encendido, lo habitual es que te rechacen.</li><li>Mira en el escáner el estado de los monitores de emisiones: deben aparecer como «listos». Si has borrado códigos o desconectado la batería hace poco, aún no lo estarán.</li><li>Haz un trayecto de 20–30 minutos a velocidad estable, con el motor caliente, antes de ir a la ITV. Un catalizador frío no se mide bien.</li><li>En gasolina, revisa el estado de las sondas lambda, la mezcla y el catalizador si has tenido códigos como P0420.</li><li>En diésel, revisa el filtro de partículas, la válvula EGR y el filtro de aire; un humo oscuro es motivo de rechazo.</li><li>Haz el cambio de aceite y filtro a tiempo y comprueba que no hay fugas de aceite hacia el escape.</li><li>Revisa que el tapón del depósito cierra bien, por los códigos del EVAP.</li><li>Si no pasas, la ITV te dará el motivo y un plazo para reparar. Con ese informe, el taller puede diagnosticar rápido.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Se puede pasar la ITV con el testigo de motor encendido?",
+      "answer": "Normalmente no: es motivo de rechazo en la mayoría de las estaciones. Hay que repararlo y borrar los códigos antes de ir."
+    },
+    {
+      "question": "¿Por qué no me pasan si acabo de reparar el coche?",
+      "answer": "Porque al borrar los códigos o desconectar la batería, los monitores de emisiones se reinician y quedan «no listos». Conviene conducir varios días antes de ir."
+    },
+    {
+      "question": "¿Qué pasa si suspendo las emisiones?",
+      "answer": "Te dan un plazo para reparar y volver a pasar. Con el informe de la ITV, el taller puede diagnosticar el fallo concreto."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "limpiador de válvula EGR y admisión",
+    "aceite de motor 5W30"
+  ],
+  "related": [
+    "p0420",
+    "p0401",
+    "guia-borrar-codigos-obd2"
+  ],
+  "featured_image": "/img/articulos/guia-guia-itv-emisiones.webp"
+}

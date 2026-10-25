@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "La batería se descarga sola: causas y cómo encontrarlas",
+  "datePublished": "2026-10-25",
+  "dateModified": "2026-10-25",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "La batería del coche se descarga sola: causas",
+    "meta_description": "Tu batería se descarga en pocos días: causas (consumo parásito, alternador, batería vieja) y cómo medir el consumo en reposo con un multímetro.",
+    "slug": "guia-bateria-se-descarga-sola"
+  },
+  "content_html": "<h1>La batería se descarga sola: causas y cómo encontrarlas</h1>\n<p class=\"intro\">Si la batería se descarga sola, suele haber un consumo eléctrico que no se apaga con el coche parado, o una batería agotada que ya no retiene carga. Un alternador que no carga bien también la deja baja. Con un multímetro y un poco de orden se puede localizar el origen sin cambiar piezas a ciegas, y evitar quedarse sin arrancar.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: el coste está en no encontrar la causa y repetir la avería</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Batería, alternador, consumos parásitos, cableado</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–30 € (bornes, fusible) · 60–180 € (batería) · 80–400 € (alternador), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Multímetro con medición de corriente, tester de batería, llaves</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Mide la tensión de la batería en reposo, con el coche parado y apagado desde hace horas: 12,4–12,7 V es normal; por debajo de 12 V está descargada.</li><li>Cárgala con un cargador y comprueba si la mantiene tras uno o dos días. Si cae rápido, la batería está agotada y hay que cambiarla.</li><li>Con el motor en marcha, mide en los bornes: el alternador debe dar 13,5–14,7 V. Si no, el alternador o la correa fallan.</li><li>Revisa los bornes y los cables: sulfato o falsos contactos dan arranques lentos y descargas aparentes.</li><li>Mide el consumo en reposo: con el coche apagado y cerrado, espera unos 20–30 minutos a que los módulos se duerman y mide la corriente en serie en el borne negativo. Un valor normal ronda los 20–50 mA.</li><li>Si el consumo es alto, extrae fusibles uno a uno y mira cuál hace bajar la corriente: ese circuito tiene el consumo parásito.</li><li>Busca causas habituales: luces interiores o del maletero que no se apagan, radio o alarma aftermarket mal instalada, o una unidad de control que no se duerme.</li><li>Repara el circuito responsable o cambia la batería o el alternador según el resultado.</li><li>Si el coche pasa semanas parado, usa un mantenedor de carga.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cuánto tiempo dura una batería de coche?",
+      "answer": "Entre 4 y 6 años, y menos con trayectos cortos o climas extremos. Si tiene más edad, es la primera sospechosa."
+    },
+    {
+      "question": "¿Qué consumo en reposo es normal?",
+      "answer": "Unos 20 a 50 miliamperios con el coche dormido. Más de 100 mA indica un consumo parásito que descarga la batería en pocos días."
+    },
+    {
+      "question": "¿Puede ser el alternador?",
+      "answer": "Sí. Si con el motor en marcha no se miden más de 13,5 V, el alternador no carga bien y la batería se vacía aunque no haya consumos anormales."
+    }
+  ],
+  "products": [
+    "tester de batería de coche",
+    "multímetro digital automotriz",
+    "cargador mantenedor de batería para coche"
+  ],
+  "related": [
+    "testigo-bateria",
+    "p0562",
+    "guia-coche-no-arranca"
+  ],
+  "featured_image": "/img/articulos/guia-guia-bateria-se-descarga-sola.webp"
+}

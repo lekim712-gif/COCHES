@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Ruidos de suspensión: golpes, crujidos y chasquidos",
+  "datePublished": "2026-10-25",
+  "dateModified": "2026-10-25",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Ruidos de suspensión: golpes y crujidos, qué revisar",
+    "meta_description": "Tu coche suena al pasar baches o al girar: qué indican los golpes, crujidos y chasquidos (amortiguadores, rótulas, silentblocks, palieres) y cómo localizarlos.",
+    "slug": "guia-ruidos-suspension"
+  },
+  "content_html": "<h1>Ruidos de suspensión: golpes, crujidos y chasquidos</h1>\n<p class=\"intro\">Los ruidos de la suspensión aparecen al pasar baches, al girar o al arrancar, y cada tipo apunta a una pieza. Un golpe seco suele ser un amortiguador o un tope, un crujido al girar, una rótula o una copela, y un chasquido al girar a fondo, un palier. Localizar el ruido por su tipo y por la condición en la que aparece evita cambiar piezas sin necesidad.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: piezas de suspensión y dirección en mal estado afectan a la seguridad</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Suspensión, amortiguadores, rótulas, silentblocks, palieres</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–150 € (silentblock, bieleta) · 100–400 € (amortiguadores, rótulas), según la pieza</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Gato y caballetes, palanca, linterna, llave de ruedas</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Identifica el ruido: golpe seco al pasar baches, crujido al girar el volante parado, chasquido al girar a fondo, o ruido continuo al circular.</li><li>Si el golpe es al pasar baches, sospecha de bieletas de la barra estabilizadora, topes o amortiguadores.</li><li>Si el crujido es al girar el volante parado, revisa las copelas del amortiguador y las rótulas de dirección.</li><li>Si el chasquido es al girar a fondo en curva, revisa las juntas homocinéticas de los palieres, y mira si hay grasa salpicada en el guardapolvo.</li><li>Levanta el coche con seguridad sobre caballetes, nunca solo con el gato, y mueve cada rueda con la mano de arriba abajo y de lado a lado buscando holgura.</li><li>Revisa los guardapolvos de rótulas y palieres: rotos y sin grasa indican desgaste.</li><li>Comprueba los amortiguadores: manchas de aceite o un rebote excesivo al presionar el coche indican desgaste.</li><li>Cambia las piezas por ejes completos cuando sea posible y haz una alineación después.</li><li>No circules con una rótula o una pieza de dirección con mucha holgura: puede soltarse.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué suena la suspensión al pasar baches?",
+      "answer": "Lo más habitual son las bieletas, los topes o los amortiguadores desgastados. Una inspección en elevador lo localiza rápido."
+    },
+    {
+      "question": "¿Se puede circular con ruidos de suspensión?",
+      "answer": "Depende de la pieza. Un ruido leve de un silentblock no es urgente, pero una rótula con holgura o un amortiguador roto sí es peligroso. Si hay dudas, revísalo pronto."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar la suspensión?",
+      "answer": "Una bieleta o un silentblock, entre 30 y 150 €. Un juego de amortiguadores o rótulas, entre 100 y 400 €, según modelo."
+    }
+  ],
+  "products": [
+    "bieleta de barra estabilizadora",
+    "amortiguadores delanteros",
+    "caballetes para coche"
+  ],
+  "related": [
+    "guia-vibraciones-volante",
+    "guia-ruidos-al-frenar"
+  ],
+  "needs_review": true,
+  "featured_image": "/img/articulos/guia-guia-ruidos-suspension.webp"
+}

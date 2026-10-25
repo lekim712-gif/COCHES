@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0600",
+  "name": "Fallo de comunicación serie entre módulos",
+  "datePublished": "2026-10-25",
+  "dateModified": "2026-10-25",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0600: causas, síntomas y solución",
+    "meta_description": "P0600: fallo de comunicación serie entre la centralita y otros módulos. Causas (batería, masas, bus CAN), síntomas y cómo diagnosticarlo paso a paso.",
+    "slug": "p0600"
+  },
+  "content_html": "<h1>Código P0600: Fallo de comunicación serie entre módulos</h1>\n<p class=\"intro\">El código P0600 indica un fallo en la comunicación serie entre la centralita del motor y otros módulos del coche, como el cambio, el ABS o el cuadro de instrumentos. Esa comunicación va por un bus de datos, normalmente CAN. Un fallo puede deberse a un problema eléctrico, como la batería o las masas, a un cable del bus dañado o a un módulo que falla y bloquea la red.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: pueden fallar varias funciones a la vez</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Bus de datos CAN, centralitas, alimentación eléctrica, masas</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–40 € (masa o conector) · 100–1.000 € (módulo), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con acceso a todos los módulos, multímetro, tester de batería</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor y de otros sistemas encendidos a la vez.</li><li>Modo de emergencia con potencia limitada.</li><li>Cuadro de instrumentos con fallos, o sin cuentarrevoluciones.</li><li>Cambio automático que se queda en una marcha.</li><li>Fallos eléctricos intermitentes.</li></ul>\n<h2>Causas principales</h2><ul><li>Batería débil o tensión inestable.</li><li>Masas del motor o de la carrocería corroídas.</li><li>Cableado del bus CAN dañado o en cortocircuito.</li><li>Conector de un módulo con humedad o sulfato.</li><li>Módulo averiado que bloquea el bus.</li><li>Software de la centralita desactualizado.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos de todos los módulos con un escáner con acceso completo. Muchos códigos U de pérdida de comunicación señalan al módulo problemático.</li><li>Mide la tensión de la batería y comprueba el alternador: una tensión baja es la causa más habitual.</li><li>Revisa y limpia los bornes de la batería y las masas principales.</li><li>Inspecciona visualmente los conectores de los módulos, sobre todo si el coche ha pasado por agua o por un lavado de motor.</li><li>Con el multímetro, mide la resistencia entre los cables CAN alto y CAN bajo en el conector de diagnóstico: unos 60 ohmios es normal.</li><li>Desconecta módulos uno a uno, según el manual, para ver si alguno bloquea el bus.</li><li>Pregunta en el servicio oficial por actualizaciones de software de la centralita.</li><li>Repara lo averiado, borra los códigos y comprueba que no vuelven.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa P0600?",
+      "answer": "Que ha fallado la comunicación serie entre la centralita del motor y otros módulos del coche. Suele deberse a un problema eléctrico o a un fallo del bus de datos."
+    },
+    {
+      "question": "¿Se puede circular con P0600?",
+      "answer": "Con precaución. Pueden fallar varias funciones y entrar el modo de emergencia. Conviene diagnosticarlo pronto."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0600?",
+      "answer": "Una masa o un conector, de 0 a 40 €. Un módulo averiado, entre 100 y 1.000 €, según modelo."
+    }
+  ],
+  "products": [
+    "tester de batería de coche",
+    "multímetro digital automotriz",
+    "escáner obd2 profesional multimarca"
+  ],
+  "related": [
+    "u0100",
+    "p0606",
+    "p0562"
+  ],
+  "featured_image": "/img/articulos/codigo-p0600.webp"
+}

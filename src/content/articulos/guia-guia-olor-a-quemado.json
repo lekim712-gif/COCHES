@@ -1,0 +1,41 @@
+{
+  "type": "guia",
+  "name": "Olor a quemado en el coche: causas según el tipo de olor",
+  "datePublished": "2026-10-25",
+  "dateModified": "2026-10-25",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Olor a quemado en el coche: causas y qué hacer",
+    "meta_description": "Tu coche huele a quemado, a goma, a aceite o a plástico: qué indica cada olor (frenos, embrague, aceite, cables) y cuándo debes detenerte de inmediato.",
+    "slug": "guia-olor-a-quemado"
+  },
+  "content_html": "<h1>Olor a quemado en el coche: causas según el tipo de olor</h1>\n<p class=\"intro\">Un olor a quemado en el coche siempre merece atención, pero no todos significan lo mismo. El olor a goma suele ser una correa o un freno, a aceite quemado un goteo sobre el escape, a plástico un fallo eléctrico y a embrague quemado un patinaje continuado. Identificar el olor y cuándo aparece permite saber si puedes continuar o debes detenerte de inmediato.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: un olor eléctrico o a gasolina exige parar el coche</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Frenos, embrague, escape, motor, instalación eléctrica</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–60 € (correa, aceite) · 100–400 € (frenos, embrague), según la causa</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Linterna, guantes, extintor pequeño a mano</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Si el olor es a plástico quemado, a cable o a gasolina, o ves humo, detén el coche en lugar seguro, apaga el motor y sal del vehículo: puede haber riesgo de incendio.</li><li>Si es olor a goma quemada, revisa la correa de accesorios, el freno de mano y los frenos: una pinza agarrotada recalienta el disco y huele intensamente.</li><li>Si huele a embrague quemado, un olor acre y fuerte tras subir una cuesta o maniobrar, el embrague patina o se ha forzado.</li><li>Si es olor a aceite quemado, mira bajo el capó y el suelo: un goteo sobre el colector de escape produce humo y olor.</li><li>Si huele dulce y a vapor, puede haber fuga de refrigerante: revisa el nivel y los manguitos.</li><li>Si huele a huevo podrido, puede ser el catalizador o la mezcla rica: revisa códigos con el escáner.</li><li>Comprueba la temperatura de las ruedas con cuidado tras unos kilómetros: una más caliente que las demás indica freno agarrotado.</li><li>Anota cuándo aparece el olor, con qué carga y en qué fase del trayecto, y acude al taller con esos datos.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué hago si huelo a plástico quemado?",
+      "answer": "Detén el coche de inmediato, apaga el motor y aléjate del vehículo. Puede haber un cortocircuito y riesgo de incendio. No circules hasta revisarlo."
+    },
+    {
+      "question": "¿A qué huele el embrague quemado?",
+      "answer": "A un olor acre y penetrante, parecido a goma o a pelo quemado, sobre todo tras subir cuestas con el embrague forzado."
+    },
+    {
+      "question": "¿Por qué huele a quemado cuando frenó?",
+      "answer": "Por frenos recalentados o una pinza agarrotada. Si el olor es intenso, revisa los frenos antes de seguir circulando."
+    }
+  ],
+  "products": [
+    "extintor para coche",
+    "correa de accesorios para coche",
+    "líquido de frenos DOT4"
+  ],
+  "related": [
+    "guia-ruidos-al-frenar",
+    "testigo-temperatura-refrigerante",
+    "testigo-motor"
+  ],
+  "needs_review": true,
+  "featured_image": "/img/articulos/guia-guia-olor-a-quemado.webp"
+}

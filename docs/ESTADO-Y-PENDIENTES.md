@@ -80,3 +80,7 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 ## Actualización 24/10/2026
 - 95 fichas indexables. Lote del día: P0507, P0730, P0116, P0120, P2263; guías ruidos al frenar (noindex hasta revisión humana, tema de seguridad), vibraciones del volante, calefacción, aire acondicionado y «el coche se cala».
 - Search Console: 334 impresiones y 1 clic; sin problemas de indexación.
+
+## Actualización 25/10/2026
+- 105 fichas indexables. Lote del día: P0600, U0121 (noindex hasta revisión), P0403, P0201, P0115; guías batería que se descarga sola, olor a quemado (noindex hasta revisión), ruidos de suspensión (noindex hasta revisión), ITV y emisiones, datos en vivo del OBD2.
+- Search Console: 374 impresiones, 2 clics; sin problemas de indexación. AdSense: pendiente de pulsar «Solicitar revisión» (el panel muestra «Debe revisarse», sin motivo de rechazo).

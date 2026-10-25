@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0201",
+  "name": "Circuito del inyector del cilindro 1",
+  "datePublished": "2026-10-25",
+  "dateModified": "2026-10-25",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0201: causas, síntomas y solución",
+    "meta_description": "P0201: fallo eléctrico en el circuito del inyector del cilindro 1. Síntomas, causas (inyector, cableado, centralita) y cómo medir su resistencia.",
+    "slug": "p0201"
+  },
+  "content_html": "<h1>Código P0201: Circuito del inyector del cilindro 1</h1>\n<p class=\"intro\">El código P0201 indica un fallo eléctrico en el circuito del inyector del cilindro 1: la centralita detecta que el mando del inyector está abierto, en cortocircuito o fuera de valor. El cilindro afectado no recibe combustible de forma correcta y el motor funciona a tirones. La misma lógica se aplica a P0202 a P0206 para los cilindros 2 a 6.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: el cilindro falla y puede dañarse el catalizador</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Inyector del cilindro 1, cableado, centralita</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>60–250 € (inyector) · 0–40 € si es el conector, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, multímetro, estetoscopio mecánico</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido, a veces parpadeando.</li><li>Tirones y funcionamiento irregular.</li><li>Pérdida de potencia y vibraciones.</li><li>Olor a combustible sin quemar.</li><li>A veces, P0301 en el mismo cilindro.</li></ul>\n<h2>Causas principales</h2><ul><li>Inyector del cilindro 1 con bobina cortada o en cortocircuito.</li><li>Cable del inyector pelado o roto.</li><li>Conector con humedad o terminales flojos.</li><li>Fallo en el control del inyector en la centralita.</li><li>Fusible o alimentación del inyector defectuosos.</li><li>Inyector atascado que sobrecarga el circuito.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos: si aparece también P0301, el problema afecta a la combustión del mismo cilindro.</li><li>Con el motor frío, inspecciona el conector y el cableado del inyector 1.</li><li>Con el motor al ralentí, escucha cada inyector con un estetoscopio: el del cilindro afectado puede no chasquear.</li><li>Mide la resistencia del inyector con el multímetro y compárala con el valor del manual.</li><li>Intercambia el conector con el de otro inyector, si es posible, y comprueba si el fallo se traslada.</li><li>Comprueba la alimentación del inyector con el contacto puesto.</li><li>Sustituye el inyector si su resistencia no es la correcta.</li><li>Borra los códigos y comprueba que el motor funciona de forma regular.</li></ol>\n<h2>Cuándo acudir al taller</h2><p>Si el testigo de motor parpadea, el motor da tirones fuertes o huele a combustible sin quemar, detén el coche y acude al taller. Un inyector que no funciona deja pasar combustible sin quemar al catalizador y puede dañarlo en poco tiempo.</p>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿P0201 vale para los otros cilindros?",
+      "answer": "P0201 es el inyector del cilindro 1. Para los cilindros 2 a 6 existen P0202 a P0206, con el mismo diagnóstico cambiando el inyector afectado."
+    },
+    {
+      "question": "¿Se puede circular con P0201?",
+      "answer": "Si el testigo parpadea, no: el combustible sin quemar daña el catalizador. Con el testigo fijo, solo hasta el taller."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0201?",
+      "answer": "Un inyector nuevo cuesta entre 60 y 250 € con montaje. Si es el conector, de 0 a 40 €, según modelo."
+    }
+  ],
+  "products": [
+    "inyector de combustible",
+    "multímetro digital automotriz",
+    "estetoscopio mecánico para automoción"
+  ],
+  "related": [
+    "p0301",
+    "p0300",
+    "p0170"
+  ],
+  "featured_image": "/img/articulos/codigo-p0201.webp"
+}

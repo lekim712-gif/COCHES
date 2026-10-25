@@ -1,0 +1,42 @@
+{
+  "type": "codigo",
+  "code": "U0121",
+  "name": "Pérdida de comunicación con el módulo del ABS",
+  "datePublished": "2026-10-25",
+  "dateModified": "2026-10-25",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código U0121: causas, síntomas y solución",
+    "meta_description": "U0121: la centralita ha perdido la comunicación con el módulo del ABS. Causas (fusible, cableado CAN, módulo), síntomas y cómo diagnosticarlo.",
+    "slug": "u0121"
+  },
+  "content_html": "<h1>Código U0121: Pérdida de comunicación con el módulo del ABS</h1>\n<p class=\"intro\">El código U0121 indica que otro módulo del coche, normalmente la centralita del motor o el cuadro de instrumentos, ha perdido la comunicación con el módulo del ABS. Los códigos U apuntan a fallos de red y no al sistema en sí. Suele aparecer con los testigos del ABS y del ESP encendidos y puede deberse a un fusible, un cable del bus CAN o al propio módulo.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: se pierde el ABS y, a veces, el control de estabilidad</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Módulo ABS, bus CAN, fusible, alimentación</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>1–10 € (fusible) · 150–900 € (módulo), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con acceso a ABS, multímetro, tester de batería</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigos del ABS y del ESP encendidos.</li><li>Velocímetro que falla en algunos modelos.</li><li>Control de tracción desactivado.</li><li>Modo de emergencia en algunos coches.</li><li>Otros códigos U en distintos módulos.</li></ul>\n<h2>Causas principales</h2><ul><li>Fusible del módulo ABS fundido.</li><li>Batería débil o tensión de alimentación baja.</li><li>Cableado del bus CAN dañado hacia el módulo.</li><li>Conector del módulo con humedad o sulfato.</li><li>Módulo ABS averiado.</li><li>Masa del módulo ABS en mal estado.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos de todos los módulos con un escáner con acceso a ABS. Anota si hay también códigos propios del ABS.</li><li>Comprueba la batería y el alternador: una tensión baja provoca pérdidas de comunicación.</li><li>Revisa el fusible y el relé del módulo ABS en el manual.</li><li>Inspecciona el conector del módulo ABS, normalmente en la unidad hidráulica, por humedad o sulfato.</li><li>Mide la alimentación y la masa del módulo ABS con el multímetro.</li><li>Comprueba el estado del bus CAN: la resistencia entre CAN alto y bajo en el conector de diagnóstico debe rondar los 60 ohmios.</li><li>Si todo es correcto, el módulo ABS puede estar averiado y necesitar reparación o sustitución.</li><li>Borra los códigos y haz una prueba de carretera.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa U0121?",
+      "answer": "Que otro módulo ha perdido la comunicación con el módulo del ABS. Es un fallo de red, no del sistema de frenos en sí."
+    },
+    {
+      "question": "¿Se puede circular con U0121?",
+      "answer": "El freno normal funciona, pero se pierde el ABS y probablemente el ESP. Frena con antelación y revisa el sistema pronto."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar U0121?",
+      "answer": "Un fusible cuesta poco. Reparar o sustituir el módulo ABS cuesta entre 150 y 900 €, según modelo."
+    }
+  ],
+  "products": [
+    "multímetro digital automotriz",
+    "escáner obd2 profesional multimarca",
+    "juego de fusibles para coche"
+  ],
+  "related": [
+    "testigo-abs",
+    "u0100",
+    "p0600"
+  ],
+  "needs_review": true,
+  "featured_image": "/img/articulos/codigo-u0121.webp"
+}

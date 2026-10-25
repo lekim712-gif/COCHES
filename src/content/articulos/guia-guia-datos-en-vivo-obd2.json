@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Cómo leer los datos en vivo del OBD2 para diagnosticar",
+  "datePublished": "2026-10-25",
+  "dateModified": "2026-10-25",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Datos en vivo del OBD2: qué mirar y qué valores son normales",
+    "meta_description": "Qué son los datos en vivo del OBD2, qué parámetros mirar (ajustes de combustible, sondas, temperatura, MAF) y qué valores son normales para diagnosticar.",
+    "slug": "guia-datos-en-vivo-obd2"
+  },
+  "content_html": "<h1>Cómo leer los datos en vivo del OBD2 para diagnosticar</h1>\n<p class=\"intro\">Además de leer códigos de avería, un escáner OBD2 muestra datos en vivo del motor: temperatura, caudal de aire, sondas lambda o ajustes de combustible. Saber qué parámetros mirar y qué valores son normales permite diagnosticar fallos antes de que enciendan el testigo y confirmar si una pieza está realmente averiada. Esta guía explica los más útiles y cómo interpretarlos.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: es solo lectura, no se modifica nada</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Diagnóstico OBD2, sensores, mezcla</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>Desde 15–40 € un lector Bluetooth con datos en vivo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con función de datos en vivo y su app</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Conecta el escáner con el contacto quitado, da el contacto y abre la sección de datos en vivo o PIDs en la aplicación.</li><li>Mira primero la temperatura del refrigerante: debe subir hasta unos 85–95 °C y estabilizarse. Si no llega, sospecha del termostato.</li><li>Observa el caudal de aire del MAF al ralentí, normalmente de 2 a 5 g/s en un motor medio, y comprueba que sube al acelerar.</li><li>Mira los ajustes de combustible a corto y largo plazo: deben rondar cero, entre –10 % y +10 %. Valores muy positivos indican mezcla pobre; muy negativos, rica.</li><li>Con el motor caliente, mira la sonda lambda anterior: debe oscilar con rapidez entre 0,1 y 0,9 V en gasolina.</li><li>Consulta el régimen de ralentí y compáralo con el del manual: suele estar entre 700 y 900 rpm en caliente.</li><li>Si hay un fallo, usa la función de datos congelados para ver los valores en el momento del fallo.</li><li>Graba una sesión de datos en carretera si el fallo es intermitente y revísala después.</li><li>Compara siempre con el manual de tu coche: los valores exactos varían según el modelo.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué son los datos en vivo?",
+      "answer": "Son las lecturas de los sensores del coche en tiempo real que muestra un escáner OBD2: temperatura, caudal de aire, régimen, sondas lambda y ajustes de combustible, entre otras."
+    },
+    {
+      "question": "¿Qué valores de ajuste de combustible son normales?",
+      "answer": "Los ajustes a corto y largo plazo deben rondar el 0 %, y se consideran normales entre –10 % y +10 %. Si están muy fuera, la centralita está corrigiendo una mezcla incorrecta."
+    },
+    {
+      "question": "¿Necesito un escáner caro para ver datos en vivo?",
+      "answer": "No. Muchos lectores Bluetooth básicos muestran los parámetros más útiles. Los más completos añaden más sensores y gráficas."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "escáner obd2 profesional multimarca",
+    "alargador de cable obd2"
+  ],
+  "related": [
+    "guia-como-usar-escaner-obd2",
+    "guia-como-elegir-escaner-obd2",
+    "p0170"
+  ],
+  "featured_image": "/img/articulos/guia-guia-datos-en-vivo-obd2.webp"
+}
