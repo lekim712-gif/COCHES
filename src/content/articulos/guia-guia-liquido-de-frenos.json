@@ -36,5 +36,7 @@
     "guia-ruidos-al-frenar"
   ],
   "needs_review": true,
-  "featured_image": "/img/articulos/guia-guia-liquido-de-frenos.webp"
+  "featured_image": "/img/articulos/guia-guia-liquido-de-frenos.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-27"
 }
