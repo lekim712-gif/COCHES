@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Catalizador obstruido: síntomas y cómo comprobarlo",
+  "datePublished": "2026-10-27",
+  "dateModified": "2026-10-27",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Catalizador obstruido: síntomas y cómo comprobarlo",
+    "meta_description": "Síntomas de un catalizador obstruido (pérdida de potencia, olor, calentamiento) y cómo comprobarlo con vacuómetro, termómetro y prueba de contrapresión.",
+    "slug": "guia-catalizador-obstruido"
+  },
+  "content_html": "<h1>Catalizador obstruido: síntomas y cómo comprobarlo</h1>\n<p class=\"intro\">Un catalizador obstruido o fundido restringe el paso de los gases de escape y el motor pierde potencia, sobre todo a alto régimen. A veces se acompaña de olor a huevo podrido, calentamiento excesivo bajo el coche o un código como P0420. Antes de cambiarlo, que es caro, conviene comprobar con pruebas sencillas que realmente está obstruido y descartar la causa que lo ha dañado.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: puede ahogar el motor y recalentar el escape</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Catalizador, escape, mezcla, encendido</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>300–1.200 € (catalizador nuevo), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Vacuómetro o manómetro de contrapresión, termómetro infrarrojo, escáner OBD2</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Observa los síntomas: pérdida de potencia progresiva, sobre todo al acelerar a fondo o en cuestas, y un motor que se ahoga a altas vueltas.</li><li>Lee los códigos con un escáner OBD2: P0420 o P0421 apuntan a baja eficiencia, pero la obstrucción puede darse sin código.</li><li>Con el motor al ralentí, conecta un vacuómetro a la admisión: la lectura debe ser estable. Si baja de forma gradual al acelerar y mantener el régimen, hay contrapresión.</li><li>Mide la temperatura con un termómetro infrarrojo a la entrada y a la salida del catalizador tras unos minutos de marcha: la salida debe ser más caliente que la entrada. Si no, no trabaja; si la entrada es mucho más caliente, hay obstrucción.</li><li>Haz una prueba de contrapresión en el escape: retira la sonda lambda anterior, conecta un manómetro y mide a 2.500 rpm. Por encima de unos 0,2 bar suele indicar obstrucción, según el fabricante.</li><li>Busca la causa del daño: fallos de encendido, mezcla rica, aceite o refrigerante que han llegado al catalizador.</li><li>Repara esa causa antes de montar un catalizador nuevo, o el nuevo durará poco.</li><li>Sustituye el catalizador por uno homologado, nunca por un tubo sin catalizador, que es ilegal y no pasa la ITV.</li><li>Borra los códigos y haz un ciclo de conducción completo.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cuáles son los síntomas de un catalizador obstruido?",
+      "answer": "Pérdida de potencia, sobre todo a altas vueltas, sensación de que el motor se ahoga, olor a huevo podrido, calentamiento excesivo y, a veces, un código como P0420."
+    },
+    {
+      "question": "¿Se puede limpiar un catalizador?",
+      "answer": "Algunos aditivos o limpiezas pueden ayudar si hay hollín, pero si la cerámica está fundida o rota hay que cambiarlo. Antes hay que reparar la causa."
+    },
+    {
+      "question": "¿Cuánto cuesta cambiar el catalizador?",
+      "answer": "Entre 300 y 1.200 €, según el modelo. Los homologados cuestan más que los universales, pero pasan la ITV."
+    }
+  ],
+  "products": [
+    "termómetro infrarrojo para automoción",
+    "escáner obd2 bluetooth elm327",
+    "llave para sonda lambda"
+  ],
+  "related": [
+    "p0420",
+    "p0421",
+    "guia-itv-emisiones"
+  ],
+  "featured_image": "/img/articulos/guia-guia-catalizador-obstruido.webp"
+}

@@ -84,3 +84,8 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 ## Actualización 25/10/2026
 - 105 fichas indexables. Lote del día: P0600, U0121 (noindex hasta revisión), P0403, P0201, P0115; guías batería que se descarga sola, olor a quemado (noindex hasta revisión), ruidos de suspensión (noindex hasta revisión), ITV y emisiones, datos en vivo del OBD2.
 - Search Console: 374 impresiones, 2 clics; sin problemas de indexación. AdSense: pendiente de pulsar «Solicitar revisión» (el panel muestra «Debe revisarse», sin motivo de rechazo).
+
+## Actualización 27/10/2026
+- 115 fichas indexables (+1 en noindex: líquido de frenos). Lote del día: guías colores de testigos, mantenimiento por kilómetros, neumáticos desgastados, líquido de frenos (noindex hasta revisión), arrancar con cables y catalizador obstruido.
+- Ampliados con secciones nuevas el testigo del filtro de partículas y los códigos P0420, P0335 y P0300 (páginas con más impresiones y posición 13–44); vuelven a «pendiente de revisión técnica».
+- Search Console: 502 impresiones, 3 clics. La rutina del 26/10 no llegó a ejecutarse (sesión inactiva); se retoma el 27.

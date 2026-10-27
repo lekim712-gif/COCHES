@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Colores de los testigos del tablero: rojo, ámbar, verde y azul",
+  "datePublished": "2026-10-27",
+  "dateModified": "2026-10-27",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Colores de los testigos del tablero: qué significa cada uno",
+    "meta_description": "Qué significa el color de cada testigo del cuadro de instrumentos: rojo, ámbar o naranja, verde y azul. Cuándo parar, cuándo revisar y enlaces a cada testigo.",
+    "slug": "guia-colores-testigos-tablero"
+  },
+  "content_html": "<h1>Colores de los testigos del tablero: rojo, ámbar, verde y azul</h1>\n<p class=\"intro\">El color de un testigo del tablero indica la urgencia antes que el símbolo. Rojo significa peligro o fallo grave y suele exigir detener el coche. Ámbar o naranja indica un fallo o un aviso que hay que revisar pronto. Verde y azul son informativos y señalan que un sistema está activo. Conocer esta regla básica ayuda a decidir qué hacer en cuanto se enciende uno.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Variable según el color: del aviso informativo a la parada inmediata</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Cuadro de instrumentos y todos los sistemas que avisan en él</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0 € la identificación; el coste depende del fallo concreto</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Manual del vehículo, escáner OBD2 si el testigo es de motor</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Rojo: para el coche en cuanto sea seguro. Es el color de los fallos graves: presión de aceite, temperatura del refrigerante, sistema de frenos, batería o airbag en algunos modelos. Seguir circulando puede causar una avería grave o un riesgo para la seguridad.</li><li>Ámbar o naranja: revisa pronto. Indica un fallo o un aviso: testigo de motor, ABS, ESP, filtro de partículas, precalentamiento, presión de neumáticos o mantenimiento. Puedes seguir con precaución, pero no lo dejes pasar.</li><li>Verde y azul: informativos. Luces de cruce o largas, intermitentes, crucero activo o motor frío con un testigo azul. No indican avería.</li><li>Fíjate también en si el testigo está fijo o parpadea: un testigo ámbar de motor que parpadea es más grave que uno fijo, porque indica fallos de encendido que dañan el catalizador.</li><li>Comprueba cuándo se enciende: algunos testigos se encienden unos segundos al dar el contacto como prueba de funcionamiento y es normal.</li><li>Identifica el símbolo y consulta su ficha, por ejemplo la del testigo de motor, de batería, de presión de aceite o de temperatura del refrigerante.</li><li>Con un testigo de motor, lee el código de avería con un escáner OBD2 y busca su ficha.</li><li>Ante cualquier duda con un testigo rojo, no circules y llama a asistencia.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa un testigo rojo?",
+      "answer": "Indica un fallo grave o un riesgo inmediato: presión de aceite, temperatura, frenos, batería o airbag. Lo correcto es detener el coche cuanto antes y no seguir circulando hasta revisarlo."
+    },
+    {
+      "question": "¿Se puede circular con un testigo ámbar?",
+      "answer": "Normalmente sí, con precaución y revisándolo pronto. Pero si parpadea, o va acompañado de pérdida de potencia o ruidos, conviene parar."
+    },
+    {
+      "question": "¿Por qué se encienden todos los testigos al arrancar?",
+      "answer": "Es una autocomprobación normal: se encienden unos segundos al dar el contacto y se apagan. Si alguno se queda encendido, hay un aviso o un fallo."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "tester de batería de coche",
+    "manómetro de presión de neumáticos"
+  ],
+  "related": [
+    "testigo-motor",
+    "testigo-bateria",
+    "testigo-presion-aceite"
+  ],
+  "featured_image": "/img/articulos/guia-guia-colores-testigos-tablero.webp"
+}

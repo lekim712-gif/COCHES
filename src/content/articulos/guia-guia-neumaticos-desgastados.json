@@ -1,0 +1,39 @@
+{
+  "type": "guia",
+  "name": "Neumáticos desgastados: cómo medir el dibujo y cuándo cambiarlos",
+  "datePublished": "2026-10-27",
+  "dateModified": "2026-10-27",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Neumáticos desgastados: medir el dibujo y cuándo cambiarlos",
+    "meta_description": "Cómo comprobar el desgaste de los neumáticos: profundidad mínima legal, indicadores TWI, desgastes irregulares y cuándo conviene cambiarlos antes.",
+    "slug": "guia-neumaticos-desgastados"
+  },
+  "content_html": "<h1>Neumáticos desgastados: cómo medir el dibujo y cuándo cambiarlos</h1>\n<p class=\"intro\">Los neumáticos son el único contacto del coche con la carretera, y su estado condiciona la frenada, la adherencia y la seguridad. En España la profundidad mínima legal del dibujo es de 1,6 mm, pero conviene cambiarlos antes, sobre todo con lluvia. Medir el dibujo y observar el tipo de desgaste permite detectar también problemas de presión, alineación o suspensión.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: unos neumáticos gastados alargan la frenada y favorecen el aquaplaning</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Neumáticos, presión, alineación, suspensión</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>5–15 € (comprobación) · 250–700 € (juego de cuatro neumáticos), según medida y marca</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Medidor de profundidad, manómetro, linterna</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Mira el flanco del neumático y localiza los indicadores TWI, unos pequeños resaltes en las ranuras principales. Cuando el dibujo está a su altura, el neumático ha llegado al límite legal de 1,6 mm.</li><li>Mide la profundidad del dibujo con un medidor en varios puntos del ancho de la banda, no solo en el centro. Una moneda de un euro, con su borde dorado, sirve como referencia aproximada.</li><li>Cambia los neumáticos cuando lleguen a unos 3 mm, sobre todo si circulas con lluvia: con menos de 3 mm, el aquaplaning y la distancia de frenado empeoran de forma apreciable.</li><li>Revisa el tipo de desgaste: si los bordes están más gastados, la presión es baja; si el centro, es alta; si un solo lado, hay un problema de alineación o suspensión.</li><li>Mira si hay cortes, bultos o grietas en los flancos: indican daños que obligan a cambiar el neumático aunque tenga dibujo.</li><li>Comprueba la fecha de fabricación en el flanco, un código DOT de cuatro cifras: neumáticos con más de 6–10 años pierden propiedades aunque se vean bien.</li><li>Rota los neumáticos según indique el manual, normalmente cada 10.000–15.000 km, para igualar el desgaste.</li><li>Cambia los neumáticos por ejes completos y haz una alineación después.</li><li>Mantén siempre la presión indicada por el fabricante: es la forma más barata de alargar su vida.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cuál es la profundidad mínima legal del dibujo?",
+      "answer": "En España, 1,6 mm. Pero a menos de 3 mm la adherencia sobre mojado ya disminuye mucho, por lo que conviene cambiarlos antes."
+    },
+    {
+      "question": "¿Cada cuánto se cambian los neumáticos?",
+      "answer": "Depende del uso y del estado: entre 30.000 y 60.000 km de media. También por edad: más de 6–10 años se recomienda cambiarlos."
+    },
+    {
+      "question": "¿Por qué se gastan por los bordes?",
+      "answer": "Normalmente por circular con la presión baja. Si es solo un lado, puede haber un problema de alineación o de suspensión."
+    }
+  ],
+  "products": [
+    "medidor de profundidad de neumáticos",
+    "manómetro de presión de neumáticos",
+    "compresor de aire portátil para coche"
+  ],
+  "related": [
+    "testigo-presion-neumaticos",
+    "guia-vibraciones-volante"
+  ],
+  "featured_image": "/img/articulos/guia-guia-neumaticos-desgastados.webp"
+}

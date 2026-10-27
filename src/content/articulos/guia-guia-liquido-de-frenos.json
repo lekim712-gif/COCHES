@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Líquido de frenos: cuándo comprobarlo y cuándo cambiarlo",
+  "datePublished": "2026-10-27",
+  "dateModified": "2026-10-27",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Líquido de frenos: cuándo comprobarlo y cambiarlo",
+    "meta_description": "Cómo comprobar el nivel del líquido de frenos, cuándo cambiarlo (cada 2 años), qué indica un nivel bajo y por qué no se debe mezclar con cualquier tipo.",
+    "slug": "guia-liquido-de-frenos"
+  },
+  "content_html": "<h1>Líquido de frenos: cuándo comprobarlo y cuándo cambiarlo</h1>\n<p class=\"intro\">El líquido de frenos transmite la fuerza del pedal a las pinzas y, a diferencia del aceite, absorbe humedad con el tiempo, lo que baja su punto de ebullición y reduce la eficacia de la frenada. Por eso se cambia cada dos años aunque tenga buen nivel. Un nivel bajo suele indicar pastillas gastadas o una fuga y exige revisión inmediata.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta: un líquido degradado o un nivel bajo comprometen la frenada</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Circuito hidráulico de frenos, líquido, pastillas</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>5–15 € el líquido · 40–100 € el cambio en taller, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Líquido de frenos de la especificación, linterna, probador de humedad</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Con el coche en llano y el motor parado, abre el capó y localiza el depósito del líquido de frenos, un recipiente translúcido con marcas de mínimo y máximo.</li><li>Comprueba que el nivel está entre el mínimo y el máximo. Mira el color: el líquido nuevo es transparente o ligeramente amarillo; si está oscuro, hay que cambiarlo.</li><li>Si el nivel está bajo, no rellenes y ya: un nivel bajo suele indicar pastillas muy gastadas o una fuga. Revisa los frenos o acude a un taller.</li><li>Comprueba la especificación del líquido en el tapón o en el manual: DOT 4 es lo habitual, y no se debe mezclar con DOT 5 de silicona.</li><li>Cierra bien el depósito: el líquido absorbe humedad del aire con rapidez.</li><li>Cambia el líquido cada 2 años, o cada 40.000 km, según el fabricante, aunque el nivel sea correcto.</li><li>El cambio incluye purgar todo el circuito. Es una tarea que requiere cuidado: si no tienes experiencia, hazla en un taller.</li><li>Si el pedal está blando o se hunde, no circules y llama a una grúa.</li><li>No dejes bidones abiertos: el líquido sobrante pierde propiedades y daña la pintura.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cada cuánto hay que cambiar el líquido de frenos?",
+      "answer": "Cada 2 años, aunque no haya perdido nivel. Absorbe humedad y, con el tiempo, baja su punto de ebullición, lo que puede provocar pérdida de frenada en bajadas o frenadas fuertes."
+    },
+    {
+      "question": "¿Por qué baja el nivel del líquido de frenos?",
+      "answer": "Normalmente porque las pastillas se desgastan y el pistón de la pinza avanza. Si baja de forma rápida, hay una fuga y es peligroso."
+    },
+    {
+      "question": "¿Puedo mezclar DOT 4 con DOT 5.1?",
+      "answer": "Sí, DOT 4 y DOT 5.1 son compatibles porque ambos son a base de glicol. No se puede mezclar con DOT 5, que es de silicona."
+    }
+  ],
+  "products": [
+    "líquido de frenos DOT4",
+    "kit de purgado de frenos",
+    "pastillas de freno delanteras"
+  ],
+  "related": [
+    "testigo-freno",
+    "guia-ruidos-al-frenar"
+  ],
+  "needs_review": true,
+  "featured_image": "/img/articulos/guia-guia-liquido-de-frenos.webp"
+}

@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Mantenimiento del coche por kilómetros: qué revisar y cuándo",
+  "datePublished": "2026-10-27",
+  "dateModified": "2026-10-27",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Mantenimiento del coche por kilómetros: calendario básico",
+    "meta_description": "Calendario básico de mantenimiento del coche por kilómetros: aceite, filtros, bujías, frenos, líquidos y correa, y qué comprobar cada cierto tiempo.",
+    "slug": "guia-mantenimiento-por-kilometros"
+  },
+  "content_html": "<h1>Mantenimiento del coche por kilómetros: qué revisar y cuándo</h1>\n<p class=\"intro\">El mantenimiento preventivo evita averías caras y mantiene el coche seguro. Los intervalos exactos los marca el fabricante en el manual, pero existe un calendario orientativo que sirve de guía: qué comprobar cada mes, cada año y cada tantos kilómetros. Seguirlo ayuda a detectar problemas a tiempo y a conservar el valor del coche.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja si se hace a tiempo; alta si se retrasa</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Motor, frenos, neumáticos, filtros, líquidos y transmisión</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>100–300 € una revisión básica anual, según modelo y taller</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Manual de mantenimiento, libro de revisiones, herramientas básicas</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Cada mes: comprueba la presión de los neumáticos, el nivel de aceite, el de refrigerante y el del líquido limpiaparabrisas, con el motor frío y el coche en llano.</li><li>Cada año o 15.000 km: cambia el aceite del motor y el filtro de aceite, o según indique el fabricante. Revisa también el filtro de aire y el de habitáculo.</li><li>Cada año: comprueba los frenos, el estado de pastillas y discos, y las luces del coche. Revisa la batería, sobre todo si tiene más de 4 años.</li><li>Cada 30.000 km: cambia el filtro de aire y, en diésel, el filtro de combustible. Revisa la correa de accesorios y los neumáticos, con rotación si hace falta.</li><li>Cada 30.000–100.000 km, según el tipo de bujía: cambia las bujías en motores de gasolina.</li><li>Cada 2 años: cambia el líquido de frenos, porque absorbe humedad y pierde eficacia.</li><li>Cada 60.000–120.000 km: cambia la correa de distribución o revisa la cadena, según indique el manual, y también la bomba de agua si va asociada.</li><li>Cada 5 años o según el fabricante: cambia el refrigerante y revisa el sistema de refrigeración.</li><li>Anota cada intervención en el libro de revisiones y respeta siempre los intervalos del manual de tu coche.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cada cuántos kilómetros hay que cambiar el aceite?",
+      "answer": "Normalmente cada 15.000 km o una vez al año, con aceites sintéticos. Si haces trayectos cortos o conduces con exigencia, antes. El manual de tu coche indica el intervalo exacto."
+    },
+    {
+      "question": "¿Cuándo se cambia la correa de distribución?",
+      "answer": "Entre 60.000 y 120.000 km o cada 5–6 años, según el motor. Es una pieza crítica: si se rompe, puede destruir el motor."
+    },
+    {
+      "question": "¿Puedo hacer yo el mantenimiento?",
+      "answer": "Sí, muchas tareas básicas, como niveles, filtros o bujías. Para frenos, distribución o dirección conviene un taller con herramientas y experiencia."
+    }
+  ],
+  "products": [
+    "aceite de motor 5W30",
+    "filtro de aceite para coche",
+    "manómetro de presión de neumáticos"
+  ],
+  "related": [
+    "guia-cambio-aceite",
+    "guia-cambio-filtro-aire",
+    "guia-cambio-bujias"
+  ],
+  "featured_image": "/img/articulos/guia-guia-mantenimiento-por-kilometros.webp"
+}

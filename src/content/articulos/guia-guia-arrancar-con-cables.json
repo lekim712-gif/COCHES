@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Cómo arrancar un coche con cables de otra batería",
+  "datePublished": "2026-10-27",
+  "dateModified": "2026-10-27",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Cómo arrancar un coche con cables: orden y precauciones",
+    "meta_description": "Cómo arrancar un coche con cables de arranque y otra batería: orden correcto de conexión, precauciones, cuándo no hacerlo y qué hacer si no arranca.",
+    "slug": "guia-arrancar-con-cables"
+  },
+  "content_html": "<h1>Cómo arrancar un coche con cables de otra batería</h1>\n<p class=\"intro\">Arrancar con cables transfiere corriente de la batería de otro coche a la tuya descargada. Es sencillo, pero hay que respetar el orden de conexión para evitar chispas cerca de la batería y daños en la electrónica. Con las precauciones adecuadas se hace en pocos minutos. Si el coche no arranca tras varios intentos, el problema probablemente no es solo la batería.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: una conexión incorrecta puede causar chispas o dañar la electrónica</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Batería, sistema eléctrico de dos coches</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–30 € unos cables de calidad</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Cables de arranque, un coche donante, guantes y gafas</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Aparca el coche donante cerca, sin que los coches se toquen, con ambos motores parados, el freno de mano puesto y los accesorios apagados.</li><li>Comprueba que las baterías son del mismo voltaje, normalmente 12 V, y que la batería descargada no está agrietada ni congelada. Si lo está, no la conectes.</li><li>Conecta el cable rojo al borne positivo de la batería descargada y luego al positivo de la batería donante.</li><li>Conecta el cable negro al borne negativo de la batería donante.</li><li>Conecta el otro extremo del cable negro a una masa metálica del motor del coche con la batería descargada, lejos de la batería, y no al borne negativo de esa batería.</li><li>Arranca el coche donante y déjalo unos minutos a ralentí alto para cargar.</li><li>Intenta arrancar el coche con la batería descargada. Si arranca, deja ambos motores en marcha.</li><li>Desconecta los cables en orden inverso: primero el negro de la masa, luego el negro del donante, después el rojo del donante y por último el rojo de la batería ayudada.</li><li>Deja el motor en marcha durante unos 20–30 minutos o circula para recargar la batería, y revisa luego su estado y el alternador.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué se conecta el negro a una masa y no al borne negativo?",
+      "answer": "Para evitar que salte una chispa junto a la batería descargada, que puede desprender hidrógeno inflamable. La masa del motor está lejos de la batería y es más segura."
+    },
+    {
+      "question": "¿Puedo arrancar con cables un coche híbrido o eléctrico?",
+      "answer": "No conviene hacerlo sin consultar el manual: muchos tienen procedimientos específicos o puntos de conexión propios. Consulta el manual antes."
+    },
+    {
+      "question": "¿Qué hago si no arranca con cables?",
+      "answer": "Comprueba que los cables están bien conectados y espera unos minutos con el donante en marcha. Si no arranca, el problema puede ser el motor de arranque, el combustible o una batería agotada."
+    }
+  ],
+  "products": [
+    "cables de arranque para batería",
+    "arrancador portátil de batería",
+    "tester de batería de coche"
+  ],
+  "related": [
+    "guia-coche-no-arranca",
+    "guia-bateria-se-descarga-sola",
+    "testigo-bateria"
+  ],
+  "featured_image": "/img/articulos/guia-guia-arrancar-con-cables.webp"
+}
