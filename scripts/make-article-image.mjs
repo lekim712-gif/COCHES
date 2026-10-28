@@ -75,6 +75,7 @@ const ICONS = {
 
 /* ───────── Selección del pictograma por palabras clave ───────── */
 const RULES = [
+  [/cambiar una rueda/i, 'neumatico'], [/correa de distribución|distribución/i, 'transmision'], [/fugas bajo/i, 'combustible'],
   [/mantenimiento|llave inglesa|revisión programada/i, 'llave'],
   [/partículas|dpf|fap/i, 'dpf'], [/egr|recirculaci/i, 'egr'], [/turbo|sobrealimentaci/i, 'turbo'],
   [/evap|vapores/i, 'deposito'], [/precalentamiento/i, 'bujia'], [/adblue|urea/i, 'combustible'],
