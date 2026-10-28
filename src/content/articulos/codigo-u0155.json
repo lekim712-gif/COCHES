@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "U0155",
+  "name": "Pérdida de comunicación con el cuadro de instrumentos",
+  "datePublished": "2026-10-28",
+  "dateModified": "2026-10-28",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código U0155: causas, síntomas y solución",
+    "meta_description": "U0155: otro módulo ha perdido la comunicación con el cuadro de instrumentos. Causas (alimentación, bus CAN, cuadro), síntomas y cómo diagnosticarlo.",
+    "slug": "u0155"
+  },
+  "content_html": "<h1>Código U0155: Pérdida de comunicación con el cuadro de instrumentos</h1>\n<p class=\"intro\">El código U0155 indica que la centralita u otro módulo ha perdido la comunicación con el cuadro de instrumentos. Como los códigos U apuntan a fallos de red, la causa suele ser eléctrica: alimentación del cuadro, bus CAN o el propio cuadro. Suele acompañarse de agujas que se mueven mal, testigos que parpadean o un cuadro que se apaga a ratos.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: se pierde información del cuadro, como velocidad o testigos</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Cuadro de instrumentos, bus CAN, alimentación, masas</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>1–10 € (fusible) · 150–600 € (cuadro de instrumentos), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con acceso a todos los módulos, multímetro, tester de batería</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Cuadro de instrumentos con agujas inmóviles o erráticas.</li><li>Testigos que parpadean o se encienden todos.</li><li>Cuadro que se apaga o se reinicia a ratos.</li><li>Velocímetro o cuentarrevoluciones sin funcionar.</li><li>Otros códigos U en distintos módulos.</li></ul>\n<h2>Causas principales</h2><ul><li>Fusible o alimentación del cuadro defectuosos.</li><li>Batería débil o tensión inestable.</li><li>Masa del cuadro o del vehículo en mal estado.</li><li>Cableado del bus CAN dañado hacia el cuadro.</li><li>Conector del cuadro con humedad o desajustado.</li><li>Cuadro de instrumentos averiado.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos de todos los módulos y mira si aparecen más códigos U: un fallo común apunta al bus CAN o a la alimentación.</li><li>Comprueba la tensión de la batería y el estado del alternador.</li><li>Revisa el fusible del cuadro de instrumentos en el manual.</li><li>Limpia y aprieta las masas principales del vehículo.</li><li>Si el cuadro se apaga al mover el volante o la columna, sospecha del conector o del cableado en esa zona.</li><li>Mide la resistencia entre CAN alto y CAN bajo en el conector de diagnóstico: unos 60 ohmios es normal.</li><li>Si todo es correcto, el cuadro de instrumentos puede estar averiado y necesitar reparación o sustitución.</li><li>Borra los códigos y comprueba que el cuadro funciona con normalidad.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa U0155?",
+      "answer": "Que otro módulo ha perdido la comunicación con el cuadro de instrumentos. Es un fallo de red o de alimentación, no del motor."
+    },
+    {
+      "question": "¿Se puede circular con U0155?",
+      "answer": "Con cuidado, pero sin información fiable de velocidad o testigos. Conviene repararlo pronto."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglarlo?",
+      "answer": "Un fusible cuesta poco. Reparar o sustituir un cuadro de instrumentos cuesta entre 150 y 600 €, según modelo."
+    }
+  ],
+  "products": [
+    "multímetro digital automotriz",
+    "tester de batería de coche",
+    "escáner obd2 profesional multimarca"
+  ],
+  "related": [
+    "u0100",
+    "u0121",
+    "p0600"
+  ],
+  "featured_image": "/img/articulos/codigo-u0155.webp"
+}

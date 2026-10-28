@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0505",
+  "name": "Sistema de control del ralentí (y P0506)",
+  "datePublished": "2026-10-28",
+  "dateModified": "2026-10-28",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0505: causas, síntomas y solución",
+    "meta_description": "P0505 y P0506: el sistema de control del ralentí no regula bien el régimen. Causas (mariposa, válvula IAC, fugas), síntomas y cómo corregirlo.",
+    "slug": "p0505"
+  },
+  "content_html": "<h1>Código P0505: Sistema de control del ralentí (y P0506)</h1>\n<p class=\"intro\">El código P0505 indica un fallo general del sistema de control del ralentí: la centralita no logra mantener el régimen objetivo. P0506 señala que el ralentí es más bajo de lo esperado, mientras que P0507 indica que es más alto. La causa suele estar en la mariposa, en la válvula de control de ralentí o en una fuga de aire, y se corrige limpiando y adaptando el sistema.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: ralentí inestable, con riesgo de calarse</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Mariposa, válvula de ralentí (IAC), admisión</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–30 € (limpieza) · 100–400 € (mariposa o válvula), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con adaptaciones, limpiador de mariposa, detector de fugas</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Ralentí que oscila, o demasiado bajo y que se cala.</li><li>Motor que se cala al frenar o al aparcar.</li><li>Ralentí alto tras arrancar en frío que no baja.</li><li>Con P0506, vibraciones al ralentí.</li></ul>\n<h2>Causas principales</h2><ul><li>Mariposa o válvula IAC sucias por hollín.</li><li>Fuga de vacío que altera la mezcla de aire.</li><li>Aprendizaje de ralentí perdido tras limpiar o desconectar la batería.</li><li>Carga eléctrica alta, por alternador o aire acondicionado.</li><li>Sensores de temperatura o MAF con lectura errónea.</li><li>Válvula de ventilación del cárter averiada.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y comprueba si aparecen P0507 o códigos de fugas de aire.</li><li>Observa en datos en vivo el régimen de ralentí objetivo y el real, con el motor caliente y sin cargas encendidas.</li><li>Busca fugas de vacío con una prueba de humo en la admisión.</li><li>Limpia la mariposa y, si existe, la válvula de ralentí con productos específicos y con la batería desconectada.</li><li>Realiza el aprendizaje de ralentí con el escáner, según el procedimiento del fabricante.</li><li>Prueba con el aire acondicionado y las luces encendidas: el ralentí debe compensar con un ligero aumento.</li><li>Comprueba el estado de la batería y el alternador, por si la carga eléctrica altera el ralentí.</li><li>Si persiste, sustituye la mariposa o la válvula y repite el aprendizaje.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0505, P0506 y P0507?",
+      "answer": "P0505 es un fallo general del sistema de ralentí. P0506 indica ralentí más bajo del esperado y P0507, más alto."
+    },
+    {
+      "question": "¿Por qué se cala el coche al ralentí?",
+      "answer": "Casi siempre es mariposa sucia, válvula de ralentí atascada o falta de aprendizaje. Limpiar y adaptar suele resolverlo."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0505?",
+      "answer": "Una limpieza cuesta entre 10 y 30 €. Una mariposa o una válvula nuevas, entre 100 y 400 € con montaje, según modelo."
+    }
+  ],
+  "products": [
+    "limpiador de mariposa de gases",
+    "detector de fugas de humo automoción",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0507",
+    "p0638",
+    "p2279"
+  ],
+  "featured_image": "/img/articulos/codigo-p0505.webp"
+}

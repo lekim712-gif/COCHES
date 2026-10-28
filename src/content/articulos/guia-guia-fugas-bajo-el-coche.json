@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Fugas bajo el coche: qué indica el color del líquido",
+  "datePublished": "2026-10-28",
+  "dateModified": "2026-10-28",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Fugas bajo el coche: qué indica el color del líquido",
+    "meta_description": "Mancha de líquido bajo el coche: qué indica cada color (aceite, refrigerante, líquido de frenos, dirección, agua) y cuándo hay que detenerse y llamar a la grúa.",
+    "slug": "guia-fugas-bajo-el-coche"
+  },
+  "content_html": "<h1>Fugas bajo el coche: qué indica el color del líquido</h1>\n<p class=\"intro\">Una mancha bajo el coche puede ser un simple goteo del aire acondicionado o una fuga grave de frenos. El color, la textura y la zona de la mancha permiten saber de qué líquido se trata y la urgencia. Colocar un cartón limpio bajo el motor durante la noche es una forma sencilla de identificar la fuga y su origen antes de acudir al taller.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Variable: de un goteo de agua inofensivo a una fuga de frenos peligrosa</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Motor, refrigeración, frenos, dirección, transmisión, climatización</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–50 € (manguito o junta) · 100–500 € (bomba, retén o radiador), según la fuga</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Cartón limpio, linterna, guantes</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Coloca un cartón limpio bajo el coche durante la noche para ver el color, la cantidad y la posición de la fuga.</li><li>Agua transparente y sin olor, sobre todo en verano y bajo el salpicadero: suele ser condensación del aire acondicionado. Es normal.</li><li>Líquido verde, rosa o naranja, de olor dulce: es refrigerante. Mira el nivel y revisa manguitos y radiador. Hay que repararlo cuanto antes.</li><li>Líquido marrón o negro, aceitoso: es aceite de motor. Comprueba el nivel de aceite y busca el punto de fuga, en el cárter, la tapa de balancines o los retenes.</li><li>Líquido rojizo o rosado y aceitoso: puede ser líquido de la dirección asistida o del cambio automático.</li><li>Líquido transparente o amarillento y de textura aceitosa cerca de una rueda: puede ser líquido de frenos. Si el pedal está blando, no circules y llama a una grúa.</li><li>Líquido azul o verde claro cerca del frontal: puede ser limpiaparabrisas.</li><li>Anota el color y la zona, y acude al taller con esos datos. No ignores fugas de frenos, de dirección o de refrigerante.</li><li>Comprueba los niveles de líquidos con regularidad: una bajada de nivel anticipa una fuga.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué hago si hay una mancha de aceite bajo el coche?",
+      "answer": "Comprueba el nivel de aceite con la varilla. Si está bajo, no circules mucho y busca la fuga. Un nivel muy bajo puede destruir el motor."
+    },
+    {
+      "question": "¿Es normal que gotee agua bajo el coche?",
+      "answer": "Sí, si es agua transparente sin olor y cerca del lado del pasajero tras usar el aire acondicionado: es condensación."
+    },
+    {
+      "question": "¿Qué color tiene el líquido de frenos?",
+      "answer": "Es transparente o amarillento, y con el tiempo se oscurece. Una fuga cerca de una rueda, con el pedal blando, es una emergencia."
+    }
+  ],
+  "products": [
+    "refrigerante anticongelante para coche",
+    "aceite de motor 5W30",
+    "líquido de frenos DOT4"
+  ],
+  "related": [
+    "guia-comprobar-nivel-refrigerante",
+    "guia-liquido-de-frenos",
+    "testigo-presion-aceite"
+  ],
+  "featured_image": "/img/articulos/guia-guia-fugas-bajo-el-coche.webp"
+}

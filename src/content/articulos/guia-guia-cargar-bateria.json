@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Cómo cargar la batería del coche con un cargador",
+  "datePublished": "2026-10-28",
+  "dateModified": "2026-10-28",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Cómo cargar la batería del coche con un cargador",
+    "meta_description": "Cómo cargar la batería del coche con un cargador: dónde hacerlo, orden de conexión, tiempo de carga y precauciones para no dañarla ni la electrónica.",
+    "slug": "guia-cargar-bateria"
+  },
+  "content_html": "<h1>Cómo cargar la batería del coche con un cargador</h1>\n<p class=\"intro\">Cargar la batería con un cargador es la solución para una batería descargada que aún está en buen estado. Es un proceso sencillo, pero conviene hacerlo con ventilación, con el cargador desconectado al conectar los cables y sin forzar la carga. Una carga lenta, de varias horas, es mejor para la batería que una rápida.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: la carga produce gases inflamables, hay que ventilar</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Batería, cargador, sistema eléctrico</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>25–80 € un cargador-mantenedor</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Cargador de batería, guantes y gafas, un lugar ventilado</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Trabaja en un lugar ventilado y sin chispas ni llamas cerca: durante la carga se desprende hidrógeno, que es inflamable.</li><li>Apaga el coche y todos los consumos. Si la batería está en el maletero o bajo el asiento, usa los bornes de ayuda para el arranque.</li><li>Con el cargador desenchufado, conecta la pinza roja al borne positivo y la negra al negativo, o a una masa del motor.</li><li>Selecciona el tipo de batería y la intensidad: una carga lenta, de unos 5–10 A, es la más recomendable para baterías de 50–70 Ah.</li><li>Enchufa el cargador y comprueba que indica carga. Calcula el tiempo según la capacidad y el estado.</li><li>No lo dejes sin vigilar al principio: si la batería se calienta mucho o hace ruido, desconecta.</li><li>Cuando el cargador indique carga completa, desenchúfalo y después desconecta las pinzas en orden inverso: primero la negra y luego la roja.</li><li>Mide la tensión en reposo: debe estar entre 12,6 y 12,8 V.</li><li>Si la batería se vuelve a descargar en pocos días, está agotada o hay un consumo parásito: revisa con un tester.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cuánto tarda en cargarse una batería?",
+      "answer": "Con un cargador de 5 A, una batería descargada puede tardar entre 8 y 12 horas. Un cargador más potente, menos, pero la carga lenta es mejor para la vida de la batería."
+    },
+    {
+      "question": "¿Puedo cargar la batería sin desconectarla?",
+      "answer": "En la mayoría de coches sí, con el contacto quitado y el cargador conectado como se indica. En coches con mucha electrónica, algunos fabricantes recomiendan un cargador específico o desconectar la batería."
+    },
+    {
+      "question": "¿Cómo sé si la batería ya no sirve?",
+      "answer": "Si tras una carga completa baja de 12,4 V en un día, o no arranca con normalidad, su capacidad está agotada. Un tester la comprueba."
+    }
+  ],
+  "products": [
+    "cargador mantenedor de batería para coche",
+    "tester de batería de coche",
+    "guantes de taller"
+  ],
+  "related": [
+    "guia-bateria-se-descarga-sola",
+    "guia-arrancar-con-cables",
+    "testigo-bateria"
+  ],
+  "featured_image": "/img/articulos/guia-guia-cargar-bateria.webp"
+}

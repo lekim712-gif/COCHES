@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0443",
+  "name": "Circuito de la válvula de purga del EVAP (y P0446, ventilación)",
+  "datePublished": "2026-10-28",
+  "dateModified": "2026-10-28",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0443: causas, síntomas y solución",
+    "meta_description": "P0443 y P0446: fallo eléctrico en la válvula de purga o de ventilación del EVAP. Cómo medir la bobina de cada válvula y localizar el fallo.",
+    "slug": "p0443"
+  },
+  "content_html": "<h1>Código P0443: Circuito de la válvula de purga del EVAP (y P0446, ventilación)</h1>\n<p class=\"intro\">Los códigos P0443 y P0446 indican fallos eléctricos en el circuito de las válvulas del sistema EVAP: P0443 corresponde a la válvula de purga y P0446, a la de ventilación del cánister. No indican una fuga, como P0442 o P0455, sino un problema en el mando eléctrico: bobina, cableado o conector. Se diagnostican con el multímetro y el test de actuadores.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: no afecta a la conducción, pero deja el testigo encendido</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>EVAP, válvulas de purga y ventilación, cableado</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–120 € (válvula) · 0–30 € si es el conector, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con test de actuadores, multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Dificultad al repostar, con el surtidor que salta antes de tiempo, con P0446.</li><li>Ralentí irregular tras repostar, con P0443.</li><li>Olor leve a gasolina en algunos casos.</li><li>Fallo en la ITV por el testigo encendido.</li></ul>\n<h2>Causas principales</h2><ul><li>Bobina de la válvula de purga o de ventilación cortada.</li><li>Cable de mando de la válvula roto o en cortocircuito.</li><li>Conector con humedad, suciedad o terminales sueltos.</li><li>Válvula de ventilación obstruida por suciedad o insectos.</li><li>Fusible o alimentación de la válvula defectuosos.</li><li>Salida de la centralita dañada.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos e identifica cuál es: P0443 purga, P0446 ventilación.</li><li>Localiza la válvula afectada y revisa su conector y cableado.</li><li>Activa la válvula con el test de actuadores del escáner y escucha el chasquido.</li><li>Mide la resistencia de la bobina con el multímetro y compárala con el valor del manual.</li><li>Comprueba la alimentación y la masa en el conector con el contacto puesto.</li><li>En la válvula de ventilación, revisa que el conducto no esté obstruido por suciedad.</li><li>Sustituye la válvula si la bobina está cortada, borra los códigos y haz un ciclo de conducción completo.</li></ol>\n<h2>Cuándo acudir al taller</h2><p>Si el código vuelve tras sustituir la válvula, o si además hay códigos de fuga como P0442, P0455 o P0456, un taller puede hacer una prueba de humo completa del EVAP. En coches que no cierran bien el surtidor al repostar o que huelen a gasolina de forma persistente, conviene revisar también el cánister y los conductos, porque un fallo prolongado del sistema puede dañar el cánister.</p>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0443 y P0446?",
+      "answer": "P0443 es el circuito de la válvula de purga, que envía vapores al motor. P0446 es el de la válvula de ventilación, que deja entrar aire al cánister. Se diagnostican de forma parecida, con la válvula correspondiente."
+    },
+    {
+      "question": "¿Se puede circular con P0443 o P0446?",
+      "answer": "Sí. No afecta a la conducción, aunque conviene repararlo antes de la ITV."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglarlo?",
+      "answer": "Una válvula nueva cuesta entre 30 y 120 € con montaje. Si es un conector, de 0 a 30 €, según modelo."
+    }
+  ],
+  "products": [
+    "válvula de purga EVAP",
+    "multímetro digital automotriz",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0441",
+    "p0442",
+    "p0455"
+  ],
+  "featured_image": "/img/articulos/codigo-p0443.webp"
+}

@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Cuándo cambiar la correa de distribución y qué incluye el cambio",
+  "datePublished": "2026-10-28",
+  "dateModified": "2026-10-28",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Correa de distribución: cuándo cambiarla y qué incluye",
+    "meta_description": "Cuándo cambiar la correa de distribución (por kilómetros y años), qué piezas se sustituyen a la vez, síntomas de desgaste y qué pasa si se rompe.",
+    "slug": "guia-correa-distribucion"
+  },
+  "content_html": "<h1>Cuándo cambiar la correa de distribución y qué incluye el cambio</h1>\n<p class=\"intro\">La correa de distribución sincroniza el cigüeñal con el árbol de levas. Si se rompe, en muchos motores las válvulas golpean los pistones y la reparación es muy cara. Por eso se cambia por kilómetros o por años, lo que antes llegue, según indique el fabricante. El cambio incluye normalmente tensores, rodillos y, a menudo, la bomba de agua, que conviene sustituir a la vez.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta: una correa rota puede destruir el motor</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Distribución, correa, tensor, bomba de agua</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>300–800 € el cambio completo, según modelo y taller</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Taller con herramientas de calado; no es una tarea doméstica</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Consulta en el manual el intervalo de cambio: suele estar entre 60.000 y 120.000 km o cada 5–6 años, lo que antes se cumpla.</li><li>Comprueba cuánto tiempo y kilómetros lleva la correa actual. Si no hay registro de cambio en un coche de segunda mano, asume que está pasada.</li><li>Pide que sustituyan el kit completo: correa, tensor y rodillos, y la bomba de agua si la correa la mueve, porque el desmontaje es el mismo.</li><li>Revisa la correa de accesorios, el termostato y el refrigerante al mismo tiempo, si procede.</li><li>Atiende a los síntomas de desgaste: ruido de silbido o chirrido al arrancar, grietas visibles en la correa o fugas de aceite cerca de los retenes.</li><li>Si el motor lleva cadena de distribución, no hay intervalo de cambio fijo, pero un ruido de cadena es señal de estiramiento.</li><li>Haz el cambio en un taller con las herramientas de calado correctas: un mal calado destruye el motor.</li><li>Guarda la factura y anota el cambio en el libro de revisiones.</li><li>Después del cambio, comprueba que no hay códigos de correlación, como P0016, y que el motor funciona con suavidad.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cada cuánto se cambia la correa de distribución?",
+      "answer": "Entre 60.000 y 120.000 km o cada 5–6 años, según el motor. Consulta el manual de tu modelo, y cámbiala por tiempo aunque no hayas llegado a los kilómetros."
+    },
+    {
+      "question": "¿Qué pasa si se rompe la correa?",
+      "answer": "En motores de interferencia, las válvulas golpean los pistones y el motor puede quedar destruido, con una reparación que suele costar más que el coche. Por eso no debe retrasarse."
+    },
+    {
+      "question": "¿Se cambia también la bomba de agua?",
+      "answer": "Si la mueve la correa, es muy recomendable: el trabajo de desmontaje es el mismo y evita repetirlo si la bomba falla después."
+    }
+  ],
+  "products": [
+    "kit de distribución con bomba de agua",
+    "correa de accesorios para coche",
+    "refrigerante anticongelante para coche"
+  ],
+  "related": [
+    "p0016",
+    "p0341",
+    "guia-mantenimiento-por-kilometros"
+  ],
+  "featured_image": "/img/articulos/guia-guia-correa-distribucion.webp"
+}

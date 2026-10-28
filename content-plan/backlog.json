@@ -6,6 +6,8 @@
   "P0089",
   "P0100",
   "P0101",
+  "P0102",
+  "P0103",
   "P0104",
   "P0105",
   "P0106",
@@ -47,9 +49,13 @@
   "P0421",
   "P0441",
   "P0442",
+  "P0443",
+  "P0446",
   "P0455",
   "P0456",
   "P0500",
+  "P0505",
+  "P0506",
   "P0507",
   "P0562",
   "P0571",
@@ -61,7 +67,8 @@
   "P2263",
   "P2279",
   "U0100",
-  "U0121"
+  "U0121",
+  "U0155"
  ],
  "codigos": [
   [
@@ -81,26 +88,6 @@
    "Sensor de recirculación EGR: señal baja"
   ],
   [
-   "P0102",
-   "Caudalímetro MAF: señal baja"
-  ],
-  [
-   "P0443",
-   "Circuito de la válvula de purga del EVAP"
-  ],
-  [
-   "P0103",
-   "Caudalímetro MAF: señal alta"
-  ],
-  [
-   "P0446",
-   "Circuito de ventilación del EVAP"
-  ],
-  [
-   "P0506",
-   "Régimen de ralentí inferior al esperado"
-  ],
-  [
    "P0715",
    "Circuito del sensor de velocidad de entrada de la transmisión"
   ],
@@ -109,16 +96,8 @@
    "Eficiencia del catalizador SCR (NOx)"
   ],
   [
-   "P0505",
-   "Sistema de control del ralentí"
-  ],
-  [
    "P0700",
    "Fallo del sistema de control de la transmisión"
-  ],
-  [
-   "U0155",
-   "Pérdida de comunicación con el cuadro de instrumentos"
   ],
   [
    "C0035",
@@ -129,7 +108,7 @@
  "guias": [],
  "_semrush": "Reordenado el 13/10/2026 con Semrush (ES): volúmenes en content-plan/semrush/volumenes-codigos.json. Orden = volumen exacto del código, luego volumen de familia. Códigos P0302–P0306 siguen cubiertos por la ficha P0301. Competidor c3carecarcenter.com: tráfico ES casi nulo (175), no es referencia.",
  "_mexico": "Semrush MX: p0420=6.600/mes (ES: 590); p0420 nissan 3.600, p0420 chevrolet 1.300, p0420 ford 720. Oportunidad LatAm mayor que ES: fichas de código+marca (P0420 Nissan, Chevrolet, Ford...) con vocabulario neutro (coche/auto/carro). Decidir con datos de Search Console. Semrush MX obd2: \"scanner/escaner automotriz\" 8.100, \"escaner obd2\" 2.900, \"conector/puerto obd2\" 1.000/720, \"escaner para carros\" 1.600: demanda comercial alta -> guías de escáner (mejor escáner OBD2, ubicación del puerto OBD2 por marca, pinout). Afiliación Amazon MX requiere programa propio (amazon.com.mx).",
- "_ideas_guias": "Hechas hasta el 27/10: tironea, humo, no arranca, consumo, correa, ruidos al frenar, vibraciones volante, calefacción, aire acondicionado, se cala, batería se descarga, olor a quemado, ruidos suspensión, ITV emisiones, datos en vivo, colores de testigos, mantenimiento por km, neumáticos desgastados, líquido de frenos, arrancar con cables, catalizador obstruido. Siguientes: cómo cargar la batería, cuándo cambiar la correa de distribución, sustituir limpiaparabrisas, luces fundidas, cómo cambiar una rueda, anticongelante, cómo leer un neumático, fugas bajo el coche (colores del líquido).",
+ "_ideas_guias": "Hechas hasta el 28/10: ver ficheros; nuevas hoy: tirones en diésel, cargar la batería, correa de distribución, fugas bajo el coche, cambiar una rueda. Siguientes ideas: anticongelante, luces fundidas, limpiaparabrisas, cómo leer un neumático, filtro de combustible, aditivos, kit de emergencia, coche eléctrico/híbrido básicos (solo si hay datos).",
  "hecho_testigos_seguridad": [
   "testigo-abs",
   "testigo-freno",

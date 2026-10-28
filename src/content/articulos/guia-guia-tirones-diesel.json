@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "El coche diésel da tirones: causas y qué revisar",
+  "datePublished": "2026-10-28",
+  "dateModified": "2026-10-28",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Coche diésel da tirones al acelerar: causas y qué revisar",
+    "meta_description": "Tu diésel da tirones al acelerar o en marchas largas: causas (inyectores, EGR, turbo, filtro de combustible, FAP) y cómo diagnosticarlas paso a paso.",
+    "slug": "guia-tirones-diesel"
+  },
+  "content_html": "<h1>El coche diésel da tirones: causas y qué revisar</h1>\n<p class=\"intro\">En un coche diésel, los tirones al acelerar casi siempre vienen del aire, del combustible o de un sistema de emisiones obstruido, no de las bujías, como en gasolina. Las causas más habituales son el filtro de combustible, los inyectores, la válvula EGR, el turbo o un filtro de partículas saturado. Fijarse en cuándo ocurren, a qué régimen y con qué testigos ayuda a acotar el origen.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: puede indicar fallos de inyección o del turbo</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Inyección common-rail, EGR, turbo, filtro de partículas, filtro de combustible</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>20–80 € (filtro de combustible) · 150–1.500 € (inyectores, turbo), según la causa</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, manómetro, linterna</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos con un escáner OBD2: presión del raíl (P0087, P0089), turbo (P0299, P0234), EGR (P0401, P0402) o inyectores señalan la causa.</li><li>Fíjate cuándo ocurre el tirón: en aceleraciones fuertes y a medio régimen suele ser el turbo o la presión de combustible; a cargas bajas, la EGR.</li><li>Cambia el filtro de combustible si hace tiempo que no se sustituye: es la causa más barata y habitual.</li><li>Revisa el filtro de aire y los manguitos del turbo y del intercooler por fugas de presión.</li><li>Con el escáner, compara la presión del turbo pedida y real, y la presión del raíl, en una aceleración en carretera segura.</li><li>Comprueba si el testigo del filtro de partículas está encendido: un filtro saturado ahoga el motor y provoca tirones.</li><li>Revisa la válvula EGR: si está atascada abierta o cerrada, puede causar tirones y falta de potencia.</li><li>Si no hay códigos claros, mide la corrección de caudal de los inyectores con el escáner: valores muy altos en uno indican un inyector defectuoso.</li><li>Acude al taller con los datos anotados si el fallo persiste.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué un diésel tironea al acelerar?",
+      "answer": "Lo más habitual son el filtro de combustible, el turbo, la EGR o un filtro de partículas saturado. En diésel, el encendido no es la causa, como en gasolina."
+    },
+    {
+      "question": "¿Puede ser el combustible?",
+      "answer": "Sí. Combustible de mala calidad o con agua, un filtro saturado o una presión de raíl baja provocan tirones."
+    },
+    {
+      "question": "¿Se puede circular con tirones?",
+      "answer": "Con modo de emergencia puedes llegar al taller. Si los tirones son fuertes o hay humo, es mejor no forzar el motor."
+    }
+  ],
+  "products": [
+    "filtro de combustible para coche",
+    "escáner obd2 bluetooth elm327",
+    "limpiador de válvula EGR y admisión"
+  ],
+  "related": [
+    "p0087",
+    "p0299",
+    "testigo-filtro-particulas"
+  ],
+  "featured_image": "/img/articulos/guia-guia-tirones-diesel.webp"
+}

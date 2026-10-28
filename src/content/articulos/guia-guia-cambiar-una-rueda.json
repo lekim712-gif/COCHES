@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Cómo cambiar una rueda paso a paso con seguridad",
+  "datePublished": "2026-10-28",
+  "dateModified": "2026-10-28",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Cómo cambiar una rueda paso a paso con seguridad",
+    "meta_description": "Cómo cambiar una rueda pinchada con seguridad: dónde parar, uso del gato y la llave, orden de apriete de los tornillos y qué comprobar después.",
+    "slug": "guia-cambiar-una-rueda"
+  },
+  "content_html": "<h1>Cómo cambiar una rueda paso a paso con seguridad</h1>\n<p class=\"intro\">Cambiar una rueda es una habilidad básica que conviene conocer antes de necesitarla. Lo esencial es hacerlo en un lugar seguro y llano, no ponerse nunca bajo un coche apoyado solo en el gato y apretar los tornillos en cruz. Un cambio bien hecho lleva entre 15 y 30 minutos, y después hay que revisar el par de apriete y la presión de la rueda de repuesto.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: el gato puede resbalar y el tráfico es un riesgo si se hace en carretera</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Ruedas, gato, llave de ruedas, rueda de repuesto</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0 € si lo haces tú; 10–25 € en taller</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Gato, llave de ruedas, rueda de repuesto, triángulos, chaleco reflectante</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Detén el coche en un lugar llano, firme y lo más alejado posible del tráfico. Pon las luces de emergencia, el freno de mano y una marcha.</li><li>Colócate el chaleco reflectante y pon los triángulos de emergencia según la normativa.</li><li>Saca la rueda de repuesto, el gato y la llave del maletero.</li><li>Con el coche aún en el suelo, afloja un poco los tornillos de la rueda a cambiar, sin quitarlos.</li><li>Coloca el gato en el punto de apoyo que indica el manual, cerca de la rueda, y elévalo hasta que la rueda quede separada del suelo.</li><li>No te pongas nunca bajo el coche. Quita los tornillos, retira la rueda y monta la de repuesto.</li><li>Enrosca los tornillos a mano y apriétalos ligeramente en cruz. Baja el coche hasta que la rueda apoye.</li><li>Aprieta los tornillos en cruz con la llave, a fondo, y comprueba en un taller el par de apriete lo antes posible.</li><li>Revisa la presión de la rueda de repuesto y, si es de emergencia, respeta el límite de velocidad que indica, normalmente 80 km/h.</li><li>Repara o cambia la rueda pinchada cuanto antes y no circules con el repuesto más de lo imprescindible.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Dónde se coloca el gato?",
+      "answer": "En los puntos de apoyo que indica el manual, normalmente unas muescas en los bajos cerca de cada rueda. Un punto equivocado puede dañar el coche o hacer que resbale."
+    },
+    {
+      "question": "¿Qué velocidad máxima admite la rueda de repuesto?",
+      "answer": "Si es de emergencia, normalmente 80 km/h, según indica en la propia rueda o en el manual. Evita trayectos largos con ella."
+    },
+    {
+      "question": "¿Cada cuánto debo revisar la rueda de repuesto?",
+      "answer": "Cada pocos meses: comprueba su presión y su estado. Una rueda de repuesto sin presión no sirve cuando se necesita."
+    }
+  ],
+  "products": [
+    "gato hidráulico para coche",
+    "llave de ruedas en cruz",
+    "chaleco reflectante y triángulos de emergencia"
+  ],
+  "related": [
+    "guia-neumaticos-desgastados",
+    "testigo-presion-neumaticos"
+  ],
+  "needs_review": true,
+  "featured_image": "/img/articulos/guia-guia-cambiar-una-rueda.webp"
+}

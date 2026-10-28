@@ -89,3 +89,7 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - 115 fichas indexables (+1 en noindex: líquido de frenos). Lote del día: guías colores de testigos, mantenimiento por kilómetros, neumáticos desgastados, líquido de frenos (noindex hasta revisión), arrancar con cables y catalizador obstruido.
 - Ampliados con secciones nuevas el testigo del filtro de partículas y los códigos P0420, P0335 y P0300 (páginas con más impresiones y posición 13–44); vuelven a «pendiente de revisión técnica».
 - Search Console: 502 impresiones, 3 clics. La rutina del 26/10 no llegó a ejecutarse (sesión inactiva); se retoma el 27.
+
+## Actualización 28/10/2026
+- Lote del día (9): códigos P0102/P0103, P0505/P0506, P0443/P0446 y U0155; guías tirones en diésel, cargar la batería, correa de distribución, fugas bajo el coche y cambiar una rueda (esta última en noindex hasta revisión). Las consultas de Search Console ya apuntan a guías: «limpieza egr», «tirones diésel», «correa alternador chirria», «epc coche».
+- Search Console: 588 impresiones, 3 clics.
