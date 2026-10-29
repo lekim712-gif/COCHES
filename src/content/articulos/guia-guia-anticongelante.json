@@ -36,5 +36,7 @@
     "testigo-temperatura-refrigerante",
     "guia-calefaccion-no-calienta"
   ],
-  "featured_image": "/img/articulos/guia-guia-anticongelante.webp"
+  "featured_image": "/img/articulos/guia-guia-anticongelante.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-10-29"
 }
