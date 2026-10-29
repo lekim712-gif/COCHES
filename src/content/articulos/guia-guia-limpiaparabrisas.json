@@ -1,0 +1,38 @@
+{
+  "type": "guia",
+  "name": "Escobillas del limpiaparabrisas: cuándo cambiarlas y cómo hacerlo",
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Escobillas del limpiaparabrisas: cuándo cambiarlas",
+    "meta_description": "Cuándo cambiar las escobillas del limpiaparabrisas (rayas, saltos, ruido), cómo elegir la medida correcta y cómo montarlas en pocos minutos sin dañar el cristal.",
+    "slug": "guia-limpiaparabrisas"
+  },
+  "content_html": "<h1>Escobillas del limpiaparabrisas: cuándo cambiarlas y cómo hacerlo</h1>\n<p class=\"intro\">Las escobillas del limpiaparabrisas se desgastan con el sol, el frío y el uso, y empiezan a dejar rayas, zonas sin limpiar o a saltar sobre el cristal. Una visibilidad deficiente con lluvia es un riesgo. Se cambian normalmente una vez al año, y el cambio es de los más sencillos: se hace en pocos minutos con una escobilla de la medida adecuada y sin herramientas.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: pero la visibilidad en lluvia es un factor de seguridad</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Limpiaparabrisas, escobillas, cristal</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–30 € el juego de escobillas</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escobillas nuevas, un paño; ninguna herramienta en la mayoría de coches</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Comprueba si las escobillas dejan rayas, salpicaduras, zonas sin limpiar o producen ruido: son señales de que la goma está desgastada.</li><li>Mide la longitud de cada escobilla o consulta el manual o la web del fabricante, porque la del conductor y la del pasajero suelen ser distintas.</li><li>Elige el tipo de escobilla: de goma tradicional, planas sin articulaciones o híbridas. Las planas suelen dar un barrido más uniforme.</li><li>Levanta el brazo del limpiaparabrisas hasta que quede fijo, con cuidado de que no caiga de golpe sobre el cristal.</li><li>Localiza la pestaña de sujeción en el punto de unión de la escobilla con el brazo, pulsa y desliza la escobilla hacia abajo para soltarla.</li><li>Monta la nueva en sentido inverso, hasta oír un clic, y comprueba que queda firme.</li><li>Baja el brazo con cuidado y repite en el otro lado.</li><li>Limpia el cristal con un paño y líquido limpiacristales para eliminar la suciedad que desgasta las gomas.</li><li>Cambia las escobillas una vez al año, o antes si dejan rayas, y comprueba el nivel del depósito de líquido limpiaparabrisas.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cada cuánto hay que cambiar las escobillas?",
+      "answer": "Normalmente una vez al año, o cuando empiezan a dejar rayas o a saltar. El sol y el frío endurecen la goma."
+    },
+    {
+      "question": "¿Por qué rayan el cristal las escobillas nuevas?",
+      "answer": "Puede haber suciedad o restos de cera en el parabrisas. Limpia el cristal con alcohol o un limpiador específico, y comprueba que la medida es la correcta."
+    },
+    {
+      "question": "¿Qué hago si el limpiaparabrisas hace ruido?",
+      "answer": "Suele ser goma desgastada, un cristal sucio o un brazo mal ajustado. Cambia las escobillas y limpia el parabrisas."
+    }
+  ],
+  "products": [
+    "escobillas limpiaparabrisas planas",
+    "líquido limpiaparabrisas",
+    "limpiacristales para coche"
+  ],
+  "related": [
+    "guia-mantenimiento-por-kilometros"
+  ],
+  "featured_image": "/img/articulos/guia-guia-limpiaparabrisas.webp"
+}

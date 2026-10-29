@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Filtro de combustible: cuándo cambiarlo y síntomas de saturación",
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Filtro de combustible: cuándo cambiarlo y síntomas",
+    "meta_description": "Cuándo cambiar el filtro de combustible (gasolina y diésel), síntomas de un filtro saturado (tirones, falta de potencia, arranque difícil) y cómo se sustituye.",
+    "slug": "guia-filtro-combustible"
+  },
+  "content_html": "<h1>Filtro de combustible: cuándo cambiarlo y síntomas de saturación</h1>\n<p class=\"intro\">El filtro de combustible retiene impurezas y, en diésel, también agua, antes de que lleguen a la bomba y a los inyectores. Con el tiempo se satura y el motor recibe menos combustible: tirones en carga, falta de potencia y arranques difíciles son síntomas típicos. En diésel conviene cambiarlo con regularidad, porque los inyectores common-rail son muy sensibles a la suciedad.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: un filtro saturado daña bomba e inyectores a largo plazo</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Circuito de combustible, filtro, bomba, inyectores</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>15–60 € el filtro; 40–120 € el cambio en taller</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Filtro nuevo, llaves, recipiente, guantes; procedimiento específico según el coche</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Consulta el manual para saber el intervalo de cambio: en diésel suele estar entre 20.000 y 40.000 km o cada 2 años, y en gasolina muchos coches llevan el filtro dentro del depósito y su cambio es menos frecuente.</li><li>Atiende a los síntomas: tirones al acelerar con carga, falta de potencia, dificultad para arrancar o testigo de motor con códigos de presión de combustible.</li><li>En diésel, comprueba si el filtro tiene purgador de agua y drénalo según el manual: el agua acumulada daña los inyectores.</li><li>Identifica la ubicación del filtro, en el compartimento motor o bajo el coche, y prepara un recipiente para recoger el combustible.</li><li>Despresuriza el circuito según el procedimiento del fabricante antes de soltar nada: en alta presión es peligroso.</li><li>Suelta las conexiones, retira el filtro y monta el nuevo con sus juntas, respetando el sentido de flujo indicado.</li><li>En diésel, purga el circuito con la bomba de cebado hasta que el motor arranque con normalidad, o según indique el manual.</li><li>Arranca, comprueba que no hay fugas y recoge el combustible derramado, que es inflamable.</li><li>Anota el cambio y respeta el intervalo; si el coche tiene la bomba en el depósito, el cambio puede requerir taller.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cada cuánto se cambia el filtro de combustible?",
+      "answer": "En diésel, cada 20.000–40.000 km o 2 años, según el fabricante. En gasolina, mucho menos a menudo si va en el depósito. Consulta el manual."
+    },
+    {
+      "question": "¿Qué síntomas da un filtro de combustible saturado?",
+      "answer": "Tirones o falta de potencia en carga, arranque difícil y, a veces, un código de presión de combustible baja."
+    },
+    {
+      "question": "¿Se puede cambiar el filtro de combustible en casa?",
+      "answer": "En muchos coches diésel es sencillo, pero hay que purgar el circuito y trabajar sin chispas. Si el filtro está en el depósito o es de alta presión, mejor en un taller."
+    }
+  ],
+  "products": [
+    "filtro de combustible para coche",
+    "guantes de taller",
+    "bomba de cebado de combustible"
+  ],
+  "related": [
+    "p0087",
+    "guia-tirones-diesel",
+    "p0089"
+  ],
+  "featured_image": "/img/articulos/guia-guia-filtro-combustible.webp"
+}

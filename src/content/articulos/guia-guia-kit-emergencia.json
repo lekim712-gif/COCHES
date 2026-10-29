@@ -1,0 +1,39 @@
+{
+  "type": "guia",
+  "name": "Qué llevar en el coche: kit de emergencia obligatorio y recomendado",
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Kit de emergencia del coche: obligatorio y recomendado",
+    "meta_description": "Qué llevar en el coche en España: triángulos, chaleco reflectante y rueda de repuesto (obligatorios) y los extras recomendados para una avería o un viaje largo.",
+    "slug": "guia-kit-emergencia"
+  },
+  "content_html": "<h1>Qué llevar en el coche: kit de emergencia obligatorio y recomendado</h1>\n<p class=\"intro\">Llevar el equipamiento correcto en el coche evita multas y facilita resolver una avería o un pinchazo. En España son obligatorios los triángulos de preseñalización, el chaleco reflectante y una rueda de repuesto o un kit para reparar pinchazos. Además de eso, un pequeño kit con herramientas, cables de arranque y una linterna puede evitar llamar a una grúa en muchas situaciones.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: un kit básico cuesta poco y puede evitar problemas serios</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Equipamiento de seguridad y emergencia del vehículo</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–100 € un kit completo, según lo que añadas</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Triángulos, chaleco, cables, linterna, botiquín y herramientas básicas</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Comprueba que llevas dos triángulos de preseñalización homologados. Cuando pares en la calzada, colócalos a unos 50 metros, delante y detrás del coche, según la normativa.</li><li>Lleva un chaleco reflectante homologado dentro del habitáculo, no en el maletero, para poder ponértelo antes de bajar del coche.</li><li>Revisa la rueda de repuesto o el kit de reparación: comprueba su presión y su estado, y que tienes gato y llave de ruedas.</li><li>Añade unos cables de arranque, o un arrancador portátil, que resuelven muchas averías de batería.</li><li>Incluye una linterna, preferentemente de led con pilas de repuesto, y guantes de trabajo.</li><li>Lleva un botiquín básico, un extintor pequeño si lo deseas, y una manta para el invierno.</li><li>Añade herramientas básicas, como destornilladores, alicates, cinta aislante y bridas, que resuelven pequeñas averías.</li><li>Guarda un compresor de aire de 12 V y un líquido antipinchazos si no llevas rueda de repuesto.</li><li>Revisa el kit cada pocos meses: pilas, caducidad del botiquín y estado de los triángulos.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué es obligatorio llevar en el coche en España?",
+      "answer": "Dos triángulos de preseñalización, un chaleco reflectante y una rueda de repuesto o un kit para reparar pinchazos, además de la documentación del vehículo. Conviene confirmarlo en la normativa vigente."
+    },
+    {
+      "question": "¿Dónde hay que llevar el chaleco reflectante?",
+      "answer": "Dentro del habitáculo, al alcance del conductor, para poder ponértelo antes de salir del coche. En el maletero no cumple su función."
+    },
+    {
+      "question": "¿Hace falta llevar un extintor?",
+      "answer": "En turismos particulares no es obligatorio, pero un extintor pequeño puede ser útil ante un conato de incendio, siempre sin arriesgarse."
+    }
+  ],
+  "products": [
+    "chaleco reflectante y triángulos de emergencia",
+    "cables de arranque para batería",
+    "compresor de aire portátil para coche"
+  ],
+  "related": [
+    "guia-cambiar-una-rueda",
+    "guia-arrancar-con-cables"
+  ],
+  "featured_image": "/img/articulos/guia-guia-kit-emergencia.webp"
+}

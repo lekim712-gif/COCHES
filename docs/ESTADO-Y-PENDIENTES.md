@@ -93,3 +93,7 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 ## Actualización 28/10/2026
 - Lote del día (9): códigos P0102/P0103, P0505/P0506, P0443/P0446 y U0155; guías tirones en diésel, cargar la batería, correa de distribución, fugas bajo el coche y cambiar una rueda (esta última en noindex hasta revisión). Las consultas de Search Console ya apuntan a guías: «limpieza egr», «tirones diésel», «correa alternador chirria», «epc coche».
 - Search Console: 588 impresiones, 3 clics.
+
+## Actualización 29/10/2026
+- 135 fichas indexables. Lote del día: guías anticongelante, bombillas fundidas, escobillas del limpiaparabrisas, filtro de combustible y kit de emergencia. Ampliados (y de nuevo «pendientes de revisión»): testigo EPC (sección SEAT/VW/Audi/Skoda), testigo de presión de aceite, testigo de batería y guía de limpieza de la EGR.
+- Search Console: 679 impresiones, 3 clics; las consultas con marca (EPC SEAT, P0335 Nissan, P0402 Ford) empiezan a aparecer.

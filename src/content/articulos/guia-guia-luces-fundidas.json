@@ -1,0 +1,39 @@
+{
+  "type": "guia",
+  "name": "Bombillas fundidas del coche: cómo detectarlas y cambiarlas",
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Bombillas fundidas del coche: cómo detectarlas y cambiarlas",
+    "meta_description": "Cómo comprobar las luces del coche, detectar una bombilla fundida y cambiarla con seguridad: luces de cruce, freno, intermitentes y qué precauciones tomar.",
+    "slug": "guia-luces-fundidas"
+  },
+  "content_html": "<h1>Bombillas fundidas del coche: cómo detectarlas y cambiarlas</h1>\n<p class=\"intro\">Circular con una bombilla fundida es una infracción y un riesgo, sobre todo si es una luz de freno o de cruce. Las luces se comprueban en pocos minutos con ayuda de otra persona o de un reflejo en una pared o escaparate. Cambiar una bombilla es sencillo en muchos coches, aunque algunos modelos exigen desmontar el faro, y en otros hay que evitar tocar el cristal con los dedos.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: una luz de freno fundida es peligrosa y se puede multar</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Alumbrado, bombillas, fusibles, faros</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>3–15 € la bombilla; 0 € si la cambias tú</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Bombilla de repuesto, guantes limpios, destornillador, manual</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Comprueba todas las luces con el coche parado: cruce, largas, posición, intermitentes, marcha atrás, antiniebla y freno. Pide a otra persona que mire desde fuera mientras pisas el freno.</li><li>Si el cuadro muestra un aviso de lámpara fundida, anota cuál es: muchos coches lo indican.</li><li>Consulta el manual para saber la referencia de la bombilla, normalmente H7, H4, P21W u otras, y compra una igual.</li><li>Si es posible, cambia las dos bombillas del mismo faro, porque la otra suele tener un desgaste similar.</li><li>Con el motor apagado y el contacto quitado, accede a la bombilla por el hueco del capó o por el interior del maletero, según la luz.</li><li>Desconecta el conector y suelta la bombilla girándola o liberando el clip. No toques el cristal de una bombilla halógena con los dedos: la grasa acorta su vida. Usa guantes o un paño.</li><li>Monta la bombilla nueva, conecta y comprueba que enciende antes de cerrar todo.</li><li>Si la luz sigue sin encender con una bombilla nueva, revisa el fusible y el conector, por si hay un fallo eléctrico.</li><li>Lleva una bombilla de cada tipo de repuesto en el coche y revisa las luces cada pocos meses.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Puedo cambiar yo la bombilla del faro?",
+      "answer": "En muchos coches sí, sin herramientas. En otros hay que desmontar el paragolpes o el faro. Consulta el manual o busca el procedimiento de tu modelo."
+    },
+    {
+      "question": "¿Por qué se funden las bombillas con frecuencia?",
+      "answer": "Por vibraciones, por tocar el cristal con los dedos al montarla o por una tensión eléctrica excesiva del alternador. Si se funden de forma repetida, revisa la carga."
+    },
+    {
+      "question": "¿Es obligatorio llevar bombillas de repuesto?",
+      "answer": "No es obligatorio, pero conviene llevarlas: una luz fundida es una infracción y puede obligarte a parar."
+    }
+  ],
+  "products": [
+    "kit de bombillas de repuesto para coche",
+    "guantes de taller",
+    "juego de fusibles para coche"
+  ],
+  "related": [
+    "guia-cambio-fusibles",
+    "testigo-bateria"
+  ],
+  "featured_image": "/img/articulos/guia-guia-luces-fundidas.webp"
+}

@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Anticongelante del coche: qué tipo elegir y cuándo cambiarlo",
+  "datePublished": "2026-10-29",
+  "dateModified": "2026-10-29",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Anticongelante del coche: tipos, mezcla y cuándo cambiarlo",
+    "meta_description": "Qué es el anticongelante del coche, cómo elegir el tipo correcto por colores y especificación, qué mezcla usar y cada cuánto hay que cambiarlo.",
+    "slug": "guia-anticongelante"
+  },
+  "content_html": "<h1>Anticongelante del coche: qué tipo elegir y cuándo cambiarlo</h1>\n<p class=\"intro\">El anticongelante, o refrigerante, protege el motor de la congelación en invierno, evita el sobrecalentamiento en verano y previene la corrosión del circuito. Hay varios tipos y no todos se pueden mezclar, porque el color por sí solo no garantiza compatibilidad. Elegir el que indica el fabricante y cambiarlo cuando toca alarga la vida de la bomba de agua, el radiador y la junta de culata.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: un refrigerante inadecuado o degradado daña el circuito</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Circuito de refrigeración, radiador, bomba de agua, junta de culata</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–25 € el bidón; 60–150 € el cambio en taller</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Refrigerante homologado, embudo, recipiente para el líquido usado</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Consulta el manual del coche para saber qué especificación de refrigerante exige: suele indicarse con una norma del fabricante, como G12, G13 o similar, y no solo con un color.</li><li>No te fíes solo del color: hay refrigerantes verdes, rosas, azules o naranjas, y mezclar tipos distintos puede formar un gel que obstruye el circuito.</li><li>Elige el producto con la especificación correcta. Si usas concentrado, mézclalo con agua destilada en la proporción indicada, normalmente 50 %, que protege hasta unos –35 °C.</li><li>Comprueba el nivel en el vaso de expansión con el motor frío y rellena solo con el mismo tipo de refrigerante.</li><li>Cambia el refrigerante cada 4–5 años o cada 60.000–90.000 km, según el manual. Con el tiempo, los inhibidores de corrosión se agotan.</li><li>Para cambiarlo, vacía el circuito por el grifo del radiador con el motor frío, recoge el líquido usado y llévalo a un punto limpio, porque es tóxico.</li><li>Rellena con la mezcla nueva y purga el aire del circuito arrancando el motor con el tapón abierto y la calefacción al máximo, con cuidado.</li><li>Vuelve a comprobar el nivel tras unos días y revisa que no haya fugas.</li><li>Si el refrigerante tiene un aspecto marrón, oxidado o con aceite, revisa el sistema y la junta de culata antes de rellenar.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Se puede mezclar anticongelante de distinto color?",
+      "answer": "No es recomendable. El color no es una norma: dos refrigerantes del mismo color pueden ser incompatibles y dos de colores distintos, compatibles. Usa siempre el que indica el fabricante."
+    },
+    {
+      "question": "¿Cada cuánto hay que cambiar el anticongelante?",
+      "answer": "Entre 4 y 5 años o 60.000–90.000 km, según el tipo. Los de larga duración pueden llegar a más, pero conviene seguir el manual."
+    },
+    {
+      "question": "¿Se puede poner solo agua?",
+      "answer": "Solo en una emergencia para llegar al taller. El agua sola no protege contra la congelación ni contra la corrosión, y hay que sustituirla pronto."
+    }
+  ],
+  "products": [
+    "refrigerante anticongelante para coche",
+    "embudo para refrigerante",
+    "densímetro de anticongelante"
+  ],
+  "related": [
+    "guia-comprobar-nivel-refrigerante",
+    "testigo-temperatura-refrigerante",
+    "guia-calefaccion-no-calienta"
+  ],
+  "featured_image": "/img/articulos/guia-guia-anticongelante.webp"
+}
