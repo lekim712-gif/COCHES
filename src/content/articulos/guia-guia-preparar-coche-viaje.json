@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Preparar el coche para un viaje largo: lista de comprobaciones",
+  "datePublished": "2026-10-30",
+  "dateModified": "2026-10-30",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Preparar el coche para un viaje largo: lista de revisión",
+    "meta_description": "Lista de comprobaciones antes de un viaje largo: neumáticos, niveles, frenos, luces, batería y documentación, para evitar averías en carretera.",
+    "slug": "guia-preparar-coche-viaje"
+  },
+  "content_html": "<h1>Preparar el coche para un viaje largo: lista de comprobaciones</h1>\n<p class=\"intro\">Antes de un viaje largo conviene dedicar unos minutos a revisar el coche: las averías en carretera son incómodas y peligrosas, y casi todas se anticipan con una inspección básica. La lista incluye neumáticos, niveles de aceite y refrigerante, frenos, luces, batería y documentación. Si el coche está cerca de una revisión, hazla antes de salir en lugar de esperar al destino.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja si se revisa a tiempo; una avería en viaje puede ser costosa</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Neumáticos, niveles, frenos, luces, batería</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0 € la revisión básica; 100–300 € si hace falta una revisión en taller</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Manómetro, linterna, kit de emergencia</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Neumáticos: mide la presión de los cuatro y de la rueda de repuesto en frío, y ajusta a la presión de carga que indica la etiqueta. Comprueba el dibujo y busca cortes o bultos.</li><li>Niveles: aceite de motor, refrigerante, líquido de frenos y líquido limpiaparabrisas, con el coche en llano y el motor frío.</li><li>Frenos: comprueba que el pedal está firme y que no hay ruidos ni vibraciones. Si ha pasado mucho tiempo, revisa las pastillas.</li><li>Luces: comprueba cruce, largas, intermitentes, freno, marcha atrás y antiniebla, y lleva bombillas de repuesto.</li><li>Batería: mide la tensión en reposo, que debe estar por encima de 12,4 V, y revisa que los bornes estén limpios y apretados.</li><li>Escobillas del limpiaparabrisas: comprueba que no dejan rayas y que el líquido está lleno.</li><li>Equipamiento: lleva triángulos, chaleco, rueda de repuesto o kit, gato y llave, cables de arranque y linterna.</li><li>Documentación: permiso de conducir, ficha técnica, seguro e ITV en vigor.</li><li>Reparte la carga con los objetos pesados abajo y cerca del eje trasero, y no sobrepases la carga máxima.</li><li>Planifica descansos cada dos horas y ten a mano el teléfono de asistencia en carretera.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué hay que revisar antes de un viaje largo?",
+      "answer": "Neumáticos, niveles de aceite y refrigerante, frenos, luces, batería, escobillas y documentación. Una revisión de 15 minutos evita la mayoría de problemas."
+    },
+    {
+      "question": "¿A qué presión inflar los neumáticos con carga?",
+      "answer": "A la presión de carga que indica la etiqueta de la puerta del conductor o el manual, que suele ser algo mayor que la de uso normal."
+    },
+    {
+      "question": "¿Conviene hacer una revisión en taller antes del viaje?",
+      "answer": "Si el coche está cerca de una revisión o tiene síntomas, sí. Es más barato corregirlo antes que resolverlo en carretera."
+    }
+  ],
+  "products": [
+    "manómetro de presión de neumáticos",
+    "chaleco reflectante y triángulos de emergencia",
+    "cables de arranque para batería"
+  ],
+  "related": [
+    "guia-mantenimiento-por-kilometros",
+    "guia-kit-emergencia",
+    "guia-neumaticos-desgastados"
+  ],
+  "featured_image": "/img/articulos/guia-guia-preparar-coche-viaje.webp"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "guia",
+  "name": "Cuándo cambiar las pastillas y los discos de freno",
+  "datePublished": "2026-10-30",
+  "dateModified": "2026-10-30",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Cuándo cambiar las pastillas y los discos de freno",
+    "meta_description": "Cuándo cambiar las pastillas y los discos de freno: grosor mínimo, señales de desgaste, cada cuántos kilómetros y por qué se cambian por ejes.",
+    "slug": "guia-cuando-cambiar-frenos"
+  },
+  "content_html": "<h1>Cuándo cambiar las pastillas y los discos de freno</h1>\n<p class=\"intro\">Las pastillas y los discos de freno se desgastan con el uso y su estado es una cuestión de seguridad. Las pastillas se cambian antes que los discos y, como regla, los discos se sustituyen cada dos juegos de pastillas, aunque depende del uso y del desgaste. Conocer el grosor mínimo y las señales de aviso permite cambiarlos a tiempo y evitar frenadas largas o daños mayores.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta: unos frenos gastados alargan la distancia de frenado</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Frenos: pastillas, discos, pinzas</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>40–150 € (pastillas por eje) · 100–400 € (discos y pastillas), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Linterna, calibre o regla, llave de ruedas; el cambio conviene en taller</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Revisa las pastillas desde fuera, con una linterna, a través de la llanta. El material de fricción debe tener más de unos 3 mm; con menos de 2 mm, hay que cambiarlas ya.</li><li>Atiende a las señales: chirrido agudo al frenar suave, indicador de desgaste en el cuadro, pedal más bajo de lo normal, o roce metálico.</li><li>Mira los discos: un borde marcado en el exterior, surcos profundos o un color azulado indican desgaste o sobrecalentamiento.</li><li>Mide el grosor del disco con un calibre y compáralo con el mínimo grabado en el disco o indicado en el manual.</li><li>Cambia las pastillas por ejes completos, nunca solo de una rueda, para que la frenada sea equilibrada.</li><li>Cambia los discos si están por debajo del grosor mínimo, deformados o con vibraciones al frenar.</li><li>Tras el cambio, rueda las pastillas nuevas con frenadas suaves durante unos 200 km y evita frenadas fuertes al principio.</li><li>Revisa el líquido de frenos y cambia el líquido si toca.</li><li>Como intervalo orientativo, las pastillas duran entre 30.000 y 70.000 km según el uso y los discos, entre 60.000 y 120.000 km.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cada cuántos kilómetros se cambian las pastillas de freno?",
+      "answer": "Entre 30.000 y 70.000 km, según el tipo de conducción. En ciudad se desgastan antes que en carretera."
+    },
+    {
+      "question": "¿Hay que cambiar los discos con las pastillas?",
+      "answer": "No siempre. Los discos se cambian cuando están por debajo del grosor mínimo, deformados o muy marcados, normalmente cada dos juegos de pastillas."
+    },
+    {
+      "question": "¿Se puede circular con pastillas muy gastadas?",
+      "answer": "No. Pierdes eficacia de frenado y el metal puede dañar el disco. Cambia las pastillas al llegar a su límite."
+    }
+  ],
+  "products": [
+    "pastillas de freno delanteras",
+    "discos de freno",
+    "líquido de frenos DOT4"
+  ],
+  "related": [
+    "guia-ruidos-al-frenar",
+    "guia-liquido-de-frenos",
+    "testigo-freno"
+  ],
+  "needs_review": true,
+  "featured_image": "/img/articulos/guia-guia-cuando-cambiar-frenos.webp"
+}

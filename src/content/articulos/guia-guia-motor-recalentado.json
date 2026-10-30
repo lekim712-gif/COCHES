@@ -1,0 +1,41 @@
+{
+  "type": "guia",
+  "name": "El motor se recalienta en marcha: qué hacer paso a paso",
+  "datePublished": "2026-10-30",
+  "dateModified": "2026-10-30",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "El motor se recalienta: qué hacer paso a paso",
+    "meta_description": "Qué hacer si el motor se recalienta mientras conduces: cómo detenerte, qué no tocar, cuánto esperar, qué revisar y cuándo llamar a la grúa.",
+    "slug": "guia-motor-recalentado"
+  },
+  "content_html": "<h1>El motor se recalienta en marcha: qué hacer paso a paso</h1>\n<p class=\"intro\">Si la aguja de temperatura sube a la zona roja o se enciende el testigo de temperatura, hay que actuar rápido y con calma: un motor sobrecalentado puede dañar la junta de culata y la culata. Lo primero es detenerse en cuanto sea seguro y apagar el motor. Después, no abrir nunca el tapón con el motor caliente y esperar a que se enfríe antes de revisar nada.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta: seguir circulando puede destruir el motor</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Refrigeración: refrigerante, termostato, ventilador, radiador, bomba de agua</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–25 € (rellenar) · 80–500 € (termostato, ventilador, bomba) · más si hay junta de culata</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Refrigerante, linterna, guantes; paciencia para esperar</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>En cuanto veas la temperatura en la zona roja o el testigo rojo, busca un lugar seguro para detenerte, activa las luces de emergencia y apaga el motor.</li><li>Si el tráfico lo impide parar de inmediato, apaga el aire acondicionado, pon la calefacción al máximo con el ventilador a tope para disipar calor y conduce con suavidad hasta poder detenerte.</li><li>Apaga el motor y abre el capó, pero no abras el tapón del vaso de expansión ni del radiador: el líquido está a más de 100 °C y a presión y puede causar quemaduras graves.</li><li>Espera al menos 30 minutos a que el motor se enfríe del todo.</li><li>Con el motor frío, comprueba el nivel de refrigerante en el vaso de expansión y busca fugas visibles bajo el coche y en los manguitos.</li><li>Si falta refrigerante, rellena con el tipo adecuado; en una emergencia, con agua, hasta llegar a un taller.</li><li>Arranca y observa la temperatura. Comprueba que el ventilador del radiador se activa al calentar.</li><li>Si la temperatura vuelve a subir, el nivel baja de nuevo o ves humo blanco o aceite lechoso, no sigas: llama a una grúa.</li><li>Después de una avería de este tipo, pide una revisión completa del circuito de refrigeración antes de volver a viajar.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Puedo abrir el tapón del radiador si se ha recalentado?",
+      "answer": "No, nunca con el motor caliente. El circuito está presurizado y el líquido sale a más de 100 °C. Espera al menos 30 minutos a que se enfríe."
+    },
+    {
+      "question": "¿Por qué se recalienta el motor?",
+      "answer": "Lo más habitual es falta de refrigerante, un termostato atascado cerrado, un ventilador que no se activa o un radiador obstruido. Una junta de culata dañada también lo provoca."
+    },
+    {
+      "question": "¿Puedo seguir conduciendo hasta casa?",
+      "answer": "Solo si, tras enfriarse y rellenar, la temperatura se mantiene normal. Si vuelve a subir, no sigas: el motor puede dañarse seriamente."
+    }
+  ],
+  "products": [
+    "refrigerante anticongelante para coche",
+    "comprobador de presión del sistema de refrigeración",
+    "guantes de taller"
+  ],
+  "related": [
+    "testigo-temperatura-refrigerante",
+    "guia-comprobar-nivel-refrigerante",
+    "guia-anticongelante"
+  ],
+  "needs_review": true,
+  "featured_image": "/img/articulos/guia-guia-motor-recalentado.webp"
+}

@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Preparar el coche para el invierno: qué revisar",
+  "datePublished": "2026-10-30",
+  "dateModified": "2026-10-30",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Preparar el coche para el invierno: qué revisar",
+    "meta_description": "Cómo preparar el coche para el invierno: batería, anticongelante, neumáticos, luces, limpiaparabrisas y calefacción, para evitar averías con frío y lluvia.",
+    "slug": "guia-coche-invierno"
+  },
+  "content_html": "<h1>Preparar el coche para el invierno: qué revisar</h1>\n<p class=\"intro\">El frío, la lluvia y la humedad ponen a prueba el coche: baja la capacidad de la batería, el refrigerante tiene que proteger del hielo y la visibilidad y la adherencia son críticas. Una revisión antes del invierno evita la mayoría de problemas. Lo esencial son la batería, el anticongelante, los neumáticos, las luces, el limpiaparabrisas y la calefacción.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: el frío agrava los problemas pequeños</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Batería, refrigeración, neumáticos, luces, visibilidad</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–60 € si solo hay que rellenar o ajustar; más si hay que cambiar piezas</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Multímetro, manómetro, densímetro de anticongelante</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Batería: mide la tensión en reposo, debe estar por encima de 12,4 V, y límpiala. Con más de 4 años, haz un test de capacidad: el frío reduce su rendimiento.</li><li>Anticongelante: comprueba la protección con un densímetro y el nivel en el vaso de expansión. Debe proteger al menos hasta –20 °C.</li><li>Neumáticos: revisa el dibujo y la presión, que baja con el frío. Valora neumáticos de invierno o todo tiempo si circulas por zonas de nieve.</li><li>Luces: comprueba que todas funcionan, porque se circula más con poca luz.</li><li>Limpiaparabrisas: cambia las escobillas si dejan rayas y rellena el líquido con anticongelante para el limpiaparabrisas.</li><li>Calefacción y desempañado: comprueba que sale caliente y que el aire llega al parabrisas. Cambia el filtro de habitáculo si está sucio.</li><li>Frenos: revisa pastillas y el líquido de frenos, y la estabilidad en mojado.</li><li>Equipamiento: lleva cables de arranque, una manta, una linterna y, en zonas de nieve, cadenas o fundas.</li><li>Evita tirar de la puerta o el maletero congelados: usa descongelante en lugar de agua caliente en el cristal.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cuánta batería se pierde con el frío?",
+      "answer": "Puede perder entre el 20 y el 40 % de su capacidad con temperaturas bajo cero, y el motor necesita más corriente para arrancar. Por eso fallan más baterías en invierno."
+    },
+    {
+      "question": "¿Qué presión deben llevar los neumáticos en invierno?",
+      "answer": "La que indica el fabricante, comprobada en frío. Con el descenso de temperatura la presión baja, así que revísala con más frecuencia."
+    },
+    {
+      "question": "¿Hacen falta neumáticos de invierno?",
+      "answer": "Depende de la zona. En lugares con nieve o hielo frecuentes mejoran mucho la adherencia. En climas suaves, unos neumáticos todo tiempo pueden bastar."
+    }
+  ],
+  "products": [
+    "tester de batería de coche",
+    "densímetro de anticongelante",
+    "líquido limpiaparabrisas"
+  ],
+  "related": [
+    "guia-anticongelante",
+    "guia-bateria-se-descarga-sola",
+    "guia-limpiaparabrisas"
+  ],
+  "featured_image": "/img/articulos/guia-guia-coche-invierno.webp"
+}

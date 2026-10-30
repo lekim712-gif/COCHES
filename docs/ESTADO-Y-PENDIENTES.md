@@ -97,3 +97,7 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 ## Actualización 29/10/2026
 - 135 fichas indexables. Lote del día: guías anticongelante, bombillas fundidas, escobillas del limpiaparabrisas, filtro de combustible y kit de emergencia. Ampliados (y de nuevo «pendientes de revisión»): testigo EPC (sección SEAT/VW/Audi/Skoda), testigo de presión de aceite, testigo de batería y guía de limpieza de la EGR.
 - Search Console: 679 impresiones, 3 clics; las consultas con marca (EPC SEAT, P0335 Nissan, P0402 Ford) empiezan a aparecer.
+
+## Actualización 30/10/2026
+- 144 fichas indexables. Lote del día: guías cómo leer un neumático, preparar el coche para un viaje, preparar el coche para el invierno, cuándo cambiar los frenos (noindex hasta revisión) y motor recalentado (noindex hasta revisión).
+- Search Console: 807 impresiones, 4 clics, 67 páginas con impresiones. Se probó reescribir los títulos de las fichas de código para mejorar el clic y se descartó: el formato «Código PXXXX: causas, síntomas y solución» conserva mejor las palabras de búsqueda.
