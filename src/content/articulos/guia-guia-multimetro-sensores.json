@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Cómo usar un multímetro para comprobar sensores y cableado",
+  "datePublished": "2026-10-31",
+  "dateModified": "2026-10-31",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Multímetro en el coche: comprobar sensores y cableado",
+    "meta_description": "Guía básica del multímetro en el coche: cómo medir tensión, resistencia y continuidad para comprobar sensores, alimentación y masa antes de cambiar piezas.",
+    "slug": "guia-multimetro-sensores"
+  },
+  "content_html": "<h1>Cómo usar un multímetro para comprobar sensores y cableado</h1>\n<p class=\"intro\">Muchos códigos de avería apuntan a un sensor o a su circuito, y el multímetro permite comprobar si el fallo está en la pieza o en el cableado antes de comprarla. Con tres mediciones básicas, tensión, resistencia y continuidad, se diagnostican la mayoría de los fallos eléctricos sencillos. Esta guía explica cómo usarlo con seguridad y cómo interpretar las lecturas.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: bien usado, no hay riesgo, pero conviene no medir resistencia con tensión</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Instalación eléctrica, sensores, cableado, masas</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>15–40 € un multímetro básico</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Multímetro, puntas con cocodrilos, manual con valores de referencia</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Identifica el sensor o circuito con el manual y localiza su conector. Con el contacto quitado, desconéctalo y mira los terminales por humedad, óxido o clavijas dobladas.</li><li>Tensión de alimentación: con el contacto puesto, mide entre el cable de alimentación y masa en el conector del arnés. Suele ser 5 V en sensores y 12 V en actuadores, según el manual.</li><li>Masa: mide entre el cable de masa y el borne negativo de la batería: debe dar casi 0 V. Una masa deficiente da valores altos.</li><li>Resistencia: con el contacto quitado y el sensor desconectado, mide entre sus terminales con el multímetro en ohmios y compara con el valor del manual.</li><li>Continuidad: con la batería desconectada, mide entre el extremo del cable en el conector y el extremo en la centralita: debe dar casi 0 ohmios. Un valor infinito indica un cable cortado.</li><li>Cortocircuito: mide entre el cable de señal y masa, y entre el cable de señal y positivo: no debe haber continuidad.</li><li>Señal en marcha: con el conector puesto, usa puntas finas y mide con cuidado la señal del sensor mientras funciona, comparándola con el valor del manual.</li><li>Anota las mediciones y compáralas con los valores del manual antes de decidir qué cambiar.</li><li>Nunca midas resistencia con tensión en el circuito, ni perfores cables aislados: usa puntas adecuadas para no dañar los conectores.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué multímetro necesito para el coche?",
+      "answer": "Uno digital básico, con medición de tensión continua, resistencia y continuidad, basta para la mayoría de comprobaciones. Algunos añaden medición de corriente y de frecuencia."
+    },
+    {
+      "question": "¿Cómo sé si un cable está cortado?",
+      "answer": "Mide continuidad entre sus extremos, con la batería desconectada. Si no hay continuidad, está cortado o un terminal está suelto."
+    },
+    {
+      "question": "¿Puedo dañar la centralita al medir?",
+      "answer": "Si mides con cuidado, no. Evita tocar terminales de la centralita con tensión y no midas resistencia con el circuito alimentado."
+    }
+  ],
+  "products": [
+    "multímetro digital automotriz",
+    "puntas de prueba con cocodrilos",
+    "spray limpiador de contactos eléctricos"
+  ],
+  "related": [
+    "guia-comprobar-alternador",
+    "p0105",
+    "p0120"
+  ],
+  "featured_image": "/img/articulos/guia-guia-multimetro-sensores.webp"
+}

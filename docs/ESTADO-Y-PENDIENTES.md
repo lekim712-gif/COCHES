@@ -101,3 +101,7 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 ## Actualización 30/10/2026
 - 144 fichas indexables. Lote del día: guías cómo leer un neumático, preparar el coche para un viaje, preparar el coche para el invierno, cuándo cambiar los frenos (noindex hasta revisión) y motor recalentado (noindex hasta revisión).
 - Search Console: 807 impresiones, 4 clics, 67 páginas con impresiones. Se probó reescribir los títulos de las fichas de código para mejorar el clic y se descartó: el formato «Código PXXXX: causas, síntomas y solución» conserva mejor las palabras de búsqueda.
+
+## Actualización 31/10/2026
+- 148 fichas indexables. Lote del día (ritmo reducido, solo con demanda real): guías comprobar el alternador con multímetro, usar el multímetro en sensores y cableado, códigos pendientes/almacenados/permanentes y mal olor del aire acondicionado.
+- Search Console: 920 impresiones, 4 clics, 71 páginas con impresiones.

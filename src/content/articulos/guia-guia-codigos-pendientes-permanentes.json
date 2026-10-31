@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Códigos pendientes, almacenados y permanentes: diferencias",
+  "datePublished": "2026-10-31",
+  "dateModified": "2026-10-31",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Códigos pendientes, almacenados y permanentes OBD2",
+    "meta_description": "Qué diferencia hay entre un código OBD2 pendiente, almacenado y permanente, cuándo se borran solos y cómo afectan al testigo de motor y a la ITV.",
+    "slug": "guia-codigos-pendientes-permanentes"
+  },
+  "content_html": "<h1>Códigos pendientes, almacenados y permanentes: diferencias</h1>\n<p class=\"intro\">Un escáner OBD2 puede mostrar tres tipos de códigos: pendientes, almacenados y permanentes. Un código pendiente es un fallo detectado una vez, que aún no ha encendido el testigo. Uno almacenado o confirmado ya ha encendido el testigo de motor. Uno permanente solo se borra cuando la centralita verifica que el fallo se ha resuelto. Entender la diferencia evita confusiones al borrar códigos y al pasar la ITV.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: es información de diagnóstico</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Centralita del motor, monitores de emisiones, testigo de motor</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0 € la lectura con un escáner OBD2 que muestre los tres tipos</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con lectura de códigos pendientes y permanentes</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos con un escáner OBD2 que distinga entre pendientes, almacenados y permanentes. Los básicos a veces solo muestran los almacenados.</li><li>Código pendiente: el fallo se ha detectado en un ciclo de conducción, pero aún no se ha confirmado. El testigo no se enciende. Si el fallo se repite en el ciclo siguiente, se convierte en almacenado.</li><li>Código almacenado o confirmado: el fallo se ha repetido y ha encendido el testigo de motor. Guarda los datos congelados del momento del fallo.</li><li>Código permanente: se guarda en una memoria que no se borra con el escáner ni desconectando la batería. Solo desaparece cuando la centralita comprueba, tras varios ciclos de conducción, que el fallo ya no existe.</li><li>Si reparas la avería, los códigos almacenados se pueden borrar, pero el permanente se mantiene hasta que la centralita lo valida.</li><li>Si se borran códigos, los monitores de emisiones se reinician y hay que conducir para que se completen.</li><li>Antes de la ITV, comprueba que no quedan códigos pendientes, almacenados ni permanentes, y que los monitores aparecen como listos.</li><li>Si un código pendiente reaparece, no lo ignores: indica un fallo incipiente que conviene diagnosticar.</li><li>Anota siempre los códigos antes de borrar nada, con sus datos congelados.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué es un código pendiente?",
+      "answer": "Un fallo detectado una vez que todavía no ha encendido el testigo. Si se repite en ciclos de conducción posteriores, pasa a ser un código almacenado y el testigo se enciende."
+    },
+    {
+      "question": "¿Qué es un código permanente?",
+      "answer": "Un código que no se puede borrar con un escáner ni desconectando la batería. Solo desaparece cuando la centralita verifica que el fallo ya no existe, tras varios ciclos de conducción."
+    },
+    {
+      "question": "¿Pasa la ITV con un código pendiente?",
+      "answer": "Depende de la estación, pero es más seguro llegar sin códigos de ningún tipo. Un pendiente indica un fallo incipiente que conviene resolver antes."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "escáner obd2 profesional multimarca",
+    "alargador de cable obd2"
+  ],
+  "related": [
+    "guia-borrar-codigos-obd2",
+    "guia-itv-emisiones",
+    "guia-como-usar-escaner-obd2"
+  ],
+  "featured_image": "/img/articulos/guia-guia-codigos-pendientes-permanentes.webp"
+}

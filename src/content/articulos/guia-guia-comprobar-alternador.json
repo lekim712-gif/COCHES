@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Cómo comprobar el alternador con un multímetro",
+  "datePublished": "2026-10-31",
+  "dateModified": "2026-10-31",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Cómo comprobar el alternador con un multímetro",
+    "meta_description": "Cómo comprobar si el alternador carga bien con un multímetro: tensión en reposo y en marcha, prueba con cargas y qué hacer si no carga o carga de más.",
+    "slug": "guia-comprobar-alternador"
+  },
+  "content_html": "<h1>Cómo comprobar el alternador con un multímetro</h1>\n<p class=\"intro\">El alternador recarga la batería y alimenta todo el sistema eléctrico con el motor en marcha. Comprobar si carga bien lleva cinco minutos con un multímetro: se mide la tensión en bornes con el motor parado y en marcha, y se repite con consumos encendidos. Es la prueba que distingue si falla la batería o el alternador cuando se enciende el testigo de batería.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: es una medición sin desmontar nada, con cuidado en el motor en marcha</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Alternador, batería, correa de accesorios, regulador</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0 € la prueba; 80–400 € si hay que cambiar el alternador, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Multímetro, guantes, linterna</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Con el motor parado y el coche reposado, mide la tensión en los bornes de la batería: debe estar entre 12,4 y 12,7 V. Si está por debajo de 12 V, la batería está muy descargada.</li><li>Conecta el multímetro a los bornes con las puntas bien sujetas, con cuidado de que no se muevan con el motor en marcha y que los cables no toquen la correa ni el ventilador.</li><li>Arranca el motor y mide de nuevo al ralentí: el alternador sano da entre 13,5 y 14,7 V.</li><li>Sube el régimen a unas 2.500 rpm: la tensión debe mantenerse en el mismo margen.</li><li>Enciende luces, ventilador de la calefacción y luneta térmica, y vuelve a medir: no debe caer por debajo de unos 13 V.</li><li>Si la tensión es de unos 12 V o menos con el motor en marcha, el alternador no está cargando: revisa la correa, el regulador y las conexiones.</li><li>Si la tensión supera los 15 V, hay una sobrecarga, normalmente por el regulador, que daña la batería: acude al taller.</li><li>Revisa visualmente la correa de accesorios y los bornes, que a menudo son la causa en lugar del alternador.</li><li>Si todo es correcto, comprueba la batería con un tester de capacidad: puede estar envejecida aunque el alternador cargue bien.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué tensión debe dar un alternador?",
+      "answer": "Entre 13,5 y 14,7 voltios con el motor en marcha. Por debajo de 13 V no carga bien y por encima de 15 V sobrecarga la batería."
+    },
+    {
+      "question": "¿Cómo sé si falla el alternador o la batería?",
+      "answer": "Si con el motor en marcha la tensión es de unos 12 V, falla la carga, es decir, el alternador, la correa o las conexiones. Si la tensión es correcta con el motor en marcha pero la batería se descarga en reposo, está envejecida o hay un consumo parásito."
+    },
+    {
+      "question": "¿Se puede circular con el alternador averiado?",
+      "answer": "Solo hasta que se agote la batería, que puede ser menos de media hora. Pierdes la dirección asistida eléctrica y otras funciones. Ve al taller en cuanto puedas."
+    }
+  ],
+  "products": [
+    "multímetro digital automotriz",
+    "tester de batería de coche",
+    "correa de accesorios para coche"
+  ],
+  "related": [
+    "testigo-bateria",
+    "guia-bateria-se-descarga-sola",
+    "p0562"
+  ],
+  "featured_image": "/img/articulos/guia-guia-comprobar-alternador.webp"
+}

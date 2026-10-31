@@ -1,0 +1,39 @@
+{
+  "type": "guia",
+  "name": "Mal olor del aire acondicionado del coche: causas y cómo eliminarlo",
+  "datePublished": "2026-10-31",
+  "dateModified": "2026-10-31",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Mal olor del aire acondicionado del coche: causas y solución",
+    "meta_description": "Por qué el aire acondicionado del coche huele a humedad o a moho, cómo eliminarlo (filtro, evaporador, desagüe) y cómo evitar que vuelva.",
+    "slug": "guia-aire-acondicionado-mal-olor"
+  },
+  "content_html": "<h1>Mal olor del aire acondicionado del coche: causas y cómo eliminarlo</h1>\n<p class=\"intro\">El olor a humedad o a moho al encender el aire acondicionado procede casi siempre del evaporador y del filtro de habitáculo, donde se acumula condensación que favorece bacterias y hongos. Con unas medidas sencillas, cambiar el filtro, limpiar el evaporador con un producto específico y secar el circuito antes de apagar el coche, el olor suele desaparecer y no volver.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: es una molestia, aunque puede afectar a personas con alergias</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Climatización: evaporador, filtro de habitáculo, desagüe de condensados</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–25 € (filtro) · 15–30 € (limpiador de evaporador) · 50–120 € (limpieza en taller)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Filtro de habitáculo nuevo, limpiador de aire acondicionado, linterna</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Identifica el olor: humedad o moho suele ser el evaporador; olor dulce, refrigerante en el calefactor; olor a quemado, un fallo eléctrico o del soplador.</li><li>Cambia el filtro de habitáculo: si lleva más de un año, está saturado y retiene humedad y olores. Un filtro de carbón activo ayuda.</li><li>Comprueba que el desagüe de condensados, un tubo bajo el coche, no está obstruido. Debe gotear agua al usar el aire acondicionado.</li><li>Aplica un limpiador de aire acondicionado específico por el conducto de entrada de aire o por el sensor del evaporador, según las instrucciones del producto.</li><li>Pon el soplador al máximo con el aire acondicionado apagado y la entrada de aire exterior abierta, para ventilar el circuito.</li><li>Deja funcionar solo el ventilador, sin aire acondicionado, durante los últimos minutos del trayecto para secar el evaporador.</li><li>Evita dejar el coche cerrado con humedad y usa el modo de aire exterior en lugar del recirculado de forma continua.</li><li>Si el olor persiste, un taller puede limpiar el evaporador con equipo específico, desmontando lo necesario.</li><li>Si huele a dulce, o notas humedad en las alfombrillas delanteras, revisa el radiador de calefacción: puede haber una fuga de refrigerante.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué huele a humedad el aire acondicionado?",
+      "answer": "Porque el evaporador se llena de condensación y crecen hongos y bacterias, sobre todo si se apaga el coche con el aire acondicionado funcionando."
+    },
+    {
+      "question": "¿Cómo evitar que vuelva el olor?",
+      "answer": "Apaga el aire acondicionado un par de minutos antes de llegar y deja solo el ventilador, cambia el filtro de habitáculo cada año y limpia el circuito una vez al año."
+    },
+    {
+      "question": "¿Es peligroso respirar ese olor?",
+      "answer": "Para la mayoría es solo una molestia, aunque puede afectar a personas con alergias o asma. Conviene limpiarlo."
+    }
+  ],
+  "products": [
+    "limpiador de aire acondicionado de coche",
+    "filtro de habitáculo de carbón activo",
+    "ambientador para coche"
+  ],
+  "related": [
+    "guia-aire-acondicionado-no-enfria",
+    "guia-cambio-filtro-habitaculo"
+  ],
+  "featured_image": "/img/articulos/guia-guia-aire-acondicionado-mal-olor.webp"
+}
