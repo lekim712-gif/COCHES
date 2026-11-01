@@ -105,3 +105,7 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 ## Actualización 31/10/2026
 - 148 fichas indexables. Lote del día (ritmo reducido, solo con demanda real): guías comprobar el alternador con multímetro, usar el multímetro en sensores y cableado, códigos pendientes/almacenados/permanentes y mal olor del aire acondicionado.
 - Search Console: 920 impresiones, 4 clics, 71 páginas con impresiones.
+
+## Actualización 01/11/2026
+- 150 fichas indexables. Lote del día: guías cristales empañados y termostato (ritmo reducido).
+- Search Console: 1.138 impresiones, 5 clics, 80 páginas. «testigo de presión de aceite» en posición 7–8.

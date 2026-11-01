@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Termostato del coche: síntomas de fallo y cómo comprobarlo",
+  "datePublished": "2026-11-01",
+  "dateModified": "2026-11-01",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Termostato del coche: síntomas de fallo y cómo comprobarlo",
+    "meta_description": "Cómo saber si el termostato del coche falla: síntomas (motor que no calienta o se recalienta), cómo comprobarlo con agua caliente y cuándo cambiarlo.",
+    "slug": "guia-termostato"
+  },
+  "content_html": "<h1>Termostato del coche: síntomas de fallo y cómo comprobarlo</h1>\n<p class=\"intro\">El termostato regula el paso del refrigerante por el radiador para que el motor alcance y mantenga su temperatura. Puede fallar de dos maneras: atascado abierto, y el motor tarda en calentar o no llega a la temperatura ideal, o atascado cerrado, y el motor se recalienta. Se comprueba con unas pocas observaciones y, si hace falta, sumergiéndolo en agua caliente.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: cerrado provoca recalentamiento; abierto, consumo y calefacción pobre</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Refrigeración, termostato, sensor de temperatura</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>15–40 € el termostato; 60–200 € el cambio en taller, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Termómetro infrarrojo, escáner OBD2, olla y agua caliente para probarlo</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Observa los síntomas: calefacción que tarda en calentar o sale tibia y aguja de temperatura que sube lenta indican termostato abierto; sobrecalentamiento y manguito superior muy caliente con el inferior frío indican cerrado.</li><li>Con el escáner, mira la temperatura del refrigerante: un motor sano llega a 85–95 °C en pocos minutos y se estabiliza.</li><li>Si no sube de unos 70 °C tras un trayecto largo, el termostato probablemente está atascado abierto. Compara con un código como P0116.</li><li>Con el motor caliente, toca con cuidado los manguitos superior e inferior del radiador: si el inferior sigue frío cuando el motor está muy caliente, el termostato no abre.</li><li>Para comprobarlo fuera del coche, retíralo con el motor frío, sumérgelo en una olla con agua y calienta con un termómetro: debe empezar a abrir a la temperatura grabada en él, normalmente entre 80 y 90 °C.</li><li>Si no abre, o queda abierto a temperatura ambiente, hay que cambiarlo.</li><li>Sustituye el termostato por uno de la misma temperatura de apertura, con junta nueva y refrigerante limpio.</li><li>Purga el aire del circuito y comprueba que no hay fugas tras el montaje.</li><li>Revisa también el sensor de temperatura y el ventilador si el motor sigue recalentando.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cómo sé si el termostato está abierto o cerrado?",
+      "answer": "Abierto: el motor tarda en calentar y la calefacción es floja. Cerrado: el motor se recalienta y el manguito inferior del radiador está frío."
+    },
+    {
+      "question": "¿Se puede circular con el termostato averiado?",
+      "answer": "Atascado abierto, sí, con más consumo y desgaste. Atascado cerrado, no: el motor se recalienta y puede dañarse."
+    },
+    {
+      "question": "¿Cuánto cuesta cambiar el termostato?",
+      "answer": "La pieza cuesta entre 15 y 40 € y el cambio en taller entre 60 y 200 €, según el modelo y la accesibilidad."
+    }
+  ],
+  "products": [
+    "termostato para coche",
+    "termómetro infrarrojo para automoción",
+    "refrigerante anticongelante para coche"
+  ],
+  "related": [
+    "p0116",
+    "guia-motor-recalentado",
+    "guia-calefaccion-no-calienta"
+  ],
+  "featured_image": "/img/articulos/guia-guia-termostato.webp"
+}
