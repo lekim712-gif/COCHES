@@ -1,9 +1,9 @@
 {
  "site": "sc-domain:obdcodigos.com",
- "generated": "2026-10-31",
+ "generated": "2026-11-01",
  "range": [
-  "2026-08-02",
-  "2026-10-29"
+  "2026-08-03",
+  "2026-10-30"
  ],
  "queries": [
   {
@@ -71,6 +71,15 @@
   },
   {
    "keys": [
+    "audi code p0299"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 98
+  },
+  {
+   "keys": [
     "audi dtc p008700"
    ],
    "clicks": 0,
@@ -104,6 +113,15 @@
    "impressions": 1,
    "ctr": 0,
    "position": 62
+  },
+  {
+   "keys": [
+    "chevrolet p0335-28"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
   },
   {
    "keys": [
@@ -176,6 +194,24 @@
    "impressions": 2,
    "ctr": 0,
    "position": 20
+  },
+  {
+   "keys": [
+    "code 0120"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 12
+  },
+  {
+   "keys": [
+    "codigo 134"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
   },
   {
    "keys": [
@@ -461,9 +497,9 @@
     "epc coche"
    ],
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 12,
    "ctr": 0,
-   "position": 39.1
+   "position": 35.1
   },
   {
    "keys": [
@@ -488,9 +524,9 @@
     "epc volkswagen"
    ],
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 50
+   "position": 47.5
   },
   {
    "keys": [
@@ -530,6 +566,15 @@
   },
   {
    "keys": [
+    "imágenes"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "keys": [
     "indicador aceite coche"
    ],
    "clicks": 0,
@@ -542,27 +587,27 @@
     "limpiar valvula egr"
    ],
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 40
+   "position": 40.5
   },
   {
    "keys": [
     "limpieza de admision y egr"
    ],
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 3,
    "ctr": 0,
-   "position": 53.5
+   "position": 65.3
   },
   {
    "keys": [
     "limpieza egr"
    ],
    "clicks": 0,
-   "impressions": 6,
+   "impressions": 8,
    "ctr": 0,
-   "position": 72.7
+   "position": 75.4
   },
   {
    "keys": [
@@ -629,12 +674,30 @@
   },
   {
    "keys": [
+    "obdii code p0600"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "keys": [
     "opel p0335"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
    "position": 65
+  },
+  {
+   "keys": [
+    "opel p2002"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
   },
   {
    "keys": [
@@ -731,9 +794,9 @@
     "p0101 nissan en español"
    ],
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 3,
    "ctr": 0,
-   "position": 11
+   "position": 9
   },
   {
    "keys": [
@@ -842,6 +905,15 @@
    "impressions": 1,
    "ctr": 0,
    "position": 94
+  },
+  {
+   "keys": [
+    "p0141 stats sa"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 20
   },
   {
    "keys": [
@@ -1034,6 +1106,15 @@
   },
   {
    "keys": [
+    "p0403 audi"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 37
+  },
+  {
+   "keys": [
     "p040313"
    ],
    "clicks": 0,
@@ -1088,12 +1169,39 @@
   },
   {
    "keys": [
+    "p0500 chevy"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 34
+  },
+  {
+   "keys": [
+    "p0562 ram 2500"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "keys": [
     "p0571 isuzu"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
    "position": 98
+  },
+  {
+   "keys": [
+    "p0600"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 12
   },
   {
    "keys": [
@@ -1148,6 +1256,15 @@
    "impressions": 1,
    "ctr": 0,
    "position": 76
+  },
+  {
+   "keys": [
+    "p2002 fiat doblo"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
   },
   {
    "keys": [
@@ -1277,6 +1394,15 @@
   },
   {
    "keys": [
+    "po562"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 88
+  },
+  {
+   "keys": [
     "po638 code"
    ],
    "clicks": 0,
@@ -1289,27 +1415,27 @@
     "porque prende el testigo de la batería"
    ],
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 7,
    "ctr": 0,
-   "position": 53
+   "position": 47.9
   },
   {
    "keys": [
     "porque se cala el coche"
    ],
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 4,
    "ctr": 0,
-   "position": 76
+   "position": 77.3
   },
   {
    "keys": [
     "porque se prende el testigo de la bateria"
    ],
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 6,
    "ctr": 0,
-   "position": 47.8
+   "position": 46.3
   },
   {
    "keys": [
@@ -1337,6 +1463,15 @@
    "impressions": 1,
    "ctr": 0,
    "position": 70
+  },
+  {
+   "keys": [
+    "que significa abs en el tablero"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 77
   },
   {
    "keys": [
@@ -1370,9 +1505,18 @@
     "ruido correa alternador"
    ],
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 3,
    "ctr": 0,
-   "position": 60.5
+   "position": 68
+  },
+  {
+   "keys": [
+    "señal de presion de aceite"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
   },
   {
    "keys": [
@@ -1484,6 +1628,15 @@
   },
   {
    "keys": [
+    "testigo bateria"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "keys": [
     "testigo batería se enciende y se apaga"
    ],
    "clicks": 0,
@@ -1505,9 +1658,9 @@
     "testigo de bateria"
    ],
    "clicks": 0,
-   "impressions": 13,
+   "impressions": 14,
    "ctr": 0,
-   "position": 48.7
+   "position": 48.4
   },
   {
    "keys": [
@@ -1520,21 +1673,30 @@
   },
   {
    "keys": [
+    "testigo de la presion del aceite"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "keys": [
     "testigo de presion de aceite"
    ],
    "clicks": 0,
-   "impressions": 15,
+   "impressions": 21,
    "ctr": 0,
-   "position": 7.7
+   "position": 7.8
   },
   {
    "keys": [
     "testigo de presión de aceite"
    ],
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 3,
    "ctr": 0,
-   "position": 10.5
+   "position": 7.7
   },
   {
    "keys": [
@@ -1640,9 +1802,9 @@
     "testigo presión de aceite"
    ],
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 7,
    "ctr": 0,
-   "position": 8.4
+   "position": 7
   },
   {
    "keys": [
@@ -1705,9 +1867,9 @@
     "https://obdcodigos.com/codigos/p0420/"
    ],
    "clicks": 2,
-   "impressions": 56,
-   "ctr": 0.0357,
-   "position": 12.5
+   "impressions": 57,
+   "ctr": 0.0351,
+   "position": 12.4
   },
   {
    "keys": [
@@ -1729,6 +1891,15 @@
   },
   {
    "keys": [
+    "https://obdcodigos.com/codigos/p0300/"
+   ],
+   "clicks": 1,
+   "impressions": 62,
+   "ctr": 0.0161,
+   "position": 23.5
+  },
+  {
+   "keys": [
     "https://obdcodigos.com/codigos/"
    ],
    "clicks": 0,
@@ -1741,18 +1912,18 @@
     "https://obdcodigos.com/codigos/p0087/"
    ],
    "clicks": 0,
-   "impressions": 28,
+   "impressions": 29,
    "ctr": 0,
-   "position": 16.6
+   "position": 16.4
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0089/"
    ],
    "clicks": 0,
-   "impressions": 10,
+   "impressions": 13,
    "ctr": 0,
-   "position": 35.2
+   "position": 30.7
   },
   {
    "keys": [
@@ -1768,9 +1939,9 @@
     "https://obdcodigos.com/codigos/p0101/"
    ],
    "clicks": 0,
-   "impressions": 32,
+   "impressions": 38,
    "ctr": 0,
-   "position": 24
+   "position": 21.5
   },
   {
    "keys": [
@@ -1786,36 +1957,45 @@
     "https://obdcodigos.com/codigos/p0105/"
    ],
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 8,
    "ctr": 0,
-   "position": 37.6
+   "position": 38.1
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0113/"
    ],
    "clicks": 0,
-   "impressions": 34,
+   "impressions": 40,
    "ctr": 0,
-   "position": 48.9
+   "position": 47.4
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0116/"
    ],
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 11
+   "position": 10
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0120/"
    ],
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 7,
    "ctr": 0,
-   "position": 17.6
+   "position": 15.4
+  },
+  {
+   "keys": [
+    "https://obdcodigos.com/codigos/p0131/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 25
   },
   {
    "keys": [
@@ -1831,27 +2011,27 @@
     "https://obdcodigos.com/codigos/p0134/"
    ],
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 7,
    "ctr": 0,
-   "position": 25.5
+   "position": 23.7
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0135/"
    ],
    "clicks": 0,
-   "impressions": 6,
+   "impressions": 9,
    "ctr": 0,
-   "position": 30.8
+   "position": 23.4
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0141/"
    ],
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 6,
    "ctr": 0,
-   "position": 7.6
+   "position": 9.7
   },
   {
    "keys": [
@@ -1867,36 +2047,36 @@
     "https://obdcodigos.com/codigos/p0190/"
    ],
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 5,
    "ctr": 0,
-   "position": 46
+   "position": 48.2
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0201/"
    ],
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 6,
    "ctr": 0,
-   "position": 8
+   "position": 19
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0230/"
    ],
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 4
+   "position": 6.5
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0234/"
    ],
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 9,
    "ctr": 0,
-   "position": 66.1
+   "position": 55.4
   },
   {
    "keys": [
@@ -1912,90 +2092,81 @@
     "https://obdcodigos.com/codigos/p0238/"
    ],
    "clicks": 0,
-   "impressions": 10,
+   "impressions": 12,
    "ctr": 0,
-   "position": 38
+   "position": 40.8
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0243/"
    ],
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 9,
    "ctr": 0,
-   "position": 8
+   "position": 6.7
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0299/"
    ],
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 5,
    "ctr": 0,
-   "position": 50.7
-  },
-  {
-   "keys": [
-    "https://obdcodigos.com/codigos/p0300/"
-   ],
-   "clicks": 0,
-   "impressions": 55,
-   "ctr": 0,
-   "position": 25.5
+   "position": 58
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0322/"
    ],
    "clicks": 0,
-   "impressions": 7,
+   "impressions": 8,
    "ctr": 0,
-   "position": 14.7
+   "position": 14.1
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0325/"
    ],
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 7,
    "ctr": 0,
-   "position": 12.2
+   "position": 13.7
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0335/"
    ],
    "clicks": 0,
-   "impressions": 95,
+   "impressions": 106,
    "ctr": 0,
-   "position": 16
+   "position": 15.4
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0341/"
    ],
    "clicks": 0,
-   "impressions": 28,
+   "impressions": 32,
    "ctr": 0,
-   "position": 16.5
+   "position": 15.3
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0400/"
    ],
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 10,
    "ctr": 0,
-   "position": 22.3
+   "position": 26.3
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0401/"
    ],
    "clicks": 0,
-   "impressions": 27,
+   "impressions": 32,
    "ctr": 0,
-   "position": 43.1
+   "position": 42.2
   },
   {
    "keys": [
@@ -2011,36 +2182,45 @@
     "https://obdcodigos.com/codigos/p0403/"
    ],
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 9,
    "ctr": 0,
-   "position": 21.7
+   "position": 20.6
+  },
+  {
+   "keys": [
+    "https://obdcodigos.com/codigos/p0421/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 49
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0441/"
    ],
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 6,
    "ctr": 0,
-   "position": 32.2
+   "position": 28
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0455/"
    ],
    "clicks": 0,
-   "impressions": 16,
+   "impressions": 21,
    "ctr": 0,
-   "position": 25
+   "position": 24.5
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0500/"
    ],
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 5,
    "ctr": 0,
-   "position": 5.7
+   "position": 12.2
   },
   {
    "keys": [
@@ -2056,27 +2236,27 @@
     "https://obdcodigos.com/codigos/p0562/"
    ],
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 4,
    "ctr": 0,
-   "position": 37
+   "position": 42.8
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0571/"
    ],
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 5,
    "ctr": 0,
-   "position": 71.3
+   "position": 50.2
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p0600/"
    ],
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 30,
    "ctr": 0,
-   "position": 20.3
+   "position": 10.3
   },
   {
    "keys": [
@@ -2098,30 +2278,39 @@
   },
   {
    "keys": [
+    "https://obdcodigos.com/codigos/p0730/"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "keys": [
     "https://obdcodigos.com/codigos/p2002/"
    ],
    "clicks": 0,
-   "impressions": 10,
+   "impressions": 14,
    "ctr": 0,
-   "position": 45.2
+   "position": 41.4
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/p2279/"
    ],
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 13,
    "ctr": 0,
-   "position": 12.5
+   "position": 11.2
   },
   {
    "keys": [
     "https://obdcodigos.com/codigos/u0121/"
    ],
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 5,
    "ctr": 0,
-   "position": 10
+   "position": 9.8
   },
   {
    "keys": [
@@ -2134,12 +2323,21 @@
   },
   {
    "keys": [
+    "https://obdcodigos.com/mantenimiento-guias/guia-arrancar-con-cables/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "keys": [
     "https://obdcodigos.com/mantenimiento-guias/guia-borrar-codigos-obd2/"
    ],
    "clicks": 0,
-   "impressions": 9,
+   "impressions": 15,
    "ctr": 0,
-   "position": 7.7
+   "position": 7.5
   },
   {
    "keys": [
@@ -2164,9 +2362,9 @@
     "https://obdcodigos.com/mantenimiento-guias/guia-cambio-fusibles/"
    ],
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 3,
    "ctr": 0,
-   "position": 24
+   "position": 11.3
   },
   {
    "keys": [
@@ -2182,9 +2380,9 @@
     "https://obdcodigos.com/mantenimiento-guias/guia-coche-se-cala/"
    ],
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 5,
    "ctr": 0,
-   "position": 42.5
+   "position": 63.6
   },
   {
    "keys": [
@@ -2206,21 +2404,39 @@
   },
   {
    "keys": [
+    "https://obdcodigos.com/mantenimiento-guias/guia-datos-en-vivo-obd2/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "keys": [
+    "https://obdcodigos.com/mantenimiento-guias/guia-itv-emisiones/"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 6
+  },
+  {
+   "keys": [
     "https://obdcodigos.com/mantenimiento-guias/guia-limpiar-valvula-egr/"
    ],
    "clicks": 0,
-   "impressions": 22,
+   "impressions": 28,
    "ctr": 0,
-   "position": 43
+   "position": 45
   },
   {
    "keys": [
     "https://obdcodigos.com/mantenimiento-guias/guia-ruido-correa-accesorios/"
    ],
    "clicks": 0,
-   "impressions": 12,
+   "impressions": 15,
    "ctr": 0,
-   "position": 23.1
+   "position": 25.2
   },
   {
    "keys": [
@@ -2230,6 +2446,24 @@
    "impressions": 1,
    "ctr": 0,
    "position": 79
+  },
+  {
+   "keys": [
+    "https://obdcodigos.com/mantenimiento-guias/guia-ruidos-suspension/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 12
+  },
+  {
+   "keys": [
+    "https://obdcodigos.com/mantenimiento-guias/guia-vibraciones-volante/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
   },
   {
    "keys": [
@@ -2260,6 +2494,15 @@
   },
   {
    "keys": [
+    "https://obdcodigos.com/testigos-tablero/testigo-abs/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 77
+  },
+  {
+   "keys": [
     "https://obdcodigos.com/testigos-tablero/testigo-adblue/"
    ],
    "clicks": 0,
@@ -2272,27 +2515,27 @@
     "https://obdcodigos.com/testigos-tablero/testigo-bateria/"
    ],
    "clicks": 0,
-   "impressions": 53,
+   "impressions": 63,
    "ctr": 0,
-   "position": 32.8
+   "position": 31.4
   },
   {
    "keys": [
     "https://obdcodigos.com/testigos-tablero/testigo-epc/"
    ],
    "clicks": 0,
-   "impressions": 26,
+   "impressions": 35,
    "ctr": 0,
-   "position": 34.3
+   "position": 31.2
   },
   {
    "keys": [
     "https://obdcodigos.com/testigos-tablero/testigo-filtro-particulas/"
    ],
    "clicks": 0,
-   "impressions": 118,
+   "impressions": 125,
    "ctr": 0,
-   "position": 35.7
+   "position": 34
   },
   {
    "keys": [
@@ -2308,18 +2551,18 @@
     "https://obdcodigos.com/testigos-tablero/testigo-precalentamiento/"
    ],
    "clicks": 0,
-   "impressions": 6,
+   "impressions": 11,
    "ctr": 0,
-   "position": 13
+   "position": 10.3
   },
   {
    "keys": [
     "https://obdcodigos.com/testigos-tablero/testigo-presion-aceite/"
    ],
    "clicks": 0,
-   "impressions": 65,
+   "impressions": 83,
    "ctr": 0,
-   "position": 16.3
+   "position": 14.3
   },
   {
    "keys": [
@@ -2335,9 +2578,9 @@
     "https://obdcodigos.com/testigos-tablero/testigo-temperatura-refrigerante/"
    ],
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 3,
    "ctr": 0,
-   "position": 16
+   "position": 14
   }
  ],
  "query_page": [
@@ -2413,6 +2656,16 @@
   },
   {
    "keys": [
+    "audi code p0299",
+    "https://obdcodigos.com/codigos/p0299/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 98
+  },
+  {
+   "keys": [
     "audi dtc p008700",
     "https://obdcodigos.com/codigos/p0087/"
    ],
@@ -2450,6 +2703,16 @@
    "impressions": 1,
    "ctr": 0,
    "position": 62
+  },
+  {
+   "keys": [
+    "chevrolet p0335-28",
+    "https://obdcodigos.com/codigos/p0335/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
   },
   {
    "keys": [
@@ -2530,6 +2793,26 @@
    "impressions": 2,
    "ctr": 0,
    "position": 20
+  },
+  {
+   "keys": [
+    "code 0120",
+    "https://obdcodigos.com/codigos/p0120/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 12
+  },
+  {
+   "keys": [
+    "codigo 134",
+    "https://obdcodigos.com/codigos/p0134/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
   },
   {
    "keys": [
@@ -2847,9 +3130,9 @@
     "https://obdcodigos.com/testigos-tablero/testigo-epc/"
    ],
    "clicks": 0,
-   "impressions": 8,
+   "impressions": 12,
    "ctr": 0,
-   "position": 39.1
+   "position": 35.1
   },
   {
    "keys": [
@@ -2877,9 +3160,9 @@
     "https://obdcodigos.com/testigos-tablero/testigo-epc/"
    ],
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 50
+   "position": 47.5
   },
   {
    "keys": [
@@ -2923,6 +3206,16 @@
   },
   {
    "keys": [
+    "imágenes",
+    "https://obdcodigos.com/codigos/p0420/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 3
+  },
+  {
+   "keys": [
     "indicador aceite coche",
     "https://obdcodigos.com/testigos-tablero/testigo-nivel-aceite/"
    ],
@@ -2937,9 +3230,9 @@
     "https://obdcodigos.com/mantenimiento-guias/guia-limpiar-valvula-egr/"
    ],
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 2,
    "ctr": 0,
-   "position": 40
+   "position": 40.5
   },
   {
    "keys": [
@@ -2947,9 +3240,9 @@
     "https://obdcodigos.com/mantenimiento-guias/guia-limpiar-valvula-egr/"
    ],
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 3,
    "ctr": 0,
-   "position": 53.5
+   "position": 65.3
   },
   {
    "keys": [
@@ -2957,9 +3250,9 @@
     "https://obdcodigos.com/mantenimiento-guias/guia-limpiar-valvula-egr/"
    ],
    "clicks": 0,
-   "impressions": 6,
+   "impressions": 8,
    "ctr": 0,
-   "position": 72.7
+   "position": 75.4
   },
   {
    "keys": [
@@ -3033,6 +3326,16 @@
   },
   {
    "keys": [
+    "obdii code p0600",
+    "https://obdcodigos.com/codigos/p0600/"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "keys": [
     "opel p0335",
     "https://obdcodigos.com/codigos/p0335/"
    ],
@@ -3040,6 +3343,16 @@
    "impressions": 1,
    "ctr": 0,
    "position": 65
+  },
+  {
+   "keys": [
+    "opel p2002",
+    "https://obdcodigos.com/codigos/p2002/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
   },
   {
    "keys": [
@@ -3147,9 +3460,9 @@
     "https://obdcodigos.com/codigos/p0101/"
    ],
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 3,
    "ctr": 0,
-   "position": 11
+   "position": 9
   },
   {
    "keys": [
@@ -3270,6 +3583,16 @@
    "impressions": 1,
    "ctr": 0,
    "position": 94
+  },
+  {
+   "keys": [
+    "p0141 stats sa",
+    "https://obdcodigos.com/codigos/p0141/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 20
   },
   {
    "keys": [
@@ -3483,6 +3806,16 @@
   },
   {
    "keys": [
+    "p0403 audi",
+    "https://obdcodigos.com/codigos/p0403/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 37
+  },
+  {
+   "keys": [
     "p040313",
     "https://obdcodigos.com/codigos/p0403/"
    ],
@@ -3543,6 +3876,26 @@
   },
   {
    "keys": [
+    "p0500 chevy",
+    "https://obdcodigos.com/codigos/p0500/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 34
+  },
+  {
+   "keys": [
+    "p0562 ram 2500",
+    "https://obdcodigos.com/codigos/p0562/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "keys": [
     "p0571 isuzu",
     "https://obdcodigos.com/codigos/p0571/"
    ],
@@ -3550,6 +3903,16 @@
    "impressions": 1,
    "ctr": 0,
    "position": 98
+  },
+  {
+   "keys": [
+    "p0600",
+    "https://obdcodigos.com/codigos/p0600/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 12
   },
   {
    "keys": [
@@ -3610,6 +3973,16 @@
    "impressions": 1,
    "ctr": 0,
    "position": 76
+  },
+  {
+   "keys": [
+    "p2002 fiat doblo",
+    "https://obdcodigos.com/codigos/p2002/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
   },
   {
    "keys": [
@@ -3753,6 +4126,16 @@
   },
   {
    "keys": [
+    "po562",
+    "https://obdcodigos.com/codigos/p0562/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 88
+  },
+  {
+   "keys": [
     "po638 code",
     "https://obdcodigos.com/codigos/p0638/"
    ],
@@ -3767,9 +4150,9 @@
     "https://obdcodigos.com/testigos-tablero/testigo-bateria/"
    ],
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 7,
    "ctr": 0,
-   "position": 53
+   "position": 47.9
   },
   {
    "keys": [
@@ -3777,9 +4160,9 @@
     "https://obdcodigos.com/mantenimiento-guias/guia-coche-se-cala/"
    ],
    "clicks": 0,
-   "impressions": 1,
+   "impressions": 4,
    "ctr": 0,
-   "position": 76
+   "position": 77.3
   },
   {
    "keys": [
@@ -3787,9 +4170,9 @@
     "https://obdcodigos.com/testigos-tablero/testigo-bateria/"
    ],
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 6,
    "ctr": 0,
-   "position": 47.8
+   "position": 46.3
   },
   {
    "keys": [
@@ -3820,6 +4203,16 @@
    "impressions": 1,
    "ctr": 0,
    "position": 70
+  },
+  {
+   "keys": [
+    "que significa abs en el tablero",
+    "https://obdcodigos.com/testigos-tablero/testigo-abs/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 77
   },
   {
    "keys": [
@@ -3857,9 +4250,19 @@
     "https://obdcodigos.com/mantenimiento-guias/guia-ruido-correa-accesorios/"
    ],
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 3,
    "ctr": 0,
-   "position": 60.5
+   "position": 68
+  },
+  {
+   "keys": [
+    "señal de presion de aceite",
+    "https://obdcodigos.com/testigos-tablero/testigo-presion-aceite/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
   },
   {
    "keys": [
@@ -3983,6 +4386,16 @@
   },
   {
    "keys": [
+    "testigo bateria",
+    "https://obdcodigos.com/testigos-tablero/testigo-bateria/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 11
+  },
+  {
+   "keys": [
     "testigo batería se enciende y se apaga",
     "https://obdcodigos.com/testigos-tablero/testigo-bateria/"
    ],
@@ -4017,9 +4430,9 @@
     "https://obdcodigos.com/testigos-tablero/testigo-bateria/"
    ],
    "clicks": 0,
-   "impressions": 13,
+   "impressions": 14,
    "ctr": 0,
-   "position": 48.7
+   "position": 48.4
   },
   {
    "keys": [
@@ -4033,13 +4446,23 @@
   },
   {
    "keys": [
+    "testigo de la presion del aceite",
+    "https://obdcodigos.com/testigos-tablero/testigo-presion-aceite/"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 8
+  },
+  {
+   "keys": [
     "testigo de presion de aceite",
     "https://obdcodigos.com/testigos-tablero/testigo-presion-aceite/"
    ],
    "clicks": 0,
-   "impressions": 15,
+   "impressions": 21,
    "ctr": 0,
-   "position": 7.7
+   "position": 7.8
   },
   {
    "keys": [
@@ -4047,9 +4470,9 @@
     "https://obdcodigos.com/testigos-tablero/testigo-presion-aceite/"
    ],
    "clicks": 0,
-   "impressions": 2,
+   "impressions": 3,
    "ctr": 0,
-   "position": 10.5
+   "position": 7.7
   },
   {
    "keys": [
@@ -4167,9 +4590,9 @@
     "https://obdcodigos.com/testigos-tablero/testigo-presion-aceite/"
    ],
    "clicks": 0,
-   "impressions": 5,
+   "impressions": 7,
    "ctr": 0,
-   "position": 8.4
+   "position": 7
   },
   {
    "keys": [
