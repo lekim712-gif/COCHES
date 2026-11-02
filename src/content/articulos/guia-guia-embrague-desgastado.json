@@ -1,0 +1,40 @@
+{
+  "type": "guia",
+  "name": "Embrague desgastado: síntomas y cuándo cambiarlo",
+  "datePublished": "2026-11-02",
+  "dateModified": "2026-11-02",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Embrague desgastado: síntomas y cuándo cambiarlo",
+    "meta_description": "Síntomas de un embrague desgastado (patina, pedal duro, olor a quemado, dificultad al meter marchas), cómo comprobarlo y cuándo conviene cambiarlo.",
+    "slug": "guia-embrague-desgastado"
+  },
+  "content_html": "<h1>Embrague desgastado: síntomas y cuándo cambiarlo</h1>\n<p class=\"intro\">El embrague transmite la fuerza del motor a la caja de cambios y se desgasta con el uso, sobre todo en ciudad y con arranques bruscos. Un embrague gastado patina al acelerar, el motor sube de vueltas sin que el coche gane velocidad y aparece un olor característico a quemado. Detectarlo a tiempo evita que dañe el volante motor, lo que encarece mucho la reparación.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: un embrague muy gastado puede dejar el coche sin tracción</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Embrague, volante motor, horquilla, cojinete, pedal</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>400–1.000 € el cambio de kit de embrague, según modelo y motor</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Prueba de carretera; el cambio requiere taller con elevador</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Observa si el motor sube de vueltas al acelerar, sobre todo en marchas largas y cuesta arriba, sin que el coche gane velocidad: es la señal clásica de embrague que patina.</li><li>Comprueba el punto de embrague: si el pedal engancha muy arriba, casi al final del recorrido, el disco está muy gastado.</li><li>Atiende a la dureza del pedal y a ruidos al pisarlo: un pedal muy duro o con chirridos puede indicar un cojinete o un mecanismo en mal estado.</li><li>Prueba a meter las marchas con el coche parado: si cuesta engranar, sobre todo primera y marcha atrás, el embrague no desembraga bien.</li><li>Haz la prueba de la tercera o cuarta marcha: con el freno de mano puesto, en llano, suelta el embrague despacio con el coche en marcha atrás o primera. Si el motor no se cala, el embrague patina.</li><li>Fíjate en olores a quemado tras subir cuestas o maniobrar, un olor acre propio de un embrague forzado.</li><li>Pide al taller una revisión del recorrido, de la holgura y del estado del disco, el plato y el volante motor.</li><li>Si hay que cambiarlo, sustituye el kit completo, disco, plato y cojinete, y revisa el volante motor, sobre todo si es bimasa.</li><li>Para alargar su vida, evita mantener el pie en el pedal, arrancar bruscamente y subir cuestas patinando el embrague.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cómo sé si el embrague está gastado?",
+      "answer": "Si el motor sube de vueltas sin que el coche acelere, el pedal engancha muy arriba o hay olor a quemado, el embrague está gastado o patina."
+    },
+    {
+      "question": "¿Cuántos kilómetros dura un embrague?",
+      "answer": "Entre 80.000 y 150.000 km de media, según el uso. En ciudad y con conducción brusca, bastante menos."
+    },
+    {
+      "question": "¿Se puede circular con el embrague patinando?",
+      "answer": "Un tiempo, pero cada kilómetro lo empeora y puede dañar el volante motor. Conviene cambiarlo cuanto antes."
+    }
+  ],
+  "products": [
+    "kit de embrague completo",
+    "aceite de caja de cambios",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "guia-fugas-bajo-el-coche",
+    "guia-olor-a-quemado",
+    "guia-mantenimiento-por-kilometros"
+  ],
+  "featured_image": "/img/articulos/guia-guia-embrague-desgastado.webp"
+}

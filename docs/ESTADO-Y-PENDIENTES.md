@@ -109,3 +109,7 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 ## Actualización 01/11/2026
 - 150 fichas indexables. Lote del día: guías cristales empañados y termostato (ritmo reducido).
 - Search Console: 1.138 impresiones, 5 clics, 80 páginas. «testigo de presión de aceite» en posición 7–8.
+
+## Actualización 02/11/2026
+- 151 fichas indexables. Lote del día: guía embrague desgastado; ampliado el testigo de batería («se enciende a ratos»).
+- Search Console: 1.260 impresiones, 6 clics, 82 páginas. AdSense: revisión solicitada por el usuario el 01/11, en espera de respuesta de Google.
