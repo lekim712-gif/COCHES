@@ -1,0 +1,39 @@
+{
+  "type": "testigo",
+  "name": "Testigo de reserva de combustible: significado y autonomía restante",
+  "datePublished": "2026-11-03",
+  "dateModified": "2026-11-03",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo de reserva de combustible: cuánto se puede circular",
+    "meta_description": "Testigo de reserva de combustible encendido: qué significa, cuántos kilómetros quedan aproximadamente y por qué no conviene circular siempre en reserva.",
+    "slug": "testigo-reserva-combustible"
+  },
+  "content_html": "<h1>Testigo de reserva de combustible: significado y autonomía restante</h1>\n<p class=\"intro\">El testigo de reserva de combustible, un surtidor con una gota, se enciende cuando queda poco combustible en el depósito, normalmente entre 5 y 8 litros. La autonomía restante depende del consumo, pero suele ser de entre 40 y 80 km. Circular a menudo con la reserva encendida daña la bomba de combustible, porque se refrigera con el propio combustible, y arrastra sedimentos hacia el filtro.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: te puedes quedar parado y dañar la bomba si se abusa</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Depósito, aforador, bomba de combustible, filtro</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0 € si repostas; 150–500 € si se daña la bomba</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Ninguna; basta con repostar</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo con un surtidor, en ámbar, encendido de forma fija.</li><li>Aguja del indicador de combustible en la zona baja.</li><li>Aviso en el ordenador de a bordo con kilómetros restantes.</li><li>Tirones en curvas o frenadas si el depósito está casi vacío.</li><li>Testigo que se enciende y apaga con el movimiento del combustible.</li></ul>\n<h2>Causas principales</h2><ul><li>Combustible por debajo del nivel de reserva, normalmente entre 5 y 8 litros.</li><li>Aforador o flotador del depósito defectuoso, que da un aviso falso.</li><li>Circuito del indicador de nivel con falso contacto.</li><li>Depósito con residuos que alteran la lectura.</li><li>Fallo del cuadro de instrumentos.</li><li>Combustible que se desplaza por la pendiente o las curvas.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Cuando se enciende, busca una gasolinera cuanto antes y evita conducir con acelerones o a velocidad alta, que aumentan el consumo.</li><li>Anota los kilómetros desde que se encendió el testigo para saber cuánto margen te queda, normalmente de 40 a 80 km.</li><li>Reposta y comprueba que el testigo se apaga. Si lo hace, era un aviso normal.</li><li>Si el testigo sigue encendido con el depósito lleno, o el indicador marca mal, sospecha del aforador o del cableado.</li><li>Compara el combustible repostado con la capacidad del depósito: si cabe mucho menos o mucho más de lo que indicaba, el indicador falla.</li><li>Evita circular con frecuencia en reserva: la bomba trabaja más caliente y el filtro se ensucia con sedimentos.</li><li>Lleva el coche a un taller si el indicador sigue erróneo, para revisar el aforador.</li><li>En diésel, si te quedas sin combustible, hay que cebar el circuito antes de arrancar.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cuántos kilómetros se pueden hacer con la reserva?",
+      "answer": "Depende del coche y de la conducción, pero suele ser de 40 a 80 km. No conviene apurar: algunos coches calculan una autonomía menor de lo real."
+    },
+    {
+      "question": "¿Es malo circular con la reserva encendida?",
+      "answer": "De forma ocasional no pasa nada, pero hacerlo a menudo desgasta la bomba, que se refrigera con el combustible, y arrastra impurezas del fondo del depósito."
+    },
+    {
+      "question": "¿Por qué se enciende el testigo si hay combustible?",
+      "answer": "Puede ser un fallo del aforador o del cableado. Si el indicador marca mal, conviene revisarlo."
+    }
+  ],
+  "products": [
+    "filtro de combustible para coche",
+    "bomba de cebado de combustible",
+    "bidón de combustible homologado"
+  ],
+  "related": [
+    "guia-filtro-combustible",
+    "p0230"
+  ],
+  "featured_image": "/img/articulos/testigo-testigo-reserva-combustible.webp"
+}

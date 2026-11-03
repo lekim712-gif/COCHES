@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0128",
+  "name": "Termostato: temperatura del refrigerante por debajo de la de regulación",
+  "datePublished": "2026-11-03",
+  "dateModified": "2026-11-03",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0128: causas, síntomas y solución",
+    "meta_description": "P0128: el motor no alcanza la temperatura de funcionamiento a tiempo. Causas (termostato abierto, sensor, refrigerante), síntomas y cómo comprobarlo.",
+    "slug": "p0128"
+  },
+  "content_html": "<h1>Código P0128: Termostato: temperatura del refrigerante por debajo de la de regulación</h1>\n<p class=\"intro\">El código P0128 indica que el refrigerante no alcanza la temperatura de regulación en el tiempo previsto tras el arranque, o que no se mantiene en ella. La causa más habitual es un termostato atascado en posición abierta, aunque también pueden ser un sensor de temperatura desviado o un nivel bajo de refrigerante. Aunque el coche funciona, el motor trabaja frío, consume más y la calefacción rinde poco.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: el coche funciona, pero con más consumo y desgaste</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Termostato, refrigeración, sensor de temperatura</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>15–40 € (termostato) · 60–200 € el cambio en taller, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, termómetro infrarrojo, refrigerante</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Calefacción que tarda en calentar o sale tibia.</li><li>Aguja de temperatura que no llega a la zona media o sube muy despacio.</li><li>Consumo de combustible mayor.</li><li>Ventilador del radiador que funciona poco o nada.</li></ul>\n<h2>Causas principales</h2><ul><li>Termostato atascado en posición abierta.</li><li>Sensor de temperatura del refrigerante con lectura baja.</li><li>Nivel bajo de refrigerante o aire en el circuito.</li><li>Termostato inadecuado, de menor temperatura de apertura.</li><li>Circuito de calefacción con una derivación abierta.</li><li>Funcionamiento prolongado al ralentí en invierno.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y los datos congelados: anota la temperatura del refrigerante en el momento del fallo.</li><li>Con el motor frío, arranca y observa en datos en vivo cómo sube la temperatura: debe llegar a unos 85–95 °C en 10–15 minutos de marcha.</li><li>Si se queda en 60–75 °C aunque conduzcas mucho, sospecha del termostato abierto.</li><li>Comprueba con un termómetro infrarrojo el manguito superior: si no se calienta del todo, confirma el diagnóstico.</li><li>Revisa el nivel de refrigerante en frío y busca aire en el circuito: una calefacción intermitente es una pista.</li><li>Contrasta el sensor de temperatura mirando su lectura con el motor frío: debe coincidir con la temperatura ambiente.</li><li>Sustituye el termostato por uno de la misma temperatura de apertura, con junta nueva, y purga el circuito.</li><li>Borra los códigos y comprueba que la temperatura se estabiliza en el margen normal.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa P0128?",
+      "answer": "Que el motor no alcanza a tiempo su temperatura de funcionamiento. Lo más común es un termostato atascado abierto."
+    },
+    {
+      "question": "¿Se puede circular con P0128?",
+      "answer": "Sí, pero con más consumo y menos calefacción. Conviene repararlo antes del invierno y antes de la ITV."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0128?",
+      "answer": "El termostato cuesta entre 15 y 40 € y el cambio en taller, entre 60 y 200 €, según modelo."
+    }
+  ],
+  "products": [
+    "termostato para coche",
+    "termómetro infrarrojo para automoción",
+    "refrigerante anticongelante para coche"
+  ],
+  "related": [
+    "p0116",
+    "guia-termostato",
+    "guia-calefaccion-no-calienta"
+  ],
+  "featured_image": "/img/articulos/codigo-p0128.webp"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "testigo",
+  "name": "Testigo de desgaste de las pastillas de freno: significado y qué hacer",
+  "datePublished": "2026-11-03",
+  "dateModified": "2026-11-03",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo de desgaste de pastillas de freno: qué hacer",
+    "meta_description": "Testigo de desgaste de pastillas de freno encendido: qué significa, cuántos kilómetros quedan y por qué debes cambiarlas cuanto antes.",
+    "slug": "testigo-pastillas-freno"
+  },
+  "content_html": "<h1>Testigo de desgaste de las pastillas de freno: significado y qué hacer</h1>\n<p class=\"intro\">El testigo de desgaste de las pastillas de freno, un círculo con líneas discontinuas a los lados, avisa de que el material de fricción ha llegado a su límite. Se activa con un sensor, un cable que se corta cuando la pastilla se desgasta. Después del aviso, quedan pocos kilómetros: conviene cambiar las pastillas pronto, antes de dañar los discos.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: unas pastillas agotadas alargan la frenada y dañan el disco</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Frenos: pastillas, sensor de desgaste, discos</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>40–150 € (pastillas por eje) · más si hay que cambiar discos, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Linterna, regla o calibre, llave de ruedas</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de desgaste de pastillas encendido.</li><li>Chirrido agudo al frenar suave.</li><li>Pedal más bajo de lo habitual.</li><li>Roce metálico si ya se ha agotado el material.</li><li>Vibraciones al frenar si el disco está dañado.</li></ul>\n<h2>Causas principales</h2><ul><li>Pastillas desgastadas hasta el sensor.</li><li>Sensor de desgaste en mal estado o con el cable roto.</li><li>Pastillas montadas sin renovar el sensor.</li><li>Conector del sensor con falso contacto.</li><li>Pastillas de baja calidad con desgaste rápido.</li><li>Conducción urbana con muchas frenadas.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Revisa el grosor de las pastillas a través de la llanta con una linterna: por debajo de unos 3 mm hay que cambiarlas ya.</li><li>Si el testigo se enciende y no ves desgaste, revisa el cableado del sensor: puede estar roto o sin conectar.</li><li>Cambia las pastillas del eje afectado y, por simetría, siempre las dos ruedas del mismo eje.</li><li>Sustituye también el sensor de desgaste si no se ha cortado con la pastilla, o monta pastillas con sensor nuevo.</li><li>Revisa los discos: un borde marcado, surcos o un grosor por debajo del mínimo obligan a cambiarlos.</li><li>Comprueba el nivel del líquido de frenos, que habrá subido al cambiar las pastillas.</li><li>Rueda las pastillas nuevas con frenadas suaves durante unos 200 km.</li><li>Confirma que el testigo se apaga tras el cambio.</li><li>No sigas circulando durante mucho tiempo con el testigo encendido: dañas el disco.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cuánto se puede circular con el testigo de pastillas?",
+      "answer": "Pocos kilómetros, normalmente algunos cientos. Cada frenada gasta más material, y si se acaba, el metal roza el disco."
+    },
+    {
+      "question": "¿Por qué se enciende si acabo de cambiar las pastillas?",
+      "answer": "Porque el sensor no se ha sustituido o su cable está mal conectado. Revisa el conector y, si hace falta, cambia el sensor."
+    },
+    {
+      "question": "¿Cuánto cuesta cambiar las pastillas?",
+      "answer": "Un eje cuesta entre 40 y 150 € con montaje. Con discos, entre 100 y 400 €, según modelo."
+    }
+  ],
+  "products": [
+    "pastillas de freno delanteras",
+    "sensor de desgaste de pastillas",
+    "discos de freno"
+  ],
+  "related": [
+    "guia-cuando-cambiar-frenos",
+    "guia-ruidos-al-frenar",
+    "testigo-freno"
+  ],
+  "needs_review": true,
+  "featured_image": "/img/articulos/testigo-testigo-pastillas-freno.webp"
+}

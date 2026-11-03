@@ -1,0 +1,41 @@
+{
+  "type": "testigo",
+  "name": "Testigo del freno de mano: significado y qué hacer",
+  "datePublished": "2026-11-03",
+  "dateModified": "2026-11-03",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo del freno de mano encendido: qué hacer",
+    "meta_description": "Testigo del freno de mano encendido con el freno quitado: causas (interruptor, nivel de líquido, freno eléctrico) y qué hacer antes de circular.",
+    "slug": "testigo-freno-de-mano"
+  },
+  "content_html": "<h1>Testigo del freno de mano: significado y qué hacer</h1>\n<p class=\"intro\">El testigo del freno de mano, una P entre paréntesis o el símbolo de frenos, se enciende al accionar el freno de estacionamiento y debe apagarse al soltarlo. Si sigue encendido con el freno quitado, puede deberse al interruptor del freno de mano, a un nivel bajo de líquido de frenos o a un fallo del freno eléctrico. No lo ignores: puede ser el testigo del sistema de frenos.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: puede indicar un fallo del sistema de frenos</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Freno de estacionamiento, interruptor, líquido de frenos, freno eléctrico</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–40 € (interruptor) · 5–15 € (líquido) · 100–500 € (freno eléctrico), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Linterna, líquido de frenos, escáner con acceso a frenos</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo rojo con una P o el símbolo de frenos encendido.</li><li>Testigo que sigue encendido con el freno de mano completamente quitado.</li><li>Mensaje de «freno de estacionamiento» en el cuadro.</li><li>En freno eléctrico, aviso de fallo y el freno no se libera.</li><li>Pedal de freno blando si hay otro problema en el circuito.</li></ul>\n<h2>Causas principales</h2><ul><li>Freno de mano no del todo liberado.</li><li>Interruptor del freno de mano defectuoso o desajustado.</li><li>Nivel bajo de líquido de frenos.</li><li>Cable del freno de mano estirado o agarrotado.</li><li>Fallo del freno de estacionamiento eléctrico.</li><li>Pastillas muy desgastadas.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Comprueba que el freno de mano está del todo bajado. Suelta y vuelve a accionarlo para ver si el testigo se apaga.</li><li>Si el testigo sigue encendido, para el coche con seguridad y comprueba el pedal de freno: debe estar firme.</li><li>Si el pedal está blando, o el coche frena mal, no circules: es un fallo del sistema de frenos y debes llamar a una grúa.</li><li>Mira el nivel del líquido de frenos con el motor frío: un nivel bajo enciende este testigo y exige revisar pastillas o fugas.</li><li>Si el nivel es correcto y el pedal firme, sospecha del interruptor del freno de mano, que a veces se ajusta o se cambia con poco coste.</li><li>En un freno eléctrico, lee los códigos con un escáner con acceso a frenos y sigue las indicaciones del fabricante.</li><li>Comprueba que el coche no se queda frenado: ruedas calientes o olor a quemado indican un freno agarrotado.</li><li>Repara el fallo antes de circular con normalidad.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué sigue encendido el testigo del freno de mano?",
+      "answer": "Por un freno de mano no del todo suelto, un interruptor defectuoso o un nivel bajo de líquido de frenos. Si el pedal está blando, es una emergencia."
+    },
+    {
+      "question": "¿Se puede circular con el testigo del freno de mano encendido?",
+      "answer": "Solo si el pedal es firme y el nivel de líquido es correcto. Si hay duda, no circules."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglarlo?",
+      "answer": "Un interruptor cuesta entre 10 y 40 €. Rellenar líquido, entre 5 y 15 €. Un freno eléctrico averiado puede costar entre 100 y 500 €, según modelo."
+    }
+  ],
+  "products": [
+    "líquido de frenos DOT4",
+    "interruptor del freno de mano",
+    "pastillas de freno delanteras"
+  ],
+  "related": [
+    "testigo-freno",
+    "testigo-abs",
+    "guia-liquido-de-frenos"
+  ],
+  "needs_review": true,
+  "featured_image": "/img/articulos/testigo-testigo-freno-de-mano.webp"
+}

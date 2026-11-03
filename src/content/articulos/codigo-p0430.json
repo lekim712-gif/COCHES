@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0430",
+  "name": "Eficiencia del catalizador por debajo del umbral (banco 2)",
+  "datePublished": "2026-11-03",
+  "dateModified": "2026-11-03",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0430: causas, síntomas y solución",
+    "meta_description": "P0430: el catalizador del banco 2 pierde eficiencia. Diferencias con P0420, qué banco es el 2 y cómo comprobar sondas y catalizador antes de cambiarlo.",
+    "slug": "p0430"
+  },
+  "content_html": "<h1>Código P0430: Eficiencia del catalizador por debajo del umbral (banco 2)</h1>\n<p class=\"intro\">El código P0430 indica que el catalizador del banco 2 pierde eficiencia, igual que P0420 lo indica para el banco 1. Solo aparece en motores con dos bancos de cilindros, como los V6, V8 o algunos bóxer. El banco 2 es el que no contiene el cilindro 1. El diagnóstico es el mismo que en P0420: contrastar las dos sondas lambda de ese banco y descartar fugas y fallos de encendido.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: no afecta a la conducción, pero sube las emisiones y puede impedir la ITV</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Catalizador, sondas lambda del banco 2, escape, mezcla</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>80–300 € (sonda) · 300–1.200 € (catalizador), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, termómetro infrarrojo, detector de fugas</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Consumo algo mayor.</li><li>Olor a huevo podrido en algunos casos.</li><li>Emisiones superiores en la ITV.</li><li>A veces, ningún síntoma apreciable.</li></ul>\n<h2>Causas principales</h2><ul><li>Catalizador del banco 2 envejecido o contaminado.</li><li>Sonda posterior del banco 2 lenta o defectuosa.</li><li>Fuga en el escape de ese lado.</li><li>Mezcla incorrecta o fallos de encendido en los cilindros del banco 2.</li><li>Aceite o refrigerante que han llegado al catalizador.</li><li>Trayectos cortos que impiden que se caliente.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Identifica cuál es el banco 2: el que no incluye el cilindro 1. Consulta el manual de tu motor.</li><li>Lee los códigos y comprueba si hay fallos de encendido o de mezcla en ese banco.</li><li>Con el motor caliente, observa en datos en vivo las dos sondas del banco 2: la anterior debe oscilar rápido y la posterior mantenerse estable.</li><li>Si la posterior oscila casi igual que la anterior, el catalizador ha perdido eficiencia.</li><li>Revisa el escape del lado del banco 2 por fugas.</li><li>Compara la temperatura a la entrada y a la salida del catalizador con un termómetro infrarrojo.</li><li>Descarta la causa de fondo, como fallos de encendido, antes de cambiar el catalizador.</li><li>Sustituye el catalizador por uno homologado y, si procede, la sonda posterior, y borra los códigos.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0420 y P0430?",
+      "answer": "P0420 corresponde al catalizador del banco 1 y P0430 al del banco 2. El diagnóstico es idéntico, solo cambia el lado del motor."
+    },
+    {
+      "question": "¿Cómo sé cuál es el banco 2?",
+      "answer": "Es el banco de cilindros que no incluye el cilindro 1. En un V6, un lado es el banco 1 y el otro el banco 2."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0430?",
+      "answer": "Una sonda cuesta entre 80 y 300 € con montaje. Un catalizador nuevo, entre 300 y 1.200 €, según modelo."
+    }
+  ],
+  "products": [
+    "sonda lambda universal",
+    "termómetro infrarrojo para automoción",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0420",
+    "p0421",
+    "guia-catalizador-obstruido"
+  ],
+  "featured_image": "/img/articulos/codigo-p0430.webp"
+}

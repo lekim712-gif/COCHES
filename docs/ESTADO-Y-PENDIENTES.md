@@ -113,3 +113,6 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 ## Actualización 02/11/2026
 - 151 fichas indexables. Lote del día: guía embrague desgastado; ampliado el testigo de batería («se enciende a ratos»).
 - Search Console: 1.260 impresiones, 6 clics, 82 páginas. AdSense: revisión solicitada por el usuario el 01/11, en espera de respuesta de Google.
+
+## Actualización 03/11/2026 (tarde)
+- El usuario pide volver a 10 piezas diarias basadas en investigación de la competencia. Lote de hoy (10): códigos P0128, P0088, P0121, P0430; testigos de reserva de combustible, freno de mano (noindex), puerta abierta, cinturón (noindex), pastillas de freno (noindex) y bombilla fundida. Lista de ideas pendientes en `content-plan/backlog.json` (`_ideas_competencia`).

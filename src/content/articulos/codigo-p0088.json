@@ -1,0 +1,42 @@
+{
+  "type": "codigo",
+  "code": "P0088",
+  "name": "Presión del raíl de combustible demasiado alta",
+  "datePublished": "2026-11-03",
+  "dateModified": "2026-11-03",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0088: causas, síntomas y solución",
+    "meta_description": "P0088: la presión del raíl de combustible supera el valor permitido. Causas (regulador, válvula, sensor), síntomas y diagnóstico con medidas de seguridad.",
+    "slug": "p0088"
+  },
+  "content_html": "<h1>Código P0088: Presión del raíl de combustible demasiado alta</h1>\n<p class=\"intro\">El código P0088 indica que la presión del raíl de combustible es demasiado alta respecto a la que pide la centralita. Es el caso contrario de P0087, donde la presión es baja. Aparece sobre todo en diésel common-rail y puede deberse a la válvula reguladora, a un sensor que lee mal o a un retorno obstruido. La alta presión exige especial cuidado al diagnosticar.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta: una presión excesiva puede dañar inyectores y generar fugas peligrosas</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Alta presión de combustible, regulador, válvula dosificadora, sensor del raíl</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>60–250 € (sensor) · 200–900 € (regulador o bomba de alta), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro; la alta presión exige taller</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido y modo de emergencia.</li><li>Ruido metálico o martilleo del motor en frío.</li><li>Tirones o cortes de inyección a determinados regímenes.</li><li>Humo negro por el escape.</li><li>Motor que se cala o arranca con dificultad.</li></ul>\n<h2>Causas principales</h2><ul><li>Válvula reguladora de presión atascada cerrada.</li><li>Válvula dosificadora de la bomba de alta defectuosa.</li><li>Sensor de presión del raíl con lectura errónea.</li><li>Retorno de combustible obstruido o aplastado.</li><li>Inyectores con retorno insuficiente.</li><li>Fallo de la centralita en el control de presión.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y comprueba si aparecen P0087, P0089 o los de sensor, como P0191 o P0193: ayudan a saber si el fallo es de medida o real.</li><li>Con el motor parado y el contacto puesto, mira la presión del raíl en datos en vivo: debe ser casi cero. Un valor alto fijo indica sensor o circuito.</li><li>Con el motor al ralentí, compara la presión pedida y la real. Si la real supera claramente la pedida, el problema es de regulación.</li><li>Revisa el conducto de retorno de combustible: no debe estar obstruido ni aplastado.</li><li>Comprueba con el escáner el test de actuadores de la válvula reguladora, y mide su resistencia con el multímetro.</li><li>No aflojes racores ni toques los conductos con el motor en marcha: la alta presión es peligrosa. Trabaja con el sistema despresurizado.</li><li>Sustituye lo averiado y vuelve a medir la presión con el escáner.</li><li>Borra los códigos y haz una prueba de carretera para confirmar que la presión se regula con normalidad.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0087 y P0088?",
+      "answer": "P0087 indica presión del raíl demasiado baja y P0088, demasiado alta. Las causas y el diagnóstico cambian de lado."
+    },
+    {
+      "question": "¿Se puede circular con P0088?",
+      "answer": "Con modo de emergencia puedes llegar al taller. Una presión excesiva puede dañar inyectores, así que no conviene forzar el motor."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0088?",
+      "answer": "Un sensor, entre 60 y 250 €. Un regulador o una bomba de alta presión, entre 200 y 900 €, según modelo."
+    }
+  ],
+  "products": [
+    "filtro de combustible para coche",
+    "multímetro digital automotriz",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0087",
+    "p0089",
+    "p0193"
+  ],
+  "needs_review": true,
+  "featured_image": "/img/articulos/codigo-p0088.webp"
+}

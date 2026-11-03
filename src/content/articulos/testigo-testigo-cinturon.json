@@ -1,0 +1,39 @@
+{
+  "type": "testigo",
+  "name": "Testigo del cinturón de seguridad: significado y por qué suena",
+  "datePublished": "2026-11-03",
+  "dateModified": "2026-11-03",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo del cinturón de seguridad: por qué suena",
+    "meta_description": "Testigo del cinturón de seguridad encendido o aviso sonoro que no se apaga: causas (sensor del asiento, hebilla, objeto sobre el asiento) y solución.",
+    "slug": "testigo-cinturon"
+  },
+  "content_html": "<h1>Testigo del cinturón de seguridad: significado y por qué suena</h1>\n<p class=\"intro\">El testigo del cinturón de seguridad, una persona con la banda cruzada, avisa de que el conductor o un pasajero no lleva el cinturón abrochado. Si el aviso suena o se enciende aunque todos lo lleven puesto, la causa suele ser el sensor de ocupación del asiento del pasajero, que detecta un peso, o una hebilla sucia. No se debe anular: el sistema está ligado al airbag.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: un aviso permanente puede ocultar un fallo del sistema de seguridad</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Cinturones, sensor de hebilla, sensor de ocupación del asiento, airbag</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0 € (limpiar hebilla) · 30–150 € (sensor), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Linterna, spray de contactos, escáner con acceso a airbag</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo del cinturón encendido de forma fija o parpadeando.</li><li>Pitido que no se apaga con todos abrochados.</li><li>Aviso solo en el asiento del pasajero con un objeto encima.</li><li>Testigo del airbag encendido a la vez.</li><li>Aviso intermitente al pasar baches.</li></ul>\n<h2>Causas principales</h2><ul><li>Cinturón de algún ocupante sin abrochar del todo.</li><li>Hebilla sucia o con el sensor desajustado.</li><li>Sensor de ocupación del asiento del pasajero activado por un objeto pesado.</li><li>Conector bajo el asiento suelto o sulfatado.</li><li>Cable del sensor dañado al mover el asiento.</li><li>Fallo del módulo del airbag.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Comprueba que todos los ocupantes llevan el cinturón abrochado hasta oír el clic, también los de atrás en coches que lo indican.</li><li>Retira objetos pesados del asiento del pasajero: bolsos, cajas o una mochila pueden activar el sensor de ocupación.</li><li>Desabrocha y vuelve a abrochar cada cinturón, y comprueba si la hebilla encaja bien.</li><li>Limpia la hebilla con aire a presión o un spray de contactos, sin lubricantes grasos.</li><li>Revisa el conector bajo el asiento delantero, con la batería desconectada, buscando humedad o clavijas flojas.</li><li>Si el testigo del airbag también está encendido, no manipules el sistema: acude al taller con un escáner con acceso a airbag.</li><li>No anules el aviso con clips o dispositivos: el sistema es parte de la seguridad y no es legal ni conveniente inutilizarlo.</li><li>Repara el sensor o la hebilla defectuosa y comprueba que el aviso se apaga.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué suena el aviso del cinturón sin nadie sentado?",
+      "answer": "Porque el sensor del asiento del pasajero detecta un objeto pesado, o porque hay un fallo del sensor o de su conector."
+    },
+    {
+      "question": "¿Se puede anular el aviso del cinturón?",
+      "answer": "No es recomendable ni legal. Si el aviso falla, hay que reparar el sensor. Anularlo oculta un posible fallo del sistema de seguridad."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglarlo?",
+      "answer": "Limpiar la hebilla no cuesta nada. Un sensor de ocupación o una hebilla nueva, entre 30 y 150 €, según modelo."
+    }
+  ],
+  "products": [
+    "spray limpiador de contactos eléctricos",
+    "escáner obd2 profesional multimarca"
+  ],
+  "related": [
+    "testigo-airbag",
+    "testigo-bateria"
+  ],
+  "needs_review": true,
+  "featured_image": "/img/articulos/testigo-testigo-cinturon.webp"
+}

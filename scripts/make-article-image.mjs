@@ -75,6 +75,7 @@ const ICONS = {
 
 /* ───────── Selección del pictograma por palabras clave ───────── */
 const RULES = [
+  [/bombilla fundida|puerta abierta/i, 'fusible'],
   [/recalienta|sobrecalent/i, 'temperatura'],
   [/anticongelante/i, 'temperatura'], [/kit de emergencia|llevar en el coche|limpiaparabrisas|escobillas/i, 'llave'],
   [/cambiar una rueda/i, 'neumatico'], [/correa de distribución|distribución/i, 'transmision'], [/fugas bajo/i, 'combustible'],

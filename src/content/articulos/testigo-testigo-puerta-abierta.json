@@ -1,0 +1,39 @@
+{
+  "type": "testigo",
+  "name": "Testigo de puerta abierta: significado y por qué no se apaga",
+  "datePublished": "2026-11-03",
+  "dateModified": "2026-11-03",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo de puerta abierta: por qué no se apaga",
+    "meta_description": "Testigo de puerta o maletero abierto que no se apaga: causas (cerradura, interruptor, mazo de cables) y cómo localizar la puerta que falla.",
+    "slug": "testigo-puerta-abierta"
+  },
+  "content_html": "<h1>Testigo de puerta abierta: significado y por qué no se apaga</h1>\n<p class=\"intro\">El testigo de puerta abierta, un coche visto desde arriba con una puerta destacada, avisa de que alguna puerta, el capó o el maletero no están bien cerrados. Si no se apaga con todo cerrado, la causa suele ser el interruptor de la cerradura de una puerta, una cerradura sucia o un cable dañado. Además de ser molesto, puede dejar encendidas las luces interiores y descargar la batería.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: puede descargar la batería y desactivar el cierre centralizado</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Cerraduras, interruptores de puertas, mazo de cables, luces interiores</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0 € (limpiar) · 20–80 € (interruptor de cerradura), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Spray lubricante, multímetro, destornilladores</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de puerta abierta encendido con todo cerrado.</li><li>Luces interiores que no se apagan.</li><li>Aviso acústico al circular.</li><li>Cierre centralizado que no actúa o alarma que no se activa.</li><li>Batería que se descarga con el coche parado.</li></ul>\n<h2>Causas principales</h2><ul><li>Una puerta, el capó o el maletero no cierran del todo.</li><li>Interruptor de la cerradura sucio o averiado.</li><li>Cerradura agarrotada por falta de lubricación.</li><li>Cable del interruptor roto, sobre todo en el paso de la puerta al marco.</li><li>Humedad o corrosión en el conector de la puerta.</li><li>Burlete o tope que impide el cierre completo.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Comprueba que todas las puertas, el capó y el maletero cierran del todo: ciérralos con firmeza y prueba a abrirlos y cerrarlos de nuevo.</li><li>Mira en el cuadro de instrumentos si el aviso indica qué puerta es: muchos coches la señalan.</li><li>Si no lo indica, abre las puertas una a una y observa si se apaga la luz interior de cada una.</li><li>Con la puerta abierta, localiza el interruptor de la cerradura o del marco y limpia con un trapo.</li><li>Lubrica la cerradura con un spray específico, sin excederte, y acciona el pestillo varias veces.</li><li>Revisa el mazo de cables en el paso entre la puerta y el marco: un cable roto da avisos intermitentes.</li><li>Comprueba que el burlete y los topes no impiden el cierre.</li><li>Si el aviso persiste, acude al taller para localizar el interruptor o el cable defectuoso.</li><li>Mientras tanto, vigila la batería: unas luces interiores encendidas la descargan.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué no se apaga el testigo de puerta abierta?",
+      "answer": "Casi siempre es el interruptor de la cerradura de una puerta, una cerradura sucia o un cable roto en el paso a la puerta. Puede ser también el maletero o el capó."
+    },
+    {
+      "question": "¿Se puede circular con el testigo de puerta abierta?",
+      "answer": "Sí, pero asegúrate de que todas las puertas están realmente cerradas. Un aviso falso no es peligroso, aunque puede descargar la batería."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglarlo?",
+      "answer": "Limpiar y lubricar cuesta poco. Un interruptor de cerradura nuevo, entre 20 y 80 € con montaje, según modelo."
+    }
+  ],
+  "products": [
+    "spray lubricante para cerraduras",
+    "multímetro digital automotriz",
+    "interruptor de cerradura de puerta"
+  ],
+  "related": [
+    "testigo-bateria",
+    "guia-bateria-se-descarga-sola"
+  ],
+  "featured_image": "/img/articulos/testigo-testigo-puerta-abierta.webp"
+}

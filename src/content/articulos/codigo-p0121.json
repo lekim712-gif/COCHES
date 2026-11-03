@@ -1,0 +1,41 @@
+{
+  "type": "codigo",
+  "code": "P0121",
+  "name": "Sensor de posición de la mariposa: rango o rendimiento",
+  "datePublished": "2026-11-03",
+  "dateModified": "2026-11-03",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0121: causas, síntomas y solución",
+    "meta_description": "P0121: la señal del sensor de posición de la mariposa no cuadra con el resto. Síntomas (aceleración irregular), causas y cómo comprobarlo.",
+    "slug": "p0121"
+  },
+  "content_html": "<h1>Código P0121: Sensor de posición de la mariposa: rango o rendimiento</h1>\n<p class=\"intro\">El código P0121 indica que la señal del sensor de posición de la mariposa llega, pero no es coherente con otros datos, como el caudal de aire o la posición del pedal. A diferencia de P0120, que es un fallo del circuito, aquí la señal existe y es sospechosa. Suele deberse a una mariposa sucia, a un sensor desgastado o a una fuga de aire que falsea la relación entre apertura y caudal.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: aceleración irregular y posible modo de emergencia</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Mariposa electrónica, sensor de posición, admisión</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–20 € (limpieza) · 150–450 € (mariposa), según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, limpiador de mariposa</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido.</li><li>Aceleración con retraso o a saltos.</li><li>Ralentí inestable o motor que se cala al soltar el acelerador.</li><li>Modo de emergencia con potencia limitada.</li><li>Respuesta distinta con motor frío y caliente.</li></ul>\n<h2>Causas principales</h2><ul><li>Mariposa sucia que roza o se queda en posiciones intermedias.</li><li>Sensor de posición de la mariposa desgastado.</li><li>Fuga de aire en la admisión que descuadra los datos.</li><li>Sensor MAF con una lectura que contradice a la mariposa.</li><li>Aprendizaje de la mariposa perdido.</li><li>Pedal del acelerador con desviación.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos y comprueba si hay P0120, P0638 u otros del pedal o del MAF.</li><li>En datos en vivo, mueve el pedal lentamente y mira el porcentaje de apertura: debe subir de forma suave y estar relacionado con el caudal de aire.</li><li>Compara la apertura de la mariposa con la del pedal: no deben diferir mucho en cada posición.</li><li>Busca fugas de aire en la admisión con una prueba de humo.</li><li>Limpia la mariposa con producto específico y repite el aprendizaje con el escáner.</li><li>Comprueba el sensor MAF y límpialo si está sucio.</li><li>Si el fallo persiste, sustituye la mariposa o el pedal, y repite la adaptación.</li><li>Borra los códigos y haz una prueba de carretera.</li></ol>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué diferencia hay entre P0120 y P0121?",
+      "answer": "P0120 es un fallo eléctrico del circuito del sensor de la mariposa. P0121 indica que la señal es incoherente con lo esperado, aunque el circuito funcione."
+    },
+    {
+      "question": "¿Se puede circular con P0121?",
+      "answer": "Sí, con precaución: la respuesta del acelerador puede ser irregular. Conviene repararlo pronto."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar P0121?",
+      "answer": "Una limpieza, entre 10 y 20 €. Una mariposa nueva con adaptación, entre 150 y 450 €, según modelo."
+    }
+  ],
+  "products": [
+    "limpiador de mariposa de gases",
+    "detector de fugas de humo automoción",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "p0120",
+    "p0638",
+    "p0507"
+  ],
+  "featured_image": "/img/articulos/codigo-p0121.webp"
+}

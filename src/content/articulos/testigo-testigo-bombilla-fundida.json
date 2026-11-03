@@ -1,0 +1,39 @@
+{
+  "type": "testigo",
+  "name": "Testigo de bombilla fundida: significado y qué hacer",
+  "datePublished": "2026-11-03",
+  "dateModified": "2026-11-03",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo de bombilla fundida: significado y qué hacer",
+    "meta_description": "Testigo de bombilla fundida o fallo de luces: qué significa, cómo localizar la luz que falla y por qué puede salir con la bombilla en buen estado.",
+    "slug": "testigo-bombilla-fundida"
+  },
+  "content_html": "<h1>Testigo de bombilla fundida: significado y qué hacer</h1>\n<p class=\"intro\">El testigo de bombilla fundida, una bombilla con un signo de exclamación o un aviso de «fallo de lámpara», indica que alguna luz exterior no funciona. Normalmente es una bombilla quemada, pero también puede deberse a un fusible, a un conector o a un fallo del módulo de luces. Localizar la luz que falla y cambiarla es sencillo en la mayoría de coches.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: una luz de freno o de cruce fundida es peligrosa y puede multarse</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Alumbrado, bombillas, fusibles, módulo de luces</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>3–15 € la bombilla · 0–30 € si es el fusible, según modelo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Bombilla de repuesto, guantes, destornillador</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo con una bombilla encendido en el cuadro.</li><li>Mensaje que indica qué luz falla.</li><li>Una luz exterior que no enciende.</li><li>Parpadeo rápido del intermitente, que indica una bombilla fundida.</li><li>Aviso que reaparece tras cambiar la bombilla.</li></ul>\n<h2>Causas principales</h2><ul><li>Bombilla quemada.</li><li>Fusible de ese circuito fundido.</li><li>Conector de la bombilla con humedad o terminales sulfatados.</li><li>Bombilla de una potencia distinta de la original, que la centralita interpreta como fallo.</li><li>Fallo del módulo de luces o del cableado.</li><li>Masa de la luz en mal estado.</li></ul>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Comprueba todas las luces del coche con ayuda de otra persona: cruce, largas, posición, freno, intermitentes, marcha atrás y antiniebla.</li><li>Si el cuadro indica cuál es, empieza por esa. Si no, revisa todas.</li><li>Cambia la bombilla por una de la referencia exacta, sin tocar el cristal con los dedos si es halógena.</li><li>Si la luz no enciende con una bombilla nueva, revisa el fusible correspondiente en el manual.</li><li>Comprueba el conector y la masa de la luz: humedad, óxido o clavijas flojas.</li><li>Si montaste bombillas LED, el aviso puede aparecer por un consumo menor: algunos coches necesitan una resistencia o una lámpara compatible.</li><li>Revisa que no hay agua dentro del faro, que oxida el conector.</li><li>Si el aviso persiste con todas las luces funcionando, un taller puede leer los códigos del módulo de luces.</li></ol>\n<h2>Cuándo acudir al taller</h2><p>Si cambias la bombilla y el aviso sigue, o si falla más de una luz a la vez, puede haber un problema eléctrico: fusible, masa o módulo de luces. En coches con muchas luces led o adaptativas, un taller con escáner puede leer el módulo y decir qué circuito falla, en lugar de ir cambiando piezas a ciegas.</p>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué sale el testigo de bombilla fundida si todas funcionan?",
+      "answer": "Puede ser una bombilla con menor consumo, como una LED sin adaptar, un conector con falso contacto o un fallo del módulo de luces."
+    },
+    {
+      "question": "¿Se puede circular con una bombilla fundida?",
+      "answer": "Es una infracción y un riesgo, sobre todo si es la luz de freno o la de cruce. Cámbiala antes de circular."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglarlo?",
+      "answer": "Una bombilla cuesta de 3 a 15 €. Si es un fusible, menos. Un módulo de luces averiado, bastante más, según modelo."
+    }
+  ],
+  "products": [
+    "kit de bombillas de repuesto para coche",
+    "juego de fusibles para coche",
+    "guantes de taller"
+  ],
+  "related": [
+    "guia-luces-fundidas",
+    "guia-cambio-fusibles"
+  ],
+  "featured_image": "/img/articulos/testigo-testigo-bombilla-fundida.webp"
+}

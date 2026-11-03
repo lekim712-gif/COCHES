@@ -114,5 +114,6 @@
   "testigo-freno",
   "testigo-airbag",
   "testigo-direccion-asistida"
- ]
+ ],
+ "_ideas_competencia": "Ideas sacadas del análisis de la competencia (03/11/2026, highmotor, motor1, sensorautomotriz, búsquedas): testigos pendientes: nivel de líquido limpiaparabrisas, detector de ángulo muerto, alerta de cambio de carril, reconocimiento de señales, start-stop, luces automáticas, modo GLP/GNC, fallo del catalizador, temperatura de aceite, hold/AUTO HOLD, ESP OFF, control de crucero, sensor de lluvia, fallo del cambio, caja DSG, testigo del turbo, bujías incandescentes, filtro de combustible con agua, nivel de refrigerante. Códigos por familia con demanda: P0191, P0132, P0138, P0137, P0174, P0069, P0605, P0607, P0601, P0603, P0352, P0220, P0221."
 }
