@@ -41,7 +41,7 @@ export function validateArticle(a) {
     if ((a.brand_specific_points ?? 0) < 3) e('página de marca sin al menos 3 particularidades propias: no se publica (contenido fino)');
     if (!/<h2>Particularidades/.test(h)) e('falta bloque «Particularidades»');
   }
-  if (words(h) < 350 && a.type !== 'guia') w(`solo ${words(h)} palabras`);
+  if (a.type !== 'guia' && words(h) < 800) w(`ficha corta: ${words(h)} palabras (objetivo 850–1.300 con secciones propias)`);
   if (a.type === 'guia' && words(h) < 800) w(`guía corta: ${words(h)} palabras (objetivo 900–1.500 con secciones propias)`);
   return { errors, warns };
 }
