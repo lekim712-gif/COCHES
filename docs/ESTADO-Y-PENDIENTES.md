@@ -120,3 +120,8 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 ## Actualización 03/11/2026 (guías largas)
 - A petición del usuario, las guías de mantenimiento pasan a ser artículos largos (900–1.500 palabras): índice automático («En esta guía»), secciones con subtítulos, tablas de coste y comparativas, errores frecuentes, cuándo ir al taller y 6 preguntas frecuentes. El validador avisa de las guías de menos de 800 palabras.
 - Reescritas hoy: cambio de aceite, limpieza de la EGR, borrar códigos OBD2, chirrido de la correa de accesorios, coche que se cala y tirones en diésel. El resto de guías (lista en `content-plan/backlog.json`, `_guias_a_profundizar`) se reescribirán a ritmo diario; vuelven a «pendiente de revisión» al cambiar el texto.
+
+## Actualización 03/11/2026 (estándar de calidad)
+- Todas las fichas de la web (69 códigos, 49 guías, 22 testigos y 5 marcas, más las ya ampliadas) tienen ahora entre 900 y 1.400 palabras, con secciones propias, tablas, errores frecuentes, costes, cuándo ir al taller y 6–7 preguntas frecuentes. Las guías tienen índice automático.
+- Al cambiar los textos, todas vuelven a «pendiente de revisión técnica». La revisión de Carlos debe repartirse por prioridad (primero las páginas con más impresiones en Search Console).
+- Estándar para fichas nuevas: 900–1.400 palabras; el validador avisa por debajo de 800.
