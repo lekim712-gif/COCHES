@@ -116,3 +116,7 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 
 ## Actualización 03/11/2026 (tarde)
 - El usuario pide volver a 10 piezas diarias basadas en investigación de la competencia. Lote de hoy (10): códigos P0128, P0088, P0121, P0430; testigos de reserva de combustible, freno de mano (noindex), puerta abierta, cinturón (noindex), pastillas de freno (noindex) y bombilla fundida. Lista de ideas pendientes en `content-plan/backlog.json` (`_ideas_competencia`).
+
+## Actualización 03/11/2026 (guías largas)
+- A petición del usuario, las guías de mantenimiento pasan a ser artículos largos (900–1.500 palabras): índice automático («En esta guía»), secciones con subtítulos, tablas de coste y comparativas, errores frecuentes, cuándo ir al taller y 6 preguntas frecuentes. El validador avisa de las guías de menos de 800 palabras.
+- Reescritas hoy: cambio de aceite, limpieza de la EGR, borrar códigos OBD2, chirrido de la correa de accesorios, coche que se cala y tirones en diésel. El resto de guías (lista en `content-plan/backlog.json`, `_guias_a_profundizar`) se reescribirán a ritmo diario; vuelven a «pendiente de revisión» al cambiar el texto.

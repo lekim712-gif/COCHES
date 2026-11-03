@@ -73,3 +73,14 @@ table.ficha tbody th{width:34%;background:color-mix(in srgb,var(--amber) 14%,var
 .hero-img{margin:1.2rem 0}
 .hero-img img{display:block;width:100%;height:auto;aspect-ratio:1200/630;object-fit:cover;border-radius:var(--radius);border:1px solid var(--line);background:var(--dark)}
 .meta.disclaimer{border-top:0;padding-top:0;margin-top:.4rem}
+
+.toc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:.9rem 1.1rem;margin:1.4rem 0}
+.toc-t{margin:0 0 .4rem;font-weight:700}
+.toc ol{margin:0;padding-left:1.3rem;columns:1}
+.toc li{margin:.25rem 0}
+.article h2[id]{scroll-margin-top:5rem}
+.article h3{margin:1.4rem 0 .4rem;font-size:1.12rem}
+.article blockquote.tip{margin:1.2rem 0;padding:.8rem 1rem;border-left:4px solid var(--amber);background:color-mix(in srgb,var(--amber) 10%,var(--surface));border-radius:0 var(--radius) var(--radius) 0}
+.article table.cmp{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.95rem}
+.article table.cmp th,.article table.cmp td{border:1px solid var(--line);padding:.55rem .7rem;text-align:left;vertical-align:top}
+.article table.cmp thead th{background:color-mix(in srgb,var(--amber) 14%,var(--surface))}

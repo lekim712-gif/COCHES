@@ -12,7 +12,7 @@ export const tablaRows = (f) => [
   ['Herramientas necesarias', f.herramientas],
 ];
 
-export function buildHtml({ h1, intro, tabla, sintomas, causas, pasos, extra }) {
+export function buildHtml({ h1, intro, tabla, sintomas, causas, pasos, extra, after, pasosTitle }) {
   return [
     `<h1>${esc(h1)}</h1>`,
     `<p class="intro">${esc(intro)}</p>`,
@@ -22,7 +22,8 @@ export function buildHtml({ h1, intro, tabla, sintomas, causas, pasos, extra }) 
     sintomas?.length ? `<h2>Síntomas habituales</h2><ul>${li(sintomas)}</ul>` : '',
     causas?.length ? `<h2>Causas principales</h2><ul>${li(causas)}</ul>` : '',
     extra ?? '',
-    pasos?.length ? `<h2>Guía de diagnóstico y reparación paso a paso</h2><ol>${li(pasos)}</ol>` : '',
+    pasos?.length ? `<h2>${pasosTitle ?? 'Guía de diagnóstico y reparación paso a paso'}</h2><ol>${li(pasos)}</ol>` : '',
+    after ?? '',
     `<!--ad-slot-2-->`,
   ].filter(Boolean).join('\n');
 }

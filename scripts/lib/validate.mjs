@@ -42,6 +42,7 @@ export function validateArticle(a) {
     if (!/<h2>Particularidades/.test(h)) e('falta bloque «Particularidades»');
   }
   if (words(h) < 350 && a.type !== 'guia') w(`solo ${words(h)} palabras`);
+  if (a.type === 'guia' && words(h) < 800) w(`guía corta: ${words(h)} palabras (objetivo 900–1.500 con secciones propias)`);
   return { errors, warns };
 }
 

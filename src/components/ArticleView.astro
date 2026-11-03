@@ -11,8 +11,11 @@ const related = [...resolveRelated(all, d.related), ...extraLinks].filter((a) =>
 const site = Astro.site!;
 const img = d.featured_image;
 const ogImg = img?.replace(/\.webp$/, '.jpg');
+const slugify = (t: string) => t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/<[^>]+>/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const addIds = (h: string) => d.type === 'guia' ? h.replace(/<h2>(.*?)<\/h2>/g, (_m, t) => `<h2 id="${slugify(t)}">${t}</h2>`) : h;
+const tocItems = d.type === 'guia' ? [...(parts[0] + (parts[1] ?? '')).matchAll(/<h2>(.*?)<\/h2>/g)].map((m) => ({ t: m[1].replace(/<[^>]+>/g, ''), id: slugify(m[1]) })).filter((x) => x.t !== 'Ficha técnica') : [];
 const introEnd = parts[0].indexOf('</p>') + 4;
-const head = parts[0].slice(0, introEnd), rest = parts[0].slice(introEnd);
+const head = parts[0].slice(0, introEnd), rest = addIds(parts[0].slice(introEnd)), rest2 = addIds(parts[1] ?? '');
 const url = new URL(urlOf(article), site).href;
 const orgId = new URL('/#organization', site).href;
 const reviewed = d.reviewed_by ? { name: d.reviewed_by, at: d.reviewed_at } : null;
@@ -29,9 +32,10 @@ const jsonLd = [
     <article class="article">
       <Fragment set:html={head} />
       {img && <figure class="hero-img"><img src={img} width="1200" height="630" alt={`Imagen ilustrativa: ${d.name}`} fetchpriority="high" decoding="async" /></figure>}
+      {tocItems.length >= 5 && <nav class="toc" aria-label="Contenido de la guía"><p class="toc-t">En esta guía</p><ol>{tocItems.map((x) => <li><a href={`#${x.id}`}>{x.t}</a></li>)}</ol></nav>}
       <Fragment set:html={rest} />
       <AdSlot n={1} />
-      <Fragment set:html={parts[1] ?? ''} />
+      <Fragment set:html={rest2} />
       <AdSlot n={2} />
       <section class="faq" aria-labelledby="faq-h">
         <h2 id="faq-h">Preguntas frecuentes</h2>

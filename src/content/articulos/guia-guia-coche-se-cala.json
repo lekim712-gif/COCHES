@@ -1,29 +1,41 @@
 {
   "type": "guia",
-  "name": "El coche se cala: causas y qué revisar",
+  "name": "El coche se cala: causas, diagnóstico y qué hacer paso a paso",
   "datePublished": "2026-10-24",
-  "dateModified": "2026-10-24",
+  "dateModified": "2026-11-03",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
     "meta_title": "El coche se cala: causas y qué revisar paso a paso",
-    "meta_description": "Tu coche se cala al ralentí, al soltar el acelerador o en marcha: causas (mariposa, sensores, combustible, batería) y cómo diagnosticarlas paso a paso.",
+    "meta_description": "Tu coche se cala al ralentí, al soltar el acelerador o en marcha: causas (mariposa, sensores, combustible, batería) y diagnóstico paso a paso.",
     "slug": "guia-coche-se-cala"
   },
-  "content_html": "<h1>El coche se cala: causas y qué revisar</h1>\n<p class=\"intro\">Que un coche se cale puede deberse a falta de aire, de combustible o de chispa, o a un fallo eléctrico o de un sensor clave. Fijarse en cuándo ocurre, en frío o en caliente, al ralentí o en marcha, y si hay testigo encendido acota mucho la causa. Esta guía propone una revisión ordenada, con especial atención a las paradas en marcha, que son las más peligrosas.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: una parada en marcha pierde la asistencia de frenos y dirección</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Admisión, combustible, encendido, sensores, batería</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–40 € (limpieza, fusible) · 60–500 € (sensor, bomba, batería), según la causa</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, multímetro, limpiador de mariposa</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee los códigos con un escáner OBD2: códigos de sensor de cigüeñal, mariposa, bomba de combustible o batería apuntan a la causa.</li><li>Fíjate en cuándo se cala: al ralentí o al soltar el acelerador sugiere mariposa sucia, ralentí o fugas de aire; en marcha y de golpe sugiere combustible, sensor de cigüeñal o fallo eléctrico.</li><li>Si se cala en caliente y arranca de nuevo al enfriar, sospecha del sensor de cigüeñal o de la bomba de combustible.</li><li>Limpia la mariposa y revisa fugas de aire en la admisión.</li><li>Mide la batería y el alternador: una tensión baja o inestable provoca paradas.</li><li>Comprueba el filtro de combustible, el relé y los fusibles de la bomba.</li><li>En gasolina, revisa bujías y bobinas; en diésel, el filtro de combustible, el aire en el circuito y el sistema de inyección.</li><li>Si el coche se cala en marcha, mantén la calma: con el motor parado, la dirección y el freno quedan más duros, pero siguen funcionando. Detente en un lugar seguro.</li><li>Si el problema se repite, no circules por vías rápidas y acude al taller con los códigos anotados.</li></ol>\n<!--ad-slot-2-->",
+  "content_html": "<h1>El coche se cala: causas, diagnóstico y qué hacer paso a paso</h1>\n<p class=\"intro\">Que un coche se cale puede deberse a falta de aire, de combustible o de chispa, o a un fallo eléctrico o de un sensor clave. Fijarse en cuándo ocurre, en frío o en caliente, al ralentí o en marcha, y si hay testigo encendido acota mucho la causa. Esta guía propone una revisión ordenada y explica qué hacer si se cala en plena marcha.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: una parada en marcha pierde la asistencia de frenos y dirección</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Admisión, combustible, encendido, sensores, batería</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–40 € (limpieza, fusible) · 60–500 € (sensor, bomba, batería), según la causa</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, multímetro, limpiador de mariposa</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Qué hacer si el coche se cala mientras conduces</h2><p>Si el motor se para en marcha, la prioridad es la seguridad. Mantén la calma y actúa así:</p><ul><li>Activa las luces de emergencia y mantén firme el volante: sin motor, la dirección sigue funcionando, pero con más esfuerzo.</li><li>Pisa el freno con firmeza y de forma continua: el servofreno conserva reserva para varias frenadas, pero se agota rápido.</li><li>Pisa el embrague o pon el cambio en punto muerto y arrastra el coche hasta un lugar seguro.</li><li>Intenta volver a arrancar cuando el coche esté detenido. Si arranca, no confíes: puede repetirse.</li><li>Si no arranca, señaliza con los triángulos y llama a asistencia en carretera.</li></ul><h2>Las causas según el momento en que se cala</h2><table class=\"cmp\"><thead><tr><th>Cuándo se cala</th><th>Causas más probables</th></tr></thead><tbody><tr><td>Al ralentí o al parar en un semáforo</td><td>Mariposa sucia, válvula de ralentí, fugas de vacío, sensor MAF, EGR atascada abierta</td></tr><tr><td>Al soltar el acelerador</td><td>Mariposa sucia, aprendizaje perdido, fugas de aire</td></tr><tr><td>En frío, al poco de arrancar</td><td>Sensor de temperatura del refrigerante, sondas lambda, bujías desgastadas</td></tr><tr><td>En caliente, tras un trayecto</td><td>Sensor de cigüeñal, bobinas, bomba de combustible</td></tr><tr><td>En marcha, de golpe</td><td>Bomba de combustible, sensor de cigüeñal, alternador, fallo eléctrico</td></tr><tr><td>Con carga o al acelerar</td><td>Filtro de combustible, presión baja, turbo o catalizador obstruido</td></tr></tbody></table>\n<h2>Cómo diagnosticar por qué se cala</h2><ol><li>Lee los códigos con un escáner OBD2: códigos del sensor de cigüeñal, de la mariposa, de la bomba de combustible, de la batería o de los fallos de encendido señalan la causa.</li><li>Fíjate en cuándo se cala y anótalo: frío o caliente, ralentí o marcha, con o sin carga. Es la pista más valiosa.</li><li>Limpia la mariposa con un limpiador específico, con el motor parado y la batería desconectada, y realiza el aprendizaje con el escáner.</li><li>Busca fugas de aire en la admisión con una prueba de humo y revisa los manguitos y el sensor MAF.</li><li>Mide la batería y el alternador: una tensión baja o inestable provoca paradas. Con el motor en marcha, debe haber entre 13,5 y 14,7 V.</li><li>Comprueba el filtro de combustible, el relé y los fusibles de la bomba. Escucha la bomba al dar el contacto: debe zumbar un par de segundos.</li><li>En gasolina, revisa bujías y bobinas; en diésel, el filtro de combustible, la entrada de aire en el circuito y el sistema de inyección.</li><li>Revisa la válvula EGR: si queda abierta, el motor se cala al ralentí.</li><li>Si el problema se repite, no circules por vías rápidas y acude al taller con los códigos anotados.</li></ol>\n<h2>Causas más habituales explicadas</h2><h3>Mariposa sucia o sin aprendizaje</h3><p>En motores con mariposa electrónica, la suciedad hace que no cierre del todo o que se quede pegada, y el ralentí oscila hasta que el motor se cala. Se limpia y, después, hay que hacer el aprendizaje con un escáner o con el procedimiento del fabricante.</p><h3>Fugas de aire en la admisión</h3><p>Un manguito agrietado o una toma de vacío suelta introduce aire que la centralita no mide, empobrece la mezcla y provoca un ralentí inestable y calados. Se localiza con una prueba de humo.</p><h3>Sensor de cigüeñal</h3><p>Si falla en caliente, el motor se para de golpe y no vuelve a arrancar hasta que se enfría. Suele ir acompañado del código P0335 o P0322.</p><h3>Bomba de combustible o filtro</h3><p>Si el motor se corta con carga o a alta velocidad, y arranca de nuevo tras unos minutos, puede ser la bomba de combustible, su relé o un filtro saturado.</p><h3>Batería y alternador</h3><p>Una tensión baja provoca fallos eléctricos de todo tipo, entre ellos paradas del motor. Se mide con un multímetro.</p><h2>Cuánto cuesta arreglarlo</h2><table class=\"cmp\"><thead><tr><th>Causa</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Limpieza de mariposa</td><td>10–30 €</td></tr><tr><td>Sensor de cigüeñal</td><td>40–180 €</td></tr><tr><td>Filtro de combustible</td><td>15–80 €</td></tr><tr><td>Bomba de combustible</td><td>150–500 €</td></tr><tr><td>Batería o alternador</td><td>60–400 €</td></tr></tbody></table><h2>Cuándo ir al taller</h2><p>Si el coche se cala en marcha de forma repetida, si no arranca tras calarse, si hay testigo de motor encendido o si no consigues localizar la causa con las comprobaciones básicas, conviene un taller. Una parada en autovía es un riesgo serio, así que no esperes a que empeore.</p>\n<h2>Prevención: cómo evitar que el coche se cale</h2><p>Haz el mantenimiento al día: filtros de aire y combustible, bujías en gasolina, y una revisión de la batería cada año. Limpia la mariposa cada cierto tiempo, sobre todo en coches de uso urbano. No agotes el depósito, porque los sedimentos del fondo pueden obstruir el filtro o la bomba. Y atiende a los primeros avisos: un ralentí que oscila o un arranque que cuesta más son señales de que algo empieza a fallar.</p>\n<!--ad-slot-2-->",
   "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
   "schema_faq": [
     {
-      "question": "¿Por qué se cala el coche al parar?",
-      "answer": "Lo más habitual es la mariposa sucia, una fuga de aire o una válvula de ralentí defectuosa. Un escáner suele mostrar códigos de ralentí o de mezcla."
+      "question": "¿Por qué se cala el coche al parar en un semáforo?",
+      "answer": "Lo más habitual es una mariposa sucia, una válvula de ralentí atascada o una fuga de aire. Limpiar la mariposa y hacer el aprendizaje suele resolverlo."
     },
     {
       "question": "¿Qué hago si se cala en marcha?",
-      "answer": "Pisa el embrague y suelta el acelerador, mantén firme el volante y frena con firmeza: sin motor la asistencia es menor. Detente en un lugar seguro y activa las luces de emergencia."
+      "answer": "Activa las luces de emergencia, pisa el freno con firmeza, mantén firme el volante y detente en un lugar seguro. Sin motor, la asistencia es menor pero la dirección y el freno siguen funcionando."
     },
     {
       "question": "¿Se puede circular con un coche que se cala?",
-      "answer": "No es recomendable, sobre todo por carretera. Si se cala en marcha, es un riesgo. Conviene diagnosticarlo antes de volver a usarlo con normalidad."
+      "answer": "No es recomendable, sobre todo por carretera. Conviene diagnosticarlo antes de volver a usarlo con normalidad."
+    },
+    {
+      "question": "¿Por qué se cala en caliente y arranca al enfriarse?",
+      "answer": "Suele ser el sensor de cigüeñal, una bobina o un relé que fallan con el calor. Un escáner puede mostrar el código asociado."
+    },
+    {
+      "question": "¿Puede calarse el coche por la batería?",
+      "answer": "Sí. Un alternador que no carga o una batería agotada provocan tensiones bajas que apagan el motor y otros sistemas."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar un coche que se cala?",
+      "answer": "Desde una limpieza de 10–30 € hasta una bomba de combustible de 150–500 €. Depende de la causa, por eso conviene diagnosticar antes de cambiar piezas."
     }
   ],
   "products": [
@@ -34,9 +46,9 @@
   "related": [
     "p0507",
     "p0322",
-    "p0230"
+    "p0230",
+    "p0335",
+    "guia-comprobar-alternador"
   ],
-  "featured_image": "/img/articulos/guia-guia-coche-se-cala.webp",
-  "reviewed_by": "Carlos Peláez",
-  "reviewed_at": "2026-10-24"
+  "featured_image": "/img/articulos/guia-guia-coche-se-cala.webp"
 }
