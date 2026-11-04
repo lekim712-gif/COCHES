@@ -125,3 +125,7 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - Todas las fichas de la web (69 códigos, 49 guías, 22 testigos y 5 marcas, más las ya ampliadas) tienen ahora entre 900 y 1.400 palabras, con secciones propias, tablas, errores frecuentes, costes, cuándo ir al taller y 6–7 preguntas frecuentes. Las guías tienen índice automático.
 - Al cambiar los textos, todas vuelven a «pendiente de revisión técnica». La revisión de Carlos debe repartirse por prioridad (primero las páginas con más impresiones en Search Console).
 - Estándar para fichas nuevas: 900–1.400 palabras; el validador avisa por debajo de 800.
+
+## Actualización 04/11/2026
+- 161 fichas indexables, todas de 900+ palabras. Lote del día (10, mismo estándar): códigos P0191, P0174, P0137 y P0132; guía del líquido limpiaparabrisas; testigos Start-Stop, ángulo muerto, cambio de carril, Auto Hold y ESP OFF.
+- Search Console: 1.374 impresiones, 6 clics, 85 páginas. Lista de revisión para Carlos por prioridad: `docs/REVISION-CARLOS.md`.

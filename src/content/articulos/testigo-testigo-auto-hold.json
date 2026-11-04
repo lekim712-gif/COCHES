@@ -1,0 +1,53 @@
+{
+  "type": "testigo",
+  "name": "Testigo del Auto Hold: significado y por qué no retiene",
+  "datePublished": "2026-11-04",
+  "dateModified": "2026-11-04",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo Auto Hold: significado y por qué no retiene",
+    "meta_description": "Testigo del Auto Hold o retención automática del freno: qué significa en verde, blanco o ámbar y por qué se desactiva con el cinturón, la puerta o una pendiente.",
+    "slug": "testigo-auto-hold"
+  },
+  "content_html": "<h1>Testigo del Auto Hold: significado y por qué no retiene</h1>\n<p class=\"intro\">El testigo del Auto Hold, una A dentro de un círculo con la palabra HOLD o una P entre paréntesis, indica que la retención automática del freno mantiene el coche parado sin pisar el pedal. En verde está reteniendo, en blanco o gris está disponible y en ámbar hay un fallo. Se suspende si abres la puerta, te desabrochas el cinturón o el motor se detiene.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: el coche frena con normalidad, solo falla una función de confort</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sistema de frenos ESP, freno de estacionamiento eléctrico, sensores de puerta y cinturón</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0 € (condiciones) · 60–250 € (sensor o ajuste) · 300–900 € (freno eléctrico)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con acceso a ABS y freno de estacionamiento, manual del vehículo</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>El testigo no se enciende en verde al detenerte y pisar el pedal a fondo.</li><li>El coche se desliza hacia atrás en una pendiente aunque el sistema esté activado.</li><li>El Auto Hold se libera solo al abrir la puerta o desabrochar el cinturón.</li><li>El icono aparece en ámbar fijo con un mensaje de avería del sistema.</li><li>El freno de estacionamiento eléctrico se aplica de forma inesperada o no se suelta.</li><li>El botón AUTO HOLD se enciende pero el coche no retiene tras unos segundos.</li></ul>\n<h2>Causas principales</h2><ul><li>Sistema desactivado con el botón AUTO HOLD, que a veces se pulsa sin querer.</li><li>Cinturón del conductor desabrochado o puerta del conductor o el capó abiertos.</li><li>Motor parado por el Start-Stop sin dejar condiciones para reiniciar el sistema.</li><li>Fallo del freno de estacionamiento eléctrico o de su motor de actuación.</li><li>Fallo del módulo ESP o ABS, que gestiona la presión de retención.</li><li>Batería baja o picos de tensión que inhiben las funciones electrónicas.</li><li>Pastillas o discos muy gastados que impiden aplicar la fuerza de retención.</li></ul>\n<h2>Qué indica este testigo y qué significa cada estado</h2><p>El Auto Hold mantiene la presión de frenado en las cuatro ruedas cuando el coche se detiene y pisas el pedal con firmeza, de modo que puedes soltarlo en un semáforo o en un atasco. Utiliza la bomba hidráulica del ESP para conservar la presión. Al acelerar, la libera de forma progresiva. Tras unos minutos de retención, o si algo cambia como la puerta abierta, el coche pasa al freno de estacionamiento eléctrico para quedar inmovilizado de forma segura.</p><table class=\"cmp\"><thead><tr><th>Estado del testigo</th><th>Significado</th><th>Qué hacer</th></tr></thead><tbody><tr><td>Blanco o gris</td><td>Función disponible pero sin retener</td><td>Normal; pisa el freno y se activará.</td></tr><tr><td>Verde</td><td>Retención activa</td><td>El coche está sujeto sin pisar el pedal.</td></tr><tr><td>Ámbar fijo</td><td>Fallo o suspensión por fallo</td><td>Pide diagnóstico; frena con el pedal.</td></tr><tr><td>Parpadea</td><td>Condición de seguridad incumplida</td><td>Abróchate el cinturón o cierra la puerta.</td></tr><tr><td>Mensaje de freno de estacionamiento averiado</td><td>Fallo del freno eléctrico</td><td>Revisión en taller; asegura el coche en pendientes.</td></tr></tbody></table><h2>Cuándo se desactiva por seguridad</h2><p>El sistema se suspende cuando detecta una situación en la que mantener la retención sería inseguro o inútil. No es una avería: son reglas de diseño. Las más frecuentes se enumeran a continuación y varían según el fabricante.</p><ul><li>Cinturón del conductor desabrochado o puerta del conductor abierta con el coche detenido.</li><li>Motor calado o parado por el sistema de Start-Stop durante más de unos minutos.</li><li>Pendiente muy pronunciada en la que el freno de estacionamiento debe tomar el relevo.</li><li>Marcha atrás o punto muerto en algunos modelos, según el manual del fabricante.</li><li>Temperatura excesiva en el sistema de frenado o batería con tensión insuficiente.</li><li>Remolque o carga que modifican la presión necesaria en pendiente.</li></ul><blockquote class=\"tip\"><strong>Consejo:</strong> Antes de salir del coche, apaga el motor y comprueba que el freno de estacionamiento queda aplicado; no confíes solo en el Auto Hold para dejar el vehículo aparcado.</blockquote>\n<h2>Qué hacer paso a paso según la situación</h2><ol><li>Con el coche parado y el pie firme sobre el pedal, pulsa el botón AUTO HOLD y comprueba que el testigo pasa de gris a verde.</li><li>Verifica que llevas el cinturón abrochado y que todas las puertas y el capó están bien cerrados.</li><li>Si el motor se detiene con el Start-Stop, pisa el pedal con firmeza y arranca de nuevo antes de volver a probar.</li><li>Si el testigo es ámbar, revisa el cuadro en busca de mensajes del freno de estacionamiento, ESP o ABS.</li><li>Comprueba el estado del freno de estacionamiento eléctrico: debe aplicarse y soltarse con un clic claro y sin avisos.</li><li>Mide la tensión de la batería (unos 12,4–12,7 V con el motor parado): una carga baja puede inhibir el sistema.</li><li>Revisa el espesor de pastillas y el estado de los discos, ya que unos frenos agotados pueden causar fallos.</li><li>Conecta un escáner con acceso al módulo ESP y al freno de estacionamiento para leer códigos y datos en vivo.</li><li>En el taller, pide la prueba de actuación del motor del freno de estacionamiento y la calibración del sensor de presión.</li><li>Mientras no se arregle, sujeta el coche con el pedal y usa el freno de estacionamiento en pendientes.</li></ol>\n<h2>Causas habituales y coste de la reparación</h2><table class=\"cmp\"><thead><tr><th>Causa</th><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Botón desactivado o condiciones sin cumplir</td><td>Ninguna</td><td>0 €</td></tr><tr><td>Interruptor del cinturón o de la puerta</td><td>Cambiar sensor</td><td>30–150 €</td></tr><tr><td>Sensor de presión de freno</td><td>Sustituir</td><td>60–250 €</td></tr><tr><td>Pastillas y discos gastados</td><td>Cambio de frenos</td><td>150–450 € por eje</td></tr><tr><td>Actuador del freno de estacionamiento eléctrico</td><td>Sustituir</td><td>250–700 €</td></tr><tr><td>Módulo ESP o unidad hidráulica</td><td>Reparar o sustituir</td><td>400–1.000 €</td></tr></tbody></table><p>Los precios son orientativos y dependen de la marca. El freno de estacionamiento eléctrico requiere un procedimiento especial para retirar las pastillas: no lo hagas sin herramienta de servicio.</p><h2>Errores frecuentes con el Auto Hold</h2><ul><li>Dejar el coche aparcado solo con el Auto Hold en lugar del freno de estacionamiento.</li><li>Soltar el cinturón con el coche aún retenido y esperar que siga sujeto.</li><li>Cambiar pastillas sin devolver el actuador eléctrico a modo servicio.</li><li>No avisar al taller de que el coche tiene freno eléctrico antes de trabajar en las ruedas.</li><li>Ignorar un testigo ámbar y confiar en que la función seguirá reteniendo en pendientes.</li></ul><h2>Cómo evitar que vuelva a encenderse</h2><ul><li>Mantén los frenos en buen estado y cambia el líquido cada dos años, según el fabricante.</li><li>Evita dejar el coche sin uso durante semanas con el freno eléctrico accionado.</li><li>Cuida la batería: una tensión baja es una causa habitual de fallos de confort electrónico.</li><li>Aplica el freno de estacionamiento siempre al aparcar, sobre todo en cuesta.</li></ul><h2>Cuándo acudir al taller o llamar a la grúa</h2><p>Acude al taller si el testigo está en ámbar, si el coche no retiene en pendiente o si el freno de estacionamiento deja de aplicarse. Llama a la grúa si el coche se queda inmovilizado con el freno aplicado y no se suelta, o si el pedal se nota blando. No fuerces el desbloqueo manual del freno eléctrico sin seguir el procedimiento del manual, porque puedes dañar el actuador.</p><h2>Testigos relacionados</h2><ul><li>Testigo del freno de estacionamiento: informa del estado del freno eléctrico que apoya al Auto Hold.</li><li>Testigo del ESP: la unidad hidráulica es común y un fallo suyo anula la retención.</li><li>Testigo del Start-Stop: la parada automática del motor puede suspender el Auto Hold.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Para qué sirve el Auto Hold?",
+      "answer": "Mantiene el coche frenado cuando está parado sin que tengas que pisar el pedal, ideal para semáforos y atascos. Se libera al acelerar."
+    },
+    {
+      "question": "¿Por qué se desactiva al desabrocharme el cinturón?",
+      "answer": "Es una medida de seguridad: si el conductor se levanta, el coche pasa al freno de estacionamiento para evitar que se mueva."
+    },
+    {
+      "question": "¿Puedo aparcar solo con el Auto Hold?",
+      "answer": "No. Debes aplicar el freno de estacionamiento y dejar una marcha o la posición P antes de bajar del coche."
+    },
+    {
+      "question": "¿Gasta más batería o frenos?",
+      "answer": "No de forma apreciable. Reduce incluso el desgaste de pedal, aunque mantiene presión en las pastillas durante las paradas."
+    },
+    {
+      "question": "¿Qué hago si el testigo está en ámbar?",
+      "answer": "Frena con el pedal como siempre y pide una lectura de averías del ESP y del freno de estacionamiento."
+    },
+    {
+      "question": "¿Funciona en pendientes?",
+      "answer": "Sí, retiene en cuestas moderadas. En pendientes muy fuertes pasa al freno eléctrico, y conviene vigilar el arranque."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "líquido de frenos DOT 4"
+  ],
+  "related": [
+    "testigo-freno-de-mano",
+    "testigo-esp",
+    "testigo-abs",
+    "guia-liquido-de-frenos"
+  ],
+  "featured_image": "/img/articulos/testigo-testigo-auto-hold.webp"
+}
