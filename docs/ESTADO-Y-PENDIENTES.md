@@ -129,3 +129,6 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 ## Actualización 04/11/2026
 - 161 fichas indexables, todas de 900+ palabras. Lote del día (10, mismo estándar): códigos P0191, P0174, P0137 y P0132; guía del líquido limpiaparabrisas; testigos Start-Stop, ángulo muerto, cambio de carril, Auto Hold y ESP OFF.
 - Search Console: 1.374 impresiones, 6 clics, 85 páginas. Lista de revisión para Carlos por prioridad: `docs/REVISION-CARLOS.md`.
+
+## Actualización 05/11/2026
+- 171 fichas, todas de 900+ palabras. Lote del día (10): códigos P0069, P0352, P0220, P0138 y P0343; testigos de luces automáticas, turbo, cambio automático, control de crucero y agua en el filtro de combustible.

@@ -1,0 +1,53 @@
+{
+  "type": "testigo",
+  "name": "Testigo de fallo del cambio automático: modo de emergencia y ATF",
+  "datePublished": "2026-11-05",
+  "dateModified": "2026-11-05",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo del cambio automático: fallo y modo emergencia",
+    "meta_description": "Testigo del cambio automático (engranaje con exclamación): qué significa, por qué entra el modo de emergencia y cómo influye la temperatura del aceite ATF.",
+    "slug": "testigo-cambio-automatico"
+  },
+  "content_html": "<h1>Testigo de fallo del cambio automático: modo de emergencia y ATF</h1>\n<p class=\"intro\">El testigo del cambio automático, un engranaje con una exclamación o la palabra AT, avisa de un fallo de la transmisión o de un sobrecalentamiento del aceite ATF. La caja suele pasar a modo de emergencia: se queda en una sola marcha, normalmente la tercera, y limita el régimen. Detenerse a enfriar y revisar el nivel puede evitar una avería mayor.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: puede quedar en una marcha fija y dañar el cambio si se sigue forzando</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Caja automática, aceite ATF, solenoides, sensores de velocidad, mecatrónica</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0 € (enfriar) · 120–350 € (cambio de aceite) · 800–4.500 € (reparación o caja)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con acceso a transmisión, bomba de relleno de ATF, termómetro infrarrojo</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>El cuadro muestra un engranaje con exclamación, un mensaje «Transmisión» o una luz AT parpadeando.</li><li>La caja se queda en una sola marcha y no sube ni baja, con régimen alto en autopista.</li><li>Tirones o golpes al cambiar de marcha, o un retraso notable al engranar D o R.</li><li>Patinamiento: el motor sube de vueltas sin que el coche acelere en proporción.</li><li>Olor a quemado o aceite oscuro y con restos metálicos en la varilla.</li><li>El aviso aparece tras circular en subida, con remolque o en tráfico denso con calor.</li></ul>\n<h2>Causas principales</h2><ul><li>Aceite ATF sobrecalentado, degradado o en nivel insuficiente.</li><li>Solenoide de cambio o de presión averiado, que impide engranar las marchas.</li><li>Sensor de velocidad de entrada o de salida de la caja defectuoso.</li><li>Mecatrónica o centralita de la caja con fallo interno o actualización pendiente.</li><li>Embrague del convertidor de par o discos de fricción desgastados.</li><li>Radiador de aceite obstruido o con poca refrigeración, sobre todo con carga.</li><li>Cableado o conector de la caja con humedad, aceite o corrosión.</li></ul>\n<h2>Qué indica este testigo y qué significa cada estado</h2><p>Una caja automática de convertidor de par usa aceite ATF para transmitir fuerza, lubricar y accionar embragues hidráulicos. Una centralita decide los cambios con la velocidad, la carga y la posición del acelerador, y vigila la temperatura del aceite. Si detecta un fallo o un exceso de temperatura, se pasa a un programa de seguridad: limita la presión, bloquea marchas y enciende el testigo. Las cajas DSG de doble embrague o las CVT usan avisos similares con matices propios.</p><table class=\"cmp\"><thead><tr><th>Estado del aviso</th><th>Significado</th><th>Qué hacer</th></tr></thead><tbody><tr><td>Engranaje ámbar fijo</td><td>Fallo detectado en la caja</td><td>Evita ir deprisa y pide diagnóstico.</td></tr><tr><td>Parpadeo o mensaje de temperatura</td><td>ATF demasiado caliente</td><td>Detente, pon P y deja enfriar.</td></tr><tr><td>Rojo con mensaje de parar</td><td>Riesgo de daño inmediato</td><td>Para el coche y no lo muevas.</td></tr><tr><td>Modo de emergencia sin testigo claro</td><td>Caja bloqueada en una marcha</td><td>Conduce suave hasta el taller.</td></tr><tr><td>Mensaje de nivel de aceite</td><td>ATF bajo o sensor del nivel</td><td>Revisa el nivel con el procedimiento del fabricante.</td></tr></tbody></table><h2>Temperatura del aceite ATF y valores de referencia</h2><p>La temperatura normal de trabajo del ATF suele estar entre 80 y 100 °C, y puede llegar a 120 °C en uso exigente. Por encima de unos 130 °C, el aceite se degrada con rapidez y los retenes sufren; a partir de unos 150 °C, hay riesgo real de daño. Estas cifras son orientativas: consulta el manual del fabricante.</p><ul><li>Remolque, montaña y tráfico denso con calor son las situaciones donde más sube la temperatura.</li><li>El aceite nuevo es rojizo o ámbar y casi sin olor; oscuro y con olor a quemado indica desgaste.</li><li>Muchas cajas modernas son de llenado «de por vida» y su nivel se mide con la caja a una temperatura precisa, con una herramienta específica.</li><li>Un radiador de ATF obstruido, aunque el nivel sea correcto, eleva la temperatura en carga.</li></ul><blockquote class=\"tip\"><strong>Consejo:</strong> No intentes revisar el nivel de una caja sellada a ojo: se comprueba por el tapón de nivel con la caja a una temperatura determinada. Hazlo solo con las herramientas adecuadas.</blockquote>\n<h2>Qué hacer paso a paso según la situación</h2><ol><li>Reduce la velocidad con suavidad y busca un lugar seguro donde detenerte; no pises el acelerador a fondo.</li><li>Selecciona P, aplica el freno de estacionamiento y deja el motor al ralentí unos minutos para enfriar el aceite.</li><li>Si el aviso es de temperatura, apaga el motor tras el enfriado y espera antes de reanudar la marcha.</li><li>Comprueba si hay manchas rojas o marrones bajo el coche, que indicarían una fuga de ATF.</li><li>En cajas con varilla, mide el nivel con el motor en marcha y la caja caliente, según el manual del fabricante.</li><li>Arranca de nuevo: si el testigo se apaga y la caja cambia con normalidad, hazla revisar en breve de todos modos.</li><li>Conecta un escáner con acceso al módulo de transmisión y lee los códigos y la temperatura del ATF en vivo.</li><li>Comprueba los sensores de velocidad de entrada y salida, y el estado de los solenoides con una lectura de datos.</li><li>Revisa el radiador de aceite y sus manguitos por si están obstruidos, flojos o con fugas.</li><li>Planifica el cambio de aceite y filtro, y la adaptación de la caja, si el fabricante lo permite.</li></ol>\n<h2>Causas habituales y coste de la reparación</h2><table class=\"cmp\"><thead><tr><th>Causa</th><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Nivel bajo o aceite degradado</td><td>Cambio de ATF y filtro</td><td>120–350 €</td></tr><tr><td>Sensor de velocidad de caja</td><td>Sustituir</td><td>50–200 €</td></tr><tr><td>Solenoide o electroválvula</td><td>Sustituir</td><td>150–600 €</td></tr><tr><td>Radiador de ATF obstruido</td><td>Limpiar o sustituir</td><td>100–400 €</td></tr><tr><td>Mecatrónica o valve body</td><td>Reparar o sustituir</td><td>800–2.500 €</td></tr><tr><td>Caja automática completa</td><td>Reconstruir o cambiar</td><td>2.000–4.500 €</td></tr></tbody></table><p>Los importes cambian mucho según el tipo de caja y la marca. Un cambio de aceite a tiempo es, con diferencia, la medida más económica comparada con una reparación mayor.</p><h2>Errores frecuentes con el cambio automático</h2><ul><li>Seguir circulando con el modo de emergencia y forzar la caja a alta velocidad.</li><li>Rellenar con un ATF que no cumple la especificación exacta del fabricante.</li><li>Hacer un lavado a presión del circuito sin necesidad ni método adecuado.</li><li>Cambiar a N o a P con el coche en movimiento.</li><li>Dar por buena una caja de llenado de por vida sin cambiar nunca el aceite.</li></ul><h2>Cómo evitar que vuelva a encenderse</h2><ul><li>Cambia el ATF y el filtro con la periodicidad que marque el fabricante o antes si remolcas.</li><li>Para el coche por completo antes de cambiar entre D, R y P.</li><li>Evita acelerones en frío y mantén limpio el radiador de ATF.</li><li>Si arrastras remolque o circulas por montaña, vigila la temperatura y descansa si sube.</li></ul><h2>Cuándo acudir al taller o llamar a la grúa</h2><p>Si el coche queda en una sola marcha, el cuadro muestra un aviso rojo, ves humo, hueles a quemado o la caja patina, llama a la grúa antes de seguir. Un modo de emergencia leve con aviso ámbar permite ir despacio al taller, sin forzar. Pide siempre lectura de códigos y análisis del aceite: unos restos metálicos finos indican desgaste interno que cambia el presupuesto.</p><h2>Testigos relacionados</h2><ul><li>Testigo del motor: un fallo de transmisión puede registrarse también aquí.</li><li>Testigo de temperatura del refrigerante: el radiador de ATF suele compartir circuito con el del motor.</li><li>Testigo del ESP: un fallo de caja puede desactivar el control de tracción.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa el engranaje con exclamación?",
+      "answer": "Que la centralita de la caja ha detectado un fallo o un sobrecalentamiento del aceite y ha limitado el funcionamiento por protección."
+    },
+    {
+      "question": "¿Puedo conducir en modo de emergencia?",
+      "answer": "Sí, despacio y evitando autopistas, hasta el taller. Forzar la caja agrava la avería."
+    },
+    {
+      "question": "¿El aceite del cambio automático dura toda la vida?",
+      "answer": "Muchos fabricantes lo llaman así, pero el aceite se degrada. Cambiarlo cada 60.000–100.000 km, según uso, alarga la vida de la caja."
+    },
+    {
+      "question": "¿Por qué se calienta la caja?",
+      "answer": "Por remolque, subidas largas, tráfico lento con calor, aceite degradado o un radiador de ATF obstruido."
+    },
+    {
+      "question": "¿Se resetea el aviso apagando el motor?",
+      "answer": "A veces desaparece si el origen era térmico y ya se ha enfriado, pero el fallo queda guardado y conviene revisarlo."
+    },
+    {
+      "question": "¿Es más barato reparar la caja o cambiarla?",
+      "answer": "Depende del daño. Un solenoide o la mecatrónica suelen compensar; si hay desgaste general de embragues, la reconstrucción o la caja de ocasión puede ser mejor."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "aceite ATF para cambio automático",
+    "bomba de relleno de líquido de transmisión"
+  ],
+  "related": [
+    "testigo-motor",
+    "testigo-temperatura-refrigerante",
+    "testigo-esp",
+    "guia-como-usar-escaner-obd2"
+  ],
+  "featured_image": "/img/articulos/testigo-testigo-cambio-automatico.webp"
+}

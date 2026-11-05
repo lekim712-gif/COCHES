@@ -1,0 +1,53 @@
+{
+  "type": "testigo",
+  "name": "Testigo del control de crucero y limitador: por qué no se activa",
+  "datePublished": "2026-11-05",
+  "dateModified": "2026-11-05",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo control de crucero: por qué no se activa",
+    "meta_description": "Testigo del control de crucero y limitador de velocidad: cuándo se enciende, por qué no se activa y qué revisar en el interruptor de freno y los sensores.",
+    "slug": "testigo-control-crucero"
+  },
+  "content_html": "<h1>Testigo del control de crucero y limitador: por qué no se activa</h1>\n<p class=\"intro\">El testigo del control de crucero, un velocímetro con una flecha, se enciende en verde cuando el sistema mantiene la velocidad memorizada y en blanco o gris cuando está en espera. Si el sistema no se activa o se desconecta solo, suelen estar implicados el interruptor del pedal de freno, los sensores de velocidad o las condiciones de uso, más que un fallo grave.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: es una función de confort, el coche se conduce con normalidad sin ella</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Control de crucero, interruptor de freno y embrague, sensores de velocidad, mando del volante</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0 € (condiciones) · 15–80 € (interruptor de freno) · 150–450 € (mando o módulo)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, multímetro, manual del vehículo</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Al pulsar SET no se memoriza la velocidad y el testigo no pasa a verde.</li><li>El control de crucero se desconecta solo al soltar el acelerador o al pasar un bache.</li><li>El testigo de crucero parpadea o se apaga con un mensaje de «Control de crucero no disponible».</li><li>Las luces de freno se quedan encendidas o no se encienden al pisar el pedal.</li><li>Los botones del volante no responden o lo hacen de forma intermitente.</li><li>La velocidad oscila notablemente por encima y por debajo del valor memorizado.</li></ul>\n<h2>Causas principales</h2><ul><li>Interruptor del pedal de freno o de embrague desajustado o averiado.</li><li>Velocidad por debajo del mínimo de activación, a menudo entre 30 y 40 km/h, o marcha inadecuada.</li><li>Mando de control de crucero del volante sucio o con el muelle de contacto defectuoso.</li><li>Sensor de velocidad de rueda o ABS con fallo, que impide medir la velocidad con exactitud.</li><li>Fallo del acelerador electrónico o del cuerpo de mariposa.</li><li>Sistema inhibido por otra avería de motor, ESP o cambio, o por modo de emergencia.</li><li>Radar o cámara del crucero adaptativo sucios o descalibrados.</li></ul>\n<h2>Qué indica este testigo y qué significa cada estado</h2><p>El control de crucero mantiene la velocidad memorizada actuando sobre el acelerador electrónico. El limitador, en cambio, no acelera: impide superar un tope fijado. Ambos comparten mandos y a veces símbolos parecidos, lo que genera confusión. Para funcionar, la centralita requiere señales coherentes del interruptor de freno, de la velocidad y del acelerador, y se desconecta si alguna falta, ya que un fallo podría impedir frenar.</p><table class=\"cmp\"><thead><tr><th>Estado del testigo</th><th>Significado</th><th>Qué hacer</th></tr></thead><tbody><tr><td>Blanco o gris</td><td>Sistema encendido pero sin velocidad memorizada</td><td>Acelera hasta la velocidad y pulsa SET.</td></tr><tr><td>Verde con velocidad</td><td>Crucero activo y regulando</td><td>Normal.</td></tr><tr><td>Parpadea</td><td>Condición no cumplida o desconexión</td><td>Comprueba velocidad, marcha y pedales.</td></tr><tr><td>Ámbar con mensaje</td><td>Fallo del sistema</td><td>Escanea el módulo y revisa interruptor de freno.</td></tr><tr><td>Limitador en lugar de crucero</td><td>Tope de velocidad activo</td><td>Comprueba que has elegido la función correcta.</td></tr></tbody></table><h2>Condiciones y sensores que intervienen</h2><p>Cuando pulsas SET, la centralita verifica una serie de señales. Si una no es válida, el sistema no se activa, y a menudo sin mensaje de error, lo que explica que parezca una avería cuando es solo una condición sin cumplir.</p><ul><li>Interruptor de freno: debe informar con claridad de pedal suelto; una señal doble, con contactos redundantes, valida la lectura.</li><li>Interruptor de embrague o posición del cambio: en manuales se exige marcha engranada en un rango, y en automáticos una posición D.</li><li>Velocidad mínima: normalmente superior a 30–40 km/h, según el fabricante.</li><li>Estado de ESP, ABS y tracción: si hay actuación o fallo, el crucero se interrumpe.</li><li>Pendiente fuerte y marcha demasiado larga pueden hacer que el motor no sostenga la velocidad y el sistema se anule.</li></ul><blockquote class=\"tip\"><strong>Consejo:</strong> Un interruptor de freno defectuoso es la causa más frecuente y a la vez más barata: comprueba que se encienden las luces de freno al pisar y se apagan al soltar.</blockquote>\n<h2>Qué hacer paso a paso según la situación</h2><ol><li>Con la marcha larga y la velocidad estable por encima del mínimo, pulsa el botón principal y luego SET y observa el testigo.</li><li>Pisa el pedal de freno y comprueba que las luces traseras se encienden y se apagan correctamente al soltar.</li><li>Revisa que el pedal de freno y el de embrague vuelven a su posición sin quedar a medio recorrer.</li><li>Comprueba que no hay otros testigos encendidos, como el motor, el ABS o el ESP, que puedan inhibir el sistema.</li><li>Limpia los botones del volante y prueba cada función por separado; si alguna no responde, sospecha del mando.</li><li>Conecta un escáner y lee los códigos del control de crucero, del motor y del ABS.</li><li>Observa en vivo la señal del interruptor de freno: debe cambiar nítidamente al pisar y soltar.</li><li>Mide con un multímetro la tensión en el conector del interruptor de freno, según el esquema del fabricante.</li><li>Si el coche tiene crucero adaptativo, limpia la zona del radar y comprueba que no está tapada por barro, nieve o un accesorio.</li><li>Sustituye el interruptor o el mando averiado y comprueba su funcionamiento en una prueba de ruta.</li></ol>\n<h2>Causas habituales y coste de la reparación</h2><table class=\"cmp\"><thead><tr><th>Causa</th><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Condiciones de uso no cumplidas</td><td>Ninguna</td><td>0 €</td></tr><tr><td>Interruptor de freno o embrague</td><td>Sustituir y ajustar</td><td>15–80 €</td></tr><tr><td>Mando del volante</td><td>Limpiar o sustituir</td><td>40–250 €</td></tr><tr><td>Sensor de velocidad de rueda</td><td>Sustituir</td><td>40–180 €</td></tr><tr><td>Cuerpo de mariposa o acelerador</td><td>Limpiar o sustituir</td><td>80–450 €</td></tr><tr><td>Radar del crucero adaptativo</td><td>Recalibrar o sustituir</td><td>150–900 €</td></tr></tbody></table><p>Los costes son orientativos. En vehículos con crucero adaptativo, la calibración de radar tras una colisión o un cambio de parachoques suele requerir un taller con equipo específico.</p><h2>Errores frecuentes con el control de crucero</h2><ul><li>Usarlo en carreteras mojadas, con hielo o curvas, donde el control manual es más seguro.</li><li>Confundir el limitador de velocidad con el crucero y creer que el coche mantiene la velocidad.</li><li>Pensar que la luz de freno encendida de forma permanente es normal: indica un interruptor defectuoso.</li><li>Desmontar el interruptor sin recalibrar su posición, lo que afecta también a las luces de freno.</li><li>Ignorar un aviso del radar sucio en invierno.</li></ul><h2>Cómo evitar que vuelva a encenderse</h2><ul><li>Revisa de vez en cuando que las luces de freno funcionan correctamente.</li><li>Mantén limpios el radar, la cámara y el parabrisas delantero.</li><li>No pegues accesorios en la zona del sensor ni cubras la parrilla con fundas.</li><li>Haz leer los códigos si notas un funcionamiento irregular del pedal o del acelerador.</li></ul><h2>Cuándo acudir al taller o llamar a la grúa</h2><p>El control de crucero es un sistema de confort y puedes circular sin él. Acude al taller si las luces de freno no funcionan, si el acelerador responde mal, si el coche acelera solo o no frena el crucero al pisar el pedal. En esos casos desactiva el sistema, conduce con precaución y evita seguir circulando si el pedal no se comporta con normalidad. Una luz de freno fija o apagada es también un problema de seguridad y de ITV.</p><h2>Testigos relacionados</h2><ul><li>Testigo de bombilla fundida: una luz de freno inoperante puede inhibir el crucero.</li><li>Testigo del ESP: una actuación o fallo desactiva las ayudas, incluido el crucero.</li><li>Testigo del motor: un fallo del acelerador electrónico limita este sistema.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué no se activa el control de crucero?",
+      "answer": "Suele faltar una condición: velocidad baja, marcha inadecuada, pedal de freno defectuoso o un fallo de ABS o motor."
+    },
+    {
+      "question": "¿El interruptor de freno puede inutilizarlo?",
+      "answer": "Sí. Si la señal es incoherente, la centralita desactiva el crucero por seguridad, y suele ser la causa más barata de reparar."
+    },
+    {
+      "question": "¿Qué diferencia hay entre limitador y crucero?",
+      "answer": "El crucero mantiene una velocidad acelerando solo; el limitador solo impide superar un tope, sin acelerar por ti."
+    },
+    {
+      "question": "¿Se desconecta al pisar el embrague?",
+      "answer": "Sí, es normal: al pisar freno o embrague se interrumpe, y muchos sistemas permiten retomarlo con RES."
+    },
+    {
+      "question": "¿Por qué se apaga en las cuestas?",
+      "answer": "Si el motor no logra mantener la velocidad con la marcha engranada, o el cambio reduce, el sistema puede anularse."
+    },
+    {
+      "question": "¿El crucero adaptativo necesita calibración?",
+      "answer": "Sí, tras cambiar parachoques, parabrisas o el radar, o tras un golpe, para que detecte bien la distancia."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "interruptor de luz de freno"
+  ],
+  "related": [
+    "testigo-bombilla-fundida",
+    "testigo-esp",
+    "testigo-motor",
+    "guia-colores-testigos-tablero"
+  ],
+  "featured_image": "/img/articulos/testigo-testigo-control-crucero.webp"
+}
