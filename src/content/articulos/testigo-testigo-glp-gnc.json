@@ -1,0 +1,53 @@
+{
+  "type": "testigo",
+  "name": "Testigo del modo GLP o GNC: combustible, avisos y cuidados",
+  "datePublished": "2026-11-06",
+  "dateModified": "2026-11-06",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo GLP o GNC: nivel, cambio a gasolina y avisos",
+    "meta_description": "Testigo del modo GLP o GNC en coches bifuel: qué indican los pilotos, cuándo cambia a gasolina, avisos de nivel y cuidados del sistema de gas.",
+    "slug": "testigo-glp-gnc"
+  },
+  "content_html": "<h1>Testigo del modo GLP o GNC: combustible, avisos y cuidados</h1>\n<p class=\"intro\">Los coches transformados o de fábrica con GLP (autogás) o GNC (gas natural) tienen un testigo propio que muestra qué combustible usa el motor y el nivel de gas del depósito. Arrancan con gasolina, cambian a gas cuando alcanzan temperatura y vuelven a gasolina si falla algo o se agota el gas. Entender sus señales evita sustos y averías.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: el coche sigue funcionando con gasolina, pero conviene revisar el sistema de gas</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Depósito de gas, electroválvulas, reductor o regulador, inyectores de gas, centralita de gas, conmutador</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0 € (repostar) · 40–150 € (filtros) · 200–700 € (reductor o inyectores de gas)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, equipo de diagnóstico del instalador, detector de fugas de gas</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>El testigo de gas parpadea o cambia de color y el coche vuelve a gasolina sin avisar.</li><li>El conmutador no pasa a gas pasados varios minutos de conducción.</li><li>El nivel de gas baja con mucha rapidez o la aguja no refleja el contenido real.</li><li>Olor a gas junto al depósito, en el maletero o bajo el capó.</li><li>El motor tiene tirones o pérdida de potencia al funcionar con gas.</li><li>El testigo del motor se enciende al circular con gas y no con gasolina.</li></ul>\n<h2>Causas principales</h2><ul><li>Depósito de gas vacío o con nivel por debajo del mínimo para continuar con gas.</li><li>Temperatura insuficiente del reductor o del refrigerante, que impide cambiar a gas.</li><li>Filtros de fase líquida o gaseosa obstruidos por impurezas del combustible.</li><li>Fugas en latiguillos, electroválvulas o juntas del sistema de gas.</li><li>Inyectores de gas sucios o desajustados, o mezcla mal calibrada por la centralita de gas.</li><li>Fusible o relé del conmutador y de las electroválvulas fundido.</li><li>Bujías o bobinas desgastadas, que no soportan la combustión de gas, más lenta.</li></ul>\n<h2>Qué indica este testigo y qué significa cada estado</h2><p>La instalación bifuel añade una centralita propia que lee las señales de la inyección de gasolina y las adapta a los inyectores de gas. El conmutador, normalmente en el salpicadero, indica el combustible activo mediante luces y muestra el nivel del depósito con un número de leds. El arranque siempre se hace con gasolina; al alcanzar una temperatura de reductor y unas revoluciones determinadas, el sistema cierra la gasolina y abre las electroválvulas de gas.</p><table class=\"cmp\"><thead><tr><th>Indicación</th><th>Significado</th><th>Qué hacer</th></tr></thead><tbody><tr><td>Luz verde fija</td><td>Funcionando con gas</td><td>Normal.</td></tr><tr><td>Luz ámbar o naranja</td><td>Funcionando con gasolina</td><td>Normal en arranque y con depósito de gas vacío.</td></tr><tr><td>Parpadeo en el conmutador</td><td>Fallo o cambio forzado</td><td>Anota cuándo ocurre y escanea el sistema de gas.</td></tr><tr><td>Un solo led de nivel</td><td>Reserva de gas</td><td>Reposta pronto; se pasará a gasolina.</td></tr><tr><td>Zumbador continuo</td><td>Fallo grave o fuga</td><td>Para el coche y cierra las válvulas si es seguro.</td></tr></tbody></table><h2>Diferencias entre GLP y GNC</h2><p>El GLP, o autogás, es una mezcla de butano y propano que se almacena en forma líquida a una presión relativamente baja, de unos 5 a 10 bares, en un depósito toroidal que suele alojarse en el hueco de la rueda de repuesto. El GNC, o gas natural comprimido, es metano a una presión de unos 200 bares en bombonas cilíndricas de acero o fibra, más pesadas y voluminosas. Por eso el GNC suele llevar un depósito de gasolina pequeño y prioriza el uso de gas.</p><ul><li>Autonomía: el GLP aporta unos 400 a 700 km; el GNC de fábrica, unos 300 a 500 km con gas más gasolina.</li><li>Repostaje: en España el GLP tiene más puntos de suministro que el GNC.</li><li>Mantenimiento: ambos requieren revisión periódica del depósito y de las válvulas según la normativa vigente.</li><li>Dureza de los asientos: el gas quema con más temperatura y tolera peor un motor mal mantenido.</li></ul><blockquote class=\"tip\"><strong>Consejo:</strong> Mantén siempre algo de gasolina en el depósito: es la reserva con la que el coche arranca y la que te salva si te quedas sin gas.</blockquote>\n<h2>Qué hacer paso a paso según la situación</h2><ol><li>Si se enciende el aviso en marcha y el coche vuelve a gasolina, sigue con normalidad; el cambio es automático y seguro.</li><li>Si hay olor a gas, detén el coche, apaga el motor, no fumes ni uses llamas y aléjate del vehículo.</li><li>Comprueba el nivel de gas en el conmutador; si es bajo, reposta antes de seguir un viaje largo.</li><li>Revisa que el conmutador esté en posición de gas y que no haya fusibles fundidos en la caja del sistema.</li><li>Conecta el escáner OBD2 y lee los códigos del motor para descartar fallos de gasolina que afecten a la mezcla.</li><li>Conecta el equipo del instalador y comprueba los valores de la centralita de gas, como temperaturas, presión y tiempos de inyección.</li><li>Revisa filtros de gas, que deben cambiarse según el plan del instalador, normalmente cada 15 000 a 30 000 km.</li><li>Inspecciona visualmente los latiguillos y las uniones con agua jabonosa para detectar burbujas de fuga.</li><li>Cambia bujías y comprueba bobinas con el grado térmico adecuado para gas.</li><li>Calibra la instalación en el taller autorizado y registra la revisión en el libro de mantenimiento del equipo.</li></ol>\n<h2>Causas habituales y coste de la reparación</h2><table class=\"cmp\"><thead><tr><th>Causa</th><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Filtro de gas obstruido</td><td>Cambiar filtros</td><td>20–80 €</td></tr><tr><td>Bujías o bobinas</td><td>Cambiar por las adecuadas</td><td>60–300 €</td></tr><tr><td>Inyectores de gas sucios</td><td>Limpiar o sustituir</td><td>80–400 €</td></tr><tr><td>Reductor o regulador</td><td>Revisar o sustituir</td><td>200–700 €</td></tr><tr><td>Electroválvula o latiguillo con fuga</td><td>Sustituir</td><td>40–250 €</td></tr><tr><td>Calibrado de la centralita</td><td>Reajustar</td><td>40–120 €</td></tr></tbody></table><h2>Errores frecuentes con coches de gas</h2><ul><li>Circular con el depósito de gasolina casi vacío confiando solo en el gas.</li><li>Saltarse el cambio de filtros o las revisiones periódicas del depósito.</li><li>Instalar un sistema en un taller no autorizado y sin certificado, lo que invalida la ITV y el seguro.</li><li>Ignorar un olor leve a gas por considerarlo «normal».</li><li>Mantener bujías de gasolina estándar en un motor que funciona principalmente con gas.</li></ul><h2>Cómo evitar que vuelva a encenderse</h2><ul><li>Respeta las revisiones del equipo de gas y del depósito, que tiene fecha de caducidad e inspección obligatoria.</li><li>Cambia filtros y bujías en los plazos del instalador.</li><li>Usa el coche con gasolina de vez en cuando para mantener limpios los inyectores y la bomba.</li><li>Reposta en estaciones de calidad contrastada y no sobrepases el 80 por ciento del depósito de GLP.</li></ul><h2>Cuándo acudir al taller o llamar a la grúa</h2><p>Acude a un taller especializado en gas si hay olor persistente, si el sistema no pasa a gas, si el nivel baja de forma anómala o si el testigo del motor se enciende solo con gas. Ante un olor intenso a gas, llama a la grúa o a emergencias: no arranques el coche. Un sistema con fugas o con el depósito caducado es peligroso y puede ser motivo de rechazo en la ITV.</p><h2>Testigos relacionados</h2><ul><li>Testigo del motor: puede encenderse por fallos específicos del funcionamiento con gas.</li><li>Testigo de reserva de combustible: avisa del bajo nivel de gasolina del depósito principal.</li><li>Código P0171: mezcla pobre, frecuente en instalaciones mal calibradas.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué mi coche de GLP no pasa a gas?",
+      "answer": "Suele faltar temperatura del reductor, nivel de gas o hay un fusible o un filtro con problema. Si persiste, el instalador debe leer la centralita de gas."
+    },
+    {
+      "question": "¿Cuándo cambia a gasolina automáticamente?",
+      "answer": "Cuando el nivel de gas es mínimo, el motor arranca en frío, hay un fallo del sistema de gas o se detecta una mezcla errónea."
+    },
+    {
+      "question": "¿Es seguro aparcar un coche de GLP en un garaje?",
+      "answer": "En general sí, si la instalación está homologada y sin fugas. Algunos garajes subterráneos tienen restricciones, así que consulta el reglamento de la comunidad."
+    },
+    {
+      "question": "¿Cada cuánto hay que revisar el sistema de gas?",
+      "answer": "Cambia filtros cada 15 000 a 30 000 km y revisa el depósito y las válvulas conforme a la normativa y al plan del instalador."
+    },
+    {
+      "question": "¿El GNC y el GLP son intercambiables?",
+      "answer": "No. Son combustibles distintos, con depósitos, presiones e instalaciones distintas. No intentes repostar uno en un coche pensado para otro."
+    },
+    {
+      "question": "¿Gasto más al circular con gas?",
+      "answer": "El consumo en litros suele ser algo mayor, pero el precio por litro es menor, por lo que el coste por kilómetro baja de forma notable."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "detector de fugas de gas",
+    "filtro de gas para GLP"
+  ],
+  "related": [
+    "testigo-motor",
+    "testigo-reserva-combustible",
+    "guia-cambio-bujias",
+    "guia-consumo-excesivo-combustible"
+  ],
+  "featured_image": "/img/articulos/testigo-testigo-glp-gnc.webp"
+}

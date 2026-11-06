@@ -1,0 +1,53 @@
+{
+  "type": "guia",
+  "name": "El coche vibra al ralentí: causas y qué revisar",
+  "datePublished": "2026-11-06",
+  "dateModified": "2026-11-06",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "El coche vibra al ralentí: causas y qué revisar",
+    "meta_description": "Si tu coche vibra al ralentí, revisa los soportes del motor, las bujías, los inyectores, la mariposa y las fugas de aire. Guía de diagnóstico, costes y cuándo ir al taller.",
+    "slug": "guia-vibraciones-ralenti"
+  },
+  "content_html": "<h1>El coche vibra al ralentí: causas y qué revisar</h1>\n<p class=\"intro\">Si el coche vibra al ralentí, el motor no gira con la regularidad necesaria o sus apoyos ya no absorben las vibraciones. Las causas más habituales son soportes del motor rotos, bujías y bobinas gastadas, inyectores sucios, una mariposa con carbonilla o fugas de aire en la admisión. Con un diagnóstico ordenado se descubre el origen sin gastar de más.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: rara vez es urgente, pero puede destruir soportes y el catalizador si se ignora</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Soportes del motor, encendido, inyección, admisión, mariposa, EGR</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0 € (limpieza) · 60–300 € (bujías y bobinas) · 150–600 € (soportes) · 100–300 € (limpieza de inyectores)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Linterna, escáner OBD2, vacuómetro, limpiador de mariposa, juego de llaves</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Por qué importa y cómo funciona el ralentí</h2><p>Al ralentí, el motor gira a unas 700 a 900 revoluciones por minuto y la centralita regula con precisión el aire, el combustible y el encendido para mantener ese régimen con la menor vibración posible. Cada cilindro aporta un impulso; si uno falla o aporta menos, el motor se desequilibra y la carrocería lo transmite al habitáculo. Los soportes elásticos o hidráulicos del motor absorben el resto, y si están rotos, la vibración llega entera al volante y al asiento.</p><p>Distinguir entre una vibración de origen mecánico, como un soporte, y una de origen de combustión, como un fallo de encendido, es el primer paso. Una pista útil: si la vibración desaparece al meter marcha o al acelerar un poco, suele ser de combustión; si empeora con el motor cargado o al arrancar y calar, apunta al soporte.</p><h2>Cada cuánto y cuándo revisarlo</h2><table class=\"cmp\"><thead><tr><th>Elemento</th><th>Intervalo orientativo</th><th>Cuándo sospechar</th></tr></thead><tbody><tr><td>Bujías</td><td>Cada 30 000 a 100 000 km según el tipo</td><td>Vibración irregular con tirones</td></tr><tr><td>Bobinas y cables</td><td>Según desgaste</td><td>Fallos de encendido en un cilindro</td></tr><tr><td>Filtro de aire</td><td>Cada 15 000 a 30 000 km</td><td>Ralentí inestable y humo negro</td></tr><tr><td>Limpieza de la mariposa</td><td>Cada 40 000 a 60 000 km</td><td>Ralentí oscilante o cala al parar</td></tr><tr><td>Soportes del motor</td><td>Inspección anual</td><td>Golpes al arrancar o apagar</td></tr><tr><td>Inyectores</td><td>Cada 60 000 a 100 000 km</td><td>Ralentí áspero con consumo alto</td></tr></tbody></table><h2>Herramientas y materiales</h2><ul><li>Escáner OBD2 con lectura de fallos de encendido por cilindro y datos en vivo.</li><li>Linterna y espejo para inspeccionar los soportes y la admisión.</li><li>Limpiador específico de mariposa y de admisión.</li><li>Vacuómetro o humo de prueba para encontrar fugas de aire.</li><li>Gato, borriquetas y llaves, solo si vas a retirar piezas.</li></ul><blockquote class=\"tip\"><strong>Consejo:</strong> Antes de cambiar piezas, comprueba el nivel de aceite y el de refrigerante: un nivel muy bajo también altera el ralentí.</blockquote><h2>Los cuatro grupos de causas más habituales</h2><h3>Soportes del motor y del cambio</h3><p>Los soportes son bloques de goma, a veces rellenos de líquido, que sujetan el motor al chasis. Con los años se agrietan y dejan de amortiguar. El síntoma es una vibración que se transmite por el volante y el suelo, un golpe al engranar la marcha o un movimiento excesivo del motor al acelerar y soltar. Se comprueban con un ayudante mirando el motor mientras alterna marchas con el freno pisado, o bien levantando el motor con un gato y viendo la holgura.</p><h3>Encendido: bujías, bobinas y cables</h3><p>Una bujía desgastada o una bobina débil deja un cilindro sin quemar su mezcla. El motor «cojea» y se nota una vibración rítmica. El escáner suele registrar fallos de encendido, con códigos como P0301 a P0304, y la mejor prueba es intercambiar la bobina de un cilindro con otro y ver si el fallo se desplaza.</p><h3>Admisión, mariposa y fugas de aire</h3><p>La mariposa con carbonilla no regula bien el aire mínimo, y una fuga en una manguera, en la junta del colector o en el servofreno mete aire sin medir. La mezcla se vuelve pobre y el ralentí se hace inestable, a veces con silbido. Se localizan con humo de prueba o rociando con cuidado limpiador en frío y escuchando si cambia el régimen.</p><h3>Combustible: inyectores y presión</h3><p>Los inyectores sucios dosifican de forma irregular, y una presión baja de combustible empobrece la mezcla. El síntoma suele combinar ralentí áspero con mayor consumo. Un limpiador de inyectores en el depósito puede ayudar en casos leves, pero si hay un cilindro fallando, conviene probar caudal y estanqueidad en el taller.</p>\n<h2>Cómo diagnosticar la vibración paso a paso</h2><ol><li>Anota en qué condiciones vibra: en frío, en caliente, con el aire acondicionado, con la marcha puesta o siempre.</li><li>Comprueba que no hay testigos encendidos y lee con el escáner los códigos, incluidos los pendientes y los de fallo de encendido.</li><li>Mira los datos en vivo: ajustes de combustible, temperatura y régimen de ralentí; ajustes muy elevados indican fuga de aire.</li><li>Inspecciona las mangueras de admisión y el filtro de aire en busca de grietas, juntas sueltas o suciedad.</li><li>Limpia la mariposa con el producto adecuado, sin forzar la compuerta, y comprueba si el ralentí mejora.</li><li>Retira y revisa las bujías: electrodos gastados, depósitos o holgura excesiva indican cambio.</li><li>Prueba las bobinas intercambiándolas entre cilindros y observa si el fallo cambia de posición.</li><li>Con el freno pisado y el coche seguro, alterna la marcha adelante y atrás mientras alguien mira el motor para detectar movimientos excesivos.</li><li>Revisa el soporte del cambio y el de la barra de par, que también transmiten vibraciones.</li><li>Si nada lo explica, mide la compresión de los cilindros y la presión de combustible en un taller.</li></ol>\n<h2>Errores frecuentes</h2><ul><li>Cambiar bujías o inyectores sin escanear antes y sin buscar fugas de aire.</li><li>Limpiar la mariposa con herramientas abrasivas o sin desconectar el sistema de control electrónico.</li><li>Ignorar un soporte roto: las vibraciones dañan mangueras, escape y otros soportes.</li><li>Desconectar la batería para «resetear» el ralentí sin resolver la causa.</li><li>Usar un aditivo milagroso como solución única de un fallo mecánico.</li></ul><h2>Cuánto cuesta</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Limpieza de la mariposa</td><td>40–120 €</td></tr><tr><td>Juego de bujías</td><td>40–200 €</td></tr><tr><td>Bobina de encendido</td><td>40–150 € por unidad</td></tr><tr><td>Limpieza de inyectores</td><td>60–250 €</td></tr><tr><td>Soporte del motor</td><td>120–450 € por soporte</td></tr><tr><td>Reparar una fuga de aire</td><td>30–250 €</td></tr></tbody></table><h2>Cuándo es mejor llevarlo al taller</h2><p>Si el testigo del motor parpadea, hay un fallo de encendido evidente o el coche se cala, acude a un taller: seguir circulando puede dañar el catalizador. También si hay que bajar el motor para cambiar un soporte, tarea que requiere una grúa de taller o un soporte de motor. Si los síntomas persisten tras cambiar bujías y limpiar la mariposa, pide una prueba de compresión y de presión de combustible.</p><h2>Casos particulares y seguridad</h2><ul><li>Diésel: busca inyectores con retorno excesivo, bujías de precalentamiento y válvula EGR atascada.</li><li>Coches modernos con arranque y parada: los soportes activos o hidráulicos son más caros.</li><li>Motores de tres cilindros: vibran más por diseño, pero un cambio brusco indica avería.</li><li>Con el motor en marcha, mantén lejos manos y ropa de poleas y correas.</li><li>Nunca trabajes bajo un coche sostenido solo por un gato; usa borriquetas.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué vibra mi coche solo en ralentí y no al acelerar?",
+      "answer": "Suele deberse a un soporte del motor roto, una mariposa sucia o un fallo de encendido que deja de notarse al subir de vueltas."
+    },
+    {
+      "question": "¿Cuándo vibra por los soportes del motor?",
+      "answer": "Cuando hay golpes al arrancar o al apagar, vibración que baja al meter marcha y movimientos excesivos del motor al acelerar."
+    },
+    {
+      "question": "¿Puede la vibración dañar el coche?",
+      "answer": "Sí. Acelera el desgaste de soportes, mangueras y escape, y un fallo de encendido puede arruinar el catalizador."
+    },
+    {
+      "question": "¿Puedo limpiar la mariposa yo mismo?",
+      "answer": "Sí, con limpiador específico y sin forzar el eje. En mariposas electrónicas, algunos coches necesitan reaprendizaje con el escáner."
+    },
+    {
+      "question": "¿El aire acondicionado hace vibrar el coche?",
+      "answer": "Al conectar el compresor sube la carga del motor y un ralentí inestable se nota más. Si vibra mucho, hay otro problema de fondo."
+    },
+    {
+      "question": "¿Cuánto cuesta cambiar un soporte del motor?",
+      "answer": "Entre 120 y 450 € por soporte, con mano de obra incluida, según el modelo y si es hidráulico o de goma."
+    }
+  ],
+  "products": [
+    "limpiador de mariposa y admisión",
+    "escáner obd2 bluetooth elm327",
+    "juego de bujías"
+  ],
+  "related": [
+    "guia-cambio-bujias",
+    "guia-coche-se-cala",
+    "guia-vibraciones-volante",
+    "testigo-motor"
+  ],
+  "featured_image": "/img/articulos/guia-guia-vibraciones-ralenti.webp"
+}
