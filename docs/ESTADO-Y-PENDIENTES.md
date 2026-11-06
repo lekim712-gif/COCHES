@@ -132,3 +132,7 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 
 ## Actualización 05/11/2026
 - 171 fichas, todas de 900+ palabras. Lote del día (10): códigos P0069, P0352, P0220, P0138 y P0343; testigos de luces automáticas, turbo, cambio automático, control de crucero y agua en el filtro de combustible.
+
+## Actualización 06/11/2026
+- 181 fichas, todas de 900+ palabras. Lote del día (10): códigos P0107, P0122, P0192, P0405 y P0237; testigos de emisiones/catalizador, frenada de emergencia automática y modo GLP/GNC; guías «el coche vibra al ralentí» y «el coche tira hacia un lado».
+- Search Console: 1.801 impresiones, 7 clics, 86 páginas; P0600 y P0403 ya en primera página de Google.
