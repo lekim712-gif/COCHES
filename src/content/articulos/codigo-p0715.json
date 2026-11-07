@@ -1,0 +1,53 @@
+{
+  "type": "codigo",
+  "code": "P0715",
+  "name": "Circuito del sensor de velocidad de entrada o turbina",
+  "datePublished": "2026-11-07",
+  "dateModified": "2026-11-07",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0715: causas, síntomas y solución",
+    "meta_description": "Código P0715: fallo del sensor de velocidad de entrada o turbina de la caja automática. Causas, pruebas, diferencias con P0500 y P0730, cómo repararlo y costes.",
+    "slug": "p0715"
+  },
+  "content_html": "<h1>Código P0715: Circuito del sensor de velocidad de entrada o turbina</h1>\n<p class=\"intro\">El código P0715 aparece cuando el módulo de control de la transmisión (TCM) no recibe una señal fiable del sensor de velocidad de entrada o turbina de la caja automática. Ese sensor mide las revoluciones del eje que recibe el movimiento del motor. Sin ese dato, la TCM no puede calcular el deslizamiento y suele pasar a modo de emergencia con marchas fijas.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media-alta: cambios bruscos o modo de emergencia</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sensor de velocidad de entrada o turbina, cableado, conector, TCM, nivel de aceite ATF</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>60–900 €, según sea sensor, cableado o mecatrónica</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con acceso a la caja, multímetro, osciloscopio opcional, aceite ATF específico</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor o de caja automática encendido.</li><li>Cambios de marcha bruscos, tardíos o fuera de lugar.</li><li>Cambio bloqueado en una marcha fija, normalmente la tercera o la segunda.</li><li>Convertidor de par que no se bloquea, con aumento del consumo.</li><li>Velocímetro correcto, pero el cuentarrevoluciones y los cambios se comportan de forma extraña.</li><li>Fallo más frecuente cuando la caja está caliente o con la temperatura baja.</li><li>Presión de línea elevada, que se nota como golpe al engranar.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor de velocidad de entrada o turbina averiado por desgaste interno o por calor.</li><li>Conector o cableado del sensor con aceite, roces o terminales sulfatados.</li><li>Magnetismo disperso o limaduras ferrosas del aceite adheridas a la punta del sensor.</li><li>Tambor o rueda fónica del eje de entrada dañados.</li><li>Aceite ATF degradado, con nivel bajo o contaminado, que altera el funcionamiento.</li><li>Fallo en el mazo que comparte con otros sensores del cambio.</li><li>TCM defectuosa o con una actualización pendiente, la causa menos frecuente.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p><h2>Qué significa el código P0715 y cómo lo detecta la TCM</h2><p>En una caja automática, el eje de entrada recibe el giro del convertidor de par. Un sensor, normalmente de efecto Hall o inductivo, cuenta los dientes de un tambor solidario con ese eje y envía a la TCM una frecuencia que equivale al régimen de la turbina. La TCM lo compara con el régimen del motor y con el del eje de salida para saber cuánto desliza el convertidor y si la marcha engranada es la correcta.</p><p>La TCM activa el P0715 cuando la señal desaparece, es incoherente con las otras velocidades o tiene una forma eléctrica imposible mientras el coche circula. Como no puede gestionar los cambios con precisión, aplica una estrategia de emergencia: suele fijar una marcha y elevar la presión de línea para proteger los embragues, a costa del confort.</p><h2>P0715 frente a P0500 y P0730</h2><p>Los tres códigos se parecen en los síntomas, pero apuntan a circuitos diferentes.</p><table class=\"cmp\"><thead><tr><th>Código</th><th>Qué vigila</th><th>Diferencia clave</th></tr></thead><tbody><tr><td>P0715</td><td>Velocidad de entrada o turbina de la caja</td><td>Señal interna del cambio, antes del convertidor de par</td></tr><tr><td>P0500</td><td>Sensor de velocidad del vehículo</td><td>Señal de salida o de rueda, que afecta al velocímetro</td></tr><tr><td>P0730</td><td>Relación de marcha incorrecta</td><td>Deslizamiento mecánico o hidráulico, no un fallo del sensor</td></tr></tbody></table><p>En el P0715 el velocímetro suele funcionar, porque usa otra señal. En el P0500 sí es frecuente que falle. Y el P0730 puede aparecer tras un P0715 por la inconsistencia que provoca, aunque no sea una avería propia.</p><h2>Datos en vivo y valores de referencia</h2><ul><li>Régimen de la turbina o de entrada: con el coche parado en N o P debería igualar al motor, según el manual del fabricante.</li><li>En marcha, debe seguir al motor con un pequeño deslizamiento y cuadrar con la marcha engranada.</li><li>Velocidad del eje de salida: debe ser proporcional a la del coche; la relación con la turbina indica la marcha real.</li><li>Sensor Hall: alimentación de unos 5 o 12 V y una señal cuadrada que se ve con osciloscopio.</li><li>Sensor inductivo: resistencia típica entre 200 y 1.000 ohmios, según el manual del fabricante.</li><li>Temperatura del aceite ATF: lo normal ronda 80–100 °C en carretera.</li></ul><h2>Cómo distinguir la causa</h2><table class=\"cmp\"><thead><tr><th>Prueba</th><th>Resultado</th><th>Causa probable</th></tr></thead><tbody><tr><td>Escáner con el coche en marcha</td><td>Turbina a cero con motor girando</td><td>Sensor o cableado</td></tr><tr><td>Inspección del conector con aceite</td><td>Terminales húmedos o grasientos</td><td>Conector contaminado</td></tr><tr><td>Resistencia del sensor inductivo</td><td>Valor fuera de rango</td><td>Sensor averiado</td></tr><tr><td>Señal de salida correcta pero entrada ausente</td><td>Solo falla la de entrada</td><td>Sensor de entrada o rueda fónica</td></tr><tr><td>Nivel y estado del ATF</td><td>Bajo, oscuro o con olor a quemado</td><td>Mantenimiento de aceite pendiente o desgaste interno</td></tr><tr><td>Repetir tras reparar el cableado</td><td>Código ya no aparece</td><td>Mazo o conector</td></tr></tbody></table>\n<h2>Cómo diagnosticar el P0715 paso a paso</h2><ol><li>Lee todos los códigos, incluidos los de la TCM, y apunta si hay también P0500, P0720 o P0730.</li><li>Comprueba el nivel y el estado del aceite ATF siguiendo el procedimiento del fabricante, con la temperatura que indique.</li><li>Localiza el sensor de entrada en la carcasa de la caja y examina su conector y cableado.</li><li>Desconecta el conector, límpialo con limpiador de contactos y revisa los terminales sin forzarlos.</li><li>Mide la resistencia del sensor o su alimentación según el tipo y compara con la especificación del manual.</li><li>Mueve el mazo con el motor en marcha y el escáner conectado para detectar fallos intermitentes.</li><li>Retira el sensor, si es accesible, y limpia la punta de limaduras sin tocarla con herramientas magnéticas.</li><li>Comprueba que la rueda fónica o el tambor del eje de entrada no están dañados.</li><li>Sustituye el sensor o repara el cableado, aplicando un par de apriete correcto y una junta nueva si la pide.</li><li>Borra el código, adapta la caja si el fabricante lo exige y realiza una prueba que incluya varias marchas.</li></ol>\n<h2>Cuánto cuesta repararlo</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Limpieza de conector y revisión del mazo</td><td>0–80 €</td></tr><tr><td>Cambio de aceite ATF y filtro</td><td>120–400 €</td></tr><tr><td>Sensor de velocidad de entrada</td><td>40–200 € más mano de obra</td></tr><tr><td>Reparación del mazo de la caja</td><td>80–300 €</td></tr><tr><td>Mecatrónica o TCM, si es la causa</td><td>500–1.800 €</td></tr></tbody></table><h2>Errores frecuentes al diagnosticar</h2><ul><li>Confundir el P0715 con el P0500 y revisar el sensor de velocidad de las ruedas.</li><li>Desmontar la caja cuando el fallo estaba en un conector con aceite.</li><li>Usar un ATF distinto del especificado, que altera el funcionamiento.</li><li>Medir un sensor Hall con la resistencia, que no aporta información.</li><li>Seguir conduciendo con cambios bruscos, que acorta la vida de los embragues.</li></ul><h2>Cuándo acudir al taller</h2><ul><li>Si el cambio queda en modo de emergencia o se producen golpes al engranar.</li><li>Si el aceite huele a quemado o contiene partículas metálicas.</li><li>Si hay que adaptar la TCM tras sustituir una pieza.</li><li>Si el sensor está en el interior de la caja y exige abrir el cárter.</li></ul><h2>Códigos relacionados</h2><ul><li>P0716: rendimiento o rango del sensor de velocidad de entrada.</li><li>P0717: señal ausente en el circuito del sensor de entrada.</li><li>P0720: circuito del sensor de velocidad de salida.</li><li>P0500: fallo del sensor de velocidad del vehículo.</li><li>P0730: relación de marcha incorrecta.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa el código P0715?",
+      "answer": "Que la TCM detecta un fallo en el circuito del sensor de velocidad de entrada o turbina de la caja automática."
+    },
+    {
+      "question": "¿En qué se diferencia del P0500?",
+      "answer": "El P0500 se refiere a la velocidad del vehículo; el P0715 afecta al eje de entrada de la caja y suele no afectar al velocímetro."
+    },
+    {
+      "question": "¿Puedo conducir con el P0715?",
+      "answer": "Se puede, pero el cambio queda en modo de emergencia y los embragues sufren; conviene repararlo pronto."
+    },
+    {
+      "question": "¿Se arregla cambiando el aceite?",
+      "answer": "Solo si el ATF está en mal estado o a un nivel bajo; en la mayoría de los casos hay que tratar el sensor o el cableado."
+    },
+    {
+      "question": "¿Es difícil cambiar el sensor?",
+      "answer": "Depende del modelo: en unas cajas es accesible desde el exterior y en otras exige desmontar el cárter o la mecatrónica."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar el P0715?",
+      "answer": "Entre 60 y 400 € si es sensor o cableado, y bastante más si hay que sustituir la mecatrónica."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "limpiador de contactos eléctricos"
+  ],
+  "related": [
+    "p0500",
+    "p0730",
+    "testigo-cambio-automatico",
+    "guia-multimetro-sensores"
+  ]
+}

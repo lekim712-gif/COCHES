@@ -1,0 +1,53 @@
+{
+  "type": "guia",
+  "name": "El coche consume aceite: cuánto es normal y causas",
+  "datePublished": "2026-11-07",
+  "dateModified": "2026-11-07",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "El coche consume aceite: cuánto es normal y causas",
+    "meta_description": "Cuánto aceite puede consumir un motor sin que sea un problema, qué causas lo disparan (retenes, segmentos, turbo, cárter) y cómo medirlo bien en casa.",
+    "slug": "guia-coche-consume-aceite"
+  },
+  "content_html": "<h1>El coche consume aceite: cuánto es normal y causas</h1>\n<p class=\"intro\">Todos los motores consumen algo de aceite, porque una fina película queda en las paredes del cilindro y se quema. El problema es cuando ese consumo supera lo razonable y obliga a rellenar entre cambios. Aquí verás cuánto es normal por cada 1.000 km, cómo medirlo con método y qué piezas suelen estar detrás de un consumo excesivo.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: un nivel bajo de aceite puede dañar el motor de forma grave</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Segmentos y cilindros, retenes de válvula, turbo, ventilación del cárter, juntas</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>5–15 € (aceite) · 60–200 € (válvula PCV) · 400–2.500 € (turbo o segmentos)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Varilla, embudo, aceite del tipo indicado, libreta, escáner OBD2</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Por qué importa y cómo se consume el aceite</h2><p>El aceite lubrica las piezas del motor, pero parte de él se pierde por tres vías: se quema en la cámara de combustión cuando pasa por los segmentos o los retenes de válvula, se pierde en el escape si el turbo tiene holgura, o se escapa por juntas y retenes en forma de fuga externa. Distinguir la vía es la clave del diagnóstico, porque cada una tiene un coste muy distinto.</p><p>El riesgo real es olvidarse de comprobar el nivel. Un motor que consume un litro cada 1.000 km y sin revisión puede quedarse corto en unos miles de kilómetros, con el consiguiente desgaste de casquillos, árbol de levas y turbo.</p><h2>Cuánto consumo es normal</h2><p>No existe una cifra universal, pero muchos fabricantes consideran aceptable hasta 0,5 litros cada 1.000 km en motores modernos y algo más en motores de alto rendimiento, turbo o con muchos kilómetros. El manual del propietario indica el límite de tu motor. Un coche nuevo en rodaje puede gastar más durante los primeros 10.000 km.</p><table class=\"cmp\"><thead><tr><th>Consumo cada 1.000 km</th><th>Valoración</th><th>Qué hacer</th></tr></thead><tbody><tr><td>Menos de 0,1 L</td><td>Excelente</td><td>Nada, revisa el nivel en cada cambio.</td></tr><tr><td>0,1–0,3 L</td><td>Normal</td><td>Controla el nivel cada 1.000–2.000 km.</td></tr><tr><td>0,3–0,5 L</td><td>Límite</td><td>Mide con método y busca fugas o humo.</td></tr><tr><td>0,5–1 L</td><td>Excesivo</td><td>Diagnóstico en taller: compresión, turbo, ventilación.</td></tr><tr><td>Más de 1 L</td><td>Grave</td><td>Reparación necesaria; rellena con frecuencia hasta entonces.</td></tr></tbody></table><h2>Cada cuánto y cómo medir el consumo</h2><p>Mide siempre en las mismas condiciones: coche en llano, motor apagado y frío o parado al menos diez minutos, y varilla limpia y reintroducida a fondo. Anota el nivel justo tras un cambio de aceite, rellenando hasta el máximo, y repite la medición a 1.000 y 2.000 km. La diferencia, medida con un recipiente graduado al rellenar, es tu consumo real.</p><table class=\"cmp\"><thead><tr><th>Momento</th><th>Qué hacer</th></tr></thead><tbody><tr><td>Tras el cambio de aceite</td><td>Rellenar hasta el máximo y anotar los kilómetros.</td></tr><tr><td>A los 1.000 km</td><td>Medir, rellenar con un recipiente graduado y anotar los litros.</td></tr><tr><td>A los 2.000–3.000 km</td><td>Repetir y comparar para sacar la media.</td></tr><tr><td>Antes de un viaje largo</td><td>Comprobar el nivel y llevar un litro de reserva.</td></tr></tbody></table>\n<h2>Causas del consumo excesivo y cómo distinguirlas</h2><ol><li>Busca fugas externas: manchas bajo el coche, humedad en la tapa de balancines, el cárter o el retén del cigüeñal.</li><li>Observa el humo del escape: azulado al arrancar o al soltar el acelerador tras una bajada indica retenes de válvula; azul constante apunta a segmentos.</li><li>Comprueba si hay humo azul al acelerar fuerte con el turbo, lo que sugiere holgura del eje del turbo.</li><li>Revisa la ventilación del cárter (válvula PCV y mangueras): si se obstruye, la presión interna empuja aceite a la admisión.</li><li>Mira el interior de la manguera de admisión y del intercooler en busca de aceite acumulado, común con turbo desgastado.</li><li>Retira las bujías en gasolina y mira si están aceitosas; en diésel, observa la tapa de llenado y el humo en frío.</li><li>Haz una prueba de compresión o de estanqueidad de cilindros para evaluar segmentos y cilindros.</li><li>Comprueba que el aceite empleado sea del grado y la norma que pide el fabricante; uno demasiado fluido aumenta el consumo.</li><li>Revisa si el consumo coincide con trayectos cortos en frío o con conducción a alto régimen constante.</li><li>Si hay un testigo de nivel o de presión de aceite, escanea el motor para ver si hay códigos asociados.</li></ol>\n<h2>Causas más frecuentes según el síntoma</h2><table class=\"cmp\"><thead><tr><th>Síntoma</th><th>Causa probable</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Humo azul al arrancar, desaparece pronto</td><td>Retenes de válvula endurecidos</td><td>250–700 €</td></tr><tr><td>Humo azul continuo y consumo alto</td><td>Segmentos o cilindros desgastados</td><td>800–2.500 €</td></tr><tr><td>Aceite en el intercooler o admisión</td><td>Turbo con holgura o ventilación obstruida</td><td>60–200 € (PCV) · 500–1.500 € (turbo)</td></tr><tr><td>Manchas bajo el coche</td><td>Junta de tapa de balancines o retén del cigüeñal</td><td>80–400 €</td></tr><tr><td>Consumo alto con motor poco usado</td><td>Aceite incorrecto o tramos cortos</td><td>5–15 €</td></tr></tbody></table><h2>Herramientas y materiales</h2><ul><li>Varilla y trapo limpio para leer el nivel.</li><li>Embudo y recipiente graduado para rellenar con precisión.</li><li>Aceite del grado y norma indicados en el manual.</li><li>Libreta o aplicación para registrar kilómetros y litros.</li><li>Linterna para buscar fugas y humedad.</li></ul><h2>Errores frecuentes</h2><ul><li>Rellenar por encima del máximo, lo que provoca espuma y más consumo.</li><li>Comprobar el nivel con el motor caliente y recién parado, sin esperar a que el aceite baje.</li><li>Cambiar a un aceite más espeso para tapar el consumo sin diagnosticar la causa.</li><li>Ignorar el humo azul en frío como algo normal en motores viejos.</li><li>Añadir aditivos milagro que enmascaran el síntoma y no reparan la avería.</li></ul><h2>Cuándo es mejor llevarlo al taller</h2><p>Si el consumo supera 0,5 litros cada 1.000 km, si aparece humo azul constante o si el testigo de presión de aceite parpadea, acude al taller. Un motor sin aceite suficiente puede gripar en pocos minutos. Rellena de inmediato si el nivel está en el mínimo y no circules con el nivel por debajo de esa marca. Un turbo con holgura lubrica mal y puede romper el motor si suelta fragmentos.</p><h2>Casos particulares</h2><ul><li>Motores de gasolina con inyección directa: son más propensos a acumular depósitos y a consumir algo más a alto régimen.</li><li>Diésel con filtro de partículas: la regeneración puede diluir aceite con gasóleo y subir el nivel; no es consumo, es dilución.</li><li>Motores turbo pequeños: un consumo moderado puede ser normal por las altas cargas de trabajo.</li><li>Coches con muchos kilómetros: segmentos y retenes se desgastan y el consumo sube de forma gradual.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cuánto aceite es normal que gaste un coche?",
+      "answer": "Hasta unos 0,5 litros cada 1.000 km en muchos motores modernos, aunque el límite exacto lo marca el fabricante. Menos de 0,3 L suele considerarse un consumo bajo."
+    },
+    {
+      "question": "¿Cómo mido el consumo de aceite correctamente?",
+      "answer": "Rellena hasta el máximo tras el cambio, anota los kilómetros y mide a 1.000 y 2.000 km con el coche en llano y el motor parado. La cantidad rellenada es el consumo."
+    },
+    {
+      "question": "¿El humo azul siempre es aceite quemado?",
+      "answer": "Casi siempre, sí. Al arrancar suele indicar retenes de válvula; constante apunta a segmentos o turbo con holgura."
+    },
+    {
+      "question": "¿Puede el turbo hacer que el coche consuma aceite?",
+      "answer": "Sí. Si los retenes del eje se desgastan, el aceite pasa al escape o a la admisión y el consumo sube de forma notable."
+    },
+    {
+      "question": "¿Es peligroso circular con poco aceite?",
+      "answer": "Mucho. Con el nivel por debajo del mínimo la lubricación falla y el motor se daña en poco tiempo. Rellena antes de seguir."
+    },
+    {
+      "question": "¿Qué aceite debo usar en un motor que consume?",
+      "answer": "El que indica el fabricante en su grado y norma. Uno ligeramente más viscoso puede ayudar en motores muy usados, pero no sustituye la reparación."
+    }
+  ],
+  "products": [
+    "aceite de motor 5W30",
+    "embudo y botella graduada para aceite",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "guia-cambio-aceite",
+    "testigo-nivel-aceite",
+    "testigo-presion-aceite",
+    "guia-humo-del-escape"
+  ],
+  "featured_image": "/img/articulos/guia-guia-coche-consume-aceite.webp"
+}

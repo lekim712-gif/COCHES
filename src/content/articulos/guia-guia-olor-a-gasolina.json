@@ -1,0 +1,53 @@
+{
+  "type": "guia",
+  "name": "El coche huele a gasolina: causas y riesgos",
+  "datePublished": "2026-11-07",
+  "dateModified": "2026-11-07",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "El coche huele a gasolina: causas y riesgos",
+    "meta_description": "Olor a gasolina dentro o fuera del coche: causas (fugas, inyectores, sistema EVAP, tapón), riesgo de incendio y qué hacer de inmediato con seguridad.",
+    "slug": "guia-olor-a-gasolina"
+  },
+  "content_html": "<h1>El coche huele a gasolina: causas y riesgos</h1>\n<p class=\"intro\">Un olor intenso a gasolina en el coche no debe tomarse a la ligera: el combustible es inflamable y una fuga puede acabar en incendio. Puede venir de una fuga en el circuito, de inyectores, del sistema de vapores o de un simple tapón mal cerrado. Aquí verás cómo distinguirlo y cuándo detener el coche y llamar a una grúa.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta si el olor es fuerte o hay goteo: riesgo de incendio</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Depósito, tuberías, inyectores, rail, sistema EVAP, tapón de combustible, escape</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–10 € (tapón) · 40–150 € (latiguillo) · 100–400 € (inyector) · 300–900 € (depósito)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Linterna, guantes, extintor a mano, escáner OBD2, comprobador de presión (taller)</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Por qué importa el olor a gasolina</h2><p>La gasolina libera vapores muy inflamables que se encienden con una chispa o con el calor del escape o del colector. Un pequeño goteo sobre un tubo caliente es suficiente. Por eso un olor persistente, sobre todo con el motor en marcha o tras aparcar, requiere atención inmediata y no se resuelve con ambientadores ni dejando el coche en el garaje.</p><p>No todo olor implica una fuga. Es normal notar un ligero olor al repostar o al arrancar en frío con la mezcla rica. Lo preocupante es el olor fuerte, constante o acompañado de manchas, humo, pérdida de potencia o consumo disparado.</p><h2>Dónde huele y qué suele indicar</h2><table class=\"cmp\"><thead><tr><th>Dónde se nota</th><th>Causa probable</th><th>Gravedad</th></tr></thead><tbody><tr><td>Fuera del coche, junto al depósito</td><td>Tapón mal cerrado, junta del depósito o tubo de llenado</td><td>Media a alta</td></tr><tr><td>Dentro del habitáculo al arrancar</td><td>Fuga en el compartimento motor o aspiración de vapores</td><td>Alta</td></tr><tr><td>Bajo el coche, con mancha</td><td>Fuga en tubería, filtro o depósito</td><td>Muy alta</td></tr><tr><td>En el escape, con humo negro</td><td>Mezcla rica por inyector o sensor</td><td>Media</td></tr><tr><td>Tras repostar, solo un rato</td><td>Sistema EVAP o tapón defectuoso</td><td>Media</td></tr><tr><td>Con motor caliente y parado</td><td>Inyector o regulador de presión con fuga</td><td>Alta</td></tr></tbody></table><h2>Qué hacer de inmediato si el olor es fuerte</h2><ul><li>Detén el coche en un lugar seguro, lejos de edificios y de fuentes de calor, y apaga el motor.</li><li>No fumes ni uses llamas, mecheros ni dispositivos que puedan producir chispas.</li><li>Sal del vehículo, aléjate y, si ves goteo en el suelo, no arranques de nuevo.</li><li>Llama a una grúa o a la asistencia en carretera; no intentes arrancar para llegar al taller.</li><li>Si ves llamas o humo, aléjate y llama al 112.</li></ul><blockquote class=\"tip\"><strong>Consejo:</strong> No desconectes la batería ni manipules cables en el lugar si huele con intensidad: una chispa puede encender los vapores. Ventila abriendo puertas y deja que lo revise un profesional.</blockquote>\n<h2>Cómo localizar el origen paso a paso</h2><ol><li>Aparca en exterior, con el motor frío y apagado, y busca manchas o humedad bajo el coche, sobre todo bajo el depósito.</li><li>Comprueba que el tapón del depósito cierra bien, que su junta no está agrietada y que suena el chasquido al apretar.</li><li>Con linterna, revisa las tuberías de combustible, el filtro y las conexiones del compartimento motor en busca de humedad o brillo.</li><li>Examina el raíl de inyección y los inyectores: manchas de gasolina y olor concentrado delatan una junta o un inyector con fuga.</li><li>Mira las mangueras de goma de combustible: grietas, abultamientos o endurecimiento indican fin de vida.</li><li>Escanea el motor con un lector OBD2 y anota los códigos EVAP (como P0440, P0442 o P0455) o de mezcla rica.</li><li>Comprueba si el olor aparece solo tras repostar o al llenar el depósito completo, lo que apunta al cánister del EVAP.</li><li>Observa el escape: humo negro y olor a gasolina sin quemar sugieren inyectores que gotean o sonda lambda defectuosa.</li><li>Revisa si el nivel de aceite sube y huele a gasolina: hay dilución por inyectores o arranques fríos repetidos.</li><li>Si no localizas el origen o ves goteo, no sigas buscando: lleva el coche al taller en grúa.</li></ol>\n<h2>Causas más frecuentes y coste</h2><table class=\"cmp\"><thead><tr><th>Causa</th><th>Cómo se detecta</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Tapón de combustible defectuoso</td><td>Olor tras repostar, código EVAP</td><td>5–25 €</td></tr><tr><td>Latiguillo o tubería con fuga</td><td>Humedad y olor bajo el coche</td><td>40–200 €</td></tr><tr><td>Inyector o junta con fuga</td><td>Olor en el motor, ralentí irregular</td><td>100–400 €</td></tr><tr><td>Electroválvula o cánister EVAP</td><td>Códigos EVAP, olor tras repostar</td><td>60–350 €</td></tr><tr><td>Regulador de presión</td><td>Mezcla rica, humo negro, aceite con gasolina</td><td>60–250 €</td></tr><tr><td>Depósito corroído o perforado</td><td>Goteo desde el depósito</td><td>300–900 €</td></tr></tbody></table><h2>Errores frecuentes</h2><ul><li>Seguir circulando con olor fuerte pensando que es algo pasajero.</li><li>Arrancar el motor para ver si el goteo continúa, en lugar de pedir una grúa.</li><li>Apretar o aflojar conexiones de combustible sin despresurizar el circuito, que mantiene presión tras apagar.</li><li>Ignorar un código EVAP porque el coche anda bien: puede ocultar una fuga de vapores.</li><li>Usar el coche con aceite que huele a gasolina, ya que pierde lubricación.</li></ul><h2>Cuándo es mejor llevarlo al taller</h2><p>Cualquier fuga visible, olor intenso persistente o goteo requiere un taller. El circuito de combustible trabaja a presión, de unas 3 a 4 bar en inyección indirecta y a mucha más en inyección directa, por lo que no debe manipularse sin experiencia ni sin despresurizarlo. Tampoco hay que tratar de reparar tuberías con cinta o selladores, ya que no soportan la presión ni el calor.</p><h2>Consejos de seguridad y casos particulares</h2><ul><li>No guardes bidones de gasolina en el maletero ni dentro del habitáculo.</li><li>Al repostar, para el motor y no uses el teléfono ni fumes junto al surtidor.</li><li>Los coches diésel huelen a gasóleo, no a gasolina; una fuga allí es menos inflamable pero igual de contaminante.</li><li>En coches bifuel de GLP el olor es a gas, más dulce y penetrante; ante la duda, corta el suministro y acude a un taller especializado.</li><li>Mantén un extintor adecuado en el coche y revisa su caducidad.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Es peligroso que mi coche huela a gasolina?",
+      "answer": "Sí, si el olor es fuerte o constante. Los vapores son inflamables y una fuga sobre piezas calientes puede provocar un incendio."
+    },
+    {
+      "question": "¿Por qué huele a gasolina al arrancar?",
+      "answer": "En frío la mezcla es más rica y puede haber olor leve. Si es intenso, sospecha de una fuga, un inyector o un fallo del sistema EVAP."
+    },
+    {
+      "question": "¿Puede un tapón de combustible provocar olor a gasolina?",
+      "answer": "Sí. Si no sella bien o su junta está dañada, escapan vapores y puede encenderse el testigo del motor con un código EVAP."
+    },
+    {
+      "question": "¿Qué hago si veo gasolina goteando bajo el coche?",
+      "answer": "No arranques, aléjate del vehículo, evita chispas y llama a una grúa. Es una fuga activa y el riesgo de incendio es alto."
+    },
+    {
+      "question": "¿Puede el aceite oler a gasolina?",
+      "answer": "Sí, cuando hay dilución por inyectores con fuga o arranques fríos repetidos. Hay que revisar el motor y cambiar el aceite."
+    },
+    {
+      "question": "¿Cuánto cuesta reparar una fuga de combustible?",
+      "answer": "Desde unos 5 € por un tapón hasta 300–900 € si el depósito está perforado. Un latiguillo o inyector suele estar entre 40 y 400 €."
+    }
+  ],
+  "products": [
+    "extintor para coche",
+    "tapón de depósito de combustible",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "guia-consumo-excesivo-combustible",
+    "guia-filtro-combustible",
+    "guia-fugas-bajo-el-coche",
+    "testigo-motor"
+  ],
+  "featured_image": "/img/articulos/guia-guia-olor-a-gasolina.webp"
+}

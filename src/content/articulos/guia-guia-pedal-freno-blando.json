@@ -1,0 +1,53 @@
+{
+  "type": "guia",
+  "name": "Pedal de freno blando o esponjoso: causas y qué hacer",
+  "datePublished": "2026-11-07",
+  "dateModified": "2026-11-07",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Pedal de freno blando o esponjoso: causas y solución",
+    "meta_description": "Pedal de freno blando, esponjoso o que se hunde: causas (aire, líquido, latiguillos, bomba, servofreno), cuándo no circular y cuánto cuesta repararlo.",
+    "slug": "guia-pedal-freno-blando"
+  },
+  "content_html": "<h1>Pedal de freno blando o esponjoso: causas y qué hacer</h1>\n<p class=\"intro\">Un pedal de freno blando, esponjoso o que se hunde hasta el fondo es una avería de seguridad. Indica que el circuito no transmite bien la presión: puede haber aire, falta de líquido, un latiguillo hinchado o una bomba que pierde. Si el pedal baja mucho o no frena, no circules y llama a una grúa; con una duda razonable, no arriesgues.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta: afecta directamente a la capacidad de frenar</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Líquido de frenos, latiguillos, bomba, pinzas, servofreno, ABS</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>25–60 € (purga) · 40–120 € (latiguillo) · 150–450 € (bomba) · 200–600 € (servofreno)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Llave de purga, manguera transparente, líquido DOT, gato y borriquetas, manómetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Por qué importa y cómo funciona el freno hidráulico</h2><p>Al pisar el pedal, la bomba de freno empuja líquido incompresible por tuberías y latiguillos hasta las pinzas o bombines, que aprietan pastillas o zapatas. El servofreno multiplica la fuerza de tu pie usando el vacío del motor. Cualquier fallo que deje entrar aire, reduzca el líquido o permita que el circuito se expanda cambia la sensación del pedal.</p><p>El aire se comprime, el líquido no. Por eso un pedal esponjoso, que se hunde de forma elástica, suele indicar aire o latiguillos hinchados, mientras que uno duro y casi inmóvil apunta al servofreno, y uno que baja poco a poco con el pie quieto sugiere una fuga interna de la bomba.</p><h2>Cómo se siente el pedal y qué indica</h2><table class=\"cmp\"><thead><tr><th>Sensación del pedal</th><th>Causa probable</th><th>Gravedad</th></tr></thead><tbody><tr><td>Blando y esponjoso, mejora al bombear</td><td>Aire en el circuito o líquido con humedad</td><td>Alta</td></tr><tr><td>Se hunde despacio con el pie quieto</td><td>Fuga interna en la bomba de freno</td><td>Muy alta</td></tr><tr><td>Baja al fondo sin frenar</td><td>Pérdida de líquido o fallo de un circuito</td><td>Crítica: no circular</td></tr><tr><td>Duro y con poco efecto</td><td>Fallo del servofreno o falta de vacío</td><td>Alta</td></tr><tr><td>Blando solo tras un trayecto largo</td><td>Líquido hirviendo por exceso de humedad</td><td>Alta</td></tr><tr><td>Pedal vibra y pulsa</td><td>Disco alabeado o ABS actuando</td><td>Media</td></tr></tbody></table><h2>Cuándo no debes circular</h2><ul><li>Si el pedal llega casi al suelo o frena muy poco, el coche no es seguro.</li><li>Si el testigo rojo del freno está encendido con el pedal blando.</li><li>Si el depósito de líquido está en el mínimo o vacío.</li><li>Si hay manchas de líquido en las ruedas o bajo el coche.</li><li>Si el pedal se hunde bajo presión mantenida en un semáforo.</li></ul><blockquote class=\"tip\"><strong>Consejo:</strong> En caso de duda, no conduzcas. Un freno que falla puede costar mucho más que una grúa. Si el pedal mejora al bombear, es señal de aire: aun así, no sigas circulando.</blockquote>\n<h2>Qué comprobar paso a paso</h2><ol><li>Con el coche parado y frío, mira el nivel del depósito de líquido de frenos y compáralo con las marcas de mínimo y máximo.</li><li>Revisa el color del líquido: si está oscuro o turbio, contiene humedad y debe cambiarse.</li><li>Comprueba el pedal con el motor parado: bombea varias veces y vuelve a pisar con firmeza; debe quedarse duro y firme.</li><li>Arranca el motor con el pedal pisado: debe bajar un poco y quedarse; si no baja, el servofreno no ayuda.</li><li>Mantén el pie firme unos 30 segundos; si el pedal desciende, hay fuga interna de la bomba.</li><li>Mira alrededor de las ruedas, los latiguillos y las pinzas: humedad o brillo de líquido delatan una fuga.</li><li>Examina los latiguillos en busca de grietas, abultamientos o rozaduras que se hinchan al pisar.</li><li>Comprueba el desgaste de pastillas y discos: pastillas al límite alargan el recorrido del pedal.</li><li>Si hubo cambio reciente de pastillas o líquido, sospecha de aire en el circuito y de una purga mal hecha.</li><li>No intentes purgar ni reparar si no tienes experiencia: lleva el coche a un taller en grúa.</li></ol>\n<h2>Causas más frecuentes y coste</h2><table class=\"cmp\"><thead><tr><th>Causa</th><th>Cómo se detecta</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Aire en el circuito</td><td>Pedal esponjoso que mejora al bombear</td><td>25–60 € (purga)</td></tr><tr><td>Líquido viejo con humedad</td><td>Color oscuro, pedal blando en bajadas largas</td><td>40–80 €</td></tr><tr><td>Latiguillo hinchado</td><td>Pedal elástico y rueda que arrastra</td><td>40–120 € por eje</td></tr><tr><td>Fuga en pinza, tubería o bombín</td><td>Líquido en la rueda, nivel bajando</td><td>80–300 €</td></tr><tr><td>Bomba de freno</td><td>Pedal que se hunde con el pie quieto</td><td>150–450 €</td></tr><tr><td>Servofreno</td><td>Pedal duro, silbido de aire</td><td>200–600 €</td></tr></tbody></table><h2>Errores frecuentes</h2><ul><li>Seguir conduciendo con un pedal que mejora bombeando, creyendo que el problema es leve.</li><li>Rellenar el depósito sin buscar la fuga: si el nivel baja, hay una pérdida real.</li><li>Mezclar tipos de líquido incompatibles, como DOT 5 con DOT 3 o DOT 4.</li><li>Purgar sin conocer el orden correcto de las ruedas ni el procedimiento del ABS.</li><li>Dejar el depósito abierto mucho tiempo: el líquido absorbe humedad del aire.</li></ul><h2>Cuándo es mejor llevarlo al taller</h2><p>Siempre que el pedal cambie de sensación sin motivo, el taller debe revisar el circuito. Los frenos son un elemento de seguridad crítico y las reparaciones exigen purgas precisas, líquido adecuado y pruebas en banco. Si el pedal se hunde, si hay fugas visibles o si el testigo de freno se enciende, llama a una grúa y no conduzcas.</p><h2>Consejos de seguridad y prevención</h2><ul><li>Cambia el líquido de frenos cada dos años o según indique el fabricante, aunque no se note.</li><li>Revisa pastillas y discos en cada mantenimiento y sustitúyelos antes del límite.</li><li>Ante una bajada larga, usa marchas cortas para no sobrecalentar los frenos.</li><li>Con el coche elevado, apóyalo siempre en borriquetas, nunca solo en el gato.</li><li>Tras cualquier intervención en los frenos, prueba el coche a baja velocidad antes de circular.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Por qué el pedal de freno está blando?",
+      "answer": "Lo más habitual es aire en el circuito, líquido con humedad, un latiguillo hinchado o una fuga. También puede deberse a una bomba o servofreno defectuosos."
+    },
+    {
+      "question": "¿Puedo conducir con el pedal esponjoso?",
+      "answer": "No es seguro. Un pedal esponjoso reduce la capacidad de frenado y puede empeorar de golpe. Lo prudente es llamar a una grúa."
+    },
+    {
+      "question": "¿Qué significa que el pedal se hunda hasta el fondo?",
+      "answer": "Que el circuito no mantiene la presión: hay una fuga grave o una bomba de freno con fallo interno. No debes circular."
+    },
+    {
+      "question": "¿La purga siempre soluciona un pedal blando?",
+      "answer": "Solo si la causa es aire o líquido degradado. Si hay fuga, latiguillo hinchado o bomba defectuosa, la purga no basta."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar un pedal de freno blando?",
+      "answer": "Desde unos 25–60 € si basta con purgar hasta 450 € o más si hay que cambiar la bomba o el servofreno."
+    },
+    {
+      "question": "¿Con qué frecuencia debo cambiar el líquido de frenos?",
+      "answer": "Cada dos años en la mayoría de coches. Con el tiempo absorbe humedad, hierve a menor temperatura y el pedal se vuelve blando."
+    }
+  ],
+  "products": [
+    "líquido de frenos DOT 4",
+    "kit de purga de frenos",
+    "borriquetas para coche"
+  ],
+  "related": [
+    "guia-liquido-de-frenos",
+    "guia-ruidos-al-frenar",
+    "guia-cuando-cambiar-frenos",
+    "testigo-freno"
+  ],
+  "featured_image": "/img/articulos/guia-guia-pedal-freno-blando.webp"
+}

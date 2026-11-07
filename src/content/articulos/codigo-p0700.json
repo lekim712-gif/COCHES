@@ -1,0 +1,53 @@
+{
+  "type": "codigo",
+  "code": "P0700",
+  "name": "Fallo del sistema de control de la transmisión",
+  "datePublished": "2026-11-07",
+  "dateModified": "2026-11-07",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0700: causas, síntomas y solución",
+    "meta_description": "Código P0700: la TCM pide encender el testigo por un fallo en la transmisión. Cómo leer los códigos propios del cambio, causas, pruebas y costes.",
+    "slug": "p0700"
+  },
+  "content_html": "<h1>Código P0700: Fallo del sistema de control de la transmisión</h1>\n<p class=\"intro\">El código P0700 es un aviso genérico: la unidad de control de la transmisión (TCM) detecta una avería propia y pide a la centralita del motor que encienda el testigo. No indica por sí mismo qué falla. La información útil está en los códigos almacenados en la TCM, que un escáner básico no siempre muestra, y por eso el P0700 casi nunca se diagnostica por separado.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media-alta: depende del fallo registrado en la caja</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>TCM, sensores de velocidad, electroválvulas, mecatrónica, red CAN, nivel y estado del ATF</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>50–2.500 €, según la avería de fondo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con acceso a la TCM, multímetro, sonda de temperatura, aceite ATF específico</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor o de cambio automático encendido.</li><li>Cambios de marcha bruscos, lentos o en modo de emergencia.</li><li>Marcha atrás o primera que no engrana con normalidad.</li><li>El cambio se queda en una marcha fija, sin sacar las demás.</li><li>Testigo que se apaga y vuelve al apagar y arrancar de nuevo.</li><li>Cuentarrevoluciones elevado por un convertidor que patina.</li><li>En algunos modelos, el coche no permite arrancar fuera de P o N.</li></ul>\n<h2>Causas principales</h2><ul><li>Fallo de un sensor de velocidad, de temperatura o de presión dentro de la caja.</li><li>Electroválvula o solenoide de cambio bloqueada o con circuito eléctrico abierto.</li><li>ATF degradado, con nivel bajo o contaminado por desgaste de embragues.</li><li>Mazo de cables o conector de la caja con aceite, roces o humedad.</li><li>Problemas en la red CAN entre motor, ABS y TCM.</li><li>TCM con fallo interno, con software desactualizado o con tensión de alimentación baja.</li><li>Desgaste mecánico: embragues, bandas o bomba de aceite.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p><h2>Qué significa el código P0700 y cómo lo detecta la TCM</h2><p>En los coches con caja automática, la TCM se comunica con la centralita del motor. Cuando detecta una avería que afecta a emisiones o a la seguridad de la transmisión, almacena su propio código, normalmente de la serie P07xx, P08xx o P09xx, y envía una petición a la ECU del motor para que encienda el testigo. Esa petición es el P0700.</p><p>Por tanto, el P0700 funciona como señalizador, no como diagnóstico. Si se lee con un lector que solo accede al motor, aparece sin más datos. Hay que conectar con un escáner capaz de abrir la TCM y consultar los códigos específicos y los datos de congelación. En una caja de doble embrague o en una de tipo CVT ocurre lo mismo.</p><h2>Cómo leer los códigos propios del cambio</h2><ul><li>Usa un escáner con selección de módulo: motor, transmisión, ABS. Elige la transmisión.</li><li>Lee los códigos activos y pendientes y los datos de congelación: temperatura del ATF, velocidad y marcha.</li><li>Apunta todos los códigos de la TCM antes de borrar nada; el siguiente paso depende de ellos.</li><li>Si el lector solo acepta modo genérico, prueba con uno de marca o consulta en un taller con diagnosis.</li><li>Revisa si hay boletines técnicos o actualizaciones de software de la TCM para tu modelo.</li></ul><blockquote class=\"tip\"><strong>Consejo:</strong> Si el escáner solo muestra el P0700, no cambies piezas: eso no es un diagnóstico. Hay que abrir la TCM.</blockquote><h2>Datos en vivo y valores de referencia</h2><ul><li>Temperatura del aceite ATF: lo normal ronda 80–100 °C, y con más de 120 °C hay riesgo de daño, según el manual del fabricante.</li><li>Tensión de la batería: por debajo de 11 V, la TCM puede registrar errores falsos.</li><li>Marcha solicitada frente a marcha real: no deben diferir de forma persistente.</li><li>Deslizamiento del convertidor: unas decenas de rpm es normal; cientos de rpm indican patinaje.</li><li>Presión de línea, si el escáner la muestra, comparándola con la especificación del fabricante.</li></ul><h2>Cómo distinguir la causa</h2><table class=\"cmp\"><thead><tr><th>Hallazgo en la TCM</th><th>Causa probable</th><th>Siguiente paso</th></tr></thead><tbody><tr><td>Código de sensor de velocidad</td><td>Sensor o cableado</td><td>Revisar y medir el sensor</td></tr><tr><td>Código de solenoide o electroválvula</td><td>Solenoide, mazo o mecatrónica</td><td>Medir resistencia y alimentación</td></tr><tr><td>Códigos de relación de marcha</td><td>Desgaste de embragues o presión baja</td><td>Revisar ATF y presión</td></tr><tr><td>Códigos de comunicación U</td><td>Red CAN o alimentación</td><td>Revisar masas y batería</td></tr><tr><td>Sin códigos propios</td><td>Fallo intermitente o histórico</td><td>Prueba en carretera y seguimiento</td></tr></tbody></table>\n<h2>Cómo diagnosticar el P0700 paso a paso</h2><ol><li>Conecta un escáner con acceso a la transmisión y lee todos los códigos de la TCM antes de hacer otra cosa.</li><li>Anota los códigos y los datos de congelación, y comprueba si son activos o solo registrados.</li><li>Revisa la tensión de la batería y el estado de las masas, porque una alimentación baja genera errores en la caja.</li><li>Comprueba el nivel y el estado del ATF con el procedimiento del fabricante, sin sobrellenar.</li><li>Inspecciona visualmente el mazo y los conectores de la caja en busca de aceite o roces.</li><li>Sigue la guía de diagnóstico del código específico de la TCM, empezando por lo eléctrico.</li><li>Haz una prueba en carretera observando marcha solicitada, marcha real y deslizamiento.</li><li>Consulta si existe una actualización de software de la TCM para tu modelo.</li><li>Repara la causa concreta; evita sustituir la mecatrónica sin una prueba que la señale.</li><li>Borra los códigos y conduce un ciclo completo para verificar que el testigo no regresa.</li></ol>\n<h2>Cuánto cuesta repararlo</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Diagnosis de la TCM</td><td>40–120 €</td></tr><tr><td>Cambio de ATF y filtro</td><td>120–400 €</td></tr><tr><td>Sensor o reparación del mazo</td><td>60–300 €</td></tr><tr><td>Solenoides o mecatrónica</td><td>400–1.800 €</td></tr><tr><td>Reparación de caja</td><td>1.500–3.500 €</td></tr></tbody></table><h2>Errores frecuentes al diagnosticar</h2><ul><li>Intentar resolver el P0700 como si fuera un fallo concreto.</li><li>Borrar los códigos y perder los datos de congelación de la TCM.</li><li>Cambiar el aceite por un ATF genérico que no cumple la especificación.</li><li>Ignorar una batería débil que genera avisos erróneos.</li><li>Forzar el uso del coche con la caja patinando, que acelera el desgaste.</li></ul><h2>Cuándo acudir al taller</h2><ul><li>Siempre que el escáner básico no abra la TCM.</li><li>Si hay cambios bruscos, patinaje o modo de emergencia.</li><li>Si hay olor a quemado o aceite con partículas.</li><li>Si se necesitan adaptaciones o actualizaciones de software.</li></ul><h2>Códigos relacionados</h2><ul><li>P0715: circuito del sensor de velocidad de entrada.</li><li>P0730: relación de marcha incorrecta.</li><li>P0750: fallo en el solenoide de cambio A.</li><li>P0841: rendimiento del sensor de presión del fluido de la transmisión.</li><li>U0101: pérdida de comunicación con la TCM.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa el código P0700?",
+      "answer": "Que la TCM ha pedido encender el testigo por una avería de la transmisión; el motivo está en los códigos propios del cambio."
+    },
+    {
+      "question": "¿Por qué no me da más información?",
+      "answer": "Porque el P0700 solo señala; los datos están en la TCM y hay que consultarla con un escáner que acceda a ella."
+    },
+    {
+      "question": "¿Puedo seguir conduciendo?",
+      "answer": "Depende de los síntomas; con cambios bruscos, patinaje o modo de emergencia conviene parar y diagnosticar."
+    },
+    {
+      "question": "¿Se quita el testigo borrando el código?",
+      "answer": "Se apaga al borrar, pero si la avería sigue, volverá a encenderse."
+    },
+    {
+      "question": "¿Es un fallo del motor?",
+      "answer": "No necesariamente: lo detecta la TCM y lo comunica al motor para que encienda el testigo."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar el P0700?",
+      "answer": "Desde unos 50 € de diagnosis hasta más de 2.000 € si hay avería mecánica o de mecatrónica."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "limpiador de contactos eléctricos"
+  ],
+  "related": [
+    "testigo-cambio-automatico",
+    "testigo-motor",
+    "p0730",
+    "guia-como-usar-escaner-obd2"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "type": "codigo",
+  "code": "C0035",
+  "name": "Circuito del sensor de velocidad de la rueda delantera izquierda",
+  "datePublished": "2026-11-07",
+  "dateModified": "2026-11-07",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código C0035: causas, síntomas y solución",
+    "meta_description": "Código C0035: fallo en el circuito del sensor de velocidad de la rueda delantera izquierda (ABS/ESP). Causas, pruebas del sensor y anillo, precauciones y costes.",
+    "slug": "c0035"
+  },
+  "content_html": "<h1>Código C0035: Circuito del sensor de velocidad de la rueda delantera izquierda</h1>\n<p class=\"intro\">El código C0035 pertenece a la familia de códigos de chasis y señala un fallo en el circuito del sensor de velocidad de la rueda delantera izquierda. La unidad de ABS y ESP deja de recibir una señal válida de esa rueda, desconecta las ayudas a la frenada y enciende sus testigos. El freno hidráulico normal sigue funcionando, pero el coche pierde antibloqueo y control de estabilidad.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Alta: sin ABS ni control de estabilidad ni de tracción</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sensor de rueda, anillo fónico o rodamiento con imán, cableado, unidad ABS/ESP</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–400 €, según sea sensor, rodamiento o cableado</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con acceso a ABS, multímetro, limpiador de contactos, cepillo no metálico</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigos de ABS y de ESP encendidos de forma fija.</li><li>Testigo de control de tracción apagado o con avisos de función no disponible.</li><li>Cuentakilómetros o velocímetro con lecturas erráticas en algunos modelos.</li><li>Pedal de freno con tacto normal, pero sin pulsación del ABS en frenadas fuertes.</li><li>Bloqueo de la rueda delantera izquierda en frenadas a fondo sobre mojado.</li><li>Fallo intermitente que aparece con la humedad, con baches o al girar el volante.</li><li>Aviso de averías en el control de crucero o en el asistente de frenada.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor de velocidad con el elemento interno degradado o sucio de limaduras metálicas.</li><li>Cableado del sensor con aislamiento roto por el movimiento de la dirección y la suspensión.</li><li>Conector del sensor o del paso de rueda con humedad, sulfatación o terminal flojo.</li><li>Anillo fónico dañado, con dientes rotos, oxidado o con una zona sin imantar.</li><li>Rodamiento de rueda con holgura excesiva, que varía el entrehierro del sensor.</li><li>Entrehierro incorrecto tras un trabajo de frenos o suspensión mal montado.</li><li>Fallo interno de la unidad ABS, la causa menos frecuente.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p><h2>Qué significa el código C0035 y cómo lo detecta la unidad de ABS</h2><p>Los códigos que empiezan por C corresponden al chasis: frenos, dirección y suspensión. En el C0035, la unidad ABS vigila continuamente la señal del sensor de velocidad de la rueda delantera izquierda, que genera una frecuencia proporcional a la velocidad gracias a un anillo con dientes o con polos magnéticos que gira con la rueda.</p><p>La unidad compara las cuatro ruedas entre sí. Si una señal desaparece, es incoherente o tiene un nivel eléctrico imposible, la considera defectuosa y la excluye. Como el sistema no puede saber si una rueda está bloqueándose sin su velocidad, desactiva el ABS, el ESP y el control de tracción, y guarda el código con las condiciones en las que ocurrió.</p><p>Hay dos tecnologías de sensor. El inductivo, antiguo, genera una tensión alterna y se mide como resistencia. El activo, de efecto Hall o magnetorresistivo, necesita alimentación y devuelve una señal digital; no se puede probar con el mismo método. Conviene saber cuál lleva el coche antes de medir.</p><h2>Datos en vivo y valores de referencia</h2><p>Con un escáner que acceda al ABS, y según el manual del fabricante, observa estos datos en una prueba en carretera segura.</p><ul><li>Velocidad de las cuatro ruedas, que deben coincidir con diferencias mínimas en recta.</li><li>La rueda delantera izquierda marcando cero, o saltos bruscos, indica que la señal es incorrecta.</li><li>Sensor inductivo: resistencia típica entre 800 y 2.000 ohmios, según el manual del fabricante.</li><li>Sensor activo: alimentación de unos 8–12 V desde la unidad y señal de corriente entre unos 7 y 14 mA.</li><li>Estado del interruptor de freno y del ángulo de volante, por si el fallo se debe a otra señal.</li></ul><h2>Cómo distinguir la causa</h2><table class=\"cmp\"><thead><tr><th>Prueba</th><th>Resultado</th><th>Causa probable</th></tr></thead><tbody><tr><td>Escáner en rueda en movimiento</td><td>Cero en una sola rueda</td><td>Sensor, cable o anillo de esa rueda</td></tr><tr><td>Inspección visual del anillo</td><td>Dientes rotos o óxido</td><td>Anillo fónico o rodamiento</td></tr><tr><td>Resistencia del sensor inductivo</td><td>Infinito o casi cero</td><td>Sensor averiado o cable roto</td></tr><tr><td>Mover el cable con la rueda girada</td><td>La señal se interrumpe</td><td>Cableado fatigado</td></tr><tr><td>Holgura de la rueda con el coche elevado</td><td>Juego apreciable</td><td>Rodamiento desgastado</td></tr><tr><td>Entrehierro del sensor</td><td>Fuera del rango del fabricante</td><td>Montaje incorrecto o sensor mal asentado</td></tr></tbody></table>\n<h2>Cómo diagnosticar el C0035 paso a paso</h2><ol><li>Lee los códigos del ABS con un escáner que acceda a esa unidad y comprueba si hay otros de velocidad de rueda o de la unidad.</li><li>Aparca en llano, con el freno de mano puesto y calzos en las ruedas traseras, antes de elevar la delantera.</li><li>Eleva el coche con un gato y colócalo en caballetes de seguridad; nunca trabajes bajo un coche sostenido solo por el gato.</li><li>Retira la rueda y examina el sensor, el cable, los pasacables y el conector en busca de roces y corrosión.</li><li>Limpia con un cepillo no metálico la punta del sensor y la zona del anillo, que acumulan limaduras magnéticas.</li><li>Comprueba el estado y el giro del anillo fónico; ante dientes dañados, sustituye el conjunto afectado.</li><li>Mide la resistencia o la alimentación del sensor según su tipo, moviendo el mazo para detectar cortes intermitentes.</li><li>Verifica la holgura del rodamiento moviendo la rueda de arriba abajo y comprueba que no hay ruido de rodadura.</li><li>Sustituye el sensor, el cable o el rodamiento según el hallazgo y respeta el entrehierro indicado.</li><li>Borra el código y prueba en carretera, comprobando que los testigos se apagan y las cuatro ruedas marcan lo mismo.</li></ol>\n<h2>Precauciones de seguridad y frenado</h2><ul><li>Con el ABS inactivo, el coche frena de forma convencional: aumenta la distancia de frenada en mojado y la rueda puede bloquearse.</li><li>Reduce la velocidad, mantén más distancia y evita frenadas bruscas hasta reparar el fallo.</li><li>No soples ni lubriques el sensor con productos grasos, que atraen limaduras.</li><li>Los trabajos con el coche elevado requieren caballetes y suelo firme.</li><li>Si el pedal está blando o hay fugas de líquido, es un problema distinto y grave: no conduzcas.</li></ul><h2>Cuánto cuesta repararlo</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Limpieza de sensor y conector</td><td>0–60 €</td></tr><tr><td>Reparación de cableado o conector</td><td>40–150 €</td></tr><tr><td>Sensor de velocidad nuevo</td><td>25–120 € más mano de obra</td></tr><tr><td>Rodamiento con anillo magnético</td><td>100–350 €</td></tr><tr><td>Unidad ABS reparada o sustituida</td><td>250–1.200 €</td></tr></tbody></table><h2>Errores frecuentes al diagnosticar</h2><ul><li>Cambiar la unidad de ABS cuando el fallo estaba en un cable roto o un sensor sucio.</li><li>Confundir una rueda delantera izquierda con otra por la numeración del fabricante.</li><li>Probar con el multímetro un sensor activo como si fuera inductivo.</li><li>Montar un sensor nuevo con el entrehierro ocupado por óxido o suciedad.</li><li>Limpiar el código y no comprobar si vuelve en carretera.</li></ul><h2>Cuándo acudir al taller</h2><ul><li>Si hay holgura o ruido en el rodamiento, que implica la seguridad de la rueda.</li><li>Si el anillo fónico va integrado en el rodamiento y requiere prensa.</li><li>Si se sospecha de la unidad ABS o hay que programarla.</li><li>Si el fallo es intermitente y no se localiza a simple vista.</li></ul><h2>Códigos relacionados</h2><ul><li>C0040: circuito del sensor de velocidad de la rueda delantera derecha.</li><li>C0045: circuito del sensor de la rueda trasera izquierda.</li><li>C0050: circuito del sensor de la rueda trasera derecha.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa el código C0035?",
+      "answer": "Que la unidad de ABS y ESP detecta un fallo en el circuito del sensor de velocidad de la rueda delantera izquierda."
+    },
+    {
+      "question": "¿Puedo conducir con el C0035?",
+      "answer": "Sí, con el freno convencional, pero sin ABS ni ESP; hay que conducir con más prudencia y repararlo cuanto antes."
+    },
+    {
+      "question": "¿Es siempre el sensor?",
+      "answer": "No: también pueden ser el cableado, el conector, el anillo fónico o el rodamiento de rueda."
+    },
+    {
+      "question": "¿Cómo sé qué rueda es la delantera izquierda?",
+      "answer": "Se toma como referencia el lado del conductor según el sentido de marcha, no el de circulación del país; el escáner indica la rueda afectada."
+    },
+    {
+      "question": "¿Se puede limpiar un sensor de ABS?",
+      "answer": "Sí, quitando las limaduras con un cepillo suave y sin grasa; a menudo basta para recuperar la señal."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar el C0035?",
+      "answer": "Entre 0 y 150 € si es limpieza o cableado, entre 80 y 250 € con sensor nuevo, y más si hay que cambiar el rodamiento."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "limpiador de contactos eléctricos"
+  ],
+  "related": [
+    "testigo-abs",
+    "testigo-esp",
+    "testigo-freno",
+    "guia-multimetro-sensores"
+  ]
+}

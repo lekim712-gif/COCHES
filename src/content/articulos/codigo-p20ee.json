@@ -1,0 +1,53 @@
+{
+  "type": "codigo",
+  "code": "P20EE",
+  "name": "Eficiencia del catalizador SCR por debajo del umbral",
+  "datePublished": "2026-11-07",
+  "dateModified": "2026-11-07",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P20EE: causas, síntomas y solución",
+    "meta_description": "Código P20EE en diésel con AdBlue: el catalizador SCR no reduce suficiente NOx. Causas, pruebas de sensores de NOx, calidad del AdBlue, inyector y costes.",
+    "slug": "p20ee"
+  },
+  "content_html": "<h1>Código P20EE: Eficiencia del catalizador SCR por debajo del umbral</h1>\n<p class=\"intro\">El código P20EE indica que el sistema SCR de un diésel con AdBlue no reduce los óxidos de nitrógeno (NOx) tanto como la centralita espera. Compara la lectura del sensor de NOx situado antes del catalizador con la del situado después. Si la diferencia es menor de la prevista, almacena el fallo y enciende el testigo, con riesgo de limitación de arranque si no se corrige.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media-alta: incumple emisiones y puede acabar en cuenta atrás de arranques</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Catalizador SCR, inyector de AdBlue, sensores de NOx, depósito y bomba de AdBlue, calefacción del sistema</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>80–2.500 €, según sea líquido, sensor, inyector o catalizador</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con datos en vivo y funciones del SCR, refractómetro de AdBlue, multímetro, linterna</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor o de AdBlue encendido, a veces con un mensaje de revisar el sistema de emisiones.</li><li>Aviso de distancia restante antes de que el coche no vuelva a arrancar.</li><li>Consumo de AdBlue anormalmente alto o, al contrario, casi nulo.</li><li>Olor a amoniaco procedente del escape tras una conducción prolongada.</li><li>Depósitos blanquecinos o cristalizados en el inyector o en el tubo de escape.</li><li>En algunos modelos, limitación de potencia sin otros síntomas de motor.</li><li>Reaparición del código poco después de borrarlo, sobre todo tras trayectos largos en carretera.</li></ul>\n<h2>Causas principales</h2><ul><li>AdBlue contaminado, diluido con agua o degradado por calor o por exceder su caducidad.</li><li>Inyector de AdBlue obstruido por cristales de urea, con pulverización deficiente.</li><li>Sensor de NOx aguas abajo envejecido, que lee más NOx del real, o sensor de entrada que lee menos.</li><li>Catalizador SCR agotado, contaminado por aceite o refrigerante, o con su recubrimiento dañado.</li><li>Fugas de escape antes del sensor de NOx que falsean la lectura.</li><li>Bomba de AdBlue con presión insuficiente o línea calefactada con fallo.</li><li>Exceso de NOx en origen por un EGR bloqueado o inyectores diésel defectuosos.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p><h2>Qué significa el código P20EE y cómo lo detecta la centralita</h2><p>El SCR (reducción catalítica selectiva) inyecta una disolución de urea al 32,5 por ciento en el escape caliente. La urea se descompone en amoniaco, que reacciona en el catalizador con los NOx y los convierte en nitrógeno y vapor de agua. La centralita dosifica el AdBlue según el régimen, la carga y la temperatura, y comprueba el resultado con dos sensores de NOx: uno antes y otro después del catalizador.</p><p>La eficiencia se calcula comparando ambas lecturas. Si, con el sistema a temperatura de trabajo y un caudal de gases suficiente, la conversión queda por debajo del umbral programado durante varios ciclos de conducción, aparece el P20EE. Que el código figure como eficiencia no implica que el catalizador esté dañado: la misma conclusión puede salir de un líquido en mal estado, de una dosificación pobre o de un sensor que miente.</p><h2>Datos en vivo y valores de referencia</h2><p>Con el escáner, y siempre según el manual del fabricante, estos son los parámetros que ayudan a decidir.</p><ul><li>NOx de entrada: entre unos cientos y más de mil ppm según la carga, con picos al acelerar.</li><li>NOx de salida: debería ser una fracción de la entrada con el SCR caliente; si es casi igual, no hay conversión.</li><li>Temperatura del SCR: la dosificación suele empezar por encima de 180–200 °C y rinde mejor entre 250 y 450 °C.</li><li>Cantidad dosificada y presión de la bomba, que muchos escáneres muestran en la función de test del actuador.</li><li>Nivel y temperatura del depósito de AdBlue, además de su calidad si el vehículo tiene sensor.</li><li>Con el motor parado y el contacto dado, ambos sensores de NOx deberían indicar valores bajos y similares tras su calentamiento.</li></ul><h2>Cómo distinguir la causa</h2><table class=\"cmp\"><thead><tr><th>Prueba</th><th>Resultado</th><th>Causa probable</th></tr></thead><tbody><tr><td>Refractómetro sobre el AdBlue del depósito</td><td>Concentración fuera de 31,8–33,2 por ciento</td><td>Líquido diluido o contaminado</td></tr><tr><td>Test de actuador del inyector con recogida del chorro</td><td>Chorro débil, desviado o sin cantidad</td><td>Inyector obstruido o bomba floja</td></tr><tr><td>Comparar los dos sensores de NOx con motor frío y parado</td><td>Diferencias grandes</td><td>Sensor de NOx averiado</td></tr><tr><td>Inspeccionar el escape antes del sensor</td><td>Hollín alrededor de una junta</td><td>Fuga que falsea la lectura</td></tr><tr><td>NOx de entrada muy alto de forma permanente</td><td>Valores muy superiores al ciclo normal</td><td>EGR bloqueado o inyección diésel defectuosa</td></tr><tr><td>Todo lo anterior correcto y salida similar a entrada</td><td>Sin conversión real</td><td>Catalizador SCR agotado</td></tr></tbody></table>\n<h2>Cómo diagnosticar el P20EE paso a paso</h2><ol><li>Lee todos los códigos y apunta los datos de congelación; presta atención a fallos del sensor de NOx, del EGR o del propio AdBlue.</li><li>Comprueba el nivel del depósito y la fecha de la última recarga; recuerda que el AdBlue se degrada con calor prolongado.</li><li>Mide la concentración con un refractómetro; si no está entre 31,8 y 33,2 por ciento, sustituye el líquido y vuelve a probar.</li><li>Revisa visualmente el inyector y sus alrededores en busca de cristales blancos; no lo golpees ni lo rasques con metal.</li><li>Con el escáner, ejecuta el test de dosificación y observa el chorro y la presión de la bomba.</li><li>Verifica que la línea calefactada y su alimentación funcionan, sobre todo si el código aparece en invierno.</li><li>Inspecciona el escape en busca de fugas de gases entre el colector y el sensor de NOx.</li><li>Compara las lecturas de NOx de ambos sensores con el motor frío y parado antes de sospechar del catalizador.</li><li>Limpia o sustituye el inyector, o cambia el sensor sospechoso, solo cuando las pruebas lo señalen.</li><li>Borra el código y realiza un ciclo de conducción en carretera de al menos 20 minutos para confirmar la reparación.</li></ol>\n<h2>Cuánto cuesta repararlo</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Cambio del AdBlue y limpieza del circuito</td><td>40–150 €</td></tr><tr><td>Inyector de AdBlue nuevo</td><td>150–450 €</td></tr><tr><td>Sensor de NOx</td><td>250–700 € con mano de obra</td></tr><tr><td>Bomba o módulo de suministro</td><td>300–900 €</td></tr><tr><td>Catalizador SCR nuevo</td><td>1.000–2.500 €</td></tr></tbody></table><h2>Errores frecuentes al diagnosticar</h2><ul><li>Cambiar el catalizador SCR sin medir antes la calidad del líquido ni el estado del inyector.</li><li>Usar aditivos no homologados o AdBlue de dudosa procedencia o sin norma ISO 22241.</li><li>Ignorar el aviso de cuenta atrás: cuando llega a cero, el coche puede negarse a arrancar.</li><li>Anular el sistema con emuladores, que es ilegal y hace fallar la ITV.</li><li>Pasar por alto un EGR sucio, que dispara los NOx de origen.</li></ul><h2>Cuándo acudir al taller</h2><ul><li>Si aparece la cuenta atrás de kilómetros o arranques restantes.</li><li>Si el inyector está dañado o cristalizado y no se limpia con facilidad.</li><li>Si hay que sustituir un sensor de NOx, que suele requerir adaptación con diagnosis.</li><li>Si el motor muestra humo, falta de potencia o aviso del filtro de partículas a la vez.</li></ul><h2>Códigos relacionados</h2><ul><li>P20E8: presión insuficiente del sistema de inyección de reductor.</li><li>P2200: fallo del circuito del sensor de NOx del banco 1.</li><li>P229F: rendimiento del sensor de NOx fuera de rango.</li><li>P2BAD: eficiencia del NOx por debajo del límite en sistemas con trampa de NOx.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa el código P20EE?",
+      "answer": "Que el catalizador SCR no reduce los NOx lo suficiente, comparando los sensores situados antes y después de él."
+    },
+    {
+      "question": "¿Puede ser solo AdBlue en mal estado?",
+      "answer": "Sí, es una de las causas más habituales; un líquido diluido o antiguo impide una conversión correcta y se comprueba con un refractómetro."
+    },
+    {
+      "question": "¿Puedo seguir conduciendo con el P20EE?",
+      "answer": "Durante un tiempo, pero muchos coches activan una cuenta atrás y acaban sin arrancar; conviene diagnosticarlo cuanto antes."
+    },
+    {
+      "question": "¿Se puede limpiar el inyector de AdBlue?",
+      "answer": "Si los cristales son superficiales, se limpia con agua tibia y sin herramientas metálicas; si está obstruido por dentro, hay que cambiarlo."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar el P20EE?",
+      "answer": "Desde 40 € si basta con cambiar el líquido, hasta unos 2.500 € si hay que sustituir el catalizador SCR."
+    },
+    {
+      "question": "¿Qué diferencia hay con el testigo de AdBlue?",
+      "answer": "El testigo avisa de un problema o del nivel; el P20EE es el código concreto que explica que la reducción de NOx es insuficiente."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "limpiador de contactos eléctricos"
+  ],
+  "related": [
+    "testigo-adblue",
+    "testigo-emisiones",
+    "testigo-filtro-particulas",
+    "guia-como-usar-escaner-obd2"
+  ]
+}
