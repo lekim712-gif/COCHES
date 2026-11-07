@@ -136,3 +136,7 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 ## Actualización 06/11/2026
 - 181 fichas, todas de 900+ palabras. Lote del día (10): códigos P0107, P0122, P0192, P0405 y P0237; testigos de emisiones/catalizador, frenada de emergencia automática y modo GLP/GNC; guías «el coche vibra al ralentí» y «el coche tira hacia un lado».
 - Search Console: 1.801 impresiones, 7 clics, 86 páginas; P0600 y P0403 ya en primera página de Google.
+
+## Actualización 07/11/2026
+- 190 fichas, todas de 900+ palabras. Lote del día (9): códigos P20EE, C0035, P0715, P0700 y P0302; testigo del inmovilizador; guías de consumo de aceite, pedal de freno blando y olor a gasolina.
+- Search Console: 1.801 impresiones, 7 clics, 86 páginas (datos con 2–3 días de retraso).
