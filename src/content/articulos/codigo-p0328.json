@@ -1,0 +1,54 @@
+{
+  "type": "codigo",
+  "code": "P0328",
+  "name": "Sensor de detonación 1: señal alta (banco 1)",
+  "datePublished": "2026-11-08",
+  "dateModified": "2026-11-08",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0328: causas, síntomas y solución",
+    "meta_description": "Código P0328: sensor de detonación 1 del banco 1 con señal alta. Diferencias con P0325, causas, pruebas con multímetro, cableado, par de apriete y costes.",
+    "slug": "p0328"
+  },
+  "content_html": "<h1>Código P0328: Sensor de detonación 1: señal alta (banco 1)</h1>\n<p class=\"intro\">El código P0328 indica que el sensor de detonación del banco 1 envía a la centralita una señal de tensión demasiado alta. El sensor detecta las vibraciones características del picado y permite retrasar el encendido para protegerlo. Si la señal es anormalmente alta de forma permanente, la centralita pierde esa información, reduce el avance y el motor rinde menos y consume más.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: el motor funciona, pero con avance reducido y riesgo si hay picado real</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sensor de detonación, cableado, conector, centralita, estado mecánico del motor</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–350 €, según sea sensor, cable o desmontaje del colector</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con datos en vivo, multímetro, llave dinamométrica, limpiador de contactos</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido de forma fija.</li><li>Pérdida de potencia, sobre todo a media y alta carga.</li><li>Consumo de combustible superior al habitual.</li><li>Respuesta perezosa al acelerar y aceleraciones menos vivas.</li><li>Ruido de picado o cascabeleo si la centralita no consigue proteger el motor.</li><li>Retraso de encendido visible en datos en vivo sin que haya una causa mecánica.</li><li>Funcionamiento más brusco con gasolina de bajo octanaje.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor de detonación defectuoso, con el elemento piezoeléctrico dañado.</li><li>Cable del sensor en cortocircuito con alimentación o con malla de apantallado dañada.</li><li>Conector del sensor con humedad, aceite o terminales sulfatados.</li><li>Sensor mal apretado, con un par incorrecto que altera su sensibilidad.</li><li>Ruido eléctrico en la señal por una masa defectuosa o un cable cercano a una fuente de interferencia.</li><li>Motor con un ruido mecánico fuerte, como un taqué o un cojinete, que satura la señal.</li><li>Fallo interno de la centralita en la entrada de señal, poco frecuente.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p><h2>Qué significa el código P0328 y cómo lo detecta la centralita</h2><p>El sensor de detonación es un transductor piezoeléctrico, atornillado al bloque o a la culata, que convierte las vibraciones en una tensión alterna. La centralita filtra esa señal en la ventana de cada cilindro y la compara con el ruido de fondo del motor. Si detecta el pico típico del picado, retrasa el encendido en ese cilindro hasta que desaparece.</p><p>El P0328 aparece cuando la tensión media de la señal queda por encima del límite durante demasiado tiempo. Se diferencia del P0325, que indica un fallo general del circuito del sensor 1, y del P0327, que señala la señal baja. En el P0328 el problema es un nivel alto sostenido, que suele deberse a un cortocircuito con alimentación, un cable dañado o un sensor interno en mal estado.</p><p>La mayor parte de los motores de cuatro cilindros llevan un sensor, y los de seis cilindros en V suelen llevar uno por banco. Banco 1 es el lado donde está el cilindro número 1, y el sensor 1 es el único o el primero de ese banco.</p><h2>Datos en vivo y valores de referencia</h2><p>Con el escáner, y siempre según el manual del fabricante, observa estos parámetros.</p><ul><li>Tensión de la señal con el motor al ralentí: normalmente en torno a 0–1 V con una pequeña oscilación; si está fija en torno a 5 V, hay un nivel alto.</li><li>Contador de retardo por picado: en un motor sano suele ser cero o muy pequeño en ralentí.</li><li>Avance de encendido: debe aumentar con el régimen y bajar con la carga; si está recortado de forma constante, hay protección activa.</li><li>Datos de picado por cilindro, si el escáner los muestra, con valores semejantes entre cilindros.</li><li>Temperatura del refrigerante y del aire de admisión, para descartar una corrección térmica.</li><li>Tensión de alimentación y de masa de la centralita, estables en todo el rango.</li></ul><h2>Cómo distinguir la causa</h2><table class=\"cmp\"><thead><tr><th>Prueba</th><th>Resultado</th><th>Causa probable</th></tr></thead><tbody><tr><td>Tensión de la señal con el conector desconectado</td><td>Tensión de 5 V o más en el cable</td><td>Cortocircuito con alimentación en el mazo</td></tr><tr><td>Resistencia del sensor, si el manual la indica</td><td>Fuera de rango o abierta</td><td>Sensor de detonación defectuoso</td></tr><tr><td>Golpecito en el bloque cerca del sensor</td><td>Sin cambio en la señal</td><td>Sensor insensible o dañado</td></tr><tr><td>Inspección visual del par y del contacto con el bloque</td><td>Sensor flojo o con arandela mal puesta</td><td>Montaje incorrecto</td></tr><tr><td>Ruido mecánico del motor</td><td>Detonación o golpeteo audible</td><td>Avería mecánica que satura la señal</td></tr><tr><td>Continuidad del blindaje del cable</td><td>Cortada o sin contacto con masa</td><td>Interferencia en la señal</td></tr></tbody></table>\n<h2>Cómo diagnosticar el P0328 paso a paso</h2><ol><li>Lee todos los códigos y anota los datos de congelación; presta atención a fallos de encendido o de mezcla que puedan causar picado real.</li><li>Localiza el sensor del banco 1, que suele estar bajo el colector de admisión o en el lateral del bloque, y comprueba si hay que desmontar piezas.</li><li>Inspecciona el cable y el conector en busca de aceite, humedad, roces o aislamiento quemado.</li><li>Desconecta el conector con el contacto quitado y, con el contacto dado, mide la tensión en el cable de señal con respecto a masa.</li><li>Comprueba la continuidad y el apantallado del cableado hasta la centralita, moviendo el mazo para detectar falsos contactos.</li><li>Mide la resistencia del sensor si el manual lo permite y compárala con la especificación.</li><li>Verifica el par de apriete del sensor con llave dinamométrica; suele estar entre 15 y 25 N·m según el motor, consulta el manual.</li><li>Sustituye el sensor por uno de calidad, sin añadir arandelas ni lubricantes que alteren el contacto con el bloque.</li><li>Borra el código y conduce un ciclo con cargas variadas para confirmar que no reaparece y que el avance vuelve a la normalidad.</li></ol>\n<h2>Cuánto cuesta repararlo</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Diagnóstico y revisión de conector</td><td>30–80 €</td></tr><tr><td>Reparación de cableado del sensor</td><td>50–150 €</td></tr><tr><td>Sensor de detonación nuevo, con acceso fácil</td><td>60–180 €</td></tr><tr><td>Sensor bajo el colector de admisión (mano de obra alta)</td><td>150–350 €</td></tr><tr><td>Reparación de la avería mecánica que causa el ruido</td><td>Presupuesto previo</td></tr></tbody></table><h2>Errores frecuentes al diagnosticar</h2><ul><li>Cambiar el sensor sin comprobar el cable, que suele ser el verdadero culpable.</li><li>Apretar el sensor sin llave dinamométrica o con un par inadecuado.</li><li>Confundir el P0328 con el P0325 y buscar un fallo general del circuito.</li><li>Ignorar un golpeteo real del motor y atribuir todo al sensor.</li><li>Usar un sensor de otra referencia que no encaje bien en el bloque.</li></ul><h2>Cuándo acudir al taller</h2><ul><li>Si el sensor está bajo el colector de admisión y exige desmontaje.</li><li>Si oyes picado o golpeteo mecánico al acelerar.</li><li>Si el código vuelve tras sustituir el sensor y revisar el cableado.</li><li>Si hay otros fallos de encendido o de mezcla al mismo tiempo.</li></ul><h2>Códigos relacionados</h2><ul><li>P0325: fallo del circuito del sensor de detonación 1 del banco 1.</li><li>P0327: señal baja del sensor de detonación 1 del banco 1.</li><li>P0330: fallo del circuito del sensor de detonación 2 del banco 2.</li><li>P0300: fallos de encendido múltiples o aleatorios.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa el código P0328?",
+      "answer": "Que el sensor de detonación 1 del banco 1 envía una señal de tensión demasiado alta durante un tiempo sostenido."
+    },
+    {
+      "question": "¿En qué se diferencia del P0325?",
+      "answer": "El P0325 es un fallo general del circuito del sensor, mientras que el P0328 indica específicamente una señal alta."
+    },
+    {
+      "question": "¿Puedo conducir con el P0328?",
+      "answer": "Sí, pero la centralita reduce el avance, con pérdida de potencia y mayor consumo, y no protege contra el picado real."
+    },
+    {
+      "question": "¿Qué es el banco 1?",
+      "answer": "El lado del motor donde está el cilindro número 1; en motores en línea solo hay un banco."
+    },
+    {
+      "question": "¿Importa el par de apriete del sensor?",
+      "answer": "Sí, un par incorrecto cambia su sensibilidad; consulta el valor del manual del fabricante."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglarlo?",
+      "answer": "Entre 30 y 180 € en la mayoría de casos, y hasta unos 350 € si el sensor queda bajo el colector."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "limpiador de contactos eléctricos"
+  ],
+  "related": [
+    "p0325",
+    "p0300",
+    "p0335",
+    "testigo-motor"
+  ],
+  "featured_image": "/img/articulos/codigo-p0328.webp"
+}

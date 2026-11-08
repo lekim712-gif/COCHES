@@ -1,0 +1,53 @@
+{
+  "type": "guia",
+  "name": "Limpieza de inyectores y aditivos: qué funciona y qué no",
+  "datePublished": "2026-11-08",
+  "dateModified": "2026-11-08",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Limpieza de inyectores y aditivos: qué funciona",
+    "meta_description": "Limpieza de inyectores y aditivos: síntomas de inyectores sucios, qué logran los aditivos, limpieza en taller y cuándo conviene cambiarlos, sin promesas milagrosas.",
+    "slug": "guia-limpiar-inyectores"
+  },
+  "content_html": "<h1>Limpieza de inyectores y aditivos: qué funciona y qué no</h1>\n<p class=\"intro\">Los inyectores pulverizan el combustible en el motor y, con los años, pueden ensuciarse o desgastarse. Los aditivos de depósito ayudan a mantener limpio, pero no resucitan un inyector dañado. Esta guía explica qué síntomas indican suciedad, qué cabe esperar de aditivos y limpiezas en taller y cuándo es mejor sustituirlos.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: inyectores defectuosos dañan el motor y el catalizador a largo plazo</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Inyectores, combustible, filtro, bomba, admisión</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>10–25 € (aditivo) · 60–150 € (limpieza en taller) · 80–400 € por inyector nuevo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, aditivo limpiador, banco de pruebas de inyectores (taller)</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Qué hacen los inyectores y por qué se ensucian</h2><p>El inyector es una válvula de precisión que abre y cierra miles de veces por minuto para pulverizar combustible con la cantidad y forma exactas. En gasolina de inyección indirecta, rocía en el conducto de admisión; en inyección directa, lo hace dentro del cilindro a muy alta presión. En diésel common rail, la presión puede superar los 1.600 bar, con tolerancias mínimas.</p><p>Los depósitos de carbonilla, barnices del combustible, agua o impurezas alteran el patrón de pulverización. El inyector gotea o pulveriza mal y la combustión empeora. El combustible de poca calidad, los trayectos cortos y los filtros sin cambiar aceleran el problema.</p><h2>Síntomas de inyectores sucios o defectuosos</h2><table class=\"cmp\"><thead><tr><th>Síntoma</th><th>Posible significado</th></tr></thead><tbody><tr><td>Ralentí irregular y vibración</td><td>Pulverización mala o inyector goteando</td></tr><tr><td>Tirones al acelerar</td><td>Mezcla desigual entre cilindros</td></tr><tr><td>Mayor consumo y pérdida de potencia</td><td>Inyección menos eficaz</td></tr><tr><td>Humo negro o azulado</td><td>Exceso de combustible o combustión incompleta</td></tr><tr><td>Fallos de encendido (misfire)</td><td>Códigos P0300 a P0304 en la memoria</td></tr><tr><td>Arranque difícil en caliente</td><td>Fugas de inyectores</td></tr></tbody></table><p>Estos síntomas pueden tener otras causas: bujías, bobinas, filtros, fugas de aire o sensores. Diagnostica antes de gastar en aditivos o inyectores.</p><h2>Aditivos de depósito: qué funciona y qué no</h2><p>Los aditivos limpiadores contienen detergentes que disuelven depósitos blandos. Usados con regularidad, ayudan a prevenir la acumulación y pueden mejorar un ralentí algo irregular por suciedad leve. Sin embargo, no reparan inyectores desgastados, atascados o con fallos eléctricos, ni compensan una bomba o un filtro en mal estado.</p><ul><li>Sirven para: mantenimiento preventivo, depósitos ligeros, motores con combustible de calidad variable.</li><li>No sirven para: inyectores defectuosos, fugas internas, bobinas o bujías malas.</li><li>Usa solo productos de marcas reconocidas y sigue la dosis; el exceso no limpia más.</li><li>Desconfía de promesas como «ahorra un 20 % de combustible» o «recupera potencia perdida».</li></ul>\n<h2>Cómo proceder paso a paso</h2><ol><li>Lee los códigos con un escáner OBD2: fallos de encendido, mezcla pobre o rica y errores de inyector orientan el diagnóstico.</li><li>Descarta causas más sencillas: bujías, bobinas, filtro de aire, filtro de combustible y fugas de aire en admisión.</li><li>Comprueba la calidad del último repostaje y cambia el filtro de combustible si toca, antes de añadir nada.</li><li>Si hay síntomas leves, añade al depósito un aditivo limpiador siguiendo la dosis indicada, preferiblemente con el depósito casi en reserva.</li><li>Conduce un trayecto de entre 100 y 300 km con tramos a velocidad sostenida para que el aditivo actúe.</li><li>Reevalúa: si el ralentí y la respuesta mejoran, repite el tratamiento según la periodicidad recomendada por el fabricante del producto.</li><li>Si no hay mejora, pide en taller una prueba de caudal y estanqueidad de los inyectores.</li><li>Según el resultado, el taller realiza limpieza por ultrasonidos, limpieza en el motor con equipo de presión o sustituye los inyectores dañados.</li><li>Tras sustituir inyectores, es posible que haya que codificarlos en la centralita con un equipo de diagnosis.</li></ol>\n<h2>Limpieza en taller: qué opciones hay</h2><table class=\"cmp\"><thead><tr><th>Método</th><th>Qué es</th><th>Cuándo tiene sentido</th></tr></thead><tbody><tr><td>Limpieza en el motor con equipo</td><td>Se hace circular un producto limpiador por el circuito con el motor en marcha</td><td>Suciedad leve o mantenimiento preventivo</td></tr><tr><td>Ultrasonidos en banco</td><td>Se desmontan los inyectores y se limpian y prueban uno a uno</td><td>Suciedad importante en inyectores de gasolina o diésel</td></tr><tr><td>Descarbonización de admisión</td><td>Limpia válvulas y colector en inyección directa</td><td>Si hay carbonilla en las válvulas</td></tr><tr><td>Sustitución</td><td>Se cambian los inyectores dañados</td><td>Desgaste, fugas internas o fallo eléctrico</td></tr></tbody></table><p>El banco de pruebas permite medir el caudal de cada inyector y su patrón de pulverización, y comparar entre ellos. Una diferencia grande entre inyectores indica que alguno no se recuperará solo con limpieza.</p><h2>Cuándo cambiar los inyectores</h2><ul><li>Si en el banco el caudal o la pulverización siguen fuera de tolerancia tras limpiar.</li><li>Si un inyector gotea o tiene fugas internas, o se detecta retorno excesivo en diésel.</li><li>Si la resistencia eléctrica o la señal están fuera de especificación.</li><li>Si hay fallos de encendido persistentes asociados a un cilindro concreto.</li><li>Si el motor ha funcionado mucho tiempo con combustible contaminado.</li></ul><h2>Errores frecuentes</h2><ul><li>Echar aditivo repetidamente esperando arreglar una avería mecánica.</li><li>Mezclar varios aditivos a la vez.</li><li>Desmontar inyectores sin herramientas ni limpieza del alojamiento, lo que puede dañarlos.</li><li>Aflojar tuberías de alta presión con el motor caliente o en marcha: es peligroso.</li><li>Cambiar todos los inyectores sin diagnosticar cuál falla.</li></ul><h2>Cuánto cuesta</h2><table class=\"cmp\"><thead><tr><th>Servicio</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Aditivo limpiador de depósito</td><td>10–25 €</td></tr><tr><td>Limpieza en el motor</td><td>60–120 €</td></tr><tr><td>Ultrasonidos y prueba en banco</td><td>100–250 € el juego</td></tr><tr><td>Inyector nuevo, gasolina</td><td>80–250 € la pieza</td></tr><tr><td>Inyector nuevo, diésel common rail</td><td>200–500 € la pieza, más codificación</td></tr></tbody></table><h2>Cuándo es mejor llevarlo al taller</h2><p>Cualquier trabajo que implique desmontar inyectores o tuberías debe hacerlo un taller, porque el combustible trabaja a alta presión y puede provocar incendios o lesiones. Acude si hay humo persistente, fallos de encendido continuados, olor a combustible o aceite con olor a gasolina, ya que indica fugas que diluyen el lubricante.</p><h2>Casos particulares</h2><ul><li>Gasolina de inyección directa: la carbonilla se acumula en las válvulas, no en el inyector, y los aditivos de depósito llegan poco.</li><li>Diésel common rail: usa gasóleo de calidad y cambia el filtro a tiempo; el agua destruye los inyectores.</li><li>Coches con GLP: revisa también los inyectores de gas con un especialista.</li><li>Coches con pocos kilómetros al año: el combustible envejece, así que conviene un aditivo estabilizador.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Funcionan los aditivos limpia inyectores?",
+      "answer": "Ayudan a mantener limpio y pueden mejorar síntomas leves por depósitos blandos, pero no reparan inyectores desgastados ni dañados."
+    },
+    {
+      "question": "¿Cada cuánto conviene usar un aditivo?",
+      "answer": "Como prevención, una vez al año o cada 10.000–15.000 km, siguiendo las indicaciones del producto. No hace falta más a menudo."
+    },
+    {
+      "question": "¿Cómo sé si los inyectores están sucios?",
+      "answer": "Por ralentí irregular, tirones, más consumo, humo y fallos de encendido. Confirma con un diagnóstico antes de actuar."
+    },
+    {
+      "question": "¿Qué es la limpieza por ultrasonidos?",
+      "answer": "Se desmontan los inyectores y se sumergen en un baño de ultrasonidos, y luego se miden en banco. Es más eficaz que un aditivo con suciedad importante."
+    },
+    {
+      "question": "¿Cuándo hay que cambiar los inyectores?",
+      "answer": "Cuando tras limpiar siguen fuera de tolerancia, gotean o tienen fallo eléctrico. No siempre hay que cambiar todo el juego."
+    },
+    {
+      "question": "¿Cuánto cuesta cambiar los inyectores?",
+      "answer": "En gasolina, 80–250 € por pieza; en diésel common rail, 200–500 € cada uno, más montaje y codificación."
+    }
+  ],
+  "products": [
+    "aditivo limpiador de inyectores gasolina",
+    "aditivo limpiador de inyectores diésel",
+    "escáner obd2 bluetooth elm327"
+  ],
+  "related": [
+    "guia-filtro-combustible",
+    "guia-consumo-excesivo-combustible",
+    "guia-vibraciones-ralenti",
+    "guia-tirones-diesel"
+  ],
+  "featured_image": "/img/articulos/guia-guia-limpiar-inyectores.webp"
+}

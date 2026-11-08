@@ -1,0 +1,54 @@
+{
+  "type": "codigo",
+  "code": "P0183",
+  "name": "Sensor de temperatura del combustible: señal alta",
+  "datePublished": "2026-11-08",
+  "dateModified": "2026-11-08",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0183: causas, síntomas y solución",
+    "meta_description": "Código P0183: sensor de temperatura del combustible con señal alta (circuito abierto). Dónde va en diésel y gasolina, pruebas con multímetro, causas y costes.",
+    "slug": "p0183"
+  },
+  "content_html": "<h1>Código P0183: Sensor de temperatura del combustible: señal alta</h1>\n<p class=\"intro\">El código P0183 indica que el sensor de temperatura del combustible envía a la centralita una tensión demasiado alta, lo que equivale a una temperatura muy baja o a un circuito abierto. La centralita usa esa medida para corregir la densidad del combustible y la cantidad inyectada. Es más común en diésel, aunque algunos gasolina también lo montan en el raíl o en la bomba.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja-media: el motor suele funcionar, pero con corrección de caudal degradada</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sensor de temperatura del combustible, cableado y conector, bomba de inyección o raíl, centralita</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>20–300 €, según sea conector, sensor o cableado</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con datos en vivo, multímetro, limpiador de contactos, termómetro de infrarrojos</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido de forma fija.</li><li>Arranque en caliente más largo, sobre todo en diésel con bomba de inyección.</li><li>Ligera pérdida de potencia o limitación del caudal en carga.</li><li>Consumo algo elevado por la corrección conservadora de la centralita.</li><li>Temperatura del combustible que se muestra fija o con valores imposibles, como menos 40 °C.</li><li>Ralentí con pequeñas oscilaciones tras calentar el motor.</li><li>En algunos modelos, activación del ventilador o limitación del turbo por prudencia.</li></ul>\n<h2>Causas principales</h2><ul><li>Conector del sensor suelto, con humedad o con terminales sulfatados.</li><li>Cable del sensor cortado o con aislamiento roto por roce, calor o vibración.</li><li>Sensor de temperatura del combustible averiado, con la resistencia interna abierta.</li><li>Pin de masa o de señal en mal estado en la bomba de inyección o en el raíl.</li><li>Cableado manipulado tras una reparación del motor, con un conector sin enganchar.</li><li>Combustible muy contaminado o con mucho aire que afecta a la lectura de forma anómala.</li><li>Fallo interno de la centralita, poco frecuente.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p><h2>Qué significa el código P0183 y cómo lo detecta la centralita</h2><p>La densidad del combustible cambia con la temperatura: caliente, ocupa más volumen y aporta menos energía por litro. Para dosificar con precisión, la centralita necesita saber a qué temperatura llega el combustible a los inyectores. Para ello usa un sensor NTC alimentado con 5 V; si el circuito está abierto, la tensión de señal sube hasta casi 5 V y la centralita interpreta una temperatura extremadamente baja.</p><p>En muchos diésel con bomba de inyección, el sensor va integrado en la propia bomba o en su cabezal, y en los sistemas common rail suele ir en el retorno, en el raíl o en el conjunto del filtro de combustible. En gasolina con inyección directa o con control de evaporación puede situarse en el raíl o en el módulo de la bomba. Cuando el valor lleva demasiado tiempo en el rango alto, se almacena el P0183.</p><h2>Datos en vivo y valores de referencia</h2><p>Con el escáner, y siempre según el manual del fabricante, estos son los valores típicos.</p><ul><li>Motor frío tras varias horas: la temperatura del combustible debe acercarse a la ambiente.</li><li>Motor caliente: en diésel puede llegar a unos 50–80 °C según el retorno y el modelo; en gasolina, bastante menos.</li><li>Tensión del sensor en frío: alrededor de 3,5–4,5 V; en caliente baja a 1–2 V.</li><li>Una lectura fija de menos 40 °C o con tensión de 5 V indica circuito abierto.</li><li>La temperatura debe subir de forma gradual mientras el motor se calienta, sin saltos.</li><li>Compara la temperatura del combustible con la del refrigerante tras una parada larga; deben ser próximas.</li></ul><h2>Cómo distinguir la causa</h2><table class=\"cmp\"><thead><tr><th>Prueba</th><th>Resultado</th><th>Causa probable</th></tr></thead><tbody><tr><td>Lectura en vivo con motor frío</td><td>Menos 40 °C fijo</td><td>Circuito abierto, conector o sensor</td></tr><tr><td>Puente entre los dos pines del conector con el contacto dado</td><td>La temperatura salta a valores altos</td><td>Sensor defectuoso, cableado correcto</td></tr><tr><td>Continuidad del cable hasta la centralita</td><td>Sin continuidad</td><td>Cable cortado</td></tr><tr><td>Resistencia del sensor a temperatura ambiente</td><td>Infinita o fuera de rango</td><td>Sensor averiado</td></tr><tr><td>Tensión de 5 V en el conector</td><td>Ausente</td><td>Cableado o centralita</td></tr><tr><td>Mover cableado con el motor en marcha</td><td>La lectura reacciona</td><td>Cable o terminal con falso contacto</td></tr></tbody></table>\n<h2>Cómo diagnosticar el P0183 paso a paso</h2><ol><li>Lee todos los códigos y apunta los datos de congelación; busca códigos de presión de combustible o de bomba que puedan relacionarse.</li><li>Localiza el sensor en el manual de taller del vehículo, ya que su ubicación varía mucho entre diésel y gasolina.</li><li>Con el motor frío, observa la temperatura del combustible en vivo y compárala con la del refrigerante.</li><li>Desconecta el conector con el contacto quitado y revisa si hay humedad, combustible, terminales verdes o pines sueltos.</li><li>Con el contacto dado, mide la tensión de referencia de 5 V y la continuidad de la masa en el conector del cableado.</li><li>Mide la resistencia del propio sensor y compárala con la del manual; un valor infinito confirma circuito abierto.</li><li>Si el sensor es accesible, calienta el sensor con un secador y verifica que la resistencia baja de forma progresiva.</li><li>Revisa el cable por zonas de roce y de calor, especialmente cerca del colector y de la bomba.</li><li>Repara el cableado o sustituye el sensor, borra el código y conduce un ciclo completo para verificar que no vuelve.</li></ol>\n<h2>Cuánto cuesta repararlo</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Limpieza de conector y diagnóstico</td><td>20–60 €</td></tr><tr><td>Reparación de cableado del sensor</td><td>50–150 €</td></tr><tr><td>Sensor independiente en el raíl o el filtro</td><td>40–150 €</td></tr><tr><td>Bomba de inyección con sensor integrado</td><td>400–1.200 €</td></tr><tr><td>Reparación de la bomba o del conjunto en taller especializado</td><td>200–700 €</td></tr></tbody></table><h2>Errores frecuentes al diagnosticar</h2><ul><li>Sustituir la bomba de inyección entera cuando solo falla un conector o un cable.</li><li>Manipular el circuito de combustible sin despresurizar el sistema, con riesgo de salida de combustible a alta presión.</li><li>Suponer que el sensor va siempre en el mismo sitio en gasolina y diésel.</li><li>Cortar y empalmar el cable sin soldadura ni aislamiento estanco al combustible.</li><li>Dar por reparado el fallo sin comprobar que la temperatura sube gradualmente.</li></ul><h2>Cuándo acudir al taller</h2><ul><li>Si el sensor está integrado en la bomba de inyección o en el raíl de alta presión.</li><li>Si hay que abrir el circuito de combustible, por el riesgo de alta presión en common rail.</li><li>Si el código vuelve tras reparar cableado y sensor.</li><li>Si aparecen otros códigos de presión de raíl o de caudal al mismo tiempo.</li></ul><h2>Códigos relacionados</h2><ul><li>P0182: señal baja del sensor de temperatura del combustible.</li><li>P0181: rango o rendimiento del sensor de temperatura del combustible.</li><li>P0180: fallo del circuito del sensor de temperatura del combustible.</li><li>P0190: fallo del circuito del sensor de presión del raíl.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa el código P0183?",
+      "answer": "Que el sensor de temperatura del combustible envía una señal de tensión demasiado alta, típica de un circuito abierto."
+    },
+    {
+      "question": "¿Dónde está el sensor de temperatura del combustible?",
+      "answer": "En diésel suele ir en la bomba de inyección, el raíl, el retorno o el portafiltros; en gasolina, en el raíl o en el módulo de la bomba."
+    },
+    {
+      "question": "¿Puedo seguir conduciendo con el P0183?",
+      "answer": "Normalmente sí, pero el motor puede rendir menos o consumir más; conviene repararlo pronto."
+    },
+    {
+      "question": "¿Por qué es más habitual en diésel?",
+      "answer": "Porque el combustible se calienta mucho en el retorno y la corrección por densidad influye de forma notable en el caudal."
+    },
+    {
+      "question": "¿Basta con limpiar el conector?",
+      "answer": "A veces sí, si hay humedad o suciedad; si el sensor está abierto o el cable cortado, hay que repararlo o cambiarlo."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglarlo?",
+      "answer": "Entre 20 y 150 € en la mayoría de casos, y más de 400 € si el sensor es parte de la bomba de inyección."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "limpiador de contactos eléctricos"
+  ],
+  "related": [
+    "p0190",
+    "p0191",
+    "testigo-motor",
+    "guia-como-usar-escaner-obd2"
+  ],
+  "featured_image": "/img/articulos/codigo-p0183.webp"
+}

@@ -1,0 +1,54 @@
+{
+  "type": "codigo",
+  "code": "P0221",
+  "name": "Sensor B de posición de mariposa o pedal: rango o rendimiento",
+  "datePublished": "2026-11-08",
+  "dateModified": "2026-11-08",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0221: causas, síntomas y solución",
+    "meta_description": "Código P0221: sensor B de posición de la mariposa o del pedal fuera de rango o con rendimiento incorrecto. Diferencias con P0220 y P0121, pruebas y costes.",
+    "slug": "p0221"
+  },
+  "content_html": "<h1>Código P0221: Sensor B de posición de mariposa o pedal: rango o rendimiento</h1>\n<p class=\"intro\">El código P0221 indica que el sensor B de posición de la mariposa o del pedal del acelerador entrega una señal fuera de rango o que no concuerda con la del sensor A. Los sistemas de acelerador electrónico usan dos pistas redundantes y la centralita las compara continuamente. Si la señal B no es coherente, limita la potencia y activa el modo de emergencia para proteger al conductor.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media-alta: el modo de emergencia limita la potencia y el régimen</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Cuerpo de mariposa, sensor de pedal, cableado, alimentación de 5 V, centralita</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>40–700 €, según sea limpieza, sensor o cuerpo de mariposa</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con datos en vivo, multímetro, limpiador de cuerpo de mariposa, limpiador de contactos</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido y, en muchos coches, testigo del acelerador electrónico.</li><li>Modo de emergencia con régimen limitado y respuesta lenta al pedal.</li><li>Ralentí inestable o motor que se cala al detenerse.</li><li>Aceleración con zonas muertas o saltos al pisar el pedal.</li><li>Imposibilidad de superar un régimen bajo aunque se pise a fondo.</li><li>Funcionamiento a veces normal y a veces limitado, según la temperatura o la humedad.</li><li>Códigos de correlación entre el sensor A y el B del pedal o de la mariposa.</li></ul>\n<h2>Causas principales</h2><ul><li>Pista B del potenciómetro de la mariposa desgastada o sucia.</li><li>Pista B del sensor de pedal con carbonilla, desgaste o suciedad en el recorrido.</li><li>Cableado de la señal B con falso contacto, roce o corte.</li><li>Conector con humedad, sulfatación o terminales sueltos.</li><li>Alimentación de 5 V o masa de sensores con mala conexión.</li><li>Cuerpo de mariposa con carbonilla que afecta al recorrido real de la paleta.</li><li>Fallo interno del motor de la mariposa o de la centralita, menos frecuente.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p><h2>Qué significa el código P0221 y cómo lo detecta la centralita</h2><p>En un acelerador electrónico no hay cable entre el pedal y la mariposa. El pedal lleva un sensor con dos pistas, A y B, y la mariposa lleva otro sensor, también con dos pistas, para informar a la centralita de su apertura. Las pistas tienen curvas distintas, a menudo una el doble que la otra, de forma que la centralita pueda verificar que ambas son coherentes. Si la señal B se sale de su banda o no cuadra con la A, aparece el P0221.</p><p>Este código señala el sensor B, el segundo canal de redundancia, y por eso se diferencia de otros. El P0121 indica que la señal A de la mariposa o del pedal no es coherente con la carga del motor o con la posición esperada, y el P0220 señala un fallo del circuito del sensor B, es decir, de la señal eléctrica. El P0221 se refiere en concreto a un valor fuera de rango o incoherente, aunque el circuito eléctrico pueda estar intacto.</p><h2>Datos en vivo y valores de referencia</h2><p>Con el escáner, y siempre según el manual del fabricante, observa estas lecturas.</p><ul><li>Pedal sin pisar: la posición del pedal ronda el 12–16 por ciento en el canal A y el doble en algunos canales B, con tensiones aproximadas de 0,5–1,0 V.</li><li>Pedal a fondo: la señal A llega a unos 4,5 V y la B se acerca a 4,0–4,8 V según el diseño.</li><li>Mariposa cerrada: apertura próxima al 0–5 por ciento en ralentí.</li><li>Las dos señales deben moverse a la vez y con suavidad, sin saltos ni mesetas.</li><li>La diferencia entre el canal A y el canal B debe mantener la relación indicada en el manual.</li><li>Tensión de referencia de 5 V estable, sin caídas al mover el pedal ni con el motor en marcha.</li></ul><h2>Cómo distinguir la causa</h2><table class=\"cmp\"><thead><tr><th>Prueba</th><th>Resultado</th><th>Causa probable</th></tr></thead><tbody><tr><td>Mover el pedal despacio con el contacto dado</td><td>La señal B salta o se estanca</td><td>Pista B del pedal gastada</td></tr><tr><td>Abrir la mariposa a mano con el contacto dado</td><td>La señal B no sigue a la A</td><td>Sensor de la mariposa defectuoso</td></tr><tr><td>Tensión de 5 V en el conector del sensor</td><td>Baja o inestable</td><td>Alimentación o masa deficiente</td></tr><tr><td>Continuidad del cable de señal B</td><td>Intermitente al mover el mazo</td><td>Cable roto o conector flojo</td></tr><tr><td>Inspección de la paleta de la mariposa</td><td>Carbonilla y recorrido pegajoso</td><td>Limpieza del cuerpo de mariposa</td></tr><tr><td>Cambiar pedal por uno de prueba</td><td>El código desaparece</td><td>Sensor de pedal defectuoso</td></tr></tbody></table>\n<h2>Cómo diagnosticar el P0221 paso a paso</h2><ol><li>Lee todos los códigos y anota los de la familia P0120, P0220 y P2135, que ayudan a ubicar la pista afectada.</li><li>Observa en vivo las señales A y B del pedal con el contacto dado y el motor parado, moviéndolo muy despacio.</li><li>Repite la prueba con la mariposa, abriéndola con cuidado a mano si el modelo lo permite y siempre con el contacto quitado antes de tocar.</li><li>Comprueba el conector del pedal y el de la mariposa: humedad, terminales verdes, pines doblados o falsos contactos.</li><li>Mide la tensión de referencia de 5 V y la masa en ambos conectores, con el contacto dado.</li><li>Inspecciona el cuerpo de mariposa y límpialo con un producto específico; no fuerces la paleta con las manos si es de accionamiento motorizado.</li><li>Mueve el mazo de cables mientras observas las lecturas, para localizar un falso contacto.</li><li>Si la señal B sigue incoherente, sustituye el elemento defectuoso, ya sea el sensor de pedal o el cuerpo de mariposa.</li><li>Borra el código, realiza el aprendizaje de la mariposa con el escáner y conduce un ciclo completo para verificarlo.</li></ol>\n<h2>Cuánto cuesta repararlo</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Limpieza del cuerpo de mariposa y reaprendizaje</td><td>40–120 €</td></tr><tr><td>Reparación de conector o cableado</td><td>50–150 €</td></tr><tr><td>Sensor o módulo de pedal</td><td>80–300 €</td></tr><tr><td>Cuerpo de mariposa nuevo</td><td>150–600 €</td></tr><tr><td>Cuerpo de mariposa de segunda mano o reacondicionado</td><td>80–250 €</td></tr></tbody></table><h2>Errores frecuentes al diagnosticar</h2><ul><li>Cambiar el cuerpo de mariposa sin probar antes el pedal, o al revés.</li><li>Olvidar el aprendizaje del cuerpo de mariposa tras limpiarlo o sustituirlo.</li><li>Limpiar la mariposa con el motor en marcha o con el contacto dado, con riesgo de que se mueva sola.</li><li>Mezclar el P0221 con el P0220 y buscar solo un fallo eléctrico.</li><li>Usar productos agresivos que dañen el recubrimiento del sensor o la junta del cuerpo.</li></ul><h2>Cuándo acudir al taller</h2><ul><li>Si el coche entra en modo de emergencia en carretera o se cala.</li><li>Si hace falta sustituir el cuerpo de mariposa y realizar el aprendizaje con diagnosis.</li><li>Si las lecturas no son fiables o no sabes qué canal está fallando.</li><li>Si el código vuelve tras sustituir el pedal y la mariposa.</li></ul><h2>Códigos relacionados</h2><ul><li>P0220: fallo del circuito del sensor B de posición de mariposa o pedal.</li><li>P0121: rango o rendimiento del sensor A de posición de mariposa o pedal.</li><li>P0222: señal baja del sensor B de posición de mariposa o pedal.</li><li>P0223: señal alta del sensor B de posición de mariposa o pedal.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa el código P0221?",
+      "answer": "Que el sensor B de posición de la mariposa o del pedal entrega una señal fuera de rango o incoherente con la del sensor A."
+    },
+    {
+      "question": "¿En qué se diferencia del P0220?",
+      "answer": "El P0220 señala un fallo eléctrico del circuito del sensor B, mientras que el P0221 indica un rango o rendimiento incorrecto de ese canal."
+    },
+    {
+      "question": "¿Y del P0121?",
+      "answer": "El P0121 afecta al canal A y compara su rendimiento con la carga, mientras que el P0221 se refiere al canal B de redundancia."
+    },
+    {
+      "question": "¿Puedo seguir conduciendo con el P0221?",
+      "answer": "No es recomendable: el modo de emergencia limita la potencia y puede dejarte sin respuesta en un adelantamiento."
+    },
+    {
+      "question": "¿Limpiar la mariposa lo arregla?",
+      "answer": "A veces sí, si el problema es carbonilla, pero hay que realizar el aprendizaje después; si falla la pista, hay que sustituir la pieza."
+    },
+    {
+      "question": "¿Cuánto cuesta repararlo?",
+      "answer": "Entre 40 y 120 € si basta con limpiar, y hasta unos 600 € si hay que cambiar el cuerpo de mariposa."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "limpiador de contactos eléctricos"
+  ],
+  "related": [
+    "p0220",
+    "p0121",
+    "p0122",
+    "testigo-epc"
+  ],
+  "featured_image": "/img/articulos/codigo-p0221.webp"
+}

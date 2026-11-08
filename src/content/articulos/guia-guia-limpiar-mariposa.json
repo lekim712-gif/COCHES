@@ -1,0 +1,53 @@
+{
+  "type": "guia",
+  "name": "Cómo limpiar la mariposa de gases paso a paso",
+  "datePublished": "2026-11-08",
+  "dateModified": "2026-11-08",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Cómo limpiar la mariposa de gases paso a paso",
+    "meta_description": "Guía para limpiar la mariposa de gases: síntomas de suciedad, productos adecuados, pasos, aprendizaje con escáner, precauciones y cuándo acudir al taller.",
+    "slug": "guia-limpiar-mariposa"
+  },
+  "content_html": "<h1>Cómo limpiar la mariposa de gases paso a paso</h1>\n<p class=\"intro\">La mariposa regula el aire que entra al motor, y con el tiempo se ensucia de hollín y aceite, lo que provoca ralentí inestable, tirones o calados. Limpiarla es un trabajo asequible que puedes hacer en casa con un limpiador específico. Es importante no forzar la compuerta en mariposas electrónicas y hacer después el aprendizaje del ralentí.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: trabajo sencillo, pero la mariposa electrónica es delicada</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Admisión, mariposa de gases, sensor de posición, ralentí</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>8–15 € (limpiador) · 40–100 € (limpieza en taller) · 150–450 € (mariposa nueva)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Limpiador de mariposa, trapo sin pelusa, destornilladores, escáner OBD2</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Para qué sirve la mariposa y por qué se ensucia</h2><p>La mariposa es una compuerta situada en la entrada del colector de admisión. Al pisar el acelerador se abre y deja pasar más aire; al soltarlo, se cierra casi del todo y deja un pequeño paso para el ralentí. En coches antiguos la acciona un cable; en los modernos la mueve un motor eléctrico controlado por la centralita, con sensores que miden su posición.</p><p>Los vapores de aceite del cárter y los gases de la EGR dejan una película de hollín pegajoso en la compuerta y en su alojamiento. Esa capa reduce el paso de aire en el ralentí, y la centralita ya no regula con precisión. Es habitual en motores con muchos kilómetros, sobre todo con trayectos cortos.</p><h2>Síntomas de una mariposa sucia</h2><table class=\"cmp\"><thead><tr><th>Síntoma</th><th>Cómo se manifiesta</th></tr></thead><tbody><tr><td>Ralentí inestable</td><td>Las revoluciones suben y bajan o el motor vibra parado</td></tr><tr><td>Calados</td><td>El motor se apaga al soltar el acelerador o al parar</td></tr><tr><td>Respuesta lenta</td><td>Retardo al pisar y tirones a bajas vueltas</td></tr><tr><td>Testigo del motor</td><td>Códigos de adaptación de ralentí o de la mariposa</td></tr><tr><td>Consumo algo mayor</td><td>La mezcla no se ajusta bien</td></tr></tbody></table><p>Estos síntomas también los producen fugas de aire, un caudalímetro sucio o una EGR atascada, así que conviene descartarlos. Los códigos P0507 y P0638 apuntan al control del ralentí y de la mariposa.</p><h2>Cada cuánto y cuándo limpiarla</h2><table class=\"cmp\"><thead><tr><th>Situación</th><th>Frecuencia orientativa</th></tr></thead><tbody><tr><td>Uso mixto con buen mantenimiento</td><td>Cada 60.000–100.000 km o ante síntomas</td></tr><tr><td>Muchos trayectos cortos o ciudad</td><td>Cada 40.000–60.000 km</td></tr><tr><td>Motor diésel con EGR</td><td>Con más frecuencia, junto con la EGR</td></tr><tr><td>Tras reparar una fuga de aceite en admisión</td><td>En la misma intervención</td></tr></tbody></table><h2>Herramientas y productos</h2><ul><li>Limpiador específico de mariposa o de admisión, apto para sensores y plásticos.</li><li>Trapos sin pelusa y un cepillo de cerdas blandas.</li><li>Destornilladores y llaves para soltar el manguito de admisión.</li><li>Guantes y gafas de protección.</li><li>Escáner OBD2 con función de adaptación de la mariposa, si tu modelo lo exige.</li></ul>\n<h2>Limpieza de la mariposa paso a paso</h2><ol><li>Trabaja con el motor frío y en un lugar ventilado; desconecta el borne negativo de la batería y espera unos minutos.</li><li>Localiza la mariposa entre el filtro de aire y el colector, y suelta el manguito de admisión y el conector eléctrico.</li><li>Fotografía las conexiones antes de soltarlas y retira el manguito con cuidado, sin romper las abrazaderas.</li><li>Pulveriza el limpiador sobre un trapo y limpia el interior y los bordes de la compuerta, sin chorrear líquido hacia el motor.</li><li>Si la mariposa es mecánica, puedes moverla con la mano para limpiar los bordes; si es electrónica, no la fuerces con la mano.</li><li>En mariposas electrónicas, no la abras a la fuerza: pide a un ayudante que dé contacto sin arrancar, o sigue el procedimiento del fabricante para dejarla abierta.</li><li>Evita que el limpiador entre en el motor eléctrico o en los sensores, y seca bien los restos antes de montar.</li><li>Monta el manguito y el conector, reconecta la batería y arranca; el ralentí puede oscilar unos segundos.</li><li>Realiza el aprendizaje de la mariposa con el escáner o con el procedimiento del fabricante, y haz una prueba de carretera.</li></ol>\n<h2>El aprendizaje tras la limpieza</h2><p>Al ensuciarse, la centralita había memorizado unos valores de apertura para compensar. Tras limpiar, esos valores ya no son correctos y el motor puede ralentizar mal, ir demasiado alto o calarse. Muchos coches se readaptan solos tras unos minutos de conducción, pero otros exigen un aprendizaje forzado con un escáner (función de adaptación básica de la mariposa).</p><p>El procedimiento típico requiere motor a temperatura de servicio, sin consumidores eléctricos y con el contacto puesto, según el manual del fabricante. Si no puedes hacerlo, un taller lo resuelve en pocos minutos.</p><h2>Errores frecuentes</h2><ul><li>Rociar el limpiador con el motor en marcha sobre la mariposa: puede calar el motor y entrar líquido a los cilindros.</li><li>Forzar con el dedo una mariposa electrónica: se dañan los engranajes del motor.</li><li>Usar abrasivos, lijas o disolventes agresivos que rayan la compuerta o estropean los sensores.</li><li>Olvidar el aprendizaje y pensar que la limpieza no ha servido.</li><li>Limpiar solo la parte visible y dejar hollín en el alojamiento.</li></ul><h2>Cuánto cuesta</h2><table class=\"cmp\"><thead><tr><th>Opción</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Limpiador de mariposa</td><td>8–15 €</td></tr><tr><td>Limpieza en taller con aprendizaje</td><td>40–100 €</td></tr><tr><td>Mariposa nueva o reacondicionada</td><td>150–450 € más montaje</td></tr><tr><td>Diagnóstico previo</td><td>30–60 €</td></tr></tbody></table><h2>Cuándo es mejor llevarlo al taller</h2><p>Acude al taller si no sabes localizar la mariposa, si el motor sigue inestable tras limpiar o si aparecen códigos de la mariposa y del pedal. También si el problema son fugas de aire, una EGR bloqueada o un sensor defectuoso. Una mariposa electrónica con el motor eléctrico dañado no se arregla con limpieza y debe sustituirse.</p><h2>Consejos de seguridad y casos particulares</h2><ul><li>Trabaja con el motor frío y la batería desconectada para evitar quemaduras y movimientos inesperados.</li><li>Los limpiadores son inflamables y tóxicos; no fumes y ventila bien.</li><li>En motores diésel, la mariposa suele limitar el aire para la EGR; límpiala junto con esta.</li><li>En algunos coches, desconectar la batería borra la memoria de radio y adaptaciones; ten a mano el código.</li><li>En motores de inyección directa, la suciedad suele acumularse en las válvulas, y la mariposa sola no lo soluciona.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cada cuánto hay que limpiar la mariposa?",
+      "answer": "Entre 40.000 y 100.000 km según el uso, o antes si el ralentí se vuelve inestable. En ciudad se ensucia más."
+    },
+    {
+      "question": "¿Qué producto se usa para limpiar la mariposa?",
+      "answer": "Un limpiador específico de mariposa o de admisión, apto para sensores y plásticos. Evita disolventes agresivos o abrasivos."
+    },
+    {
+      "question": "¿Se puede limpiar sin desmontarla?",
+      "answer": "Algunos limpiadores se aplican por la entrada de aire, pero desmontar el manguito permite limpiar mejor. Con el motor parado, mejor."
+    },
+    {
+      "question": "¿Hay que hacer aprendizaje después de limpiarla?",
+      "answer": "En muchos coches con mariposa electrónica, sí. Si no se hace, el ralentí puede oscilar o el motor calarse hasta que se readapte."
+    },
+    {
+      "question": "¿Puedo mover la mariposa con la mano?",
+      "answer": "En mariposas de cable, sí. En las electrónicas no: se dañan los engranajes del motor. Usa el contacto o un escáner para abrirla."
+    },
+    {
+      "question": "¿Cuánto cuesta limpiarla en el taller?",
+      "answer": "Entre 40 y 100 € con aprendizaje incluido. Una mariposa nueva sube a 150–450 €."
+    }
+  ],
+  "products": [
+    "limpiador de mariposa y admisión",
+    "escáner obd2 bluetooth elm327",
+    "juego de destornilladores de precisión"
+  ],
+  "related": [
+    "p0638",
+    "p0507",
+    "guia-coche-se-cala",
+    "guia-limpiar-valvula-egr"
+  ],
+  "featured_image": "/img/articulos/guia-guia-limpiar-mariposa.webp"
+}

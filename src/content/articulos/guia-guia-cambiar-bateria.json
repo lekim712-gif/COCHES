@@ -1,0 +1,53 @@
+{
+  "type": "guia",
+  "name": "Cómo cambiar la batería del coche: orden de desconexión y memoria",
+  "datePublished": "2026-11-08",
+  "dateModified": "2026-11-08",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Cómo cambiar la batería del coche paso a paso",
+    "meta_description": "Cambiar la batería del coche: orden de desconexión, polaridad, memoria, coches con Start-Stop o gestión de batería, precauciones y reciclaje del acumulador.",
+    "slug": "guia-cambiar-bateria"
+  },
+  "content_html": "<h1>Cómo cambiar la batería del coche: orden de desconexión y memoria</h1>\n<p class=\"intro\">Cambiar la batería del coche es posible en casa, pero exige respetar el orden de desconexión y la polaridad para evitar cortocircuitos y daños en la electrónica. En coches con Start-Stop o gestión inteligente de batería, además, hay que registrar la nueva con un escáner. Esta guía explica el procedimiento, la memoria y el reciclaje.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: riesgo de chispas, ácido y daños a la electrónica si se hace mal</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Batería de 12 V, bornes, alternador, gestión de batería, Start-Stop</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>80–200 € (batería estándar) · 120–300 € (AGM o EFB) · 20–60 € (mano de obra y registro)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Llaves del tamaño de los bornes, guantes, gafas, memoria de respaldo, cepillo de bornes</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Por qué importa el procedimiento</h2><p>La batería de plomo-ácido almacena mucha energía y puede entregar corrientes muy altas, por lo que un cortocircuito con una llave puede provocar chispas, quemaduras o la explosión de gases acumulados. Además, el coche tiene centralitas que guardan datos y adaptaciones. Un mal procedimiento puede borrar memorias, dañar electrónica o provocar fallos por inversión de polaridad.</p><h2>Cada cuánto y cuándo cambiarla</h2><table class=\"cmp\"><thead><tr><th>Situación</th><th>Orientación</th></tr></thead><tbody><tr><td>Vida media de una batería</td><td>Unos 4–6 años, según clima y uso</td></tr><tr><td>Arranque cada vez más lento</td><td>Comprueba y cambia si la prueba lo confirma</td></tr><tr><td>Más de 5 años y trayectos cortos</td><td>Hazle una prueba de carga cada año</td></tr><tr><td>Tensión en reposo inferior a 12,4 V tras recargar</td><td>Batería probablemente gastada</td></tr><tr><td>Borne hinchado o carcasa deformada</td><td>Cambio inmediato</td></tr></tbody></table><p>Antes de cambiarla, comprueba que no es el alternador el que no carga, ya que una batería nueva con un alternador averiado se agota igual.</p><h2>Tipos de batería y cómo elegirla</h2><ul><li>Convencional (inundada): la más económica, en coches sin Start-Stop.</li><li>EFB: refuerzo para Start-Stop de nivel básico.</li><li>AGM: la que exigen los coches con Start-Stop avanzado y mucha electrónica; no sustituir por una convencional.</li><li>Elige capacidad (Ah), corriente de arranque (A), medidas y posición de bornes iguales a la original o superiores, según el manual.</li></ul><h2>Herramientas y materiales</h2><ul><li>Llaves del tamaño de los bornes y de la sujeción.</li><li>Guantes y gafas de protección.</li><li>Cepillo de bornes y grasa específica.</li><li>Dispositivo de memoria (alimentación auxiliar de 12 V) para conservar datos.</li><li>Escáner OBD2 con registro de batería, si tu coche lo requiere.</li></ul>\n<h2>Cómo cambiar la batería paso a paso</h2><ol><li>Para el coche en llano, apaga el motor y todos los consumidores, quita la llave y espera unos minutos. Anota el código de la radio y los ajustes que quieras conservar.</li><li>Si dispones de un dispositivo de memoria, conéctalo según sus instrucciones antes de desconectar la batería.</li><li>Quítate anillos y relojes, ponte guantes y gafas y localiza la batería, que puede estar en el maletero o bajo el asiento.</li><li>Desconecta primero el borne negativo (menos), el que va a masa, y aparta el cable para que no toque la batería.</li><li>Desconecta después el borne positivo (más), con cuidado de que la llave no toque la carrocería.</li><li>Suelta la sujeción de la batería y retírala sujetándola por el asa, con cuidado: pesa entre 12 y 20 kg o más.</li><li>Limpia la bandeja y los bornes con el cepillo; elimina el sulfato blanco o verdoso y revisa que no haya corrosión.</li><li>Coloca la batería nueva en la misma posición, fíjala bien y comprueba que los bornes están en el sentido correcto.</li><li>Conecta primero el positivo y apriétalo, y después el negativo; aplica grasa de bornes y arranca el motor.</li><li>Si tu coche lo requiere, registra la nueva batería con un escáner y comprueba el Start-Stop, la hora y los ajustes; haz un ciclo de conducción de unos 20–30 minutos.</li></ol>\n<h2>La memoria del coche y los coches con gestión de batería</h2><p>Al cortar la alimentación se pueden perder la hora, la emisora de la radio, las memorias de asiento, el aprendizaje de elevalunas y de la mariposa, y los datos de la centralita. Un dispositivo de memoria evita casi todo. Tras el cambio, el motor puede ralentizar distinto durante unos kilómetros mientras se reaprende.</p><p>En coches con Start-Stop o con sistema de gestión inteligente de batería (BMS), hay un sensor en el borne negativo que mide la corriente y la carga. Al montar una batería nueva debe registrarse con un escáner para que el sistema ajuste la estrategia de carga y no la trate como una vieja. Si no se registra, la batería puede cargarse mal y acortar su vida. No cambies una batería AGM por una convencional.</p><h2>Errores frecuentes</h2><ul><li>Desconectar primero el positivo: si la llave toca la carrocería, provoca un cortocircuito.</li><li>Invertir la polaridad: puede quemar fusibles, el alternador y centralitas.</li><li>No limpiar los bornes: el mal contacto parece una batería defectuosa.</li><li>Poner una batería de menor capacidad o de tipo distinto del original.</li><li>Olvidar el registro en coches con BMS.</li><li>Tirar la batería usada a la basura.</li></ul><h2>Cuánto cuesta</h2><table class=\"cmp\"><thead><tr><th>Concepto</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Batería convencional</td><td>80–150 €</td></tr><tr><td>Batería EFB o AGM</td><td>120–300 €</td></tr><tr><td>Cambio y registro en taller</td><td>20–60 €</td></tr><tr><td>Prueba de batería y alternador</td><td>0–30 €</td></tr></tbody></table><h2>Reciclaje de la batería usada</h2><p>La batería contiene plomo y ácido sulfúrico, contaminantes peligrosos. Al comprar una nueva, el establecimiento está obligado a recoger la usada. También puedes llevarla a un punto limpio. Transpórtala en vertical y no la dejes tirada ni la abras.</p><h2>Cuándo es mejor llevarlo al taller</h2><p>Acude al taller si tu coche tiene la batería bajo el asiento o en el maletero con tubo de ventilación, si necesita registro con escáner, si es híbrido o eléctrico, o si no estás seguro de la polaridad. Con sistemas híbridos y eléctricos, la batería de 12 V puede tener procedimientos especiales y la de alta tensión no debe tocarse.</p><h2>Consejos de seguridad</h2><ul><li>Trabaja sin chispas, sin fumar y con ventilación: las baterías desprenden hidrógeno.</li><li>Evita que objetos metálicos toquen a la vez los dos bornes.</li><li>Si te salpica ácido, lava con abundante agua y busca atención médica.</li><li>No inclines mucho una batería que no sea sellada.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué borne se desconecta primero?",
+      "answer": "El negativo, que va a masa. Así, si la llave toca la carrocería al soltar el positivo, no hay cortocircuito. Al montar, se conecta primero el positivo."
+    },
+    {
+      "question": "¿Se pierde la memoria al desconectar la batería?",
+      "answer": "Se pueden perder la hora, las emisoras y algunos aprendizajes. Un dispositivo de memoria de 12 V evita casi todo."
+    },
+    {
+      "question": "¿Hay que registrar la batería nueva?",
+      "answer": "En coches con Start-Stop o gestión de batería, sí, con un escáner. Si no, el sistema puede cargarla mal y acortar su vida."
+    },
+    {
+      "question": "¿Puedo poner una batería convencional en un coche con Start-Stop?",
+      "answer": "No es recomendable. Estos coches exigen EFB o AGM, y una convencional se degrada rápidamente."
+    },
+    {
+      "question": "¿Qué pasa si invierto la polaridad?",
+      "answer": "Puede fundir fusibles y dañar el alternador y centralitas. Si ocurre, desconecta de inmediato y revisa el sistema."
+    },
+    {
+      "question": "¿Dónde se recicla la batería vieja?",
+      "answer": "En el establecimiento donde compras la nueva, que debe recogerla, o en un punto limpio. Nunca en la basura."
+    }
+  ],
+  "products": [
+    "batería de coche 12V AGM",
+    "dispositivo de memoria 12V para batería",
+    "cepillo limpiador de bornes de batería"
+  ],
+  "related": [
+    "testigo-bateria",
+    "guia-cargar-bateria",
+    "guia-bateria-se-descarga-sola",
+    "testigo-start-stop"
+  ],
+  "featured_image": "/img/articulos/guia-guia-cambiar-bateria.webp"
+}

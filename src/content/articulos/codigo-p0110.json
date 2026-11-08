@@ -1,0 +1,54 @@
+{
+  "type": "codigo",
+  "code": "P0110",
+  "name": "Circuito del sensor de temperatura del aire de admisión",
+  "datePublished": "2026-11-08",
+  "dateModified": "2026-11-08",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0110: causas, síntomas y solución",
+    "meta_description": "Código P0110: fallo general en el circuito del sensor de temperatura del aire de admisión (IAT). Dónde está, valores en vivo, pruebas con multímetro y costes.",
+    "slug": "p0110"
+  },
+  "content_html": "<h1>Código P0110: Circuito del sensor de temperatura del aire de admisión</h1>\n<p class=\"intro\">El código P0110 señala un fallo general en el circuito del sensor de temperatura del aire de admisión, conocido como IAT. La centralita recibe de ese sensor una tensión que no corresponde a una temperatura creíble, o que no cambia como debería. Se usa para corregir la cantidad de combustible según la densidad del aire, así que su fallo afecta al consumo y al comportamiento del motor.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja-media: el coche funciona, pero con corrección de mezcla degradada</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sensor IAT, cableado y conector, masa de sensores, centralita, caudalímetro integrado</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>15–250 €, según sea limpieza, sensor o cableado</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con datos en vivo, multímetro, limpiador de contactos, termómetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido de forma fija.</li><li>Consumo de combustible algo superior al habitual.</li><li>Arranque en frío más largo o con tirones al principio.</li><li>Ralentí irregular en los primeros minutos de funcionamiento.</li><li>Ligera pérdida de potencia o respuesta menos viva al acelerar.</li><li>Temperatura del aire de admisión que muestra valores imposibles, como menos 40 °C o más de 130 °C.</li><li>Humo negro leve en el escape cuando la centralita enriquece la mezcla por prudencia.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor de temperatura del aire con el elemento interno defectuoso o contaminado.</li><li>Conector del sensor con terminales flojos, humedad o sulfatación.</li><li>Cable cortado, rozado o en contacto con masa o con alimentación.</li><li>Masa de sensores con mala conexión, que desplaza la señal.</li><li>Caudalímetro con el sensor IAT integrado averiado; en ese caso se cambia el conjunto.</li><li>Admisión con pérdidas o conducto dañado que falsea la temperatura medida.</li><li>Fallo interno de la centralita, muy poco frecuente.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p><h2>Qué significa el código P0110 y cómo lo detecta la centralita</h2><p>El sensor de temperatura del aire de admisión es una resistencia NTC: cuanto más calor, menos resistencia. La centralita le aplica 5 V a través de una resistencia interna y mide la tensión resultante, que traduce a grados. Con el aire frío, la tensión es alta; con el aire caliente, baja. En muchos coches el sensor va dentro del caudalímetro; en otros va roscado o enclavado en el conducto de admisión, tras el filtro.</p><p>El P0110 es el código genérico de circuito. Se activa cuando la señal queda fuera de márgenes razonables o cuando la lectura no es coherente con el resto del sistema, por ejemplo si marca una temperatura estática que no varía con el motor caliente. A diferencia del P0113, que concreta una señal alta del sensor por circuito abierto o cable cortado, el P0110 no distingue si el fallo es alto, bajo o de plausibilidad, y exige medir para averiguarlo.</p><h2>Datos en vivo y valores de referencia</h2><p>Con el escáner, y siempre según el manual del fabricante, estos son los valores típicos para interpretar la lectura.</p><ul><li>Motor frío y parado varias horas: la temperatura del aire debe parecerse a la del refrigerante y a la ambiente.</li><li>Motor caliente y en marcha: el aire de admisión sube hasta unos 30–60 °C según el modelo y el tráfico.</li><li>Con turbo e intercooler, el aire tras el intercooler puede alcanzar valores más altos, pero la lectura debe evolucionar con suavidad.</li><li>Tensión del sensor: alrededor de 3,5–4,5 V con aire frío y de 1–2 V con el aire caliente.</li><li>Lecturas de menos 40 °C o 130 °C o más y fijas indican circuito abierto o cortocircuito.</li><li>Comprueba que la temperatura del aire no se queda clavada mientras el refrigerante sube.</li></ul><h2>Cómo distinguir la causa</h2><table class=\"cmp\"><thead><tr><th>Prueba</th><th>Resultado</th><th>Causa probable</th></tr></thead><tbody><tr><td>Lectura en vivo con motor frío</td><td>Menos 40 °C fijo</td><td>Circuito abierto o conector suelto</td></tr><tr><td>Lectura en vivo con motor frío</td><td>130 °C o más fijo</td><td>Cortocircuito a masa del cable</td></tr><tr><td>Resistencia del sensor desmontado a temperatura ambiente</td><td>Fuera del rango del manual</td><td>Sensor defectuoso</td></tr><tr><td>Tensión de referencia de 5 V en el conector</td><td>Ausente o baja</td><td>Cableado o centralita</td></tr><tr><td>Mover el cableado con el motor en marcha</td><td>La lectura salta</td><td>Cable o terminal roto</td></tr><tr><td>Sensor integrado en el caudalímetro</td><td>Caudalímetro con otros fallos</td><td>Cambio del caudalímetro completo</td></tr></tbody></table>\n<h2>Cómo diagnosticar el P0110 paso a paso</h2><ol><li>Lee todos los códigos; si también aparecen fallos del caudalímetro o del refrigerante, anótalos porque pueden compartir causa.</li><li>Con el motor frío, compara la temperatura del aire con la del refrigerante en datos en vivo; deberían ser muy parecidas.</li><li>Localiza el sensor, que puede estar en el caudalímetro o en el tubo de admisión, e inspecciona su carcasa y su conector.</li><li>Desconecta el conector con el contacto quitado y busca humedad, terminales verdes o pines doblados.</li><li>Mide la tensión de 5 V de referencia y la continuidad de la masa en el conector del cableado, con el contacto dado.</li><li>Retira el sensor y mide su resistencia a temperatura ambiente; compárala con el valor del manual.</li><li>Calienta el sensor con un secador de pelo y comprueba que la resistencia baja de forma progresiva, sin saltos.</li><li>Revisa el cable entre sensor y centralita en busca de roces o cortes, especialmente cerca del colector.</li><li>Sustituye el sensor o el caudalímetro solo cuando las pruebas lo señalen, borra el código y conduce un ciclo completo para confirmarlo.</li></ol>\n<h2>Cuánto cuesta repararlo</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Limpieza de conector y diagnóstico</td><td>20–60 €</td></tr><tr><td>Sensor IAT independiente</td><td>15–60 € con mano de obra</td></tr><tr><td>Reparación de cableado</td><td>50–150 €</td></tr><tr><td>Caudalímetro con sensor integrado</td><td>120–400 €</td></tr><tr><td>Revisión de la admisión y sustitución de conductos</td><td>60–250 €</td></tr></tbody></table><h2>Errores frecuentes al diagnosticar</h2><ul><li>Cambiar el caudalímetro entero cuando el sensor IAT es una pieza independiente y barata.</li><li>Confundir el P0110 con el P0113 y buscar solo un circuito abierto, sin medir las demás opciones.</li><li>Tocar el elemento sensible del sensor con los dedos o limpiarlo con productos abrasivos.</li><li>No comprobar la masa de sensores, que afecta a varios sensores a la vez.</li><li>Borrar el código sin conducir lo suficiente para verificar la reparación.</li></ul><h2>Cuándo acudir al taller</h2><ul><li>Si el sensor está integrado en el caudalímetro y exige desmontar la admisión.</li><li>Si sospechas de un fallo del cableado oculto o intermitente que no localizas.</li><li>Si hay consumo elevado o humo negro persistentes tras cambiar el sensor.</li><li>Si aparecen otros códigos del motor al mismo tiempo.</li></ul><h2>Códigos relacionados</h2><ul><li>P0113: señal alta del sensor de temperatura del aire de admisión.</li><li>P0112: señal baja del sensor de temperatura del aire de admisión.</li><li>P0111: rendimiento o rango del sensor de temperatura del aire.</li><li>P0101: rango o rendimiento del caudalímetro.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa el código P0110?",
+      "answer": "Que la centralita detecta un fallo general en el circuito del sensor de temperatura del aire de admisión."
+    },
+    {
+      "question": "¿En qué se diferencia del P0113?",
+      "answer": "El P0113 indica una señal alta, normalmente por circuito abierto, mientras que el P0110 es genérico y puede deberse a señal alta, baja o incoherente."
+    },
+    {
+      "question": "¿Dónde está el sensor IAT?",
+      "answer": "En el conducto de admisión tras el filtro de aire o integrado en el caudalímetro, según el modelo."
+    },
+    {
+      "question": "¿Puedo conducir con el P0110?",
+      "answer": "Sí, normalmente, pero con más consumo y peor respuesta en frío, así que conviene corregirlo."
+    },
+    {
+      "question": "¿Se puede limpiar el sensor?",
+      "answer": "Solo con limpiador específico para sensores y sin tocar el elemento; si falla la resistencia, hay que cambiarlo."
+    },
+    {
+      "question": "¿Cuánto cuesta repararlo?",
+      "answer": "Entre 15 y 60 € si es un sensor independiente, y hasta unos 400 € si hay que cambiar el caudalímetro."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "limpiador de contactos eléctricos"
+  ],
+  "related": [
+    "p0113",
+    "p0101",
+    "p0102",
+    "testigo-motor"
+  ],
+  "featured_image": "/img/articulos/codigo-p0110.webp"
+}
