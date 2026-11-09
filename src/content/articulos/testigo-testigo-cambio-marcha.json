@@ -1,0 +1,53 @@
+{
+  "type": "testigo",
+  "name": "Indicador de cambio de marcha: flechas arriba y abajo en el cuadro",
+  "datePublished": "2026-11-09",
+  "dateModified": "2026-11-09",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Indicador de cambio de marcha: qué significa",
+    "meta_description": "Qué indican las flechas de cambio de marcha (GSI), cómo calcula la centralita la marcha recomendada, por qué a veces no aparece y si es un fallo.",
+    "slug": "testigo-cambio-marcha"
+  },
+  "content_html": "<h1>Indicador de cambio de marcha: flechas arriba y abajo en el cuadro</h1>\n<p class=\"intro\">El indicador de cambio de marcha, una flecha hacia arriba o hacia abajo junto al número de marcha, sugiere cuándo subir o reducir para gastar menos combustible. No es un testigo de avería, sino una ayuda a la eficiencia. Si aparece sin sentido, desaparece o se queda fijo, conviene saber cómo decide la centralita y cuándo puede indicar un fallo.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: es una ayuda a la conducción, no una avería</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Cuadro de instrumentos, centralita del motor, sensor de régimen, sensor de posición del acelerador, sensor de marcha engranada</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0 € (normalmente es un aviso informativo) · 50–200 € (sensor o diagnosis)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, manual del vehículo, multímetro</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Aparece una flecha hacia arriba (subir marcha) o hacia abajo (reducir) en el cuadro mientras conduces.</li><li>El indicador sugiere subir de marcha a un régimen que te parece demasiado bajo, con el motor casi sin fuerza.</li><li>La flecha no aparece nunca, aunque el coche siempre la tuvo, o desaparece tras limpiar o cambiar un sensor.</li><li>Se queda fija en una marcha concreta o parpadea sin relación con la conducción real.</li><li>Se muestra el número de marcha sin flecha, o con un guion cuando el sistema no detecta la marcha engranada.</li><li>La indicación cambia según el modo de conducción: Eco, Normal o Sport.</li><li>Aparece junto a otro aviso del motor o de la caja de cambios que podría explicarla.</li></ul>\n<h2>Causas principales</h2><ul><li>Funcionamiento normal: la centralita compara velocidad, régimen y carga con un mapa de consumo mínimo.</li><li>Estilo de conducción muy exigente, que hace que la sugerencia cambie de continuo y parezca errática.</li><li>Pendiente, remolque o mucha carga, en las que la lógica recomienda reducir antes de lo habitual.</li><li>Sensor de marcha engranada o de posición del pedal con lectura incorrecta.</li><li>Neumáticos de medida distinta a la homologada, que alteran el cálculo entre velocidad y régimen.</li><li>Fallo de comunicación entre la centralita y el cuadro, que anula la indicación.</li><li>Actualización pendiente o desactivación del asistente en el menú del vehículo.</li></ul>\n<h2>Cómo funciona el indicador de marcha recomendada</h2><p>El sistema, conocido como GSI (Gear Shift Indicator), recibe la velocidad del vehículo, el régimen del motor, la carga solicitada con el acelerador y la marcha engranada. Con estos datos calcula si en otra marcha el motor trabajaría con menos consumo. Si la mejora supera un umbral, muestra la flecha. En cajas manuales es habitual; en automáticas suele ser una sugerencia para el modo manual.</p><p>Importa recordar que el algoritmo optimiza el consumo, no la respuesta ni la seguridad. Por eso puede sugerir subir marcha en una curva cerrada, al adelantar o en una bajada pronunciada donde convendría mantener el motor frenando.</p><h2>Qué significa cada indicación</h2><table class=\"cmp\"><thead><tr><th>Indicación</th><th>Qué sugiere</th><th>Cuándo tiene sentido</th><th>Cuándo ignorarla</th></tr></thead><tbody><tr><td>Flecha hacia arriba</td><td>Subir una marcha</td><td>Régimen alto con poca carga, crucero estable</td><td>Adelantamientos, curvas, pendientes fuertes</td></tr><tr><td>Flecha hacia abajo</td><td>Reducir una marcha</td><td>Motor forzado a bajo régimen, subida</td><td>Aproximación a un semáforo si frenas con el motor</td></tr><tr><td>Número de marcha sin flecha</td><td>Marcha adecuada</td><td>Conducción equilibrada</td><td>No aplica</td></tr><tr><td>Guion o sin indicación</td><td>Sistema no disponible</td><td>Punto muerto, embrague pisado, parado</td><td>Persistente en marcha: posible sensor</td></tr></tbody></table><blockquote class=\"tip\"><strong>Consejo:</strong> Úsalo como guía de autopista y ciudad suave. En carreteras de montaña o con la carga completa, prima el criterio propio y mantén la marcha que dé más control.</blockquote>\n<h2>Qué hacer si el indicador parece fallar</h2><ol><li>Comprueba en el menú del vehículo si la función está activada: algunos modelos permiten desactivar el asistente de marcha.</li><li>Verifica que el modo de conducción sea el habitual; en Eco las sugerencias son más tempranas y en Sport más tardías.</li><li>Revisa la presión y la medida de los neumáticos: una diferencia de diámetro desajusta el cálculo.</li><li>Conduce a velocidad estable en llano para ver si aparece la flecha en condiciones normales.</li><li>Escanea el coche con un OBD2 y busca códigos de sensor de pedal, de régimen o de comunicación con el cuadro.</li><li>Comprueba en datos en vivo que la marcha engranada y el régimen coincidan con la realidad.</li><li>Revisa el fusible y el conector del cuadro si se acompaña de otros fallos eléctricos.</li><li>Reinicia el vehículo con la batería desconectada unos minutos solo si el manual lo permite.</li><li>Si el indicador desapareció tras una reparación, pregunta si se ha vuelto a adaptar el sistema con la diagnosis.</li><li>Si el fallo persiste, acude a un taller con equipo del fabricante para una diagnosis de la centralita.</li></ol>\n<h2>Causas posibles y coste</h2><table class=\"cmp\"><thead><tr><th>Situación</th><th>Causa probable</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Flecha que sugiere siempre subir</td><td>Mapa muy orientado a consumo</td><td>0 €</td></tr><tr><td>Indicación desaparecida</td><td>Función desactivada o sensor</td><td>0–120 €</td></tr><tr><td>Valores incoherentes</td><td>Neumáticos o sensor de velocidad</td><td>30–150 €</td></tr><tr><td>Sin comunicación con el cuadro</td><td>Cableado o centralita</td><td>80–400 €</td></tr></tbody></table><h2>Errores frecuentes</h2><ul><li>Considerar la flecha como obligatoria y llevar el motor a regímenes demasiado bajos, con vibraciones y desgaste del volante bimasa.</li><li>Pensar que es un fallo cuando solo refleja el estilo de conducción.</li><li>Montar neumáticos de otra medida sin tener en cuenta el efecto sobre los sistemas de ayuda.</li><li>Desconectar sensores sin saber qué señales usa la centralita.</li></ul><h2>Cuándo acudir al taller</h2><p>No es urgente. Acude si la indicación desaparece junto a otros avisos, si la caja de cambios se comporta de forma extraña o si aparece un testigo del motor encendido. Un fallo del sensor de pedal puede afectar también a la respuesta del acelerador y requiere diagnóstico.</p><h2>Testigos relacionados</h2><ul><li>Testigo de cambio automático: avisa de fallo de transmisión.</li><li>Testigo del motor: puede acompañar a un sensor de pedal defectuoso.</li><li>Testigo de start-stop: otra ayuda a la eficiencia con su propia lógica.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Es obligatorio seguir la flecha del indicador de marcha?",
+      "answer": "No. Es una sugerencia para ahorrar combustible. En adelantamientos, curvas o pendientes conviene ignorarla y elegir la marcha que dé más control."
+    },
+    {
+      "question": "¿Por qué me sugiere subir marcha a un régimen tan bajo?",
+      "answer": "Porque el mapa de consumo prefiere regímenes bajos con carga ligera. Si notas vibraciones o falta de respuesta, mantén la marcha inferior."
+    },
+    {
+      "question": "¿Se puede desactivar el indicador?",
+      "answer": "En muchos modelos sí, desde el menú del cuadro o de ajustes del vehículo. Consulta el manual de tu coche."
+    },
+    {
+      "question": "¿Por qué no aparece en mi coche automático?",
+      "answer": "En cajas automáticas suele mostrarse solo en modo manual o secuencial, ya que en automático la caja elige la marcha por sí misma."
+    },
+    {
+      "question": "¿Un indicador que falla indica una avería grave?",
+      "answer": "Normalmente no. Suele deberse a un sensor o a la configuración, aunque conviene escanear el coche si aparecen otros síntomas."
+    },
+    {
+      "question": "¿Ahorra de verdad combustible?",
+      "answer": "Puede reducir el consumo si se sigue con criterio en conducción estable, pero el ahorro depende del tráfico y del estilo de cada conductor."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "manómetro de presión de neumáticos"
+  ],
+  "related": [
+    "testigo-cambio-automatico",
+    "testigo-motor",
+    "testigo-start-stop",
+    "guia-consumo-excesivo-combustible"
+  ],
+  "featured_image": "/img/articulos/testigo-testigo-cambio-marcha.webp"
+}

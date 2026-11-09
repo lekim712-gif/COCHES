@@ -1,0 +1,53 @@
+{
+  "type": "guia",
+  "name": "Testigo de motor encendido: las causas más frecuentes y qué revisar primero",
+  "datePublished": "2026-11-09",
+  "dateModified": "2026-11-09",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Testigo de motor encendido: causas y qué revisar",
+    "meta_description": "Guía para entender por qué se enciende el testigo de motor: tapón de combustible, sondas lambda, bujías, MAF, EGR, catalizador y cómo leer el código.",
+    "slug": "guia-causas-testigo-motor"
+  },
+  "content_html": "<h1>Testigo de motor encendido: las causas más frecuentes y qué revisar primero</h1>\n<p class=\"intro\">El testigo de motor se enciende cuando la centralita detecta un fallo que puede afectar a las emisiones o al funcionamiento. Las causas van desde un tapón de combustible mal cerrado hasta un catalizador deteriorado. Esta guía ordena las más frecuentes, de la más barata a la más costosa, y explica cómo leer el código para no cambiar piezas a ciegas.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Variable: fijo suele permitir llegar al taller; parpadeante exige parar</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Gestión del motor, emisiones, encendido, admisión, sensores, escape</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–20 € (tapón) · 30–120 € (bujías, sensores) · 400–1.500 € (catalizador, filtro de partículas)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, linterna, multímetro, manual del vehículo</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Por qué se enciende el testigo de motor</h2><p>La centralita supervisa decenas de sensores y actuadores. Cuando una señal sale de su rango, se repite una condición anómala o un componente no responde, guarda un código de avería y enciende el testigo. Fijo indica un fallo registrado; parpadeante señala fallos de encendido graves que pueden dañar el catalizador. El código no dice qué pieza cambiar, sino qué circuito o sistema está fuera de rango.</p><h2>Las causas más frecuentes, de menor a mayor coste</h2><table class=\"cmp\"><thead><tr><th>Causa</th><th>Señal típica</th><th>Código habitual</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Tapón del combustible flojo</td><td>Aparece tras repostar, sin otros síntomas</td><td>Fugas del sistema EVAP</td><td>0–20 €</td></tr><tr><td>Sondas lambda</td><td>Consumo alto, ralentí inestable</td><td>Heater, señal lenta o fuera de rango</td><td>60–250 €</td></tr><tr><td>Bujías y bobinas</td><td>Tirones, fallos al acelerar</td><td>Fallos de encendido por cilindro</td><td>40–250 €</td></tr><tr><td>Caudalímetro MAF</td><td>Pérdida de potencia, tirones</td><td>Señal alta o baja del MAF</td><td>60–250 €</td></tr><tr><td>Válvula EGR</td><td>Humo, ralentí irregular</td><td>Caudal o posición incorrecta</td><td>80–450 €</td></tr><tr><td>Catalizador</td><td>Pérdida de potencia, olor a huevo podrido</td><td>Eficiencia por debajo del umbral</td><td>400–1.500 €</td></tr><tr><td>Filtro de partículas</td><td>Regeneraciones frecuentes, consumo alto</td><td>Presión diferencial, obstrucción</td><td>300–1.800 €</td></tr><tr><td>Sensores de presión y temperatura</td><td>Modo de emergencia</td><td>Señales fuera de rango</td><td>30–200 €</td></tr></tbody></table><h2>Qué revisar primero</h2><p>Empieza por lo sencillo: el tapón del depósito, el nivel de aceite y refrigerante, y un vistazo a mangueras de admisión sueltas o conectores desenchufados. Tras eso, lee el código con un escáner. Una admisión con una fuga de aire falsa genera mezcla pobre y códigos de sonda, y cambiar la sonda no arregla nada.</p><ul><li>Tapón del combustible: apriétalo hasta oír los clics; puede borrarse el aviso tras unos ciclos de conducción.</li><li>Mangueras de admisión y manguitos del turbo: busca grietas o abrazaderas sueltas.</li><li>Conectores del MAF y de las bobinas: comprueba que estén bien encajados.</li><li>Último repostaje: combustible de mala calidad o mezcla puede provocar fallos de encendido.</li></ul><h2>Cómo leer el código con un escáner</h2><p>Conecta el escáner al puerto OBD2, bajo el salpicadero, con el contacto puesto. Anota el código completo (por ejemplo, P0171 o P0300) y mira si es permanente, pendiente o confirmado. Después consulta los datos congelados (freeze frame), que muestran régimen, carga y temperatura en el momento del fallo, y los datos en vivo de las sondas y del ajuste de combustible.</p><blockquote class=\"tip\"><strong>Consejo:</strong> No borres el código antes de anotarlo. Borrar sin reparar elimina los datos congelados y hace que el fallo regrese sin información para diagnosticarlo.</blockquote>\n<h2>Cómo actuar paso a paso cuando se enciende el testigo</h2><ol><li>Observa si el testigo está fijo o parpadea: si parpadea, reduce la carga y detente en cuanto puedas hacerlo con seguridad.</li><li>Comprueba que el tapón del combustible esté bien cerrado y que no haya fugas visibles de aceite o refrigerante.</li><li>Fíjate en síntomas: tirones, humo, olor, pérdida de potencia o ralentí inestable.</li><li>Conecta un escáner OBD2 y anota todos los códigos, incluidos los pendientes.</li><li>Busca el significado de cada código y relaciónalo con el sistema afectado, no con una pieza concreta.</li><li>Mira los datos en vivo: ajuste de combustible, sonda lambda, presión del colector y temperatura.</li><li>Realiza las comprobaciones básicas de ese sistema antes de comprar piezas: cableado, conectores, fugas.</li><li>Repara o sustituye el componente demostrado como causa, y borra el código solo después.</li><li>Conduce un ciclo completo (unos 20 minutos mixtos) y comprueba que el testigo no vuelve.</li><li>Si reaparece, repite la lectura: el segundo código suele apuntar a la causa de fondo.</li></ol>\n<h2>Cuánto tarda en volver a apagarse el testigo</h2><p>Tras una reparación correcta, la centralita necesita completar varios ciclos de conducción para comprobar que el fallo no se repite. En fallos de mezcla o de sondas suele bastar con uno o dos trayectos mixtos; en emisiones y catalizador pueden hacer falta varios días hasta que se completen los monitores de preparación. Si el testigo se apaga pero el escáner muestra monitores incompletos, la ITV puede rechazarlo hasta completarlos.</p><h2>Errores frecuentes</h2><ul><li>Borrar el código para pasar la ITV sin arreglar la causa.</li><li>Cambiar la sonda lambda por un código de mezcla pobre cuando la causa es una fuga de admisión.</li><li>Cambiar bobinas y bujías sin comprobar la compresión o los inyectores.</li><li>Usar limpiadores milagro en lugar de diagnosticar.</li><li>Conducir con el testigo parpadeante, que destruye el catalizador.</li></ul><h2>Cuándo es mejor llevarlo al taller</h2><p>Llévalo si el testigo parpadea, si hay pérdida de potencia, humo, olor fuerte o modo de emergencia. También si el código afecta a seguridad (inyección diésel de alta presión, turbo) o si no lograste localizar la causa con una revisión básica. Un taller con equipo de diagnosis podrá contrastar los datos con los del fabricante.</p><h2>Casos particulares</h2><h3>Gasolina</h3><p>Los fallos de encendido, las sondas y las fugas de admisión son los más frecuentes. Un catalizador dañado suele ser consecuencia de fallos de encendido ignorados.</p><h3>Diésel</h3><p>Dominan el EGR, el filtro de partículas, el caudalímetro y los inyectores. Los trayectos cortos favorecen la obstrucción del filtro y de la válvula EGR.</p><h3>Coches modernos</h3><p>Algunos fallos aparecen como avisos de emisiones o de modo de emergencia. La diagnosis oficial resulta útil cuando el escáner genérico no muestra códigos específicos del fabricante.</p>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Puedo seguir conduciendo con el testigo de motor encendido?",
+      "answer": "Si está fijo y el coche va bien, puedes llegar al taller con precaución. Si parpadea o hay pérdida de potencia, detente: puedes dañar el catalizador."
+    },
+    {
+      "question": "¿El tapón del combustible puede encender el testigo?",
+      "answer": "Sí. Un tapón flojo o con la junta dañada provoca una fuga en el sistema de evaporación y activa el aviso. Apriétalo y conduce unos ciclos."
+    },
+    {
+      "question": "¿Cuál es la causa más cara?",
+      "answer": "El catalizador y el filtro de partículas, con costes de varios cientos de euros. Suelen ser consecuencia de otros fallos no atendidos."
+    },
+    {
+      "question": "¿Se apaga solo el testigo?",
+      "answer": "Puede apagarse tras varios ciclos de conducción sin que se repita el fallo, pero el código queda guardado en la memoria hasta que se borra."
+    },
+    {
+      "question": "¿Necesito un escáner caro?",
+      "answer": "Un lector OBD2 básico basta para ver el código. Para datos en vivo y funciones específicas, uno con buena cobertura de datos resulta más útil."
+    },
+    {
+      "question": "¿Pasará la ITV con el testigo encendido?",
+      "answer": "No. Un testigo de motor encendido o un código activo suele ser motivo de rechazo, por lo que hay que reparar la causa antes."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "juego de bujías para coche"
+  ],
+  "related": [
+    "testigo-motor",
+    "guia-como-usar-escaner-obd2",
+    "p0420",
+    "p0171"
+  ],
+  "featured_image": "/img/articulos/guia-guia-causas-testigo-motor.webp"
+}

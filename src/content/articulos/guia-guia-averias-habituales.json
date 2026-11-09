@@ -1,0 +1,53 @@
+{
+  "type": "guia",
+  "name": "Las averías más habituales del coche y cómo detectarlas a tiempo",
+  "datePublished": "2026-11-09",
+  "dateModified": "2026-11-09",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Averías más habituales del coche y cómo detectarlas",
+    "meta_description": "Repaso a las averías más comunes (batería, frenos, neumáticos, distribución, embrague, refrigeración, suspensión, escape y sensores) y sus señales de aviso.",
+    "slug": "guia-averias-habituales"
+  },
+  "content_html": "<h1>Las averías más habituales del coche y cómo detectarlas a tiempo</h1>\n<p class=\"intro\">La mayoría de las averías avisan antes de aparecer: un ruido nuevo, una vibración, un olor o un testigo. Conocer las señales de las más habituales permite actuar cuando la reparación es barata y evitar quedarse tirado. Esta guía repasa los sistemas que más fallan, qué síntomas anticipan el problema y cuándo conviene revisarlo.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Variable según el sistema; frenos, dirección y distribución son críticos</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Batería, frenos, neumáticos, distribución, embrague, refrigeración, suspensión, escape, sensores</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>20–2.000 € según la avería y el momento en que se detecta</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Linterna, escáner OBD2, multímetro, manual del vehículo</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Por qué conviene detectar las averías pronto</h2><p>Un componente desgastado que se sustituye a tiempo suele costar una fracción de lo que cuesta arreglar el daño que provoca. Una pastilla de freno cuesta poco; un disco rayado o un pistón forzado, mucho más. Una correa de distribución cambiada en plazo cuesta cientos de euros; rota, puede arruinar el motor. La clave está en atender las señales tempranas.</p><h2>Señales de aviso por sistema</h2><table class=\"cmp\"><thead><tr><th>Sistema</th><th>Señal temprana</th><th>Qué suele fallar</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Batería</td><td>Arranque lento, luces débiles</td><td>Batería agotada o alternador</td><td>90–220 €</td></tr><tr><td>Frenos</td><td>Chirrido, pedal blando, vibración</td><td>Pastillas, discos, líquido</td><td>80–450 €</td></tr><tr><td>Neumáticos</td><td>Desgaste irregular, tirón lateral</td><td>Alineación, presión, amortiguador</td><td>30–600 €</td></tr><tr><td>Distribución</td><td>Ruido de correa, intervalo vencido</td><td>Correa o cadena, tensor</td><td>350–900 €</td></tr><tr><td>Embrague</td><td>Patina, pedal duro, ruido al pisar</td><td>Disco, prensa, volante</td><td>500–1.300 €</td></tr><tr><td>Refrigeración</td><td>Aguja alta, nivel bajo, olor dulce</td><td>Termostato, bomba, radiador</td><td>80–600 €</td></tr><tr><td>Suspensión</td><td>Golpeteos, balanceo, rebote</td><td>Amortiguadores, silentblocks, rótulas</td><td>100–700 €</td></tr><tr><td>Escape</td><td>Ruido fuerte, olor a gases</td><td>Silencioso, catalizador, juntas</td><td>80–1.200 €</td></tr><tr><td>Sensores</td><td>Testigo de motor, tirones</td><td>Lambda, MAF, presión, temperatura</td><td>40–250 €</td></tr></tbody></table><h2>Batería y sistema eléctrico</h2><p>Es la causa número uno de coches que no arrancan. La batería envejece entre cuatro y seis años y falla antes con trayectos cortos y frío. Señales: arranque perezoso, luces que bajan al arrancar, electrónica que se reinicia. Una medición de tensión con el multímetro (unos 12,6 V parado y 13,8–14,5 V con motor en marcha) distingue entre batería y alternador.</p><h2>Frenos, neumáticos y suspensión</h2><p>Son sistemas de seguridad y de desgaste. En frenos, los chirridos, el pedal esponjoso o el volante que vibra al frenar anuncian pastillas, discos o líquido envejecido. En neumáticos, vigila la profundidad del dibujo (mínimo legal 1,6 mm), la presión y desgastes irregulares. En suspensión, un coche que rebota de más tras un bache o hace ruidos secos en baches necesita revisar amortiguadores y silentblocks.</p><blockquote class=\"tip\"><strong>Consejo:</strong> Si el coche tira a un lado, el volante vibra o el neumático se desgasta por un borde, revisa la alineación antes de que el neumático quede inservible.</blockquote><h2>Distribución, embrague y refrigeración</h2><p>La correa de distribución se cambia por kilómetros o años, aunque se vea bien: si se rompe, puede dañar válvulas y pistones. El embrague avisa con revoluciones que suben sin que el coche acelere y con olor a quemado. La refrigeración manda avisos de temperatura y de nivel; un termostato atascado o una fuga lenta pueden terminar en una junta de culata dañada si se ignoran.</p><h2>Escape y sensores</h2><p>Un escape ruidoso o con olor indica agujeros o juntas; un catalizador deteriorado se nota en pérdida de potencia y testigo. Las sondas y sensores de motor suelen avisar con el testigo de motor, consumo alto o tirones; un escáner permite acotar el origen antes de cambiar piezas.</p>\n<h2>Cómo detectar los problemas a tiempo</h2><ol><li>Presta atención a ruidos, vibraciones y olores nuevos: lo que antes no estaba suele indicar un componente en fallo.</li><li>Revisa los testigos del cuadro al arrancar y no ignores los ámbar.</li><li>Comprueba mensualmente la presión de los neumáticos y el dibujo.</li><li>Mira niveles de aceite, refrigerante y líquido de frenos con el motor frío.</li><li>Observa si hay manchas bajo el coche tras aparcar.</li><li>Respeta los intervalos de distribución, aceite y frenos del plan de mantenimiento.</li><li>Escanea el coche con OBD2 cuando aparezca cualquier síntoma extraño.</li><li>Anota fechas y kilometraje de cada revisión para ver patrones.</li><li>Haz una prueba en carretera para notar vibraciones, tirones o ruidos.</li><li>Consulta a un taller ante cualquier duda en frenos, dirección o distribución.</li></ol>\n<h2>Un calendario sencillo de vigilancia</h2><table class=\"cmp\"><thead><tr><th>Frecuencia</th><th>Qué vigilar</th><th>Por qué</th></tr></thead><tbody><tr><td>Cada mes</td><td>Presión de neumáticos, niveles, luces</td><td>Previene desgaste irregular y recalentamientos</td></tr><tr><td>Cada 6 meses</td><td>Batería, escobillas, líquido de frenos</td><td>El frío y la humedad los degradan</td></tr><tr><td>Cada año</td><td>Frenos, suspensión, correas y mangueras</td><td>Desgaste progresivo difícil de notar</td></tr><tr><td>Según plan del fabricante</td><td>Distribución, embrague, filtros</td><td>Intervalos por kilómetros o años</td></tr></tbody></table><p>Este tipo de calendario convierte las averías sorpresa en tareas previstas y permite presupuestar el gasto a lo largo del año.</p><h2>Errores frecuentes</h2><ul><li>Esperar a que el ruido empeore antes de revisarlo.</li><li>Retrasar el cambio de distribución por kilometraje bajo, ignorando la edad.</li><li>Cambiar solo pastillas sin mirar discos y líquido.</li><li>Ignorar los testigos ámbar por seguir arrancando.</li><li>Arreglar con piezas baratas de origen dudoso.</li></ul><h2>Cuándo es mejor llevarlo al taller</h2><p>Siempre que haya duda en frenos, dirección, distribución o suspensión delantera. También ante testigos rojos, olor a quemado, humo, pérdida de potencia o vibraciones fuertes. Un taller puede revisar con elevador y equipos de diagnosis que ahorran tiempo y evitan reparaciones innecesarias.</p><h2>Casos particulares</h2><h3>Coches con muchos kilómetros</h3><p>Aumenta la frecuencia de revisiones en suspensión, silentblocks, juntas y mangueras de goma, que pierden elasticidad con los años.</p><h3>Coches de uso urbano</h3><p>Los trayectos cortos castigan batería, filtro de partículas y embrague. Un recorrido largo ocasional ayuda a regenerar y cargar.</p><h3>Híbridos y eléctricos</h3><p>Tienen menos desgaste mecánico en frenos, pero la batería de alta tensión y el sistema de refrigeración requieren revisiones por personal cualificado.</p>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Cuál es la avería más frecuente en un coche?",
+      "answer": "La batería descargada es la más habitual, seguida de frenos y neumáticos por desgaste normal. La mayoría se anticipan con síntomas claros."
+    },
+    {
+      "question": "¿Cómo sé si necesito cambiar la correa de distribución?",
+      "answer": "Por kilómetros o por años, lo que ocurra antes, según el manual. No basta mirarla: la rotura puede producirse sin signos externos."
+    },
+    {
+      "question": "¿Qué ruido debe preocuparme más?",
+      "answer": "Los chirridos o rozamientos metálicos al frenar, los golpes secos en la dirección y cualquier ruido de distribución. Ante estos, revisa cuanto antes."
+    },
+    {
+      "question": "¿Los testigos ámbar son urgentes?",
+      "answer": "No siempre, pero indican que algo necesita revisión. Conviene escanear el coche y no demorarlo semanas."
+    },
+    {
+      "question": "¿Cada cuánto conviene revisar el coche?",
+      "answer": "Una revisión general al año o cada 15.000 a 20.000 km, y un repaso visual mensual de niveles y neumáticos."
+    },
+    {
+      "question": "¿Un escáner OBD2 detecta todas las averías?",
+      "answer": "No. Detecta fallos electrónicos y de sensores, pero desgastes mecánicos como frenos o suspensión requieren inspección física."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "manómetro de presión de neumáticos"
+  ],
+  "related": [
+    "guia-mantenimiento-por-kilometros",
+    "guia-cuando-cambiar-frenos",
+    "guia-correa-distribucion",
+    "testigo-motor"
+  ],
+  "featured_image": "/img/articulos/guia-guia-averias-habituales.webp"
+}
