@@ -148,3 +148,5 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 ## Actualización 09/11/2026
 - 210 fichas, todas de 900+ palabras. Lote del día (10): códigos P0303, P0304, P2463, P2452 y P0011; testigos de nivel de refrigerante y cambio de marcha; guías de causas del testigo de motor, averías habituales y revisión rápida.
 - Search Console (08/11): 2.032 impresiones, 7 clics, 88 páginas.
+
+- 10/11: +10 fichas (P0305, P0605, P0607, P0603; testigos nivel limpiaparabrisas, reconocimiento de señales, caja DSG; guías limpieza de admisión, humedad/vaho interior, coche parado). 220 fichas, sitemap 219 URLs, todas 200 e index. Pendientes de revisión técnica (Carlos).
