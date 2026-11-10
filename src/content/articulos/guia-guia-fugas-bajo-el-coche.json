@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Fugas bajo el coche: qué indica el color del líquido",
   "datePublished": "2026-10-28",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -48,5 +48,7 @@
     "guia-liquido-de-frenos",
     "testigo-presion-aceite"
   ],
-  "featured_image": "/img/articulos/guia-guia-fugas-bajo-el-coche.webp"
+  "featured_image": "/img/articulos/guia-guia-fugas-bajo-el-coche.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

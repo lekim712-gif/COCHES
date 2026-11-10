@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "La ITV por emisiones: por qué se suspende y cómo prepararla",
   "datePublished": "2026-10-25",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -48,5 +48,7 @@
     "p0401",
     "guia-borrar-codigos-obd2"
   ],
-  "featured_image": "/img/articulos/guia-guia-itv-emisiones.webp"
+  "featured_image": "/img/articulos/guia-guia-itv-emisiones.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

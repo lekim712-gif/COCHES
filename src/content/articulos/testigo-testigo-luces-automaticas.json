@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Testigo de luces automáticas y sensor de luz: AUTO y fallos",
   "datePublished": "2026-11-05",
-  "dateModified": "2026-11-05",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "testigo-bateria",
     "guia-colores-testigos-tablero"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-luces-automaticas.webp"
+  "featured_image": "/img/articulos/testigo-testigo-luces-automaticas.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

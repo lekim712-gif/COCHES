@@ -3,7 +3,7 @@
   "code": "P0571",
   "name": "Circuito del interruptor de luces de freno",
   "datePublished": "2026-10-20",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -48,5 +48,7 @@
     "p0500",
     "p0606"
   ],
-  "featured_image": "/img/articulos/codigo-p0571.webp"
+  "featured_image": "/img/articulos/codigo-p0571.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

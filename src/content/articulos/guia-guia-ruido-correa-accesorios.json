@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Chirrido de la correa de accesorios: causas, diagnóstico y solución",
   "datePublished": "2026-10-23",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "testigo-direccion-asistida",
     "guia-comprobar-alternador"
   ],
-  "featured_image": "/img/articulos/guia-guia-ruido-correa-accesorios.webp"
+  "featured_image": "/img/articulos/guia-guia-ruido-correa-accesorios.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

@@ -3,7 +3,7 @@
   "code": "P0600",
   "name": "Fallo de comunicación serie entre módulos",
   "datePublished": "2026-10-25",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "p0606",
     "p0562"
   ],
-  "featured_image": "/img/articulos/codigo-p0600.webp"
+  "featured_image": "/img/articulos/codigo-p0600.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

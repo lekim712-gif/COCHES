@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Testigo de frenada de emergencia automática (AEB): qué significa",
   "datePublished": "2026-11-06",
-  "dateModified": "2026-11-06",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "testigo-cambio-carril",
     "testigo-angulo-muerto"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-frenada-emergencia.webp"
+  "featured_image": "/img/articulos/testigo-testigo-frenada-emergencia.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

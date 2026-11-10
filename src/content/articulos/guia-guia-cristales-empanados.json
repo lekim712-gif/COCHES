@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Cristales empañados por dentro: causas y cómo desempañar rápido",
   "datePublished": "2026-11-01",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -52,5 +52,7 @@
     "guia-aire-acondicionado-mal-olor",
     "guia-calefaccion-no-calienta"
   ],
-  "featured_image": "/img/articulos/guia-guia-cristales-empanados.webp"
+  "featured_image": "/img/articulos/guia-guia-cristales-empanados.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

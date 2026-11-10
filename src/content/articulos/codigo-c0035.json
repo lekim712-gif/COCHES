@@ -3,7 +3,7 @@
   "code": "C0035",
   "name": "Circuito del sensor de velocidad de la rueda delantera izquierda",
   "datePublished": "2026-11-07",
-  "dateModified": "2026-11-07",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -50,5 +50,7 @@
     "testigo-freno",
     "guia-multimetro-sensores"
   ],
-  "featured_image": "/img/articulos/codigo-c0035.webp"
+  "featured_image": "/img/articulos/codigo-c0035.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

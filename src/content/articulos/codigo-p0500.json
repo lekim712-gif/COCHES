@@ -3,7 +3,7 @@
   "code": "P0500",
   "name": "Sensor de velocidad del vehículo",
   "datePublished": "2026-10-20",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -48,5 +48,7 @@
     "p0606",
     "u0100"
   ],
-  "featured_image": "/img/articulos/codigo-p0500.webp"
+  "featured_image": "/img/articulos/codigo-p0500.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "El coche huele a gasolina: causas y riesgos",
   "datePublished": "2026-11-07",
-  "dateModified": "2026-11-07",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "guia-fugas-bajo-el-coche",
     "testigo-motor"
   ],
-  "featured_image": "/img/articulos/guia-guia-olor-a-gasolina.webp"
+  "featured_image": "/img/articulos/guia-guia-olor-a-gasolina.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

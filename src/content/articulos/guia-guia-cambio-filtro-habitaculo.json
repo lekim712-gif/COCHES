@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Cambio del filtro de habitáculo paso a paso",
   "datePublished": "2026-10-22",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -46,5 +46,7 @@
   "related": [
     "guia-cambio-filtro-aire"
   ],
-  "featured_image": "/img/articulos/guia-guia-cambio-filtro-habitaculo.webp"
+  "featured_image": "/img/articulos/guia-guia-cambio-filtro-habitaculo.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

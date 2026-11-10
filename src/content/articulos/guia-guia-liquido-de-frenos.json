@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Líquido de frenos: cuándo comprobarlo y cuándo cambiarlo",
   "datePublished": "2026-10-27",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -52,5 +52,7 @@
     "guia-ruidos-al-frenar"
   ],
   "needs_review": true,
-  "featured_image": "/img/articulos/guia-guia-liquido-de-frenos.webp"
+  "featured_image": "/img/articulos/guia-guia-liquido-de-frenos.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

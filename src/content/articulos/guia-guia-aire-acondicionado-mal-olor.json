@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Mal olor del aire acondicionado del coche: causas y cómo eliminarlo",
   "datePublished": "2026-10-31",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -51,5 +51,7 @@
     "guia-aire-acondicionado-no-enfria",
     "guia-cambio-filtro-habitaculo"
   ],
-  "featured_image": "/img/articulos/guia-guia-aire-acondicionado-mal-olor.webp"
+  "featured_image": "/img/articulos/guia-guia-aire-acondicionado-mal-olor.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

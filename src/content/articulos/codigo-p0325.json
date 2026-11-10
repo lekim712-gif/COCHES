@@ -3,7 +3,7 @@
   "code": "P0325",
   "name": "Circuito del sensor de detonación (banco 1)",
   "datePublished": "2026-10-23",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "p0301",
     "p0335"
   ],
-  "featured_image": "/img/articulos/codigo-p0325.webp"
+  "featured_image": "/img/articulos/codigo-p0325.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

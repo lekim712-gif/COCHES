@@ -3,7 +3,7 @@
   "code": "P0441",
   "name": "Flujo de purga del EVAP incorrecto",
   "datePublished": "2026-10-21",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "p0455",
     "p0456"
   ],
-  "featured_image": "/img/articulos/codigo-p0441.webp"
+  "featured_image": "/img/articulos/codigo-p0441.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

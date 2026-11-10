@@ -3,7 +3,7 @@
   "code": "P0302",
   "name": "Fallo de encendido en el cilindro 2",
   "datePublished": "2026-11-07",
-  "dateModified": "2026-11-07",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -50,5 +50,7 @@
     "guia-cambio-bujias",
     "guia-vibraciones-ralenti"
   ],
-  "featured_image": "/img/articulos/codigo-p0302.webp"
+  "featured_image": "/img/articulos/codigo-p0302.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

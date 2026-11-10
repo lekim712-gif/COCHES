@@ -3,7 +3,7 @@
   "code": "P0328",
   "name": "Sensor de detonación 1: señal alta (banco 1)",
   "datePublished": "2026-11-08",
-  "dateModified": "2026-11-08",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -50,5 +50,7 @@
     "p0335",
     "testigo-motor"
   ],
-  "featured_image": "/img/articulos/codigo-p0328.webp"
+  "featured_image": "/img/articulos/codigo-p0328.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

@@ -49,5 +49,7 @@
     "testigo-temperatura-aceite",
     "testigo-motor"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-caja-dsg.webp"
+  "featured_image": "/img/articulos/testigo-testigo-caja-dsg.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

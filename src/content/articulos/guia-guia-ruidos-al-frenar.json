@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Ruidos al frenar: chirridos, golpes y vibraciones",
   "datePublished": "2026-10-24",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -52,5 +52,7 @@
     "testigo-abs"
   ],
   "needs_review": true,
-  "featured_image": "/img/articulos/guia-guia-ruidos-al-frenar.webp"
+  "featured_image": "/img/articulos/guia-guia-ruidos-al-frenar.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

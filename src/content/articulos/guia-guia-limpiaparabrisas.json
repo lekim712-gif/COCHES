@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Escobillas del limpiaparabrisas: cuándo cambiarlas y cómo hacerlo",
   "datePublished": "2026-10-29",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -46,5 +46,7 @@
   "related": [
     "guia-mantenimiento-por-kilometros"
   ],
-  "featured_image": "/img/articulos/guia-guia-limpiaparabrisas.webp"
+  "featured_image": "/img/articulos/guia-guia-limpiaparabrisas.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

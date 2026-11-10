@@ -3,7 +3,7 @@
   "code": "U0121",
   "name": "Pérdida de comunicación con el módulo del ABS",
   "datePublished": "2026-10-25",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -54,5 +54,7 @@
     "p0600"
   ],
   "needs_review": true,
-  "featured_image": "/img/articulos/codigo-u0121.webp"
+  "featured_image": "/img/articulos/codigo-u0121.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

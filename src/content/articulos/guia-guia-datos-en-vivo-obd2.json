@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Cómo leer los datos en vivo del OBD2 para diagnosticar",
   "datePublished": "2026-10-25",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -52,5 +52,7 @@
     "guia-como-elegir-escaner-obd2",
     "p0170"
   ],
-  "featured_image": "/img/articulos/guia-guia-datos-en-vivo-obd2.webp"
+  "featured_image": "/img/articulos/guia-guia-datos-en-vivo-obd2.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Testigo del inmovilizador o de la llave: qué significa y qué hacer",
   "datePublished": "2026-11-07",
-  "dateModified": "2026-11-07",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "guia-coche-no-arranca",
     "guia-como-usar-escaner-obd2"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-inmovilizador.webp"
+  "featured_image": "/img/articulos/testigo-testigo-inmovilizador.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

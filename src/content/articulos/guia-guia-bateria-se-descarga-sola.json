@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "La batería se descarga sola: causas y cómo encontrarlas",
   "datePublished": "2026-10-25",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -52,5 +52,7 @@
     "p0562",
     "guia-coche-no-arranca"
   ],
-  "featured_image": "/img/articulos/guia-guia-bateria-se-descarga-sola.webp"
+  "featured_image": "/img/articulos/guia-guia-bateria-se-descarga-sola.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

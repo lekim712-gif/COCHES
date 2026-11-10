@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Testigo de AdBlue: significado y qué hacer",
   "datePublished": "2026-10-20",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -47,5 +47,7 @@
     "testigo-filtro-particulas",
     "testigo-motor"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-adblue.webp"
+  "featured_image": "/img/articulos/testigo-testigo-adblue.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

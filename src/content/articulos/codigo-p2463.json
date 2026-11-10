@@ -3,7 +3,7 @@
   "code": "P2463",
   "name": "Filtro de partículas diésel: acumulación de hollín",
   "datePublished": "2026-11-09",
-  "dateModified": "2026-11-09",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -50,5 +50,7 @@
     "testigo-motor",
     "guia-tirones-diesel"
   ],
-  "featured_image": "/img/articulos/codigo-p2463.webp"
+  "featured_image": "/img/articulos/codigo-p2463.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

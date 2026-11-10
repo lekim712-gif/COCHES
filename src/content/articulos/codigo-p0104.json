@@ -3,7 +3,7 @@
   "code": "P0104",
   "name": "Circuito intermitente del sensor MAF",
   "datePublished": "2026-10-21",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "p0101",
     "p0171"
   ],
-  "featured_image": "/img/articulos/codigo-p0104.webp"
+  "featured_image": "/img/articulos/codigo-p0104.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

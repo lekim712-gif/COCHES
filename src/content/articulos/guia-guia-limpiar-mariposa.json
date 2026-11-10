@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Cómo limpiar la mariposa de gases paso a paso",
   "datePublished": "2026-11-08",
-  "dateModified": "2026-11-08",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "guia-coche-se-cala",
     "guia-limpiar-valvula-egr"
   ],
-  "featured_image": "/img/articulos/guia-guia-limpiar-mariposa.webp"
+  "featured_image": "/img/articulos/guia-guia-limpiar-mariposa.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

@@ -3,7 +3,7 @@
   "code": "P0638",
   "name": "Actuador de la mariposa: fuera de rango",
   "datePublished": "2026-10-20",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "p0106",
     "p2279"
   ],
-  "featured_image": "/img/articulos/codigo-p0638.webp"
+  "featured_image": "/img/articulos/codigo-p0638.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

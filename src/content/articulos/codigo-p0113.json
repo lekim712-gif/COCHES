@@ -3,7 +3,7 @@
   "code": "P0113",
   "name": "Sensor de temperatura del aire de admisión: señal alta",
   "datePublished": "2026-10-15",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "p0171",
     "p0172"
   ],
-  "featured_image": "/img/articulos/codigo-p0113.webp"
+  "featured_image": "/img/articulos/codigo-p0113.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

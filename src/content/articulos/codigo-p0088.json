@@ -3,7 +3,7 @@
   "code": "P0088",
   "name": "Presión del raíl de combustible demasiado alta",
   "datePublished": "2026-11-03",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "p0089",
     "p0193"
   ],
-  "featured_image": "/img/articulos/codigo-p0088.webp"
+  "featured_image": "/img/articulos/codigo-p0088.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

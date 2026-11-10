@@ -3,7 +3,7 @@
   "code": "P0170",
   "name": "Fallo del ajuste de combustible (banco 1)",
   "datePublished": "2026-10-22",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "p0172",
     "p0101"
   ],
-  "featured_image": "/img/articulos/codigo-p0170.webp"
+  "featured_image": "/img/articulos/codigo-p0170.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

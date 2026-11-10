@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Testigo del turbo y presión de sobrealimentación: qué hacer",
   "datePublished": "2026-11-05",
-  "dateModified": "2026-11-05",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "p0299",
     "guia-como-usar-escaner-obd2"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-turbo.webp"
+  "featured_image": "/img/articulos/testigo-testigo-turbo.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

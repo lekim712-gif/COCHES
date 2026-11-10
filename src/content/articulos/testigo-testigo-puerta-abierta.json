@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Testigo de puerta abierta: significado y por qué no se apaga",
   "datePublished": "2026-11-03",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -51,5 +51,7 @@
     "testigo-bateria",
     "guia-bateria-se-descarga-sola"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-puerta-abierta.webp"
+  "featured_image": "/img/articulos/testigo-testigo-puerta-abierta.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

@@ -3,7 +3,7 @@
   "code": "P0400",
   "name": "Fallo en el flujo de recirculación de gases (EGR)",
   "datePublished": "2026-10-19",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "p0402",
     "p0300"
   ],
-  "featured_image": "/img/articulos/codigo-p0400.webp"
+  "featured_image": "/img/articulos/codigo-p0400.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Termostato del coche: síntomas de fallo y cómo comprobarlo",
   "datePublished": "2026-11-01",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -52,5 +52,7 @@
     "guia-motor-recalentado",
     "guia-calefaccion-no-calienta"
   ],
-  "featured_image": "/img/articulos/guia-guia-termostato.webp"
+  "featured_image": "/img/articulos/guia-guia-termostato.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

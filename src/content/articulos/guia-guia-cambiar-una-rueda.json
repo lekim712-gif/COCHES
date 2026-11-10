@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Cómo cambiar una rueda paso a paso con seguridad",
   "datePublished": "2026-10-28",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -52,5 +52,7 @@
     "testigo-presion-neumaticos"
   ],
   "needs_review": true,
-  "featured_image": "/img/articulos/guia-guia-cambiar-una-rueda.webp"
+  "featured_image": "/img/articulos/guia-guia-cambiar-una-rueda.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

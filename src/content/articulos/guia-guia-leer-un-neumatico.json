@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Cómo leer un neumático: medidas, índices de carga y velocidad",
   "datePublished": "2026-10-30",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -47,5 +47,7 @@
     "guia-neumaticos-desgastados",
     "testigo-presion-neumaticos"
   ],
-  "featured_image": "/img/articulos/guia-guia-leer-un-neumatico.webp"
+  "featured_image": "/img/articulos/guia-guia-leer-un-neumatico.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

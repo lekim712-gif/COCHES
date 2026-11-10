@@ -3,7 +3,7 @@
   "code": "P0221",
   "name": "Sensor B de posición de mariposa o pedal: rango o rendimiento",
   "datePublished": "2026-11-08",
-  "dateModified": "2026-11-08",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -50,5 +50,7 @@
     "p0122",
     "testigo-epc"
   ],
-  "featured_image": "/img/articulos/codigo-p0221.webp"
+  "featured_image": "/img/articulos/codigo-p0221.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

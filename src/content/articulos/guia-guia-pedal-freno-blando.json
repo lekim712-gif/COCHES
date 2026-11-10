@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Pedal de freno blando o esponjoso: causas y qué hacer",
   "datePublished": "2026-11-07",
-  "dateModified": "2026-11-07",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "guia-cuando-cambiar-frenos",
     "testigo-freno"
   ],
-  "featured_image": "/img/articulos/guia-guia-pedal-freno-blando.webp"
+  "featured_image": "/img/articulos/guia-guia-pedal-freno-blando.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

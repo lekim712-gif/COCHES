@@ -3,7 +3,7 @@
   "code": "P0016",
   "name": "Correlación entre cigüeñal y árbol de levas (banco 1)",
   "datePublished": "2026-10-19",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "p0340",
     "p0335"
   ],
-  "featured_image": "/img/articulos/codigo-p0016.webp"
+  "featured_image": "/img/articulos/codigo-p0016.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "El motor se recalienta en marcha: qué hacer paso a paso",
   "datePublished": "2026-10-30",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "guia-anticongelante"
   ],
   "needs_review": true,
-  "featured_image": "/img/articulos/guia-guia-motor-recalentado.webp"
+  "featured_image": "/img/articulos/guia-guia-motor-recalentado.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

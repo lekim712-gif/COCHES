@@ -3,7 +3,7 @@
   "code": "P0130",
   "name": "Circuito de la sonda lambda anterior (banco 1)",
   "datePublished": "2026-10-13",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -50,5 +50,7 @@
     "p0172",
     "p0420"
   ],
-  "featured_image": "/img/articulos/codigo-p0130.webp"
+  "featured_image": "/img/articulos/codigo-p0130.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

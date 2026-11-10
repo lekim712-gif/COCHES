@@ -3,7 +3,7 @@
   "code": "P0128",
   "name": "Termostato: temperatura del refrigerante por debajo de la de regulación",
   "datePublished": "2026-11-03",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "guia-termostato",
     "guia-calefaccion-no-calienta"
   ],
-  "featured_image": "/img/articulos/codigo-p0128.webp"
+  "featured_image": "/img/articulos/codigo-p0128.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Cómo comprobar el nivel del refrigerante del motor",
   "datePublished": "2026-10-21",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -51,5 +51,7 @@
     "testigo-temperatura-refrigerante",
     "testigo-motor"
   ],
-  "featured_image": "/img/articulos/guia-guia-comprobar-nivel-refrigerante.webp"
+  "featured_image": "/img/articulos/guia-guia-comprobar-nivel-refrigerante.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

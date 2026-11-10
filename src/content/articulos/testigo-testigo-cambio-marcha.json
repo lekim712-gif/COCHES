@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Indicador de cambio de marcha: flechas arriba y abajo en el cuadro",
   "datePublished": "2026-11-09",
-  "dateModified": "2026-11-09",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "testigo-start-stop",
     "guia-consumo-excesivo-combustible"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-cambio-marcha.webp"
+  "featured_image": "/img/articulos/testigo-testigo-cambio-marcha.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Bombillas fundidas del coche: cómo detectarlas y cambiarlas",
   "datePublished": "2026-10-29",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -47,5 +47,7 @@
     "guia-cambio-fusibles",
     "testigo-bateria"
   ],
-  "featured_image": "/img/articulos/guia-guia-luces-fundidas.webp"
+  "featured_image": "/img/articulos/guia-guia-luces-fundidas.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

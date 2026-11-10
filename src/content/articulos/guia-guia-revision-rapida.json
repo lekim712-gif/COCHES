@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Revisión rápida del coche en 15 minutos: qué mirar bajo el capó y alrededor",
   "datePublished": "2026-11-09",
-  "dateModified": "2026-11-09",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "guia-leer-un-neumatico",
     "guia-fugas-bajo-el-coche"
   ],
-  "featured_image": "/img/articulos/guia-guia-revision-rapida.webp"
+  "featured_image": "/img/articulos/guia-guia-revision-rapida.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

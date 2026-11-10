@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Testigo de temperatura del aceite del motor: qué significa y qué hacer",
   "datePublished": "2026-11-08",
-  "dateModified": "2026-11-08",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "testigo-temperatura-refrigerante",
     "testigo-motor"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-temperatura-aceite.webp"
+  "featured_image": "/img/articulos/testigo-testigo-temperatura-aceite.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

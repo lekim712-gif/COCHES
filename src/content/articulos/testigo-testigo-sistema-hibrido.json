@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Testigo del sistema híbrido, READY y alta tensión: qué significa y qué hacer",
   "datePublished": "2026-11-08",
-  "dateModified": "2026-11-08",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "testigo-cambio-automatico",
     "testigo-epc"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-sistema-hibrido.webp"
+  "featured_image": "/img/articulos/testigo-testigo-sistema-hibrido.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

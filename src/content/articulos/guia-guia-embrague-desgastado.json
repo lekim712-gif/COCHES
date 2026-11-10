@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Embrague desgastado: síntomas y cuándo cambiarlo",
   "datePublished": "2026-11-02",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -52,5 +52,7 @@
     "guia-olor-a-quemado",
     "guia-mantenimiento-por-kilometros"
   ],
-  "featured_image": "/img/articulos/guia-guia-embrague-desgastado.webp"
+  "featured_image": "/img/articulos/guia-guia-embrague-desgastado.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

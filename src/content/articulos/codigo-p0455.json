@@ -3,7 +3,7 @@
   "code": "P0455",
   "name": "Fuga grande en el sistema EVAP",
   "datePublished": "2026-10-13",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -48,5 +48,7 @@
     "p0442",
     "p0171"
   ],
-  "featured_image": "/img/articulos/codigo-p0455.webp"
+  "featured_image": "/img/articulos/codigo-p0455.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

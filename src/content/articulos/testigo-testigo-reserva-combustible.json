@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Testigo de reserva de combustible: significado y autonomía restante",
   "datePublished": "2026-11-03",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -51,5 +51,7 @@
     "guia-filtro-combustible",
     "p0230"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-reserva-combustible.webp"
+  "featured_image": "/img/articulos/testigo-testigo-reserva-combustible.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

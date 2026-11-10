@@ -3,7 +3,7 @@
   "code": "P0303",
   "name": "Fallo de encendido en el cilindro 3",
   "datePublished": "2026-11-09",
-  "dateModified": "2026-11-09",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -50,5 +50,7 @@
     "guia-cambio-bujias",
     "guia-vibraciones-ralenti"
   ],
-  "featured_image": "/img/articulos/codigo-p0303.webp"
+  "featured_image": "/img/articulos/codigo-p0303.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Colores de los testigos del tablero: rojo, ámbar, verde y azul",
   "datePublished": "2026-10-27",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -52,5 +52,7 @@
     "testigo-bateria",
     "testigo-presion-aceite"
   ],
-  "featured_image": "/img/articulos/guia-guia-colores-testigos-tablero.webp"
+  "featured_image": "/img/articulos/guia-guia-colores-testigos-tablero.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

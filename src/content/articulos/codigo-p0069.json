@@ -3,7 +3,7 @@
   "code": "P0069",
   "name": "Correlación entre presión del colector (MAP) y presión barométrica",
   "datePublished": "2026-11-05",
-  "dateModified": "2026-11-05",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -50,5 +50,7 @@
     "p0238",
     "guia-como-usar-escaner-obd2"
   ],
-  "featured_image": "/img/articulos/codigo-p0069.webp"
+  "featured_image": "/img/articulos/codigo-p0069.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

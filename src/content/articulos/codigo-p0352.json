@@ -3,7 +3,7 @@
   "code": "P0352",
   "name": "Circuito primario/secundario de la bobina de encendido B",
   "datePublished": "2026-11-05",
-  "dateModified": "2026-11-05",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -50,5 +50,7 @@
     "p0351",
     "testigo-motor"
   ],
-  "featured_image": "/img/articulos/codigo-p0352.webp"
+  "featured_image": "/img/articulos/codigo-p0352.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

@@ -3,7 +3,7 @@
   "code": "P2263",
   "name": "Rendimiento del sistema de sobrealimentación del turbo",
   "datePublished": "2026-10-24",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "p0234",
     "p0243"
   ],
-  "featured_image": "/img/articulos/codigo-p2263.webp"
+  "featured_image": "/img/articulos/codigo-p2263.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

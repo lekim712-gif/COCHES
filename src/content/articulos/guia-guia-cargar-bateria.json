@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Cómo cargar la batería del coche con un cargador",
   "datePublished": "2026-10-28",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -48,5 +48,7 @@
     "guia-arrancar-con-cables",
     "testigo-bateria"
   ],
-  "featured_image": "/img/articulos/guia-guia-cargar-bateria.webp"
+  "featured_image": "/img/articulos/guia-guia-cargar-bateria.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

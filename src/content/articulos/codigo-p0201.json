@@ -3,7 +3,7 @@
   "code": "P0201",
   "name": "Circuito del inyector del cilindro 1",
   "datePublished": "2026-10-25",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "p0300",
     "p0170"
   ],
-  "featured_image": "/img/articulos/codigo-p0201.webp"
+  "featured_image": "/img/articulos/codigo-p0201.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }

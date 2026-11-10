@@ -3,7 +3,7 @@
   "code": "P0442",
   "name": "Fuga pequeña en el sistema EVAP",
   "datePublished": "2026-10-13",
-  "dateModified": "2026-11-03",
+  "dateModified": "2026-11-10",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -54,5 +54,7 @@
     "p0172",
     "p0420"
   ],
-  "featured_image": "/img/articulos/codigo-p0442.webp"
+  "featured_image": "/img/articulos/codigo-p0442.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-10"
 }
