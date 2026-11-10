@@ -84,3 +84,5 @@ table.ficha tbody th{width:34%;background:color-mix(in srgb,var(--amber) 14%,var
 .article table.cmp{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.95rem}
 .article table.cmp th,.article table.cmp td{border:1px solid var(--line);padding:.55rem .7rem;text-align:left;vertical-align:top}
 .article table.cmp thead th{background:color-mix(in srgb,var(--amber) 14%,var(--surface))}
+.byline{font-size:.9rem;color:var(--muted,#555);margin:.2rem 0 1rem}
+.byline a{font-weight:600}

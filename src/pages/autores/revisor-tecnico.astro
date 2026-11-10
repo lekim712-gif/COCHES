@@ -1,0 +1,28 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SITE } from '../../config';
+import { getCollection } from 'astro:content';
+const all = await getCollection('articulos');
+const revisadas = all.filter((a) => a.data.reviewed_by).length;
+const r = SITE.reviewer;
+const orgId = new URL('/#organization', Astro.site).href;
+const jsonLd = [{ '@type': 'ProfilePage', mainEntity: { '@type': 'Person', '@id': new URL('/autores/revisor-tecnico/', Astro.site).href + '#persona', name: r.name, jobTitle: 'Mecánico, revisor técnico', worksFor: { '@id': orgId } } }];
+---
+<Base title={`${r.name}, revisor técnico | OBDCodigos`} description={`${r.name}, mecánico${r.years > 0 ? ` con ${r.years} años de experiencia` : ''}, revisa técnicamente las fichas de OBDCodigos. Cómo trabaja y qué comprueba.`} jsonLd={jsonLd}>
+  <div class="wrap prose">
+    <h1>{r.name}, revisor técnico</h1>
+    <p>{r.name} es mecánico{r.years > 0 && <> con {r.years} años de experiencia en taller</>} y revisa técnicamente el contenido de {SITE.name}. Hasta hoy ha revisado {revisadas} fichas; la fecha de cada revisión figura al final de cada ficha.</p>
+    <h2>Qué revisa en cada ficha</h2>
+    <ul>
+      <li>Que el significado del código o testigo y su gravedad sean correctos.</li>
+      <li>Que las causas estén en un orden realista, de la más habitual a la menos habitual, según lo que se ve en el taller.</li>
+      <li>Que las pruebas y los pasos de diagnóstico sean seguros y se puedan hacer con herramientas al alcance de un aficionado.</li>
+      <li>Que los rangos de coste y los avisos de seguridad (frenos, airbag, dirección, combustible, batería) sean prudentes.</li>
+      <li>Que se avise con claridad de cuándo hay que llevar el coche al taller.</li>
+    </ul>
+    <h2>Cómo se hace la revisión</h2>
+    <p>Las fichas se redactan con ayuda de inteligencia artificial y controles automáticos de estructura. Después las lee un mecánico, que las corrige o las rechaza. Solo cuando la revisión se ha hecho se muestra «Revisada por» con la fecha; mientras tanto la ficha indica «pendiente de revisión técnica». Puedes ver el proceso completo en la <a href="/metodologia/">metodología editorial</a>.</p>
+    <h2>Límites</h2>
+    <p>Es información orientativa. No sustituye al manual de taller de tu vehículo ni al diagnóstico presencial de un profesional. Si ves un error, escríbenos a <a href={`mailto:${SITE.email}`}>{SITE.email}</a> y lo corregimos.</p>
+  </div>
+</Base>
