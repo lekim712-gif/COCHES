@@ -1,0 +1,54 @@
+{
+  "type": "codigo",
+  "code": "P0605",
+  "name": "Error de la memoria de solo lectura (ROM) del módulo de control",
+  "datePublished": "2026-11-10",
+  "dateModified": "2026-11-10",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0605: causas, síntomas y solución",
+    "meta_description": "Código P0605: error de memoria ROM del módulo de control. Qué comprueba la ECU, cuándo reprogramar o sustituir, y cómo descartar alimentación y masas.",
+    "slug": "p0605"
+  },
+  "content_html": "<h1>Código P0605: Error de la memoria de solo lectura (ROM) del módulo de control</h1>\n<p class=\"intro\">El código P0605 señala que la centralita ha detectado un error en su memoria de solo lectura, la zona donde reside el programa y los mapas de calibración. La ECU comprueba esa memoria con una suma de verificación al arrancar. Antes de condenar el módulo conviene descartar fallos de alimentación y masas, que pueden provocar una lectura corrupta sin que la memoria esté dañada.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: puede impedir el arranque o activar un modo de emergencia</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Memoria flash o ROM de la ECU, software, alimentación de 12 V, masas, conectores</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–150 € (actualización o alimentación) · 300–1.400 € (reprogramación o centralita)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con lectura de versión de software, multímetro, voltímetro de batería, equipo de reprogramación del fabricante</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido de forma fija y, en algunos modelos, aviso de avería en el cuadro.</li><li>Modo de emergencia con potencia limitada y respuesta del acelerador muy reducida.</li><li>Arranque difícil o imposible: el motor gira pero no inyecta ni enciende.</li><li>El coche funciona pero no admite lectura de algunas funciones desde el escáner.</li><li>Cambio automático con marchas bruscas o bloqueado en una relación fija.</li><li>El código desaparece y vuelve sin patrón claro, a menudo tras un arranque con la batería baja.</li><li>Otros módulos del coche registran fallos de comunicación al mismo tiempo.</li></ul>\n<h2>Causas principales</h2><ul><li>Suma de verificación errónea de la memoria flash tras una actualización de software interrumpida.</li><li>Tensión de alimentación inestable durante el arranque o durante una reprogramación con batería débil.</li><li>Masa del módulo con alta resistencia que provoca lecturas corruptas del procesador.</li><li>Humedad o corrosión en la placa de la ECU que altera la lectura de la memoria.</li><li>Degradación real de las celdas de memoria con la edad o por calor extremo en el compartimento motor.</li><li>Software de calibración defectuoso o incompatible, corregible con una nueva versión del fabricante.</li><li>Centralita de segunda mano o reparada con un programa que no corresponde al vehículo.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p><h2>Qué significa el código P0605 y cómo lo detecta la centralita</h2><p>La memoria de solo lectura, ROM, o su equivalente actual, la memoria flash, guarda el programa de control del motor y las tablas de calibración. No cambia durante el uso normal. Para verificar que sigue intacta, el procesador calcula una suma de comprobación del contenido y la compara con un valor de referencia grabado. Si no coinciden, concluye que algún dato se ha alterado y guarda el P0605.</p><p>La prueba se realiza al conectar el contacto y, en algunos módulos, también de forma continua en segundo plano. Un error real de la memoria suele ser persistente. Si el código aparece de forma intermitente, la sospecha se desplaza a la alimentación o a las masas, que pueden perturbar la lectura sin dañar los datos almacenados.</p><h2>Datos en vivo y valores de referencia</h2><p>Este código no se diagnostica con sensores, sino con la comprobación del entorno eléctrico y del software, siempre según el manual del fabricante.</p><ul><li>Tensión de batería con el motor parado, en torno a 12,4–12,8 V, y durante el arranque, que no debe bajar de unos 9,5 V.</li><li>Tensión de carga con el motor en marcha, entre 13,5 y 14,5 V.</li><li>Versión de software y de calibración almacenadas en la ECU, para compararlas con la última publicada.</li><li>Caída de tensión entre el borne negativo de la batería y la caja de la ECU, que debería quedar por debajo de unos 0,1–0,2 V bajo carga.</li></ul><h2>Cómo distinguir la causa</h2><table class=\"cmp\"><thead><tr><th>Prueba</th><th>Resultado</th><th>Causa probable</th></tr></thead><tbody><tr><td>Tensión de batería durante el arranque</td><td>Baja de 9 V</td><td>Batería o bornes deficientes</td></tr><tr><td>Caída de tensión en la masa de la ECU</td><td>Más de 0,3 V</td><td>Masa corroída o suelta</td></tr><tr><td>Versión de software</td><td>Hay una actualización disponible</td><td>Error de calibración corregible</td></tr><tr><td>Inspección de la placa y conectores</td><td>Corrosión o humedad</td><td>Contaminación de la ECU</td></tr><tr><td>Código persistente tras borrar y reprogramar</td><td>Reaparece al instante</td><td>Memoria dañada, sustituir módulo</td></tr><tr><td>Código intermitente</td><td>Aparece tras arranques con poca batería</td><td>Alimentación inestable</td></tr></tbody></table>\n<h2>Cómo diagnosticar el P0605 paso a paso</h2><ol><li>Lee todos los códigos del coche, no solo los del motor, y anota cuáles de los otros módulos comunican fallos.</li><li>Comprueba la batería: tensión en reposo, estado de carga y prueba de arranque; recárgala si está baja.</li><li>Limpia y aprieta los bornes de la batería y las trenzas de masa entre batería, carrocería y motor.</li><li>Mide la caída de tensión de las masas de la ECU con el motor en marcha y con carga eléctrica.</li><li>Revisa la caja de la ECU y sus conectores en busca de humedad, óxido, pines doblados o restos de agua.</li><li>Borra el código y comprueba si vuelve al reconectar el contacto o solo tras ciertas maniobras.</li><li>Consulta con el fabricante o con un taller con acceso a su base de datos si existe una actualización de software.</li><li>Si hay actualización, ejecútala con una fuente de alimentación estabilizada conectada a la batería.</li><li>Si el código persiste tras reprogramar, solicita un diagnóstico de la memoria con el equipo oficial.</li><li>Solo entonces valora la reparación o sustitución del módulo, con codificación de inmovilizador y llaves.</li></ol>\n<h2>Reprogramar o sustituir: cuándo conviene cada opción</h2><p>Una reprogramación con el programa oficial reescribe toda la memoria y cura la mayoría de las sumas de verificación corruptas, así que es el primer paso razonable si la alimentación es correcta. Sustituir la ECU solo se justifica si la memoria vuelve a fallar tras la reprogramación, si hay daños visibles en la placa o si el fabricante lo recomienda.</p><p>Un módulo nuevo o de segunda mano debe adaptarse al vehículo: número de bastidor, inmovilizador, llaves y, a veces, la configuración del cambio. Por eso la sustitución no se resuelve solo con el recambio; necesita un equipo de diagnóstico del fabricante o un taller especializado.</p><h2>Cuánto cuesta repararlo</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Diagnóstico eléctrico de alimentación y masas</td><td>40–120 €</td></tr><tr><td>Cambio de batería o limpieza de bornes</td><td>0–200 €</td></tr><tr><td>Reprogramación o actualización de software</td><td>60–250 €</td></tr><tr><td>Reparación de la ECU en un laboratorio</td><td>150–500 €</td></tr><tr><td>Centralita nueva con codificación</td><td>600–1.400 €</td></tr></tbody></table><h2>Errores frecuentes al diagnosticar</h2><ul><li>Comprar una ECU de desguace sin comprobar que su referencia y software coincidan con el coche.</li><li>Reprogramar con una batería débil y dejar el módulo en un estado peor que el inicial.</li><li>Ignorar la masa del módulo, que cuesta pocos euros y es una causa muy frecuente.</li><li>Borrar el código y dar el problema por resuelto sin ver si vuelve.</li><li>Abrir la carcasa de la ECU sin protección antiestática.</li></ul><h2>Cuándo acudir al taller</h2><ul><li>Si el motor no arranca o se queda en modo de emergencia.</li><li>Si el código persiste tras revisar batería y masas.</li><li>Si hace falta reprogramar, ya que requiere equipo oficial y alimentación estabilizada.</li><li>Si el coche está en garantía o tiene un boletín técnico aplicable.</li></ul><h2>Códigos relacionados</h2><ul><li>P0601: error de suma de verificación de la memoria interna del módulo.</li><li>P0606: fallo del procesador del módulo de control.</li><li>P0607: fallo de rendimiento del módulo de control.</li><li>P0603: error de la memoria KAM del módulo de control.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa el código P0605?",
+      "answer": "Que la centralita ha encontrado un error en su memoria de solo lectura, donde guarda el programa y la calibración."
+    },
+    {
+      "question": "¿Siempre hay que cambiar la ECU?",
+      "answer": "No: primero se descartan batería, masas y software, y a menudo basta con reprogramar el módulo."
+    },
+    {
+      "question": "¿Puedo seguir conduciendo?",
+      "answer": "Si el coche arranca, puede circular en modo limitado, pero conviene resolverlo pronto porque el fallo puede agravarse."
+    },
+    {
+      "question": "¿Se puede arreglar sin cambiar la centralita?",
+      "answer": "Sí, con una reprogramación oficial o una reparación de laboratorio cuando el daño es de la placa."
+    },
+    {
+      "question": "¿Qué diferencia hay con el P0601?",
+      "answer": "El P0601 se refiere a la suma de verificación de la memoria interna; el P0605 apunta específicamente a la memoria de solo lectura."
+    },
+    {
+      "question": "¿Cuánto cuesta solucionarlo?",
+      "answer": "Desde unos 40 € de diagnóstico eléctrico hasta unos 1.400 € si hay que sustituir y codificar la centralita."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "limpiador de contactos eléctricos"
+  ],
+  "related": [
+    "p0601",
+    "p0606",
+    "p0600",
+    "guia-como-usar-escaner-obd2"
+  ],
+  "featured_image": "/img/articulos/codigo-p0605.webp"
+}

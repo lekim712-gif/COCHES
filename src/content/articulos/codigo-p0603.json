@@ -1,0 +1,54 @@
+{
+  "type": "codigo",
+  "code": "P0603",
+  "name": "Error de la memoria KAM del módulo de control",
+  "datePublished": "2026-11-10",
+  "dateModified": "2026-11-10",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0603: causas, síntomas y solución",
+    "meta_description": "Código P0603: error de la memoria KAM del módulo de control. Pérdida de alimentación permanente, batería, adaptaciones borradas y cómo diagnosticarlo.",
+    "slug": "p0603"
+  },
+  "content_html": "<h1>Código P0603: Error de la memoria KAM del módulo de control</h1>\n<p class=\"intro\">El código P0603 aparece cuando la centralita detecta un error en su memoria KAM, la memoria que conserva datos aprendidos mientras el coche está apagado. Se activa sobre todo si el módulo ha perdido su alimentación permanente: batería desconectada, bornes flojos o fusible dañado. Casi siempre es un aviso de origen eléctrico, no una avería de la ECU.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: el coche suele funcionar, con adaptaciones perdidas</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Memoria KAM de la ECU, alimentación permanente de 12 V, batería, fusibles, bornes</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–250 € (reaprendizaje, bornes, batería) · 350–1.200 € (ECU, caso raro)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con reaprendizaje, multímetro, comprobador de batería, cargador estabilizado</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido justo después de desconectar o cambiar la batería.</li><li>Ralentí irregular o inestable durante los primeros kilómetros porque se han perdido las adaptaciones.</li><li>Cambio automático con marchas más bruscas hasta que reaprende los puntos de cambio.</li><li>Arranque algo más largo de lo normal en las primeras puestas en marcha.</li><li>Código P0603 que reaparece cada vez que se deja el coche parado varios días.</li><li>Pérdida de los ajustes de la radio, el reloj y los asientos al mismo tiempo, señal de corte de alimentación.</li><li>Consumo y respuesta del acelerador diferentes tras el evento, que mejoran con la conducción.</li></ul>\n<h2>Causas principales</h2><ul><li>Batería desconectada o sustituida sin mantener la alimentación del módulo.</li><li>Bornes de batería flojos o sulfatados que cortan la corriente de forma intermitente.</li><li>Batería envejecida cuya tensión cae por debajo del mínimo durante el arranque.</li><li>Fusible o relé de alimentación permanente de la ECU con falso contacto.</li><li>Descarga profunda tras dejar el coche parado semanas con un consumo parásito.</li><li>Condensador o circuito de respaldo interno de la ECU agotado, con pérdida de datos en cada apagado.</li><li>Masa defectuosa que provoca microcortes de alimentación durante el arranque.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p><h2>Qué significa el código P0603 y cómo lo detecta la centralita</h2><p>KAM son las siglas de Keep Alive Memory, una memoria volátil que se mantiene alimentada de forma permanente desde la batería, incluso con el contacto quitado. En ella la ECU guarda lo que va aprendiendo: correcciones de combustible a largo plazo, posición de reposo de la mariposa, desgaste de los inyectores y puntos de cambio del automático. Al conectar el contacto, el módulo verifica que esa memoria esté íntegra.</p><p>Si detecta que los datos se han corrompido o que se ha producido un corte de alimentación, guarda el P0603. La mayoría de las veces el código se genera de forma legítima tras una desconexión de batería y el procedimiento correcto no es reparar, sino borrar el código y dejar que el coche vuelva a aprender.</p><h2>Datos en vivo y valores de referencia</h2><p>Según el manual del fabricante, la clave está en medir la alimentación que recibe el módulo.</p><ul><li>Tensión de la batería con el motor parado, en torno a 12,4–12,8 V; por debajo de 12,0 V la batería está muy descargada.</li><li>Tensión mínima durante el arranque: no debe caer de unos 9,5 V.</li><li>Tensión en el borne de alimentación permanente de la ECU, que debe ser prácticamente igual a la de la batería con el contacto quitado.</li><li>Estado de los monitores de preparación OBD2: tras perder la memoria aparecen como no completados.</li></ul><h2>Cómo distinguir la causa</h2><table class=\"cmp\"><thead><tr><th>Situación</th><th>Resultado</th><th>Causa probable</th></tr></thead><tbody><tr><td>Se acaba de cambiar o desconectar la batería</td><td>Código aparece una sola vez</td><td>Pérdida normal de memoria</td></tr><tr><td>Código en cada arranque tras días parado</td><td>Batería baja de 12,0 V</td><td>Batería débil o consumo parásito</td></tr><tr><td>Tensión de alimentación permanente irregular</td><td>Cae al mover el cable</td><td>Borne o fusible con falso contacto</td></tr><tr><td>Alimentación estable y código constante</td><td>Reaparece al borrarlo</td><td>Fallo interno de la ECU</td></tr><tr><td>Pérdida simultánea de radio y reloj</td><td>Se repite</td><td>Corte de corriente intermitente</td></tr></tbody></table>\n<h2>Cómo diagnosticar el P0603 paso a paso</h2><ol><li>Pregunta si se ha desconectado o cambiado la batería recientemente; en ese caso el código puede ser normal.</li><li>Lee y anota los códigos y los datos de congelación; no borres nada todavía.</li><li>Comprueba la tensión de la batería en reposo y en arranque, y haz una prueba de carga si es posible.</li><li>Revisa los bornes: limpia el sulfato con un cepillo y apriétalos al par del fabricante.</li><li>Localiza el fusible de alimentación permanente de la ECU en la caja y comprueba que no tenga falso contacto.</li><li>Mide la tensión en el pin de alimentación permanente del módulo con el contacto quitado.</li><li>Verifica las masas entre batería, bloque motor y carrocería con una medida de caída de tensión.</li><li>Borra el código con el escáner y realiza el reaprendizaje que indique el fabricante.</li><li>Conduce el coche un ciclo completo, con tramos de ciudad y carretera, para que se recuperen las adaptaciones.</li><li>Si el código regresa con alimentación correcta, consulta la posibilidad de sustituir o reparar la ECU.</li></ol>\n<h2>Reaprendizaje tras perder la memoria</h2><p>Una vez corregida la causa, la centralita necesita recuperar los valores que ha perdido. Lo habitual, según el manual del fabricante, es dejar el motor al ralentí hasta que alcance temperatura de funcionamiento, esperar unos minutos con consumos apagados y realizar un recorrido que combine tráfico urbano y carretera. En algunos modelos hay un procedimiento específico para el cuerpo de mariposa o el cambio automático que se inicia con el escáner.</p><p>Durante esos primeros kilómetros pueden notarse un ralentí algo desigual o cambios más duros. Es normal y debe normalizarse en unas decenas de kilómetros. Si no lo hace, hay un problema de fondo y conviene volver a leer los códigos.</p><h2>Cuánto cuesta repararlo</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Reaprendizaje con escáner</td><td>0–60 €</td></tr><tr><td>Limpieza y apriete de bornes</td><td>0–30 €</td></tr><tr><td>Batería nueva</td><td>80–250 €</td></tr><tr><td>Fusible o relé de alimentación</td><td>5–60 €</td></tr><tr><td>Reparación de ECU</td><td>150–500 €</td></tr><tr><td>Centralita nueva con codificación</td><td>600–1.200 €</td></tr></tbody></table><h2>Errores frecuentes al diagnosticar</h2><ul><li>Sustituir la centralita por un P0603 que solo es consecuencia de haber cambiado la batería.</li><li>Desconectar la batería sin cargar un mantenedor de memoria en coches con muchos módulos.</li><li>No limpiar los bornes y volver a montar la misma conexión deficiente.</li><li>Esperar que las adaptaciones vuelvan al instante en lugar de conducir con calma.</li><li>Dejar un consumo parásito sin localizar, que descarga la batería cada pocos días.</li></ul><h2>Cuándo acudir al taller</h2><ul><li>Si el código vuelve a aparecer cada pocos días sin haber tocado la batería.</li><li>Si se pierden datos y el coche presenta fallos de arranque o de cambio.</li><li>Si hace falta medir un consumo parásito con pinza amperimétrica.</li><li>Si necesitas realizar un reaprendizaje del cambio automático con escáner específico.</li></ul><h2>Códigos relacionados</h2><ul><li>P0601: error de suma de verificación de la memoria interna.</li><li>P0605: error de la memoria de solo lectura.</li><li>P0606: fallo del procesador del módulo de control.</li><li>P0562: tensión baja del sistema eléctrico.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa el código P0603?",
+      "answer": "Que la memoria KAM, que conserva datos aprendidos con el coche apagado, ha tenido un error o ha perdido alimentación."
+    },
+    {
+      "question": "¿Es normal que salga tras cambiar la batería?",
+      "answer": "Sí, es frecuente: basta con borrar el código y dejar que el coche reaprenda conduciendo."
+    },
+    {
+      "question": "¿Hay que cambiar la centralita?",
+      "answer": "Casi nunca; solo si el código vuelve con la alimentación permanente correcta y estable."
+    },
+    {
+      "question": "¿Qué datos se pierden con la KAM?",
+      "answer": "Las adaptaciones de combustible, ralentí, mariposa y puntos de cambio del automático, que se recuperan con el uso."
+    },
+    {
+      "question": "¿Puedo seguir conduciendo?",
+      "answer": "Sí, normalmente con un comportamiento algo menos fino al principio, hasta que se completen los reaprendizajes."
+    },
+    {
+      "question": "¿Cuánto cuesta solucionarlo?",
+      "answer": "En el caso habitual, entre 0 y 60 €; si hay que cambiar la batería, hasta unos 250 €."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "limpiador de contactos eléctricos"
+  ],
+  "related": [
+    "p0601",
+    "p0606",
+    "testigo-bateria",
+    "guia-bateria-se-descarga-sola"
+  ],
+  "featured_image": "/img/articulos/codigo-p0603.webp"
+}

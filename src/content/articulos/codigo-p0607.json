@@ -1,0 +1,54 @@
+{
+  "type": "codigo",
+  "code": "P0607",
+  "name": "Fallo de rendimiento del módulo de control",
+  "datePublished": "2026-11-10",
+  "dateModified": "2026-11-10",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0607: causas, síntomas y solución",
+    "meta_description": "Código P0607: fallo de rendimiento del módulo de control. Qué vigila el procesador monitor de la ECU, causas por tensión, masas, humedad o software, y coste.",
+    "slug": "p0607"
+  },
+  "content_html": "<h1>Código P0607: Fallo de rendimiento del módulo de control</h1>\n<p class=\"intro\">El código P0607 significa que el sistema de supervisión interno de la centralita ha detectado que el módulo no rinde como debe. Dentro de la ECU, un procesador monitor vigila al principal y comprueba sus respuestas. Si ambos discrepan, guarda el código. A menudo el culpable no es la centralita sino su entorno: alimentación irregular, masas deficientes o humedad.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: puede provocar paradas, modo de emergencia o fallos de arranque</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Procesador monitor de la ECU, alimentación, masas, conectores, software, humedad</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–200 € (alimentación, masas, software) · 350–1.500 € (reparación o sustitución de ECU)</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, multímetro, osciloscopio opcional, equipo de reprogramación del fabricante</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido, a veces junto con el de cambio automático o el de control de tracción.</li><li>Parada repentina del motor en marcha, seguida de un rearranque normal al cabo de unos segundos.</li><li>Modo de emergencia con pérdida notable de potencia y limitación de revoluciones.</li><li>Acelerador que responde de forma irregular o se queda en un ralentí alto.</li><li>Falta de comunicación del escáner con la ECU o lecturas incoherentes.</li><li>Problemas de arranque en días húmedos o tras lavar el motor.</li><li>Fallos intermitentes que aparecen al calentarse el motor o con vibraciones fuertes.</li></ul>\n<h2>Causas principales</h2><ul><li>Tensión de alimentación inestable: batería débil, bornes flojos o alternador con ondulación excesiva.</li><li>Masa del módulo con resistencia alta o conexión suelta en el chasis o en el bloque motor.</li><li>Humedad en el conector o en la propia ECU, sobre todo en módulos montados en el vano motor.</li><li>Fallo del procesador monitor por envejecimiento de componentes o por calor excesivo.</li><li>Versión de software con un error de supervisión, corregida en actualizaciones posteriores.</li><li>Cortocircuito en un sensor o actuador que arrastra la alimentación de 5 V de referencia.</li><li>Reparación previa de la ECU o instalación de un módulo no adecuado al vehículo.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p><h2>Qué significa el código P0607 y cómo lo detecta la centralita</h2><p>Las centralitas modernas funcionan con una arquitectura de seguridad funcional: un procesador principal ejecuta el control del motor y un segundo circuito, el monitor, plantea cuestiones que el principal debe responder en un tiempo determinado. Esta comprobación pregunta-respuesta se repite miles de veces por minuto. Si la respuesta llega tarde, es incorrecta o no llega, el monitor concluye que el rendimiento del módulo es insuficiente y registra el P0607.</p><p>Es un diagnóstico de último recurso: el monitor no sabe por qué falla el procesador, solo sabe que no responde bien. Una tensión de alimentación que cae durante el arranque, un reinicio breve del procesador o un ruido eléctrico en la masa pueden producir exactamente el mismo síntoma que un componente dañado.</p><h2>Datos en vivo y valores de referencia</h2><p>Según el manual del fabricante, estas comprobaciones ayudan a separar el entorno eléctrico del módulo en sí.</p><ul><li>Tensión de batería en reposo, en torno a 12,4–12,8 V, y mínima durante el arranque, que no debería descender de 9,5 V.</li><li>Tensión de carga con el motor en marcha, entre 13,5 y 14,5 V, con ondulación inferior a unos 0,5 V si se mide con osciloscopio.</li><li>Tensión de referencia de 5 V de los sensores: debe mantenerse estable, entre 4,9 y 5,1 V.</li><li>Caída de tensión entre la masa de la ECU y el borne negativo de la batería, que debería quedar por debajo de unos 0,1–0,2 V.</li></ul><h2>Cómo distinguir la causa</h2><table class=\"cmp\"><thead><tr><th>Síntoma o prueba</th><th>Resultado</th><th>Causa probable</th></tr></thead><tbody><tr><td>Parada al pisar el freno o con muchos consumos</td><td>Cae la tensión de la ECU</td><td>Alimentación o bornes</td></tr><tr><td>Fallos solo tras lluvia o lavado</td><td>Se corrigen al secar los conectores</td><td>Humedad en conectores o en la ECU</td></tr><tr><td>Desaparece al golpear suavemente el módulo</td><td>Cambia el comportamiento</td><td>Soldadura fría o pin suelto</td></tr><tr><td>Tensión de 5 V oscila</td><td>Se estabiliza al desconectar un sensor</td><td>Sensor en cortocircuito</td></tr><tr><td>Código constante desde que se cambió la ECU</td><td>No varía con otras pruebas</td><td>Módulo no compatible</td></tr><tr><td>Reaparece tras reprogramar</td><td>Con alimentación correcta</td><td>Procesador monitor dañado</td></tr></tbody></table>\n<h2>Cómo diagnosticar el P0607 paso a paso</h2><ol><li>Lee los códigos de todos los módulos y apunta cuáles aparecen junto al P0607, sobre todo los de tensión.</li><li>Verifica el estado de la batería con comprobador de carga y mide su tensión en reposo y en arranque.</li><li>Comprueba el alternador con el motor en marcha y con consumos conectados.</li><li>Inspecciona los bornes y las trenzas de masa; límpialos y apriétalos si presentan óxido.</li><li>Desconecta el conector de la ECU con el contacto quitado y busca humedad, verdín o pines flojos.</li><li>Limpia los contactos con un limpiador específico y deja secar por completo antes de volver a conectar.</li><li>Mide la caída de tensión de las masas de la ECU con carga y compara con el valor del fabricante.</li><li>Desconecta uno a uno los sensores que comparten la alimentación de 5 V para descartar un cortocircuito.</li><li>Consulta si existe una actualización de software para tu modelo y aplícala con una fuente estabilizada.</li><li>Si el código persiste, solicita la reparación de la ECU o su sustitución con codificación al vehículo.</li></ol>\n<h2>Qué hace el coche cuando se activa este código</h2><p>La reacción depende del fabricante. Algunos modelos apenas encienden el testigo; otros limitan la potencia o pasan a un modo de emergencia con las revoluciones recortadas. En los casos más graves la centralita puede reiniciarse en marcha, lo que se nota como un tirón seguido de un corte del motor. No es un código para ignorar en autovía o en adelantamientos, porque una parada inesperada reduce la asistencia de dirección y de frenada.</p><h2>Cuánto cuesta repararlo</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Diagnóstico eléctrico completo</td><td>40–120 €</td></tr><tr><td>Cambio de batería</td><td>80–250 €</td></tr><tr><td>Limpieza de conectores o cambio de masa</td><td>20–120 €</td></tr><tr><td>Actualización de software</td><td>60–250 €</td></tr><tr><td>Reparación de ECU en laboratorio</td><td>150–550 €</td></tr><tr><td>Centralita nueva con codificación</td><td>600–1.500 €</td></tr></tbody></table><h2>Errores frecuentes al diagnosticar</h2><ul><li>Cambiar la ECU sin medir antes la caída de tensión de sus masas.</li><li>Dar por buena una batería solo porque el coche arranca.</li><li>Secar la ECU con aire caliente muy fuerte o con herramientas no adecuadas.</li><li>Instalar una centralita de otro coche con la misma carcasa pero distinto programa.</li><li>Pasar por alto un sensor en cortocircuito que arrastra la alimentación de referencia.</li></ul><h2>Cuándo acudir al taller</h2><ul><li>Si el motor se para o se reinicia estando en marcha.</li><li>Si el código vuelve tras corregir batería, masas y conectores.</li><li>Si hace falta osciloscopio para ver la ondulación del alternador o la señal de reloj.</li><li>Si es necesario reprogramar o codificar una centralita nueva.</li></ul><h2>Códigos relacionados</h2><ul><li>P0606: fallo del procesador del módulo de control.</li><li>P0601: error de suma de verificación de la memoria interna.</li><li>P0605: error de la memoria de solo lectura.</li><li>P0638: rango de control del actuador de la mariposa.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa el código P0607?",
+      "answer": "Que el circuito supervisor interno de la ECU ha detectado que el módulo no funciona con el rendimiento esperado."
+    },
+    {
+      "question": "¿Es siempre culpa de la centralita?",
+      "answer": "No: la causa más común es eléctrica, con batería débil, masas deficientes o humedad en el conector."
+    },
+    {
+      "question": "¿Puede dejarme tirado en la carretera?",
+      "answer": "Sí, en algunos casos el motor se para o se reinicia en marcha, por lo que no conviene posponer la revisión."
+    },
+    {
+      "question": "¿Se puede reparar la ECU?",
+      "answer": "Sí, hay laboratorios especializados que sustituyen componentes o resuelven soldaduras, a menudo por menos que un módulo nuevo."
+    },
+    {
+      "question": "¿Tiene relación con la humedad?",
+      "answer": "Mucha: el agua en el conector o en la placa altera las señales internas y puede disparar el código."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglarlo?",
+      "answer": "De unos 40 € en un diagnóstico eléctrico hasta unos 1.500 € con centralita nueva y codificación."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "limpiador de contactos eléctricos"
+  ],
+  "related": [
+    "p0606",
+    "p0601",
+    "p0600",
+    "testigo-motor"
+  ],
+  "featured_image": "/img/articulos/codigo-p0607.webp"
+}
