@@ -43,16 +43,8 @@
       "answer": "Sí, empalmando con soldadura y funda termorretráctil. Evita empalmes con tapones baratos: cerca del colector el calor los degrada."
     },
     {
-      "question": "¿Se puede conducir con P0403 si el ralentí es estable?",
-      "answer": "Se puede circular con precaución a corto plazo, pero la EGR no funciona, subirán las emisiones y la ITV puede ser desfavorable. Conviene reparar pronto para evitar daños secundarios."
-    },
-    {
       "question": "¿Cómo sé si el fallo es de la válvula o del cable?",
       "answer": "Mide la resistencia del actuador con el conector desconectado: si es correcta, el problema está en el mazo o en la alimentación. Si es infinita o casi cero, la válvula está averiada."
-    },
-    {
-      "question": "¿Puede el P0403 volver tras cambiar la válvula?",
-      "answer": "Sí, si la causa fue un cable pelado o un cortocircuito que no se reparó: la válvula nueva sufriría lo mismo. Por eso se mide el cableado antes y después del cambio."
     }
   ],
   "products": [
