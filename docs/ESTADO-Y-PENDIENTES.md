@@ -150,3 +150,5 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - Search Console (08/11): 2.032 impresiones, 7 clics, 88 páginas.
 
 - 10/11: +10 fichas (P0305, P0605, P0607, P0603; testigos nivel limpiaparabrisas, reconocimiento de señales, caja DSG; guías limpieza de admisión, humedad/vaho interior, coche parado). 220 fichas, sitemap 219 URLs, todas 200 e index. Pendientes de revisión técnica (Carlos).
+
+- 11/11: +4 códigos (P0404, P0306, P0342, P0444); mejora en profundidad de P0300, P0113, P0420, P0087, testigo EPC y guía limpieza EGR (árbol de decisión, ejemplo ilustrativo, particularidades por motor). 224 fichas. Ritmo reducido a 3-4 nuevas/día. AdSense rechazado: no volver a pedir revisión antes del 01/12.
