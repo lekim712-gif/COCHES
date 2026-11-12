@@ -156,3 +156,5 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - 12/11: +4 fichas (P0108, P0136, P0123, guía sonda lambda); mejora en profundidad de P0401, P0341, P2002, P0455, testigo nivel de aceite y guía ruido correa. 228 fichas. Nota: tras reinicio del contenedor se reconstruyó scratchpad/deep/lib.mjs y hay que reinstalar node_modules (npm ci); build:prod local ya no tiene PUBLIC_OWNER_* (solo en CI).
 
 - 12/11: sección Blog creada (/blog/, 21 entradas por página, en el menú, en sitemap) con 21 entradas iniciales de coches (comparativas, compra, costes, mantenimiento, seguridad). Tipo de contenido nuevo: blog (createBlog en scratchpad/deep/lib.mjs). 249 artículos.
+
+- Herramientas de redacción (create/enrich/rewrite/createBlog) guardadas en content-plan/authoring/lib.mjs con sus instrucciones (INSTRUCCIONES.md), para no perderlas si el contenedor se reinicia. Rutina: 3-4 fichas técnicas + 2 entradas de blog al día.
