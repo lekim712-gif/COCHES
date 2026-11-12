@@ -52,5 +52,7 @@
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
-  "featured_image": "/img/articulos/codigo-p0123.webp"
+  "featured_image": "/img/articulos/codigo-p0123.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-12"
 }
