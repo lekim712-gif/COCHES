@@ -1,0 +1,56 @@
+{
+  "type": "codigo",
+  "code": "P0123",
+  "name": "Sensor de posición de mariposa o pedal (A), señal alta",
+  "seo": {
+    "meta_title": "Código P0123: sensor mariposa o pedal A, señal alta",
+    "meta_description": "Código P0123: señal alta en el sensor de posición de mariposa o pedal (A). Causas, modo de emergencia, árbol de decisión, pruebas y costes de reparación.",
+    "slug": "p0123"
+  },
+  "content_html": "<h1>Código P0123: Sensor de posición de mariposa o pedal (A), señal alta</h1>\n<p class=\"intro\">El código P0123 indica que el sensor de posición de la mariposa o del pedal del acelerador, circuito A, entrega una tensión excesiva, próxima a los 5 V. Con el acelerador electrónico, la centralita desconfía de esa lectura y suele limitar la potencia. El origen puede ser un cable en cortocircuito, una masa cortada o un sensor desgastado.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: modo de emergencia con potencia limitada, que puede resultar peligroso al incorporarse o adelantar</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sensor de posición de mariposa o pedal, cuerpo de mariposa, cableado, alimentación de 5 V, masa, centralita</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–600 €, según sea limpieza, sensor, cuerpo de mariposa o pedal</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo y adaptación, multímetro, limpiador de mariposa, destornilladores</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido y, en muchos modelos, el testigo del acelerador electrónico o del EPC.</li><li>Modo de emergencia: el motor sube de vueltas solo hasta un límite y el pedal apenas responde.</li><li>Ralentí alto, errático o motor que se cala al soltar el pedal.</li><li>Aceleración con retraso y tirones al pisar a fondo.</li><li>Cambio automático que cambia mal o se mantiene en una marcha por falta de datos de carga.</li><li>El control de crucero deja de funcionar.</li><li>Dificultad para arrancar si la ECU no reconoce la posición de reposo de la mariposa.</li></ul>\n<h2>Causas principales</h2><ul><li>Cable de señal del sensor en cortocircuito con la línea de 5 V, por roce o humedad.</li><li>Masa del sensor cortada o con resistencia elevada, de modo que la señal sube.</li><li>Pista resistiva del sensor desgastada o sucia en el cuerpo de mariposa.</li><li>Mariposa sucia o con carbonilla, que obliga al motor a compensar y sobrecarga el sensor.</li><li>Pedal del acelerador con sensor interno averiado, cuando el circuito A pertenece al pedal.</li><li>Conector con terminales flojos, corroídos o con restos de agua.</li><li>Centralita con el circuito de entrada averiado, un caso poco habitual.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Qué significa el código P0123 y cómo lo detecta la centralita</h2><p>Los motores modernos no tienen cable entre el pedal y la mariposa. Un sensor en el pedal informa de lo que pide el conductor, y otro en el cuerpo de mariposa informa de dónde está realmente la compuerta. Cada uno suele incluir dos pistas redundantes, A y B, cuyas tensiones son complementarias: cuando una sube, la otra baja, y su suma es casi constante.</p><p>El circuito A se refiere a la primera de esas pistas. La ECU espera, con la mariposa en reposo, una tensión baja, entre unos 0,5 y 1 V según el fabricante, y cerca de 4,0–4,5 V a fondo. El P0123 se guarda cuando la tensión supera el límite superior, por ejemplo más de unos 4,8 V, cuando la mariposa debería estar casi cerrada.</p><p>Como el acelerador electrónico es un sistema de seguridad, la centralita responde con prudencia. Si la pista A y la B no son coherentes, deja de fiarse del pedal y limita el par. Así evita una aceleración inesperada, aunque el conductor pueda percibirlo como una avería grave.</p>\n<h2>Datos en vivo y valores de referencia</h2><p>Con el escáner, abre los datos del sensor de posición: porcentaje y tensión de ambas pistas. Contrasta siempre las cifras con el manual.</p><table class=\"cmp\"><thead><tr><th>Situación</th><th>Lectura normal pista A</th><th>Lectura que apunta al P0123</th></tr></thead><tbody><tr><td>Contacto dado, pedal suelto</td><td>Entre 0,5 y 1 V, algo así como 0–15 %</td><td>Más de 4,5 V</td></tr><tr><td>Pedal a la mitad</td><td>En torno a 2,5 V</td><td>Salto brusco al máximo</td></tr><tr><td>Pedal a fondo</td><td>Hasta unos 4,0–4,5 V</td><td>Siempre en el tope</td></tr><tr><td>Pista B (complementaria)</td><td>Sube o baja de forma opuesta</td><td>Plana o incoherente con la A</td></tr></tbody></table>\n<h2>Árbol de decisión de diagnóstico</h2><p>Antes de empezar, desconecta la batería si vas a manipular el conector, y no tengas las manos cerca de la mariposa con el motor en marcha. Sigue el orden.</p><ul><li>1. ¿La pista A marca más de 4,5 V con el pedal suelto? SI: continúa. NO: el fallo es intermitente; ve al punto 6.</li><li>2. ¿Está el conector del sensor limpio, seco y bien enclavado? NO: límpialo y repite la lectura. SI: continúa.</li><li>3. Con el sensor desenchufado y el contacto dado, ¿hay unos 5 V de referencia en el terminal correcto? SI: la alimentación es buena, ve al punto 4. NO: referencia cortada o cargada; revisa el mazo.</li><li>4. ¿Hay continuidad baja entre el terminal de masa y el negativo de la batería? NO: masa abierta, repara el cable. SI: continúa.</li><li>5. Conectado el sensor, ¿la tensión sube y baja sin saltos al accionar el pedal despacio? NO: sensor desgastado; cambia el cuerpo de mariposa o el pedal. SI: sospecha del cableado de señal, comprueba que no toca los 5 V.</li><li>6. Tras limpiar o sustituir, ¿se ha realizado el aprendizaje con el escáner? NO: hazlo siguiendo el procedimiento del fabricante. SI: si el P0123 persiste, revisa la centralita.</li></ul>\n<h2>Ejemplo de diagnóstico típico</h2><p>Escenario ilustrativo para entender el razonamiento. No corresponde a ningún vehículo real ni refleja mediciones reales.</p><p>Imaginemos un gasolina con acelerador electrónico que entra en modo de emergencia al llover. Con el escáner, la pista A del pedal marca un valor muy alto y fijo en cuanto el motor se calienta. El técnico desenchufa el conector y encuentra restos de agua entre los terminales, con un ligero sulfato en el cable de señal. Tras secarlo y limpiarlo, la tensión vuelve a quedar en un valor bajo con el pedal suelto y el coche recupera toda su potencia. Se aplicó grasa dieléctrica y se revisó la junta del conector. Ninguna pieza fue sustituida.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Lee todos los códigos; si aparecen también P0122, P0222, P0223 o P2135, el problema es común a las pistas del acelerador.</li><li>Con el coche parado y el freno de mano puesto, mira las lecturas de ambas pistas con el pedal suelto y a fondo.</li><li>Limpia los contactos con limpiador específico y, si la mariposa está sucia, límpiala con el producto adecuado sin forzar la compuerta con la mano.</li><li>Reconecta, da contacto y mide la referencia de 5 V y la masa con el multímetro en el conector del sensor.</li><li>Comprueba la continuidad del cable de señal hasta la centralita y que no hay cortocircuito con la línea de 5 V.</li><li>Si la señal sigue alta con cableado correcto, sustituye el cuerpo de mariposa o el módulo de pedal, según el circuito afectado.</li><li>Haz el aprendizaje de mariposa con el escáner, borra los códigos y prueba el coche en carretera con precaución.</li></ol>\n<h2>Cuánto cuesta repararlo</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Limpieza de conector y de mariposa</td><td>30–90 €</td></tr><tr><td>Reparación de cableado</td><td>40–150 €</td></tr><tr><td>Pedal del acelerador con sensor</td><td>60–250 € de recambio más mano de obra</td></tr><tr><td>Cuerpo de mariposa electrónico</td><td>150–600 €, según el modelo</td></tr><tr><td>Aprendizaje con escáner</td><td>20–60 €</td></tr><tr><td>Centralita reparada o sustituida</td><td>300–1.000 €</td></tr></tbody></table>\n<h2>Errores frecuentes al diagnosticar</h2><ul><li>Cambiar el cuerpo de mariposa completo sin haber medido los 5 V y la masa.</li><li>Empujar la compuerta de la mariposa con el dedo para limpiarla, lo que daña el muelle y desajusta el sensor.</li><li>Olvidar el aprendizaje tras la limpieza o el cambio, y creer que la pieza nueva está defectuosa.</li></ul>\n<h2>Cuándo acudir al taller</h2><ul><li>Si el coche entra en modo de emergencia y no puedes acelerar con seguridad.</li><li>Si el código vuelve tras reparar el conector y cambiar el sensor.</li><li>Si el vehículo necesita un escáner de marca para el aprendizaje o la adaptación.</li></ul>\n<h2>Códigos relacionados</h2><ul><li>P0122: señal baja del circuito del sensor de posición de mariposa o pedal.</li><li>P0220: fallo del circuito B del sensor de posición de mariposa.</li><li>P0638: rango de funcionamiento del actuador de la mariposa.</li><li>P0507: régimen de ralentí superior al esperado.</li></ul>\n<!--ad-slot-2-->",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa el código P0123?",
+      "answer": "La centralita lee del sensor de posición de mariposa o pedal, circuito A, una tensión excesiva que no concuerda con la posición real de la compuerta o del pedal."
+    },
+    {
+      "question": "¿Puedo conducir con el P0123?",
+      "answer": "Se puede mover el coche, pero con potencia limitada en modo de emergencia. Evita autopistas y adelantamientos hasta repararlo."
+    },
+    {
+      "question": "¿Es el pedal o la mariposa?",
+      "answer": "Depende del vehículo. El escáner o el manual indican a qué sensor corresponde el circuito A; ambos tienen pistas redundantes con la misma lógica."
+    },
+    {
+      "question": "¿Limpiar la mariposa soluciona el P0123?",
+      "answer": "A veces, si la suciedad causaba el esfuerzo extra, pero después hay que hacer el aprendizaje con el escáner para que el motor reconozca la posición de reposo."
+    },
+    {
+      "question": "¿Qué diferencia hay con el P0122?",
+      "answer": "El P0122 indica señal baja del mismo circuito, por cortocircuito a masa o cable abierto; el P0123 indica señal alta."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar el P0123?",
+      "answer": "Entre 30 y 150 € si es limpieza o cableado, y entre 150 y 600 € si hay que cambiar el cuerpo de mariposa o el pedal."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "limpiador de mariposa y admisión"
+  ],
+  "related": [
+    "p0122",
+    "p0220",
+    "p0638",
+    "p0507",
+    "guia-limpiar-mariposa",
+    "guia-multimetro-sensores"
+  ],
+  "datePublished": "2026-11-12",
+  "dateModified": "2026-11-12",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "featured_image": "/img/articulos/codigo-p0123.webp"
+}

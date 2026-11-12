@@ -1,0 +1,56 @@
+{
+  "type": "codigo",
+  "code": "P0136",
+  "name": "Circuito de la sonda lambda trasera (banco 1, sensor 2)",
+  "seo": {
+    "meta_title": "Código P0136: sonda lambda trasera, causas y solución",
+    "meta_description": "Código P0136: fallo del circuito de la sonda lambda trasera del banco 1, sensor 2. Causas, árbol de decisión, pruebas con multímetro y costes de reparación.",
+    "slug": "p0136"
+  },
+  "content_html": "<h1>Código P0136: Circuito de la sonda lambda trasera (banco 1, sensor 2)</h1>\n<p class=\"intro\">El código P0136 se guarda cuando la centralita detecta un fallo eléctrico en la sonda lambda situada detrás del catalizador, la del banco 1, sensor 2. Esa sonda no corrige la mezcla, sino que vigila si el catalizador trabaja bien. Por eso el coche suele rodar con normalidad, aunque el testigo de motor esté encendido y la ITV pueda complicarse.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: el coche funciona, pero se pierde el control del catalizador y puede fallar la ITV</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sonda lambda trasera, cableado y conector, escape, catalizador, centralita</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>50–350 €, según sea conector, sonda o escape</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro, llave de sondas, grasa antiagarrotamiento específica</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido y el P0136 almacenado, casi siempre sin otros códigos de mezcla.</li><li>Conducción normal en la mayoría de los casos: la sonda trasera no gobierna la inyección.</li><li>Consumo algo mayor si la ECU deja de refinar la estrategia del catalizador.</li><li>Resultado desfavorable en la ITV por emisiones o por el testigo encendido.</li><li>Aparición posterior de un P0420 si el catalizador se degrada sin que nadie lo vigile.</li><li>En algunos modelos, un ligero olor a azufre si el catalizador no trabaja con la mezcla correcta.</li></ul>\n<h2>Causas principales</h2><ul><li>Conector de la sonda sin encajar, con humedad o con terminales sulfatados por estar cerca del escape.</li><li>Cable de la sonda fundido o roto por contacto con el tubo de escape caliente.</li><li>Sonda con el elemento de zirconio envejecido, contaminado por aceite, refrigerante o silicona.</li><li>Fuga en el escape antes de la sonda, que introduce aire y falsea la lectura.</li><li>Cortocircuito del cable de señal a masa o al positivo por roce con la carrocería.</li><li>Masa de sensores deficiente o lectura de referencia errónea en la centralita.</li><li>Resistencia interna de calentamiento averiada; en muchos coches da un código aparte, el P0141.</li></ul>\n<p class=\"aviso\">Esta ficha describe causas universales del estándar SAE J2012. Los valores exactos de resistencia, tensión y presión dependen del fabricante: consulta siempre el manual de taller de tu vehículo.</p>\n<h2>Qué significa el código P0136 y cómo lo detecta la centralita</h2><p>El nombre del código se descifra con dos datos: «banco 1» es el lado del motor donde está el cilindro número uno, y «sensor 2» es la sonda de después del catalizador. En un motor en línea solo hay un banco; en un V6 o un bóxer, la sonda de cada lado lleva su propio código.</p><p>Una sonda trasera sana entrega una tensión que cambia despacio y se mantiene más estable que la delantera: suele oscilar en torno a 0,5–0,7 V, porque el catalizador amortigua las variaciones de oxígeno. La ECU comprueba que la señal sale de su zona neutral, que no se queda fija y que aparece dentro de los márgenes esperados.</p><p>Cuando la señal permanece clavada en un valor, siempre cerca de 0 V, o fuera del rango eléctrico posible, la centralita califica el circuito como defectuoso y guarda el P0136. La diferencia con otros códigos es importante: el P0137 indica señal baja, el P0138 señal alta y el P0141, un problema de calentamiento. El P0136 es el mensaje genérico de fallo del circuito.</p>\n<h2>Datos en vivo y valores de referencia</h2><p>Con el motor caliente y el escáner conectado, observa la tensión del sensor 2 del banco 1. Las cifras exactas las da el manual del fabricante.</p><table class=\"cmp\"><thead><tr><th>Situación</th><th>Lectura normal</th><th>Lectura que apunta a fallo</th></tr></thead><tbody><tr><td>Ralentí estable, motor caliente</td><td>Oscila lentamente en torno a 0,5–0,7 V</td><td>Fija en 0,45 V o en 0 V</td></tr><tr><td>Aceleración y soltar el pedal</td><td>Sube y baja en pocos segundos</td><td>No reacciona</td></tr><tr><td>Desenchufar el conector</td><td>Cae a valor fijo</td><td>No cambia: la lectura viene del cableado</td></tr><tr><td>Resistencia del calentador a motor frío</td><td>Pocos ohmios, según el manual</td><td>Infinita o cero</td></tr></tbody></table>\n<h2>Árbol de decisión de diagnóstico</h2><p>Con el motor caliente al ralentí y el escáner, sigue este orden. Hazlo con el coche frío para las pruebas de resistencia y apoyado sobre caballetes si debes pasar por debajo; el escape quema.</p><ul><li>1. ¿Se mueve la tensión del sensor 2 al acelerar y soltar? SI: la sonda responde; el fallo es intermitente, ve al punto 5. NO: continúa.</li><li>2. ¿Está el conector bien encajado, limpio y sin cables fundidos? NO: repáralo o sustitúyelo y repite la lectura. SI: continúa.</li><li>3. Con el contacto dado y el conector desenchufado, ¿llega a la sonda la tensión del calentador y la masa que marca el manual? NO: revisa fusible, relé y mazo. SI: continúa.</li><li>4. ¿La resistencia del calentador está dentro del rango del manual? NO: sonda averiada; sustitúyela. SI: continúa.</li><li>5. ¿Hay fugas visibles en el escape antes de la sonda (soplido, hollín en las juntas)? SI: repara la fuga y borra el código. NO: continúa.</li><li>6. ¿Se queda la señal fija a 0,45 V o a 0 V con todo lo anterior correcto? SI: sustituye la sonda trasera. NO: observa durante varios ciclos de conducción y revisa también el catalizador.</li></ul>\n<h2>Ejemplo de diagnóstico típico</h2><p>Escenario ilustrativo para entender el razonamiento. No corresponde a ningún vehículo real ni refleja mediciones reales.</p><p>Supongamos un gasolina con testigo encendido y solo el P0136 almacenado. El escáner muestra la sonda trasera fija en un valor intermedio, sin reacción a los cambios de carga. Al inspeccionar el mazo desde abajo, con el coche frío, el técnico ve el cable de la sonda pegado a una pantalla térmica y con el aislante endurecido. Tras repararlo y proteger el recorrido con un soporte, la señal vuelve a moverse con lentitud y el código no regresa. No hizo falta cambiar la sonda, pero sí se revisó que el catalizador funcionase con otra prueba.</p>\n<h2>Guía de diagnóstico y reparación paso a paso</h2><ol><li>Con el coche frío y sobre caballetes homologados, localiza la sonda trasera, detrás del catalizador, y sigue el cable hasta el conector.</li><li>Revisa el cable en toda su longitud en busca de aislante fundido, roces o dobleces, y limpia el conector.</li><li>Con el multímetro, mide la resistencia del calentador entre sus dos terminales y compárala con el manual.</li><li>Comprueba la alimentación del calentador con el contacto dado y la continuidad del cable de señal hasta la ECU.</li><li>Con el motor caliente, observa la señal en datos en vivo; una sonda sana reacciona a la carga, aunque con lentitud.</li><li>Si hay que cambiarla, afloja la sonda con el escape templado, nunca ardiendo ni congelado, y aplica grasa antiagarrotamiento en la rosca sin tocar el elemento.</li><li>Instala la sonda nueva con el par del manual, borra el código y haz un trayecto mixto que incluya ralentí y tramos a velocidad estable.</li></ol>\n<h2>Cuánto cuesta repararlo</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Limpieza o cambio de conector</td><td>15–60 €</td></tr><tr><td>Reparación de cableado</td><td>40–120 €</td></tr><tr><td>Sonda lambda trasera nueva</td><td>40–180 € de recambio más 30–90 € de mano de obra</td></tr><tr><td>Reparación de fuga en el escape</td><td>60–250 €</td></tr><tr><td>Catalizador, si resulta degradado</td><td>350–1.200 €</td></tr></tbody></table>\n<h2>Errores frecuentes al diagnosticar</h2><ul><li>Confundir banco 1 con banco 2 en un motor en V y cambiar la sonda del lado equivocado.</li><li>Cambiar la sonda delantera cuando el código apunta a la trasera, y viceversa.</li><li>Forzar el desmontaje con el escape caliente o frío, y dañar la rosca del colector.</li></ul>\n<h2>Cuándo acudir al taller</h2><ul><li>Si la rosca de la sonda está agarrotada y no cedes con una llave de sondas.</li><li>Si el código vuelve tras instalar una sonda nueva, lo que apunta al cableado o a la centralita.</li><li>Si hay otros códigos de mezcla o de fallo de encendido junto con el P0136.</li></ul>\n<h2>Códigos relacionados</h2><ul><li>P0137: señal baja de la sonda trasera, banco 1.</li><li>P0138: señal alta de la sonda trasera, banco 1.</li><li>P0141: fallo del calentador de la sonda trasera.</li><li>P0420: eficiencia del catalizador por debajo del umbral.</li></ul>\n<!--ad-slot-2-->",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa el código P0136?",
+      "answer": "Hay un fallo en el circuito de la sonda lambda trasera del banco 1, la situada después del catalizador. La centralita detecta que la señal no es válida."
+    },
+    {
+      "question": "¿Puedo circular con el P0136?",
+      "answer": "Sí, el coche suele funcionar con normalidad porque esa sonda no corrige la mezcla, pero conviene resolverlo para no dañar el catalizador y pasar la ITV."
+    },
+    {
+      "question": "¿Qué diferencia hay entre sensor 1 y sensor 2?",
+      "answer": "El sensor 1 está antes del catalizador y regula la mezcla; el sensor 2 está después y comprueba la eficacia del catalizador."
+    },
+    {
+      "question": "¿Cómo sé si hay que cambiar la sonda?",
+      "answer": "Si el cableado, la alimentación del calentador y el escape están bien y la señal sigue fija o sin reacción, la sonda está agotada."
+    },
+    {
+      "question": "¿Puede un catalizador defectuoso provocar el P0136?",
+      "answer": "Lo habitual es lo contrario: un P0136 sin atender puede esconder un catalizador en mal estado, que luego da el P0420."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar el P0136?",
+      "answer": "Entre 50 y 120 € si es el conector o el cable, y entre 100 y 260 € con la sonda trasera nueva y la mano de obra."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "llave para sondas lambda"
+  ],
+  "related": [
+    "p0137",
+    "p0138",
+    "p0141",
+    "p0420",
+    "p0130",
+    "guia-multimetro-sensores"
+  ],
+  "datePublished": "2026-11-12",
+  "dateModified": "2026-11-12",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "featured_image": "/img/articulos/codigo-p0136.webp"
+}
