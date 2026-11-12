@@ -152,3 +152,5 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - 10/11: +10 fichas (P0305, P0605, P0607, P0603; testigos nivel limpiaparabrisas, reconocimiento de señales, caja DSG; guías limpieza de admisión, humedad/vaho interior, coche parado). 220 fichas, sitemap 219 URLs, todas 200 e index. Pendientes de revisión técnica (Carlos).
 
 - 11/11: +4 códigos (P0404, P0306, P0342, P0444); mejora en profundidad de P0300, P0113, P0420, P0087, testigo EPC y guía limpieza EGR (árbol de decisión, ejemplo ilustrativo, particularidades por motor). 224 fichas. Ritmo reducido a 3-4 nuevas/día. AdSense rechazado: no volver a pedir revisión antes del 01/12.
+
+- 12/11: +4 fichas (P0108, P0136, P0123, guía sonda lambda); mejora en profundidad de P0401, P0341, P2002, P0455, testigo nivel de aceite y guía ruido correa. 228 fichas. Nota: tras reinicio del contenedor se reconstruyó scratchpad/deep/lib.mjs y hay que reinstalar node_modules (npm ci); build:prod local ya no tiene PUBLIC_OWNER_* (solo en CI).

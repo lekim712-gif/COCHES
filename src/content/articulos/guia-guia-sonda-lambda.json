@@ -1,0 +1,61 @@
+{
+  "type": "guia",
+  "name": "Sonda lambda: qué es, síntomas de fallo, cómo comprobarla y cuándo cambiarla",
+  "seo": {
+    "meta_title": "Sonda lambda: síntomas, cómo comprobarla y cuándo cambiarla",
+    "meta_description": "Qué es la sonda lambda, tipos, síntomas de fallo, cómo comprobarla con escáner y multímetro, cuándo cambiarla y cuánto cuesta. Guía práctica paso a paso.",
+    "slug": "guia-sonda-lambda"
+  },
+  "content_html": "<h1>Sonda lambda: qué es, síntomas de fallo, cómo comprobarla y cuándo cambiarla</h1>\n<p class=\"intro\">La sonda lambda mide el oxígeno que sale por el escape para que la centralita ajuste la mezcla de aire y gasolina en cada instante. Cuando falla, suben el consumo y las emisiones, y el coche puede tirar peor o suspender la ITV. Esta guía explica cómo funciona, cómo se comprueba con escáner y multímetro, y cuándo compensa cambiarla.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: el coche rueda, pero gasta más, contamina más y puede dañar el catalizador</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Escape, inyección, catalizador, centralita</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>80–400 € por sonda, con mano de obra incluida</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro, llave de sondas, grasa para roscas de escape</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Qué es la sonda lambda y para qué sirve</h2><p>El nombre viene de la letra griega lambda, que en motores representa la relación entre el aire que entra y el aire ideal para quemar todo el combustible. Con lambda igual a 1, la mezcla es estequiométrica: unos 14,7 kg de aire por cada kg de gasolina. La sonda, instalada en el colector o en el tubo de escape, informa de si la mezcla se queda rica (falta oxígeno) o pobre (sobra oxígeno).</p><p>Con ese dato, la centralita corrige el tiempo de inyección unos cuantos milisegundos, varias veces por segundo. Es lo que se conoce como regulación en lazo cerrado. Sin ella, el catalizador no tiene la mezcla estable que necesita para eliminar los gases contaminantes.</p>\n<h2>Tipos de sonda lambda</h2><table class=\"cmp\"><thead><tr><th>Tipo</th><th>Cómo funciona</th><th>Dónde se encuentra</th><th>Señal típica</th></tr></thead><tbody><tr><td>Zirconia de banda estrecha</td><td>Genera tensión por la diferencia de oxígeno entre escape y aire</td><td>Coches de gasolina de hace años y sonda trasera</td><td>Oscila entre 0,1 y 0,9 V</td></tr><tr><td>Titania</td><td>Cambia su resistencia con el oxígeno</td><td>Poco habitual, algunos modelos concretos</td><td>Variable según el sistema</td></tr><tr><td>Banda ancha</td><td>Mide la proporción exacta de mezcla con una celda de bombeo</td><td>Sonda delantera de coches modernos y diésel</td><td>Corriente o tensión según el fabricante</td></tr></tbody></table><p>Por posición, hay sonda delantera, antes del catalizador, que regula la mezcla, y sonda trasera, después, que vigila al catalizador. Por número de cables, las hay de uno, dos, tres o cuatro; las de tres o cuatro llevan una resistencia calefactora que las pone a unos 300–400 °C en pocos segundos, para trabajar desde el arranque. Si necesitas saber cuál es la tuya, consulta el manual del fabricante.</p>\n<h2>Síntomas de una sonda lambda defectuosa</h2><ul><li>Testigo de motor encendido con códigos como P0130, P0133, P0136 o P0171.</li><li>Consumo de combustible más alto de lo normal, a veces de forma progresiva durante meses.</li><li>Ralentí inestable, tirones o motor que se cala en frío.</li><li>Pérdida de potencia y respuesta perezosa al acelerar.</li><li>Olor a gasolina o a huevos podridos en el escape.</li><li>Humo negro, señal de mezcla rica.</li><li>Fallo en la ITV por exceso de CO o hidrocarburos.</li></ul><p>Ningún síntoma es exclusivo de la sonda: una fuga de vacío o un caudalímetro sucio dan los mismos. Por eso se comprueba antes de cambiarla.</p>\n<h2>Causas habituales de avería</h2><ul><li>Envejecimiento: la cerámica se agota con los años y el kilometraje, y responde cada vez más lenta.</li><li>Contaminación por aceite que quema el motor, refrigerante de una junta de culata o siliconas inadecuadas.</li><li>Combustible con aditivos que dejan residuos en el elemento.</li><li>Cable roto o fundido junto al escape, o conector con humedad.</li><li>Calentador interno averiado, que da códigos como P0135 o P0141.</li><li>Fugas de escape antes de la sonda, que falsean la lectura.</li></ul>\n<h2>Cómo comprobar la sonda lambda paso a paso</h2><ol><li>Con el motor frío y el coche parado en un lugar ventilado, localiza la sonda y revisa el cable y el conector en busca de daños evidentes.</li><li>Conecta un escáner OBD2 y lee los códigos y los datos de congelación para saber qué sonda falla y en qué condiciones.</li><li>Calienta el motor hasta su temperatura normal de funcionamiento y observa en datos en vivo la tensión de la sonda delantera.</li><li>Una sonda de banda estrecha sana oscila de forma rápida entre unos 0,1 y 0,9 V, varias veces por segundo, al ralentí; la trasera varía despacio.</li><li>Acelera a fondo un instante: la tensión debe subir cerca de 0,8–0,9 V (mezcla rica) y caer por debajo de 0,2 V al soltar el pedal.</li><li>Con el contacto quitado y el conector desenchufado, mide con el multímetro la resistencia del calentador; los valores típicos son de pocos ohmios, según el manual del fabricante.</li><li>Comprueba con el contacto dado la alimentación del calentador y la masa en el conector del coche.</li><li>Revisa que el escape no tenga fugas antes de la sonda y que no haya fugas de vacío que provoquen mezcla pobre.</li><li>Si todo es correcto y la señal sigue lenta, fija o fuera de rango, sustituye la sonda y borra los códigos.</li></ol>\n<h2>Valores de referencia en el escáner</h2><table class=\"cmp\"><thead><tr><th>Lectura</th><th>Qué indica</th></tr></thead><tbody><tr><td>Oscila rápido entre 0,1 y 0,9 V</td><td>Sonda delantera sana y mezcla en lazo cerrado</td></tr><tr><td>Fija cerca de 0,45 V</td><td>Circuito abierto o sonda sin actividad</td></tr><tr><td>Fija por encima de 0,8 V</td><td>Mezcla rica o sonda contaminada</td></tr><tr><td>Fija por debajo de 0,2 V</td><td>Mezcla pobre, fuga de aire o sonda muerta</td></tr><tr><td>Oscilación muy lenta (menos de unos 8 ciclos en 10 s)</td><td>Sonda envejecida</td></tr></tbody></table>\n<h2>Cuándo cambiar la sonda lambda</h2><p>Los fabricantes no suelen fijar una vida útil, pero como orientación general, según el manual del fabricante, una sonda de banda estrecha se revisa tras los 100.000–160.000 km y una de banda ancha puede aguantar algo más. Cámbiala cuando las mediciones confirmen que responde con lentitud, cuando el calentador esté cortado o cuando haya contaminación visible en la punta.</p><p>No tiene sentido cambiarla solo por kilometraje si el consumo y las emisiones son correctos. Y no la cambies de manera preventiva sin saber cuál: en motores con varias sondas conviene sustituir la que falla, aunque una vida similar de las demás puede aconsejar revisarlas.</p>\n<h2>Cuánto cuesta cambiarla</h2><table class=\"cmp\"><thead><tr><th>Concepto</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Sonda de banda estrecha, recambio</td><td>30–120 €</td></tr><tr><td>Sonda de banda ancha, recambio</td><td>80–250 €</td></tr><tr><td>Mano de obra de sustitución</td><td>30–100 €</td></tr><tr><td>Reparación de cableado o conector</td><td>40–120 €</td></tr><tr><td>Diagnóstico con escáner</td><td>20–60 €</td></tr></tbody></table><p>Si la sonda está agarrotada, el taller puede cobrar más por la dificultad del desmontaje, así que pide un presupuesto cerrado.</p>\n<h2>Errores frecuentes y seguridad</h2><ul><li>Cambiar la sonda sin comprobar fugas de escape ni la mezcla: el síntoma reaparece.</li><li>Confundir la delantera con la trasera, o el banco 1 con el banco 2 en motores en V.</li><li>Limpiar la punta con disolvente o abrasivo, lo que destruye el elemento.</li><li>Engrasar la rosca con grasa común, que contamina la punta: usa solo grasa específica para sondas.</li><li>Trabajar con el escape caliente: espera a que esté templado para evitar quemaduras.</li><li>Elevar el coche solo con el gato: usa caballetes y calzos, y no te sitúes nunca bajo un vehículo sin apoyo seguro.</li><li>Respirar los gases de escape en un recinto cerrado: contienen monóxido de carbono, que es mortal.</li></ul>\n<h2>Preguntas relacionadas con el diagnóstico</h2><p>Si el testigo se apaga solo y vuelve, puede ser un fallo intermitente de cableado o un código pendiente. Y si la sonda es nueva y el código persiste, el problema suele estar en el cableado, en una fuga o en la centralita. Para repasar los datos en directo, consulta la guía de datos en vivo del sitio.</p>\n<!--ad-slot-2-->",
+  "schema_faq": [
+    {
+      "question": "¿Qué hace la sonda lambda?",
+      "answer": "Mide el oxígeno de los gases de escape para que la centralita ajuste la mezcla de aire y gasolina y el catalizador trabaje bien."
+    },
+    {
+      "question": "¿Cuántos kilómetros dura una sonda lambda?",
+      "answer": "Según el manual del fabricante, entre 100.000 y 160.000 km en una sonda de banda estrecha, aunque puede durar más o menos según el motor y el combustible."
+    },
+    {
+      "question": "¿Se puede conducir con la sonda lambda averiada?",
+      "answer": "Sí, durante un tiempo corto, porque la centralita usa un valor de emergencia. Pero el consumo sube y el catalizador sufre, así que conviene repararla pronto."
+    },
+    {
+      "question": "¿Se puede limpiar la sonda lambda?",
+      "answer": "No es recomendable. Los limpiadores no restauran una cerámica agotada y pueden dañarla. Lo habitual es sustituirla cuando falla."
+    },
+    {
+      "question": "¿Cómo sé si la sonda es la delantera o la trasera?",
+      "answer": "La delantera está antes del catalizador y regula la mezcla. La trasera está después y vigila la eficacia del catalizador. El código de avería indica cuál es."
+    },
+    {
+      "question": "¿Cuánto cuesta cambiar una sonda lambda?",
+      "answer": "Entre 80 y 400 € con mano de obra incluida, según sea de banda estrecha o ancha y lo accesible que esté."
+    },
+    {
+      "question": "¿Una sonda lambda mala puede dañar el catalizador?",
+      "answer": "Sí. Una mezcla demasiado rica enviada de forma continuada recalienta y obstruye el catalizador, lo que encarece mucho la reparación."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "llave para sondas lambda"
+  ],
+  "related": [
+    "p0130",
+    "p0133",
+    "p0136",
+    "p0420",
+    "p0171",
+    "guia-multimetro-sensores",
+    "guia-datos-en-vivo-obd2",
+    "guia-itv-emisiones"
+  ],
+  "datePublished": "2026-11-12",
+  "dateModified": "2026-11-12",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "featured_image": "/img/articulos/guia-guia-sonda-lambda.webp"
+}
