@@ -4,7 +4,7 @@ import { glob } from 'astro/loaders';
 const articulos = defineCollection({
   loader: glob({ pattern: '**/*.json', base: './src/content/articulos' }),
   schema: z.object({
-    type: z.enum(['codigo', 'testigo', 'guia', 'marca']),
+    type: z.enum(['codigo', 'testigo', 'guia', 'marca', 'blog']),
     name: z.string(),
     code: z.string().optional(),
     brand: z.string().optional(),

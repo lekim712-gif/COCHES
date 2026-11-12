@@ -1,0 +1,8 @@
+---
+import BlogList from '../../components/BlogList.astro';
+import { allArticles, byType } from '../../lib/articles';
+import { BLOG_PAGE_SIZE, blogSorted } from '../../lib/blog';
+const list = blogSorted(byType(await allArticles(), 'blog'));
+const pages = Math.max(1, Math.ceil(list.length / BLOG_PAGE_SIZE));
+---
+<BlogList items={list.slice(0, BLOG_PAGE_SIZE)} page={1} pages={pages} />

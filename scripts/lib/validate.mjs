@@ -1,5 +1,5 @@
 // Reglas de calidad de una ficha. Las usa tanto el validador del build como el generador automático.
-export const TYPES = ['codigo', 'testigo', 'guia', 'marca'];
+export const TYPES = ['codigo', 'testigo', 'guia', 'marca', 'blog'];
 const words = (html) => html.replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
 const count = (html, re) => (html.match(re) || []).length;
 export const SIM_WARN = 0.30, SIM_ERROR = 0.45;
@@ -20,10 +20,11 @@ export function validateArticle(a) {
 
   const h = a.content_html;
   if (count(h, /<h1[ >]/g) !== 1) e('debe haber exactamente un <h1>');
-  if (!/<table/.test(h)) e('falta la ficha técnica (<table>)');
-  if (!/<ol>/.test(h)) e('falta la guía paso a paso (<ol>)');
-  if (a.type !== 'guia' && !/<h2>Síntomas habituales/.test(h)) e('falta «Síntomas habituales»');
-  if (a.type !== 'guia' && !/<h2>Causas principales/.test(h)) e('falta «Causas principales»');
+  if (a.type !== 'blog' && !/<table/.test(h)) e('falta la ficha técnica (<table>)');
+  if (a.type !== 'blog' && !/<ol>/.test(h)) e('falta la guía paso a paso (<ol>)');
+  if (a.type === 'blog' && count(h, /<h2>/g) < 5) e('entrada de blog con menos de 5 secciones (<h2>)');
+  if (a.type !== 'guia' && a.type !== 'blog' && !/<h2>Síntomas habituales/.test(h)) e('falta «Síntomas habituales»');
+  if (a.type !== 'guia' && a.type !== 'blog' && !/<h2>Causas principales/.test(h)) e('falta «Causas principales»');
   if (!h.includes('<!--ad-slot-1-->') || !h.includes('<!--ad-slot-2-->')) e('faltan marcadores de anuncio');
   if (/<script|onerror=|javascript:/i.test(h)) e('HTML con script o atributo peligroso');
 
@@ -41,8 +42,8 @@ export function validateArticle(a) {
     if ((a.brand_specific_points ?? 0) < 3) e('página de marca sin al menos 3 particularidades propias: no se publica (contenido fino)');
     if (!/<h2>Particularidades/.test(h)) e('falta bloque «Particularidades»');
   }
-  if (a.type !== 'guia' && words(h) < 800) w(`ficha corta: ${words(h)} palabras (objetivo 850–1.300 con secciones propias)`);
-  if (a.type === 'guia' && words(h) < 800) w(`guía corta: ${words(h)} palabras (objetivo 900–1.500 con secciones propias)`);
+  if (a.type !== 'guia' && a.type !== 'blog' && words(h) < 800) w(`ficha corta: ${words(h)} palabras (objetivo 850–1.300 con secciones propias)`);
+  if ((a.type === 'guia' || a.type === 'blog') && words(h) < 800) w(`guía corta: ${words(h)} palabras (objetivo 900–1.500 con secciones propias)`);
   return { errors, warns };
 }
 

@@ -134,7 +134,7 @@ export function describe(a, key) {
     const baseFile = join(DIR, `codigo-${a.code.toLowerCase()}.json`);
     if (existsSync(baseFile)) nameForIcon = JSON.parse(readFileSync(baseFile, 'utf8')).name;
   }
-  const tags = { codigo: 'CÓDIGO OBD2', testigo: 'TESTIGO', guia: 'GUÍA', marca: 'POR MARCA' };
+  const tags = { codigo: 'CÓDIGO OBD2', testigo: 'TESTIGO', guia: 'GUÍA', blog: 'BLOG', marca: 'POR MARCA' };
   let big = '', title = a.name;
   if (a.type === 'codigo') big = a.code;
   else if (a.type === 'marca') { big = a.code; title = a.brand_name; }

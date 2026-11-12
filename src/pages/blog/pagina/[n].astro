@@ -1,0 +1,12 @@
+---
+import BlogList from '../../../components/BlogList.astro';
+import { allArticles, byType } from '../../../lib/articles';
+import { BLOG_PAGE_SIZE, blogSorted } from '../../../lib/blog';
+export async function getStaticPaths() {
+  const list = blogSorted(byType(await allArticles(), 'blog'));
+  const pages = Math.ceil(list.length / BLOG_PAGE_SIZE);
+  return Array.from({ length: Math.max(0, pages - 1) }, (_, i) => ({ params: { n: String(i + 2) }, props: { items: list.slice((i + 1) * BLOG_PAGE_SIZE, (i + 2) * BLOG_PAGE_SIZE), page: i + 2, pages } }));
+}
+const { items, page, pages } = Astro.props;
+---
+<BlogList items={items} page={page} pages={pages} />
