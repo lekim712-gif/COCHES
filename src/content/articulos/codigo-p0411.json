@@ -1,0 +1,55 @@
+{
+  "type": "codigo",
+  "code": "P0411",
+  "name": "Sistema de aire secundario: flujo incorrecto detectado",
+  "datePublished": "2026-11-13",
+  "dateModified": "2026-11-13",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0411: causas, síntomas y solución",
+    "meta_description": "Código P0411: la centralita detecta un flujo incorrecto en el sistema de aire secundario. Árbol de decisión, bomba, válvula, costes y preguntas frecuentes.",
+    "slug": "p0411"
+  },
+  "content_html": "<h1>Código P0411: Sistema de aire secundario: flujo incorrecto detectado</h1>\n<p class=\"intro\">El P0411 aparece cuando el sistema de aire secundario no inyecta en el escape el caudal que la centralita espera tras el arranque en frío. Falla la bomba, la válvula, un conducto o los orificios de la culata. Es una avería de emisiones, pero ignorarla puede acabar en una ITV desfavorable y, con el tiempo, en el deterioro del catalizador.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: el coche funciona con normalidad, pero aumentan las emisiones tras el arranque en frío</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Bomba de aire secundario, válvula combinada, electroválvula de vacío o de mando, relé y fusible, conductos, culata y sonda lambda</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>60–800 €, según sea un relé, una válvula, la bomba o la limpieza de los conductos de la culata</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con test de actuadores, multímetro, manómetro de vacío, esquema eléctrico, limpiador y juntas nuevas</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo del motor encendido, normalmente de forma fija y sin cambios aparentes en la conducción.</li><li>Ausencia del zumbido que la bomba emite durante los primeros 30 a 90 segundos tras un arranque en frío.</li></ul>\n<h2>Causas principales</h2><ul><li>Bomba de aire secundario averiada por desgaste, por agua en su interior o por escobillas gastadas.</li><li>Válvula combinada (aire y antirretorno) agarrotada por carbonilla, condensación o gases de escape que han vuelto por ella.</li><li>Relé o fusible de la bomba quemado, o conector con corrosión, que impide la alimentación.</li><li>Electroválvula de vacío o de mando bloqueada, con la manguera de vacío agrietada o desconectada.</li><li>Manguera o tubo del circuito de aire roto, con fuga o aplastado por el calor.</li><li>Sonda lambda lenta o con lectura errónea, que impide a la centralita comprobar el efecto del aire.</li></ul>\n<h2>Qué significa el código P0411 y cómo lo detecta la centralita</h2><p>En el arranque en frío la mezcla se enriquece, y el catalizador todavía no ha alcanzado su temperatura de funcionamiento. Para acortar ese periodo, el sistema de aire secundario sopla aire fresco en el colector de escape. Ese oxígeno extra quema los hidrocarburos y el monóxido de carbono, lo que calienta antes el catalizador y reduce las emisiones.</p><p>La centralita activa el sistema solo unos instantes y, mientras funciona, vigila la sonda lambda. Si el aire llega, la mezcla en el escape se vuelve pobre y la sonda lo refleja. Cuando ese cambio no aparece, o aparece más débil del que corresponde, el sistema interpreta que el flujo es incorrecto y guarda el P0411. Es decir, el aviso puede venir de la bomba, del paso de aire o de la propia lectura de la sonda.</p><h2>Datos en vivo y valores de referencia</h2><p>El escáner te permite ver si la bomba se pone en marcha y cómo reacciona la sonda. Los tiempos y valores varían según el fabricante, así que consulta el manual correspondiente.</p><ul><li>Estado de la bomba o de la válvula en el test de actuadores: debe oírse el zumbido de la bomba y notarse el aire en la salida.</li><li>Sonda lambda antes del catalizador mientras funciona el sistema: la tensión debería caer hacia valores de mezcla pobre.</li><li>Temperatura del refrigerante al activarse: el sistema suele trabajar solo con el motor frío y dentro de un margen estrecho de temperatura.</li><li>Tensión en el conector de la bomba durante la activación: cerca de la tensión de batería si el relé funciona.</li></ul><h2>Árbol de decisión de diagnóstico</h2><p>Hazlo con el motor frío, idealmente tras toda la noche parado, y con las manos lejos del escape, que quema.</p><ul><li>1. ¿La bomba se oye al activarla desde el escáner o al arrancar en frío? SI: pasa al punto 4. NO: pasa al punto 2.</li><li>2. ¿Hay tensión de batería en el conector de la bomba al activarla? SI: la bomba está averiada, sustitúyela. NO: pasa al punto 3.</li><li>3. ¿Funcionan fusible, relé y señal de mando de la centralita? SI: repara el cableado o el conector hasta que llegue la tensión. NO: cambia el fusible o el relé defectuoso y busca por qué se quemó.</li><li>4. ¿Sale aire por el conducto al soltar la manguera de la válvula combinada, con la bomba funcionando? SI: pasa al punto 5. NO: hay una obstrucción o una manguera aplastada; revisa el tubo y la bomba.</li><li>5. ¿La válvula combinada deja pasar el aire en un sentido y lo bloquea en el contrario? SI: pasa al punto 6. NO: sustituye la válvula, que suele estar pegada o con carbonilla.</li><li>6. ¿Los orificios de la culata están limpios y la sonda lambda responde con rapidez? SI: comprueba el mando de vacío y los datos de la sonda. NO: limpia los orificios o sustituye la sonda.</li></ul><h2>Cómo distinguir la causa</h2><table class=\"cmp\"><thead><tr><th>Prueba</th><th>Resultado</th><th>Causa probable</th></tr></thead><tbody><tr><td>Activación desde el escáner sin zumbido</td><td>La bomba no arranca</td><td>Bomba, relé, fusible o cableado</td></tr><tr><td>La bomba suena, pero no sale aire al final del tubo</td><td>Obstrucción tras la bomba</td><td>Manguera aplastada o válvula bloqueada</td></tr><tr><td>Sale aire también en sentido contrario</td><td>La válvula no sella</td><td>Válvula combinada desgastada o con carbonilla</td></tr><tr><td>Bomba y válvula correctas, sin efecto en la sonda</td><td>El aire no llega al escape</td><td>Orificios de la culata obstruidos</td></tr><tr><td>Todo funciona, pero el código persiste</td><td>Lectura discutible</td><td>Sonda lambda lenta o con datos erróneos</td></tr></tbody></table><h2>Ejemplo de diagnóstico típico</h2><p>Es un caso ilustrativo, creado para explicar el método; no es un vehículo real ni un testimonio. Imagina un gasolina que enciende el testigo en una mañana fría y no presenta síntomas de conducción. El escáner guarda el P0411 y, al arrancar en frío, no se oye el zumbido típico de la bomba durante los primeros segundos.</p><p>En el test de actuadores, la bomba no reacciona. Se mide la tensión en el conector: no llega nada. El fusible está intacto, pero el relé hace un clic sin cerrar el circuito, lo que apunta al propio relé. Se sustituye, el test de actuadores provoca el zumbido y la sonda lambda muestra mezcla pobre durante la activación. Se borra el código y no vuelve en los arranques siguientes.</p>\n<h2>Cómo diagnosticar el P0411 paso a paso</h2><ol><li>Deja enfriar el motor y localiza la bomba de aire secundario, la válvula combinada y las mangueras siguiendo el esquema del fabricante.</li><li>Haz una inspección visual: mangueras agrietadas, abrazaderas sueltas, restos de humedad en la bomba y conectores con corrosión.</li><li>Arranca en frío y escucha si la bomba funciona durante unos segundos; si no, activa el test de actuadores del escáner.</li><li>Mide la tensión en el conector de la bomba durante la activación y comprueba el fusible y el relé con el multímetro.</li><li>Desconecta el tubo de aire entre la bomba y la válvula, activa la bomba y comprueba que sale caudal; no acerques la cara ni los dedos.</li><li>Verifica la válvula combinada soplando con cuidado en ambos sentidos, sin forzar: debe dejar pasar el aire en un único sentido.</li><li>Sustituye la pieza defectuosa, borra el código y comprueba tras varios arranques en frío que no regresa; no lo hagas con el escape caliente.</li></ol>\n<h2>Cuánto cuesta repararlo</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Diagnosis con test de actuadores</td><td>40–90 €</td></tr><tr><td>Relé, fusible o conector</td><td>20–120 €</td></tr><tr><td>Válvula combinada de aire secundario</td><td>100–350 €</td></tr><tr><td>Bomba de aire secundario nueva</td><td>150–500 €</td></tr><tr><td>Limpieza de los orificios de la culata</td><td>200–500 €</td></tr></tbody></table><h2>Cuándo acudir al taller</h2><ul><li>Si hay que limpiar los orificios de la culata: requiere desmontaje y herramientas específicas.</li><li>Si el aire no llega a pesar de que la bomba y la válvula funcionan, y no dispones de analizador de gases.</li><li>Antes de pasar la ITV, si el aviso sigue activo y las emisiones se salen de los límites.</li></ul><h2>Códigos relacionados</h2><ul><li>P0420: eficiencia del catalizador por debajo del umbral en el banco 1.</li><li>P0430: eficiencia del catalizador por debajo del umbral en el banco 2.</li><li>P0441: flujo incorrecto de purga en el sistema EVAP.</li><li>P0130: fallo del circuito de la sonda lambda delantera del banco 1.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa el código P0411?",
+      "answer": "Que la centralita detecta un flujo incorrecto de aire en el sistema de aire secundario tras el arranque en frío."
+    },
+    {
+      "question": "¿Puedo circular con el P0411?",
+      "answer": "Sí, el motor funciona con normalidad, pero conviene repararlo para pasar la ITV y proteger el catalizador."
+    },
+    {
+      "question": "¿Cuándo funciona el sistema de aire secundario?",
+      "answer": "Solo tras el arranque en frío durante un tiempo breve, y a veces en pruebas de diagnóstico. Si el motor está caliente, permanece inactivo."
+    },
+    {
+      "question": "¿Cómo sé si la bomba está averiada?",
+      "answer": "Si no se oye el zumbido al arrancar en frío ni al activarla con el escáner y en el conector no llega tensión o llega y no gira, está dañada."
+    },
+    {
+      "question": "¿Por qué se estropea la válvula combinada?",
+      "answer": "Por la carbonilla y la humedad de los gases de escape, que se pegan al mecanismo antirretorno y lo dejan abierto o cerrado."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar el P0411?",
+      "answer": "Desde unos 60 € por un relé hasta unos 800 € si se suman bomba y válvula, según el manual y el modelo."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "limpiador de contactos eléctricos"
+  ],
+  "related": [
+    "p0420",
+    "p0430",
+    "p0441",
+    "p0130",
+    "guia-multimetro-sensores"
+  ],
+  "featured_image": "/img/articulos/codigo-p0411.webp"
+}

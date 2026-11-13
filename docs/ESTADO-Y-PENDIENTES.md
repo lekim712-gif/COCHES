@@ -158,3 +158,5 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - 12/11: sección Blog creada (/blog/, 21 entradas por página, en el menú, en sitemap) con 21 entradas iniciales de coches (comparativas, compra, costes, mantenimiento, seguridad). Tipo de contenido nuevo: blog (createBlog en scratchpad/deep/lib.mjs). 249 artículos.
 
 - Herramientas de redacción (create/enrich/rewrite/createBlog) guardadas en content-plan/authoring/lib.mjs con sus instrucciones (INSTRUCCIONES.md), para no perderlas si el contenedor se reinicia. Rutina: 3-4 fichas técnicas + 2 entradas de blog al día.
+
+- 13/11: +4 fichas (P0222, P0344, P0411, testigo alerta de fatiga) y +2 blog (autonomía coche eléctrico, ADAS); mejora en profundidad de U0121, P0135, P0238, P0322, P2279, P0089. 255 artículos.
