@@ -1,0 +1,61 @@
+{
+  "type": "blog",
+  "name": "Sistemas ADAS: qué hacen, sus límites y cuándo calibrarlos",
+  "datePublished": "2026-11-13",
+  "dateModified": "2026-11-13",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Sistemas ADAS del coche: funciones, límites y calibración",
+    "meta_description": "Qué son los ADAS: frenada de emergencia, carril, crucero adaptativo y ángulo muerto. Límites, falsos avisos y calibración tras cambiar el parabrisas.",
+    "slug": "sistemas-ayuda-conduccion-adas"
+  },
+  "content_html": "<h1>Sistemas ADAS: qué hacen, sus límites y cuándo calibrarlos</h1>\n<p class=\"intro\">Cámaras y radares vigilan la carretera por ti: frenan si no reaccionas, corrigen la trayectoria o te avisan de un coche en el ángulo muerto. Son una ayuda real, pero tienen límites y necesitan estar bien calibrados. Te explicamos qué hace cada sistema, por qué a veces da falsos avisos y qué pasa tras un golpe o un cambio de parabrisas.</p>\n<!--ad-slot-1-->\n<h2>Qué son los ADAS y cómo ven la carretera</h2><p>ADAS son las siglas en inglés de sistemas avanzados de ayuda a la conducción. Combinan sensores, una unidad de control y actuadores sobre el freno, la dirección o el acelerador. Ayudan al conductor, pero no lo sustituyen: la responsabilidad de la conducción sigue siendo tuya.</p><table class=\"cmp\"><thead><tr><th>Sensor</th><th>Dónde suele ir</th><th>Qué detecta bien</th><th>Qué le cuesta</th></tr></thead><tbody><tr><td>Cámara frontal</td><td>Tras el parabrisas, junto al retrovisor interior</td><td>Líneas del carril, señales, vehículos y peatones</td><td>Lluvia intensa, niebla, deslumbramiento y suciedad</td></tr><tr><td>Radar frontal</td><td>Detrás del emblema o del paragolpes</td><td>Distancia y velocidad de los vehículos delante</td><td>Nieve o barro acumulados, objetos pequeños o estáticos</td></tr><tr><td>Radares traseros o laterales</td><td>En las esquinas del paragolpes trasero</td><td>Vehículos en el ángulo muerto</td><td>Paragolpes golpeado o repintado, barro</td></tr><tr><td>Sensores ultrasónicos</td><td>En los paragolpes</td><td>Obstáculos a baja velocidad al aparcar</td><td>Suciedad y hielo</td></tr></tbody></table>\n<h2>Frenada automática de emergencia</h2><p>Este sistema detecta un riesgo de colisión con un vehículo, un peatón o un ciclista, según el modelo, y avisa al conductor. Si no reacciona, puede aplicar el freno por sí mismo para evitar el choque o reducir la gravedad del impacto. Para saber más, consulta nuestro testigo de frenada de emergencia.</p><ul><li>Funciona dentro de unos rangos de velocidad que fija cada fabricante.</li><li>Puede no detectar bien a un peatón de noche, con mal tiempo o en curvas cerradas.</li><li>No sustituye a la distancia de seguridad ni a la atención al tráfico.</li><li>Si detectas un fallo, el sistema puede desactivarse y mostrar un aviso en el cuadro.</li></ul><p>Es uno de los sistemas con más impacto en seguridad, pero precisamente por eso conviene no confiarse: es la última red, no la primera defensa.</p>\n<h2>Mantenimiento de carril y aviso de cambio de carril</h2><p>La cámara lee las líneas de la calzada. El aviso de salida de carril alerta con un sonido, una vibración en el volante o una luz. El mantenimiento de carril va más allá y aplica una pequeña corrección en la dirección. Tienes más detalle en el testigo de cambio de carril.</p><table class=\"cmp\"><thead><tr><th>Función</th><th>Qué hace</th><th>Limitación habitual</th></tr></thead><tbody><tr><td>Aviso de salida de carril</td><td>Avisa si cruzas la línea sin intermitente</td><td>Líneas borradas, obras o nieve</td></tr><tr><td>Mantenimiento de carril</td><td>Corrige suavemente la dirección</td><td>Exige manos en el volante; se desconecta si no detecta actividad</td></tr><tr><td>Centrado en el carril</td><td>Ayuda a mantener la posición central</td><td>Curvas cerradas y calzadas sin líneas claras</td></tr></tbody></table><p>Si el sistema te molesta en carreteras secundarias sin líneas claras, suele poder desactivarse desde el menú. Pero hazlo a conciencia: es una ayuda útil en tramos largos y con fatiga.</p>\n<h2>Control de crucero adaptativo</h2><p>A diferencia del crucero clásico, el adaptativo usa el radar para mantener una distancia con el vehículo de delante, frenando y acelerando de forma automática. Algunas versiones funcionan hasta detener el coche y volver a arrancar en retenciones. Si quieres repasar el funcionamiento básico, tienes la ficha del testigo de control de crucero.</p><ul><li>Elige una distancia de seguimiento adecuada; no es una orden, es una referencia.</li><li>En curvas, cambios de rasante o incorporaciones, el sistema puede reaccionar tarde.</li><li>Puede frenar si detecta un vehículo que cambia de carril delante de ti.</li><li>No sustituye al conductor: tú decides cuándo intervenir.</li></ul><blockquote class=\"tip\"><strong>Consejo:</strong> Antes de un viaje largo, limpia la zona del radar y comprueba que no haya barro, hielo o pegatinas delante de él. Un radar tapado desconecta el sistema.</blockquote>\n<h2>Detector de ángulo muerto</h2><p>Dos radares traseros vigilan las zonas que el retrovisor no cubre. Si hay un vehículo en ellas, se enciende un aviso en el retrovisor y, si pones el intermitente, puede sonar una alerta adicional. Consulta también el testigo de ángulo muerto.</p><p>Aviso no significa vía libre: una moto rápida que se acerca por detrás puede no haber sido detectada todavía. Mira siempre por encima del hombro antes de cambiar de carril.</p>\n<h2>Falsos avisos: por qué ocurren y qué hacer</h2><p>Los falsos avisos son normales de vez en cuando. Los sensores interpretan la escena con algoritmos y a veces confunden una situación inocente con un riesgo. También pueden dejar de funcionar de forma legítima, avisando de que no pueden ver.</p><table class=\"cmp\"><thead><tr><th>Situación</th><th>Posible causa</th><th>Qué hacer</th></tr></thead><tbody><tr><td>Frenazo sin motivo aparente</td><td>Sombra marcada, vehículo parado en curva o línea mal interpretada</td><td>Si se repite, revisa en taller cámara y calibración</td></tr><tr><td>Aviso de sensor bloqueado</td><td>Suciedad, nieve, hielo o lluvia intensa</td><td>Limpiar la zona del sensor y probar de nuevo</td></tr><tr><td>Corrección de dirección en obras</td><td>Líneas antiguas y nuevas superpuestas</td><td>Conducir tú y desactivar la función si es necesario</td></tr><tr><td>Avisos de ángulo muerto constantes</td><td>Barro, paragolpes golpeado o calibración alterada</td><td>Limpiar y, si persiste, revisión técnica</td></tr></tbody></table>\n<h2>Calibración tras cambiar el parabrisas o tras un golpe</h2><p>La cámara frontal está fijada al parabrisas y mide ángulos con mucha precisión. Una desviación mínima en su posición se traduce en errores a decenas de metros. Por eso, tras sustituir el parabrisas o recibir un golpe que afecte a la zona, suele ser necesario recalibrar el sistema, según el procedimiento del fabricante.</p><ul><li>Cambio de parabrisas: pide al taller que confirme si el vehículo requiere calibración de cámara.</li><li>Golpe en un paragolpes con radar: revisa la fijación y la calibración, aunque no se vea daño.</li><li>Alineado de dirección o cambio de suspensión: puede alterar los ejes de referencia de algunos sistemas.</li><li>Pintura sobre el emblema o paragolpes con radar: puede interferir; consulta al fabricante.</li></ul><p>La calibración puede ser estática, con paneles y dianas en un taller, o dinámica, con una conducción guiada en carretera. A veces se combinan ambas. Exige un justificante de que se ha realizado y que el equipo ha leído la unidad de control sin errores.</p><p>Los precios de calibración varían mucho según marca, modelo y tipo de procedimiento. Pide presupuesto detallado y desconfía de quien dice que no es necesaria sin consultar el manual.</p>\n<h2>Mantenimiento: cómo mantener los ADAS en buen estado</h2><ol><li>Mantén limpios el parabrisas, la zona de la cámara y el emblema o paragolpes con radar.</li><li>No pegues adhesivos, soportes ni parasoles en la zona de la cámara.</li><li>Usa parabrisas y escobillas adecuados; unas escobillas gastadas limpian mal y engañan a la cámara.</li><li>Conserva los neumáticos y la alineación en buen estado: el mantenimiento de carril lo agradece.</li><li>Lleva el coche al taller si aparece un testigo o un aviso del sistema.</li><li>Tras reparaciones de carrocería, pide que se compruebe el funcionamiento de los sensores.</li></ol><blockquote class=\"tip\"><strong>Consejo:</strong> Si cambias de neumáticos a una medida diferente a la homologada, avisa al taller: el diámetro de rodadura altera lecturas de velocidad que algunos sistemas utilizan.</blockquote>\n<h2>Qué hacer según tu caso</h2><table class=\"cmp\"><thead><tr><th>Tu caso</th><th>Qué te conviene hacer</th></tr></thead><tbody><tr><td>Cambio de parabrisas</td><td>Pedir recalibración de la cámara y justificante del resultado</td></tr><tr><td>Golpe leve en el paragolpes</td><td>Revisión de radares y calibración, aunque no haya daños visibles</td></tr><tr><td>Aviso de sensor bloqueado</td><td>Limpiar y probar; si persiste, taller</td></tr><tr><td>Falsos avisos repetidos</td><td>Revisar calibración y lectura de errores con un equipo adecuado</td></tr><tr><td>Coche de segunda mano</td><td>Comprobar que los sistemas funcionan y preguntar por reparaciones previas</td></tr></tbody></table><p>Los ADAS son un apoyo valioso, pero sólo si están en buen estado y calibrados. Conducir atento y mantenerlos limpios es lo que realmente marca la diferencia.</p>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa ADAS?",
+      "answer": "Son las siglas inglesas de sistemas avanzados de ayuda a la conducción. Agrupan funciones como la frenada automática de emergencia, el mantenimiento de carril o el control de crucero adaptativo."
+    },
+    {
+      "question": "¿Puedo desactivar los ADAS?",
+      "answer": "Muchos pueden desactivarse desde el menú del coche, aunque algunos se reactivan en cada arranque. Consulta el manual de tu vehículo y no desactives los de seguridad sin motivo."
+    },
+    {
+      "question": "¿Hace falta calibrar tras cambiar el parabrisas?",
+      "answer": "Si el coche lleva cámara frontal, normalmente sí. El procedimiento exacto lo marca el fabricante, así que pide al taller que lo confirme y que te dé un justificante."
+    },
+    {
+      "question": "¿Qué ocurre si tapo el radar con una matrícula o un adhesivo?",
+      "answer": "El sistema puede no funcionar bien o desconectarse. No coloques nada en la zona del radar o la cámara que no sea de origen o esté aprobado por el fabricante."
+    },
+    {
+      "question": "¿Por qué frena mi coche sin motivo aparente?",
+      "answer": "Puede deberse a una mala interpretación de la escena, sensores sucios o una calibración alterada. Si se repite, lleva el coche a revisar en un taller con el equipo de diagnóstico adecuado."
+    },
+    {
+      "question": "¿Los ADAS funcionan con lluvia o nieve?",
+      "answer": "Con peor visibilidad su rendimiento baja y pueden desconectarse temporalmente. El coche suele avisar cuando un sensor no puede ver con claridad."
+    },
+    {
+      "question": "¿Un golpe leve puede afectar a los sensores?",
+      "answer": "Sí. Un radar fijado al paragolpes puede desviarse unos grados sin que se vea daño. Conviene revisar y, si el fabricante lo exige, calibrar."
+    },
+    {
+      "question": "¿Los ADAS evitan todos los accidentes?",
+      "answer": "No. Son ayudas con límites claros y no sustituyen la atención del conductor ni la distancia de seguridad."
+    }
+  ],
+  "products": [
+    "limpiador de cristales de coche",
+    "escobillas limpiaparabrisas",
+    "paño de microfibra para coche"
+  ],
+  "related": [
+    "testigo-frenada-emergencia",
+    "testigo-cambio-carril",
+    "testigo-angulo-muerto",
+    "testigo-control-crucero"
+  ],
+  "featured_image": "/img/articulos/blog-sistemas-ayuda-conduccion-adas.webp"
+}
