@@ -160,3 +160,5 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - Herramientas de redacción (create/enrich/rewrite/createBlog) guardadas en content-plan/authoring/lib.mjs con sus instrucciones (INSTRUCCIONES.md), para no perderlas si el contenedor se reinicia. Rutina: 3-4 fichas técnicas + 2 entradas de blog al día.
 
 - 13/11: +4 fichas (P0222, P0344, P0411, testigo alerta de fatiga) y +2 blog (autonomía coche eléctrico, ADAS); mejora en profundidad de U0121, P0135, P0238, P0322, P2279, P0089. 255 artículos.
+
+- 14/11: +4 fichas (P0321, P0423, testigo tapón de combustible, guía cuándo cambiar amortiguadores) y +2 blog (vida útil de un coche, mantenimiento eléctrico vs combustión); mejora en profundidad de P0105, P0638, P0104, P0400, P0134 y guía coche se cala. 261 artículos.
