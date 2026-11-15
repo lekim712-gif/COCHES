@@ -162,3 +162,5 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - 13/11: +4 fichas (P0222, P0344, P0411, testigo alerta de fatiga) y +2 blog (autonomía coche eléctrico, ADAS); mejora en profundidad de U0121, P0135, P0238, P0322, P2279, P0089. 255 artículos.
 
 - 14/11: +4 fichas (P0321, P0423, testigo tapón de combustible, guía cuándo cambiar amortiguadores) y +2 blog (vida útil de un coche, mantenimiento eléctrico vs combustión); mejora en profundidad de P0105, P0638, P0104, P0400, P0134 y guía coche se cala. 261 artículos.
+
+- 15/11: +4 fichas (P0407, P0472, testigo alerta de hielo, guía presión correcta de neumáticos) y +2 blog (coche nuevo/seminuevo/km0, conducir con lluvia y niebla); mejora en profundidad de P0100, P0441, P0325, P0500, P0507, P0562. 267 artículos.
