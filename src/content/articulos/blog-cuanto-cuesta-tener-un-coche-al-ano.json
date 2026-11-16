@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Cuánto cuesta tener un coche al año: costes fijos, variables y plantilla",
   "datePublished": "2026-11-12",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "guia-neumaticos-desgastados",
     "guia-itv-emisiones"
   ],
-  "featured_image": "/img/articulos/blog-cuanto-cuesta-tener-un-coche-al-ano.webp"
+  "featured_image": "/img/articulos/blog-cuanto-cuesta-tener-un-coche-al-ano.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

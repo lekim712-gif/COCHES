@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Autonomía real de un coche eléctrico: qué la reduce y cómo ganar kilómetros",
   "datePublished": "2026-11-13",
-  "dateModified": "2026-11-13",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -57,5 +57,7 @@
     "guia-aire-acondicionado-no-enfria",
     "testigo-bateria"
   ],
-  "featured_image": "/img/articulos/blog-autonomia-coche-electrico-factores.webp"
+  "featured_image": "/img/articulos/blog-autonomia-coche-electrico-factores.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

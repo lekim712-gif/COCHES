@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Cómo comprar un coche de segunda mano sin que te engañen: checklist antes de pagar",
   "datePublished": "2026-11-12",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "guia-datos-en-vivo-obd2",
     "guia-itv-emisiones"
   ],
-  "featured_image": "/img/articulos/blog-comprar-coche-segunda-mano.webp"
+  "featured_image": "/img/articulos/blog-comprar-coche-segunda-mano.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

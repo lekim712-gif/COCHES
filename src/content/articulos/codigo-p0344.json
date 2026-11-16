@@ -3,7 +3,7 @@
   "code": "P0344",
   "name": "Sensor de posición del árbol de levas A: señal intermitente",
   "datePublished": "2026-11-13",
-  "dateModified": "2026-11-13",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -52,5 +52,7 @@
     "p0335",
     "guia-correa-distribucion"
   ],
-  "featured_image": "/img/articulos/codigo-p0344.webp"
+  "featured_image": "/img/articulos/codigo-p0344.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

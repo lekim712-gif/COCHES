@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Renting, leasing, financiación o compra al contado: qué te conviene",
   "datePublished": "2026-11-12",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "guia-como-usar-escaner-obd2",
     "guia-itv-emisiones"
   ],
-  "featured_image": "/img/articulos/blog-renting-leasing-o-compra.webp"
+  "featured_image": "/img/articulos/blog-renting-leasing-o-compra.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

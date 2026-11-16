@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Inyección directa o indirecta en gasolina: ventajas, carbonilla y mantenimiento",
   "datePublished": "2026-11-12",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "guia-cambio-bujias",
     "guia-consumo-excesivo-combustible"
   ],
-  "featured_image": "/img/articulos/blog-inyeccion-directa-o-indirecta.webp"
+  "featured_image": "/img/articulos/blog-inyeccion-directa-o-indirecta.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

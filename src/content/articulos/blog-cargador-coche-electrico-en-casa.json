@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Cargar un coche eléctrico en casa: enchufe, wallbox, potencias y seguridad",
   "datePublished": "2026-11-12",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "guia-bateria-se-descarga-sola",
     "guia-cambiar-bateria"
   ],
-  "featured_image": "/img/articulos/blog-cargador-coche-electrico-en-casa.webp"
+  "featured_image": "/img/articulos/blog-cargador-coche-electrico-en-casa.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

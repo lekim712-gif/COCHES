@@ -3,7 +3,7 @@
   "code": "P0222",
   "name": "Sensor de posición de mariposa/pedal B: señal baja",
   "datePublished": "2026-11-13",
-  "dateModified": "2026-11-13",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -52,5 +52,7 @@
     "guia-limpiar-mariposa",
     "guia-multimetro-sensores"
   ],
-  "featured_image": "/img/articulos/codigo-p0222.webp"
+  "featured_image": "/img/articulos/codigo-p0222.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Cómo ahorrar combustible conduciendo: 12 hábitos que funcionan",
   "datePublished": "2026-11-12",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "guia-cambio-filtro-aire",
     "guia-sonda-lambda"
   ],
-  "featured_image": "/img/articulos/blog-ahorrar-combustible-conduciendo.webp"
+  "featured_image": "/img/articulos/blog-ahorrar-combustible-conduciendo.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

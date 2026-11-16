@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Cambio manual o automático: tipos, ventajas, mantenimiento y averías",
   "datePublished": "2026-11-12",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "guia-cambio-aceite",
     "guia-mantenimiento-por-kilometros"
   ],
-  "featured_image": "/img/articulos/blog-cambio-manual-o-automatico.webp"
+  "featured_image": "/img/articulos/blog-cambio-manual-o-automatico.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

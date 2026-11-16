@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Aviso de tapón de combustible mal cerrado: qué significa y qué hacer",
   "datePublished": "2026-11-14",
-  "dateModified": "2026-11-14",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -55,5 +55,7 @@
     "p0442",
     "guia-olor-a-gasolina"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-tapon-combustible.webp"
+  "featured_image": "/img/articulos/testigo-testigo-tapon-combustible.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

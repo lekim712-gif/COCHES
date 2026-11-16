@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Cuánto dura un coche: qué decide su vida útil real",
   "datePublished": "2026-11-14",
-  "dateModified": "2026-11-14",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -57,5 +57,7 @@
     "guia-averias-habituales",
     "guia-coche-parado-mucho-tiempo"
   ],
-  "featured_image": "/img/articulos/blog-cuanto-dura-un-coche-vida-util.webp"
+  "featured_image": "/img/articulos/blog-cuanto-dura-un-coche-vida-util.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

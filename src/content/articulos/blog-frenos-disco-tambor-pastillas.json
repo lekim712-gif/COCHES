@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Frenos de disco y de tambor y tipos de pastillas: diferencias y cuándo cambiarlos",
   "datePublished": "2026-11-12",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -57,5 +57,7 @@
     "testigo-pastillas-freno",
     "guia-liquido-de-frenos"
   ],
-  "featured_image": "/img/articulos/blog-frenos-disco-tambor-pastillas.webp"
+  "featured_image": "/img/articulos/blog-frenos-disco-tambor-pastillas.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

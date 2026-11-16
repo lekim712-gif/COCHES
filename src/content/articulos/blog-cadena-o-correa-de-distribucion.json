@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Cadena o correa de distribución: diferencias, mitos y cuándo cambiarla",
   "datePublished": "2026-11-12",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "guia-ruido-correa-accesorios",
     "testigo-motor"
   ],
-  "featured_image": "/img/articulos/blog-cadena-o-correa-de-distribucion.webp"
+  "featured_image": "/img/articulos/blog-cadena-o-correa-de-distribucion.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

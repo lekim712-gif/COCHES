@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Coche nuevo, seminuevo o kilómetro 0: diferencias y cuál te compensa",
   "datePublished": "2026-11-15",
-  "dateModified": "2026-11-15",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "renting-leasing-o-compra",
     "seguro-terceros-ampliado-todo-riesgo"
   ],
-  "featured_image": "/img/articulos/blog-coche-nuevo-seminuevo-o-km0.webp"
+  "featured_image": "/img/articulos/blog-coche-nuevo-seminuevo-o-km0.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

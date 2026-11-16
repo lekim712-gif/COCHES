@@ -3,7 +3,7 @@
   "code": "P0411",
   "name": "Sistema de aire secundario: flujo incorrecto detectado",
   "datePublished": "2026-11-13",
-  "dateModified": "2026-11-13",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -51,5 +51,7 @@
     "p0130",
     "guia-multimetro-sensores"
   ],
-  "featured_image": "/img/articulos/codigo-p0411.webp"
+  "featured_image": "/img/articulos/codigo-p0411.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

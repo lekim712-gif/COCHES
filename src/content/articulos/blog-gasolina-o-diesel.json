@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Gasolina o diésel: cuál te conviene según tus kilómetros y tu uso",
   "datePublished": "2026-11-12",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "guia-consumo-excesivo-combustible",
     "guia-averias-habituales"
   ],
-  "featured_image": "/img/articulos/blog-gasolina-o-diesel.webp"
+  "featured_image": "/img/articulos/blog-gasolina-o-diesel.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

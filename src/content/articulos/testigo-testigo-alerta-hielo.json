@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Aviso de hielo en carretera: qué significa y qué hacer",
   "datePublished": "2026-11-15",
-  "dateModified": "2026-11-15",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -54,5 +54,7 @@
     "guia-anticongelante",
     "guia-kit-emergencia"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-alerta-hielo.webp"
+  "featured_image": "/img/articulos/testigo-testigo-alerta-hielo.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

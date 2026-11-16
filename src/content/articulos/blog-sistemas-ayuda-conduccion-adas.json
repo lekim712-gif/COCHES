@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Sistemas ADAS: qué hacen, sus límites y cuándo calibrarlos",
   "datePublished": "2026-11-13",
-  "dateModified": "2026-11-13",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -57,5 +57,7 @@
     "testigo-angulo-muerto",
     "testigo-control-crucero"
   ],
-  "featured_image": "/img/articulos/blog-sistemas-ayuda-conduccion-adas.webp"
+  "featured_image": "/img/articulos/blog-sistemas-ayuda-conduccion-adas.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

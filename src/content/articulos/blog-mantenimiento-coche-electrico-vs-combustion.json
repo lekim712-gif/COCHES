@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Mantenimiento de un coche eléctrico frente a uno de combustión",
   "datePublished": "2026-11-14",
-  "dateModified": "2026-11-14",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -57,5 +57,7 @@
     "guia-leer-un-neumatico",
     "guia-cambiar-bateria"
   ],
-  "featured_image": "/img/articulos/blog-mantenimiento-coche-electrico-vs-combustion.webp"
+  "featured_image": "/img/articulos/blog-mantenimiento-coche-electrico-vs-combustion.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

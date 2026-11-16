@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Qué hacer si el coche se avería o tienes un accidente en carretera",
   "datePublished": "2026-11-12",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -57,5 +57,7 @@
     "guia-arrancar-con-cables",
     "guia-coche-no-arranca"
   ],
-  "featured_image": "/img/articulos/blog-protocolo-averia-en-carretera.webp"
+  "featured_image": "/img/articulos/blog-protocolo-averia-en-carretera.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

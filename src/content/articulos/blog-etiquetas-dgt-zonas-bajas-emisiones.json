@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Etiquetas medioambientales de la DGT y zonas de bajas emisiones: qué esperar",
   "datePublished": "2026-11-12",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "testigo-filtro-particulas",
     "p0420"
   ],
-  "featured_image": "/img/articulos/blog-etiquetas-dgt-zonas-bajas-emisiones.webp"
+  "featured_image": "/img/articulos/blog-etiquetas-dgt-zonas-bajas-emisiones.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

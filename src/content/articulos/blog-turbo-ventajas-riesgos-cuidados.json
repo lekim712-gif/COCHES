@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "El turbo: cómo funciona, síntomas de fallo y cuidados para que dure",
   "datePublished": "2026-11-12",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "guia-coche-pierde-potencia",
     "guia-humo-del-escape"
   ],
-  "featured_image": "/img/articulos/blog-turbo-ventajas-riesgos-cuidados.webp"
+  "featured_image": "/img/articulos/blog-turbo-ventajas-riesgos-cuidados.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

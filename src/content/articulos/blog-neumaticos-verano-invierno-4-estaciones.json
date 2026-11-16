@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Neumáticos de verano, invierno y 4 estaciones: cuál elegir",
   "datePublished": "2026-11-12",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "testigo-presion-neumaticos",
     "guia-cambiar-una-rueda"
   ],
-  "featured_image": "/img/articulos/blog-neumaticos-verano-invierno-4-estaciones.webp"
+  "featured_image": "/img/articulos/blog-neumaticos-verano-invierno-4-estaciones.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

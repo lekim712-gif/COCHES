@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Aceite de motor sintético, semisintético y mineral: cuál elegir y cómo leerlo",
   "datePublished": "2026-11-12",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -57,5 +57,7 @@
     "testigo-nivel-aceite",
     "testigo-filtro-particulas"
   ],
-  "featured_image": "/img/articulos/blog-aceite-sintetico-semisintetico-mineral.webp"
+  "featured_image": "/img/articulos/blog-aceite-sintetico-semisintetico-mineral.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Conducir con lluvia, niebla y poca visibilidad: guía de seguridad",
   "datePublished": "2026-11-15",
-  "dateModified": "2026-11-15",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -57,5 +57,7 @@
     "neumaticos-verano-invierno-4-estaciones",
     "guia-luces-fundidas"
   ],
-  "featured_image": "/img/articulos/blog-conducir-con-lluvia-niebla-seguridad.webp"
+  "featured_image": "/img/articulos/blog-conducir-con-lluvia-niebla-seguridad.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

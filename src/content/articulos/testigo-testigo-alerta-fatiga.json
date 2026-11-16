@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Aviso de atención o fatiga del conductor: qué significa y qué hacer",
   "datePublished": "2026-11-13",
-  "dateModified": "2026-11-13",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -49,5 +49,7 @@
     "testigo-reconocimiento-senales",
     "testigo-direccion-asistida"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-alerta-fatiga.webp"
+  "featured_image": "/img/articulos/testigo-testigo-alerta-fatiga.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

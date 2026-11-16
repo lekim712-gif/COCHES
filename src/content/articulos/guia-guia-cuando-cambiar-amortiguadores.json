@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Cuándo cambiar los amortiguadores: síntomas, pruebas y coste",
   "datePublished": "2026-11-14",
-  "dateModified": "2026-11-14",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -58,5 +58,7 @@
     "guia-coche-tira-a-un-lado",
     "guia-vibraciones-volante"
   ],
-  "featured_image": "/img/articulos/guia-guia-cuando-cambiar-amortiguadores.webp"
+  "featured_image": "/img/articulos/guia-guia-cuando-cambiar-amortiguadores.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

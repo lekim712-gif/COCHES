@@ -3,7 +3,7 @@
   "code": "P0407",
   "name": "sensor de posición de la válvula EGR B: señal baja",
   "datePublished": "2026-11-15",
-  "dateModified": "2026-11-15",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -55,5 +55,7 @@
     "p2452",
     "guia-limpiar-valvula-egr"
   ],
-  "featured_image": "/img/articulos/codigo-p0407.webp"
+  "featured_image": "/img/articulos/codigo-p0407.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

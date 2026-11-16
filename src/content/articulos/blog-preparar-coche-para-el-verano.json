@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Cómo preparar el coche para el verano y evitar averías por calor",
   "datePublished": "2026-11-12",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -57,5 +57,7 @@
     "guia-motor-recalentado",
     "guia-comprobar-nivel-refrigerante"
   ],
-  "featured_image": "/img/articulos/blog-preparar-coche-para-el-verano.webp"
+  "featured_image": "/img/articulos/blog-preparar-coche-para-el-verano.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

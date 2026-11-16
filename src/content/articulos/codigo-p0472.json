@@ -3,7 +3,7 @@
   "code": "P0472",
   "name": "sensor de presión de gases de escape: señal baja",
   "datePublished": "2026-11-15",
-  "dateModified": "2026-11-15",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -55,5 +55,7 @@
     "guia-tirones-diesel",
     "guia-humo-del-escape"
   ],
-  "featured_image": "/img/articulos/codigo-p0472.webp"
+  "featured_image": "/img/articulos/codigo-p0472.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }

@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Cómo entender la ficha técnica de un coche: potencia, par, consumo y más",
   "datePublished": "2026-11-12",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-16",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "guia-datos-en-vivo-obd2",
     "guia-mantenimiento-por-kilometros"
   ],
-  "featured_image": "/img/articulos/blog-ficha-tecnica-potencia-par-consumo.webp"
+  "featured_image": "/img/articulos/blog-ficha-tecnica-potencia-par-consumo.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-16"
 }
