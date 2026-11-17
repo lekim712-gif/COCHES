@@ -166,3 +166,5 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - 15/11: +4 fichas (P0407, P0472, testigo alerta de hielo, guía presión correcta de neumáticos) y +2 blog (coche nuevo/seminuevo/km0, conducir con lluvia y niebla); mejora en profundidad de P0100, P0441, P0325, P0500, P0507, P0562. 267 artículos.
 
 - 16/11: +4 fichas (P0117, P0118, P0480, guía sensor de temperatura del refrigerante) y +2 blog (diésel en ciudad y trayectos cortos, accesorios útiles); mejora en profundidad de P0128, testigos presión de neumáticos y freno, P0193, P0183, guía batería se descarga sola. 273 artículos.
+
+- 17/11: +4 fichas (P0098, P2138, P0202, guía líquido de dirección asistida) y +2 blog (luces del coche, cómo elegir taller y entender un presupuesto); mejora en profundidad de P0230, P0121, P0116, testigos AdBlue y temperatura refrigerante, guía cambio de bujías. 279 artículos.
