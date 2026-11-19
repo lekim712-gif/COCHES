@@ -1,0 +1,59 @@
+{
+  "type": "codigo",
+  "code": "P0351",
+  "name": "Circuito primario/secundario de la bobina de encendido A",
+  "datePublished": "2026-11-19",
+  "dateModified": "2026-11-19",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0351: causas, síntomas y solución",
+    "meta_description": "Código P0351: fallo en el circuito primario o secundario de la bobina de encendido A, normalmente el cilindro 1. Diferencias con P0301, pruebas y costes.",
+    "slug": "p0351"
+  },
+  "content_html": "<h1>Código P0351: Circuito primario/secundario de la bobina de encendido A</h1>\n<p class=\"intro\">El código P0351 avisa de un fallo en el circuito primario o secundario de la bobina de encendido A, que en la mayoría de motores alimenta el cilindro 1. Es un diagnóstico eléctrico del propio circuito, no un fallo de combustión detectado por el giro del motor. Conviene entender esa diferencia para no sustituir bujías cuando la bobina o su cableado son la causa.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: el cilindro afectado puede no encender y dañar el catalizador</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Bobina de encendido, módulo de potencia, cableado y conector, bujía, centralita</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>35–260 € según sea bujía, bobina o cableado</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, multímetro, llave de bujías, lámpara de pruebas o analizador de encendido</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido; parpadea si además hay fallos de encendido.</li><li>Tirones y vibraciones notables, sobre todo al acelerar.</li><li>Ralentí irregular y arranques más largos.</li><li>Pérdida de potencia y respuesta fea a medio régimen.</li><li>Olor a gasolina sin quemar por el escape y consumo superior.</li><li>Fallos que aumentan con humedad o con el motor muy caliente.</li></ul>\n<h2>Causas principales</h2><ul><li>Bobina A con el devanado primario o secundario defectuoso.</li><li>Módulo de encendido integrado en la bobina que no genera el pulso de salida.</li><li>Conector de la bobina flojo, con humedad o terminales oxidados.</li><li>Cable de mando roto o rozado entre la bobina y la centralita.</li><li>Bujía del cilindro 1 desgastada o con holgura excesiva, que obliga a la bobina a esforzarse.</li><li>Alimentación o masa defectuosa en el circuito de encendido.</li></ul>\n<h2>P0351 no es un fallo de encendido detectado: es un circuito vigilado</h2><p>Hay dos formas distintas de que la centralita se entere de un problema de encendido. La primera es mirar la velocidad del cigüeñal: si un cilindro no aporta su empuje, la rueda fónica se acelera menos en ese tiempo y se anota un fallo de combustión, como P0301. La segunda es vigilar el circuito eléctrico de la bobina: tensión, corriente o señal de confirmación. Si no cuadra, se anota un código de circuito, como P0351.</p><p>Por eso P0351 puede aparecer sin que el motor tosa de forma evidente, y P0301 puede aparecer con el circuito en perfecto estado. En motores de bobina individual, la letra A corresponde a la primera bobina, habitualmente la del cilindro 1, aunque el orden real lo da el manual del vehículo.</p><h2>Diferencias entre P0351, P0301 y P0305</h2><table class=\"cmp\"><thead><tr><th>Código</th><th>Qué detecta</th><th>Cómo lo detecta</th><th>Primer sitio para mirar</th></tr></thead><tbody><tr><td>P0351</td><td>Circuito de la bobina A, primario o secundario</td><td>Vigilancia eléctrica del circuito</td><td>Conector, cableado y bobina</td></tr><tr><td>P0301</td><td>Fallo de encendido en el cilindro 1</td><td>Irregularidad de giro del cigüeñal</td><td>Bujía, bobina, inyector y compresión</td></tr><tr><td>P0305</td><td>Fallo de encendido en el cilindro 5</td><td>Igual que P0301, pero en otro cilindro</td><td>Los mismos elementos del cilindro 5</td></tr><tr><td>P0352</td><td>Circuito de la bobina B</td><td>Vigilancia eléctrica</td><td>Bobina del segundo cilindro</td></tr></tbody></table><p>Si P0351 y P0301 aparecen juntos, el problema eléctrico está causando el fallo de encendido: se arregla la bobina o su circuito y los dos desaparecen. Si aparece P0301 sin P0351, el origen más probable es mecánico o de otros sistemas.</p><h2>Datos en vivo y valores de referencia</h2><table class=\"cmp\"><thead><tr><th>Dato</th><th>Comportamiento normal</th><th>Pista con P0351</th></tr></thead><tbody><tr><td>Contadores de fallos por cilindro</td><td>Cero o casi cero, según el manual del fabricante</td><td>Contador del cilindro 1 elevado</td></tr><tr><td>Resistencia del primario de la bobina</td><td>Dentro del rango del manual</td><td>Fuera de rango o abierta</td></tr><tr><td>Señal de mando de la bobina</td><td>Pulsos regulares con el motor arrancando</td><td>Sin pulsos o irregular</td></tr><tr><td>Tensión de alimentación en el conector</td><td>Presente con el contacto puesto</td><td>Baja o ausente</td></tr></tbody></table><h2>Árbol de decisión de diagnóstico</h2><table class=\"cmp\"><thead><tr><th>Paso</th><th>Pregunta</th><th>SÍ</th><th>NO</th></tr></thead><tbody><tr><td>1</td><td>¿El conector de la bobina A está limpio, seco y bien encajado?</td><td>Pasa al paso 2</td><td>Límpialo y repara el terminal antes de seguir</td></tr><tr><td>2</td><td>¿Al cambiar la bobina A con la de otro cilindro, el código cambia de cilindro?</td><td>La bobina es la causa: sustitúyela</td><td>Pasa al paso 3</td></tr><tr><td>3</td><td>¿Llegan alimentación, masa y señal de mando al conector?</td><td>Pasa al paso 4</td><td>Revisa fusible, relé y continuidad del cableado</td></tr><tr><td>4</td><td>¿La bujía del cilindro 1 está en buen estado y con la holgura del manual?</td><td>Pasa al paso 5</td><td>Cámbiala con la referencia correcta</td></tr><tr><td>5</td><td>¿Persiste el fallo con bobina, bujía y cableado correctos?</td><td>Consulta al taller por el módulo o la centralita</td><td>Borra el código y vigila su reaparición</td></tr></tbody></table><h2>Ejemplo de diagnóstico típico</h2><p>Ejemplo ilustrativo, no un caso real ni con mediciones reales. Un coche muestra el testigo de motor y tirones tras un día de lluvia. El escáner da P0351. Al desmontar la bobina A se ve humedad en el conector. Se seca, se limpia y se comprueba la resistencia, que entra en el rango del manual. Sigue habiendo tirones, así que se intercambia la bobina con la del cilindro 2: el código pasa a la del otro cilindro, lo que señala a la bobina como defectuosa. Se sustituye y se cambia también la bujía del cilindro, que estaba muy gastada.</p><h2>Precauciones de seguridad con la alta tensión</h2><ul><li>El encendido genera decenas de miles de voltios: no toques bobinas, cables ni bujías con el motor en marcha.</li><li>Las personas con marcapasos u otros dispositivos médicos no deben acercarse al sistema de encendido activo.</li><li>Para comprobar chispa, usa un comprobador adecuado y nunca saques una chispa a mano o con un destornillador.</li><li>Desconecta la batería antes de desmontar la bobina y trabaja con el motor frío.</li><li>No arranques el motor con una bobina desconectada: puede dañar el módulo o el catalizador.</li></ul>\n<h2>Cómo diagnosticar P0351 paso a paso</h2><ol><li>Lee todos los códigos; anota si también está P0301 o algún P035x de otras bobinas.</li><li>Con el motor frío y la batería desconectada, localiza la bobina A según el manual.</li><li>Desconecta el conector, revisa terminales y límpialos con limpiador de contactos.</li><li>Extrae la bobina y mira si presenta grietas, quemaduras o restos de aceite.</li><li>Mide la resistencia del primario y compara con el manual del fabricante.</li><li>Comprueba alimentación, masa y señal de mando con el multímetro o la lámpara de pruebas.</li><li>Intercambia la bobina con la de otro cilindro y observa si el código se desplaza.</li><li>Revisa la bujía del cilindro 1: desgaste, holgura y depósitos.</li><li>Monta, borra los códigos y haz una prueba de carretera con carga.</li></ol>\n<h2>Cuánto cuesta solucionar P0351</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Rango orientativo</th><th>Comentario</th></tr></thead><tbody><tr><td>Limpieza de conector</td><td>25–60 €</td><td>Si el origen es humedad o suciedad</td></tr><tr><td>Bujía del cilindro 1</td><td>25–80 €</td><td>Cambiar el juego completo mejora la fiabilidad</td></tr><tr><td>Bobina individual</td><td>60–220 €</td><td>Con mano de obra; depende de la marca</td></tr><tr><td>Reparación de cableado</td><td>60–200 €</td><td>Según accesibilidad</td></tr><tr><td>Módulo de encendido o centralita</td><td>250–900 €</td><td>Solo tras descartar todo lo anterior</td></tr></tbody></table><p>Cifras orientativas, sujetas a la tarifa del taller y al modelo.</p><h2>Errores frecuentes</h2><ul><li>Cambiar bujías sin comprobar la bobina cuando el código habla de circuito.</li><li>Sustituir todas las bobinas sin hacer la prueba de intercambio, mucho más barata.</li><li>Usar bobinas de referencia incorrecta o de calidad dudosa que fallan en pocos kilómetros.</li><li>Seguir conduciendo con el testigo parpadeante, que puede estropear el catalizador.</li><li>Limpiar el conector con agua o disolventes agresivos.</li></ul><h2>Cuándo acudir al taller</h2><p>Si el testigo parpadea, el motor vibra con fuerza o el código persiste con bobina, bujía y cableado correctos, acude al taller. Un fallo de encendido continuado envía combustible sin quemar al catalizador, y esa reparación es mucho más cara.</p><h2>Códigos relacionados</h2><p>P0301 y P0305 son fallos de encendido de los cilindros 1 y 5; P0352 es el circuito de la bobina B; P0300 es el fallo de encendido aleatorio.</p>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa el código P0351?",
+      "answer": "Que la centralita detecta un problema en el circuito primario o secundario de la bobina de encendido A, normalmente la del cilindro 1."
+    },
+    {
+      "question": "¿En qué se diferencia de P0301?",
+      "answer": "P0301 detecta que el cilindro 1 no quema bien por la irregularidad del giro del cigüeñal; P0351 vigila el circuito eléctrico de la bobina."
+    },
+    {
+      "question": "¿Puedo conducir con P0351?",
+      "answer": "Para llegar a un taller cercano, con cuidado. Si el testigo parpadea, detén el coche, porque el catalizador puede dañarse."
+    },
+    {
+      "question": "¿Cómo sé si es la bobina o el cableado?",
+      "answer": "Intercambia la bobina con la de otro cilindro: si el código se desplaza, es la bobina; si no, mira conector y cableado."
+    },
+    {
+      "question": "¿Debo cambiar las bujías también?",
+      "answer": "Es recomendable si tienen kilometraje alto, porque una bujía gastada fuerza la bobina y acorta su vida."
+    },
+    {
+      "question": "¿Es peligroso manipular el encendido?",
+      "answer": "Sí, genera alta tensión. Trabaja con el motor parado, frío y la batería desconectada."
+    },
+    {
+      "question": "¿Cuánto cuesta repararlo?",
+      "answer": "Desde unas decenas de euros si es el conector hasta unos 220 € si hay que cambiar la bobina, según modelo."
+    }
+  ],
+  "products": [
+    "juego de llaves de bujías",
+    "multímetro digital automotriz",
+    "limpiador de contactos eléctricos"
+  ],
+  "related": [
+    "p0301",
+    "p0305",
+    "p0352",
+    "p0300",
+    "guia-cambio-bujias"
+  ],
+  "featured_image": "/img/articulos/codigo-p0351.webp"
+}

@@ -170,3 +170,5 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - 17/11: +4 fichas (P0098, P2138, P0202, guía líquido de dirección asistida) y +2 blog (luces del coche, cómo elegir taller y entender un presupuesto); mejora en profundidad de P0230, P0121, P0116, testigos AdBlue y temperatura refrigerante, guía cambio de bujías. 279 artículos.
 
 - 18/11: +4 fichas (P0112, P0125, P0446, guía tipos y colores de refrigerante) y +2 blog (vender tu coche, lavar y proteger la pintura); mejora en profundidad de P0131, P0170, P0234, P0120, P0421 y guía tirones al acelerar. 285 artículos.
+
+- 19/11: +4 fichas (P0010, P0014, P0351, guía distribución variable VVT) y +2 blog (AdBlue, primer coche para conductor novel); mejora en profundidad de P0133, P0190, P0505, P0141, testigo ABS y guía ITV y emisiones. 291 artículos.

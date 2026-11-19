@@ -1,0 +1,58 @@
+{
+  "type": "codigo",
+  "code": "P0014",
+  "name": "Árbol de levas B, avance excesivo o rendimiento del sistema, banco 1",
+  "datePublished": "2026-11-19",
+  "dateModified": "2026-11-19",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0014: causas, síntomas y solución",
+    "meta_description": "Código P0014: árbol de levas B del banco 1 demasiado avanzado o con respuesta insuficiente. Qué es el B según el fabricante, aceite, VVT, pruebas y costes.",
+    "slug": "p0014"
+  },
+  "content_html": "<h1>Código P0014: Árbol de levas B, avance excesivo o rendimiento del sistema, banco 1</h1>\n<p class=\"intro\">El código P0014 señala que el árbol de levas B del banco 1 está más adelantado de lo ordenado o que el sistema no responde con el rendimiento esperado. Según el estándar, B designa el árbol de escape, pero algunos fabricantes usan otra nomenclatura. Se trabaja sobre el variador, la electroválvula y el aceite del lado de escape.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: ralentí irregular y más emisiones; riesgo de desgaste si la causa es el aceite</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Variador del árbol de escape, electroválvula OCV, aceite y su filtro, cadena de distribución, sensores de levas</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>45–1.400 € según sea aceite, electroválvula o variador</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con control de actuadores, multímetro, aceite correcto, manual de taller</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido de forma fija.</li><li>Ralentí inestable, con vibraciones al detenerse en un semáforo.</li><li>Mayor sensibilidad a calarse con el motor caliente.</li><li>Pérdida de respuesta a medio régimen y consumo algo superior.</li><li>Olor a gasolina sin quemar o emisiones elevadas en la ITV.</li><li>Ruido metálico breve en el arranque en frío cuando el aceite aún no ha llegado.</li></ul>\n<h2>Causas principales</h2><ul><li>Aceite degradado, de viscosidad incorrecta o con nivel bajo, que retrasa la respuesta del variador.</li><li>Malla de la electroválvula de escape obstruida por lodos.</li><li>Electroválvula del VVT de escape atascada o con el muelle debilitado.</li><li>Variador del árbol de escape con holgura interna o fugas de presión.</li><li>Cadena de distribución estirada que altera la correlación entre cigüeñal y árbol.</li><li>Sensor de posición del árbol de levas de escape con lectura incorrecta.</li></ul>\n<h2>Qué significa la letra B y cómo se interpreta P0014</h2><p>El estándar de códigos define A y B como los dos árboles de levas de un mismo banco: A para admisión y B para escape. Así, P0014 se refiere al árbol de escape del banco 1. Sin embargo, no todos los fabricantes siguen esa convención: algunos numeran los árboles según su posición o según el cilindro que les corresponde. Antes de comprar piezas, consulta en el manual del vehículo cuál es físicamente el árbol B.</p><p>La palabra clave del código es avance. La centralita compara la posición real del árbol con la deseada y, si encuentra que el árbol está más avanzado que la orden o que no alcanza la orden en el tiempo previsto, anota P0014. Es el equivalente en el lado de escape de lo que P0011 expresa en el lado de admisión.</p><h2>P0014 frente a P0010, P0011 y P0016</h2><table class=\"cmp\"><thead><tr><th>Código</th><th>Qué indica</th><th>Cómo se distingue en la práctica</th></tr></thead><tbody><tr><td>P0014</td><td>Árbol B demasiado avanzado o sin buen rendimiento</td><td>Sube con aceite sucio o válvula de escape atascada</td></tr><tr><td>P0011</td><td>Árbol A demasiado avanzado</td><td>Mismo tipo de fallo, pero en el árbol de admisión</td></tr><tr><td>P0010</td><td>Circuito eléctrico del actuador del árbol A</td><td>Se resuelve con conector y bobina, no con aceite</td></tr><tr><td>P0016</td><td>Posiciones del cigüeñal y del árbol A no coinciden</td><td>Apunta a la cadena o a la fase de la distribución</td></tr></tbody></table><p>Si P0014 aparece junto a P0011, la causa común es casi siempre aceite o presión de aceite. Si aparece solo, centra la atención en el lado de escape.</p><h2>Datos en vivo y valores de referencia</h2><table class=\"cmp\"><thead><tr><th>Dato</th><th>Comportamiento normal</th><th>Lectura con P0014</th></tr></thead><tbody><tr><td>Ángulo del árbol de escape pedido frente a real</td><td>Coinciden con retraso pequeño, según el manual</td><td>El real queda por delante o se mueve con lentitud</td></tr><tr><td>Presión de aceite al ralentí caliente</td><td>Dentro de lo que marca el manual del fabricante</td><td>Baja o muy variable</td></tr><tr><td>Duty de mando de la válvula de escape</td><td>Se modifica con el régimen</td><td>Valor alto sin que el árbol responda</td></tr><tr><td>Correlación cigüeñal y levas</td><td>Estable</td><td>Pequeñas desviaciones que aumentan con el régimen</td></tr></tbody></table><h2>Árbol de decisión de diagnóstico</h2><table class=\"cmp\"><thead><tr><th>Paso</th><th>Pregunta</th><th>SÍ</th><th>NO</th></tr></thead><tbody><tr><td>1</td><td>¿El nivel y el estado del aceite son correctos y el aceite es el homologado?</td><td>Pasa al paso 2</td><td>Corrige nivel, cambia aceite y filtro y repite la prueba</td></tr><tr><td>2</td><td>¿Se sabe cuál es el árbol B según el manual de este coche?</td><td>Pasa al paso 3</td><td>Confírmalo antes de intervenir en ninguna pieza</td></tr><tr><td>3</td><td>¿La válvula del árbol B responde al control de actuadores?</td><td>Pasa al paso 4</td><td>Retira y limpia la válvula y su malla; si no mejora, sustitúyela</td></tr><tr><td>4</td><td>¿La correlación cigüeñal-levas es correcta y la cadena sin holgura?</td><td>Pasa al paso 5</td><td>Revisa cadena, tensor y guías en el taller</td></tr><tr><td>5</td><td>¿El código vuelve con aceite, válvula y cadena correctos?</td><td>Sospecha del variador del árbol de escape</td><td>Prueba finalizada: vigila su reaparición</td></tr></tbody></table><h2>Ejemplo de diagnóstico típico</h2><p>Ejemplo ilustrativo, no un caso real ni con cifras medidas. Un motor con el aceite pasado de kilometraje muestra P0014 con el motor caliente y ralentí irregular. El escáner indica que el ángulo real del árbol de escape se queda por delante del pedido. Se cambia el aceite y el filtro por el homologado, se limpia la malla de la electroválvula, que tiene lodo, y se vuelve a montar. Tras varios arranques, el ángulo real sigue al pedido y el código no reaparece. En este supuesto no había ninguna pieza rota: era mantenimiento acumulado.</p><h2>Precauciones de seguridad</h2><ul><li>Con el motor caliente, el aceite y la culata pueden causar quemaduras: espera a que se enfríen.</li><li>Eleva el coche solo con caballetes adecuados si necesitas acceder por abajo; nunca con el gato solo.</li><li>Recoge el aceite usado en un recipiente y llévalo a un punto limpio.</li><li>No gires el motor a mano ni lo arranques con la válvula retirada: puede salir aceite a presión.</li></ul>\n<h2>Cómo diagnosticar P0014 paso a paso</h2><ol><li>Lee los códigos y los datos congelados; apunta el régimen, la temperatura y la carga cuando se guardó.</li><li>Comprueba el nivel con el motor parado y en llano, y mira el estado del aceite en la varilla.</li><li>Identifica el árbol B en el manual y localiza su electroválvula.</li><li>Con el escáner, activa la válvula de escape y observa si el ángulo real responde.</li><li>Retira la válvula, inspecciona la malla y límpiala con cuidado sin dañar las juntas.</li><li>Mide su resistencia y compárala con el valor del manual para descartar la parte eléctrica.</li><li>Cambia aceite y filtro por los homologados si el servicio está vencido.</li><li>Verifica la correlación cigüeñal-levas y busca holgura o ruido de cadena.</li><li>Borra los códigos y haz una prueba de carretera con aceleraciones progresivas.</li></ol>\n<h2>Cuánto cuesta solucionar P0014</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Rango orientativo</th><th>Comentario</th></tr></thead><tbody><tr><td>Cambio de aceite y filtro</td><td>60–150 €</td><td>Primera medida barata y a menudo suficiente</td></tr><tr><td>Limpieza de la válvula y su malla</td><td>50–140 €</td><td>Incluye desmontaje y montaje</td></tr><tr><td>Electroválvula del árbol de escape nueva</td><td>110–400 €</td><td>Con mano de obra, según modelo</td></tr><tr><td>Variador del árbol de escape</td><td>400–1.400 €</td><td>Suele ir con juntas y a veces con cadena</td></tr><tr><td>Cadena de distribución con tensor y guías</td><td>600–1.500 €</td><td>Solo si hay correlación desviada</td></tr></tbody></table><p>Son cifras orientativas. Pide siempre presupuesto desglosado y compara con el manual del fabricante.</p><h2>Errores frecuentes</h2><ul><li>Dar por hecho que B es el árbol de admisión y actuar sobre el árbol equivocado.</li><li>Cambiar el variador, que es lo más caro, sin haber probado antes el aceite y la válvula.</li><li>Usar aceite de viscosidad inadecuada porque era el que había a mano.</li><li>Ignorar un P0014 que se repite y esperar a que aparezca un ruido de cadena.</li><li>Limpiar la malla con aire a presión sin protección, con riesgo de proyectar partículas.</li></ul><h2>Cuándo acudir al taller</h2><p>Si tras cambiar el aceite y limpiar la válvula el código vuelve, o si hay ruido de cadena, pérdida de presión de aceite o varios códigos de fase, lleva el coche al taller. Una cadena con holgura puede provocar daños graves si se salta un diente.</p><h2>Códigos relacionados</h2><p>P0010, P0011 y P0016 comparten sistema y se explican en sus fichas. P0341 y P0340 se consultan cuando se sospecha del sensor del árbol de levas.</p>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa el código P0014?",
+      "answer": "Que el árbol de levas B del banco 1 está más adelantado de lo ordenado o que el sistema de reglaje variable no rinde como debería."
+    },
+    {
+      "question": "¿Qué es el árbol B?",
+      "answer": "Según el estándar, el árbol de escape, y A es el de admisión. Algunos fabricantes usan otra nomenclatura, por lo que hay que confirmarlo en el manual."
+    },
+    {
+      "question": "¿Cuál es la diferencia con P0011?",
+      "answer": "Es el mismo tipo de fallo, pero P0011 afecta al árbol A y P0014 al árbol B del banco 1."
+    },
+    {
+      "question": "¿Puede deberse solo al aceite?",
+      "answer": "Sí, y es la causa más frecuente. Aceite degradado o de viscosidad errónea retrasa la respuesta del variador."
+    },
+    {
+      "question": "¿Se puede conducir con P0014?",
+      "answer": "Un tiempo y con cuidado, pero hay pérdida de rendimiento y riesgo de agravar el problema si el origen es la lubricación."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglarlo?",
+      "answer": "Desde un cambio de aceite hasta varios centenares de euros si hay que sustituir válvula o variador; varía según el modelo."
+    },
+    {
+      "question": "¿Debo cambiar la cadena?",
+      "answer": "Solo si la correlación entre cigüeñal y levas está desviada o hay ruido y holgura demostrables."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "aceite de motor 5W30",
+    "multímetro digital automotriz"
+  ],
+  "related": [
+    "p0011",
+    "p0016",
+    "p0341",
+    "guia-cambio-aceite"
+  ],
+  "featured_image": "/img/articulos/codigo-p0014.webp"
+}
