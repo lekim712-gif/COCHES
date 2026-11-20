@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Distribución variable VVT: qué es, cómo funciona, síntomas de fallo y costes",
   "datePublished": "2026-11-19",
-  "dateModified": "2026-11-19",
+  "dateModified": "2026-11-20",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -53,5 +53,7 @@
     "guia-cambio-aceite",
     "guia-datos-en-vivo-obd2"
   ],
-  "featured_image": "/img/articulos/guia-guia-distribucion-variable-vvt.webp"
+  "featured_image": "/img/articulos/guia-guia-distribucion-variable-vvt.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-20"
 }

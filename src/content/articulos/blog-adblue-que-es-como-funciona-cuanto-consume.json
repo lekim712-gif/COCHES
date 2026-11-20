@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "AdBlue: qué es, cómo funciona y cuánto consume tu diésel",
   "datePublished": "2026-11-19",
-  "dateModified": "2026-11-19",
+  "dateModified": "2026-11-20",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -57,5 +57,7 @@
     "testigo-motor",
     "guia-revision-rapida"
   ],
-  "featured_image": "/img/articulos/blog-adblue-que-es-como-funciona-cuanto-consume.webp"
+  "featured_image": "/img/articulos/blog-adblue-que-es-como-funciona-cuanto-consume.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-20"
 }

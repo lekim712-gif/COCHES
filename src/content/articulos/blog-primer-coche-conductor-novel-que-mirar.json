@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Primer coche para un conductor novel: qué mirar antes de comprar",
   "datePublished": "2026-11-19",
-  "dateModified": "2026-11-19",
+  "dateModified": "2026-11-20",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -57,5 +57,7 @@
     "guia-presion-neumaticos-correcta",
     "guia-cambio-aceite"
   ],
-  "featured_image": "/img/articulos/blog-primer-coche-conductor-novel-que-mirar.webp"
+  "featured_image": "/img/articulos/blog-primer-coche-conductor-novel-que-mirar.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-20"
 }
