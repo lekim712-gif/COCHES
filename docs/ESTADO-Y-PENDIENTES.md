@@ -174,3 +174,5 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - 19/11: +4 fichas (P0010, P0014, P0351, guía distribución variable VVT) y +2 blog (AdBlue, primer coche para conductor novel); mejora en profundidad de P0133, P0190, P0505, P0141, testigo ABS y guía ITV y emisiones. 291 artículos.
 
 - 20/11: +4 fichas (P0720, P0741, P0463, guía aceite ATF del cambio automático) y +2 blog (conducir con cambio automático, conducir en invierno); mejora en profundidad de guías caudalímetro MAF y nivel de refrigerante, P0236, P0571, P0606, P0299. 297 artículos.
+
+- 21/11: +4 fichas (P0560, P0563, P0652, guía relés del coche) y +2 blog (sillas infantiles, llantas y medidas); mejora en profundidad de P0402, P0605, P0730 y guías olor a quemado, pérdida de potencia y ruidos al frenar. 303 artículos.
