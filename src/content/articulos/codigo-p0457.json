@@ -1,0 +1,60 @@
+{
+  "type": "codigo",
+  "code": "P0457",
+  "name": "Fuga en el sistema EVAP (tapón de combustible suelto o ausente)",
+  "datePublished": "2026-11-22",
+  "dateModified": "2026-11-22",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0457: causas, síntomas y solución",
+    "meta_description": "Código P0457: fuga grande en el sistema EVAP por tapón de combustible suelto o ausente. Cómo revisar tapón, juntas y tubo de llenado, y cuánto cuesta.",
+    "slug": "p0457"
+  },
+  "content_html": "<h1>Código P0457: Fuga en el sistema EVAP (tapón de combustible suelto o ausente)</h1>\n<p class=\"intro\">El código P0457 indica que el sistema de control de vapores de combustible detecta una fuga grande, y el estándar lo asocia a un tapón de depósito suelto o ausente. Antes de pensar en piezas caras, conviene revisar el tapón, su junta y el tubo de llenado. No afecta a la conducción, pero puede encender el testigo de motor.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja: no impide circular, pero hay emisión de vapores y el testigo de motor permanece encendido</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Tapón y junta del depósito, tubo de llenado, sistema EVAP, válvula de purga, válvula de ventilación, canister</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–400 € según sea apretar el tapón, cambiarlo o reparar el circuito</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2, tapón específico del modelo, bomba de humo (taller), linterna</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido de forma fija, a menudo poco después de repostar.</li><li>Mensaje de tapón mal cerrado en el cuadro de algunos modelos.</li><li>Olor a gasolina junto al depósito o en la zona de la boca de llenado.</li><li>Motor que funciona con normalidad, sin pérdida de potencia apreciable.</li><li>Silbido al abrir el tapón, con aire que entra o sale de forma anómala.</li><li>Fallo de la ITV por emisiones o por testigo encendido.</li></ul>\n<h2>Causas principales</h2><ul><li>Tapón sin apretar tras repostar o con el mecanismo de clics defectuoso.</li><li>Tapón extraviado o sustituido por uno no homologado.</li><li>Junta tórica del tapón seca, agrietada o deformada.</li><li>Boca o tubo de llenado oxidado, golpeado o perforado.</li><li>Manguera del EVAP desconectada, rota o con abrazadera floja.</li><li>Válvula de purga o de ventilación que queda abierta de forma permanente.</li><li>Canister agrietado, aunque es menos habitual.</li></ul>\n<h2>Qué significa P0457 y cómo lo detecta la centralita</h2><p>El sistema EVAP recoge los vapores de la gasolina para quemarlos en el motor en lugar de dejarlos escapar. Para comprobar su estanqueidad, la centralita cierra la ventilación y mide si la presión o el vacío del depósito se mantiene. Si cae con demasiada rapidez, entiende que hay una abertura grande y guarda P0457.</p><p>La prueba solo se hace con ciertas condiciones: depósito en un nivel intermedio, temperatura moderada y coche parado tras un recorrido. Por eso el código puede tardar en salir o en apagarse. Según el manual del fabricante, la fuga detectada equivale a un orificio de varios milímetros.</p><h2>P0457 frente a P0455 y P0456</h2><table class=\"cmp\"><thead><tr><th>Código</th><th>Tamaño de la fuga</th><th>Dónde mirar primero</th></tr></thead><tbody><tr><td>P0457</td><td>Grande, ligada a tapón suelto o ausente</td><td>Tapón, junta y boca de llenado</td></tr><tr><td>P0455</td><td>Grande, sin asociarla al tapón</td><td>Mangueras, válvulas, canister</td></tr><tr><td>P0456</td><td>Muy pequeña</td><td>Juntas mínimas, microfisuras, conectores</td></tr></tbody></table><p>El tapón es la causa más sencilla de descartar: si lo aprietas bien y el código no se repite en varios ciclos, el problema estaba ahí. Si vuelve, la fuga es otra, aunque la centralita siga hablando de tapón. En el testigo del tapón de combustible se explica el aviso que muestran algunos cuadros de instrumentos cuando ocurre lo mismo.</p><h2>Datos en vivo y valores de referencia</h2><table class=\"cmp\"><thead><tr><th>Dato</th><th>Comportamiento normal</th><th>Lectura con P0457</th></tr></thead><tbody><tr><td>Presión o vacío del depósito durante la prueba</td><td>Se mantiene estable según el manual del fabricante</td><td>Cae a cero en pocos segundos</td></tr><tr><td>Estado de la válvula de ventilación</td><td>Cierra cuando la centralita lo ordena</td><td>Queda abierta o no cierra del todo</td></tr><tr><td>Ciclo de purga</td><td>Duty variable según carga</td><td>Normal; la fuga está fuera del motor</td></tr><tr><td>Nivel de combustible</td><td>Entre un cuarto y tres cuartos</td><td>Fuera de rango: la prueba puede no ejecutarse</td></tr></tbody></table><h2>Árbol de decisión de diagnóstico</h2><table class=\"cmp\"><thead><tr><th>Paso</th><th>Pregunta</th><th>SÍ</th><th>NO</th></tr></thead><tbody><tr><td>1</td><td>¿El tapón estaba suelto, mal colocado o falta?</td><td>Ciérralo bien o sustitúyelo y borra el código; repite ciclos</td><td>Pasa al paso 2</td></tr><tr><td>2</td><td>¿La junta del tapón está limpia, flexible y sin cortes?</td><td>Pasa al paso 3</td><td>Cambia el tapón por uno específico del modelo</td></tr><tr><td>3</td><td>¿La boca y el tubo de llenado están sin golpes, óxido ni grietas?</td><td>Pasa al paso 4</td><td>Repara o sustituye el tubo en taller</td></tr><tr><td>4</td><td>¿Las mangueras del EVAP están conectadas y sin grietas?</td><td>Pasa al paso 5</td><td>Reconecta o sustituye la manguera</td></tr><tr><td>5</td><td>¿La prueba de humo localiza una fuga en válvulas o canister?</td><td>Sustituye la pieza que fuga</td><td>Revisa el sensor de presión del depósito</td></tr></tbody></table><h2>Ejemplo de diagnóstico típico</h2><p>Ejemplo ilustrativo, no un caso real ni con cifras medidas. Tras repostar con prisas, el testigo de motor se enciende al día siguiente y el escáner guarda P0457. Se abre la tapa y se aprecia que el tapón no ha hecho clic. Se aprieta hasta oír el número de clics del fabricante, se borra el código y se conduce durante varios ciclos. El testigo no vuelve a encenderse. Si en otro supuesto el tapón estuviera bien y el código regresara, el siguiente paso sería una prueba de humo para buscar la fuga en el tubo o las mangueras.</p><h2>Precauciones de seguridad</h2><ul><li>No fumes ni uses llamas, y apaga el motor antes de abrir el tapón.</li><li>No uses el móvil ni herramientas que den chispa junto a la boca de llenado.</li><li>Si hay un fuerte olor a gasolina o goteo, no arranques y pide asistencia.</li><li>La prueba de humo debe hacerla un taller; no inyectes aire a presión en el depósito.</li></ul>\n<h2>Cómo diagnosticar P0457 paso a paso</h2><ol><li>Lee el código y los datos congelados; anota el nivel de combustible cuando se guardó.</li><li>Con el motor apagado, abre la tapa del depósito y comprueba que el tapón está presente y sin grietas.</li><li>Cierra el tapón girándolo hasta oír los clics que indica el manual del vehículo.</li><li>Inspecciona la junta tórica: debe estar flexible y limpia; si está seca o cortada, cambia el tapón.</li><li>Mira la boca de llenado y el tubo, buscando golpes, óxido o restos de gasolina.</li><li>Revisa las mangueras visibles del EVAP y sus abrazaderas.</li><li>Borra el código y conduce varios ciclos completos con el depósito a nivel intermedio.</li><li>Si el código regresa, solicita una prueba de humo en el taller.</li></ol>\n<h2>Cuánto cuesta solucionar P0457</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Rango orientativo</th><th>Comentario</th></tr></thead><tbody><tr><td>Apretar el tapón y borrar el código</td><td>0 €</td><td>Solución más frecuente</td></tr><tr><td>Tapón nuevo específico</td><td>10–40 €</td><td>Mejor original o de calidad equivalente</td></tr><tr><td>Tubo o boca de llenado</td><td>80–350 €</td><td>Según accesibilidad y material</td></tr><tr><td>Manguera o racor del EVAP</td><td>60–200 €</td><td>Incluye abrazaderas y mano de obra</td></tr><tr><td>Válvula de purga o ventilación</td><td>70–250 €</td><td>Según el modelo</td></tr><tr><td>Canister con fuga</td><td>150–400 €</td><td>Poco habitual</td></tr></tbody></table><p>Son cifras orientativas. La prueba de humo, si hace falta, suele costar entre 40 y 90 €.</p><h2>Errores frecuentes</h2><ul><li>Cambiar la válvula de purga sin haber comprobado el tapón primero.</li><li>Montar un tapón genérico sin la presión de apertura correcta.</li><li>Borrar el código y no esperar los ciclos de conducción para verificar la reparación.</li><li>Apretar el tapón con exceso de fuerza y dañar la rosca o la junta.</li><li>Ignorar el testigo y presentarse a la ITV con el código activo.</li></ul><h2>Cuándo acudir al taller</h2><p>Acude al taller si el código reaparece tras apretar o cambiar el tapón, si hay olor intenso a gasolina o si el testigo parpadea. Una fuga en el tubo de llenado puede dejar escapar combustible en una colisión leve o al repostar, y no conviene demorarla.</p><h2>Códigos relacionados</h2><p>P0455 y P0456 son las otras fugas del sistema EVAP, y P0442 señala una fuga pequeña. El P0441 trata del flujo de purga incorrecto. Si el testigo aparece junto a mala marcha, revisa también los códigos de encendido.</p>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Qué significa P0457 en la práctica?",
+      "answer": "Que el depósito no mantiene la presión de prueba, con una fuga grande. El estándar lo asocia al tapón suelto o ausente, por eso es lo primero que se revisa."
+    },
+    {
+      "question": "¿Puedo seguir conduciendo con P0457?",
+      "answer": "Sí, no afecta al funcionamiento del motor. Aun así, conviene corregirlo pronto: hay emisión de vapores y no pasarás la ITV con el testigo encendido."
+    },
+    {
+      "question": "¿Cuánto tarda en apagarse el testigo tras apretar el tapón?",
+      "answer": "No es inmediato. La centralita necesita repetir la prueba en varios ciclos de conducción; según el modelo, puede tardar unos días de uso normal."
+    },
+    {
+      "question": "¿Cómo distingo si es el tapón o una manguera?",
+      "answer": "Si tras cerrar bien el tapón o sustituirlo el código no vuelve en varios ciclos, era el tapón. Si regresa, hay que buscar la fuga con prueba de humo."
+    },
+    {
+      "question": "¿Sirve cualquier tapón de repuesto?",
+      "answer": "No. Debe ser el específico del modelo, con la válvula y la junta correctas. Uno genérico puede no sellar o no ventilar bien."
+    },
+    {
+      "question": "¿Es peligroso el olor a gasolina?",
+      "answer": "Sí, si es intenso. No arranques, evita chispas y llama a la asistencia. Un olor leve tras repostar puede ser normal, pero si persiste revísalo."
+    },
+    {
+      "question": "¿Puede un depósito demasiado lleno causar P0457?",
+      "answer": "Puede dificultar la prueba o saturar el canister. Por eso no conviene seguir llenando tras el primer corte del surtidor."
+    }
+  ],
+  "products": [
+    "tapón de depósito de combustible",
+    "escáner obd2 bluetooth elm327",
+    "válvula de purga EVAP"
+  ],
+  "related": [
+    "p0455",
+    "p0456",
+    "p0442",
+    "testigo-tapon-combustible",
+    "testigo-motor",
+    "guia-olor-a-gasolina"
+  ],
+  "featured_image": "/img/articulos/codigo-p0457.webp"
+}

@@ -1,0 +1,59 @@
+{
+  "type": "testigo",
+  "name": "Aviso de fallo de faros adaptativos y nivelación: qué hacer",
+  "datePublished": "2026-11-22",
+  "dateModified": "2026-11-22",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Aviso de faros adaptativos y nivelación: qué hacer",
+    "meta_description": "Qué indica el aviso de fallo del sistema de iluminación adaptativa o de nivelación de faros: sensores de altura, motores, calibración, coste e ITV.",
+    "slug": "testigo-faros-adaptativos"
+  },
+  "content_html": "<h1>Aviso de fallo de faros adaptativos y nivelación: qué hacer</h1>\n<p class=\"intro\">El aviso de fallo de los faros adaptativos o de la nivelación automática indica que el sistema que mueve las luces en curva o ajusta su altura no funciona con normalidad. Puede deberse a un sensor de altura, un motor del faro o una calibración perdida. No impide conducir, pero puede deslumbrar a otros conductores y afectar a la ITV.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: el coche circula, pero la luz puede quedar mal orientada, con riesgo de deslumbrar o ver menos</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Faros adaptativos (AFS), motores de nivelación, sensores de altura de carrocería, centralita de luces, cableado</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>0–50 € si es calibración; 60–350 € por sensor o motor; 300–1.600 € por un faro completo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner con acceso a luces, calibrador de faros, manual de taller, suelo plano</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Mensaje «Fallo de faros» o «Fallo del sistema de iluminación adaptativa» en el cuadro.</li><li>Faros que no giran en curva, o que quedan fijos en una posición.</li><li>Haz de luz demasiado alto o demasiado bajo, sobre todo con carga.</li><li>Ruido de zumbido o clic en el faro al arrancar, cuando el motor intenta moverse.</li><li>Aviso que aparece tras cambiar un amortiguador, un faro o la altura del coche.</li><li>Otros conductores que te hacen ráfagas al cruzarse.</li></ul>\n<h2>Causas principales</h2><ul><li>Sensor de altura de la suspensión desajustado, roto o con varilla suelta.</li><li>Motor de nivelación o de giro del faro averiado o bloqueado.</li><li>Calibración perdida tras cambiar un faro, una batería o un amortiguador.</li><li>Conector o cableado del faro dañado, con humedad o falso contacto.</li><li>Fallo en la centralita de luces o en el módulo del faro.</li><li>Cambio de suspensión o de neumáticos que altera la altura de referencia.</li></ul>\n<h2>Qué indica el aviso y cómo funciona el sistema</h2><p>Los faros adaptativos giran unos grados hacia el interior de la curva para iluminar mejor el camino. La nivelación automática, en cambio, ajusta la inclinación del haz según la carga. Ambos sistemas usan sensores y pequeños motores dentro del faro. Cuando alguno no responde, la centralita muestra un aviso y deja el faro en una posición segura o fija.</p><p>En muchos coches con xenón o LED la nivelación es obligatoria por normativa. Con la carga del maletero o remolque, el morro sube y el haz deslumbra. Si el sistema falla, el faro puede quedarse bajo, más seguro, o en la posición en que estaba, que puede ser alta.</p><h2>Estados del aviso y qué hacer</h2><table class=\"cmp\"><thead><tr><th>Situación</th><th>Gravedad</th><th>Qué hacer</th></tr></thead><tbody><tr><td>Aviso de fallo con el haz bien orientado</td><td>Baja</td><td>Conduce con normalidad y revisa en el taller</td></tr><tr><td>Aviso con el haz muy alto o deslumbrando</td><td>Media</td><td>Evita conducir de noche hasta ajustarlo; usa luces cortas con precaución</td></tr><tr><td>Aviso con el haz muy bajo, sin ver la carretera</td><td>Alta</td><td>No conduzcas de noche; reduce la velocidad o espera al taller</td></tr><tr><td>Aviso tras cambiar suspensión o faro</td><td>Media</td><td>Pide una calibración con escáner en el taller</td></tr><tr><td>Aviso junto a testigo de bombilla fundida</td><td>Media</td><td>Revisa primero las bombillas y fusibles</td></tr></tbody></table><h2>Diferencia con otros avisos de luces</h2><table class=\"cmp\"><thead><tr><th>Aviso</th><th>Qué indica</th><th>Dónde mirar</th></tr></thead><tbody><tr><td>Faros adaptativos o nivelación</td><td>Fallo del sistema que orienta el haz</td><td>Sensor de altura, motor, calibración</td></tr><tr><td>Bombilla fundida</td><td>Una lámpara sin corriente</td><td>Bombilla, fusible, relé</td></tr><tr><td>Luces automáticas</td><td>Fallo del sensor de luz o lluvia</td><td>Sensor del parabrisas</td></tr></tbody></table><p>Si el cuadro muestra una bombilla fundida y el aviso adaptativo a la vez, empieza por la lámpara: un fallo eléctrico simple puede disparar ambos mensajes.</p><h2>Deslumbramiento, ITV y seguridad</h2><p>Un haz mal orientado deslumbra a quien viene de frente y puede suponer una infracción. En la ITV se revisa la orientación y la intensidad de las luces; un fallo del sistema de nivelación o un haz fuera de límites puede ser defecto leve o grave según el estado. Además, con el testigo encendido es posible que no te dejen pasar. Corrige la causa antes de presentarte.</p><ul><li>No retires el faro con el motor en marcha ni toques sus conectores con corriente.</li><li>En faros de xenón hay alta tensión: no los manipules sin experiencia.</li><li>No intentes calibrar el haz sin una pared plana y las medidas del fabricante.</li><li>Evita conducir de noche con luces muy altas o muy bajas hasta repararlo.</li></ul>\n<h2>Qué hacer paso a paso al ver el aviso</h2><ol><li>Detén el coche en un lugar seguro y comprueba si el aviso persiste al apagar y arrancar de nuevo.</li><li>Enciende las luces y observa si ambos faros tienen la misma altura y orientación sobre una pared plana.</li><li>Revisa el maletero: una carga muy pesada puede alterar la altura y activar el aviso.</li><li>Mira las bombillas, fusibles y relés de las luces; un fallo eléctrico simple puede causar el mensaje.</li><li>Con el escáner, lee los códigos de la centralita de luces para localizar el sensor o el motor implicado.</li><li>Inspecciona las varillas de los sensores de altura, que van unidas a los ejes, por si están sueltas o dobladas.</li><li>Si hace poco cambiaste suspensión, neumáticos o un faro, solicita la calibración del sistema.</li><li>Lleva el coche al taller si el haz sigue mal orientado o el aviso no desaparece.</li></ol>\n<h2>Causas y coste de reparación</h2><table class=\"cmp\"><thead><tr><th>Causa</th><th>Solución</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Calibración perdida</td><td>Calibrar con escáner</td><td>30–120 €</td></tr><tr><td>Sensor de altura</td><td>Sustitución y calibración</td><td>80–250 €</td></tr><tr><td>Motor de nivelación o giro</td><td>Cambio del motor o del módulo</td><td>120–450 €</td></tr><tr><td>Cableado o conector</td><td>Reparación del arnés</td><td>50–200 €</td></tr><tr><td>Faro completo</td><td>Sustitución del faro y calibración</td><td>300–1.600 €</td></tr></tbody></table><p>Las cifras son orientativas. Según el manual del fabricante, algunos faros de LED no permiten sustituir solo el motor y hay que cambiar la unidad.</p><h2>Cómo evitar que vuelva</h2><ul><li>Haz calibrar el sistema tras cambiar suspensión, neumáticos o un faro.</li><li>Revisa las varillas de los sensores en cada revisión.</li><li>Evita lavar a presión directamente sobre el faro.</li><li>Comprueba la altura de los faros en la ITV o en el taller una vez al año.</li></ul><h2>Cuándo acudir al taller</h2><p>Acude al taller si el aviso aparece de forma fija, si el haz deslumbra o si hay ruidos en el faro. Si el sistema no se calibra con una pantalla de luz, debe hacerse con equipo específico. No prolongues la situación: es una cuestión de seguridad y de cumplimiento en la ITV.</p><h2>Testigos relacionados</h2><p>El testigo de bombilla fundida y el de luces automáticas comparten parte de la instalación. Si ves un aviso de suspensión, el origen puede ser el mismo sensor de altura.</p>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Puedo seguir conduciendo con el aviso de faros adaptativos?",
+      "answer": "Sí, con precaución. Si el haz está bien orientado, sin problema. Si deslumbra o ilumina muy poco, evita conducir de noche hasta repararlo."
+    },
+    {
+      "question": "¿Qué es la nivelación automática de faros?",
+      "answer": "Es un sistema que ajusta la inclinación del haz según la carga del coche para que no deslumbre ni ilumine poco. Usa sensores de altura y motores en el faro."
+    },
+    {
+      "question": "¿Por qué sale el aviso tras cambiar un amortiguador?",
+      "answer": "Porque el sensor de altura puede haber perdido su referencia. Hace falta calibrar el sistema con escáner para que vuelva a medir bien."
+    },
+    {
+      "question": "¿Pasa la ITV con este aviso?",
+      "answer": "Es posible que no. Un haz mal orientado o un sistema con avería puede ser defecto. Conviene repararlo y calibrar antes de la inspección."
+    },
+    {
+      "question": "¿Cuánto cuesta arreglar los faros adaptativos?",
+      "answer": "Desde unos 30 € por una calibración hasta más de 1.000 € si hay que cambiar un faro completo. Pide presupuesto detallado antes de decidir."
+    },
+    {
+      "question": "¿Puedo calibrar los faros yo mismo?",
+      "answer": "La orientación básica sí puede ajustarse con una pared plana y el manual, pero la calibración electrónica requiere escáner. No manipules faros de xenón sin experiencia."
+    },
+    {
+      "question": "¿Es normal que los faros hagan ruido al arrancar?",
+      "answer": "Sí, un leve zumbido es el autotest de los motores. Si es un golpeteo o el faro no se mueve, puede haber un motor bloqueado."
+    }
+  ],
+  "products": [
+    "sensor de altura de faros",
+    "escáner obd2 bluetooth elm327",
+    "kit de reglaje de faros"
+  ],
+  "related": [
+    "testigo-bombilla-fundida",
+    "testigo-luces-automaticas",
+    "guia-luces-fundidas",
+    "luces-del-coche-cuando-usar-cada-una",
+    "preparar-itv-causas-suspenso",
+    "guia-cuando-cambiar-amortiguadores"
+  ],
+  "featured_image": "/img/articulos/testigo-testigo-faros-adaptativos.webp"
+}
