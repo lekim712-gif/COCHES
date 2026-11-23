@@ -178,3 +178,5 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - 21/11: +4 fichas (P0560, P0563, P0652, guía relés del coche) y +2 blog (sillas infantiles, llantas y medidas); mejora en profundidad de P0402, P0605, P0730 y guías olor a quemado, pérdida de potencia y ruidos al frenar. 303 artículos.
 
 - 22/11: +4 fichas (P0017, P0457, testigos nivel líquido de frenos y faros adaptativos) y +2 blog (viaje largo y fatiga, batería de coche eléctrico); mejora en profundidad de P0171, P0172, P0174, P0301, P0340, P0430. 309 artículos.
+
+- 23/11: +4 fichas (P0030, P0036, P0245, guía correa poli-V y tensor) y +2 blog (pinchazo, señales de aviso para ir al taller); mejora en profundidad de P0302, P0303, P0304, P0132, P0102, P0442. 315 artículos.
