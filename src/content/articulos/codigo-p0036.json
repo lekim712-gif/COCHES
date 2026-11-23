@@ -1,0 +1,60 @@
+{
+  "type": "codigo",
+  "code": "P0036",
+  "name": "Control del calefactor de la sonda lambda trasera (banco 1, sensor 2)",
+  "datePublished": "2026-11-23",
+  "dateModified": "2026-11-23",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0036: calefactor sonda trasera, causas y solución",
+    "meta_description": "Código P0036: fallo en el control del calefactor de la sonda lambda trasera, banco 1 sensor 2, detrás del catalizador. Causas, pruebas con multímetro y costes.",
+    "slug": "p0036"
+  },
+  "content_html": "<h1>Código P0036: Control del calefactor de la sonda lambda trasera (banco 1, sensor 2)</h1>\n<p class=\"intro\">El código P0036 aparece cuando la centralita no consigue gobernar el calefactor de la sonda lambda situada detrás del catalizador, la del banco 1, sensor 2. Esa sonda no regula la mezcla, solo vigila el catalizador, así que el coche rueda bien. El riesgo está en perder esa vigilancia y en la ITV.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Baja a media: el coche funciona con normalidad, pero se pierde la vigilancia del catalizador</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sonda lambda trasera, alimentación y masa del calefactor, cableado bajo el vehículo, escape, centralita</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>20–260 €, según sea cableado, conector o sonda</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro, caballetes homologados, llave de sondas</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido con el P0036 guardado y sin pérdida de potencia apreciable.</li><li>Ningún cambio claro de ralentí ni de consumo, porque la sonda trasera no corrige la inyección.</li><li>Posible aparición posterior de un P0420 si el catalizador se degrada sin supervisión.</li><li>Riesgo de suspender la ITV por el testigo encendido o por el registro de fallos.</li><li>En algunos coches, el código se acompaña del P0037 o el P0038 según el nivel eléctrico detectado.</li></ul>\n<h2>Causas principales</h2><ul><li>Cableado de la sonda trasera dañado por el calor del escape, un roce con el bajo o una reparación anterior.</li><li>Conector de la sonda sulfatado o con humedad, expuesto a salpicaduras del firme.</li><li>Calefactor interno de la sonda abierto o con envejecimiento tras muchos kilómetros.</li><li>Fusible o relé compartido con otras sondas que no entrega alimentación estable.</li><li>Fuga de escape cercana que sobrecalienta el cable y deteriora su aislante.</li><li>Fallo del driver de salida de la centralita, raro y solo tras descartar todo lo anterior.</li></ul>\n<h2>Qué hace la sonda trasera y por qué tiene calefactor</h2><p>La sonda de después del catalizador compara el oxígeno que sale con el que entra. Si el catalizador trabaja bien, esa señal es estable; si se degrada, la señal empieza a imitar a la de la delantera. Para dar un resultado fiable lo antes posible, incluye una resistencia de calentamiento controlada por la centralita.</p><p>Con el motor frío, el escape tarda en calentarse y la sonda trasera es la que más sufre, porque recibe los gases ya enfriados por el catalizador y por el tubo. El calefactor garantiza que mida bien aunque el trayecto sea corto. Si falla, la ECU puede ignorar sus lecturas durante más tiempo, o directamente desactivar el diagnóstico del catalizador.</p><p>Esta ficha describe causas generales del estándar SAE J2012. Los valores exactos dependen del fabricante: consulta el manual de taller de tu vehículo.</p><h2>Cómo lo detecta la centralita</h2><p>La ECU conmuta el negativo del calefactor con una señal modulada y vigila la corriente o la tensión resultante. Cuando la respuesta no coincide con la esperada durante un tiempo, guarda el P0036 como fallo del circuito de control del banco 1, sensor 2. Los códigos hermanos, el P0037 y el P0038, aluden a nivel bajo y a nivel alto de ese mismo circuito.</p><p>Como el diagnóstico solo se ejecuta tras un arranque en frío y con ciertas condiciones, el código puede tardar en volver después de una reparación. Por eso conviene verificar con medidas eléctricas y no solo esperar a que el testigo no regrese.</p><h2>Cómo distinguir la causa</h2><table class=\"cmp\"><thead><tr><th>Lo que ves</th><th>Causa más probable</th><th>Qué comprobar</th></tr></thead><tbody><tr><td>Sin tensión en el conector de la sonda con contacto dado</td><td>Fusible, relé o cable de alimentación</td><td>Fusible, relé y continuidad hasta el conector</td></tr><tr><td>Tensión correcta pero resistencia del calefactor infinita</td><td>Calefactor abierto en la sonda</td><td>Resistencia entre los dos pines, según el manual</td></tr><tr><td>Cable endurecido o con aislante fundido</td><td>Daño por calor o roce</td><td>Recorrido del mazo junto al escape y pantallas térmicas</td></tr><tr><td>Todo correcto y el código vuelve</td><td>Salida de la centralita</td><td>Prueba de la señal de control con osciloscopio en taller</td></tr></tbody></table>\n<h2>Cómo diagnosticar el P0036 paso a paso</h2><ol><li>Anota el código y los datos congelados con el escáner antes de borrar nada.</li><li>Con el coche frío y sobre caballetes homologados, localiza la sonda trasera, detrás del catalizador.</li><li>Sigue el cable en toda su longitud buscando aislante fundido, roces y bridas sueltas.</li><li>Desconecta la batería y revisa el conector: pines limpios, sin humedad y bien sujetos.</li><li>Mide la resistencia del calefactor entre sus dos terminales y compárala con el manual.</li><li>Reconecta, da el contacto y mide la tensión de alimentación en el conector; sin ella, revisa fusible y relé.</li><li>Comprueba la continuidad del cable de control hasta la centralita con la batería desconectada.</li><li>Tras la reparación, borra el código y realiza un arranque en frío seguido de un trayecto mixto para verificar.</li></ol>\n<h2>Árbol de decisión de diagnóstico</h2><p>Trabaja siempre con el coche frío y sobre caballetes homologados si debes pasar por debajo; el escape quema y el coche puede moverse.</p><ul><li>1. ¿Está el código acompañado del P0030 o del P0135? SI: sospecha de un fusible o relé común; comprueba primero la alimentación. NO: continúa.</li><li>2. ¿Está el conector de la sonda trasera limpio, bien encajado y sin cables fundidos? NO: repáralo y repite la prueba. SI: continúa.</li><li>3. Con el contacto dado, ¿hay tensión de alimentación en el conector? NO: revisa fusible, relé y mazo hacia atrás. SI: continúa.</li><li>4. ¿La resistencia del calefactor está dentro del rango del manual? NO: sustituye la sonda. SI: continúa.</li><li>5. ¿Llega la masa de control hasta la centralita sin cortes? NO: repara el cable. SI: pide una comprobación de la salida de la ECU.</li></ul><h2>Ejemplo de diagnóstico típico</h2><p>Escenario ilustrativo para entender el razonamiento. No corresponde a ningún vehículo real ni refleja mediciones reales.</p><p>Supongamos un coche con testigo encendido y solo el P0036 en memoria. Al elevarlo con caballetes, el técnico observa que el cable de la sonda trasera ha rozado con una pantalla térmica y tiene el aislante endurecido y agrietado. Con el multímetro encuentra una resistencia del calefactor muy alta. Tras cambiar la sonda y proteger el recorrido con una brida y un soporte, el código no vuelve a aparecer tras varios arranques en frío. Se comprueba además que el catalizador funciona correctamente antes de dar el trabajo por terminado.</p><h2>Cuánto cuesta repararlo</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Limpieza o cambio de conector</td><td>15–60 €</td></tr><tr><td>Reparación del cableado de la sonda</td><td>40–130 €</td></tr><tr><td>Sonda lambda trasera nueva</td><td>45–200 € de recambio más 30–90 € de mano de obra</td></tr><tr><td>Diagnóstico completo</td><td>30–70 €</td></tr><tr><td>Catalizador, si resulta dañado por la falta de supervisión</td><td>350–1.200 €</td></tr></tbody></table><h2>Errores frecuentes al diagnosticar</h2><ul><li>Cambiar la sonda delantera, mucho más cara, cuando el código habla del sensor 2.</li><li>Forzar el desmontaje con el escape recién apagado y quemarse o dañar la rosca.</li><li>No proteger el cable al montar la sonda nueva y repetir el daño poco después.</li><li>Medir con el contacto puesto en el conector equivocado, por confundir los pines de señal y calefactor.</li></ul><h2>Cuándo acudir al taller</h2><ul><li>Si la sonda está agarrotada en el tubo y no cede con una llave específica.</li><li>Si la alimentación es correcta, el calefactor también y el código persiste.</li><li>Si sospechas fugas de escape que requieren soldadura o cambio de tramo.</li></ul><h2>Códigos relacionados</h2><ul><li>P0037: control del calefactor con nivel bajo, banco 1 sensor 2.</li><li>P0038: control del calefactor con nivel alto, banco 1 sensor 2.</li><li>P0141: calefactor de la sonda trasera, circuito o rendimiento.</li><li>P0136: circuito de señal de la sonda trasera.</li><li>P0420: eficiencia del catalizador por debajo del umbral.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Es grave el P0036?",
+      "answer": "No inmediatamente: el coche funciona. Pero deja sin vigilancia al catalizador y puede costarte la ITV, así que conviene repararlo pronto."
+    },
+    {
+      "question": "¿Afecta al consumo de combustible?",
+      "answer": "Poco o nada, porque la sonda trasera no corrige la mezcla. Lo habitual es que no notes diferencia al conducir."
+    },
+    {
+      "question": "¿En qué se diferencia del P0141?",
+      "answer": "El P0141 es el fallo del circuito o rendimiento del calefactor trasero. El P0036 se centra en el control eléctrico de ese calefactor, aunque muchos coches usan uno u otro según el fabricante."
+    },
+    {
+      "question": "¿Debo cambiar la sonda trasera directamente?",
+      "answer": "Mejor mide antes alimentación y resistencia. Si la alimentación falta, el problema está en el cableado, el fusible o el relé."
+    },
+    {
+      "question": "¿Se puede puentear el calefactor?",
+      "answer": "No es recomendable. Alterar la señal para engañar a la centralita incumple las normas de emisiones y puede dañar otros componentes."
+    },
+    {
+      "question": "¿Cuánto tarda en reaparecer el código si no está bien reparado?",
+      "answer": "Depende de las condiciones de diagnóstico de la ECU. Suele volver tras uno o varios arranques en frío completos."
+    },
+    {
+      "question": "¿Pasa algo si dejo el testigo encendido?",
+      "answer": "Puedes circular, pero otros fallos futuros quedarían ocultos por el testigo ya encendido y la ITV será difícil de superar."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "llave para sondas lambda"
+  ],
+  "related": [
+    "p0136",
+    "p0141",
+    "p0420",
+    "p0130",
+    "guia-sonda-lambda",
+    "guia-multimetro-sensores"
+  ],
+  "featured_image": "/img/articulos/codigo-p0036.webp"
+}

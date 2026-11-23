@@ -1,0 +1,61 @@
+{
+  "type": "codigo",
+  "code": "P0245",
+  "name": "Solenoide de la válvula wastegate (turbo A): señal baja",
+  "datePublished": "2026-11-23",
+  "dateModified": "2026-11-23",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0245: solenoide wastegate, causas y solución",
+    "meta_description": "Código P0245: señal baja en el solenoide de la válvula wastegate del turbo A. Turbo con actuador neumático: manguitos, solenoide, cableado, pruebas y costes.",
+    "slug": "p0245"
+  },
+  "content_html": "<h1>Código P0245: Solenoide de la válvula wastegate (turbo A): señal baja</h1>\n<p class=\"intro\">El código P0245 se guarda cuando la centralita detecta una señal baja en el circuito del solenoide que gobierna la válvula wastegate del turbo. Ese solenoide dosifica el vacío o la presión que mueve el actuador neumático. Si falla, el turbo puede quedarse sin control: poca potencia o picos de presión peligrosos para el motor.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media a alta: si el turbo pierde el control puede entrar en modo de emergencia o sobrepresionar</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Turbo con actuador neumático, solenoide de control, manguitos de vacío o presión, cableado, centralita</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>30–600 €, según sea manguito, solenoide o turbo</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro, bomba de vacío manual, lámpara de pruebas</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido, a veces con el testigo de avería del turbo y el modo de emergencia activado.</li><li>Pérdida de potencia al acelerar, con el motor sin empuje por encima de unas 2.000 rpm.</li><li>Respuesta irregular del turbo: sube de golpe o apenas sopla, según dónde se quede la wastegate.</li><li>Silbidos o fugas audibles cerca de los manguitos del turbo.</li><li>Consumo más alto y, en diésel, algo de humo negro cuando el turbo no rinde.</li></ul>\n<h2>Causas principales</h2><ul><li>Solenoide de control de la wastegate con la bobina abierta o en cortocircuito a masa.</li><li>Cable o conector del solenoide dañado por el calor del compartimento del motor.</li><li>Manguito de vacío o presión agrietado, desconectado o aplastado.</li><li>Actuador neumático con la membrana rota que no mantiene la presión.</li><li>Alimentación insuficiente al solenoide por fusible, relé o conexión de masa deficiente.</li><li>Salida de potencia de la centralita defectuosa, caso poco frecuente.</li></ul>\n<h2>Cómo funciona la wastegate neumática y qué hace el solenoide</h2><p>La wastegate es una válvula de descarga que desvía parte de los gases de escape para que la turbina no gire más de la cuenta. En muchos turbos esa válvula se mueve con un actuador neumático, una cápsula con membrana empujada por la presión del propio turbo o por vacío, según el diseño. Entre el turbo y la cápsula se coloca un solenoide que dosifica ese aire.</p><p>La centralita acciona el solenoide con una señal modulada: más tiempo abierto o cerrado cambia la presión que llega a la cápsula y, por tanto, cuánto se abre la válvula. Así regula la presión de sobrealimentación en función de la carga. Sin solenoide operativo, la cápsula queda a su merced y el turbo se comporta de forma imprevisible.</p><p>Esta ficha describe causas generales del estándar SAE J2012. Los valores exactos dependen del fabricante: consulta el manual de taller de tu vehículo.</p><h2>Por qué se guarda el P0245 y qué diferencia hay con otros códigos</h2><p>El P0245 se registra cuando la ECU lee una tensión o corriente muy baja en el circuito del solenoide, habitualmente por un circuito abierto o un cortocircuito a masa. Su familia incluye el P0246 para señal alta y el P0243 para el circuito general del solenoide A.</p><table class=\"cmp\"><thead><tr><th>Código</th><th>Qué indica</th><th>Diferencia práctica</th></tr></thead><tbody><tr><td>P0245</td><td>Señal baja en el solenoide de la wastegate</td><td>Fallo eléctrico del circuito de mando</td></tr><tr><td>P0299</td><td>Presión del turbo por debajo de la demandada</td><td>Resultado: la presión no llega, sea cual sea la causa</td></tr><tr><td>P0234</td><td>Sobrepresión del turbo</td><td>La presión supera lo ordenado</td></tr><tr><td>P0238</td><td>Señal alta del sensor de presión del turbo</td><td>Fallo del sensor, no del solenoide</td></tr></tbody></table><p>Es habitual que el P0245 aparezca junto con el P0299 si el solenoide falla y la presión no llega, pero la causa eléctrica es la que debes buscar primero.</p><h2>Datos en vivo y valores de referencia</h2><p>Con el escáner, observa la presión de sobrealimentación pedida y la real, y el ciclo de trabajo del solenoide si tu equipo lo ofrece. Los valores exactos los da el manual del fabricante.</p><table class=\"cmp\"><thead><tr><th>Situación</th><th>Lectura normal</th><th>Lectura que apunta a fallo</th></tr></thead><tbody><tr><td>Ralentí</td><td>Presión cercana a la atmosférica y solenoide con ciclo bajo</td><td>Ciclo fijo al 0 % o al 100 %</td></tr><tr><td>Aceleración a fondo en marcha corta</td><td>La presión real sigue a la pedida con poco retardo</td><td>La presión real queda muy por debajo o se dispara</td></tr><tr><td>Resistencia del solenoide</td><td>Pocos ohmios, a menudo entre 10 y 30 Ω según el manual</td><td>Infinita o cercana a cero</td></tr><tr><td>Prueba de vacío en la cápsula</td><td>Se mueve y mantiene el vacío</td><td>No sostiene: membrana rota</td></tr></tbody></table>\n<h2>Cómo diagnosticar el P0245 paso a paso</h2><ol><li>Con el motor parado y frío, inspecciona todos los manguitos que van del turbo, el solenoide y la cápsula.</li><li>Localiza el solenoide de la wastegate en el manual y revisa su conector y el cable en busca de daños por calor.</li><li>Desenchufa el conector y mide la resistencia de la bobina; compárala con el manual.</li><li>Con el contacto dado, mide alimentación y masa en el conector del solenoide.</li><li>Desconecta el manguito que va a la cápsula y conéctale una bomba de vacío para ver si la varilla se mueve.</li><li>Comprueba que la cápsula mantiene el vacío durante un minuto, sin descenso rápido.</li><li>Sustituye la pieza defectuosa, borra el código y prueba en carretera en tramo seguro.</li><li>Observa con el escáner que la presión real sigue a la pedida y no vuelve a saltar el código.</li></ol>\n<h2>Árbol de decisión de diagnóstico</h2><p>Con el motor parado y frío, y sin tocar los manguitos del turbo con el motor caliente. Si el coche no tiene presión, no fuerces la marcha.</p><ul><li>1. ¿Hay manguitos de vacío o presión rotos, sueltos o aplastados? SI: sustitúyelos y repite la prueba. NO: continúa.</li><li>2. ¿El conector del solenoide está limpio, bien encajado y sin cables fundidos? NO: repáralo. SI: continúa.</li><li>3. ¿La resistencia del solenoide está dentro del rango del manual? NO: sustituye el solenoide. SI: continúa.</li><li>4. ¿Llega alimentación y masa al conector con el contacto dado? NO: revisa fusible, relé y mazo. SI: continúa.</li><li>5. Con una bomba de vacío, ¿la cápsula mueve la varilla y mantiene el vacío? NO: actuador o turbo dañado; consulta al taller. SI: pide una comprobación de la salida de la centralita.</li></ul><h2>Ejemplo de diagnóstico típico</h2><p>Escenario ilustrativo para entender el razonamiento. No corresponde a ningún vehículo real ni refleja mediciones reales.</p><p>Supongamos un diésel que entra en modo de emergencia al subir una pendiente y guarda el P0245. El técnico revisa los manguitos y comprueba que están intactos. Mide el solenoide y detecta una resistencia infinita, señal de bobina abierta. Tras sustituirlo, el ciclo de trabajo vuelve a moverse en el escáner. Con una prueba de vacío verifica que la cápsula también mantiene la presión. Con esos controles, el aviso no regresa y el turbo vuelve a seguir la presión que pide la centralita.</p><h2>Cuánto cuesta repararlo</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Manguito de vacío o presión</td><td>10–60 €</td></tr><tr><td>Reparación de conector o cableado</td><td>30–120 €</td></tr><tr><td>Solenoide de control de la wastegate</td><td>40–180 € de recambio más 30–80 € de mano de obra</td></tr><tr><td>Actuador neumático (cápsula)</td><td>80–350 € según turbo</td></tr><tr><td>Turbo completo, si hay daño interno</td><td>800–2.500 € con montaje</td></tr></tbody></table><h2>Errores frecuentes al diagnosticar</h2><ul><li>Cambiar el turbo entero cuando bastaba un manguito o un solenoide de pocos euros.</li><li>Ignorar el modo de emergencia y seguir exigiendo potencia al motor.</li><li>Ajustar la varilla del actuador sin saber la medida original: puede provocar sobrepresión.</li><li>Confundir el solenoide de la wastegate con el de la geometría variable en turbos de otro tipo.</li></ul><h2>Cuándo acudir al taller</h2><ul><li>Si el turbo sobrepresiona o apenas sopla y no encuentras manguitos defectuosos.</li><li>Si la cápsula no mantiene el vacío o la varilla está agarrotada.</li><li>Si hay aceite en los manguitos del turbo o ruidos metálicos que apunten a daño interno.</li></ul><h2>Códigos relacionados</h2><ul><li>P0243: circuito del solenoide de la wastegate A.</li><li>P0246: señal alta del solenoide de la wastegate A.</li><li>P0299: presión del turbo por debajo de la demandada.</li><li>P0234: sobrepresión del turbo.</li><li>P0238: señal alta del sensor de presión del turbo.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Puedo conducir con el P0245?",
+      "answer": "Con cuidado y a poca carga, sí, pero el turbo puede perder el control. Si hay modo de emergencia o falta de potencia, es mejor evitar tramos exigentes."
+    },
+    {
+      "question": "¿Qué provoca el P0245 en un turbo con actuador neumático?",
+      "answer": "Un circuito abierto o en cortocircuito en el solenoide que dosifica el aire a la cápsula. También puede haber manguitos rotos o cable dañado."
+    },
+    {
+      "question": "¿Es lo mismo que el P0299?",
+      "answer": "No. El P0299 indica que la presión no llega a lo ordenado, sea cual sea la causa. El P0245 señala un fallo eléctrico concreto del solenoide."
+    },
+    {
+      "question": "¿Puedo limpiar el solenoide?",
+      "answer": "Si está sucio, puede ayudar, pero si la bobina está abierta o en cortocircuito hay que sustituirlo."
+    },
+    {
+      "question": "¿Se puede probar el solenoide sin desmontar el turbo?",
+      "answer": "Sí. Se mide su resistencia y la alimentación en el conector, y se comprueba con vacío manual el movimiento de la cápsula."
+    },
+    {
+      "question": "¿Cuánto cuesta un solenoide nuevo?",
+      "answer": "Entre 40 y 180 € de recambio, más mano de obra, según marca y modelo."
+    },
+    {
+      "question": "¿Es normal que se encienda el testigo del turbo?",
+      "answer": "Sí, cuando la centralita detecta un fallo que afecta a la presión de sobrealimentación puede activar el modo de emergencia y un aviso en el cuadro."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "bomba de vacío manual"
+  ],
+  "related": [
+    "p0243",
+    "p0299",
+    "p0234",
+    "p0238",
+    "testigo-turbo",
+    "turbo-ventajas-riesgos-cuidados",
+    "guia-multimetro-sensores"
+  ],
+  "featured_image": "/img/articulos/codigo-p0245.webp"
+}

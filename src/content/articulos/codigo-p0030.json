@@ -1,0 +1,61 @@
+{
+  "type": "codigo",
+  "code": "P0030",
+  "name": "Control del calefactor de la sonda lambda (banco 1, sensor 1)",
+  "datePublished": "2026-11-23",
+  "dateModified": "2026-11-23",
+  "review_status": "draft-ia",
+  "generated_by": "Claude (redactada en sesión de trabajo)",
+  "seo": {
+    "meta_title": "Código P0030: calefactor sonda lambda, causas y solución",
+    "meta_description": "Código P0030: fallo en el circuito de control del calefactor de la sonda lambda delantera, banco 1 sensor 1. Fusible, relé, calefactor abierto, pruebas y costes.",
+    "slug": "p0030"
+  },
+  "content_html": "<h1>Código P0030: Control del calefactor de la sonda lambda (banco 1, sensor 1)</h1>\n<p class=\"intro\">El código P0030 indica que la centralita no logra gobernar el calefactor de la sonda lambda delantera del banco 1. Sin ese calentamiento la sonda tarda en trabajar y el motor se queda más tiempo en lazo abierto, con más consumo y emisiones. Casi siempre el origen es eléctrico: fusible, relé, cableado o la propia resistencia interna.</p>\n<h2>Ficha técnica</h2>\n<table class=\"ficha\"><tbody><tr><th scope=\"row\">Gravedad del fallo</th><td>Media: el coche circula, pero consume más y contamina más hasta que la sonda se calienta con los gases</td></tr><tr><th scope=\"row\">Sistemas afectados</th><td>Sonda lambda delantera, fusible y relé del calefactor, mazo de cables, centralita</td></tr><tr><th scope=\"row\">Coste estimado de taller</th><td>20–280 €, según sea fusible, relé, conector o sonda</td></tr><tr><th scope=\"row\">Herramientas necesarias</th><td>Escáner OBD2 con datos en vivo, multímetro, lámpara de pruebas o puntas de prueba, llave de sondas</td></tr></tbody></table>\n<!--ad-slot-1-->\n<h2>Síntomas habituales</h2><ul><li>Testigo de motor encendido con el P0030 guardado, a veces acompañado del P0135.</li><li>Arranques en frío con ralentí algo inestable durante el primer minuto.</li><li>Consumo de combustible superior al habitual, sobre todo en trayectos cortos de ciudad.</li><li>Olor a gasolina sin quemar o humo oscuro leve en frío, porque la mezcla se enriquece sin corrección fina.</li><li>Resultado desfavorable en la ITV por emisiones o por el testigo encendido.</li><li>En algunos modelos, modo de emergencia leve con menos respuesta al acelerar en frío.</li></ul>\n<h2>Causas principales</h2><ul><li>Fusible del calefactor de sondas fundido o con falso contacto en la caja de fusibles.</li><li>Relé de alimentación del calefactor con los contactos picados o la bobina interrumpida.</li><li>Calefactor interno de la sonda abierto o con la resistencia fuera de rango por envejecimiento.</li><li>Cable de alimentación o de masa del calefactor cortado, fundido por el escape o con terminales sulfatados.</li><li>Conector de la sonda mal encajado, con humedad o con el pin del calefactor suelto.</li><li>Salida de potencia de la centralita dañada, algo poco frecuente que solo se confirma al descartar todo lo demás.</li></ul>\n<h2>Qué significa el P0030 y cómo lo detecta la centralita</h2><p>Una sonda lambda de zirconio solo mide bien por encima de unos 300 °C. Para no esperar a que el escape se caliente, lleva dentro una pequeña resistencia que la calienta en pocos segundos. La centralita no suele alimentar ese calefactor directamente: lo hace a través de un fusible y, en muchos coches, de un relé, y ella solo cierra el circuito a masa con una señal modulada que regula la potencia aplicada.</p><p>El P0030 se refiere a ese circuito de control. Es decir, la ECU ordena calentar y comprueba, mediante la corriente o la tensión de retorno, que el calefactor responde. Si el circuito está abierto, la respuesta no llega y se guarda el código. Según el estándar, la familia es la siguiente: P0030 es el fallo genérico del control, P0031 apunta a nivel bajo y P0032 a nivel alto, aunque cada fabricante aplica la lógica a su manera.</p><p>Esta ficha describe causas generales del estándar SAE J2012. Los valores exactos dependen del fabricante: consulta el manual de taller de tu vehículo.</p><h2>Qué lo diferencia del P0135, el P0141 y el P0136</h2><p>Los cuatro códigos se parecen porque tocan la sonda lambda, pero señalan cosas distintas y conviene no mezclarlos al comprar una pieza.</p><table class=\"cmp\"><thead><tr><th>Código</th><th>Sonda</th><th>Qué vigila</th><th>Pista práctica</th></tr></thead><tbody><tr><td>P0030</td><td>Delantera, banco 1</td><td>Control del calefactor: la orden de calentar no se ejecuta</td><td>Mira primero fusible y relé</td></tr><tr><td>P0135</td><td>Delantera, banco 1</td><td>Circuito o rendimiento del calefactor, a menudo por resistencia fuera de rango</td><td>Suele apuntar a la propia sonda</td></tr><tr><td>P0141</td><td>Trasera, banco 1</td><td>Calefactor de la sonda tras el catalizador</td><td>No afecta a la mezcla</td></tr><tr><td>P0136</td><td>Trasera, banco 1</td><td>Señal de la sonda, no su calentamiento</td><td>Cableado de señal o sonda envejecida</td></tr></tbody></table><p>Si aparecen juntos el P0030 y el P0135, lo más probable es una causa común de alimentación, como un fusible o un relé compartido, antes que dos sondas estropeadas a la vez.</p><h2>Datos en vivo y valores de referencia</h2><p>Con el escáner conectado, motor frío y luego caliente, observa la tensión de la sonda delantera, el estado de lazo (abierto o cerrado) y, si tu equipo lo ofrece, el ciclo de trabajo del calefactor. Las cifras reales las fija el manual del fabricante.</p><table class=\"cmp\"><thead><tr><th>Situación</th><th>Lectura normal</th><th>Lectura que apunta a fallo</th></tr></thead><tbody><tr><td>Arranque en frío</td><td>La ECU pasa a lazo cerrado en unas decenas de segundos</td><td>Se queda en lazo abierto mucho más tiempo</td></tr><tr><td>Resistencia del calefactor, coche frío</td><td>Pocos ohmios, normalmente entre 2 y 10 Ω según el manual</td><td>Infinita (circuito abierto) o casi cero</td></tr><tr><td>Alimentación con contacto dado</td><td>Cercana a la tensión de batería en el pin de potencia</td><td>Sin tensión: fusible, relé o cable</td></tr><tr><td>Señal de la sonda a 60 s del arranque</td><td>Oscila entre unos 0,1 y 0,9 V</td><td>Fija o con arranque muy tardío</td></tr></tbody></table>\n<h2>Cómo diagnosticar el P0030 paso a paso</h2><ol><li>Con el coche frío y el contacto quitado, localiza en el manual el fusible y el relé del calefactor de sondas y revisa su estado.</li><li>Cambia el fusible solo si está fundido y por otro del mismo amperaje; si vuelve a fundirse, hay un cortocircuito que buscar.</li><li>Intercambia el relé por otro idéntico que cumpla una función no crítica y prueba si el código se repite.</li><li>Desenchufa el conector de la sonda delantera y mira si los terminales están limpios, sin humedad ni verdín.</li><li>Mide con el multímetro la resistencia entre los dos pines del calefactor y compárala con el manual.</li><li>Con el contacto dado, mide la tensión en el pin de alimentación del conector; sin ella, revisa el cable hacia atrás.</li><li>Comprueba la continuidad del cable de control hasta la centralita, con la batería desconectada.</li><li>Borra el código, arranca en frío y confirma con datos en vivo que la ECU entra en lazo cerrado en el tiempo normal.</li></ol>\n<h2>Ejemplo de diagnóstico típico</h2><p>Escenario ilustrativo para entender el razonamiento. No corresponde a ningún vehículo real ni refleja mediciones reales.</p><p>Imaginemos un gasolina que enciende el testigo tras varios días húmedos y guarda solo el P0030. El técnico comprueba primero el fusible del calefactor y lo encuentra íntegro. Con el contacto dado mide alimentación en el conector de la sonda y no hay tensión. Retrocede hasta el relé, lo intercambia por otro igual de la misma caja y la tensión aparece. El relé original tenía la bobina intermitente. Tras sustituirlo y borrar el código, el calefactor vuelve a funcionar y se verifica que la ECU entra en lazo cerrado en el tiempo previsto. La sonda no se cambió.</p><h2>Cuánto cuesta repararlo</h2><table class=\"cmp\"><thead><tr><th>Reparación</th><th>Coste orientativo</th></tr></thead><tbody><tr><td>Fusible nuevo</td><td>1–5 € de recambio, más diagnóstico si lo cobra el taller</td></tr><tr><td>Relé del calefactor</td><td>8–40 € de recambio más 15–40 € de mano de obra</td></tr><tr><td>Reparación de conector o cableado</td><td>30–120 €</td></tr><tr><td>Sonda lambda delantera nueva</td><td>60–220 € de recambio más 30–90 € de mano de obra</td></tr><tr><td>Diagnóstico con escáner y multímetro</td><td>30–70 €</td></tr><tr><td>Sustitución o reparación de la centralita</td><td>300–900 €, solo si todo lo demás se descarta</td></tr></tbody></table><p>Los importes son orientativos para España y varían según marca, modelo y taller.</p><h2>Errores frecuentes al diagnosticar</h2><ul><li>Cambiar la sonda sin medir antes la alimentación: si falta tensión, la sonda nueva fallará igual.</li><li>Pensar que un fusible aparentemente bueno lo está: mírelo a contraluz o mídelo con continuidad.</li><li>Confundir el calefactor con la señal de la sonda y comprar una pieza que no corresponde.</li><li>Medir resistencias con el motor y el escape calientes, lo que falsea la lectura.</li><li>Borrar el código sin corregir la causa y esperar que no vuelva.</li></ul><h2>Cuándo acudir al taller</h2><ul><li>Si tras comprobar fusible, relé y conector sigues sin tensión de alimentación.</li><li>Si el código regresa con una sonda nueva, lo que apunta al mazo o a la centralita.</li><li>Si el cableado está fundido o aplastado en una zona de difícil acceso bajo el coche.</li><li>Si aparecen a la vez fallos de encendido o códigos de mezcla.</li></ul><h2>Códigos relacionados</h2><ul><li>P0031: control del calefactor con nivel bajo, banco 1 sensor 1.</li><li>P0032: control del calefactor con nivel alto, banco 1 sensor 1.</li><li>P0135: circuito del calefactor de la sonda delantera.</li><li>P0141: calefactor de la sonda trasera.</li><li>P0136: circuito de la señal de la sonda trasera.</li></ul>\n<!--ad-slot-2-->",
+  "featured_image_prompt": "Ilustración vectorial propia del sitio generada automáticamente; sin servicios externos.",
+  "schema_faq": [
+    {
+      "question": "¿Puedo seguir conduciendo con el código P0030?",
+      "answer": "Sí, el coche suele funcionar, pero con más consumo y emisiones en frío. No lo dejes mucho tiempo, porque una mezcla mal corregida acaba cargando el catalizador."
+    },
+    {
+      "question": "¿Cuál es la diferencia entre P0030 y P0135?",
+      "answer": "El P0030 se refiere al control del calefactor, la orden eléctrica que da la centralita. El P0135 habla del circuito o rendimiento del propio calefactor, que suele apuntar a la sonda."
+    },
+    {
+      "question": "¿El P0030 siempre significa sonda lambda mala?",
+      "answer": "No. Con frecuencia es un fusible, un relé o un cable. Conviene medir la alimentación y la resistencia antes de comprar la sonda."
+    },
+    {
+      "question": "¿Qué resistencia debe tener el calefactor?",
+      "answer": "Suele ser de pocos ohmios en frío, pero el valor exacto lo marca el manual del fabricante. Un valor infinito indica calefactor abierto."
+    },
+    {
+      "question": "¿Pasaré la ITV con este código?",
+      "answer": "Normalmente no: el testigo de motor encendido y las emisiones fuera de rango suelen provocar un resultado desfavorable."
+    },
+    {
+      "question": "¿Se borra solo el código?",
+      "answer": "Puede apagarse el testigo si el fallo desaparece durante varios ciclos, pero si el origen es un calefactor abierto, volverá a guardarse."
+    },
+    {
+      "question": "¿Puedo cambiar yo la sonda?",
+      "answer": "Es posible con llave de sondas y el escape templado, pero conviene diagnosticar antes. Si la rosca está agarrotada, es mejor acudir al taller."
+    }
+  ],
+  "products": [
+    "escáner obd2 bluetooth elm327",
+    "multímetro digital automotriz",
+    "llave para sondas lambda"
+  ],
+  "related": [
+    "p0135",
+    "p0141",
+    "p0136",
+    "p0130",
+    "guia-sonda-lambda",
+    "guia-reles-del-coche-como-comprobarlos",
+    "guia-cambio-fusibles"
+  ],
+  "featured_image": "/img/articulos/codigo-p0030.webp"
+}
