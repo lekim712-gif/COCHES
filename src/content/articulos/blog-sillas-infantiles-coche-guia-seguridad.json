@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Sillas infantiles para el coche: grupos, tallas e instalación correcta",
   "datePublished": "2026-11-21",
-  "dateModified": "2026-11-21",
+  "dateModified": "2026-11-23",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -57,5 +57,7 @@
     "conducir-con-lluvia-niebla-seguridad",
     "protocolo-averia-en-carretera"
   ],
-  "featured_image": "/img/articulos/blog-sillas-infantiles-coche-guia-seguridad.webp"
+  "featured_image": "/img/articulos/blog-sillas-infantiles-coche-guia-seguridad.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-23"
 }

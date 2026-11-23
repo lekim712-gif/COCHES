@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Batería de un coche eléctrico: degradación y cuidados",
   "datePublished": "2026-11-22",
-  "dateModified": "2026-11-22",
+  "dateModified": "2026-11-23",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -57,5 +57,7 @@
     "guia-coche-parado-mucho-tiempo",
     "testigo-sistema-hibrido"
   ],
-  "featured_image": "/img/articulos/blog-bateria-coche-electrico-degradacion-cuidados.webp"
+  "featured_image": "/img/articulos/blog-bateria-coche-electrico-degradacion-cuidados.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-23"
 }

@@ -3,7 +3,7 @@
   "code": "P0652",
   "name": "Circuito de tensión de referencia B bajo",
   "datePublished": "2026-11-21",
-  "dateModified": "2026-11-21",
+  "dateModified": "2026-11-23",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -51,5 +51,7 @@
     "guia-multimetro-sensores",
     "guia-datos-en-vivo-obd2"
   ],
-  "featured_image": "/img/articulos/codigo-p0652.webp"
+  "featured_image": "/img/articulos/codigo-p0652.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-23"
 }

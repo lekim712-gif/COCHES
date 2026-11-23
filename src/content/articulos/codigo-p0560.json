@@ -3,7 +3,7 @@
   "code": "P0560",
   "name": "Mal funcionamiento de la tensión del sistema",
   "datePublished": "2026-11-21",
-  "dateModified": "2026-11-21",
+  "dateModified": "2026-11-23",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -51,5 +51,7 @@
     "testigo-bateria",
     "guia-comprobar-alternador"
   ],
-  "featured_image": "/img/articulos/codigo-p0560.webp"
+  "featured_image": "/img/articulos/codigo-p0560.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-23"
 }

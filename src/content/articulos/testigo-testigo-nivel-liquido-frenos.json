@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Aviso de nivel bajo del líquido de frenos: qué significa y qué hacer",
   "datePublished": "2026-11-22",
-  "dateModified": "2026-11-22",
+  "dateModified": "2026-11-23",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -55,5 +55,7 @@
     "guia-pedal-freno-blando",
     "guia-cuando-cambiar-frenos"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-nivel-liquido-frenos.webp"
+  "featured_image": "/img/articulos/testigo-testigo-nivel-liquido-frenos.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-23"
 }

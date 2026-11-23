@@ -2,7 +2,7 @@
   "type": "testigo",
   "name": "Aviso de fallo de faros adaptativos y nivelación: qué hacer",
   "datePublished": "2026-11-22",
-  "dateModified": "2026-11-22",
+  "dateModified": "2026-11-23",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -55,5 +55,7 @@
     "preparar-itv-causas-suspenso",
     "guia-cuando-cambiar-amortiguadores"
   ],
-  "featured_image": "/img/articulos/testigo-testigo-faros-adaptativos.webp"
+  "featured_image": "/img/articulos/testigo-testigo-faros-adaptativos.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-23"
 }

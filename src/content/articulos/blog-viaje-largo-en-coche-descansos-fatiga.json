@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Viaje largo en coche: cómo planificarlo y evitar la fatiga al volante",
   "datePublished": "2026-11-22",
-  "dateModified": "2026-11-22",
+  "dateModified": "2026-11-23",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -57,5 +57,7 @@
     "guia-kit-emergencia",
     "guia-presion-neumaticos-correcta"
   ],
-  "featured_image": "/img/articulos/blog-viaje-largo-en-coche-descansos-fatiga.webp"
+  "featured_image": "/img/articulos/blog-viaje-largo-en-coche-descansos-fatiga.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-23"
 }

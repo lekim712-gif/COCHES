@@ -2,7 +2,7 @@
   "type": "blog",
   "name": "Llantas de aleación o de acero: diferencias y cómo leer sus medidas",
   "datePublished": "2026-11-21",
-  "dateModified": "2026-11-21",
+  "dateModified": "2026-11-23",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -57,5 +57,7 @@
     "guia-presion-neumaticos-correcta",
     "preparar-itv-causas-suspenso"
   ],
-  "featured_image": "/img/articulos/blog-llantas-aleacion-o-acero-medidas-neumaticos.webp"
+  "featured_image": "/img/articulos/blog-llantas-aleacion-o-acero-medidas-neumaticos.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-23"
 }

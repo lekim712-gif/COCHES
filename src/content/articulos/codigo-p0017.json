@@ -3,7 +3,7 @@
   "code": "P0017",
   "name": "Correlación cigüeñal – árbol de levas B, banco 1",
   "datePublished": "2026-11-22",
-  "dateModified": "2026-11-22",
+  "dateModified": "2026-11-23",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -56,5 +56,7 @@
     "cadena-o-correa-de-distribucion",
     "guia-distribucion-variable-vvt"
   ],
-  "featured_image": "/img/articulos/codigo-p0017.webp"
+  "featured_image": "/img/articulos/codigo-p0017.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-23"
 }

@@ -2,7 +2,7 @@
   "type": "guia",
   "name": "Relés del coche: qué son, dónde están y cómo comprobarlos",
   "datePublished": "2026-11-21",
-  "dateModified": "2026-11-21",
+  "dateModified": "2026-11-23",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -55,5 +55,7 @@
     "guia-luces-fundidas",
     "guia-cambiar-bateria"
   ],
-  "featured_image": "/img/articulos/guia-guia-reles-del-coche-como-comprobarlos.webp"
+  "featured_image": "/img/articulos/guia-guia-reles-del-coche-como-comprobarlos.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-23"
 }

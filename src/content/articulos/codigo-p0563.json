@@ -3,7 +3,7 @@
   "code": "P0563",
   "name": "Tensión del sistema eléctrico alta",
   "datePublished": "2026-11-21",
-  "dateModified": "2026-11-21",
+  "dateModified": "2026-11-23",
   "review_status": "draft-ia",
   "generated_by": "Claude (redactada en sesión de trabajo)",
   "seo": {
@@ -52,5 +52,7 @@
     "guia-comprobar-alternador",
     "guia-cambiar-bateria"
   ],
-  "featured_image": "/img/articulos/codigo-p0563.webp"
+  "featured_image": "/img/articulos/codigo-p0563.webp",
+  "reviewed_by": "Carlos Peláez",
+  "reviewed_at": "2026-11-23"
 }
