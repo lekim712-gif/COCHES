@@ -183,3 +183,14 @@ h1{letter-spacing:-.015em}
 .ctiles .ct{font-weight:700;font-size:1.1rem}
 .ctiles .cd{font-size:.92rem;color:var(--muted)}
 @media (max-width:520px){.bar-row{grid-template-columns:6.5rem 1fr 6.6rem}}
+.prose-inline{max-width:46rem}
+.prose-inline h2{margin-top:2rem}
+.card-text{padding:0}
+.card-text .card-body{padding:.8rem 1rem}
+.card-text .card-title{font-size:1rem}
+.lista-grupo h3{margin:1.6rem 0 .5rem;font-size:1.1rem}
+.lista-grupo .lg-d{font-weight:400;color:var(--muted);font-size:.9rem}
+.lista-codes{list-style:none;margin:0;padding:0;display:grid;gap:.35rem .8rem;grid-template-columns:repeat(auto-fill,minmax(19rem,1fr))}
+.lista-codes a{display:block;padding:.45rem .7rem;background:var(--surface);border:1px solid var(--line);border-radius:8px;text-decoration:none;color:var(--ink);font-size:.92rem;line-height:1.35}
+.lista-codes a:hover{border-color:var(--amber)}
+.lista-codes b{font-family:var(--mono);color:var(--accent);margin-right:.3rem}

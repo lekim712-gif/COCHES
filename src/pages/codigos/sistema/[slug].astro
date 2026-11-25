@@ -1,0 +1,37 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Card from '../../../components/Card.astro';
+import { allArticles, byType, urlOf } from '../../../lib/articles';
+import { FAMILIES } from '../../../data/families';
+export function getStaticPaths() { return FAMILIES.map((f) => ({ params: { slug: f.slug }, props: { f } })); }
+const { f } = Astro.props;
+const all = await allArticles();
+const codes = byType(all, 'codigo');
+const items = f.codes.map((s) => codes.find((a) => a.data.seo.slug === s)).filter(Boolean);
+const site = Astro.site!;
+const path = `/codigos/sistema/${f.slug}/`;
+const jsonLd = [
+  { '@type': 'BreadcrumbList', itemListElement: [['Inicio', '/'], ['Códigos OBD2', '/codigos/'], ['Por sistema', '/codigos/sistema/'], [f.name, path]].map(([n, h], i) => ({ '@type': 'ListItem', position: i + 1, name: n, item: new URL(h, site).href })) },
+  { '@type': 'CollectionPage', name: f.h1, url: new URL(path, site).href, inLanguage: 'es', mainEntity: { '@type': 'ItemList', itemListElement: items.map((a, i) => ({ '@type': 'ListItem', position: i + 1, url: new URL(urlOf(a), site).href, name: `${a.data.code}: ${a.data.name}` })) } },
+  { '@type': 'FAQPage', mainEntity: f.faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base title={f.title} description={f.desc} jsonLd={jsonLd}>
+  <div class="wrap wide">
+    <nav class="crumbs" aria-label="Migas de pan"><ol><li><a href="/">Inicio</a></li><li><a href="/codigos/">Códigos OBD2</a></li><li><a href="/codigos/sistema/">Por sistema</a></li><li><span aria-current="page">{f.name}</span></li></ol></nav>
+    <h1>{f.h1}</h1>
+    <p class="lead">{f.intro}</p>
+    <h2>Códigos de esta familia ({items.length})</h2>
+    <div class="grid">{items.map((a) => <Card a={a} variant="text" />)}</div>
+    <div class="prose-inline">
+      <h2>Cómo diagnosticar esta familia de códigos</h2>
+      {f.how.map((p) => <p>{p}</p>)}
+      <p class="note">Información orientativa: consulta siempre el manual de taller de tu vehículo. Si un fallo afecta a la seguridad o el coche funciona mal, acude a un profesional.</p>
+      <h2>Preguntas frecuentes</h2>
+      <section class="faq">{f.faq.map(([q, a]) => <div class="qa"><h3>{q}</h3><p>{a}</p></div>)}</section>
+      <h2>Guías relacionadas</h2>
+      <ul>{f.guides.map(([l, h]) => <li><a href={h}>{l}</a></li>)}</ul>
+      <p><a href="/codigos/sistema/">← Ver todas las familias de códigos</a> · <a href="/lista-codigos-obd2/">Lista completa de códigos OBD2</a></p>
+    </div>
+  </div>
+</Base>

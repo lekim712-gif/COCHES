@@ -4,6 +4,7 @@ import AdSlot from './AdSlot.astro';
 import Affiliate from './Affiliate.astro';
 import { SITE, CATEGORIES } from '../config';
 import { urlOf, resolveRelated, type Article } from '../lib/articles';
+import { familyOf } from '../data/families';
 const { article, all, crumbs, extraLinks = [] } = Astro.props as { article: Article; all: Article[]; crumbs: [string, string][]; extraLinks?: Article[] };
 const d = article.data;
 const parts = d.content_html.split(/<!--ad-slot-[12]-->/);
@@ -17,6 +18,7 @@ const tocItems = (d.type === 'guia' || d.type === 'blog') ? [...(parts[0] + (par
 const introEnd = parts[0].indexOf('</p>') + 4;
 const head = parts[0].slice(0, introEnd), rest = addIds(parts[0].slice(introEnd)), rest2 = addIds(parts[1] ?? '');
 const url = new URL(urlOf(article), site).href;
+const families = d.type === 'codigo' ? familyOf(d.seo.slug) : [];
 const orgId = new URL('/#organization', site).href;
 const reviewed = d.reviewed_by ? { name: d.reviewed_by, at: d.reviewed_at } : null;
 const fmt = (s: string) => new Date(s).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
@@ -49,6 +51,7 @@ const jsonLd = [
           <ul>{related.map((a) => <li><a href={urlOf(a)}>{a.data.name}</a></li>)}</ul>
         </section>
       )}
+      {families.length > 0 && <p class="meta" style="border-top:0;padding-top:0;margin-top:1.4rem">Más sobre este sistema: {families.map((f, i) => <>{i > 0 && ' · '}<a href={`/codigos/sistema/${f.slug}/`}>{f.name}</a></>)} · <a href="/lista-codigos-obd2/">Lista de códigos OBD2</a></p>}
       <p class="meta">Última actualización: <time datetime={d.dateModified}>{fmt(d.dateModified)}</time> · <a href="/metodologia/">Cómo elaboramos las fichas</a></p>
       {reviewed
         ? <p class="meta disclaimer"><strong>Revisada por <a href="/autores/revisor-tecnico/">{reviewed.name}</a></strong>{reviewed.at && <> el <time datetime={reviewed.at}>{fmt(reviewed.at)}</time></>}, mecánico. Ficha elaborada con ayuda de inteligencia artificial. Información orientativa: no sustituye al manual de taller ni a un profesional.</p>

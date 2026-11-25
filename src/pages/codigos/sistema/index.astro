@@ -1,0 +1,15 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { allArticles, byType } from '../../../lib/articles';
+import { FAMILIES } from '../../../data/families';
+const codes = byType(await allArticles(), 'codigo').map((a) => a.data.seo.slug);
+---
+<Base title="Códigos OBD2 por sistema del coche: encendido, EGR, turbo, sondas lambda" description="Explora los códigos de avería OBD2 por sistema: fallos de encendido, sondas lambda, EGR, EVAP, catalizador, turbo, sensores, combustible, centralita y transmisión.">
+  <div class="wrap wide">
+    <nav class="crumbs" aria-label="Migas de pan"><ol><li><a href="/">Inicio</a></li><li><a href="/codigos/">Códigos OBD2</a></li><li><span aria-current="page">Por sistema</span></li></ol></nav>
+    <h1>Códigos OBD2 por sistema</h1>
+    <p class="lead">Si no sabes qué código buscar o quieres entender todo un sistema del coche, empieza por aquí: cada familia explica cómo funciona, cómo se diagnostica y enlaza a todos sus códigos.</p>
+    <ul class="ctiles">{FAMILIES.map((f) => <li><a href={`/codigos/sistema/${f.slug}/`}><span class="ct">{f.name}</span><span class="cd">{f.desc}</span><span class="tile-n">{f.codes.filter((c) => codes.includes(c)).length} códigos</span></a></li>)}</ul>
+    <p><a href="/lista-codigos-obd2/">Lista completa de códigos OBD2 →</a></p>
+  </div>
+</Base>

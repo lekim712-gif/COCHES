@@ -188,3 +188,5 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - 25/11: rediseño visual: logo nuevo (cuentarrevoluciones), portada con hero, buscador y chips, tarjetas con imagen (blog, testigos, guías), bloques de enlaces internos en la home (blog, códigos recientes, testigos, guías), bloque de confianza del revisor.
 
 - 25/11: sección Calculadoras (/calculadoras/): consumo de combustible y coste de viaje, coste anual de un coche, medidas de neumáticos, mezcla de refrigerante, coste de recarga eléctrico y conversor de presión. En el menú y en la portada.
+
+- 25/11: 13 páginas por familia de códigos (/codigos/sistema/...), índice de familias y página /lista-codigos-obd2/ (rangos y lista de fichas). Enlace «Más sobre este sistema» en cada ficha de código.

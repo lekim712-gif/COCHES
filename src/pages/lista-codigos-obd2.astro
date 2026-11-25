@@ -1,0 +1,56 @@
+---
+import Base from '../layouts/Base.astro';
+import { allArticles, byType, urlOf } from '../lib/articles';
+const all = await allArticles();
+const codes = byType(all, 'codigo').sort((a, b) => a.data.code!.localeCompare(b.data.code!));
+const groups: [string, string, (c: string) => boolean][] = [
+  ['P0000–P0099', 'Medición de combustible y aire, y controles auxiliares de emisiones', (c) => /^P00/.test(c)],
+  ['P0100–P0199', 'Medición de combustible y aire: caudalímetro, presión, temperaturas, sondas lambda y mezcla', (c) => /^P01/.test(c)],
+  ['P0200–P0299', 'Inyectores, bomba de combustible y turbo', (c) => /^P02/.test(c)],
+  ['P0300–P0399', 'Encendido y fallos de encendido; sensores del cigüeñal y del árbol de levas', (c) => /^P03/.test(c)],
+  ['P0400–P0499', 'Control auxiliar de emisiones: EGR, aire secundario, catalizador y EVAP', (c) => /^P04/.test(c)],
+  ['P0500–P0599', 'Velocidad del vehículo, ralentí y entradas auxiliares; tensión del sistema', (c) => /^P05/.test(c)],
+  ['P0600–P0699', 'Centralita y circuitos de salida', (c) => /^P06/.test(c)],
+  ['P0700–P0899', 'Transmisión y caja de cambios', (c) => /^P0[78]/.test(c)],
+  ['P2000–P2999', 'Códigos genéricos adicionales (filtro de partículas, turbo, inyección, SCR)', (c) => /^P2/.test(c)],
+  ['B — Carrocería', 'Airbags, climatización, confort y cierre', (c) => /^B/.test(c)],
+  ['C — Chasis', 'ABS, control de estabilidad, dirección y suspensión', (c) => /^C/.test(c)],
+  ['U — Red de comunicaciones', 'Comunicación entre módulos (CAN)', (c) => /^U/.test(c)],
+];
+const faq: [string, string][] = [
+  ['¿Qué significa cada letra de un código OBD2?', 'P es el tren motriz (motor y transmisión), B la carrocería, C el chasis y U la red de comunicaciones entre módulos.'],
+  ['¿Qué diferencia hay entre un código genérico y uno del fabricante?', 'El primer dígito indica el tipo: 0 es un código genérico, común a todos los fabricantes, y 1 es específico de un fabricante. Los P2 también son genéricos y los P3 se reparten entre genéricos y de fabricante.'],
+  ['¿Cómo leo un código si mi coche no lo muestra?', 'Necesitas un escáner OBD2 conectado al puerto de diagnóstico del coche, normalmente bajo el volante. Hay modelos baratos con Bluetooth y otros con pantalla.'],
+  ['¿Un código me dice qué pieza cambiar?', 'No: indica en qué sistema o circuito detectó la centralita un problema. Hay que diagnosticar antes de sustituir piezas.'],
+];
+const site = Astro.site!;
+const jsonLd = [
+  { '@type': 'BreadcrumbList', itemListElement: [['Inicio', '/'], ['Códigos OBD2', '/codigos/'], ['Lista de códigos', '/lista-codigos-obd2/']].map(([n, h], i) => ({ '@type': 'ListItem', position: i + 1, name: n, item: new URL(h, site).href })) },
+  { '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base title="Lista de códigos de avería OBD2: significado por rangos y por sistema" description="Lista de códigos de error OBD2: cómo se estructuran (P, B, C, U), qué significa cada rango y enlace a la ficha de cada código con causas, síntomas y solución." jsonLd={jsonLd}>
+  <div class="wrap wide">
+    <nav class="crumbs" aria-label="Migas de pan"><ol><li><a href="/">Inicio</a></li><li><a href="/codigos/">Códigos OBD2</a></li><li><span aria-current="page">Lista de códigos</span></li></ol></nav>
+    <h1>Lista de códigos de avería OBD2</h1>
+    <p class="lead">Un código OBD2 tiene cinco caracteres y cada parte significa algo. Aquí tienes cómo se estructuran, qué significa cada rango y la lista de los códigos que ya explicamos con detalle ({codes.length} fichas).</p>
+    <div class="prose-inline" style="max-width:none">
+      <h2>Cómo se lee un código</h2>
+      <p>Tomemos <strong>P0420</strong>. La primera letra indica el sistema: <strong>P</strong> (motor y transmisión), <strong>B</strong> (carrocería), <strong>C</strong> (chasis) o <strong>U</strong> (red de comunicaciones). El primer dígito indica si el código es genérico (0) o del fabricante (1); el segundo señala el subsistema, y los dos últimos identifican el fallo concreto. Por eso el P0420 es un código genérico del motor relacionado con el control de emisiones (catalizador).</p>
+      <h2>Rangos de códigos P (motor y transmisión)</h2>
+      <div style="overflow-x:auto"><table class="cmp"><thead><tr><th>Rango</th><th>Qué abarca</th></tr></thead><tbody>
+        {groups.slice(0, 9).map(([r, d]) => <tr><td><strong>{r}</strong></td><td>{d}</td></tr>)}
+      </tbody></table></div>
+      <p>Los códigos P1000 en adelante suelen ser específicos de cada fabricante: dos marcas pueden usar el mismo número para fallos distintos. En esos casos, consulta el manual de tu modelo.</p>
+      <h2>Familias de códigos por sistema</h2>
+      <p>Si prefieres entender un sistema completo, mira nuestras <a href="/codigos/sistema/">familias de códigos</a>: fallos de encendido, sondas lambda, EGR, EVAP, catalizador, turbo, sensores de temperatura, combustible e inyectores, centralita y transmisión.</p>
+      <h2>Códigos con ficha en OBDCódigos</h2>
+    </div>
+    {groups.map(([r, d, test]) => { const list = codes.filter((a) => test(a.data.code!)); return list.length > 0 && <section class="lista-grupo"><h3>{r} <span class="lg-d">· {d}</span></h3><ul class="lista-codes">{list.map((a) => <li><a href={urlOf(a)}><b>{a.data.code}</b> {a.data.name}</a></li>)}</ul></section>; })}
+    <div class="prose-inline">
+      <h2>Preguntas frecuentes</h2>
+      <section class="faq">{faq.map(([q, a]) => <div class="qa"><h3>{q}</h3><p>{a}</p></div>)}</section>
+      <p class="note">Ampliamos las fichas cada día. Si buscas un código que no está, <a href="/codigos/">usa el buscador de códigos</a> o escríbenos desde la página de <a href="/contacto/">contacto</a>.</p>
+    </div>
+  </div>
+</Base>
