@@ -168,8 +168,8 @@ h1{letter-spacing:-.015em}
 .res .big .rv{font-size:1.9rem;color:var(--accent)}
 .note{font-size:.88rem;color:var(--muted);margin:.8rem 0 0}
 .bar-row{display:grid;grid-template-columns:9rem 1fr 8.2rem;gap:.6rem;align-items:center;margin:.35rem 0;font-size:.9rem}
-.bar{height:.7rem;border-radius:99px;background:var(--line);overflow:hidden}
-.bar i{display:block;height:100%;background:var(--amber);border-radius:99px;min-width:2px}
+.meter{height:.7rem;border-radius:99px;background:var(--line);overflow:hidden}
+.meter i{display:block;height:100%;background:var(--amber);border-radius:99px;min-width:2px}
 .chk{display:flex;align-items:center;gap:.5rem;margin-top:.4rem;font-size:.95rem}
 .chk input{width:1.15rem;height:1.15rem}
 .warn{background:var(--warn-bg);border:1px solid var(--amber);border-radius:10px;padding:.6rem .8rem;font-size:.92rem;margin-top:.8rem}
@@ -194,3 +194,22 @@ h1{letter-spacing:-.015em}
 .lista-codes a{display:block;padding:.45rem .7rem;background:var(--surface);border:1px solid var(--line);border-radius:8px;text-decoration:none;color:var(--ink);font-size:.92rem;line-height:1.35}
 .lista-codes a:hover{border-color:var(--amber)}
 .lista-codes b{font-family:var(--mono);color:var(--accent);margin-right:.3rem}
+.opts{display:grid;gap:.6rem;grid-template-columns:repeat(auto-fill,minmax(14rem,1fr));margin:.4rem 0 .6rem}
+.opt{font:inherit;text-align:left;padding:.8rem 1rem;border:2px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);cursor:pointer;min-height:48px;line-height:1.3;transition:border-color .15s,transform .15s}
+.opt:hover{border-color:var(--amber);transform:translateY(-1px)}
+.opt-s{display:inline-block;min-height:40px;padding:.5rem .9rem;font-size:.92rem;margin-right:.4rem}
+.nav-a{margin:1rem 0 0}
+.urg{display:inline-block;margin:0;padding:.25rem .7rem;border-radius:99px;font-size:.82rem;font-weight:700}
+.urg-stop{background:#c0392b;color:#fff}
+.urg-taller{background:var(--amber);color:#14181f}
+.urg-revisar{background:#2e7d32;color:#fff}
+.hero-cta{margin:1.2rem 0 0}
+.btn{display:inline-block;padding:.7rem 1.1rem;border-radius:12px;background:var(--amber);color:#14181f;font-weight:700;text-decoration:none}
+.btn:hover{filter:brightness(1.07)}
+@media (max-width:899px){
+  .site-header{position:static}
+  .bar nav{width:100%}
+  .site-header nav ul{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+  .site-header nav ul::-webkit-scrollbar{display:none}
+  .site-header nav a{white-space:nowrap;padding:.6rem .7rem}
+}

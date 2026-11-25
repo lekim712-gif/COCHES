@@ -190,3 +190,5 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - 25/11: sección Calculadoras (/calculadoras/): consumo de combustible y coste de viaje, coste anual de un coche, medidas de neumáticos, mezcla de refrigerante, coste de recarga eléctrico y conversor de presión. En el menú y en la portada.
 
 - 25/11: 13 páginas por familia de códigos (/codigos/sistema/...), índice de familias y página /lista-codigos-obd2/ (rangos y lista de fichas). Enlace «Más sobre este sistema» en cada ficha de código.
+
+- 25/11: asistente de averías (/asistente-de-averias/): árbol de síntomas con causas, urgencia y enlaces a fichas. Corregido bug de CSS que colapsaba la cabecera (clase .bar compartida con las calculadoras; ahora .meter); menú móvil con scroll horizontal.

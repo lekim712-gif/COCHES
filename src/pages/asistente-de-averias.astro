@@ -1,0 +1,79 @@
+---
+import Base from '../layouts/Base.astro';
+import { NODES, RES, URG } from '../data/asistente';
+const faq: [string, string][] = [
+  ['¿Cómo funciona el asistente de averías?', 'Eliges el síntoma principal y respondes una o dos preguntas sencillas. Te mostramos las causas más probables, qué puedes comprobar tú, lo urgente que es y las fichas y guías con más detalle.'],
+  ['¿Sustituye a un mecánico?', 'No. Es una ayuda para orientarte y para explicar mejor el problema en el taller. Si hay riesgo de seguridad, como frenos, dirección, olor a gasolina o sobrecalentamiento, para y pide ayuda profesional.'],
+  ['¿Qué hago si mi síntoma no aparece?', 'Prueba con la lista completa de testigos y la de códigos de avería, o busca tu código en el buscador de códigos si tienes un escáner OBD2.'],
+  ['¿Necesito un escáner OBD2?', 'Ayuda mucho cuando hay un testigo encendido: te da el código de avería. Si no tienes uno, puedes hacer las comprobaciones sencillas que sugiere el asistente.'],
+];
+const site = Astro.site!;
+const jsonLd = [
+  { '@type': 'BreadcrumbList', itemListElement: [['Inicio', '/'], ['Asistente de averías', '/asistente-de-averias/']].map(([n, h], i) => ({ '@type': 'ListItem', position: i + 1, name: n, item: new URL(h, site).href })) },
+  { '@type': 'WebApplication', name: 'Asistente de averías', url: new URL('/asistente-de-averias/', site).href, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Web', inLanguage: 'es', offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR' } },
+  { '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+const data = JSON.stringify({ nodes: NODES, res: RES, urg: URG });
+---
+<Base title="Asistente de averías: ¿qué le pasa a mi coche? Diagnóstico por síntoma" description="Descubre qué le pasa a tu coche: elige el síntoma (no arranca, ruido, humo, testigo, olor…), responde unas preguntas y obtén las causas más probables y qué hacer." jsonLd={jsonLd}>
+  <div class="wrap article-wrap">
+    <nav class="crumbs" aria-label="Migas de pan"><ol><li><a href="/">Inicio</a></li><li><span aria-current="page">Asistente de averías</span></li></ol></nav>
+    <h1>Asistente de averías: ¿qué le pasa a tu coche?</h1>
+    <p class="intro">Elige el síntoma principal y responde unas preguntas sencillas. Te decimos las causas más probables, lo urgente que es, qué puedes comprobar tú y a qué guía ir.</p>
+    <section class="calc" id="asist" aria-live="polite"><noscript><p>Este asistente necesita JavaScript. Mientras tanto, consulta la <a href="/mantenimiento-guias/guia-averias-habituales/">guía de averías habituales</a> o la <a href="/testigos-tablero/">lista de testigos</a>.</p></noscript></section>
+    <div class="article calc-info">
+      <h2>Cómo usar el asistente</h2>
+      <p>Empieza por lo que más te llama la atención del coche. Si tienes más de un síntoma, empieza por el más grave: un pedal de freno blando, un olor a gasolina o un sobrecalentamiento van siempre primero. Cada resultado indica un nivel de urgencia para que sepas si puedes seguir conduciendo.</p>
+      <h2>Síntomas que cubre</h2>
+      <p>Si prefieres navegar sin el asistente, estas son las guías por síntoma:</p>
+      <ul>
+        <li><a href="/mantenimiento-guias/guia-coche-no-arranca/">El coche no arranca</a></li>
+        <li><a href="/mantenimiento-guias/guia-coche-pierde-potencia/">El coche pierde potencia</a></li>
+        <li><a href="/mantenimiento-guias/guia-humo-del-escape/">Humo por el escape</a></li>
+        <li><a href="/mantenimiento-guias/guia-ruidos-al-frenar/">Ruidos al frenar</a></li>
+        <li><a href="/mantenimiento-guias/guia-olor-a-quemado/">Olor a quemado</a> y <a href="/mantenimiento-guias/guia-olor-a-gasolina/">a gasolina</a></li>
+        <li><a href="/mantenimiento-guias/guia-motor-recalentado/">Motor recalentado</a></li>
+        <li><a href="/mantenimiento-guias/guia-bateria-se-descarga-sola/">La batería se descarga sola</a></li>
+        <li><a href="/testigos-tablero/testigo-motor/">Testigo de motor encendido</a></li>
+        <li><a href="/mantenimiento-guias/guia-averias-habituales/">Averías habituales del coche</a></li>
+      </ul>
+    </div>
+    <section class="faq article" aria-labelledby="faq-h"><h2 id="faq-h">Preguntas frecuentes</h2>{faq.map(([q, a]) => <div class="qa"><h3>{q}</h3><p>{a}</p></div>)}</section>
+    <p class="meta">Resultado orientativo: no sustituye al diagnóstico de un profesional ni al manual de tu vehículo.</p>
+  </div>
+  <script type="application/json" id="asist-data" set:html={data}></script>
+  <script is:inline>
+    (function () {
+      var D = JSON.parse(document.getElementById('asist-data').textContent), box = document.getElementById('asist');
+      var nodes = {}, res = {}; D.nodes.forEach(function (n) { nodes[n.id] = n; }); D.res.forEach(function (r) { res[r.id] = r; });
+      var hist = [];
+      function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+      function show(id, push) {
+        if (push) hist.push(id);
+        var h = '';
+        if (nodes[id]) {
+          var n = nodes[id];
+          h += '<h2 style="margin-top:.1rem">' + esc(n.q) + '</h2><div class="opts">' + n.o.map(function (o) { return '<button type="button" class="opt" data-n="' + o.n + '">' + esc(o.l) + '</button>'; }).join('') + '</div>';
+        } else if (res[id]) {
+          var r = res[id];
+          h += '<p class="urg urg-' + r.u + '">' + esc(D.urg[r.u]) + '</p><h2 style="margin-top:.2rem">' + esc(r.t) + '</h2><p>' + esc(r.s) + '</p>';
+          if (r.c.length) h += '<h3>Causas más probables</h3><ol>' + r.c.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ol>';
+          if (r.k.length) h += '<h3>Qué puedes hacer ahora</h3><ul>' + r.k.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>';
+          if (r.a.length) h += '<h3>Más información</h3><ul>' + r.a.map(function (x) { return '<li><a href="' + x[1] + '">' + esc(x[0]) + '</a></li>'; }).join('') + '</ul>';
+        }
+        h += '<p class="nav-a">' + (hist.length > 1 ? '<button type="button" class="opt opt-s" id="atras">← Atrás</button> ' : '') + (hist.length > 0 && id !== 'root' ? '<button type="button" class="opt opt-s" id="reiniciar">Empezar de nuevo</button>' : '') + '</p>';
+        box.innerHTML = h;
+        try { history.replaceState(null, '', id === 'root' ? location.pathname : '#' + id); } catch (e) {}
+      }
+      box.addEventListener('click', function (e) {
+        var b = e.target.closest('button'); if (!b) return;
+        if (b.id === 'atras') { hist.pop(); show(hist[hist.length - 1], false); }
+        else if (b.id === 'reiniciar') { hist = []; show('root', true); }
+        else if (b.dataset.n) show(b.dataset.n, true);
+        box.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      var start = location.hash.slice(1);
+      if (start && (nodes[start] || res[start])) { hist = ['root']; show(start, true); } else show('root', true);
+    })();
+  </script>
+</Base>
