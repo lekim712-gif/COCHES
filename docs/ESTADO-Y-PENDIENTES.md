@@ -182,3 +182,5 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - 23/11: +4 fichas (P0030, P0036, P0245, guía correa poli-V y tensor) y +2 blog (pinchazo, señales de aviso para ir al taller); mejora en profundidad de P0302, P0303, P0304, P0132, P0102, P0442. 315 artículos.
 
 - 24/11: +4 fichas (P0501, P0521, P0524, guía datos congelados freeze frame) y +2 blog (mild hybrid, sensores de aparcamiento y cámara); mejora en profundidad de testigos motor, ESP, airbag, pastillas de freno, dirección asistida y emisiones. 321 artículos.
+
+- 25/11: +4 fichas (U0001, U0101, U0140, guía red CAN bus) y +2 blog (gasolina 95/98/E10, calefacción y A/C eficiente); mejora en profundidad de testigos precalentamiento, turbo, inmovilizador y guías cambio de aceite, coche no arranca, cambiar batería. 327 artículos.
