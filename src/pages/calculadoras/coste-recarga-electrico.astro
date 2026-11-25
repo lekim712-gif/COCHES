@@ -1,0 +1,83 @@
+---
+import CalcLayout from '../../layouts/CalcLayout.astro';
+const faq: [string, string][] = [
+  ['¿Cómo se calcula el coste de recargar un coche eléctrico?', 'Se multiplica la energía que entra en la batería por el precio del kWh, teniendo en cuenta las pérdidas de la carga (la energía que sale de la red es algo mayor que la que llega a la batería). Para un trayecto, se usa el consumo en kWh a los 100 km.'],
+  ['¿Cuánto tarda en cargarse la batería?', 'Depende de la capacidad de la batería, de la potencia del punto de carga y de la que acepte el coche. La carga se hace más lenta al acercarse al 100 %, por lo que el cálculo es una estimación.'],
+  ['¿Sale siempre más barato el eléctrico que un coche de combustión?', 'Depende del precio de la electricidad que pagues y de dónde recargues: casa, puntos públicos o carga rápida. Con carga doméstica suele salir más barato por kilómetro; en puntos públicos rápidos la diferencia se reduce.'],
+  ['¿Qué incluye y qué no incluye esta comparación?', 'Solo compara el coste de la energía por kilómetro. No incluye el precio del coche, el seguro, los impuestos, el mantenimiento ni la depreciación; para eso usa la calculadora del coste anual.'],
+];
+---
+<CalcLayout path="/calculadoras/coste-recarga-electrico/" title="Calculadora: coste de recarga de un coche eléctrico frente a gasolina" description="Calcula cuánto cuesta recargar un coche eléctrico, cuánto tarda en cargarse y compara el coste por 100 km con un coche de gasolina o diésel." h1="Coste de recarga de un coche eléctrico" lead="Compara cuánto gastas en energía por cada 100 kilómetros con un eléctrico y con un coche de combustión, y calcula el coste y el tiempo de una recarga." faq={faq} related={[['Blog: cargar un coche eléctrico en casa', '/blog/cargador-coche-electrico-en-casa/'], ['Blog: autonomía real de un coche eléctrico', '/blog/autonomia-coche-electrico-factores/'], ['Blog: híbrido, enchufable o eléctrico', '/blog/hibrido-enchufable-o-electrico/'], ['Calculadora del coste anual de un coche', '/calculadoras/coste-anual-coche/']]}>
+  <form class="calc" id="fe" novalidate>
+    <h2>1. Coste por 100 km: eléctrico frente a combustión</h2>
+    <p class="note" style="margin-top:0">Valores de ejemplo: cámbialos por los tuyos.</p>
+    <div class="fields">
+      <div class="field"><label for="ce">Consumo del eléctrico</label><div class="inp"><input id="ce" inputmode="decimal" value="16" /><span class="u">kWh/100 km</span></div></div>
+      <div class="field"><label for="pe">Precio de la electricidad</label><div class="inp"><input id="pe" inputmode="decimal" value="0,20" /><span class="u">€/kWh</span></div></div>
+      <div class="field"><label for="cg">Consumo del coche de combustión</label><div class="inp"><input id="cg" inputmode="decimal" value="6,5" /><span class="u">l/100 km</span></div></div>
+      <div class="field"><label for="pg">Precio del combustible</label><div class="inp"><input id="pg" inputmode="decimal" value="1,60" /><span class="u">€/l</span></div></div>
+      <div class="field"><label for="ka">Kilómetros al año</label><div class="inp"><input id="ka" inputmode="decimal" value="12000" /><span class="u">km</span></div></div>
+    </div>
+    <div class="res" aria-live="polite">
+      <div><span class="rl">Eléctrico a los 100 km</span><span class="rv" id="e100">—</span></div>
+      <div><span class="rl">Combustión a los 100 km</span><span class="rv" id="g100">—</span></div>
+      <div class="big"><span class="rl" id="dif-l">Diferencia al año</span><span class="rv" id="dif">—</span></div>
+      <div><span class="rl">Eléctrico al año</span><span class="rv" id="eyr">—</span></div>
+      <div><span class="rl">Combustión al año</span><span class="rv" id="gyr">—</span></div>
+    </div>
+  </form>
+  <form class="calc" id="fr" novalidate>
+    <h2>2. Coste y tiempo de una recarga</h2>
+    <div class="fields">
+      <div class="field"><label for="bat">Capacidad útil de la batería</label><div class="inp"><input id="bat" inputmode="decimal" value="60" /><span class="u">kWh</span></div></div>
+      <div class="field"><label for="s0">Carga inicial</label><div class="inp"><input id="s0" inputmode="decimal" value="20" /><span class="u">%</span></div></div>
+      <div class="field"><label for="s1">Carga final</label><div class="inp"><input id="s1" inputmode="decimal" value="80" /><span class="u">%</span></div></div>
+      <div class="field"><label for="kw">Potencia de carga</label><div class="inp"><input id="kw" inputmode="decimal" value="7,4" /><span class="u">kW</span></div><span class="hint">Es la menor entre la del punto y la que admite el coche.</span></div>
+      <div class="field"><label for="ef">Eficiencia de la carga</label><div class="inp"><input id="ef" inputmode="decimal" value="90" /><span class="u">%</span></div><span class="hint">Se pierde algo de energía en la carga.</span></div>
+      <div class="field"><label for="pr">Precio por kWh</label><div class="inp"><input id="pr" inputmode="decimal" value="0,20" /><span class="u">€/kWh</span></div></div>
+    </div>
+    <div class="res" aria-live="polite">
+      <div><span class="rl">Energía que entra en la batería</span><span class="rv" id="r-kwh">—</span></div>
+      <div><span class="rl">Tiempo estimado</span><span class="rv" id="r-t">—</span></div>
+      <div class="big"><span class="rl">Coste de la recarga</span><span class="rv" id="r-c">—</span></div>
+    </div>
+    <p class="note">El tiempo real es mayor al acercarse al 100 %, porque la potencia de carga baja. Es una estimación.</p>
+  </form>
+  <Fragment slot="info">
+    <h2>Cómo se calcula</h2>
+    <p>El coste por 100 km de un eléctrico es el consumo en kWh por el precio del kWh. En un coche de combustión es el consumo en litros por el precio del litro. Para una recarga, la energía necesaria es la capacidad de la batería por el tramo de carga (final menos inicial); el coste se calcula con la energía que sale de la red, que es algo mayor por las pérdidas, y el tiempo es esa energía dividida entre la potencia.</p>
+    <h2>Dónde recargar y por qué cambia el precio</h2>
+    <ul>
+      <li><strong>En casa:</strong> suele ser lo más económico, sobre todo con una tarifa que premie la noche.</li>
+      <li><strong>Puntos públicos de carga lenta o semirrápida:</strong> precio intermedio.</li>
+      <li><strong>Carga rápida en ruta:</strong> más cómoda para viajar, pero el kWh suele ser más caro.</li>
+    </ul>
+    <p>Para instalar un punto de carga en casa, consulta con un instalador autorizado y revisa la normativa vigente.</p>
+  </Fragment>
+  <script slot="script" is:inline>
+    (function () {
+      var C = window.C;
+      C.bind('fe', function () {
+        var ce = C.n('ce'), pe = C.n('pe'), cg = C.n('cg'), pg = C.n('pg'), ka = C.n('ka');
+        var e = ce >= 0 && pe >= 0 ? ce * pe : NaN, g = cg >= 0 && pg >= 0 ? cg * pg : NaN;
+        C.set('e100', C.eur(e)); C.set('g100', C.eur(g));
+        var ey = e * ka / 100, gy = g * ka / 100;
+        C.set('eyr', ka > 0 ? C.eur(ey, 0) : '—'); C.set('gyr', ka > 0 ? C.eur(gy, 0) : '—');
+        if (isFinite(ey) && isFinite(gy) && ka > 0) {
+          var d = gy - ey;
+          C.set('dif-l', d >= 0 ? 'Ahorro anual con el eléctrico (solo energía)' : 'El eléctrico cuesta más al año (solo energía)');
+          C.set('dif', C.eur(Math.abs(d), 0));
+        } else { C.set('dif', '—'); }
+      });
+      C.bind('fr', function () {
+        var b = C.n('bat'), a = C.n('s0'), z = C.n('s1'), kw = C.n('kw'), ef = C.n('ef'), p = C.n('pr');
+        if (!(b > 0 && z > a && a >= 0 && z <= 100 && kw > 0 && ef > 0 && ef <= 100 && p >= 0)) { C.set('r-kwh', '—'); C.set('r-t', '—'); C.set('r-c', '—'); return; }
+        var kwh = b * (z - a) / 100, red = kwh / (ef / 100), h = kwh / kw;
+        C.set('r-kwh', C.fmt(kwh, 1) + ' kWh');
+        var hh = Math.floor(h), mm = Math.round((h - hh) * 60); if (mm === 60) { hh++; mm = 0; }
+        C.set('r-t', (hh > 0 ? hh + ' h ' : '') + mm + ' min');
+        C.set('r-c', C.eur(red * p));
+      });
+    })();
+  </script>
+</CalcLayout>

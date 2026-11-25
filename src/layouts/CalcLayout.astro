@@ -1,0 +1,25 @@
+---
+import Base from './Base.astro';
+const { title, description, h1, lead, path, faq = [], related = [] } = Astro.props as { title: string; description: string; h1: string; lead: string; path: string; faq?: [string, string][]; related?: [string, string][] };
+const site = Astro.site!;
+const url = new URL(path, site).href;
+const jsonLd = [
+  { '@type': 'BreadcrumbList', itemListElement: [['Inicio', '/'], ['Calculadoras', '/calculadoras/'], [h1, path]].map(([n, h], i) => ({ '@type': 'ListItem', position: i + 1, name: n, item: new URL(h, site).href })) },
+  { '@type': 'WebApplication', name: h1, url, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Web', inLanguage: 'es', offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR' } },
+  ...(faq.length ? [{ '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) }] : []),
+];
+---
+<Base title={title} description={description} jsonLd={jsonLd}>
+  <div class="wrap article-wrap calc-page">
+    <nav class="crumbs" aria-label="Migas de pan"><ol><li><a href="/">Inicio</a></li><li><a href="/calculadoras/">Calculadoras</a></li><li><span aria-current="page">{h1}</span></li></ol></nav>
+    <h1>{h1}</h1>
+    <p class="intro">{lead}</p>
+    <slot />
+    <div class="article calc-info"><slot name="info" /></div>
+    {faq.length > 0 && <section class="faq article" aria-labelledby="faq-h"><h2 id="faq-h">Preguntas frecuentes</h2>{faq.map(([q, a]) => <div class="qa"><h3>{q}</h3><p>{a}</p></div>)}</section>}
+    {related.length > 0 && <section class="related"><h2>Te puede interesar</h2><ul>{related.map(([l, h]) => <li><a href={h}>{l}</a></li>)}</ul></section>}
+    <p class="meta">Resultados orientativos: dependen de los datos que introduzcas y no sustituyen el manual de tu vehículo ni el consejo de un profesional. <a href="/calculadoras/">Ver todas las calculadoras</a>.</p>
+  </div>
+  <script is:inline src="/calc.js"></script>
+  <slot name="script" />
+</Base>

@@ -1,0 +1,87 @@
+---
+import CalcLayout from '../../layouts/CalcLayout.astro';
+const faq: [string, string][] = [
+  ['¿Qué gastos entran en el coste anual de un coche?', 'Los fijos (seguro, impuesto de circulación, ITV, aparcamiento o garaje) y los variables (combustible, mantenimiento, neumáticos, peajes, lavados y multas), además de la depreciación: lo que pierde de valor el coche cada año aunque no lo veas en la cuenta.'],
+  ['¿Cómo calculo la depreciación?', 'Resta al precio al que compraste el coche su valor actual estimado y divide entre los años que lo has tenido. Es una estimación: el valor real solo se conoce cuando lo vendes.'],
+  ['¿Cuánto debería gastar al año en mantenimiento?', 'Depende del coche, de la edad y del uso. Lo útil es mirar el plan de mantenimiento del fabricante y sumar revisiones, neumáticos, frenos y averías previsibles de los próximos años, y dividirlo entre ellos.'],
+  ['¿Sirve para comparar con renting, con el transporte público o con un coche eléctrico?', 'Sí: calcula el coste por kilómetro y compáralo con la cuota total del renting o con lo que pagarías en transporte público para los mismos desplazamientos. Para eléctricos, usa también la calculadora de coste de recarga.'],
+];
+---
+<CalcLayout path="/calculadoras/coste-anual-coche/" title="Calculadora del coste anual de tener un coche" description="Suma todos los gastos de tu coche (seguro, impuestos, ITV, combustible, mantenimiento, depreciación) y descubre cuánto te cuesta al año, al mes y por kilómetro." h1="Calculadora del coste anual de un coche" lead="Un coche cuesta más de lo que se ve en la gasolinera. Introduce tus gastos y calcula cuánto te cuesta al año, al mes y por cada kilómetro que haces." faq={faq} related={[['Blog: cuánto cuesta tener un coche al año', '/blog/cuanto-cuesta-tener-un-coche-al-ano/'], ['Blog: renting, leasing o compra', '/blog/renting-leasing-o-compra/'], ['Blog: seguro a terceros, ampliado o todo riesgo', '/blog/seguro-terceros-ampliado-todo-riesgo/'], ['Calculadora de consumo de combustible', '/calculadoras/consumo-combustible/']]}>
+  <form class="calc" id="fc" novalidate>
+    <h2>Tus gastos anuales</h2>
+    <p class="note" style="margin-top:0">Los valores de ejemplo son inventados: sustitúyelos por los tuyos.</p>
+    <div class="fields">
+      <div class="field"><label for="seg">Seguro</label><div class="inp"><input id="seg" inputmode="decimal" value="450" /><span class="u">€/año</span></div></div>
+      <div class="field"><label for="imp">Impuesto de circulación</label><div class="inp"><input id="imp" inputmode="decimal" value="90" /><span class="u">€/año</span></div></div>
+      <div class="field"><label for="itv">ITV (coste medio anual)</label><div class="inp"><input id="itv" inputmode="decimal" value="25" /><span class="u">€/año</span></div><span class="hint">Si pasa cada dos años, divide entre dos.</span></div>
+      <div class="field"><label for="man">Mantenimiento y reparaciones</label><div class="inp"><input id="man" inputmode="decimal" value="500" /><span class="u">€/año</span></div></div>
+      <div class="field"><label for="neu">Neumáticos (coste dividido entre años de uso)</label><div class="inp"><input id="neu" inputmode="decimal" value="120" /><span class="u">€/año</span></div></div>
+      <div class="field"><label for="apa">Garaje, parking y zona regulada</label><div class="inp"><input id="apa" inputmode="decimal" value="0" /><span class="u">€/año</span></div></div>
+      <div class="field"><label for="otr">Peajes, lavados y otros</label><div class="inp"><input id="otr" inputmode="decimal" value="100" /><span class="u">€/año</span></div></div>
+    </div>
+    <h2 style="margin-top:1.2rem">Combustible o electricidad</h2>
+    <div class="fields">
+      <div class="field"><label for="kma">Kilómetros al año</label><div class="inp"><input id="kma" inputmode="decimal" value="12000" /><span class="u">km</span></div></div>
+      <div class="field"><label for="con">Consumo medio</label><div class="inp"><input id="con" inputmode="decimal" value="6,2" /><span class="u">l/100 km</span></div><span class="hint">En eléctrico, usa kWh/100 km.</span></div>
+      <div class="field"><label for="pre">Precio por litro (o por kWh)</label><div class="inp"><input id="pre" inputmode="decimal" value="1,60" /><span class="u">€</span></div></div>
+    </div>
+    <h2 style="margin-top:1.2rem">Depreciación</h2>
+    <div class="fields">
+      <div class="field"><label for="v0">Precio de compra</label><div class="inp"><input id="v0" inputmode="decimal" value="18000" /><span class="u">€</span></div></div>
+      <div class="field"><label for="v1">Valor actual estimado</label><div class="inp"><input id="v1" inputmode="decimal" value="12000" /><span class="u">€</span></div></div>
+      <div class="field"><label for="ya">Años que lo has tenido</label><div class="inp"><input id="ya" inputmode="decimal" value="4" /><span class="u">años</span></div></div>
+    </div>
+    <div class="res" aria-live="polite">
+      <div class="big"><span class="rl">Coste total al año</span><span class="rv" id="t-year">—</span></div>
+      <div><span class="rl">Al mes</span><span class="rv" id="t-month">—</span></div>
+      <div><span class="rl">Por kilómetro</span><span class="rv" id="t-km">—</span></div>
+      <div><span class="rl">Al día</span><span class="rv" id="t-day">—</span></div>
+    </div>
+    <div id="bars" style="margin-top:1rem" aria-label="Desglose de gastos"></div>
+  </form>
+  <Fragment slot="info">
+    <h2>Qué incluye cada partida</h2>
+    <table><thead><tr><th>Partida</th><th>Qué debes poner</th></tr></thead><tbody>
+      <tr><td>Seguro</td><td>La prima anual de tu póliza.</td></tr>
+      <tr><td>Impuesto de circulación</td><td>El importe que paga tu coche en tu municipio (varía según el ayuntamiento).</td></tr>
+      <tr><td>ITV</td><td>El coste de la inspección dividido entre los años que pasan entre una y otra.</td></tr>
+      <tr><td>Mantenimiento</td><td>Revisiones, aceite, filtros, frenos y reparaciones previsibles.</td></tr>
+      <tr><td>Neumáticos</td><td>El precio de un juego dividido entre los años que suelen durar.</td></tr>
+      <tr><td>Depreciación</td><td>Lo que pierde de valor el coche cada año.</td></tr>
+    </tbody></table>
+    <h2>Cómo interpretar el resultado</h2>
+    <p>El coste por kilómetro es la cifra más útil para comparar: te permite ver si te compensa usar el coche para trayectos cortos, si un renting sale mejor o si cambiar de coche mejoraría tus números. Fíjate sobre todo en lo que pesa cada partida en el gráfico: en muchos casos la depreciación y el combustible son las dos más grandes.</p>
+    <h2>Cómo reducir el coste</h2>
+    <ul>
+      <li>Compara las pólizas cada año y revisa las coberturas que realmente necesitas.</li>
+      <li>Haz el mantenimiento a tiempo: es más barato que una avería grave.</li>
+      <li>Mantén los neumáticos a su presión y alinea la dirección si tira a un lado.</li>
+      <li>Reduce los trayectos innecesarios y planifica los viajes largos.</li>
+    </ul>
+  </Fragment>
+  <script slot="script" is:inline>
+    (function () {
+      var C = window.C;
+      var parts = [['seg', 'Seguro'], ['imp', 'Impuesto'], ['itv', 'ITV'], ['man', 'Mantenimiento'], ['neu', 'Neumáticos'], ['apa', 'Garaje/parking'], ['otr', 'Otros']];
+      C.bind('fc', function () {
+        var vals = parts.map(function (p) { return [p[1], Math.max(0, C.n(p[0]) || 0)]; });
+        var km = C.n('kma'), con = C.n('con'), pre = C.n('pre');
+        var comb = km > 0 && con >= 0 && pre >= 0 ? km * con / 100 * pre : 0;
+        vals.push(['Combustible/energía', comb]);
+        var v0 = C.n('v0'), v1 = C.n('v1'), ya = C.n('ya');
+        var dep = v0 >= 0 && v1 >= 0 && ya > 0 ? Math.max(0, (v0 - v1) / ya) : 0;
+        vals.push(['Depreciación', dep]);
+        var tot = vals.reduce(function (s, v) { return s + v[1]; }, 0);
+        C.set('t-year', C.eur(tot, 0));
+        C.set('t-month', C.eur(tot / 12, 0));
+        C.set('t-day', C.eur(tot / 365, 2));
+        C.set('t-km', km > 0 ? C.eur(tot / km, 3) : '—');
+        var max = Math.max.apply(null, vals.map(function (v) { return v[1]; })) || 1;
+        document.getElementById('bars').innerHTML = vals.filter(function (v) { return v[1] > 0; }).sort(function (a, b) { return b[1] - a[1]; }).map(function (v) {
+          return '<div class="bar-row"><span>' + v[0] + '</span><span class="bar"><i style="width:' + (v[1] / max * 100).toFixed(0) + '%"></i></span><span>' + C.fmt(tot ? v[1] / tot * 100 : 0, 0) + ' % · ' + C.eur(v[1], 0) + '</span></div>';
+        }).join('');
+      });
+    })();
+  </script>
+</CalcLayout>

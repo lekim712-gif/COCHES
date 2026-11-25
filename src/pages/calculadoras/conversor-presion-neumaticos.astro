@@ -1,0 +1,56 @@
+---
+import CalcLayout from '../../layouts/CalcLayout.astro';
+const faq: [string, string][] = [
+  ['¿Cuál es la presión correcta de mis neumáticos?', 'La indicada por el fabricante: suele figurar en una etiqueta en el marco de la puerta del conductor, en la tapa del depósito o en el manual. Depende de la medida del neumático y de la carga del coche.'],
+  ['¿Cuántos psi son 2,2 bar?', 'Aproximadamente 32 psi. La calculadora convierte entre bar, psi, kPa y kg/cm² para que puedas ajustar con cualquier inflador o gasolinera.'],
+  ['¿Se mide la presión en frío o en caliente?', 'Las presiones recomendadas se refieren a neumáticos en frío, es decir, tras horas parado o menos de un par de kilómetros recorridos. En caliente, la presión sube unas décimas de forma normal: no la reduzcas.'],
+  ['¿Qué pasa si conduzco con la presión baja o alta?', 'Con poca presión aumentan el desgaste, el consumo y el riesgo de reventón; con demasiada, disminuye la adherencia y el confort. Revísala al menos una vez al mes y antes de viajes largos.'],
+];
+---
+<CalcLayout path="/calculadoras/conversor-presion-neumaticos/" title="Conversor de presión de neumáticos: bar, psi, kPa y kg/cm²" description="Convierte la presión de tus neumáticos entre bar, psi, kPa y kg/cm². Útil para ajustar la presión en cualquier gasolinera o con cualquier inflador." h1="Conversor de presión de neumáticos" lead="Escribe la presión en cualquier unidad y obtén al instante su equivalente en bar, psi, kPa y kg/cm², para inflar tus neumáticos con cualquier manómetro." faq={faq} related={[['Guía: presión correcta de los neumáticos', '/mantenimiento-guias/guia-presion-neumaticos-correcta/'], ['Testigo de presión de neumáticos', '/testigos-tablero/testigo-presion-neumaticos/'], ['Guía: cambiar una rueda', '/mantenimiento-guias/guia-cambiar-una-rueda/'], ['Calculadora de medidas de neumáticos', '/calculadoras/medidas-neumaticos/']]}>
+  <form class="calc" id="fp" novalidate>
+    <h2>Convierte la presión</h2>
+    <div class="fields">
+      <div class="field"><label for="val">Valor</label><div class="inp"><input id="val" inputmode="decimal" value="2,2" /></div></div>
+      <div class="field"><label for="un">Unidad</label><div class="inp"><select id="un"><option value="bar">bar</option><option value="psi">psi</option><option value="kpa">kPa</option><option value="kgf">kg/cm²</option></select></div></div>
+    </div>
+    <div class="res" aria-live="polite">
+      <div><span class="rl">bar</span><span class="rv" id="o-bar">—</span></div>
+      <div><span class="rl">psi</span><span class="rv" id="o-psi">—</span></div>
+      <div><span class="rl">kPa</span><span class="rv" id="o-kpa">—</span></div>
+      <div><span class="rl">kg/cm²</span><span class="rv" id="o-kgf">—</span></div>
+    </div>
+  </form>
+  <Fragment slot="info">
+    <h2>Equivalencias útiles</h2>
+    <table><thead><tr><th>bar</th><th>psi</th><th>kPa</th></tr></thead><tbody>
+      <tr><td>1,8</td><td>26,1</td><td>180</td></tr>
+      <tr><td>2,0</td><td>29,0</td><td>200</td></tr>
+      <tr><td>2,2</td><td>31,9</td><td>220</td></tr>
+      <tr><td>2,5</td><td>36,3</td><td>250</td></tr>
+      <tr><td>2,8</td><td>40,6</td><td>280</td></tr>
+      <tr><td>3,0</td><td>43,5</td><td>300</td></tr>
+    </tbody></table>
+    <p>Un bar equivale a 14,5 psi, a 100 kPa y a unos 1,02 kg/cm². En la práctica, muchos medidores de gasolinera marcan en bar y en psi: esta herramienta te evita hacer la cuenta a mano.</p>
+    <h2>Consejos para medir bien</h2>
+    <ul>
+      <li>Mide con los neumáticos fríos, antes de rodar o tras muy poco recorrido.</li>
+      <li>Usa un manómetro fiable y comprueba también la rueda de repuesto, si la tienes.</li>
+      <li>Infla a la presión del fabricante para tu carga: con el coche muy cargado, el manual suele indicar otra.</li>
+      <li>Vuelve a colocar siempre el tapón de la válvula.</li>
+    </ul>
+  </Fragment>
+  <script slot="script" is:inline>
+    (function () {
+      var C = window.C, f = { bar: 1, psi: 1 / 14.5038, kpa: 0.01, kgf: 0.980665 };
+      C.bind('fp', function () {
+        var v = C.n('val'), u = document.getElementById('un').value;
+        ['bar', 'psi', 'kpa', 'kgf'].forEach(function (k) {
+          if (!(v >= 0)) { C.set('o-' + k, '—'); return; }
+          var bar = v * f[u], out = bar / f[k];
+          C.set('o-' + k, C.fmt(out, k === 'kpa' ? 0 : k === 'psi' ? 1 : 2));
+        });
+      });
+    })();
+  </script>
+</CalcLayout>

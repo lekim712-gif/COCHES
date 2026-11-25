@@ -1,0 +1,67 @@
+---
+import CalcLayout from '../../layouts/CalcLayout.astro';
+const faq: [string, string][] = [
+  ['¿Cómo se lee la medida de un neumático?', 'Por ejemplo 205/55 R16: 205 es el ancho en milímetros, 55 es el perfil (la altura del flanco como porcentaje del ancho) y R16 indica construcción radial para una llanta de 16 pulgadas. Después suelen aparecer el índice de carga y la letra de velocidad.'],
+  ['¿Puedo montar una medida distinta a la original?', 'Solo si está recogida en la ficha técnica o en la documentación del fabricante, o si el taller la homologa. Un cambio de medida puede afectar al velocímetro, a los sistemas de seguridad y a la ITV, así que conviene confirmarlo antes de comprar.'],
+  ['¿Cuánta diferencia de diámetro es aceptable?', 'Como referencia general, se intenta mantener el diámetro total muy próximo al original, con variaciones pequeñas (del orden de un par de puntos porcentuales). El límite exacto depende del vehículo y de la normativa: consulta la ficha técnica y a tu taller.'],
+  ['¿Cambia el velocímetro si monto otra medida?', 'Sí, si cambia el diámetro total. Con un neumático más grande, el coche recorre más distancia por vuelta y el velocímetro marcará menos de lo que realmente vas. La calculadora te muestra la velocidad real para la velocidad que marca.'],
+];
+---
+<CalcLayout path="/calculadoras/medidas-neumaticos/" title="Calculadora de medidas de neumáticos: diámetro y velocímetro" description="Compara dos medidas de neumático: diámetro total, altura del flanco y diferencia de velocidad real. Útil antes de cambiar de llanta o de neumático." h1="Calculadora de medidas de neumáticos" lead="Compara el neumático original con otra medida: diámetro total, altura del flanco y cuánto se desvía el velocímetro. Así sabes si la nueva medida es parecida antes de comprar." faq={faq} related={[['Guía: cómo leer un neumático', '/mantenimiento-guias/guia-leer-un-neumatico/'], ['Blog: llantas de aleación o acero y medidas', '/blog/llantas-aleacion-o-acero-medidas-neumaticos/'], ['Blog: neumáticos de verano, invierno y 4 estaciones', '/blog/neumaticos-verano-invierno-4-estaciones/'], ['Guía: presión correcta de los neumáticos', '/mantenimiento-guias/guia-presion-neumaticos-correcta/']]}>
+  <form class="calc" id="ft" novalidate>
+    <h2>Compara dos medidas</h2>
+    <div class="fields">
+      <div class="field"><label for="m0">Medida original</label><div class="inp"><input id="m0" value="205/55 R16" autocomplete="off" /></div><span class="hint">Formato ancho/perfil R llanta, por ejemplo 205/55 R16.</span></div>
+      <div class="field"><label for="m1">Medida nueva</label><div class="inp"><input id="m1" value="225/45 R17" autocomplete="off" /></div></div>
+      <div class="field"><label for="vs">Velocidad que marca el velocímetro</label><div class="inp"><input id="vs" inputmode="decimal" value="120" /><span class="u">km/h</span></div></div>
+    </div>
+    <p class="warn" id="err" hidden>No he podido leer una de las medidas. Escríbelas así: 205/55 R16.</p>
+    <div class="res" aria-live="polite">
+      <div><span class="rl">Diámetro original</span><span class="rv" id="d0">—</span></div>
+      <div><span class="rl">Diámetro nuevo</span><span class="rv" id="d1">—</span></div>
+      <div class="big"><span class="rl">Diferencia de diámetro</span><span class="rv" id="dd">—</span></div>
+      <div><span class="rl">Flanco original</span><span class="rv" id="f0">—</span></div>
+      <div><span class="rl">Flanco nuevo</span><span class="rv" id="f1">—</span></div>
+      <div><span class="rl">Perímetro original → nuevo</span><span class="rv" id="pp">—</span></div>
+      <div><span class="rl">Velocidad real con la medida nueva</span><span class="rv" id="vr">—</span></div>
+      <div><span class="rl">Diferencia de ancho</span><span class="rv" id="da">—</span></div>
+    </div>
+    <p class="warn" id="aviso" hidden></p>
+  </form>
+  <Fragment slot="info">
+    <h2>Cómo se calcula</h2>
+    <p>El diámetro total del neumático es el diámetro de la llanta (pulgadas × 25,4 mm) más dos veces la altura del flanco. La altura del flanco es el ancho multiplicado por el perfil dividido entre 100. El perímetro es el diámetro multiplicado por pi, y la velocidad real se obtiene multiplicando la que marca el velocímetro por la relación entre el diámetro nuevo y el original.</p>
+    <h2>Ejemplo: 205/55 R16 frente a 225/45 R17</h2>
+    <p>Estas dos medidas tienen un diámetro total casi idéntico (la llanta es más grande, pero el flanco es más bajo). Por eso son una equivalencia habitual. En cambio, el ancho es mayor, lo que afecta al paso de rueda, al ruido y a la comodidad, y exige comprobar que esa medida está permitida para tu coche.</p>
+    <h2>Antes de cambiar de medida</h2>
+    <ul>
+      <li>Consulta la ficha técnica y las medidas homologadas para tu modelo.</li>
+      <li>Comprueba que el índice de carga y la letra de velocidad no sean inferiores a los originales.</li>
+      <li>Pregunta al taller por la ITV y por los sistemas de ayuda a la conducción.</li>
+      <li>Ten en cuenta el cambio en la presión recomendada: consulta el manual.</li>
+    </ul>
+  </Fragment>
+  <script slot="script" is:inline>
+    (function () {
+      var C = window.C;
+      function parse(s) { var m = String(s).replace(/\s/g, '').toUpperCase().match(/^(\d{3})\/(\d{2})(?:ZR|R|-)?(\d{2})$/); return m ? { w: +m[1], p: +m[2], r: +m[3] } : null; }
+      function calc(t) { var fl = t.w * t.p / 100; return { fl: fl, d: t.r * 25.4 + 2 * fl }; }
+      C.bind('ft', function () {
+        var a = parse(document.getElementById('m0').value), b = parse(document.getElementById('m1').value);
+        var err = document.getElementById('err'), av = document.getElementById('aviso');
+        err.hidden = !!(a && b); av.hidden = true;
+        if (!a || !b) { ['d0', 'd1', 'dd', 'f0', 'f1', 'pp', 'vr', 'da'].forEach(function (i) { C.set(i, '—'); }); return; }
+        var x = calc(a), y = calc(b), v = C.n('vs'), diff = (y.d / x.d - 1) * 100;
+        C.set('d0', C.fmt(x.d, 0) + ' mm'); C.set('d1', C.fmt(y.d, 0) + ' mm');
+        C.set('dd', (diff > 0 ? '+' : '') + C.fmt(diff, 2) + ' %');
+        C.set('f0', C.fmt(x.fl, 0) + ' mm'); C.set('f1', C.fmt(y.fl, 0) + ' mm');
+        C.set('pp', C.fmt(x.d * Math.PI / 10, 0) + ' → ' + C.fmt(y.d * Math.PI / 10, 0) + ' cm');
+        C.set('vr', v > 0 ? C.fmt(v * y.d / x.d, 1) + ' km/h' : '—');
+        C.set('da', (b.w - a.w > 0 ? '+' : '') + (b.w - a.w) + ' mm');
+        var abs = Math.abs(diff);
+        if (abs >= 3) { av.hidden = false; av.textContent = 'La diferencia de diámetro es notable (' + C.fmt(abs, 1) + ' %). Es poco probable que esta medida sea una equivalencia válida: confírmalo con la ficha técnica y con tu taller.'; }
+        else if (abs >= 1.5) { av.hidden = false; av.textContent = 'La diferencia es moderada (' + C.fmt(abs, 1) + ' %). Comprueba que la medida está homologada para tu coche y su efecto en el velocímetro y la ITV.'; }
+      });
+    })();
+  </script>
+</CalcLayout>

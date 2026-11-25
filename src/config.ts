@@ -34,5 +34,6 @@ export const CATEGORIES = {
   codigo: { path: 'codigos', label: 'Códigos OBD2', title: 'Códigos de avería OBD2', desc: 'Significado, causas, síntomas y reparación de los códigos de error OBD2 (P, B, C y U).' },
   testigo: { path: 'testigos-tablero', label: 'Testigos del tablero', title: 'Testigos del tablero', desc: 'Qué significa cada testigo del cuadro de instrumentos y qué hacer cuando se enciende.' },
   guia: { path: 'mantenimiento-guias', label: 'Mantenimiento', title: 'Guías de mantenimiento', desc: 'Guías paso a paso de mantenimiento preventivo: aceite, fusibles, filtros y más.' },
+  calc: { path: 'calculadoras', label: 'Calculadoras', title: 'Calculadoras para el coche', desc: 'Calculadoras gratuitas de consumo, costes, neumáticos y recarga.' },
   blog: { path: 'blog', label: 'Blog', title: 'Blog del coche', desc: 'Comparativas, consejos y guías de compra y uso para propietarios de coches.' },
 } as const;

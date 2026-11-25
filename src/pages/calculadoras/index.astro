@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+const calcs = [
+  { h: '/calculadoras/consumo-combustible/', t: 'Consumo de combustible', d: 'Calcula tu consumo real en l/100 km, el coste por kilómetro y lo que te costará un viaje.', i: '<path d="M10 40V10h16v30"/><path d="M26 18h6a4 4 0 0 1 4 4v12a3 3 0 0 0 6 0V20l-5-5"/><path d="M13 16h10"/><path d="M8 40h20"/>' },
+  { h: '/calculadoras/coste-anual-coche/', t: 'Coste anual de un coche', d: 'Suma seguro, impuestos, combustible, mantenimiento y depreciación: coste al año y por km.', i: '<path d="M8 28l4-10h24l4 10v8H8z"/><circle cx="16" cy="34" r="2"/><circle cx="32" cy="34" r="2"/><path d="M12 18l2-6h20l2 6"/>' },
+  { h: '/calculadoras/medidas-neumaticos/', t: 'Medidas de neumáticos', d: 'Compara dos medidas: diámetro total, flanco y desviación del velocímetro.', i: '<circle cx="24" cy="24" r="15"/><circle cx="24" cy="24" r="6"/><path d="M24 9v9M24 30v9M9 24h9M30 24h9"/>' },
+  { h: '/calculadoras/mezcla-refrigerante/', t: 'Mezcla de refrigerante', d: 'Cuánto anticongelante y cuánta agua necesitas para tu circuito.', i: '<path d="M18 8h12M20 8v10l-8 16a3 3 0 0 0 3 5h18a3 3 0 0 0 3-5l-8-16V8"/><path d="M15 30h18"/>' },
+  { h: '/calculadoras/coste-recarga-electrico/', t: 'Recarga de un coche eléctrico', d: 'Coste y tiempo de una recarga y comparación con gasolina o diésel por 100 km.', i: '<path d="M26 6L14 26h9l-2 16 13-22h-9z"/>' },
+  { h: '/calculadoras/conversor-presion-neumaticos/', t: 'Presión de neumáticos', d: 'Convierte entre bar, psi, kPa y kg/cm² para inflar con cualquier manómetro.', i: '<path d="M8 32a16 16 0 1 1 32 0"/><path d="M24 32l7-10"/><circle cx="24" cy="32" r="2"/><path d="M14 38h20"/>' },
+];
+---
+<Base title="Calculadoras para el coche: consumo, costes, neumáticos y recarga" description="Calculadoras gratuitas para propietarios de coche: consumo de combustible, coste anual, medidas de neumáticos, mezcla de refrigerante, recarga eléctrica y conversor de presión.">
+  <div class="wrap wide">
+    <h1>Calculadoras para el coche</h1>
+    <p class="lead">Herramientas gratuitas y sin registro para calcular el consumo, el coste de tener un coche, las medidas de los neumáticos, la mezcla de refrigerante y mucho más. Todo se calcula en tu navegador.</p>
+    <ul class="ctiles">{calcs.map((c) => <li><a href={c.h}><svg viewBox="0 0 48 48" width="40" height="40" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" set:html={c.i} /><span class="ct">{c.t}</span><span class="cd">{c.d}</span></a></li>)}</ul>
+    <p class="note">Los resultados son orientativos y dependen de los datos que introduzcas. No sustituyen al manual de tu vehículo ni al consejo de un profesional.</p>
+  </div>
+</Base>

@@ -1,0 +1,76 @@
+---
+import CalcLayout from '../../layouts/CalcLayout.astro';
+const faq: [string, string][] = [
+  ['¿Cómo se calcula el consumo real de mi coche?', 'Llena el depósito hasta el tope, pon el cuentakilómetros parcial a cero y conduce con normalidad. En el siguiente repostaje, vuelve a llenar hasta el tope y apunta los litros y los kilómetros. Consumo = litros ÷ kilómetros × 100. Cuantos más depósitos promedies, más fiable es el dato.'],
+  ['¿Por qué mi consumo real es distinto del que indica el fabricante?', 'El consumo homologado se mide en un ciclo de laboratorio, y el real depende del tipo de recorrido, la temperatura, la carga, los neumáticos, el uso del aire acondicionado y tu forma de conducir. Es normal una diferencia notable entre ambos.'],
+  ['¿Es fiable el ordenador de a bordo?', 'Suele ser orientativo: muchos coches muestran un consumo algo inferior al real. Para comprobarlo, compáralo con el cálculo por repostaje durante varios depósitos.'],
+  ['¿Qué hago si el consumo sube de repente?', 'Revisa la presión de los neumáticos, el filtro de aire y si hay testigos encendidos. Si el aumento es claro y sostenido, consulta la guía de consumo excesivo o pide una diagnosis.'],
+];
+---
+<CalcLayout path="/calculadoras/consumo-combustible/" title="Calculadora de consumo de combustible y coste de un viaje" description="Calcula el consumo real de tu coche en l/100 km y el coste por kilómetro, y estima cuánto te costará un viaje. Gratis y sin registro." h1="Calculadora de consumo de combustible" lead="Calcula cuánto gasta realmente tu coche a los 100 kilómetros, cuánto te cuesta cada kilómetro y qué presupuesto de combustible necesitas para un viaje." faq={faq} related={[['Guía: consumo excesivo de combustible', '/mantenimiento-guias/guia-consumo-excesivo-combustible/'], ['Blog: ahorrar combustible conduciendo', '/blog/ahorrar-combustible-conduciendo/'], ['Guía: presión correcta de los neumáticos', '/mantenimiento-guias/guia-presion-neumaticos-correcta/'], ['Blog: cuánto cuesta tener un coche al año', '/blog/cuanto-cuesta-tener-un-coche-al-ano/']]}>
+  <form class="calc" id="f1" novalidate>
+    <h2>1. Tu consumo real por repostaje</h2>
+    <div class="fields">
+      <div class="field"><label for="km1">Kilómetros recorridos</label><div class="inp"><input id="km1" inputmode="decimal" value="620" /><span class="u">km</span></div></div>
+      <div class="field"><label for="l1">Litros repostados (depósito lleno)</label><div class="inp"><input id="l1" inputmode="decimal" value="38,5" /><span class="u">l</span></div></div>
+      <div class="field"><label for="p1">Precio por litro</label><div class="inp"><input id="p1" inputmode="decimal" value="1,60" /><span class="u">€/l</span></div><span class="hint">Valores de ejemplo: cámbialos por los tuyos.</span></div>
+    </div>
+    <div class="res" aria-live="polite">
+      <div class="big"><span class="rl">Consumo medio</span><span class="rv" id="r-l100">—</span></div>
+      <div><span class="rl">Kilómetros por litro</span><span class="rv" id="r-kml">—</span></div>
+      <div><span class="rl">Coste por kilómetro</span><span class="rv" id="r-ckm">—</span></div>
+      <div><span class="rl">Coste a los 100 km</span><span class="rv" id="r-c100">—</span></div>
+    </div>
+  </form>
+  <form class="calc" id="f2" novalidate>
+    <h2>2. Coste de un viaje</h2>
+    <div class="fields">
+      <div class="field"><label for="dist">Distancia del trayecto</label><div class="inp"><input id="dist" inputmode="decimal" value="450" /><span class="u">km</span></div><label class="chk"><input type="checkbox" id="rt" /> Ida y vuelta</label></div>
+      <div class="field"><label for="cons">Consumo de tu coche</label><div class="inp"><input id="cons" inputmode="decimal" value="6,2" /><span class="u">l/100 km</span></div><span class="hint">Usa el resultado de la calculadora 1 o el de tu ordenador de a bordo.</span></div>
+      <div class="field"><label for="pv">Precio por litro</label><div class="inp"><input id="pv" inputmode="decimal" value="1,60" /><span class="u">€/l</span></div></div>
+      <div class="field"><label for="peaje">Peajes y otros gastos</label><div class="inp"><input id="peaje" inputmode="decimal" value="0" /><span class="u">€</span></div></div>
+      <div class="field"><label for="pers">Personas que se reparten el gasto</label><div class="inp"><input id="pers" inputmode="numeric" value="1" /><span class="u">pers.</span></div></div>
+    </div>
+    <div class="res" aria-live="polite">
+      <div class="big"><span class="rl">Coste total del viaje</span><span class="rv" id="v-total">—</span></div>
+      <div><span class="rl">Litros necesarios</span><span class="rv" id="v-l">—</span></div>
+      <div><span class="rl">Combustible</span><span class="rv" id="v-comb">—</span></div>
+      <div><span class="rl">Por persona</span><span class="rv" id="v-pp">—</span></div>
+    </div>
+  </form>
+  <Fragment slot="info">
+    <h2>Cómo se calcula</h2>
+    <p>La calculadora usa fórmulas sencillas. El consumo en litros a los 100 kilómetros es <strong>litros ÷ kilómetros × 100</strong>. Los kilómetros por litro son la inversa (<strong>kilómetros ÷ litros</strong>) y el coste por kilómetro es <strong>litros × precio ÷ kilómetros</strong>. Para un viaje, los litros necesarios son <strong>distancia × consumo ÷ 100</strong> y el coste es esa cifra multiplicada por el precio del litro, más peajes y otros gastos.</p>
+    <h2>Consejos para medir bien el consumo</h2>
+    <ul>
+      <li>Reposta siempre en el mismo surtidor y llena hasta que salte la pistola la primera vez, sin forzar.</li>
+      <li>Mide con varios depósitos seguidos y haz la media: un solo dato puede engañar.</li>
+      <li>Aparca en llano al repostar, para que el depósito se llene igual cada vez.</li>
+      <li>Anota si el recorrido fue urbano, carretera o mixto, porque cambia mucho el resultado.</li>
+    </ul>
+    <h2>Qué hacer si tu consumo es más alto de lo esperado</h2>
+    <p>Antes de pensar en una avería, comprueba lo más sencillo: neumáticos con poca presión, baca o cofre vacío puestos, peso extra en el maletero, aire acondicionado siempre encendido o conducción con muchos acelerones. Si todo eso está bien y el consumo sigue elevado, puede haber un problema de mezcla o de sensores: la lectura de códigos con un escáner OBD2 es el primer paso.</p>
+  </Fragment>
+  <script slot="script" is:inline>
+    (function () {
+      var C = window.C;
+      C.bind('f1', function () {
+        var km = C.n('km1'), l = C.n('l1'), p = C.n('p1');
+        var ok = km > 0 && l > 0;
+        C.set('r-l100', ok ? C.fmt(l / km * 100, 2) + ' l/100 km' : '—');
+        C.set('r-kml', ok ? C.fmt(km / l, 2) + ' km/l' : '—');
+        C.set('r-ckm', ok && p >= 0 ? C.eur(l * p / km, 3) : '—');
+        C.set('r-c100', ok && p >= 0 ? C.eur(l * p / km * 100, 2) : '—');
+      });
+      C.bind('f2', function () {
+        var d = C.n('dist') * (document.getElementById('rt').checked ? 2 : 1), c = C.n('cons'), p = C.n('pv'), x = C.n('peaje') || 0, n = C.n('pers') || 1;
+        var ok = d > 0 && c > 0 && p >= 0;
+        var lit = d * c / 100, comb = lit * p, tot = comb + x;
+        C.set('v-l', ok ? C.fmt(lit, 1) + ' l' : '—');
+        C.set('v-comb', ok ? C.eur(comb) : '—');
+        C.set('v-total', ok ? C.eur(tot) : '—');
+        C.set('v-pp', ok && n > 0 ? C.eur(tot / n) : '—');
+      });
+    })();
+  </script>
+</CalcLayout>

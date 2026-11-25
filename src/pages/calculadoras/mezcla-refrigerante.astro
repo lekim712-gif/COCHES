@@ -1,0 +1,57 @@
+---
+import CalcLayout from '../../layouts/CalcLayout.astro';
+const faq: [string, string][] = [
+  ['¿Qué proporción de anticongelante debo usar?', 'La que indique el fabricante del coche o del producto. Es habitual una mezcla en torno al 50 % con agua, pero depende del refrigerante y del clima. No uses menos del mínimo que indique el fabricante, porque el protector anticorrosión también está en el producto.'],
+  ['¿Qué agua debo usar?', 'Agua destilada o desmineralizada. El agua del grifo contiene sales y cal que, con el tiempo, forman depósitos y pueden dañar el circuito.'],
+  ['¿Puedo mezclar refrigerantes de distinto color?', 'No te fíes del color: lo importante es la especificación y la tecnología del producto. En caso de duda, usa el que recomienda el manual o vacía y rellena el circuito completo. Consulta nuestra guía sobre tipos y colores.'],
+  ['¿Cuánto refrigerante lleva un coche?', 'Depende del motor. El dato exacto aparece en el manual del propietario. Esta calculadora solo reparte esa cantidad entre concentrado y agua.'],
+];
+---
+<CalcLayout path="/calculadoras/mezcla-refrigerante/" title="Calculadora de mezcla de anticongelante y agua para el coche" description="Calcula cuántos litros de anticongelante concentrado y de agua destilada necesitas para preparar la mezcla de refrigerante de tu coche." h1="Calculadora de mezcla de refrigerante" lead="Indica cuántos litros necesita tu circuito y qué porcentaje de anticongelante quieres: te decimos cuánto concentrado y cuánta agua tienes que mezclar." faq={faq} related={[['Guía: tipos y colores del refrigerante', '/mantenimiento-guias/guia-liquido-refrigerante-tipos-colores/'], ['Guía: anticongelante', '/mantenimiento-guias/guia-anticongelante/'], ['Guía: comprobar el nivel de refrigerante', '/mantenimiento-guias/guia-comprobar-nivel-refrigerante/'], ['Testigo del nivel de refrigerante', '/testigos-tablero/testigo-nivel-refrigerante/']]}>
+  <form class="calc" id="fm" novalidate>
+    <h2>Prepara tu mezcla</h2>
+    <div class="fields">
+      <div class="field"><label for="cap">Cantidad total de mezcla que quieres preparar</label><div class="inp"><input id="cap" inputmode="decimal" value="6" /><span class="u">litros</span></div><span class="hint">Capacidad del circuito según el manual, o los litros que vayas a rellenar.</span></div>
+      <div class="field"><label for="pct">Porcentaje de anticongelante</label><div class="inp"><input id="pct" inputmode="decimal" value="50" /><span class="u">%</span></div><span class="hint">Usa el que indique el fabricante del coche o del producto.</span></div>
+    </div>
+    <div class="res" aria-live="polite">
+      <div><span class="rl">Anticongelante concentrado</span><span class="rv" id="m-a">—</span></div>
+      <div><span class="rl">Agua destilada</span><span class="rv" id="m-w">—</span></div>
+      <div><span class="rl">Total</span><span class="rv" id="m-t">—</span></div>
+    </div>
+    <p class="warn" id="m-warn" hidden></p>
+  </form>
+  <Fragment slot="info">
+    <h2>Cómo se calcula</h2>
+    <p>Es un reparto proporcional: los litros de concentrado son la cantidad total multiplicada por el porcentaje elegido, y el resto es agua destilada. Por ejemplo, para 6 litros al 50 %, necesitas 3 litros de anticongelante y 3 litros de agua.</p>
+    <h2>Protección contra la congelación (orientativa)</h2>
+    <p>La protección real depende del producto y de su base química. Esta tabla muestra valores aproximados de referencia para anticongelantes de base glicol; la ficha de tu producto tiene la cifra exacta.</p>
+    <table><thead><tr><th>Anticongelante en la mezcla</th><th>Protección aproximada</th></tr></thead><tbody>
+      <tr><td>30 %</td><td>hasta unos −15 °C</td></tr>
+      <tr><td>40 %</td><td>hasta unos −25 °C</td></tr>
+      <tr><td>50 %</td><td>hasta unos −35 °C</td></tr>
+      <tr><td>60 %</td><td>hasta unos −50 °C</td></tr>
+    </tbody></table>
+    <h2>Precauciones al manipular refrigerante</h2>
+    <ul>
+      <li>No abras el tapón del circuito con el motor caliente: el sistema está a presión y puede escaldarte.</li>
+      <li>El anticongelante es tóxico: guárdalo con el envase cerrado, lejos de niños y animales.</li>
+      <li>No lo viertas por el desagüe ni al suelo: llévalo a un punto limpio o al taller.</li>
+      <li>Si el nivel baja con frecuencia, hay una fuga: revísala antes de seguir rellenando.</li>
+    </ul>
+  </Fragment>
+  <script slot="script" is:inline>
+    (function () {
+      var C = window.C;
+      C.bind('fm', function () {
+        var cap = C.n('cap'), pct = C.n('pct'), w = document.getElementById('m-warn');
+        w.hidden = true;
+        if (!(cap > 0) || !(pct >= 0 && pct <= 100)) { C.set('m-a', '—'); C.set('m-w', '—'); C.set('m-t', '—'); return; }
+        var a = cap * pct / 100;
+        C.set('m-a', C.fmt(a, 2) + ' l'); C.set('m-w', C.fmt(cap - a, 2) + ' l'); C.set('m-t', C.fmt(cap, 2) + ' l');
+        if (pct < 30) { w.hidden = false; w.textContent = 'Con menos de un 30 % de anticongelante la protección anticorrosión y anticongelante suele ser insuficiente. Comprueba qué porcentaje indica el fabricante.'; }
+        else if (pct > 60) { w.hidden = false; w.textContent = 'Por encima del 60 % el refrigerante enfría peor y no mejora la protección. Usa el porcentaje que indique el fabricante.'; }
+      });
+    })();
+  </script>
+</CalcLayout>
