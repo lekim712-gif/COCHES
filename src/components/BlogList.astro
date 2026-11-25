@@ -1,4 +1,5 @@
 ---
+import Card from './Card.astro';
 import Base from '../layouts/Base.astro';
 import { urlOf, type Article } from '../lib/articles';
 const { items, page, pages } = Astro.props as { items: Article[]; page: number; pages: number };
@@ -8,10 +9,10 @@ const title = page === 1 ? 'Blog del coche: comparativas, consejos y guías' : `
 const desc = 'Blog del coche: comparativas, guías de compra, consejos de uso y mantenimiento explicados con claridad para propietarios y futuros compradores.';
 ---
 <Base title={title} description={desc}>
-  <div class="wrap">
+  <div class="wrap wide">
     <h1>Blog del coche</h1>
     <p class="lead">Comparativas, guías de compra y consejos para sacar partido a tu coche, sin rodeos y con cifras orientativas.</p>
-    <ul class="cards">{items.map((a) => <li><a href={urlOf(a)}><span class="code ttl">{a.data.name}</span><span>{a.data.seo.meta_description}</span><span class="meta">{fmt(a.data.datePublished)}</span></a></li>)}</ul>
+    <div class="grid">{items.map((a) => <Card a={a} />)}</div>
     {pages > 1 && <nav class="pager" aria-label="Paginación del blog">
       {page > 1 && <a href={href(page - 1)} rel="prev">← Anteriores</a>}
       <span>Página {page} de {pages}</span>

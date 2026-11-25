@@ -184,3 +184,5 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - 24/11: +4 fichas (P0501, P0521, P0524, guía datos congelados freeze frame) y +2 blog (mild hybrid, sensores de aparcamiento y cámara); mejora en profundidad de testigos motor, ESP, airbag, pastillas de freno, dirección asistida y emisiones. 321 artículos.
 
 - 25/11: +4 fichas (U0001, U0101, U0140, guía red CAN bus) y +2 blog (gasolina 95/98/E10, calefacción y A/C eficiente); mejora en profundidad de testigos precalentamiento, turbo, inmovilizador y guías cambio de aceite, coche no arranca, cambiar batería. 327 artículos.
+
+- 25/11: rediseño visual: logo nuevo (cuentarrevoluciones), portada con hero, buscador y chips, tarjetas con imagen (blog, testigos, guías), bloques de enlaces internos en la home (blog, códigos recientes, testigos, guías), bloque de confianza del revisor.

@@ -1,37 +1,85 @@
 ---
 import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
 import { allArticles, byType, urlOf } from '../lib/articles';
 import { SITE } from '../config';
 const all = await allArticles();
 const recientes = (l) => [...l].sort((a, b) => b.data.datePublished.localeCompare(a.data.datePublished) || a.data.seo.slug.localeCompare(b.data.seo.slug));
-const codes = recientes(byType(all, 'codigo')).slice(0, 12), testigos = byType(all, 'testigo'), guias = byType(all, 'guia').slice(0, 6);
-const site = Astro.site!;
+const codigos = byType(all, 'codigo'), testigos = byType(all, 'testigo'), guias = byType(all, 'guia'), blog = byType(all, 'blog');
+const find = (t, slug) => all.find((a) => a.data.type === t && a.data.seo.slug === slug);
+const chipsCod = ['p0420', 'p0300', 'p0171', 'p0101', 'p0335', 'p0087', 'p0401'].map((s) => find('codigo', s)).filter(Boolean);
+const chipsTes = [['testigo-motor', 'Testigo de motor'], ['testigo-bateria', 'Batería'], ['testigo-presion-aceite', 'Presión de aceite'], ['testigo-abs', 'ABS'], ['testigo-filtro-particulas', 'Filtro de partículas'], ['testigo-epc', 'EPC']].map(([s, l]) => [find('testigo', s), l]).filter(([a]) => a);
+const nuevasBlog = recientes(blog).slice(0, 6), nuevosCodigos = recientes(codigos).slice(0, 6);
+const guiasTop = ['guia-coche-no-arranca', 'guia-bateria-se-descarga-sola', 'guia-cambio-aceite', 'guia-coche-pierde-potencia', 'guia-motor-recalentado', 'guia-como-usar-escaner-obd2'].map((s) => find('guia', s)).filter(Boolean);
+const total = all.length;
+const tiles = [
+  { h: '/codigos/', t: 'Códigos OBD2', n: `${codigos.length} códigos`, d: 'Significado, causas y cómo comprobarlos.', i: 'chip' },
+  { h: '/testigos-tablero/', t: 'Testigos del tablero', n: `${testigos.length} testigos`, d: 'Qué indica cada luz y qué hacer.', i: 'light' },
+  { h: '/mantenimiento-guias/', t: 'Mantenimiento', n: `${guias.length} guías`, d: 'Paso a paso, con seguridad.', i: 'wrench' },
+  { h: '/blog/', t: 'Blog del coche', n: `${blog.length} entradas`, d: 'Comparativas y consejos útiles.', i: 'book' },
+];
+const icon = {
+  chip: '<rect x="14" y="14" width="20" height="20" rx="3"/><path d="M19 14v-5M24 14v-5M29 14v-5M19 39v-5M24 39v-5M29 39v-5M14 19H9M14 24H9M14 29H9M39 19h-5M39 24h-5M39 29h-5"/><path d="M20 24l3 3 6-7"/>',
+  light: '<path d="M10 28a14 14 0 0 1 28 0"/><path d="M24 28l7-9"/><circle cx="24" cy="28" r="2"/><path d="M13 36h22"/>',
+  wrench: '<path d="M32 10a8 8 0 0 0-9 11L10 34l4 4 13-13a8 8 0 0 0 11-9l-5 5-5-1-1-5z"/>',
+  book: '<path d="M10 12h13a4 4 0 0 1 4 4v22a3 3 0 0 0-3-3H10z"/><path d="M38 12H27a4 4 0 0 0-4 4v22a3 3 0 0 1 3-3h12z"/>',
+};
 ---
 <Base title="Códigos de avería OBD2: significado, causas y solución" description="Diagnóstico de códigos OBD2, testigos del tablero y mantenimiento preventivo: fichas técnicas claras con síntomas, causas y pasos de reparación.">
-  <section class="hero">
-    <div class="wrap">
-      <h1>Códigos de avería OBD2: significado, causas y solución</h1>
-      <p class="lead">Fichas técnicas de diagnóstico claras: qué significa el código, qué lo causa, cuánto cuesta repararlo y cómo comprobarlo paso a paso.</p>
-      <form class="search" role="search" action="/codigos/" method="get">
-        <label for="q">Busca tu código de avería</label>
-        <div class="row"><input id="q" name="q" type="search" placeholder="Ej. P0420" autocomplete="off" /><button type="submit">Buscar</button></div>
-      </form>
+  <section class="hero hero-home">
+    <div class="wrap wide hero-grid">
+      <div>
+        <p class="eyebrow">{total} guías de diagnóstico · revisadas por un mecánico</p>
+        <h1>Códigos de avería OBD2: significado, causas y solución</h1>
+        <p class="lead">Escribe el código que te da el escáner o mira el testigo que se ha encendido: te explicamos qué significa, qué lo causa, cuánto cuesta repararlo y cómo comprobarlo paso a paso.</p>
+        <form class="search" role="search" action="/codigos/" method="get">
+          <label for="q">Busca tu código de avería</label>
+          <div class="row"><input id="q" name="q" type="search" placeholder="Ej. P0420" autocomplete="off" /><button type="submit">Buscar</button></div>
+        </form>
+        <div class="chips" aria-label="Códigos y testigos más buscados">
+          <span class="chips-l">Más buscado</span>
+          {chipsTes.map(([a, l]) => <a class="chip" href={urlOf(a)}>{l}</a>)}
+          {chipsCod.map((a) => <a class="chip chip-code" href={urlOf(a)}>{a.data.code}</a>)}
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 320 200" width="100%" role="presentation" focusable="false">
+          <rect x="4" y="4" width="312" height="192" rx="18" fill="#0f131a" stroke="#2c3340" stroke-width="2"/>
+          <path d="M58 150a102 102 0 0 1 204 0" fill="none" stroke="#2c3340" stroke-width="14" stroke-linecap="round"/>
+          <path d="M58 150a102 102 0 0 1 150-90" fill="none" stroke="#f5a524" stroke-width="14" stroke-linecap="round"/>
+          <path d="M160 150l62-58" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="160" cy="150" r="10" fill="#f5a524"/>
+          <g fill="#f5a524"><rect x="36" y="168" width="34" height="14" rx="4"/><rect x="84" y="168" width="34" height="14" rx="4" opacity=".5"/><rect x="132" y="168" width="34" height="14" rx="4" opacity=".3"/></g>
+          <text x="216" y="182" fill="#9aa2b0" font-family="ui-monospace,Menlo,monospace" font-size="13">P0420</text>
+        </svg>
+      </div>
     </div>
   </section>
-  <div class="wrap home">
+  <div class="wrap wide home">
+    <ul class="tiles">{tiles.map((t) => <li><a href={t.h}><svg viewBox="0 0 48 48" width="44" height="44" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" set:html={icon[t.i]} /><span class="tile-t">{t.t}</span><span class="tile-n">{t.n}</span><span class="tile-d">{t.d}</span></a></li>)}</ul>
+
     <section>
-      <h2>Códigos de avería</h2>
-      <ul class="cards">{codes.map((a) => <li><a href={urlOf(a)}><span class="code">{a.data.code}</span><span>{a.data.name}</span></a></li>)}</ul>
-      <p><a href="/codigos/">Ver todos los códigos →</a></p>
+      <div class="sec-h"><h2>Últimas entradas del blog</h2><a href="/blog/">Ver todo el blog →</a></div>
+      <div class="grid">{nuevasBlog.map((a) => <Card a={a} />)}</div>
     </section>
     <section>
-      <h2>Testigos del tablero</h2>
-      <ul class="cards">{testigos.map((a) => <li><a href={urlOf(a)}><span class="code">{a.data.name.split(':')[0]}</span><span>{a.data.seo.meta_description}</span></a></li>)}</ul>
+      <div class="sec-h"><h2>Códigos de avería recientes</h2><a href="/codigos/">Ver todos los códigos →</a></div>
+      <div class="grid">{nuevosCodigos.map((a) => <Card a={a} />)}</div>
     </section>
     <section>
-      <h2>Mantenimiento paso a paso</h2>
-      <ul class="cards">{guias.map((a) => <li><a href={urlOf(a)}><span class="code">{a.data.name}</span><span>{a.data.seo.meta_description}</span></a></li>)}</ul>
+      <div class="sec-h"><h2>Testigos del tablero</h2><a href="/testigos-tablero/">Ver todos los testigos →</a></div>
+      <div class="grid">{testigos.slice(0, 6).map((a) => <Card a={a} />)}</div>
     </section>
+    <section>
+      <div class="sec-h"><h2>Guías de mantenimiento más útiles</h2><a href="/mantenimiento-guias/">Ver todas las guías →</a></div>
+      <div class="grid">{guiasTop.map((a) => <Card a={a} />)}</div>
+    </section>
+
+    {SITE.reviewer.name && <section class="trust">
+      <div><h2>Revisado por un mecánico</h2>
+      <p>Cada ficha pasa por la revisión técnica de <a href="/autores/revisor-tecnico/">{SITE.reviewer.name}</a>{SITE.reviewer.years > 0 && <>, mecánico con {SITE.reviewer.years} años de experiencia</>}. Redactamos con ayuda de inteligencia artificial y lo decimos claramente: <a href="/metodologia/">así elaboramos las fichas</a>.</p></div>
+      <ul><li>Causas ordenadas de la más a la menos habitual</li><li>Pruebas seguras antes de cambiar piezas</li><li>Avisos de seguridad y cuándo ir al taller</li></ul>
+    </section>}
+
     <section class="how">
       <h2>Qué es un código OBD2 y cómo leerlo</h2>
       <p>OBD2 es el estándar de diagnóstico que llevan los coches de gasolina desde 2001 y los diésel desde 2004 en la UE. La centralita guarda un código de cinco caracteres cuando detecta un fallo: la primera letra indica el sistema (<strong>P</strong> motor y transmisión, <strong>B</strong> carrocería, <strong>C</strong> chasis, <strong>U</strong> red de comunicaciones), el primer dígito indica si el código es genérico (0) o del fabricante (1), y el resto identifica el fallo concreto.</p>

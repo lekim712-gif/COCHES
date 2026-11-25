@@ -1,12 +1,13 @@
 ---
+import Card from '../../components/Card.astro';
 import Base from '../../layouts/Base.astro';
 import { allArticles, byType, urlOf } from '../../lib/articles';
 const list = byType(await allArticles(), 'testigo');
 ---
 <Base title="Testigos del tablero del coche" description="Qué significa cada testigo del cuadro de instrumentos, qué color indica qué gravedad y qué hacer cuando se enciende en tu coche.">
-  <div class="wrap">
+  <div class="wrap wide">
     <h1>Testigos del tablero</h1>
     <p class="lead">Qué significa cada testigo del cuadro de mandos, qué indica su color y cómo actuar cuando se enciende.</p>
-    <ul class="cards">{list.map((a) => <li><a href={urlOf(a)}><span class="code ttl">{a.data.name}</span><span>{a.data.seo.meta_description}</span></a></li>)}</ul>
+    <div class="grid">{list.map((a) => <Card a={a} />)}</div>
   </div>
 </Base>

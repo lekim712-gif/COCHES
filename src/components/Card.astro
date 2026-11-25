@@ -1,0 +1,17 @@
+---
+import { urlOf, type Article } from '../lib/articles';
+const { a, variant = 'media' } = Astro.props as { a: Article; variant?: 'media' | 'text' };
+const d = a.data;
+const tags: Record<string, string> = { codigo: 'Código OBD2', testigo: 'Testigo', guia: 'Guía', blog: 'Blog', marca: 'Por marca' };
+const isCode = d.type === 'codigo' || d.type === 'marca';
+const title = d.type === 'testigo' ? d.name.replace(/:.*$/, '') : d.name;
+const img = d.featured_image;
+---
+<a class={`card card-${variant}`} href={urlOf(a)}>
+  {variant === 'media' && img && <img class="card-img" src={img} width="1200" height="630" loading="lazy" decoding="async" alt="" />}
+  <span class="card-body">
+    <span class="card-tag">{isCode && d.code ? d.code : tags[d.type]}</span>
+    <span class="card-title">{title}</span>
+    {variant === 'media' && <span class="card-desc">{d.seo.meta_description}</span>}
+  </span>
+</a>
