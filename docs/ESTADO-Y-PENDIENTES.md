@@ -192,3 +192,5 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - 25/11: 13 páginas por familia de códigos (/codigos/sistema/...), índice de familias y página /lista-codigos-obd2/ (rangos y lista de fichas). Enlace «Más sobre este sistema» en cada ficha de código.
 
 - 25/11: asistente de averías (/asistente-de-averias/): árbol de síntomas con causas, urgencia y enlaces a fichas. Corregido bug de CSS que colapsaba la cabecera (clase .bar compartida con las calculadoras; ahora .meter); menú móvil con scroll horizontal.
+
+- 25/11: análisis de competidor (sitemap público): su fuerte son guías de piezas y síntomas. Temas en content-plan/backlog.json (`_ideas_competencia_25_11`); la rutina diaria los toma de ahí. Semrush sin unidades de API.

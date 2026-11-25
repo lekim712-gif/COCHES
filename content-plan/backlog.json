@@ -1,120 +1,144 @@
 {
- "_nota": "Prioridad = criterio editorial (códigos frecuentes y de intención clara), NO volumen medido: sustituir por datos de Search Console cuando existan. Decisiones SEO: (1) una sola ficha por familia casi idéntica (fallos de encendido por cilindro, banco 2 de mezcla) para evitar contenido fino; (2) las fichas por marca NO se automatizan: exigen particularidades reales verificadas y se hacen a mano; (3) sin guías de seguridad crítica (frenos, airbag); los testigos de seguridad listados en requieren_revision_humana no se indexan hasta que los revise una persona; el resto de fichas se indexa como «pendiente de revisión técnica». Formato: [código|slug, título, nota opcional].",
- "hecho": [
-  "P0016",
-  "P0087",
-  "P0089",
-  "P0100",
-  "P0101",
-  "P0102",
-  "P0103",
-  "P0104",
-  "P0105",
-  "P0106",
-  "P0113",
-  "P0115",
-  "P0116",
-  "P0120",
-  "P0130",
-  "P0131",
-  "P0133",
-  "P0134",
-  "P0135",
-  "P0141",
-  "P0170",
-  "P0171",
-  "P0172",
-  "P0190",
-  "P0193",
-  "P0201",
-  "P0230",
-  "P0234",
-  "P0235",
-  "P0236",
-  "P0238",
-  "P0243",
-  "P0299",
-  "P0300",
-  "P0301",
-  "P0322",
-  "P0325",
-  "P0335",
-  "P0340",
-  "P0341",
-  "P0400",
-  "P0401",
-  "P0402",
-  "P0403",
-  "P0420",
-  "P0421",
-  "P0441",
-  "P0442",
-  "P0443",
-  "P0446",
-  "P0455",
-  "P0456",
-  "P0500",
-  "P0505",
-  "P0506",
-  "P0507",
-  "P0562",
-  "P0571",
-  "P0600",
-  "P0606",
-  "P0638",
-  "P0730",
-  "P2002",
-  "P2263",
-  "P2279",
-  "U0100",
-  "U0121",
-  "U0155"
- ],
- "codigos": [
-  [
-   "P0183",
-   "Sensor de temperatura del combustible: señal alta"
+  "_nota": "Prioridad = criterio editorial (códigos frecuentes y de intención clara), NO volumen medido: sustituir por datos de Search Console cuando existan. Decisiones SEO: (1) una sola ficha por familia casi idéntica (fallos de encendido por cilindro, banco 2 de mezcla) para evitar contenido fino; (2) las fichas por marca NO se automatizan: exigen particularidades reales verificadas y se hacen a mano; (3) sin guías de seguridad crítica (frenos, airbag); los testigos de seguridad listados en requieren_revision_humana no se indexan hasta que los revise una persona; el resto de fichas se indexa como «pendiente de revisión técnica». Formato: [código|slug, título, nota opcional].",
+  "hecho": [
+    "P0016",
+    "P0087",
+    "P0089",
+    "P0100",
+    "P0101",
+    "P0102",
+    "P0103",
+    "P0104",
+    "P0105",
+    "P0106",
+    "P0113",
+    "P0115",
+    "P0116",
+    "P0120",
+    "P0130",
+    "P0131",
+    "P0133",
+    "P0134",
+    "P0135",
+    "P0141",
+    "P0170",
+    "P0171",
+    "P0172",
+    "P0190",
+    "P0193",
+    "P0201",
+    "P0230",
+    "P0234",
+    "P0235",
+    "P0236",
+    "P0238",
+    "P0243",
+    "P0299",
+    "P0300",
+    "P0301",
+    "P0322",
+    "P0325",
+    "P0335",
+    "P0340",
+    "P0341",
+    "P0400",
+    "P0401",
+    "P0402",
+    "P0403",
+    "P0420",
+    "P0421",
+    "P0441",
+    "P0442",
+    "P0443",
+    "P0446",
+    "P0455",
+    "P0456",
+    "P0500",
+    "P0505",
+    "P0506",
+    "P0507",
+    "P0562",
+    "P0571",
+    "P0600",
+    "P0606",
+    "P0638",
+    "P0730",
+    "P2002",
+    "P2263",
+    "P2279",
+    "U0100",
+    "U0121",
+    "U0155"
   ],
-  [
-   "P0110",
-   "Circuito del sensor de temperatura del aire de admisión"
+  "codigos": [
+    [
+      "P0183",
+      "Sensor de temperatura del combustible: señal alta"
+    ],
+    [
+      "P0110",
+      "Circuito del sensor de temperatura del aire de admisión"
+    ],
+    [
+      "P0237",
+      "Sensor de presión de sobrealimentación A: señal baja"
+    ],
+    [
+      "P0405",
+      "Sensor de recirculación EGR: señal baja"
+    ],
+    [
+      "P0715",
+      "Circuito del sensor de velocidad de entrada de la transmisión"
+    ],
+    [
+      "P20EE",
+      "Eficiencia del catalizador SCR (NOx)"
+    ],
+    [
+      "P0700",
+      "Fallo del sistema de control de la transmisión"
+    ],
+    [
+      "C0035",
+      "Circuito del sensor de velocidad de rueda delantera izquierda"
+    ]
   ],
-  [
-   "P0237",
-   "Sensor de presión de sobrealimentación A: señal baja"
+  "testigos": [],
+  "guias": [],
+  "_semrush": "Reordenado el 13/10/2026 con Semrush (ES): volúmenes en content-plan/semrush/volumenes-codigos.json. Orden = volumen exacto del código, luego volumen de familia. Códigos P0302–P0306 siguen cubiertos por la ficha P0301. Competidor c3carecarcenter.com: tráfico ES casi nulo (175), no es referencia.",
+  "_mexico": "Semrush MX: p0420=6.600/mes (ES: 590); p0420 nissan 3.600, p0420 chevrolet 1.300, p0420 ford 720. Oportunidad LatAm mayor que ES: fichas de código+marca (P0420 Nissan, Chevrolet, Ford...) con vocabulario neutro (coche/auto/carro). Decidir con datos de Search Console. Semrush MX obd2: \"scanner/escaner automotriz\" 8.100, \"escaner obd2\" 2.900, \"conector/puerto obd2\" 1.000/720, \"escaner para carros\" 1.600: demanda comercial alta -> guías de escáner (mejor escáner OBD2, ubicación del puerto OBD2 por marca, pinout). Afiliación Amazon MX requiere programa propio (amazon.com.mx).",
+  "_ideas_guias": "Hechas hasta el 31/10: ver ficheros. Nuevas hoy: comprobar alternador, multímetro, códigos pendientes/permanentes, mal olor del aire acondicionado. Siguientes ideas (solo si hay demanda en Search Console): limpieza de admisión, aditivos, cuidados de coche parado, humedad interior/vaho, cómo aparcar en pendiente.",
+  "hecho_testigos_seguridad": [
+    "testigo-abs",
+    "testigo-freno",
+    "testigo-airbag",
+    "testigo-direccion-asistida"
   ],
-  [
-   "P0405",
-   "Sensor de recirculación EGR: señal baja"
-  ],
-  [
-   "P0715",
-   "Circuito del sensor de velocidad de entrada de la transmisión"
-  ],
-  [
-   "P20EE",
-   "Eficiencia del catalizador SCR (NOx)"
-  ],
-  [
-   "P0700",
-   "Fallo del sistema de control de la transmisión"
-  ],
-  [
-   "C0035",
-   "Circuito del sensor de velocidad de rueda delantera izquierda"
-  ]
- ],
- "testigos": [],
- "guias": [],
- "_semrush": "Reordenado el 13/10/2026 con Semrush (ES): volúmenes en content-plan/semrush/volumenes-codigos.json. Orden = volumen exacto del código, luego volumen de familia. Códigos P0302–P0306 siguen cubiertos por la ficha P0301. Competidor c3carecarcenter.com: tráfico ES casi nulo (175), no es referencia.",
- "_mexico": "Semrush MX: p0420=6.600/mes (ES: 590); p0420 nissan 3.600, p0420 chevrolet 1.300, p0420 ford 720. Oportunidad LatAm mayor que ES: fichas de código+marca (P0420 Nissan, Chevrolet, Ford...) con vocabulario neutro (coche/auto/carro). Decidir con datos de Search Console. Semrush MX obd2: \"scanner/escaner automotriz\" 8.100, \"escaner obd2\" 2.900, \"conector/puerto obd2\" 1.000/720, \"escaner para carros\" 1.600: demanda comercial alta -> guías de escáner (mejor escáner OBD2, ubicación del puerto OBD2 por marca, pinout). Afiliación Amazon MX requiere programa propio (amazon.com.mx).",
- "_ideas_guias": "Hechas hasta el 31/10: ver ficheros. Nuevas hoy: comprobar alternador, multímetro, códigos pendientes/permanentes, mal olor del aire acondicionado. Siguientes ideas (solo si hay demanda en Search Console): limpieza de admisión, aditivos, cuidados de coche parado, humedad interior/vaho, cómo aparcar en pendiente.",
- "hecho_testigos_seguridad": [
-  "testigo-abs",
-  "testigo-freno",
-  "testigo-airbag",
-  "testigo-direccion-asistida"
- ],
- "_ideas_competencia": "Ideas sacadas del análisis de la competencia (03/11/2026, highmotor, motor1, sensorautomotriz, búsquedas): testigos pendientes: nivel de líquido limpiaparabrisas, detector de ángulo muerto, alerta de cambio de carril, reconocimiento de señales, start-stop, luces automáticas, modo GLP/GNC, fallo del catalizador, temperatura de aceite, hold/AUTO HOLD, ESP OFF, control de crucero, sensor de lluvia, fallo del cambio, caja DSG, testigo del turbo, bujías incandescentes, filtro de combustible con agua, nivel de refrigerante. Códigos por familia con demanda: P0191, P0132, P0138, P0137, P0174, P0069, P0605, P0607, P0601, P0603, P0352, P0220, P0221.",
- "_guias_a_profundizar": "COMPLETADO 03/11/2026: todas las fichas (códigos, testigos, guías y marcas) ampliadas a 900-1.400 palabras. Nuevo estándar: toda ficha nueva debe cumplirlo (usa scratchpad/deep/lib.mjs y INSTRUCCIONES.md)."
+  "_ideas_competencia": "Ideas sacadas del análisis de la competencia (03/11/2026, highmotor, motor1, sensorautomotriz, búsquedas): testigos pendientes: nivel de líquido limpiaparabrisas, detector de ángulo muerto, alerta de cambio de carril, reconocimiento de señales, start-stop, luces automáticas, modo GLP/GNC, fallo del catalizador, temperatura de aceite, hold/AUTO HOLD, ESP OFF, control de crucero, sensor de lluvia, fallo del cambio, caja DSG, testigo del turbo, bujías incandescentes, filtro de combustible con agua, nivel de refrigerante. Códigos por familia con demanda: P0191, P0132, P0138, P0137, P0174, P0069, P0605, P0607, P0601, P0603, P0352, P0220, P0221. || ACTUALIZACIÓN 25/11/2026: ver `_ideas_competencia_25_11` (prioridad alta: guías «síntomas de [pieza]»).",
+  "_guias_a_profundizar": "COMPLETADO 03/11/2026: todas las fichas (códigos, testigos, guías y marcas) ampliadas a 900-1.400 palabras. Nuevo estándar: toda ficha nueva debe cumplirlo (usa scratchpad/deep/lib.mjs y INSTRUCCIONES.md).",
+  "_ideas_competencia_25_11": {
+    "fecha": "25/11/2026",
+    "fuente": "Análisis del sitemap público de un competidor (solo temas, nunca textos). Semrush sin unidades de API ese día.",
+    "hallazgo": "La competencia cubre sobre todo PIEZAS y SÍNTOMAS («síntomas de X averiado», «X no funciona», «ruido en Y»), no tanto códigos. Es un tipo de búsqueda de mucho volumen que nosotros apenas cubrimos. Prioridad: guías «síntomas de [pieza]» con causas, pruebas, coste y cuándo ir al taller; enlazar a nuestras fichas de códigos y testigos relacionados.",
+    "temas_prioritarios": [
+      "Turbo: síntomas de turbo roto; el turbo silba; turbo tarda en entrar; turbo pierde aceite; actuador del turbo; geometría variable agarrotada; fuga en manguito del turbo; intercooler averiado",
+      "Embrague y volante bimasa: embrague patina; embrague agarra alto o bajo; pedal de embrague duro; volante bimasa averiado; el coche vibra al soltar el embrague; cómo alargar la vida del embrague",
+      "Caja de cambios: ruido en la caja; las marchas rascan o entran mal; valvulina (aceite de caja manual); caja automática da tirones",
+      "Motor: junta de culata quemada; motor gripado; el motor consume aceite pero no pierde; ruido de taqués; soportes de motor rotos; aceite en el refrigerante; aceite en las bujías; válvula PCV averiada; cuerpo de mariposa sucio; inyectores sucios",
+      "Refrigeración: bomba de agua averiada; radiador pierde agua; electroventilador no funciona; cómo purgar el circuito; burbujas en el vaso de expansión; el coche se calienta en atascos",
+      "Electricidad: alternador averiado síntomas; alternador o batería, cuál falla; motor de arranque averiado; bornes sulfatados; cierre centralizado, claxon y elevalunas que no funcionan; la alarma salta sola",
+      "Suspensión y dirección: rótula de dirección desgastada; silentblock; bieletas del estabilizador; rodamiento de rueda; ruido al girar el volante; alineación y equilibrado",
+      "Diésel: calentadores (síntomas); regeneración fallida del filtro de partículas; el motor entra en modo protección; el gasoil se congela; el diésel pierde fuerza en subidas; bomba de vacío averiada",
+      "Otros: ruido del tubo de escape; el coche no arranca en frío / hace clic; el coche pierde líquido de frenos o aceite; el coche gotea agua; neumáticos run-flat; kit antipinchazos; cadenas de nieve (cómo poner)"
+    ],
+    "paginas_utiles_nuevas": [
+      "Decodificador de VIN o bastidor (explicación de qué significa cada parte; sin servicios externos)",
+      "Glosario de mecánica del automóvil",
+      "Partes del coche (esquema ilustrado con enlaces a averías de cada pieza)",
+      "Test de averías (ya cubierto por el asistente de averías)",
+      "Plan de mantenimiento por kilómetros (existe guía: ampliar con tabla)"
+    ],
+    "regla": "Cada tema nuevo = una guía larga (1.300-1.800 palabras) con título «Síntomas de X: causas, pruebas y coste», árbol de decisión, ejemplo ilustrativo, FAQ y enlaces a códigos y testigos relacionados. No copiar textos de la competencia."
+  }
 }
