@@ -196,3 +196,5 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - 25/11: análisis de competidor (sitemap público): su fuerte son guías de piezas y síntomas. Temas en content-plan/backlog.json (`_ideas_competencia_25_11`); la rutina diaria los toma de ahí. Semrush sin unidades de API.
 
 - 26/11: +4 guías de piezas (síntomas de turbo averiado, volante bimasa, junta de culata quemada, bomba de agua) y +2 blog (hábitos que dañan el coche, alargar la vida de un diésel); mejora en profundidad de testigos start-stop, reserva, cinturón, freno de mano, ESP OFF y temperatura del aceite. 333 artículos.
+
+- 27/11: +4 guías de piezas (alternador, motor de arranque, rótulas de dirección, electroventilador) y +2 blog (tracción delantera/trasera/4x4, SUV o berlina); mejora en profundidad de testigos nivel de refrigerante, bombilla fundida, control de crucero, Auto Hold, GLP/GNC y agua en el combustible. 339 artículos.
