@@ -198,3 +198,5 @@ Las fichas nuevas se publican con `noindex` hasta que se marcan como revisadas.
 - 26/11: +4 guías de piezas (síntomas de turbo averiado, volante bimasa, junta de culata quemada, bomba de agua) y +2 blog (hábitos que dañan el coche, alargar la vida de un diésel); mejora en profundidad de testigos start-stop, reserva, cinturón, freno de mano, ESP OFF y temperatura del aceite. 333 artículos.
 
 - 27/11: +4 guías de piezas (alternador, motor de arranque, rótulas de dirección, electroventilador) y +2 blog (tracción delantera/trasera/4x4, SUV o berlina); mejora en profundidad de testigos nivel de refrigerante, bombilla fundida, control de crucero, Auto Hold, GLP/GNC y agua en el combustible. 339 artículos.
+
+- 28/11: +4 guías de piezas (rodamiento de rueda, bieletas y silentblocks, calentadores diésel, ruidos de la caja de cambios), +2 blog (reparar o cambiar coche viejo, frenada regenerativa) y mejora en profundidad de P0087 VAG, P0115, borrar códigos OBD2, P2002 PSA, P0401 Renault y P2263. 345 artículos.
